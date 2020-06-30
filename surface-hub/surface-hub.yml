@@ -1,0 +1,38 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Surface Hub
+metadata:
+  document_id: null
+  title: Surface Hub
+  description: 查找可帮助你安装、设置和管理组织中的 Surface Hub 的工具和资源。
+  keywords: Surface Hub，Windows 10
+  ms.localizationpriority: medium
+  author: lizap
+  ms.author: elizapo
+  manager: dougkim
+  ms.topic: article
+  ms.devlang: na
+sections:
+  - items:
+      - type: markdown
+        text: ' 查找可帮助你安装、设置和管理组织中的 Surface Hub 的工具和资源。  '
+  - title: 探索
+  - items:
+      - type: markdown
+        text: ' 发现这款一体式的高效率设备如何让团队能够更好地进行集体讨论、协作和分享想法。<br>  <img src=''images/getstarted.png''><br> <table><tr><td><a href=''https://www.microsoft.com/microsoft-surface-hub/product-specs#tech-specs''>浏览 Surface Hub 的主要功能和产品规范。</a><br><a href=''https://www.microsoft.com/microsoft-surface-hub/case-studies''>获取如何提高效率、改进协作的真实示例。</a></td><td><a href=''https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise''>Surface Hub 和 Windows 10 企业版之间的差异</a><br><a href=''https://www.microsoft.com/microsoft-surface-hub/faq''>Surface Hub 常见问题 "</a></td></tr> </table> '
+  - title: 规划
+  - items:
+      - type: markdown
+        text: ' 准备在组织中部署 Surface Hub。 探索站点准备、装配、配置以及 Exchange 和 ActiveSync 策略。 <br>  <table><tr><td><img src=''images/plan1.png'' width=''192'' height=''192''><br>**为 Surface Hub 做好准备**<br>探索设置 Surface Hub 需要执行的步骤。<br><a href=''https://docs.microsoft.com/surface-hub/surface-hub-site-readiness.guide''>Surface Hub 网站准备指南 </a> （PDF，1.48 MB）<br><a href=''https://docs.microsoft.com/surface-hub/surface-hub-downloads''>开箱指南</a></td><td><img src=''images/plan2.png'' width=''192'' height=''192''><br>**Surface Hub 的装配**<br>了解如何装配 Surface Hub。<br><a href=''https://download.microsoft.com/download/0/1/6/016363A4-8602-4F01-8281-9BE5C814DC78/Setup-Guide_EN-FR-SP.pdf''>Surface Hub 安装指南 </a> （PDF，1.43 MB）<br><a href=''https://docs.microsoft.com/surface-hub/surface-hub-downloads''>挂载和组装指南</a></td><td><img src=''images/plan3.png'' width=''192'' height=''192''><br>**准备你的环境**<br>了解设置依赖项和帐户要求。<br><a href=''https://docs.microsoft.com/surface-hub/prepare-your-environment-for-surface-hub''>准备你的环境</a><br><a href=''https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub''>创建和测试设备帐户</a></td></tr> </table> '
+  - title: 部署
+  - items:
+      - type: markdown
+        text: ' 获取 Surface Hub 的设置、应用管理和安装以及网络管理的信息。<br>  <table><tr><td><img src=''images/deploy1.png'' width=''192'' height=''192''><br>**设置 Surface Hub**<br>查看为使用全新体验来设置 Surface Hub 做准备所需的信息。<br><a href=''https://docs.microsoft.com/surface-hub/setup-worksheet-surface-hub''>设置工作表</a><br><a href=''https://docs.microsoft.com/surface-hub/first-run-program-surface-hub''>首次运行计划</a><br><a href=''https://docs.microsoft.com/surface-hub/appendix-a-powershell-scripts-for-surface-hub''>PowerShell 脚本</a></td><td><img src=''images/deploy2.png'' width=''192'' height=''192''><br>**安装应用**<br>用于在 Surface Hub 上安装和管理应用的选项。<br><a href=''https://docs.microsoft.com/surface-hub/install-apps-on-surface-hub''>安装应用</a><br><a href=''https://docs.microsoft.com/surface-hub/whiteboard-collaboration''>白板间协作</a><br><a href=''https://docs.microsoft.com/surface-hub/provisioning-packages-for-surface-hub''>创建设置包</a></td><td><img src=''images/deploy3.png'' width=''192'' height=''192''><br>**将 Surface Hub 联网**<br>Surface Hub 的网络方案。<br><a href=''https://docs.microsoft.com/surface-hub/wireless-network-management-for-surface-hub''>无线网络管理</a><br><a href=''https://docs.microsoft.com/surface-hub/use-room-control-system-with-surface-hub''>使用房间控制系统</a><br><a href=''https://docs.microsoft.com/surface-hub/connect-and-display-with-surface-hub''>将其他设备与 Surface Hub 连接。</a></td></tr> </table> '
+  - title: 管理
+  - items:
+      - type: markdown
+        text: ' 了解如何管理 Surface Hub 更新以及维护公司设备的安全和完整性。<br>  <table><tr><td><img src=''images/manage1.png'' width=''192'' height=''192''><br>**管理设备**<br>通过 Microsoft Operations Management Suite (OMS) 执行 Surface Hub 监视。<br><a href=''https://docs.microsoft.com/surface-hub/monitor-surface-hub''>监视 Surface Hub</a><br><a href=''https://docs.microsoft.com/surface-hub/accessibility-surface-hub''>辅助功能与 Surface Hub</a></td><td><img src=''images/manage2.png'' width=''192'' height=''192''><br>**管理帐户**<br>了解用于 Surface Hub 的帐户管理选项。<br><a href=''https://docs.microsoft.com/surface-hub/change-surface-hub-device-account''>更改 Surface Hub 设备帐户</a><br><a href=''https://docs.microsoft.com/surface-hub/admin-group-management-for-surface-hub''>管理帐户管理</a></td><td><img src=''images/manage3.png'' width=''192'' height=''192''><br>**保持安全及最新状态**<br>了解 Surface Hub 如何保持最新状态。<br><a href=''https://docs.microsoft.com/surface-hub/manage-windows-updates-for-surface-hub''>管理 Windows 更新</a><br><a href=''https://support.microsoft.com/help/4037666/surface-surface-hub-update-history''>Surface Hub 更新历史记录</a><br><a href=''https://docs.microsoft.com/surface-hub/save-bitlocker-key-surface-hub''>保存 BitLocker 密钥</a></td><td><img src=''images/manage4.png'' width=''192'' height=''192''><br>**培训你的员工**<br>查找可帮助员工利用 Surface Hub 提高工作效率的资源。<br><a href=''https://download.microsoft.com/download/3/6/B/36B6331E-0C63-4E71-A05D-EE88D05081F8/surface-hub-user-guide-en-us.pdf''>Surface Hub 用户指南 </a> （PDF，1.69 MB）<br><a href=''https://support.microsoft.com/help/20431''>操作方法视频</a></td></tr> </table> '
+  - title: 持续关注
+  - items:
+      - type: markdown
+        text: ' <table><tr><td><img src=''images/surfaceblog.png'' width=''192'' height=''192''><br>**Surface IT 专业人员博客**<br>深入了解新的 Surface 产品以及来自 IT 专业人员的建议和技巧。<br><a href=''https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro''>了解详细信息</a></td><td><img src=''images/surfacemechanics.png'' width=''192'' height=''192''><br>**Microsoft Mechanics 上的 Surface**<br>查看 Surface 设备、特性和功能的技术演示和演练。<br><a href=''https://technet.microsoft.com/windows/mt697546''>入门</a></td><td><img src=''images/twitter.png'' width=''192'' height=''192''><br>**在 Twitter 上关注我们**<br>了解最新资讯，查看最新的产品演示。<br><a href=''https://twitter.com/surface''>访问 Twitter</a></td></tr> </table> '

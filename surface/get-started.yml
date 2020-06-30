@@ -1,0 +1,100 @@
+### YamlMime:Landing
+title: Surface 设备文档
+summary: 充分利用通过云关联在一起的 Surface、Windows 和 Office 功能。
+metadata:
+  title: Surface 设备文档
+  description: Microsoft Surface 设备入门
+  ms.service: product-insights
+  ms.topic: landing-page
+  manager: laurawi
+  author: greg-lindsay
+  ms.author: greglin
+  audience: itpro
+  ms.localizationpriority: High
+  ms.openlocfilehash: 90908a9ff95875cf0c3337bf0b8e93f7bfc42e53
+  ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 06/27/2020
+  ms.locfileid: "10832151"
+landingContent:
+- title: Surface 设备
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 面向企业的 Surface Go 2
+      url: https://www.microsoft.com/surface/business/surface-go-2
+    - text: Surface Book 3 商业版
+      url: https://www.microsoft.com/surface/business/surface-book-3
+    - text: 浏览所有 Surface 系列产品
+      url: https://www.microsoft.com/surface/business
+- title: 入门
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Surface Book 3 GPU 技术概述
+      url: surface-book-gpu-overview.md
+    - text: Surface Book 3 Quadro RTX 3000 技术概述
+      url: surface-book-quadro.md
+    - text: Surface Dock 2 中的新增功能
+      url: surface-dock-whats-new.md
+- title: 部署 Surface 设备
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Surface 部署加速器工具
+      url: microsoft-surface-deployment-accelerator.md
+    - text: Autopilot 和 Surface 设备
+      url: windows-autopilot-and-surface-devices.md
+    - text: Surface 上的 Windows 虚拟桌面
+      url: windows-virtual-desktop-surface.md
+- title: 管理 Surface 设备
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 管理和部署 Surface 驱动程序和固件更新
+      url: manage-surface-driver-and-firmware-updates.md
+    - text: Surface 设备电源设置的最佳实践
+      url: maintain-optimal-power-settings-on-Surface-devices.md
+    - text: 优化 Surface 设备的 WLAN 连接
+      url: surface-wireless-connect.md
+- title: 探索安全指南
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 安全 Surface Dock 2 个具有 Surface Enterprise 管理模式（SEMM）的端口
+      url: secure-surface-dock-ports-semm.md
+    - text: Surface UEFI 设置的 Intune 管理
+      url: surface-manage-dfci-guide.md
+    - text: Surface Data Eraser 工具
+      url: microsoft-surface-data-eraser.md
+- title: 了解 Surface 工具
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 适用于企业的 Surface 诊断工具包
+      url: surface-diagnostic-toolkit-for-business-intro.md
+    - text: SEMM 和 UEFI
+      url: surface-enterprise-management-mode.md
+    - text: 电池限制设置
+      url: battery-limit.md
+- title: 浏览支持解决方案
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 热门支持解决方案
+      url: support-solutions-surface.md
+    - text: 在 Surface 修理或服务期间保护数据
+      url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
+    - text: 对 Surface 扩展坞和坞站进行故障排除
+      url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
+- title: 参加 Surface 社区
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Surface IT Pro 博客
+      url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
+    - text: Surface 设备技术社区
+      url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
+    - text: Microsoft Mechanics Surface 视频
+      url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
