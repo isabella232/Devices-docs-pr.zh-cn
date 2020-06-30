@@ -1,0 +1,54 @@
+### YamlMime:Hub
+title: Microsoft Surface
+summary: 了解如何规划、部署和管理 Microsoft Surface 和 Surface Hub 设备。
+brand: windows
+metadata:
+  title: Microsoft Surface
+  description: 了解如何规划、部署和管理 Microsoft Surface 和 Surface Hub 设备。
+  ms.prod: surface
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 7c723733836ee00e43571714c7df2ca11d3a8a49
+  ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 06/27/2020
+  ms.locfileid: "10837089"
+additionalContent:
+  sections:
+  - title: IT 专业人员
+    items:
+    - title: Surface 设备文档
+      summary: 充分利用通过云关联在一起的 Surface、Windows 和 Office 功能。 查找可帮助你规划、部署和管理组织中的 Surface 设备的工具、分步指南和其他资源。
+      url: https://docs.microsoft.com/en-us/surface/get-started
+    - title: Surface Hub 文档
+      summary: 了解如何部署和管理 Surface Hub 2S，此产品是集成了数字交互式白板、会议平台和协作计算功能的一体化设备。
+      url: https://docs.microsoft.com/surface-hub/index
+  - title: 其他资源
+    items:
+    - title: 社区
+      links:
+      - text: Surface IT Pro 博客
+        url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
+      - text: Surface 设备技术社区
+        url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
+    - title: 了解
+      links:
+      - text: Microsoft Learn 上的 Surface 培训
+        url: https://docs.microsoft.com/learn/browse/?term=Surface
+      - text: Surface Hub 2S 采用指南
+        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-adoption-kit
+      - text: Microsoft Mechanics Surface 视频
+        url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
+    - title: 需要帮助？
+      links:
+      - text: Surface 设备
+        url: https://support.microsoft.com/products/surface-devices
+      - text: Surface Hub
+        url: https://support.microsoft.com/hub/4343507/surface-hub-help
+      - text: 联系 Surface Hub 支持部门
+        url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
