@@ -12,12 +12,12 @@ ms.date: 6/25/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 92838599a9d05dbe75f1caad948b97c9cb75bcac
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 1f6f4a7efb8dc345487e5e5054374f81a91a20d5
+ms.sourcegitcommit: 36bac9da2f7b0815fbceb008f869b497380c55db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830684"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "10860632"
 ---
 # Surface Dock 2 中的新增功能
 
@@ -35,19 +35,16 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
 - Windows 10 版本1809。 不支持 Windows 7、Windows 8 或非 Surface 主机设备。 Surface Dock 2 与以下 Surface 设备配合使用：
 
   - Surface Pro （第五代）
-  - 具有 LTE 高级版的 Surface Pro （第5代）
   - Surface 笔记本电脑（第1代）
   - Surface Pro 6
   - Surface Book 2
   - Surface Laptop 2
   - Surface Go
-  - 带有 LTE Advanced 的 Surface Go 
   - Surface Pro 7
+  - Surface Pro X 
   - Surface 笔记本电脑3
   - Surface Book 3
   - Surface Go 2
-  - 带有 LTE 高级的 Surface Go 2
-
 
 ## Surface Dock 2 组件
 
@@ -65,7 +62,6 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
 
   - Surface Book 3
   - Surface Go 2
-  - 带有 LTE 高级的 Surface Go 2
   - Surface Pro 7
   - Surface Pro X
   - Surface 笔记本电脑3
@@ -74,7 +70,6 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
 
   - Surface Pro 6
   - Surface Pro （第五代）
-  - 具有 LTE 高级版的 Surface Pro （第5代）
   - Surface Laptop 2
   - Surface 笔记本电脑（第1代）
   - Surface Go
