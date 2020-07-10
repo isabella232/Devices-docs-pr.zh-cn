@@ -19,18 +19,18 @@ ms.custom:
 - CSSTroubleshoot
 ms.reviewer: mablaik
 description: Microsoft Surface 和 Surface Hub 产品的支持信息。
-ms.openlocfilehash: 770c0c90762b2b6de7de66a06e04f1dcf4b231a2
-ms.sourcegitcommit: a292b4843d5808745b8320b721829a91d2b1a5d0
+ms.openlocfilehash: e36139b48e77907e0a2bc044e82cbc67c8bb6503
+ms.sourcegitcommit: ef49c3356fdce856b51239eb9c070df7b869e110
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/09/2020
-ms.locfileid: "10861190"
+ms.locfileid: "10861244"
 ---
 # Surface 支持
 
 ### 与我们联系之前：  
 
-运行面向商业版（SDT）的 "[表面诊断工具包](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business)"。 SDT 使 IT 管理员能够快速调查和解决与 Surface 设备有关的硬件、软件和固件问题。 除了获取设备运行状况见解和解决问题的指南之外，还可以运行一系列诊断测试和软件修复。 
+运行适用于 Business (SDT) 的[表面诊断工具包](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business)。 SDT 使 IT 管理员能够快速调查和解决与 Surface 设备有关的硬件、软件和固件问题。 除了获取设备运行状况见解和解决问题的指南之外，还可以运行一系列诊断测试和软件修复。 
 
 如果运行工具包后仍遇到问题，请使用下面的选项卡选择支持选项。
 
@@ -38,8 +38,6 @@ ms.locfileid: "10861190"
 
 > [!NOTE]
 > 您需要使用您的 Microsoft 帐户或 Azure Active Directory 帐户登录到联机提交门户。  
-
-你可以通过提供关键信息和在线事件请求来加速你的请求。 下载此文件的副本，添加所需信息，并在创建你的事例后上传。 
 
 对于商业客户：[提交服务请求](https://support.microsoft.com/supportforbusiness/productselection?sapid=d383b26c-f150-6220-8f1b-e8aa325d9727)。 
 
