@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title: Microsoft Surface
+title: 面向 IT 专业人员的 Microsoft Surface
 summary: 了解如何规划、部署和管理 Microsoft Surface 和 Surface Hub 设备。
 brand: windows
 metadata:
@@ -12,43 +12,59 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: 7c723733836ee00e43571714c7df2ca11d3a8a49
-  ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+  ms.openlocfilehash: bbbfaa832e3e071625d1189e054c03faede5c50e
+  ms.sourcegitcommit: 63607aa9b65687bf597916f548f5a3416ef87fe8
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 06/27/2020
-  ms.locfileid: "10837089"
+  ms.lasthandoff: 07/10/2020
+  ms.locfileid: "10861705"
+highlightedContent:
+  items:
+  - title: Surface 设备文档
+    itemType: learn
+    url: https://docs.microsoft.com/surface/get-started
+  - title: Surface Hub 文档
+    itemType: learn
+    url: https://docs.microsoft.com/surface-hub/index
 additionalContent:
   sections:
-  - title: IT 专业人员
+  - title: Surface 资源
+    summary: 查找 Microsoft Surface 设备的资源。
     items:
-    - title: Surface 设备文档
-      summary: 充分利用通过云关联在一起的 Surface、Windows 和 Office 功能。 查找可帮助你规划、部署和管理组织中的 Surface 设备的工具、分步指南和其他资源。
-      url: https://docs.microsoft.com/en-us/surface/get-started
-    - title: Surface Hub 文档
-      summary: 了解如何部署和管理 Surface Hub 2S，此产品是集成了数字交互式白板、会议平台和协作计算功能的一体化设备。
-      url: https://docs.microsoft.com/surface-hub/index
-  - title: 其他资源
-    items:
-    - title: 社区
+    - title: Surface 概述
+      links:
+      - text: 适用于企业的 Surface Go 2
+        url: https://www.microsoft.com/surface/business/surface-go-2
+      - text: '适用于企业的 Surface Book 3 '
+        url: https://www.microsoft.com/surface/business/surface-book-3
+      - text: 浏览所有 Surface 系列产品
+        url: https://www.microsoft.com/surface/business
+    - title: Surface 社区
       links:
       - text: Surface IT Pro 博客
         url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
       - text: Surface 设备技术社区
         url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
-    - title: 了解
+    - title: Surface Hub
       links:
-      - text: Microsoft Learn 上的 Surface 培训
-        url: https://docs.microsoft.com/learn/browse/?term=Surface
-      - text: Surface Hub 2S 采用指南
-        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-adoption-kit
-      - text: Microsoft Mechanics Surface 视频
-        url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
-    - title: 需要帮助？
+      - text: 联系 Surface 支持部门
+        url: contact-surface-support.md
+  - title: Surface Hub 资源
+    summary: 查找 Microsoft Surface Hub 的资源。
+    items:
+    - title: Surface Hub 概述
       links:
-      - text: Surface 设备
-        url: https://support.microsoft.com/products/surface-devices
-      - text: Surface Hub
-        url: https://support.microsoft.com/hub/4343507/surface-hub-help
+      - text: Surface Hub 2S 的新增功能？
+        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
+      - text: Surface Hub 2S 技术规格
+        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
+      - text: 操作系统基本知识
+        url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
+    - title: Surface Hub 社区
+      links:
+      - text: Surface Hub 技术社区
+        url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
+    - title: Surface Hub 帮助
+      links:
       - text: 联系 Surface Hub 支持部门
         url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
