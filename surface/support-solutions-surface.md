@@ -15,19 +15,19 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 98de32213861aa53ac00a565d4f81f0199995077
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 88c7029c99d69818e9f0b8fddef5fc193581963a
+ms.sourcegitcommit: 608226b64ef92743b1a3361877d4c49228e3ea5d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830681"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "10868746"
 ---
 # Surface 设备的顶级支持解决方案
 
 > [!Note]
-> **家庭用户**：本文仅供 IT 专业人员和技术支持代理使用，并且仅适用于 Surface 设备。 如果您要查找家庭设备问题的帮助，请参阅[Surface 设备帮助](https://support.microsoft.com/products/surface-devices)。
+> **家庭用户**：本文仅供 IT 专业人员和技术支持代理使用，并且仅适用于 Surface 设备。 如果您要查找家庭设备问题的帮助，请参阅[Surface 支持](contact-surface-support.md?tabs=online)。
 
-这些是 Microsoft 支持解决方案，用于解决在企业中使用 Surface 设备时可能遇到的常见问题。 如果您的问题未在此处列出，请[联系 Microsoft 支持](https://support.microsoft.com/supportforbusiness/productselection)部门。
+这些是 Microsoft 支持解决方案，用于解决在企业中使用 Surface 设备时可能遇到的常见问题。 如果您的问题未在此处列出，请[与 Surface 支持部门联系](contact-surface-support.md?tabs=online)。
 
 ## Surface 驱动程序和固件
 
@@ -54,7 +54,7 @@ Microsoft 会定期为 Surface 设备发布更新和解决方案。 若要确保
 
 ## 屏幕破损或划痕问题
 
-- [联系 Microsoft 支持人员](https://support.microsoft.com/supportforbusiness/productselection)
+- [联系 Surface 支持部门](contact-surface-support.md?tabs=online)
 
 ## 表面电源或电池问题
 
