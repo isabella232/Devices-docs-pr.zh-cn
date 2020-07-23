@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 7/07/2020
+ms.date: 7/20/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 35794e36f37041754ee722c286554437c6dd7be2
-ms.sourcegitcommit: 36bac9da2f7b0815fbceb008f869b497380c55db
+ms.openlocfilehash: 3bfdcf1d95b058270b741b7959d9161c66652b4c
+ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "10860642"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "10893084"
 ---
 # Surface Book 3 Quadro RTX 3000 技术概述
 
@@ -95,7 +95,7 @@ NVIDIA 开发和维护适用于企业（ODE）的 Quadro 最佳驱动程序，�
 
 **表 3. 通过 Quadro RTX 3000 在 Surface Book 3 上 & 应用加速进行 ISV 测试**
 
-| **应用**                                             | **说明**                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **应用**                                             | **描述**                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Adobe Dimension**                                 | **Adobe-通过 Quadro RTX 3000 对 Surface Book 3 进行了测试和批准**<br><br>-RTX-加速的光线跟踪功能提供三维照片的三维绘制方式。                                                                                                                                                                                                                                                                                                             |
 | **Adobe Illustrator**                               | -以更快的速度通过 GPU 加速的画布进行平移和缩放，从而使图形设计器和 illustrators 能够流畅、平稳地放大和缩小复杂矢量图形。                                                                                                                                                                                                                                                                                             |
@@ -116,7 +116,8 @@ NVIDIA 开发和维护适用于企业（ODE）的 Quadro 最佳驱动程序，�
 | **Esri ArcGIS**                                     | -由于 DL inferencing 利用 tensor 内核，每天所花的时间和周的实时结果。                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Luxion KeyShot**                                  | -Solidworks、Creo 和 Rhino 使用的第三方交互式射线跟踪。 通过 RT 内核、OptiX™ AI-加速 denoising 加速。                                                                                                                                                                                                                                                                                                                                                        |
 | **McNeel & 关联**<br>**Rhino 3D**             | **Rhino-通过 Quadro RTX 3000 测试和批准 Surface Book 3**<br><br>-用于流畅、交互式建模和设计体验的 GPU 加速视口。<br><br>-支持 GPU 加速3D 呈现的周期。                                                                                                                                                                                                                                                         |
-| **PTC Creo**                                        | -Creo 基于 CUDA 构建的实时工程模拟工具（Creo 模拟）。<br><br>-与 Surface Book 2 15 相比，其运行速度更快15%。                                                                                                                                                                                                                                                                                                                                |
+| **PTC Creo**                                        | -Creo 基于 CUDA 构建的实时工程模拟工具（Creo 模拟）。<br><br>-与 Surface Book 2 15 相比，其运行速度更快15%。                                                                                                                                                                                        |
+| **Siemens SolidEdge 2020**                                        |  **Siemens-通过 Quadro RTX 3000 测试和批准 Surface Book 3**                                                                                                                                                                                 |
 | **Siemens NX**                                      | -Siemens NX 交互式射线跟踪器（Ray 跟踪工作室），由 RT 内核加速。<br><br>与 Surface Book 2 15 相比，运行速度比更快10倍。                                                                                                                                                                                                                                                                                                                                    |
 
 
@@ -128,7 +129,7 @@ NVIDIA 开发和维护适用于企业（ODE）的 Quadro 最佳驱动程序，�
 
 **表 4. 带有 Quadro RTX 3000 Sku 的 Surface Book 3**
 
-| **显示** | **处理者**                     | **GPU**                                                                                          | **RAM**    | **存储** |
+| **显示器** | **处理者**                     | **GPU**                                                                                          | **RAM**    | **存储** |
 | ----------- | --------------------------------- | ------------------------------------------------------------------------------------------------ | ---------- | ----------- |
 | 15英寸 | 四核第10代内核 i7-1065G7 | 英特尔虹膜™和图形<br>NVIDIA Quadro RTX 3000。 具有 6GB GDDR6 图形内存的最大问答设计 | 32 LPDDR4x | 512 GB      |
 | 15英寸 | 四核第10代内核 i7-1065G7 | 英特尔虹膜™和图形<br>NVIDIA Quadro RTX 3000。 具有 6GB GDDR6 图形内存的最大问答设计 | 32 LPDDR4x | 1 TB        |

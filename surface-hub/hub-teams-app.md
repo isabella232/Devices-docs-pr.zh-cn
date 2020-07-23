@@ -7,14 +7,14 @@ ms.sitesec: library
 author: greglin
 ms.author: greglin
 ms.topic: article
-ms.date: 06/15/2020
+ms.date: 07/15/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: d393385643b3f1ecad8db364e76711baa7a73aa1
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: fbdacbc2a5b0ca7e6b38dc5588ed7b0279ce0c68
+ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831831"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "10893034"
 ---
 # 适用于 Surface Hub 的 Microsoft 团队应用 
 
@@ -24,6 +24,6 @@ ms.locfileid: "10831831"
 ## 版本历史记录
 | 应用商店应用版本 | 更新                                                                                         | 已发布到 Microsoft Store |
 | --------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------- |
-| 0.2020.13201.0        | -Surface Hub 上的3x3 库视图<br>-搜索外部用户的能力                         | 2020年6月10日<br>            |
+| 0.2020.521.2344.0         | -Surface Hub 上的3x3 库视图<br>-搜索外部用户的能力                         | 2020年6月10日<br>            |
 | 0.2020.13201          | -质量改进和 Bug 修复                                                                | 2020年6月1日<br>          |
-| 0.2020.4301.0         | -在 Surface Hub 上接受打入的 PSTN 呼叫<br>-使用与会者/演示者角色更改            | 5月21日2020                     |
+| 0.2020.4301.0         | -在 Surface Hub 上接受打入的 PSTN 呼叫<br>-使用与会者/演示者角色更改            | 2020 年 5 月 21 日                     |

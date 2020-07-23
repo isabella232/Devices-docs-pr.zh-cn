@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/28/2020
+ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 1d1b836c18a41982497bb28c57f379408c04f8a5
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 05279a54b51113ca96c4c939e8d64e51c4eca543
+ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832044"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "10893105"
 ---
 # 使用 Intune 管理 Surface Hub 2S
 
@@ -35,17 +35,27 @@ Surface Hub 2S 支持 IT 管理员使用移动设备管理 (MDM) 提供程序管
 
 在初始设置流程中，将 Surface Hub 与已启用 Intune 自动注册的 Azure AD 租户相关联时，设备将自动使用 Intune 注册。 有关详细信息，请参阅[适用于 Windows 设备的 Intune 注册方法](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods)。 Surface Hub 需要进行 Azure AD 关联和 Intune 自动注册才能成为 Intune 中的“合规设备”。 
 
-## Windows 10 协同版设置
+## 通过 Intune 管理 Windows 10 团队版设置
 
-为 Surface Hub 和 Surface Hub 2S 的设备限制设置预置选择“Windows 10 协同版”。
+1. 登录到**Microsoft 终结点管理器**，选择 "**设备**  >  **配置文件**"  >  **创建配置文件**。 
+2. 在 "**平台**" 下，选择 " **windows 10 和更高版本**  >  **设备限制（windows 10 团队）** "，然后选择 "**创建**"。 
+3. 现在，你可以浏览并选择 Surface Hub 和 Surface Hub 2 的预设设备限制设置。
 
  ![设置 Surface Hub 2S 的设备限制。](images/sh2-set-intune3.png) <br>
 
-这些设置包括用户体验和应用行为、Azure Log Analytics 注册、维护 Windows 配置、会话设置和 Miracast 设置。 有关 Windows 10 协同版可用设置的完整列表，请参阅 [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)。
+这些设置涵盖以下类别：应用和体验、Azure operational insights、维护、会话和无线投影。  
 
-## 支持的其他配置服务提供程序 (CSP)
+## 支持的配置服务提供商（Csp）
 
-有关支持的其他 CSP，请参阅 [Windows 10 中的 Surface Hub CSP](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)。
+除了可直接通过 Intune 控制台使用的策略之外，还有许多配置服务提供程序（Csp）映射到注册表项或文件。 
+
+Microsoft 通常会在每个新版本的 Windows 10 操作系统中提供新的 Csp。 通过 Windows 预览体验计划在预览中提供的[windows 10 Team 2020 更新](surface-hub-install-2020preview.md)包括20多个新的和更新的 surface Hub 和 surface hub 设备管理策略。 通过这些 MDM 策略，IT 管理员可以改进对 Microsoft Store 中的应用更新的控制，无线投影设置（如基础架构的 Miracast）、网络设置（如服务质量和 802.1 x 有线身份验证），以及新的隐私/GDPR 相关设置。
+
+有关详细信息，请参阅下列资源： 
+
+- [配置服务提供程序参考](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) 
+- [SurfaceHub 云解决方案提供商](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+- [Microsoft Surface Hub 支持的策略 CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
 ## 服务质量 (QoS) 概述
 

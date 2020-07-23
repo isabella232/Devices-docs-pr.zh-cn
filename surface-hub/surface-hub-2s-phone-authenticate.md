@@ -1,6 +1,6 @@
 ---
-title: 为 Surface Hub 2 配置密码较少的手机登录
-description: 了解如何通过在移动设备上使用无密码的手机登录简化对 Surface Hub 2 的登录。
+title: 在 Surface Hub 上配置不带密码的登录
+description: 了解如何简化登录 Surface Hub。
 keywords: 值之间以逗号分隔
 ms.prod: surface-hub
 ms.sitesec: library
@@ -9,40 +9,75 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 07/21/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 95873e41588a6f07ece53fd04f7d63bf56143914
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 0eaa48200be9ff3c8087530b6dfddeb9aa4620d8
+ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830954"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "10893044"
 ---
-# 为 Surface Hub 2 配置密码较少的手机登录
+# 配置 Surface Hub 上的 passwordless 登录
 
-密码更短的手机登录简化了在 Surface Hub 2 上的会议和文件的登录。
+ 
+Passwordless 登录简化了对你的应用、会议和文件的访问。 Surface Hub 支持使用 Microsoft 身份验证器应用和你的组织提供的 FIDO2 安全密钥登录。
+
+**重要提示：** 此内容适用于用户。 若要使用 passwordless 登录，你的 IT 管理员必须为你的组织启用 passwordless 身份验证。 有关详细信息，请参阅：
+
+- [启用 passwordless 手机登录](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-phone)
+- [启用 passwordless 安全密钥登录](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key)
+
+
+## 使用 Microsoft 身份验证器应用配置登录
+
+**注意：** 从 Windows 10 Team 2020 更新开始，用户可以在 Azure AD 中使用其首选电子邮件别名以及其用户主体名称（UPN），使用 Microsoft 身份验证器登录。 例如，用户可以使用其首选别名（John.Doe@contoso.com）或其 UPN （jdoe@contoso.com）登录。
+ 
+Microsoft 身份验证器应用可帮助你使用移动设备登录 Surface Hub。 若要使用 Microsoft 身份验证器配置登录，请执行以下操作：
+
+
+1. 在移动设备上，下载 Microsoft 身份验证器应用。
+    - Google Android：在 Android 设备上，转到 "Google Play"[下载并安装 Microsoft 身份验证器应用](https://app.adjust.com/e3rxkc_7lfdtm?fallback=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.azure.authenticator)。
+    - Apple iOS：在 Apple iOS 设备上，转到应用商店[下载并安装 Microsoft 身份验证器应用](https://app.adjust.com/e3rxkc_7lfdtm?fallback=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fmicrosoft-authenticator%2Fid983156458)。
+2. 在你的电脑上，从你的工作或学校帐户[的 "安全信息" 页面设置 Microsoft 身份验证器应用](https://docs.microsoft.com/azure/active-directory/user-help/security-info-setup-auth-app#set-up-the-microsoft-authenticator-app-from-the-security-info-page)。
+3. 从你的移动设备上的 Microsoft 身份验证程序应用，为你的工作或学校帐户[打开并使用手机登录](https://docs.microsoft.com/azure/active-directory/user-help/user-help-auth-app-sign-in#turn-on-and-use-phone-sign-in-for-your-work-or-school-account)。
+
+ 
+## 使用 FIDO2 安全密钥配置登录
 
 > [!NOTE]
-> 不带密码的手机登录要求您的主电子邮件地址必须与您的 UPN 相匹配。
+>  使用 FIDO2 安全密钥的 Passwordless 登录 Surface Hub 需要 Windows 10 Team 2020 更新。
 
-## 设置不带密码的手机登录
+> [!IMPORTANT]
+> Surface Hub 仅支持 USB 安全密钥。
+ 
+您也可以使用由您的组织提供的 FIDO2 安全密钥登录 Surface Hub。 
 
-1. 将 iPhone 或 Android 的[Microsoft 身份验证](https://www.microsoft.com/account/authenticator)器应用下载到您的手机。
-2. 在你的电脑上，转到 [https://aka.ms/MFASetup](https://aka.ms/MFASetup) ，用你的帐户登录，然后选择 "**下一步"。**
-3. 在 "其他安全验证" 屏幕中，选择 "移动应用并使用验证码"，然后选择 "**设置**"。
+### 若要使用安全密钥配置登录，请执行以下操作：
 
-## 配置移动应用
 
-1. 在手机上的 Microsoft 身份验证器应用中，添加一个帐户，选择 "**工作或学校帐户**"，然后扫描 PC 上显示的 QR 代码
-2. 向您的手机发送通知，然后批准登录请求。
-3. 在手机上的验证器应用中，使用您的帐户旁边的下拉菜单，然后选择 **"启用手机登录**"。
-4. 如果需要，请向您的组织注册您的设备，然后按照屏幕上的说明进行操作。
+1. 在你的电脑上，转到你的 [https://myprofile.microsoft.com/](https://myprofile.microsoft.com/) 页面并登录到你的工作或学校帐户。
+2. 从左侧导航窗格中选择 "安全信息"，或从**安全信息**块中的链接中选择 "**安全信息**"，然后从 "**安全信息**" 页面中选择 "**添加方法**"。
+3. 在 "**添加方法**" 页面上，从下拉列表中选择 "**安全密钥**"，然后选择 "**添加**"。
+4. 在 "**安全密钥**" 页面上，选择 " **USB 设备**"。
+5. 准备好您的安全密钥，然后选择 "**下一步**"。
+6. 在出现的对话框中，按照说明插入安全密钥、创建或输入 PIN，并执行所需的手势（生物识别或触摸）。
+7. 在 "**安全密钥**" 页面上，为安全密钥提供一个名称，然后选择 "**下一步**"。
+8. 选择 "**完成**" 以完成该过程。
 
 ## 登录 Surface Hub
 
-1. 在 Surface Hub 上，登录到 **"我的会议和文件**"，然后选择 "收到提示时**发送通知**"。
-2. 使您的手机上显示的数字与 Surface Hub 上显示的数字匹配，以批准您的登录请求。
-3. 如果出现提示，请在手机上输入 PIN 或生物识别 ID 以完成登录。
+配置 passwordless 登录后，你可以使用它让你更轻松地在 Surface Hub 上访问你的应用、会议和文件：
+
+- 快速加入你的会议并打开最近的 Microsoft 365 文件。 有关详细信息，请参阅[**登录以查看你的会议和文件**](https://support.microsoft.com/help/4506480/sign-in-to-see-your-meetings-and-files-on-surface-hub)。
+- 快速登录 Microsoft 应用，如白板、PowerPoint、Word、Excel、OneDrive 和 Power BI。
+- 快速登录到新的 Microsoft Edge 以访问你的 "收藏夹" 和 "浏览" 首选项。 有关详细信息，请参阅[安装和配置新的 Microsoft Edge](surface-hub-install-chromium-edge.md)。
+- 登录 Surface Hub 后，您可以使用其他应用，而无需再次登录，直到选择 "**结束会话**"。 选择 "**结束会话**" 将从设备中删除您的凭据、文件和个人数据。 有关详细信息，请参阅[结束会话](finishing-your-surface-hub-meeting.md)。
+
 
 ## 了解详细信息
-有关详细信息，请参阅[与 Microsoft 身份验证器应用的密码更少的手机登录](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-phone-sign-in)。
+
+- [Azure Active Directory 的 Passwordless 身份验证选项](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless)
+- [Microsoft 身份验证应用的 Passwordless 登录](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-phone)
+- [Passwordless 使用 FIDO2 安全密钥登录](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key#user-registration-and-management-of-fido2-security-keys)
+

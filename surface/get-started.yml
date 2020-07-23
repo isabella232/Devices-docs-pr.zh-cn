@@ -11,20 +11,20 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 90908a9ff95875cf0c3337bf0b8e93f7bfc42e53
-  ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+  ms.openlocfilehash: 79bd1f8bb8368efe391def8dafef22c687d08b4c
+  ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 06/27/2020
-  ms.locfileid: "10832151"
+  ms.lasthandoff: 07/22/2020
+  ms.locfileid: "10893064"
 landingContent:
 - title: Surface 设备
   linkLists:
   - linkListType: overview
     links:
-    - text: 面向企业的 Surface Go 2
+    - text: 适用于企业的 Surface Go 2
       url: https://www.microsoft.com/surface/business/surface-go-2
-    - text: Surface Book 3 商业版
+    - text: '适用于企业的 Surface Book 3 '
       url: https://www.microsoft.com/surface/business/surface-book-3
     - text: 浏览所有 Surface 系列产品
       url: https://www.microsoft.com/surface/business
@@ -58,7 +58,7 @@ landingContent:
       url: maintain-optimal-power-settings-on-Surface-devices.md
     - text: 优化 Surface 设备的 WLAN 连接
       url: surface-wireless-connect.md
-- title: 探索安全指南
+- title: 导出安全指导
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -78,7 +78,7 @@ landingContent:
       url: surface-enterprise-management-mode.md
     - text: 电池限制设置
       url: battery-limit.md
-- title: 浏览支持解决方案
+- title: 排除故障
   linkLists:
   - linkListType: learn
     links:
@@ -98,3 +98,9 @@ landingContent:
       url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
     - text: Microsoft Mechanics Surface 视频
       url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
+- title: 需要帮助？
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 联系 Surface 支持部门
+      url: contact-surface-support.md
