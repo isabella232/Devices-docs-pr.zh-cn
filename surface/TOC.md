@@ -67,6 +67,7 @@
 ### [Surface DMA 保护](dma-protect.md)
 
 ## 排除故障
+### [联系 Surface 支持部门](contact-surface-support.md)
 ### [适用于 Surface 设备的卓越支持解决方案](support-solutions-surface.md)
 ### [使用适用于企业的 Surface 诊断工具包修复 Surface 常见问题](surface-diagnostic-toolkit-for-business-intro.md)
 #### [部署适用于企业的 Surface 诊断工具包](surface-diagnostic-toolkit-business.md)
