@@ -14,23 +14,23 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 975115cc4f7baea18bcd9ad119ce448d59772515
-  ms.sourcegitcommit: 63607aa9b65687bf597916f548f5a3416ef87fe8
+  ms.openlocfilehash: 9bbf8ae97aedde4c14670fd2a72f1286371a8a41
+  ms.sourcegitcommit: 819498edd5c7cf0eae038a561b2efd6c2903dee5
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 07/10/2020
-  ms.locfileid: "10861712"
+  ms.lasthandoff: 07/23/2020
+  ms.locfileid: "10895143"
 landingContent:
 - title: 为 Surface Hub 2S 做好准备
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Surface Hub 2S 的新增功能？
-      url: surface-hub-2s-whats-new.md
-    - text: 订购 Surface Hub 2S
-      url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab
-    - text: 为 Surface Hub 2S 准备环境
-      url: surface-hub-2s-prepare-environment.md
+    - text: 为公共预览版发布的新 Surface Hub OS 更新
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823
+    - text: 安装 Windows 10 协同版 2020 更新预览版
+      url: surface-hub-install-2020preview.md
+    - text: 在 Surface Hub 上安装和配置新版 Microsoft Edge
+      url: surface-hub-install-chromium-edge.md
     - text: Surface Hub 更新历史记录
       url: surface-hub-update-history.md
   - linkListType: video
@@ -45,14 +45,14 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
+    - text: 订购 Surface Hub 2S
+      url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab
     - text: 操作系统基本知识
       url: differences-between-surface-hub-and-windows-10-enterprise.md
     - text: Surface Hub 2S 站点准备指南
       url: surface-hub-2s-site-readiness-guide.md
-    - text: 自定义 Surface Hub 2S 安装
-      url: surface-hub-2s-custom-install.md
-    - url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
-      text: 在 Surface Hub 上启用 Microsoft Whiteboard
+    - text: 在 Surface Hub 上启用 Microsoft Whiteboard
+      url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
   - linkListType: deploy
     links:
     - url: surface-hub-2s-adoption-kit.md
