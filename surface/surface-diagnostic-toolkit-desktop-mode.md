@@ -1,6 +1,6 @@
 ---
 title: 在桌面模式下使用适用于企业的 Surface 诊断工具包
-description: 如何使用 SDT 帮助你的组织中的用户运行该工具来识别和诊断 Surface 设备的问题。
+description: 如何使用 SDT 帮助你的组织中的用户运行该工具来识别和诊断 Surface 设备的问题，并直接从工具提交支持请求。
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,16 +11,19 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 9e6b34a8d34081fc12cab4851104f0b67c3dfea4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 7/31/2020
+ms.openlocfilehash: ec4a90d0d72956eaa4f98e928d128dca70d49c59
+ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830679"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "10902942"
 ---
 # 在桌面模式下使用适用于企业的 Surface 诊断工具包
 
-本主题介绍了如何使用 Surface 诊断工具包（SDT）来帮助你的组织中的用户运行该工具来识别和诊断 Surface 设备的问题。 成功运行 SDT 可以快速确定报告的问题是否由硬件故障或用户错误引起。 有关 SDT 中受支持的 Surface 设备的列表，请参阅[部署适用于企业的 Surface 诊断工具包](surface-diagnostic-toolkit-business.md)。
+本主题介绍了如何使用 Surface 诊断工具包（SDT）帮助你的组织中的用户运行该工具，以使用其 Surface 设备识别和诊断问题，并直接从工具提交支持请求。 
+
+成功运行 SDT 可以快速确定报告的问题是否由硬件故障或用户错误引起。 有关 SDT 中受支持的 Surface 设备的列表，请参阅[部署适用于企业的 Surface 诊断工具包](surface-diagnostic-toolkit-business.md)。
 
 
 1. 指导用户从软件分发点或网络共享安装[SDT 程序包](surface-diagnostic-toolkit-business.md#create-custom-sdt)。 安装完成后，你可以通过一系列测试来指导用户。 
@@ -32,12 +35,12 @@ ms.locfileid: "10830679"
 
 3. 当 SDT 指示设备具有最新的更新时，请单击 "**继续**" 以转到可用测试的目录，如图2所示。
 
-    ![从 SDT 选项中选择 ](images/sdt-desk-2.png)
+    ![从 SDT 选项中选择 ](images/sdt1.png)
  *图2。从 SDT 选项中选择*
 
 4. 你可以选择运行所有诊断测试。 或者，如果你怀疑某个特定问题（如显示错误或电源问题），请单击 "**选择**" 以从可用测试中进行选择，然后单击 "**运行所选**"，如图3所示。 有关每个测试的详细信息，请参阅下表。 
 
-    ![选择硬件测试 ](images/sdt-desk-3.png)
+    ![选择硬件测试 ](images/sdt2.png)
  *图3。选择硬件测试*
 
     硬件测试 | 描述
@@ -52,9 +55,15 @@ ms.locfileid: "10830679"
     传感器 | 检查设备中不同传感器的运行情况
     硬件 |  检查不同硬件组件（如图形卡和照相机）的问题
 
+5. 当所有测试完成后，该工具会要求您确认问题是否已修复。 
 
+ ![您的问题是否已得到解决？ ](images/sdt3.png)
+*图3a。您的问题是否已得到解决？*
 
-
+6. 如果问题未得到解决，或者您不知道，您可以通过选择 "**与我们联系**" 来提交支持票证，**立即获取帮助。**
+ 
+ ![提交支持票证 ](images/sdt4.png)
+ *：数字3b。提交支持票证*
 
 <span id="multiple" />
 
