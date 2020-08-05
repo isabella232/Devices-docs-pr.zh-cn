@@ -74,5 +74,11 @@
 #### [部署适用于企业的 Surface 诊断工具包](surface-diagnostic-toolkit-business.md)
 #### [在桌面模式下使用适用于企业的 Surface 诊断工具包](surface-diagnostic-toolkit-desktop-mode.md)
 #### [使用命令运行适用于企业的 Surface 诊断工具包](surface-diagnostic-toolkit-command-line.md)
-
 ### [Surface 文档的更改历史记录](change-history-for-surface.md)
+### [最终用户帮助信息](https://support.microsoft.com/products/surface-devices)
+
+## 保修和延长服务计划
+### [适用于企业的 Surface 保修和延长服务计划](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
+### [条款和条件](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
+### [检查设备保修状态](https://mybusinessservice.surface.com/)
+### [寄送 Surface 进行维修时保护数据](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
