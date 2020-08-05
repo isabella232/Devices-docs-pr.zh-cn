@@ -1,5 +1,5 @@
 ---
-title: 系统 SKU 参考（Surface）
+title: '系统 SKU 参考 (Surface) '
 description: 请参阅系统模型和系统 SKU 名称的参考。
 keywords: uefi、配置、固件、安全、semm
 ms.prod: w10
@@ -9,23 +9,23 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 03/09/2020
+ms.date: 08/04/2020
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 1fa192902b17ca811d4ecc8eac65abe1655ce370
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 3eb177e976bd99ec245996db8cb22eab639f63cc
+ms.sourcegitcommit: c0676329f894135388b6d52f85ee8ac9507a836e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831003"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "10905669"
 ---
 # 系统 SKU 参考
 
 此文档提供系统模型和系统 SKU 名称的参考，可用于通过使用 PowerShell 或 WMI 快速确定特定设备的计算机状态。
 
-系统型号和系统 SKU 是存储在 Surface 设备的 UEFI 层的系统管理 BIOS （SMBIOS）表中的变量。 需要使用系统 SKU 名称来区分具有相同系统模型名称的设备，例如 Surface Pro 和 Surface Pro 和 LTE Advanced。 
+系统型号和系统 SKU 是存储在系统管理 BIOS 中的变量，在 Surface 设备的 UEFI 层中 (SMBIOS) 表中。 无论何时需要区分具有相同系统模型名称的设备（如 Surface Pro 和 Surface Pro 和 LTE Advanced），都可以使用系统 SKU 名称。
 
 | 设备   | 系统型号 | 系统 SKU       |
 | ---------- | ----------- | -------------- |
@@ -38,10 +38,12 @@ ms.locfileid: "10831003"
 | 带有 LTE Advanced 的 Surface Pro                                 | Surface Pro      | Surface_Pro_1807                 |
 | Surface Book 2 13 "                                        | Surface Book 2   | Surface_Book_1832                |
 | Surface Book 2 15 "                                        | Surface Book 2   | Surface_Book_1793                |
-| Surface Go LTE 消费者  | Surface Go | Surface_Go_1825_Consumer |
+| Surface Book 3 13 "                                        | Surface Book 3   | Surface_Book_3_1900                |
+| Surface Book 3 15 "                                        | Surface Book 3   | Surface_Book_3_1899
 | Surface Go LTE 商业版 | 系统前往 | Surface_Go_1825_Commercial |
 | Surface Go 消费者                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface Go 商业版                                        | Surface Go       | Surface_Go_1824_Commercial       |
+| Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
 | Surface Pro 6 消费者                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Surface Pro 6 商业版                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
@@ -69,7 +71,7 @@ gwmi -namespace root\wmi -class MS_SystemInformation | select SystemSKU
 1. 选择 "**系统信息**"。
 
 **在任务序列中使用 SKU WMI 条件**  
-你可以使用 Microsoft 部署工具包（MDT）或 Microsoft 终结点配置管理器中的系统 SKU 信息作为任务序列 WMI 条件的一部分。
+你可以使用 Microsoft 部署工具包中的系统 SKU 信息 (MDT) 或 Microsoft 终结点配置管理器作为任务序列 WMI 条件的一部分。
 
  ``` powershell  
     - WMI Namespace – Root\WMI
