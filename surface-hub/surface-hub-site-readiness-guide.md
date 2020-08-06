@@ -9,12 +9,12 @@ author: greg-lindsay
 ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f523fcfb29a2a7141dcc13183d7b0bc2801fc796
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 74b48d6fb7501d8c17d17604b5b2dbc9eff308c9
+ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830904"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916013"
 ---
 # Surface Hub 站点准备指南 
 
@@ -26,7 +26,7 @@ ms.locfileid: "10830904"
 
 ## 网站准备情况计划
 
-房间必须足够大，才能提供良好的观赏角度，但足够小，可让麦克风从房间中的人那里获取清晰的信号。 大多数大约22英尺（7米）长的房间将提供良好的会议体验。 在会议区域中，安装 Surface Hub 位置：
+房间必须足够大，才能提供良好的观赏角度，但足够小，可让麦克风从房间中的人那里获取清晰的信号。 大多数大约22英尺 (7 米) 长的房间将提供良好的会议体验。 在会议区域中，安装 Surface Hub 位置：
 
 - 聊天室中的每个人都可以看到它。
 - 用户可以访问触摸屏的所有四个边缘。
@@ -40,13 +40,13 @@ ms.locfileid: "10830904"
 Surface Hub 到达：
 - 两个 Microsoft Surface Hub 笔
 - 为 Surface Hub 自定义的 Microsoft 无线键盘
-- 9英尺 NEMA 5-15P （美国标准），用于 C13 电源线
+- 9英尺 NEMA 5-15P (美国标准) C13 电源线
 
 您需要提供：
 - Cat 5e 或 Cat-6 网络电缆
-- 显示电缆（可选）
-- 音频电缆（可选）
-- 键入 A 到 B USB 电缆（可选）
+-  (可选) 显示电缆
+- 音频电缆 (可选) 
+- 输入 A 到 B 的 USB 电缆 (可选) 
 
 有关电缆端口的详细信息，请参阅[55 "Microsoft Surface hub 技术信息](surface-hub-technical-55.md)" 或[84 "microsoft surface hub 技术信息"](surface-hub-technical-84.md)部分。 有关电缆的详细信息，请参阅[有线连接](#wired)。 
 
@@ -63,7 +63,7 @@ Microsoft Surface Hub 具有内部电脑，不需要外部计算机系统。
     - 其他交流电插座 
     - Ethernetports 
     - 音频端口 
-    - 视频端口（DisplayPort、HDMI、VGA 等） 
+    - 视频端口 (DisplayPort、HDMI、VGA 等 )  
 
 
 ## 当 Surface Hub 到达时
@@ -115,13 +115,14 @@ Surface Hub 很大且非常大，因此让我们知道它将何时送达以及�
 由于无线连接基于 Miracast，因此你无需使用电缆或其他设置计划来使用它。 你的用户可以在大多数启用了 Miracast 的 Windows 8.1 和 Windows 10 设备上加载 Miracast。 然后，他们可以将其显示从计算机或手机投影到 Surface Hub 屏幕。
 
 <span id="wired" />
+
 #### 有线连接
 
 使用有线连接，电缆可将计算机、平板电脑或手机中的信息传输到 Surface Hub。 有三种视频电缆选项，它们都使用相同的 USB 2.0 电缆。 电缆束可以包括一个或所有这些连接选项。
 
-- DisplayPort （DisplayPort 电缆 + USB 2.0 电缆）
-- HDMI （HDMI 电缆 + USB 2.0 电缆）
-- VGA （VGA 电缆 + 3.5 mm 音频电缆 + USB 2.0 电缆）
+- DisplayPort (DisplayPort 电缆 + USB 2.0 电缆) 
+- HDMI (HDMI 电缆 + USB 2.0 电缆) 
+- VGA (VGA 电缆 + 3.5 mm 音频电缆 + USB 2.0 电缆) 
 
 例如，若要为所有三个视频选项提供音频、视频和 touchback 功能，您的有线连接电缆束必须包括：
 
