@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 1d9b57fb6d5d2b9b38103eca3a887a8d45676ab3
-  ms.sourcegitcommit: c0676329f894135388b6d52f85ee8ac9507a836e
+  ms.openlocfilehash: f6d326f1745a0fe2ac22d819bfaf0a96fb495c93
+  ms.sourcegitcommit: 3b18d846bb68149c45b13d9ff122e993440b1f9e
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 08/04/2020
-  ms.locfileid: "10905679"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "10917510"
 landingContent:
 - title: Surface 设备
   linkLists:
@@ -104,5 +104,5 @@ landingContent:
     links:
     - text: 联系 Surface 支持部门
       url: contact-surface-support.md
-    - text: 适用于企业保修和扩展服务计划的 Surface
-      url: https://www.microsoft.com/en-us/surface/business/warranty-service-offerings-and-support
+    - text: 适用于企业的 Surface 保修和延长服务计划
+      url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
