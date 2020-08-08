@@ -11,13 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.date: 8/05/2020
-ms.openlocfilehash: 331d5122c6c64a99dad48ff6e5a90f38ce3d4ed4
-ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
+ms.date: 8/07/2020
+ms.openlocfilehash: 159eb4ca27bb867623020936276470ba9897f3b8
+ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "10916023"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "10918932"
 ---
 # Microsoft Surface Dock 固件更新： IT 管理员的技术信息
 
@@ -39,7 +39,7 @@ ms.locfileid: "10916023"
     - 更新需要运行 Windows 10 版本1803或更高版本的 Surface 设备。
     - 安装 MSI 文件可能会提示你重启 Surface。 但是，执行更新不需要重新启动。
 
-2. 将 Surface 设备从 Surface Dock 断开 (使用电源适配器) ，请等待约5秒钟，然后重新连接。 Surface Dock 固件更新将在后台静默地更新坞站。 该过程可能需要几分钟才能完成，即使中断，也会继续。 
+2. 断开 Surface 设备与 Surface Dock 的连接，等待约5秒钟，然后重新连接。 Surface Dock 固件更新将在后台静默地更新坞站。 该过程可能需要几分钟才能完成，即使中断，也会继续。 
 
 ## 监视 Surface Dock 固件更新
 

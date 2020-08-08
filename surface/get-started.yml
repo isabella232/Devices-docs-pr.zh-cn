@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: f6d326f1745a0fe2ac22d819bfaf0a96fb495c93
-  ms.sourcegitcommit: 3b18d846bb68149c45b13d9ff122e993440b1f9e
+  ms.openlocfilehash: 312da1d432abce125161febfd7bca3eb82e22074
+  ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "10917510"
+  ms.lasthandoff: 08/08/2020
+  ms.locfileid: "10918902"
 landingContent:
 - title: Surface 设备
   linkLists:
@@ -84,6 +84,10 @@ landingContent:
     links:
     - text: 热门支持解决方案
       url: support-solutions-surface.md
+    - text: 兼容 Surface 设备中的 SSD 删除的最佳做法
+      url: surface-ssd-removal-guide.md
+    - text: Surface IT 专业人员博客
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
     - text: 在 Surface 修理或服务期间保护数据
       url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
     - text: 对 Surface 扩展坞和坞站进行故障排除
