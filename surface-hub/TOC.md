@@ -112,7 +112,7 @@
 ### [在 Surface Hub 上安装应用](install-apps-on-surface-hub.md)
 ### [配置 Surface Hub 的“开始”菜单](surface-hub-start-menu.md)
 ### [设置并使用 Microsoft Whiteboard](whiteboard-collaboration.md) 
-### [使用“结束会话”结束 Surface Hub 会议](i-am-done-finishing-your-surface-hub-meeting.md)
+### [使用“结束会话”结束 Surface Hub 会议](finishing-your-surface-hub-meeting.md)
 ### [连接其他设备并使用 Surface Hub 显示](connect-and-display-with-surface-hub.md)
 ### [现有无线网络或 LAN 上的 Miracast](miracast-over-infrastructure.md)
 ### [启用 802.1x 有线身份验证](enable-8021x-wired-authentication.md)
