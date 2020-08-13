@@ -5,16 +5,16 @@ ms.assetid: aee90a0c-fb05-466e-a2b1-92de89d0f2b7
 keywords: surface、hub、问题
 ms.prod: surface-hub
 ms.sitesec: library
-author: todmccoy
+author: greg-lindsay
 ms.author: v-todmc
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: ec6746098203b5e91e2aaf3b044d21b81c31c897
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: f9b658daa4b398fda442976b7bce2f560a1b39f6
+ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830970"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "10926264"
 ---
 # 已知问题和有关 Microsoft Surface Hub 的其他信息
 
@@ -27,5 +27,5 @@ ms.locfileid: "10830970"
 <br/>我们将注意到一组影响 Surface Hub 上的登录和文档访问的问题。 我们正在积极调查这些问题。 作为解决方法，客户可以重置其设备并将其中心设置为使用本地管理员帐户。 重新配置以使用本地管理员帐户后，"我的会议和文件" 将按预期工作。
 - **Azure AD 加入时的单一登录**
 <br/>Surface Hub 设计用于群体空间，这会影响用户凭据的存储方式。 因此，在设备已加入 Azure AD 时，单一登录的工作方式目前有一些限制。 Microsoft 已注意到这种限制，正在积极调查解决方案的选项。
-- **如果 Surface Hub 在友好名称中有一个点字符（.），则将基础结构投影与 Surface Hub 进行的 Miracast 将失败**
-<br/>如果友好名称包括名称（.）中的句点或点（例如，"Room42"），Surface Hub 用户可能会遇到问题。 若要解决此问题，请在 "**设置**Surface Hub" 中更改中心的友好名称  >  **Surface Hub**  >  **About**，然后重新启动设备。 Microsoft 正在处理此问题的解决方案。
+- **如果 Surface Hub 在 "友好名称" 中有一个点字符 ( ) ，则通过基础结构投影到 Surface Hub 的 Miracast 将失败。**
+<br/>如果友好名称在 )  ( 名称中包含句点或点（如 "Room42"），Surface Hub 用户可能会遇到对其设备进行投影的问题。 若要解决此问题，请在 "**设置**Surface Hub" 中更改中心的友好名称  >  **Surface Hub**  >  **About**，然后重新启动设备。 Microsoft 正在处理此问题的解决方案。
