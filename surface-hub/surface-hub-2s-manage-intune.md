@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 05279a54b51113ca96c4c939e8d64e51c4eca543
-ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
+ms.openlocfilehash: 389db218d06f9f8d3f510e711b03487daf4e06f9
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "10893105"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934862"
 ---
 # 使用 Intune 管理 Surface Hub 2S
 
@@ -35,21 +35,21 @@ Surface Hub 2S 支持 IT 管理员使用移动设备管理 (MDM) 提供程序管
 
 在初始设置流程中，将 Surface Hub 与已启用 Intune 自动注册的 Azure AD 租户相关联时，设备将自动使用 Intune 注册。 有关详细信息，请参阅[适用于 Windows 设备的 Intune 注册方法](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods)。 Surface Hub 需要进行 Azure AD 关联和 Intune 自动注册才能成为 Intune 中的“合规设备”。 
 
-## 通过 Intune 管理 Windows 10 团队版设置
+## 通过 Intune 管理 Windows 10 团队设置
 
 1. 登录到**Microsoft 终结点管理器**，选择 "**设备**  >  **配置文件**"  >  **创建配置文件**。 
-2. 在 "**平台**" 下，选择 " **windows 10 和更高版本**  >  **设备限制（windows 10 团队）** "，然后选择 "**创建**"。 
+2. 在 "**平台**" 下，选择 windows 10 团队 (的**windows 10 和更高版本**的  >  **设备限制) **然后选择 "**创建**"。 
 3. 现在，你可以浏览并选择 Surface Hub 和 Surface Hub 2 的预设设备限制设置。
 
  ![设置 Surface Hub 2S 的设备限制。](images/sh2-set-intune3.png) <br>
 
 这些设置涵盖以下类别：应用和体验、Azure operational insights、维护、会话和无线投影。  
 
-## 支持的配置服务提供商（Csp）
+##  (Csp) 支持的配置服务提供商
 
-除了可直接通过 Intune 控制台使用的策略之外，还有许多配置服务提供程序（Csp）映射到注册表项或文件。 
+除了可直接通过 Intune 控制台使用的策略之外，还有许多配置服务提供程序 (的 Csp) 映射到注册表项或文件。 
 
-Microsoft 通常会在每个新版本的 Windows 10 操作系统中提供新的 Csp。 通过 Windows 预览体验计划在预览中提供的[windows 10 Team 2020 更新](surface-hub-install-2020preview.md)包括20多个新的和更新的 surface Hub 和 surface hub 设备管理策略。 通过这些 MDM 策略，IT 管理员可以改进对 Microsoft Store 中的应用更新的控制，无线投影设置（如基础架构的 Miracast）、网络设置（如服务质量和 802.1 x 有线身份验证），以及新的隐私/GDPR 相关设置。
+Microsoft 通常会在每个新版本的 Windows 10 操作系统中提供新的 Csp。 通过 Windows 预览体验计划在预览中提供的 [windows 10 Team 2020 更新](surface-hub-install-2020preview.md)包括20多个新的和更新的 surface Hub 和 surface hub 设备管理策略。 通过这些 MDM 策略，IT 管理员可以改进对 Microsoft Store 中的应用更新的控制，无线投影设置（如基础架构的 Miracast）、网络设置（如服务质量和 802.1 x 有线身份验证），以及新的隐私/GDPR 相关设置。
 
 有关详细信息，请参阅下列资源： 
 
@@ -63,7 +63,7 @@ Microsoft 通常会在每个新版本的 Windows 10 操作系统中提供新的 
 
 ### Microsoft Teams QoS 设置 
 
-|**名称**|**描述**|**OMA-URI**|**类型**|**值**|
+| 名称 | 描述 | OMA-URI | 类型 | 值 |
 |:------ |:------------- |:--------- |:------ |:------- |
 |**音频端口**| 音频端口范围 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DestinationPortMatchCondition | 字符串  | 3478-3479 |
 |**音频 DSCP**| 音频端口标记 | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction | 整型 | 46 |
@@ -101,7 +101,7 @@ Microsoft 通常会在每个新版本的 Windows 10 操作系统中提供新的 
 
 若要设置模式，请将以下设置添加至设备配置文件。
 
-|**名称**|**描述**|**OMA-URI**|**类型**|**值**|
+| 名称 | 描述 | OMA-URI | 类型 | 值 |
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams 应用 ID**|应用名称|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|字符串| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Teams 应用模式**|Teams 模式|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|整型| 0 或 1 或 2|

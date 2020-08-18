@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/16/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ce77122aecfc9a30ac9dc52dfea7e0b0ccf7e1f
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9158bec3d2285e5e8d4f9f56e582ff2320a34024
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831980"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934872"
 ---
 # 创建预配包 (Surface Hub)
 
@@ -95,7 +95,7 @@ ms.locfileid: "10831980"
 <tr><td style="width:45%" valign="top"><img src="images/three.png" alt="step three"/>  <img src="images/set-up-device-admins.png" alt="device admins"/></br></br>你可以在 Active Directory 中注册设备并指定安全组使用设置应用，在 Azure Active Directory 中注册以允许全局管理员使用设置应用，或在该设备上创建本地管理员帐户。</br></br>在 Active Directory 中注册设备，请输入最低特权用户帐户的凭据，以将该设备加入域，并指定安全组在 Surface Hub 上拥有管理员凭据。 如果在 Active Directory 中注册设备的预配包将应用于重置的 Surface Hub，则仅当列出的帐户是域管理员或者是最初设置 Surface Hub 的同一帐户时，才能使用同一域帐户。 否则，必须在预配包中使用不同的域帐户。</br></br>使用 Windows 配置设计器向导配置 Azure AD 批量注册之前，请<a href="https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup" data-raw-source="[set up Azure AD join in your organization](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup)">在贵组织中设置 Azure AD 加入</a>。 Azure AD 租户中的<strong>每个用户的最大设备数</strong>设置用于确定你在该向导中获取的批量令牌可使用的次数。 若要在 Azure AD 中注册设备，请选择该选项，并输入你要使用向导获取的批量令牌的友好名称。 设置令牌的到期日期（从获取该令牌之日算起最多 30 天）。 单击<strong>获取批量令牌</strong>。 在 " <strong> 让&#39;s 登录" 窗口中 </strong> ，输入有权将设备加入 Azure AD 的帐户，然后输入密码。 单击<strong>接受</strong>以向 Windows 配置设计器提供所需的权限。</br></br>若要创建本地管理员帐户，请选择该选项，然后输入用户名和密码。 </br></br><strong>重要提示</strong>：如果在预配包中创建本地帐户，则必须每 42 天使用<strong>设置</strong>应用更改密码。 如果在此期限内未更改密码，帐户可能会被锁定而无法登录。  </td><td><img src="images/set-up-device-admins-details.png" alt="join Active Directory, Azure AD, or create a local admin account"/></td></tr>
 <tr><td style="width:45%" valign="top"><img src="images/four.png" alt="step four"/> <img src="images/enroll-mdm.png" alt="enroll in device management"/></br></br>对 MDM 中的注册切换为<strong>是</strong>或<strong>否</strong>。 </br></br>如果切换为<strong>是</strong>，必须提供服务帐户和密码或有权注册设备的证书指纹，并指定身份验证类型。 如果你的 MDM 提供程序要求，也请为发现服务、注册服务和策略服务输入 URL。 <a href="manage-settings-with-mdm-for-surface-hub.md" data-raw-source="[Learn more about managing Surface Hub with MDM.](manage-settings-with-mdm-for-surface-hub.md)">了解有关使用 MDM 管理 Surface Hub 的更多信息。</a></td><td><img src="images/enroll-mdm-details.png" alt="enroll in mobile device management"/></td></tr>
 <tr><td style="width:45%" valign="top"><img src="images/five.png" alt="step five"/> <img src="images/add-applications.png" alt="add applications"/></br></br>你可以在预配包中安装多个通用 Windows 平台 (UWP) 应用。 有关这些设置的帮助，请参阅<a href="https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps" data-raw-source="[Provision PCs with apps](https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps)">使用应用预配电脑</a>。 </br></br><strong>重要提示： </strong> 虽然向导界面允许你选择经典 Win32 应用，但仅在将应用于 Surface Hub 的预配包中包含 UWP 应用。 如果包括经典 Win32 应用，预配将失败。 </td><td><img src="images/add-applications-details.png" alt="add an application"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/six.png" alt="step six"/>  <img src="images/add-config-file.png" alt="Add configuration file"/></br></br>在此步骤中，你不会&#39;t 配置任何设置。 它提供添加包含设备帐户列表的配置文件的说明。 配置文件不得包含列标题。 当将预配包应用于 Surface Hub 时，如果 Surface Hub 配置文件包含在 U 盘上，则可以从文件中选择设备帐户和友好名称。 请参阅<a href="#sample-configuration-file" data-raw-source="[Sample configuration file](#sample-configuration-file)">样本配置文件</a>了解相关示例。</br></br><strong>重要提示： </strong> 配置文件只能在全新安装体验（OOBE）期间应用，并且只能与使用 windows 10 版本1703发布的 Windows 配置设计器创建的预配程序包一起使用。  </td><td><img src="images/add-config-file-details.png" alt="Add a Surface Hub configuration file"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/six.png" alt="step six"/>  <img src="images/add-config-file.png" alt="Add configuration file"/></br></br>在此步骤中，你不会&#39;t 配置任何设置。 它提供添加包含设备帐户列表的配置文件的说明。 配置文件不得包含列标题。 当将预配包应用于 Surface Hub 时，如果 Surface Hub 配置文件包含在 U 盘上，则可以从文件中选择设备帐户和友好名称。 请参阅<a href="#sample-configuration-file" data-raw-source="[Sample configuration file](#sample-configuration-file)">样本配置文件</a>了解相关示例。</br></br><strong>重要提示： </strong> 配置文件只能在 (OOBE) 的全新设置体验期间应用，并且只能与使用 windows 10 版本1703发布的 Windows 配置设计器创建的预配程序包一起使用。  </td><td><img src="images/add-config-file-details.png" alt="Add a Surface Hub configuration file"/></td></tr>
 <tr><td style="width:45%" valign="top">  <img src="images/finish.png" alt="finish"/></br></br>你可以设置密码，以保护你的预配包。 你必须在将预配包应用到设备时输入此密码。</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
 </table>
 
@@ -107,7 +107,7 @@ Surface Hub 配置文件包含你的设备可用于连接到 Exchange 和 Skype 
 
 使用 Microsoft Excel 或其他 CSV 编辑器创建一个名为 `SurfaceHubConfiguration.csv` 的 CSV 文件。 在该文件中，按以下格式输入设备帐户和友好名称列表：
 
-```
+```console
 <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
 ```
 >[!IMPORTANT]
@@ -116,7 +116,7 @@ Surface Hub 配置文件包含你的设备可用于连接到 Exchange 和 Skype 
 
 下面是 `SurfaceHubConfiguration.csv` 示例。 
 
-```
+```console
 Rainier@contoso.com,password,Rainier Surface Hub
 Adams@contoso.com,password,Adams Surface Hub
 Baker@contoso.com,password,Baker Surface Hub
@@ -156,11 +156,11 @@ Rushmore@contoso.com,password,Rushmore Surface Hub
    
 3. 为你的项目命名，然后单击**下一步**。
 
-4. 选择**通用于 Windows 10 协同版**、单击**下一步**，然后单击**完成**。
+4. 选择 " **通用到 Windows 10 团队**"，单击 " **下一步**"，然后单击 " **完成**"。
 
     ![ICD 新项目](images/icd-new-project.png)
 
-5. 在项目的**可用自定义项**下，选择**常用协同版设置**。
+5. 在项目中的 " **可用自定义**" 下，选择 " **常用团队设置**"。
 
     ![ICD 常用设置](images/icd-common-settings.png)
 
@@ -201,7 +201,7 @@ Rushmore@contoso.com,password,Rushmore Surface Hub
 
 2. 在 ICD 的**可用自定义项**窗格中，转到**运行时设置** > **UniversalAppInstall** > **DeviceContextAppLicense**。
 
-3. 输入 **LicenseProductId**，然后单击**添加**。 为了保持一致性，请使用应用许可中的应用许可 ID。 使用文本编辑器打开许可文件。 然后，在 \<License\> 标记中，使用**LicenseID**属性中的值。
+3. 输入 **LicenseProductId**，然后单击**添加**。 为了保持一致性，请使用应用许可中的应用许可 ID。 使用文本编辑器打开许可文件。 然后，在 \<License\> 标记中，使用 **LicenseID** 属性中的值。
 
 4. 选择新的 **LicenseProductId** 节点。 对于 **LicenseInstall**，单击**浏览**，选择在步骤 1 中重命名的许可文件。
 
