@@ -24,7 +24,7 @@ ms.locfileid: "10929759"
 
 Windows 10 Team 2020 更新通过最新的 Windows 10 功能提升了设备部署和可管理性的主要改进。 若要了解有关新增功能的详细信息，请参阅以下博客文章：已 [发布用于公共预览版的新 Surface HUB 操作系统更新。](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) 对于已知问题，请参阅下面的 "已知问题" 部分。
  
-## 先决条件
+## 必备条件
 
 - 注册到 [Windows 预览体验计划](https://insider.windows.com/)。
 - 从 Windows 预览体验计划快速频道下载 Windows 10 Team 2020 更新预览版。
