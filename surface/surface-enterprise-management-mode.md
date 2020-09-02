@@ -13,32 +13,32 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 08/05/2020
-ms.openlocfilehash: 4af917ca583dac504bc61bdfb36c8b8485473db9
-ms.sourcegitcommit: 97e19fdcd074647bedec9efdfd3ce28e900ae2ea
+ms.date: 09/01/2020
+ms.openlocfilehash: a6ea1742ab767a99e7b4868e56d081bf0016785b
+ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "10916514"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "10986324"
 ---
 # Microsoft Surface 企业版管理模式
 
-Microsoft Surface 企业管理模式 (SEMM) 是具有 Surface UEFI 的 Surface 设备的一种功能，可用于保护和管理组织内的固件设置。 通过 SEMM，IT 专业人员可以准备 UEFI 设置的配置，并将其安装在 Surface 设备上。 除了配置 UEFI 设置之外，SEMM 还使用证书来保护配置免遭未经授权的篡改或删除。
+Microsoft Surface 企业管理模式 (SEMM) 是具有 Surface UEFI 的 Surface 设备的一种功能，可用于保护和管理组织内的固件设置。 通过 SEMM，IT 专业人员可以准备 UEFI 设置的配置，并将其安装在 Surface 设备上。 除了配置 UEFI 设置之外，SEMM 还使用证书来保护配置免遭未经授权的篡改或删除。 SEMM 是必须能够将 Surface Hub 2 迁移到 Windows 10 专业版和企业版的要求。
 
 >[!NOTE]
->SEMM 仅在具有 Surface UEFI 固件的设备上可用。 这包括大多数 Surface 设备，包括 Surface Pro 7、Surface Pro X 和 Surface 笔记本电脑3商业 Sku 与英特尔处理器。 SEMM 不支持在 15 "Surface 笔记本电脑 3 SKU 上使用 AMD 处理器， (仅供零售 SKU) 使用。 
+>SEMM 仅在具有 Surface UEFI 固件的设备上可用。 这包括大多数其他 Surface 设备，包括 Surface Pro 7、Surface Pro X、Surface Hub 2 和 Surface 膝上型3商业 Sku 与英特尔处理器。 SEMM 不支持在 15 "Surface 笔记本电脑 3 SKU 上使用 AMD 处理器， (仅供零售 SKU) 使用。 
 
-当 Surface 设备由 SEMM 配置并使用 SEMM 证书进行保护时，它们被视为已*注册*SEMM。 删除 SEMM 证书并将 UEFI 设置的控制权返回给设备用户时，Surface 设备被视为 SEMM 中的*unenrolled* 。
+当 Surface 设备由 SEMM 配置并使用 SEMM 证书进行保护时，它们被视为已 *注册* SEMM。 删除 SEMM 证书并将 UEFI 设置的控制权返回给设备用户时，Surface 设备被视为 SEMM 中的 *unenrolled* 。
 
-你可以使用两个管理选项来管理 SEMM 和注册的 Surface 设备-独立工具或与 Microsoft 终结点配置管理器的集成。 本文介绍了 SEMM 独立工具，称为 Microsoft Surface UEFI 配置器。 有关如何使用 Microsoft 终结点配置管理器管理 SEMM 的详细信息，请参阅[使用 Microsoft 终结点配置管理器管理具有 SEMM 的设备](https://technet.microsoft.com/itpro/surface/use-system-center-configuration-manager-to-manage-devices-with-semm)。
+你可以使用两个管理选项来管理 SEMM 和注册 Surface 设备-独立工具或与 Microsoft 终结点配置管理器集成。 本文介绍了 SEMM 独立工具，称为 Microsoft Surface UEFI 配置器。 有关如何使用 Microsoft 终结点配置管理器管理 SEMM 的详细信息，请参阅 [使用 Microsoft 终结点配置管理器管理具有 SEMM 的设备](https://technet.microsoft.com/itpro/surface/use-system-center-configuration-manager-to-manage-devices-with-semm)。
 
 
 ## Microsoft Surface UEFI 配置器
 
-SEMM 的主要工作区是 Microsoft Surface UEFI 配置器，如图1所示。 Microsoft Surface UEFI 配置器是用于创建 Windows Installer ( .msi) 程序包或 WinPE 映像的工具，用于在 Surface 设备上注册、配置和取消注册 SEMM。 这些程序包包含指定了 UEFI 设置的配置文件。 SEMM 程序包还包含安装并存储在固件中的证书，并用于在应用 UEFI 设置之前验证配置文件的签名。
+SEMM 的主要工作区是 Microsoft Surface UEFI 配置器，如图1所示。 Microsoft Surface UEFI 配置器是一种用于创建 Windows Installer ( .msi) 程序包或 WinPE 映像的工具，用于在 Surface 设备上注册、配置和取消注册 SEMM。 这些程序包包含指定了 UEFI 设置的配置文件。 SEMM 程序包还包含一个证书，该证书已安装并存储在固件中，用于在应用 UEFI 设置之前验证配置文件的签名。
 
 >[!NOTE]
->现在，你可以使用 Surface UEFI 配置器和 SEMM 来管理 Surface Dock 2 上的端口。 若要了解详细信息，请参阅[安全 Surface Dock 2 端口和 SEMM](secure-surface-dock-ports-semm.md)。
+>现在，你可以使用 Surface UEFI 配置器和 SEMM 来管理 Surface Dock 2 上的端口。 若要了解详细信息，请参阅 [安全 Surface Dock 2 端口和 SEMM](secure-surface-dock-ports-semm.md)。
 
 ![Microsoft Surface UEFI 配置器](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
 
@@ -54,20 +54,20 @@ SEMM 的主要工作区是 Microsoft Surface UEFI 配置器，如图1所示。 M
 
 #### 下载 Microsoft Surface UEFI 配置器
 
-你可以从 Microsoft 下载中心的[IT "Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) " 页面下载 MICROSOFT Surface UEFI 配置器。
+你可以从 Microsoft 下载中心的 [IT "Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) " 页面下载 MICROSOFT Surface UEFI 配置器。
 
 ### 配置包
 
-Surface UEFI 配置包是在 Surface 设备上实现和管理 SEMM 的主要机制。 这些程序包包含在 Microsoft Surface UEFI 配置文件和证书文件中创建程序包期间指定的 UEFI 设置的配置文件，如图2所示。 当在尚未注册 SEMM 的 Surface 设备上首次运行配置包时，它会在设备固件中预配证书文件，并在 SEMM 中注册该设备。 在 SEMM 中注册设备时，系统会提示你通过在存储证书文件和注册可以完成之前提供 SEMM 证书指纹的最后两位数字来确认操作。 此确认要求在注册时在设备上显示一个用户以执行确认。
+Surface UEFI 配置包是在 Surface 设备上实现和管理 SEMM 的主要机制。 这些程序包包含在 Microsoft Surface UEFI 配置文件和证书文件中创建程序包期间指定的 UEFI 设置的配置文件，如图2所示。 当在尚未注册 SEMM 的 Surface 设备上首次运行配置包时，它会在设备固件中预配证书文件，并在 SEMM 中注册该设备。 在 SEMM 中注册设备时，系统会提示你通过在存储证书文件和注册可以完成之前提供 SEMM 证书指纹的最后两位数字来确认操作。 此确认要求用户在注册时在设备上物理显示以执行确认。
 
 ![使用证书保护 SEMM 配置包](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
 
 *图 2. 使用证书保护 SEMM 配置包*
 
-有关 SEMM 证书要求的详细信息，请参阅本文的 " [Surface Enterprise 管理模式证书要求](#surface-enterprise-management-mode-certificate-requirements)" 部分。
+有关 SEMM 证书要求的详细信息，请参阅本文的 " [Surface Enterprise 管理模式证书要求](#surface-enterprise-management-mode-certificate-requirements) " 部分。
 
 >[!NOTE]
->你还可以使用 SEMM 指定 UEFI 密码，以便查看 Surface UEFI 的**安全**、**设备**、**启动配置**或**企业管理**页面。
+>你还可以使用 SEMM 指定 UEFI 密码，以便查看 Surface UEFI 的 **安全**、 **设备**、 **启动配置**或 **企业管理** 页面。
 
 在 SEMM 中注册设备后，将读取配置文件，并将文件中指定的设置应用于 UEFI。 在已在 SEMM 中注册的设备上运行配置包时，将根据存储在设备固件中的证书检查配置文件的签名。 如果签名不匹配，则不会对设备应用任何更改。
 
@@ -94,7 +94,7 @@ Surface UEFI 配置包是在 Surface 设备上实现和管理 SEMM 的主要机�
 
 | 设置                            | 描述                                                                                                                                                                                        |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 用于 PXE 启动的 IPv6                  | 允许管理 PXE 启动的 Ipv6 支持。 如果未配置此设置，将禁用 IPv6 支持 PXE。                                                                               |
+| 用于 PXE 启动的 IPv6                  | 允许管理 PXE 启动的 IPv6 支持。 如果未配置此设置，将禁用 IPv6 支持 PXE。                                                                               |
 | 备用启动                     | 允许管理备用启动顺序的使用，以便通过在启动过程中按下 "音量按下" 按钮和 "电源" 按钮直接引导到 USB 或以太网设备。 如果未配置此设置，则启用备用启动。 |
 | 启动顺序锁                    | 允许你锁定启动顺序以防止更改。 如果未配置此设置，则禁用 "启动订单锁定"。                                                                                                        |
 | USB 启动                           | 允许你管理对 USB 设备的启动。 如果未配置此设置，则启用 USB 引导。                                                                                                                 |
@@ -102,15 +102,15 @@ Surface UEFI 配置包是在 Surface 设备上实现和管理 SEMM 的主要机�
 | 自动打开电源                      | 允许管理 "自动开机启动" 设置。 如果未配置此设置，则启用 "自动加电"。                                                                                                        |
 | 同时多线程 (SMT)  | 允许你管理同时多线程 (SMT) ，以启用或禁用超线程。 如果未配置此设置，则启用 SMT。                                                  |
 |启用电池限制| 允许您管理电池限制功能。 如果未配置此设置，则启用电池限制 |
-| 安全性                           | 显示 "Surface UEFI**安全**" 页面。 如果未配置此设置，则显示 "安全" 页面。                                                                                                                 |
-| 设备                            | 显示 "Surface UEFI**设备**" 页面。 如果未配置此设置，则会显示 "设备" 页面。                                                                                                                     |
-| 靴子                               | 显示 Surface UEFI**启动**页面。 如果未配置此设置，将显示 "启动" 页面。                                                                                                                                                            |
-| DateTime                           | 显示 Surface UEFI**日期时间**页面。 如果未配置此设置，则显示 "日期时间" 页面。                                                                                                                |
-
+| 安全性                           | 显示 "Surface UEFI **安全** " 页面。 如果未配置此设置，则显示 "安全" 页面。                                                                                                                 |
+| 设备                            | 显示 "Surface UEFI **设备** " 页面。 如果未配置此设置，则会显示 "设备" 页面。                                                                                                                     |
+| 靴子                               | 显示 Surface UEFI **启动** 页面。 如果未配置此设置，将显示 "启动" 页面。                                                                                                                                                            |
+| DateTime                           | 显示 Surface UEFI **日期时间** 页面。 如果未配置此设置，则显示 "日期时间" 页面。                                                                                                                |
+| EnableOSMigration                          | 允许你将 Surface Hub 2 从 Windows 10 团队迁移到 Windows 10 专业版或企业版。 如果未配置此设置，Surface Hub 2 设备只能运行 Windows 10 团队操作系统。   注意：在 Surface Hub 2 上不提供 Windows 10 团队和 Windows 10 Pro/企业版之间的双重引导。                                                                                                           |
 
 
 >[!NOTE]
->创建 SEMM 配置包时，**成功**的页面上将显示两个字符，如图3所示。
+>创建 SEMM 配置包时， **成功** 的页面上将显示两个字符，如图3所示。
 
 ![证书指纹显示](images/surface-ent-mgmt-fig5-success.png "Certificate thumbprint display")
 
@@ -124,17 +124,17 @@ Surface UEFI 配置包是在 Surface 设备上实现和管理 SEMM 的主要机�
 
 >[!NOTE]
 >有权访问证书文件 ( .pfx) 的管理员可以随时通过在 CertMgr 中打开 .pfx 文件来读取指纹。 若要查看 CertMgr 的指纹，请执行以下过程：
->1. 右键单击 .pfx 文件，然后单击 "**打开**"。
+>1. 右键单击 .pfx 文件，然后单击 " **打开**"。
 >2. 展开 "导航窗格" 中的文件夹。
 >3. 单击“**证书**”。
->4. 在主窗格中右键单击您的证书，然后单击 "**打开**"。
->5. 单击 "**详细信息**" 选项卡。
+>4. 在主窗格中右键单击您的证书，然后单击 " **打开**"。
+>5. 单击 " **详细信息** " 选项卡。
 >6. 只有在 "**显示**" 下拉菜单中选择 "**全部**" 或 "**属性**"。
->7. 选择 "字段**指纹**"。
+>7. 选择 "字段 **指纹**"。
 
-若要在 SEMM 中注册 Surface 设备或应用来自配置包的 UEFI 配置，您需要执行的所有操作都是使用管理权限在目标 Surface 设备上运行 .msi 文件。 你可以使用应用程序部署或操作系统部署技术（如[Microsoft 终结点配置管理器](https://technet.microsoft.com/library/mt346023)或[microsoft 部署工具包](https://technet.microsoft.com/windows/dn475741)）。 在 SEMM 中注册设备时，您必须在设备上进行注册以确认注册。 将配置应用到已在 SEMM 中注册的设备时，不需要用户交互。
+若要在 SEMM 中注册 Surface 设备或应用来自配置包的 UEFI 配置，您需要执行的所有操作都是使用管理权限在目标 Surface 设备上运行 .msi 文件。 你可以使用应用程序部署或操作系统部署技术（如 [Microsoft 终结点配置管理器](https://technet.microsoft.com/library/mt346023) 或 [microsoft 部署工具包](https://technet.microsoft.com/windows/dn475741)）。 在 SEMM 中注册设备时，您必须在物理上显示，以确认设备上的注册。 将配置应用到已在 SEMM 中注册的设备时，不需要用户交互。
 
-有关如何在 SEMM 中注册 Surface 设备或使用 SEMM 应用 Surface UEFI 配置的分步演练，请参阅[使用 SEMM 注册和配置 surface 设备](https://technet.microsoft.com/itpro/surface/enroll-and-configure-surface-devices-with-semm)。
+有关如何在 SEMM 中注册 Surface 设备或使用 SEMM 应用 Surface UEFI 配置的分步演练，请参阅 [使用 SEMM 注册和配置 surface 设备](https://technet.microsoft.com/itpro/surface/enroll-and-configure-surface-devices-with-semm)。
 
 ### 重置程序包
 
@@ -142,40 +142,43 @@ Surface UEFI 重置程序包仅用于执行一项任务，即取消注册 SEMM �
 
 ### 恢复请求
 
-在某些情况下，可能不可能使用 Surface UEFI 重置程序包。 例如，如果 Windows 在 Surface 设备上不可用，则 (。 ) 在这些情况下，你可以通过 Surface (UEFI 的**企业管理**页面取消注册 surface 设备，如图 5) 中的 "恢复请求" 操作所示。
+在某些情况下，可能不可能使用 Surface UEFI 重置程序包。 例如，如果 Windows 在 Surface 设备上不可用，则 (。 ) 在这些情况下，你可以通过 Surface (UEFI 的 **企业管理** 页面取消注册 surface 设备，如图 5) 中的 "恢复请求" 操作所示。
 
 ![启动 SEMM 恢复请求](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
 
 *图 5. 在 "企业管理" 页面上启动 SEMM 恢复请求*
 
-使用**企业管理**页面上的流程重置 Surface 设备上的 SEMM 时，会向你提供一个重置请求。 此重置请求可以另存为文件，将其作为一个文件保存到 USB 驱动器、复制为文本或作为 QR 代码读取，使用移动设备轻松地通过电子邮件发送或 messaged。 使用 Microsoft Surface UEFI 配置器重置请求选项加载重置请求文件或输入重置请求文本或 QR 代码。 Microsoft Surface UEFI 配置器将生成可在 Surface 设备上输入的验证代码。 如果您在 Surface 设备上输入代码，然后单击 "**重启**"，则设备将从 SEMM unenrolled。 
+使用 **企业管理** 页面上的流程重置 Surface 设备上的 SEMM 时，会向你提供一个重置请求。 此重置请求可以另存为文件，将其作为一个文件保存到 USB 驱动器、复制为文本或作为 QR 代码读取，使用移动设备轻松地通过电子邮件发送或 messaged。 使用 Microsoft Surface UEFI 配置器重置请求选项加载重置请求文件或输入重置请求文本或 QR 代码。 Microsoft Surface UEFI 配置器将生成可在 Surface 设备上输入的验证代码。 如果您在 Surface 设备上输入代码，然后单击 " **重启**"，则设备将从 SEMM unenrolled。 
 
 >[!NOTE]
 >在创建重置请求后，将在两个小时内过期。
 
-有关如何取消注册 SEMM 中的 Surface 设备的分步演练，请参阅[从 SEMM 中注销 surface 设备](https://technet.microsoft.com/itpro/surface/unenroll-surface-devices-from-semm)。
+有关如何取消注册 SEMM 中的 Surface 设备的分步演练，请参阅 [从 SEMM 中注销 surface 设备](https://technet.microsoft.com/itpro/surface/unenroll-surface-devices-from-semm)。
 
 ## Surface Enterprise 管理模式证书要求
+将 SEMM 与 Microsoft Surface UEFI 配置器配合使用时，需要使用证书来验证配置文件的签名，然后才能应用 UEFI 设置。 此证书确保在 SEMM 中注册设备后，只能使用使用已批准证书创建的程序包来修改 UEFI 的设置。
 
 >[!NOTE]
 >SEMM 证书是对已注册的 Surface 设备上的 SEMM 或 Surface UEFI 设置执行任何修改所必需的。 如果 SEMM 证书已损坏或丢失，则无法删除或重置 SEMM。 使用适用于备份和恢复的解决方案，相应地管理你的 SEMM 证书。
 
-使用 Microsoft Surface UEFI 配置工具创建的程序包已使用证书进行签名。 此证书确保在 SEMM 中注册设备后，只能使用使用已批准证书创建的程序包来修改 UEFI 的设置。 对于 SEMM 证书，建议使用以下设置：
+使用 Microsoft Surface UEFI 配置工具创建的程序包已使用证书进行签名。 此证书确保在 SEMM 中注册设备后，只能使用使用已批准证书创建的程序包来修改 UEFI 的设置。 
+### 推荐的证书设置
+对于 SEMM 证书，建议使用以下设置：
 
-* **密钥算法**-RSA 
-* **密钥长度**-2048
-* **哈希算法**-SHA-256
-* **类型**-SSL 服务器身份验证
-* **密钥用法**-数字签名、密钥译码
-* **提供商**-Microsoft 增强的 RSA 和 AES 加密提供程序
-* **过期日期**-从证书创建到15个月
-* **密钥导出策略**-可导出
+* **密钥算法** -RSA 
+* **密钥长度** -2048
+* **哈希算法** -SHA-256
+* **类型** -SSL 服务器身份验证
+* **密钥用法** -数字签名、密钥译码
+* **提供商** -Microsoft 增强的 RSA 和 AES 加密提供程序
+* **过期日期** -从证书创建到15个月
+* **密钥导出策略** -可导出
 
-我们还建议在两层公钥基础结构中验证 SEMM 证书 (PKI) 体系结构，其中的中间证书颁发机构 (CA) 专用于 SEMM，从而允许证书吊销。 有关双层 PKI 配置的详细信息，请参阅[测试实验室指南：部署 AD CS 双层 PKI 层次结构](https://technet.microsoft.com/library/hh831348)。
+我们还建议在两层公钥基础结构中验证 SEMM 证书 (PKI) 体系结构，其中的中间证书颁发机构 (CA) 专用于 SEMM，从而允许证书吊销。 有关双层 PKI 配置的详细信息，请参阅 [测试实验室指南：部署 AD CS 双层 PKI 层次结构](https://technet.microsoft.com/library/hh831348)。
 
->[!NOTE]
->你可以使用以下 PowerShell 脚本创建自签名证书，以便在概念验证方案中使用。
- > 若要使用此脚本，请将以下文本复制到记事本中，并将该文件另存为 PowerShell 脚本 ( ps1) 。 此脚本将创建一个密码为的证书 `12345678` 。<br/><br/>对于生产环境，不推荐使用此脚本生成的证书。
+### 自签名证书 
+你可以使用以下示例 PowerShell 脚本创建自签名证书，以便在概念验证方案中使用。
+若要使用此脚本，请将以下文本复制到记事本中，并将该文件另存为 PowerShell 脚本 ( ps1) 。 注意：此脚本将创建密码为的证书 `12345678` 。对于生产环境，不推荐使用此脚本生成的证书。
   
    ```
 if (-not (Test-Path "Demo Certificate"))  { New-Item -ItemType Directory -Force -Path "Demo Certificate" }
@@ -200,23 +203,36 @@ $TestUefiV2 = New-SelfSignedCertificate `
 $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\TempOwner.pfx"
    ```
 
-若要与 SEMM 和 Microsoft Surface UEFI 配置器一起使用，必须使用私钥和密码保护导出证书。 Microsoft Surface UEFI 配置器将提示你在需要时选择 SEMM 证书文件 ( .pfx) 和证书密码。
+>[!IMPORTANT]
+>若要与 SEMM 和 Microsoft Surface UEFI 配置器一起使用，必须使用私钥和密码保护导出证书。 Microsoft Surface UEFI 配置器将提示你在需要时选择 SEMM 证书文件 ( .pfx) 和证书密码。
+
+1.  在 C：驱动器上创建一个将在其中保存脚本的文件夹;例如，C:\SEMM。
+2.  将示例脚本复制到记事本或等效的文本编辑器中，并将文件另存为 PowerShell 脚本 ( ps1) 。
+3.  使用管理员凭据登录电脑，然后打开提升的 PowerShell 会话。
+4.  确保您的权限设置为 "允许脚本运行"。 默认情况下，除非修改执行策略，否则将阻止脚本运行脚本。 若要了解详细信息，请参阅关于执行策略。
+5.  在命令提示符处，输入脚本的完整路径，然后按 Enter。 该脚本创建名为 TempOwner 的演示证书。
+
+或者，你可以使用 PowerShell 创建自己的自签名证书。 有关详细信息，请参阅以下 PowerShell 文档： [New-New-selfsignedcertificate] (https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate)
+
+
+
 
 >[!NOTE]
 >对于在其 PKI 基础结构中使用脱机根目录的组织，Microsoft Surface UEFI 配置程序必须在连接到根 CA 的环境中运行，才能对 SEMM 证书进行身份验证。 由 Microsoft Surface UEFI 配置器生成的程序包可以作为文件进行传输，因此可以使用可移动存储（如 USB）在离线网络环境外传输。
 
 ### 管理证书常见问题
 
-建议的*最小*长度为15个月。 你可以使用在15个月内过期的证书，也可以使用超过15个月后过期的证书。
+建议的 *最小* 长度为15个月。 你可以使用在15个月内过期的证书，也可以使用超过15个月后过期的证书。
 
 >[!NOTE] 
 >证书到期后，它不会自动续订。 
 
-**在15个月后，现有计算机是否会继续应用 bios 设置？**
 
-是，但仅在证书有效时对程序包本身进行签名的情况下。
+**过期证书是否会影响 SEMM 注册设备的功能？**<br><br>
+否，证书仅影响 SEMM 中的 IT 管理员管理任务，并且在设备到期时不会对设备功能产生任何影响。
 
-**Will** **SEMM 软件包和证书是否需要在所有计算机上更新？**
+
+**SEMM 软件包和证书是否需要在所有计算机上更新？**
 
 如果你希望 SEMM 重置或恢复正常工作，证书必须有效且未过期。 
 
@@ -235,6 +251,7 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 - 对 Dock 2 的 Surface Pro X 的支持
 - 对与 Dock 2 相关操作的 UEFI 管理器的支持
 - Surface Go 重置程序包 bug 修复
+- 支持将 Surface Hub 2 设备从 Windows 10 团队操作系统迁移到 Windows 10 专业版或企业版。
 
 ### 版本2.71.139。0
 
