@@ -35,7 +35,9 @@
 ### [Surface Hub Teams 应用](hub-teams-app.md)
 
 ## 管理
-### [安装 Windows 10 协同版 2020 更新预览版](surface-hub-install-2020preview.md)  
+### [迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版](surface-hub-2s-migrate-os.md)
+### [适用于 Surface Hub 2 的 Windows 10 的安装后配置](surface-hub-2-post-install.md)
+### [安装 Windows 10 协同版 2020 更新预览版本](surface-hub-install-2020preview.md)  
 ### [已知问题 - Windows 10 协同版 2020 更新](surface-hub-2020-team-update-known-issues.md)
 ### [在 Surface Hub 上安装和配置新版 Microsoft Edge](surface-hub-install-chromium-edge.md)        
 ### [使用 Microsoft Intune 管理 Surface Hub 2S](surface-hub-2s-manage-intune.md)
