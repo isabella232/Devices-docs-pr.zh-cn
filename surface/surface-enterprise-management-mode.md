@@ -14,12 +14,12 @@ manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
 ms.date: 09/01/2020
-ms.openlocfilehash: a6ea1742ab767a99e7b4868e56d081bf0016785b
-ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
+ms.openlocfilehash: 239b5e4659ff48e6c0fd9d2fca03341eadb9a27d
+ms.sourcegitcommit: 78694f3958117a339a28d3a5854908181f1b65d7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "10986324"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "10993662"
 ---
 # Microsoft Surface 企业版管理模式
 
@@ -209,10 +209,10 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 1.  在 C：驱动器上创建一个将在其中保存脚本的文件夹;例如，C:\SEMM。
 2.  将示例脚本复制到记事本或等效的文本编辑器中，并将文件另存为 PowerShell 脚本 ( ps1) 。
 3.  使用管理员凭据登录电脑，然后打开提升的 PowerShell 会话。
-4.  确保您的权限设置为 "允许脚本运行"。 默认情况下，除非修改执行策略，否则将阻止脚本运行脚本。 若要了解详细信息，请参阅关于执行策略。
+4.  确保您的权限设置为 "允许脚本运行"。 默认情况下，除非修改执行策略，否则将阻止脚本运行脚本。 若要了解详细信息，请参阅 [关于执行策略](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies)。
 5.  在命令提示符处，输入脚本的完整路径，然后按 Enter。 该脚本创建名为 TempOwner 的演示证书。
 
-或者，你可以使用 PowerShell 创建自己的自签名证书。 有关详细信息，请参阅以下 PowerShell 文档： [New-New-selfsignedcertificate] (https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate)
+或者，你可以使用 PowerShell 创建自己的自签名证书。 有关详细信息，请参阅以下 PowerShell 文档： [new-selfsignedcertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate)。
 
 
 
