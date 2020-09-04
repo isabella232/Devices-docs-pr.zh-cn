@@ -1,6 +1,6 @@
 ---
-title: 适用于 Surface Hub 2 安装后配置的 Windows 10
-description: 适用于 Surface Hub 2 安装后配置的 Windows 10
+title: 在 Surface Hub 2 上配置 Windows 10 专业版或企业版
+description: 本文包含的建议可确保使用个性化的大屏幕触摸和手写笔计算机时获得最佳体验。
 keywords: Surface Hub，Windows 10，桌面，安装，配置
 ms.prod: surface-hub
 ms.mktglfcycl: deploy
@@ -13,14 +13,14 @@ ms.audience: itpro
 author: greg-lindsay
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: d6a1cdb2cac01b48c80e0fa4b7ccb6d3bcdb76ac
-ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
+ms.openlocfilehash: 47852284c35d213b81dd7b87ca875b400d8c713f
+ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "10986385"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "10994588"
 ---
-# 适用于 Surface Hub 2 安装后配置的 Windows 10
+# 在 Surface Hub 2 上配置 Windows 10 专业版或企业版
 
 **适用于： Surface Hub 2** 
 
@@ -135,14 +135,20 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 若要将图标添加到任务栏以启用与 Windows-L 键盘快捷方式类似的触摸屏幕锁定，请执行以下操作： 
 
 1.  点击并按住或右键单击桌面，选择 "**新建**  >  **快捷方式**  >  **Browse**  >  **Desktop**  >  **"**  >  **下一步**"浏览桌面确定"。
-2.  为快捷方式提供一个名称，例如 **锁定我的 PC**，然后选择 " **完成**"。
-3.  右键单击或点击并按住桌面上新创建的快捷方式，然后选择 " **属性**"。 在 " **快捷方式** " 选项卡上，在 " **目标** " 字段中输入以下内容： **Rundll32.exe User32.dll，LockWorkStation**
-4.  选择 " **更改图标** " 按钮，浏览到 **C:\Windows\System32\imageres.dll** 并选择要使用的图标。 
-5. 请参见以下示例：
+
+1.  为快捷方式提供一个名称，例如 **锁定我的 PC**，然后选择 " **完成**"。
+
+1.  右键单击或点击并按住桌面上新创建的快捷方式，然后选择 " **属性**"。 在 " **快捷方式** " 选项卡上，在 " **目标** " 字段中输入以下内容： **Rundll32.exe User32.dll，LockWorkStation**
+
+1.  选择 " **更改图标** " 按钮，浏览到 **C:\Windows\System32\imageres.dll** 并选择要使用的图标。 
+
+    请参见以下示例：
 
     ![选择图标](images/lock.png)
-6.  选择 **"确定"** 保存快捷方式。
-7.  右键单击或点击并按住快捷方式，然后选择 " **固定到任务栏**"。
+    
+1.  选择 **"确定"** 保存快捷方式。
+
+1.  右键单击或点击并按住快捷方式，然后选择 " **固定到任务栏**"。
 
 ## 应用程序
 
@@ -158,7 +164,9 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 要安装 Microsoft 白板，请执行以下操作：
 
-1. 选择任务栏右下角的 **Windows Ink 工作区** 图标 ![ 墨迹工作区 ](images/ink.png) ，然后下载 **白板**。
+ - 选择任务栏右下角的 **Windows Ink 工作区** 图标，然后下载 **白板**。
+ 
+   ![墨迹工作区](images/ink.png) 
 
 或者，您可以从 Microsoft Store 安装白板：
 
@@ -275,9 +283,9 @@ Surface Hub 2 具有用于本地存储的 128GB SSD，因此在正常使用期�
 
 1. 搜索 **软件中心** 并将其打开。
 2. 在导航窗格中选择 " **选项** "。
-3. 展开 " **电源管理** " 部分，然后选中 " **不将 IT 部门的电源设置应用到此计算机**" 复选框。
+3. 展开 " **电源管理** " 部分，然后选择 **"不将 IT 部门的电源设置应用到此计算机"**。
 
-  ![软件设置](images/soft-cntr.png)
+   ![软件设置](images/soft-cntr.png)
 
 ### 声音设置
 
