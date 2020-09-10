@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/03/2020
+ms.date: 09/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: a114a9200a58a848f2480de965f268cee71cebae
-ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
+ms.openlocfilehash: e47ee735c0ba1cc0782c892b64d50f7e9d09f355
+ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "10994598"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "11004484"
 ---
 # 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -64,10 +64,11 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 1. 在 Surface Hub 2 主屏幕上，选择 "**开始**"，然后打开 " **SurfaceApp** (**所有应用**  >  **Surface** ") 。
 
-1. 选择 **你的图面** 以显示 surface Hub 的相关信息，包括设备上的当前版本。 如果 UEFI 版本为 **694.2938.768.0** 或更高版本，如下所示，则 UEFI 有资格创建 SEMM 程序包以启用操作系统迁移。
+2. 选择 **你的图面** 以显示 surface Hub 的相关信息，包括设备上的当前版本。 如果 UEFI 版本为 **694.2938.768.0** 或更高版本，如下所示，则 UEFI 有资格创建 SEMM 程序包以启用操作系统迁移。
 
-   ![打开见
-1. 如果 UEFI 版本早于版本6face 应用 & 选择 Surface） (图像/shm-fig1.png) 94.2938.768.0，你将需要使用 Windows 更新获取当前版本。
+    ![打开 Surface App & 选择你的 Surface](images/shm-fig1.png)
+ 
+3. 如果 UEFI 版本早于版本 **694.2938.768.0**，你将需要使用 Windows 更新获取当前版本。
 
 **要从 Windows 更新更新 UEFI，请执行以下操作：**
 1. 在 Surface Hub 2，以**管理员**身份登录，转到 "**所有应用**  >  **设置**" >  **更新和安全**  >  **Windows 更新**并安装所有更新，然后重新启动设备。 使用 Surface App 验证 UEFI 版本。 注意：如果您不知道您的用户名或管理员密码，您将需要重置设备。 若要了解详细信息，请参阅 [重置和恢复 Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset)2。
