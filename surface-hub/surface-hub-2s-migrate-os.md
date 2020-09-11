@@ -1,7 +1,7 @@
 ---
 title: 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
 description: 本文介绍从 Surface Hub 2 上的 Windows 10 团队迁移到 Windows 10 Pro 或 Windows 10 企业版的过程。
-keywords: 值之间以逗号分隔
+keywords: Surface Hub 桌面，Surface Hub
 ms.prod: surface-hub
 ms.sitesec: library
 author: greg-lindsay
@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/08/2020
+ms.date: 09/09/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: e47ee735c0ba1cc0782c892b64d50f7e9d09f355
-ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
+ms.openlocfilehash: 5431cb9c11fbcfadf0ef517164521c237fb6b3bb
+ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "11004484"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009620"
 ---
 # 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -232,7 +232,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
    ![选择 "管理 & 从 USB 安装"](images/shm-fig21.png)
    
-5. 选择 " **立即重启**"，如下所示。 设备将关闭。
+5. 选择 " **立即重启**"，如下所示。 设备将重新启动并在屏幕中间显示 "4 平方" 徽标，然后将其关闭。
 
    ![选择 "立即重启"](images/shm-fig25.png)
    
@@ -245,7 +245,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
    > [!NOTE]
    > 在设备上激活 SEMM 后，将应用新的 UEFI 设置 **EnableOSMigration** 。 你将无法再访问 Windows 10 团队，并且必须继续下一步，并安装 Windows 10 专业版或 Windows 10 企业版。 
 
-8. 设备将重新启动，在屏幕中间显示白色4方块，然后再次关闭。
+8. 设备将重新启动，在屏幕中间显示4个方形的白色徽标，然后将关闭
 
 ### 安装 Windows 10 专业版或企业版
 
@@ -253,7 +253,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 2. 设备将启动，你将在屏幕中间看到白色的4方块，然后你将在白色四个方形的徽标下方看到旋转的圆圈。
 
-3. 如果设备不会自动启动到 USB 驱动器，请关闭设备 (拔出电源线，然后再将其插入) 中，按下并释放 "电源" 按钮，然后按住 "音量" 按钮，直到看到位于白色四个正方形徽标下方的旋转圆圈。
+3. 如果设备不会自动启动到 USB 驱动器，请关闭设备 (拔出电源线，然后再将其插入) 。 重新插入电源线后，设备将在几秒钟后启动到屏幕中间的白色4方形徽标，或者按下并释放电源按钮以重新打开设备。 在屏幕中间看到4个方形的徽标后，按住音量按钮，直到看到位于白色四个方形徽标下方的旋转圆圈。
  
    ![从 USB 启动到 Windows 10](images/shm-fig26.png)
    
