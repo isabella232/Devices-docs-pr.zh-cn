@@ -12,12 +12,12 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: cbc2644d37f77b583d73ef7aeab5a96b1db4b11c
-  ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
+  ms.openlocfilehash: 6c4f039194bd9425ad00bb7cf2b4ac32ccdad6b5
+  ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 08/12/2020
-  ms.locfileid: "10926284"
+  ms.lasthandoff: 09/10/2020
+  ms.locfileid: "11009590"
 highlightedContent:
   items:
   - title: Surface 设备文档
@@ -29,45 +29,79 @@ highlightedContent:
   - title: Surface Duo文档
     itemType: learn
     url: https://docs.microsoft.com/surface-duo/index
-additionalContent:
-  sections:
-  - title: Surface 资源
-    summary: 查找 Microsoft Surface 设备的资源。
-    items:
-    - title: Surface 概述
-      links:
-      - text: 适用于企业的 Surface Go 2
-        url: https://www.microsoft.com/surface/business/surface-go-2
-      - text: '适用于企业的 Surface Book 3 '
-        url: https://www.microsoft.com/surface/business/surface-book-3
-      - text: 浏览所有 Surface 系列产品
-        url: https://www.microsoft.com/surface/business
-    - title: Surface 社区
-      links:
-      - text: Surface IT Pro 博客
-        url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
-      - text: Surface 设备技术社区
-        url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
-    - title: Surface Hub
-      links:
-      - text: 联系 Surface 支持部门
-        url: contact-surface-support.md
-  - title: Surface Hub 资源
-    summary: 查找 Microsoft Surface Hub 的资源。
-    items:
-    - title: Surface Hub 概述
-      links:
-      - text: Surface Hub 2S 的新增功能？
-        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
-      - text: Surface Hub 2S 技术规格
-        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
-      - text: 操作系统基本知识
-        url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
-    - title: Surface Hub 社区
-      links:
-      - text: Surface Hub 技术社区
-        url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
-    - title: Surface Hub 帮助
-      links:
-      - text: 联系 Surface Hub 支持部门
-        url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+conceptualContent:
+  title: Surface 设备
+  summary: 查找 Microsoft Surface 设备的资源。
+  items:
+  - title: Surface 概述
+    links:
+    - url: https://www.microsoft.com/surface/business/surface-go-2
+      itemType: concept
+      text: 适用于企业的 Surface Go 2
+    - url: https://www.microsoft.com/surface/business/surface-book-3
+      itemType: concept
+      text: '适用于企业的 Surface Book 3 '
+    - url: https://www.microsoft.com/surface/business
+      itemType: concept
+      text: 浏览所有 Surface 系列产品
+  - title: Surface Hub 概述
+    links:
+    - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
+      itemType: concept
+      text: Surface Hub 2S 的新增功能？
+    - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
+      itemType: concept
+      text: Surface Hub 2S 技术规格
+    - url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
+      itemType: concept
+      text: 操作系统基本知识
+  - title: Surface Duo 概述
+    links:
+    - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-manage
+      itemType: concept
+      text: Surface Duo 管理概述
+    - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-secure
+      itemType: concept
+      text: Surface Duo 安全性概述
+    - url: https://www.microsoft.com/surface/business/surface-duo
+      itemType: concept
+      text: Surface Duo 技术规格
+  - title: Surface 社区
+    links:
+    - url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
+      itemType: reference
+      text: Surface IT Pro 博客
+    - url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
+      itemType: reference
+      text: Surface 设备技术社区
+  - title: Surface Hub 社区
+    links:
+    - url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
+      itemType: reference
+      text: Surface Hub 技术社区
+  - title: Surface Duo 社区
+    links:
+    - url: https://aka.ms/SurfaceDuoITBlog
+      itemType: reference
+      text: Surface Duo IT Pro 博客
+  - title: Surface Hub
+    links:
+    - url: contact-surface-support.md
+      itemType: learn
+      text: 联系 Surface 支持部门
+  - title: Surface Hub 帮助
+    links:
+    - url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+      itemType: learn
+      text: 联系 Surface Hub 支持部门
+  - title: Surface Duo 帮助
+    links:
+    - url: https://docs.microsoft.com/en-us/surface/contact-surface-support
+      itemType: learn
+      text: 联系 Surface Duo 支持部门
+    - url: https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows
+      itemType: learn
+      text: 获取 Surface Duo SDK
+    - url: https://www.microsoft.com/download/details.aspx?id=100847
+      itemType: learn
+      text: 下载 Surface Duo 模拟器
