@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/09/2020
+ms.date: 09/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 5431cb9c11fbcfadf0ef517164521c237fb6b3bb
-ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
+ms.openlocfilehash: 44e7ca08ca4b8c077d430cba2a8cb4b674b68631
+ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "11009620"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013432"
 ---
 # 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -25,7 +25,7 @@ ms.locfileid: "11009620"
 Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义版本，旨在促进会议室环境轻松协作。 现在，你可以选择运行 Windows 10 专业版或企业版来使用 Surface Hub 2，与任何其他电脑非常相似。 
 
 > [!IMPORTANT]
->与典型升级或迁移不同，此过程需要遵循说明性过程，如本页所述。 请先查看 [解决方案组件](#solution-components) 和 [迁移工作流](#migration-workflow-summary) ，然后再继续。
+>与典型升级或迁移不同，此过程需要遵循说明性过程，如本页所述。 继续之前，请先查看 [解决方案组件](#solution-components) 和 [迁移和安装工作流](#migration-and-installation-workflow-summary) 。
 
 从 Windows 10 团队开始迁移，使用单独的 PC 和可下载的工具 **SURFACE UEFI 配置** 器-创建包含应用于 Surface Hub 2 的新 UEFI 设置的包。  Surface UEFI 配置器充当 Surface Enterprise 管理模式 (SEMM) 的接口，旨在促进对公司环境中 Surface 设备上的固件设置的集中管理。 若要了解有关 SEMM 的详细信息，请参阅 [Microsoft Surface 企业管理模式文档](https://docs.microsoft.com/surface/surface-enterprise-management-mode)。
  
@@ -42,7 +42,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 - 图像处理解决方案 (可选) 
 
  
-## 迁移工作流摘要
+## 迁移和安装工作流摘要
 
 | 步骤  | 操作                                                                                                 | 摘要                                                                                                                                                                                                                                                                                                                                                                                                  |
 | - | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -269,4 +269,8 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 > [!NOTE]
 >如果按照本文档中概述的步骤将设备迁移到 Windows 10 Pro 或 Enterprise for Surface Hub 2，请联系 [Surface Hub 支持](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)。
+
+### 回滚到 Windows 10 团队
+
+如果你想要将设备还原到 Windows 10 团队，请参阅[重置和恢复 Surface Hub](surface-hub-2s-recover-reset.md) 2
 

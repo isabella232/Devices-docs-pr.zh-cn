@@ -7,20 +7,26 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 09/11/2020
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 92a634e897d3e0c9163fe092aaf7992f625de991
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: cae09fa3a21fe497d021f38621085b639b15c4da
+ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830988"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013402"
 ---
 # 操作系统基本知识 (Surface Hub)
 
 Surface Hub 操作系统 Windows 10 协同版基于 Windows 10 企业版，提供了对企业管理、安全和其他功能的丰富支持。 但是，二者之间存在着重要差异。 企业版针对电脑设计，而 Windows 10 协同版针对大屏幕和会议室进行全新设计。 在评估 Surface Hub 的安全和管理要求时，最好将其视为新的操作系统。 本文旨在帮助突出显示 Surface Hub 上的 Windows 10 协同版和 Windows 10 企业版之间的关键差异，以及这些差异对你的组织的影响。
+
+从2020年9月起，客户可以选择迁移到 Windows 10 专业版或 Surface Hub 2 的企业版。 若要了解详细信息，请参阅以下内容：
+
+- [宣布 Surface Hub 2 上的 Windows 10 专业版和企业版的可用性](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107)。
+
+- [迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版](surface-hub-2s-migrate-os.md)
 
 ## 用户界面
 
@@ -132,7 +138,7 @@ Windows 10 企业版中的管理功能（例如 Microsoft 管理控制台、运�
 
 ### 远程管理和监视
 
-Surface Hub 通过移动设备管理（MDM）解决方案（如[Microsoft Intune](https://docs.microsoft.com/intune/)和通过[Azure 监视器](https://azure.microsoft.com/services/monitor/)监视）支持远程管理。 
+Surface Hub 通过移动设备管理 (MDM) 解决方案（如 [Microsoft Intune](https://docs.microsoft.com/intune/) 和通过 [Azure 监视器](https://azure.microsoft.com/services/monitor/)进行监视）支持远程管理。 
 
 *这可能影响的组织策略：* <br> Surface Hub 不支持安装大多数传统电脑管理和监视工具（例如 System Center Operations Manager）所需的 Win32 代理。
 
