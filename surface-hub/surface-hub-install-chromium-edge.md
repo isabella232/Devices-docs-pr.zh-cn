@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/10/2020
+ms.date: 09/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: fe5f76034b5b8ae4801a8fb403d6db0ed423c144
-ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
+ms.openlocfilehash: 6de949c7341f9d9bee60f808dab77770377acefc
+ms.sourcegitcommit: a64f5f375ebc0611e5735c63afd9540db0f807c4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "11009610"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013693"
 ---
 # 在 Surface Hub 上安装和配置新版 Microsoft Edge
 
@@ -24,15 +24,16 @@ Windows 10 Team 2020 更新支持基于 Chromium (85 和更高版本的新 Micro
 
 默认情况下，Surface Hub 设备预装了 Microsoft Edge 旧版 (版本 44) 。
  
-如果已安装了 Edge 开发，请完成以下步骤：
-
-1. 如果您不知道您的版本或想要确认，请打开您的 Edge 浏览器并转到 edge://version。
-2. 导航到 **Surface Hub > 设备管理**"。 在 " **预配程序包**" 下，选择 " **添加或删除预配包"。**
-3. 如果已使用早期安装程序将 Microsoft Edge 开发人员固定到 "开始" 菜单上，请从列表中单击 " **自定义开始菜单** "，然后单击 " **删除"。**
-4. 如果您使用自定义 "开始" 布局策略，则需要使用最新的边缘路径对其进行修改，如下一节中所述：在 [Surface Hub "开始" 菜单中显示 Microsoft Edge](#display-microsoft-edge-in-the-surface-hub-start-menu)。
-5. 现在，你可以预配 MicrosoftEdgeDevUninstaller ppkg。
-6. 从 **所有应用**中删除 Edge 开发人员后，请先删除 "MicrosoftEdgeDevInstaller"，然后删除 "MicrosoftEdgeDevUninstaller"。
-7. 这将成功卸载 Microsoft Edge 开发。 现在，你可以安装标准版本。
+> [!NOTE]
+> 如果已安装了 Edge 开发，请完成以下步骤：
+>
+>1. 如果您不知道您的版本或想要确认，请打开您的 Edge 浏览器并转到 edge://version。
+>2. 导航到 **Surface Hub > 设备管理**"。 在 " **预配程序包**" 下，选择 " **添加或删除预配包"。**
+>3. 如果已使用早期安装程序将 Microsoft Edge 开发人员固定到 "开始" 菜单上，请从列表中单击 " **自定义开始菜单** "，然后单击 " **删除"。**
+>4. 如果您使用自定义 "开始" 布局策略，则需要使用最新的边缘路径对其进行修改，如下一节中所述：在 [Surface Hub "开始" 菜单中显示 Microsoft Edge](#display-microsoft-edge-in-the-surface-hub-start-menu)。
+>5. 现在，你可以预配 MicrosoftEdgeDevUninstaller ppkg。
+>6. 从 **所有应用**中删除 Edge 开发人员后，请先删除 "MicrosoftEdgeDevInstaller"，然后删除 "MicrosoftEdgeDevUninstaller"。
+>7. 这将成功卸载 Microsoft Edge 开发。 现在，你可以安装标准版本。
 
  
  
@@ -40,7 +41,7 @@ Windows 10 Team 2020 更新支持基于 Chromium (85 和更高版本的新 Micro
 
 ### 使用预配包安装 Microsoft Edge
 
-1. 从电脑下载 [Microsoft Edge 预配包](https://aka.ms/HubEdge) ， (MicrosoftEdgeDevInstaller ppkg) 到 USB 驱动器的根文件夹。
+1. 从电脑下载 [Microsoft Edge 预配包](https://aka.ms/HubEdge) ， (MicrosoftEdgeInstaller ppkg) 到 USB 驱动器的根文件夹。
 2. 将 USB 驱动器插入 Surface Hub。
 3. 在 "Surface Hub" 中，打开 " **设置** "，然后在出现提示时输入管理员凭据。
 4. 导航到 **Surface Hub** > **设备管理**。 在**预配包**下，选择**添加或删除预配包**。
