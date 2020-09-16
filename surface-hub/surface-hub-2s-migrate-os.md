@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/11/2020
+ms.date: 09/15/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 44e7ca08ca4b8c077d430cba2a8cb4b674b68631
-ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
+ms.openlocfilehash: d36f42485107dd84be08c20291b36540662503da
+ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2020
-ms.locfileid: "11013432"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "11016451"
 ---
 # 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -26,6 +26,11 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 > [!IMPORTANT]
 >与典型升级或迁移不同，此过程需要遵循说明性过程，如本页所述。 继续之前，请先查看 [解决方案组件](#solution-components) 和 [迁移和安装工作流](#migration-and-installation-workflow-summary) 。
+
+
+> [!NOTE]
+> 安装 Windows 10 专业版或企业版时，你将需要与现有 Windows 10 团队许可证分开的新许可证。 
+
 
 从 Windows 10 团队开始迁移，使用单独的 PC 和可下载的工具 **SURFACE UEFI 配置** 器-创建包含应用于 Surface Hub 2 的新 UEFI 设置的包。  Surface UEFI 配置器充当 Surface Enterprise 管理模式 (SEMM) 的接口，旨在促进对公司环境中 Surface 设备上的固件设置的集中管理。 若要了解有关 SEMM 的详细信息，请参阅 [Microsoft Surface 企业管理模式文档](https://docs.microsoft.com/surface/surface-enterprise-management-mode)。
  
@@ -93,7 +98,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 - 中型企业和其他人可以选择从第三方提供商处获取证书。 对于没有足够 IT 专业知识或专门 IT 安全团队的组织，推荐使用此选项。
 
-- 或者，你可以使用以下文档的 PowerShell 脚本生成自签名证书： [Surface Enterprise 管理模式证书要求](https://docs.microsoft.com/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements)。 或使用 PowerShell 创建你自己的证书，每个文档： [new-selfsignedcertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate?view=win10-ps)。
+- 或者，你可以使用以下文档的 PowerShell 脚本生成自签名证书： [Surface Enterprise 管理模式证书要求](https://docs.microsoft.com/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements)。 或使用 PowerShell 创建你自己的证书，每个文档： [new-selfsignedcertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate)。
 
 必须使用证书对 SEMM 程序包进行保护，才能验证配置文件的签名，然后才能应用 UEFI 设置。 若要了解详细信息，请参阅 [Surface Enterprise 管理模式](https://docs.microsoft.com/surface/surface-enterprise-management-mode) 文档。
  
@@ -274,3 +279,9 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 如果你想要将设备还原到 Windows 10 团队，请参阅[重置和恢复 Surface Hub](surface-hub-2s-recover-reset.md) 2
 
+## 版本历史记录
+
+| 版本 | 日期               | 描述                                                                                           |
+| ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| 视听. 1.1  | 2020年9月15日 | 在介绍介绍安装新操作系统的许可要求中放置了其他笔记。 |
+| 视听. 1.0  | 2020年9月1日  | 新文章                                                                                           |
