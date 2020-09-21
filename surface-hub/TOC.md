@@ -37,6 +37,7 @@
 ## 管理
 ### [迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版](surface-hub-2s-migrate-os.md)
 ### [配置 Surface Hub 2 上的 Windows 10 专业版或企业版](surface-hub-2-post-install.md)
+### [适用于 Surface Hub 2 的 Windows 10 专业版和企业版的基本加载项](surface-hub-2-essential-add-ons.md)
 ### [安装 Windows 10 协同版 2020 更新预览版本](surface-hub-install-2020preview.md)  
 ### [已知问题 - Windows 10 协同版 2020 更新](surface-hub-2020-team-update-known-issues.md)
 ### [在 Surface Hub 上安装和配置新版 Microsoft Edge](surface-hub-install-chromium-edge.md)        
