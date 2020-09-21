@@ -12,15 +12,15 @@ manager: laurawi
 ms.audience: itpro
 author: greg-lindsay
 ms.author: greglin
-ms.date: 09/16/2020
+ms.date: 09/18/2020
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: d908c937c331e36f6b82f4c3c5ee213abf8a0176
-ms.sourcegitcommit: 2ac88d30b7d104d86b3bec657941457c916a116c
+ms.openlocfilehash: 24998848f16803585bc414d50e2099745943dcc7
+ms.sourcegitcommit: 13015036a3e5cb5909924d7e4289473a1572cf9d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "11026996"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "11030419"
 ---
 # 适用于 Surface Hub 2 的 Windows 10 专业版和企业版的基本加载项
 
@@ -54,6 +54,7 @@ ms.locfileid: "11026996"
 | **系统要求**          | Windows 10 专业版、Windows 10 企业版。                                                                                               |
 | **Windows 证书**       | Windows 10                                                                                                                           |
 | ** (远) 的接受率为假** | 1/1.5 万。 目前显示生物识别安全系统错误地接受未经授权用户的访问尝试的可能性。 |
+| **假拒绝率 (FRR) ** | 4.9%。 FRR 显示生物识别安全系统错误拒绝授权用户的访问尝试的可能性。 |
 
 
 > [!NOTE]
