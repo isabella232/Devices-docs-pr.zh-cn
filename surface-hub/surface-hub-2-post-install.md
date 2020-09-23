@@ -1,5 +1,5 @@
 ---
-title: 在 Surface Hub 2 上配置 Windows 10 专业版或企业版
+title: 配置 Surface Hub 2 上的 Windows 10 专业版或企业版
 description: 本文包含的建议可确保使用个性化的大屏幕触摸和手写笔计算机时获得最佳体验。
 keywords: Surface Hub，Windows 10，桌面，安装，配置
 ms.prod: surface-hub
@@ -14,16 +14,17 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: f6ea6324799981e57c36a11b33cf2e22ea80039e
-ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
+ms.date: 09/22/2020
+appliesto:
+- Surface Hub 2S
+ms.openlocfilehash: dd580a3b67ffa7c46ce823765d589fec47fadb44
+ms.sourcegitcommit: d7fe059a823b7e5f1daec447d92dac60bdd2a26e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "11004474"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "11072839"
 ---
-# 在 Surface Hub 2 上配置 Windows 10 专业版或企业版
-
-**适用于： Surface Hub 2** 
+# 配置 Surface Hub 2 上的 Windows 10 专业版或企业版
 
 完成迁移到 Windows 10 专业版或企业版的安装过程后，您可以执行以下步骤来配置 Surface Hub 2 上的应用和设置。 建议执行这些步骤，以确保使用此个性化的大屏幕触摸和笔电脑时获得最佳体验。
 
@@ -182,7 +183,7 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 3. 安装 **Surface** app。 这应该是列出的第一个应用。 你可能需要将你的 MSA 与应用商店相关联才能安装该应用。
 4. 将 **Surface** app 固定到任务栏。
 
-### 剪 & 素描
+### 截图和草图
 
 1. 打开 **截图 & "草拟** " 应用，并将其固定到任务栏。
 2. 选择右上角的省略号，然后选择 " **设置**"。
@@ -251,9 +252,8 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 1. 选择 "**开始**  >  **设置**  >  **系统**  >  **Power & 睡眠**"。
 2. 将 "电源模式" 滑块设置为 " **最佳性能**"。
-3. 将屏幕和睡眠值配置为你的首选项。
-
-### 屏幕保护程序
+3. 将屏幕和睡眠值配置为你的首选项，同时还可以对检测到移动时唤醒设备的 Doppler 状态检测进行评估。 因此，最佳做法是，建议在 **2 小时后** 将屏幕设置为关闭，并在 **4 小时后关闭电脑。**
+### 屏幕保护程序。
 
 1. 搜索 **锁屏界面** 和打开 **锁定屏幕设置**。
 2. 将 **屏幕超时设置** 和 **屏幕保护程序设置** 配置为你的首选项。
@@ -314,7 +314,7 @@ Surface Hub 2 具有用于本地存储的 128GB SSD，因此在正常使用期�
 4. 验证任务栏应用。
     - Connect 应用
     - 锁定图标
-    - 剪 & 素描
+    - 截图和草图
     - 团队 (（如果适用）) 
     - Office 应用 (（如果适用）) 
     - Surface 应用
@@ -324,12 +324,11 @@ Surface Hub 2 具有用于本地存储的 128GB SSD，因此在正常使用期�
 6. 验证投影到此电脑已通过 Connect 应用启用 (应用程序无需在连接) 之前运行。
 7. 验证电源和睡眠设置。
     - 屏幕保护程序：15分钟，设置为 (none) ，Mystify 或空白;选中 "需要密码的复选框"
-    - 屏幕：2小时
-    - 电脑：4小时
+    - 屏幕： **2 小时后关闭。**
+    - PC：  **4 小时后关闭。**
 8. 验证 Windows Hello 是否正常工作。
-9. 验证电源设置。
-10. 验证同步您的设置已禁用。
-11. 验证启动应用。
+9. 验证同步您的设置已禁用。
+10. 验证启动应用。
 
 > [!TIP]
 > 安装和配置 Windows 10 之后，Surface Hub 2 可以像管理任何其他 Windows 10 设备一样进行管理。
