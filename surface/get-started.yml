@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 5cbfeee6dee7dcb921b5cbecaaeca7b4461073dc
-  ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
+  ms.openlocfilehash: 6d3d6f4c3e9ed468f91cccf68ac3532afa3d2266
+  ms.sourcegitcommit: 3b1bc3682d0dee24149ec26cdc78d3148b8d7808
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 09/16/2020
-  ms.locfileid: "11016401"
+  ms.lasthandoff: 09/24/2020
+  ms.locfileid: "11077737"
 landingContent:
 - title: Surface 设备
   linkLists:
@@ -38,13 +38,23 @@ landingContent:
       url: surface-book-quadro.md
     - text: Surface Dock 2 中的新增功能
       url: surface-dock-whats-new.md
+- title: Microsoft Ignite
+  linkLists:
+  - linkListType: video
+    links:
+    - text: 通过 Surface & AutoPilot 进行零接触部署
+      url: https://youtu.be/WQ-wg8fRzN0
+    - text: 远程世界上 ARM 的 Surface Pro X 和 Windows
+      url: https://youtu.be/bDw77ZQNPPw
+    - text: Surface Security-从 Microsoft 到云的芯片到云新式终结点保护
+      url: https://youtu.be/uadAecDbqf4
 - title: 部署 Surface 设备
   linkLists:
   - linkListType: deploy
     links:
     - text: Autopilot 和 Surface 设备
       url: windows-autopilot-and-surface-devices.md
-    - text: 适用于 Windows 的 Surface 注册支持 Autopilot
+    - text: 适用于 Windows Autopilot 的 Surface 注册支持
       url: surface-autopilot-registration-support.md
     - text: Surface 上的 Windows 虚拟桌面
       url: windows-virtual-desktop-surface.md
@@ -78,7 +88,7 @@ landingContent:
       url: surface-enterprise-management-mode.md
     - text: Surface 部署加速器工具
       url: microsoft-surface-deployment-accelerator.md
-- title: 排除故障
+- title: 疑难解答
   linkLists:
   - linkListType: learn
     links:
