@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 031a826a8868d9452e13bb1ffc6b43eeb287f181
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: f608e18d04a0d6c48ad2990715b400c95b6d8c12
+ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934832"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "11078722"
 ---
 # Surface Hub 更新历史记录
 
@@ -30,7 +30,20 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 ## Windows 10 团队创意者更新1703
 
 <details>
-<summary>第2020版5月4日-Surface Hub 2 的更新</summary>
+<summary>2020年9月1日-Surface Hub 2 的更新</summary>
+
+此更新特定于 Surface Hub 2，并提供如下所述的驱动程序和固件更新：
+
+* 表面 SMC 固件更新-1.177.139。0
+  * 改进了字段修复方案。
+* Surface SSD 固件更新-5.14.139。0
+  * 提高系统稳定性。
+* Surface 串口集线器驱动程序-9.40.139。0
+  * 提高系统稳定性。
+</details>
+
+<details>
+<summary>2020（5月4日）更新 Surface Hub 2</summary>
 
 此更新特定于 Surface Hub 2，并提供如下所述的驱动程序和固件更新：
 
@@ -47,7 +60,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2009年2月28日-Surface Hub 2 的更新</summary>
+<summary>2020年2月28日-Surface Hub 2 的更新</summary>
 
 此更新特定于 Surface Hub 2，并提供如下所述的驱动程序和固件更新：
 
@@ -62,7 +75,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2020年2月11日-基于 KB4537765 * (OS 内部版本15063.2284 的团队更新) </summary>
+<summary>2020年2月11日-基于 KB4537765 * (操作系统内部版本15063.2284 的团队更新) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -74,7 +87,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2020年1月14日-基于 KB4534296 * (OS 内部版本15063.2254 的团队更新) </summary>
+<summary>2020年1月14日-基于 KB4534296 * (操作系统内部版本15063.2254 的团队更新) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -85,7 +98,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2019年9月24日-基于 KB4516059 * (操作系统内部版本 15063.2078) 的更新团队版更新</summary>
+<summary>2019年9月24日-基于 KB4516059 * (操作系统内部版本15063.2078 的团队更新) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -101,7 +114,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2019年8月17日-基于 KB4512474 * (OS 内部版本15063.2021 的团队更新) </summary>
+<summary>2019年8月17日-基于 KB4512474 * (操作系统内部版本15063.2021 的团队更新) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -113,7 +126,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
  </details>
 
 <details>
-<summary>2019年6月18日-基于 KB4503289 * (OS 内部版本15063.1897 的团队更新) </summary>
+<summary>2019年6月18日-基于 KB4503289 * (操作系统内部版本15063.1897 的团队更新) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -127,7 +140,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2019年5月28日-基于 KB4499162 * (OS 内部版本15063.1835 的团队更新) </summary>
+<summary>2019--基于 KB4499162 * 的更新的团队更新 (OS 内部版本 15063.1835) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -141,7 +154,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2019年4月25日-基于 KB4493436 * (OS 内部版本15063.1784 的团队更新) </summary>
+<summary>2019年4月25日-基于 KB4493436 * (操作系统内部版本15063.1784 的团队更新) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -152,7 +165,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2018日-基于 KB4467699 * 更新的团队更新 (操作系统内部版本 15063.1478) </summary>
+<summary>2018年11月27日-基于 KB4467699 * (操作系统内部版本15063.1478 的团队更新) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -447,7 +460,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2016年11月4日-基于 KB3200970 * (操作系统内部版本14393.447 的 Windows 10 团队周年纪念日版本更新) </summary>
+<summary>2016年11月4日-基于 KB3200970 * (操作系统内部版本14393.447 的团队更新) </summary>
 
 此更新到 Windows 10 团队周年纪念更新 (版本 1607) 用于 Surface Hub，包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -516,7 +529,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 ## Windows 10 版本1511更新
 
 <details>
-<summary>2016年11月4日（）更新 Windows 10 Team (版本 1511) 在 KB3198586 * (操作系统内部版本 10586.679) </summary>
+<summary>2016年11月4日-基于 KB3198586 * (操作系统内部版本10586.679 的团队更新) </summary>
 
 对 Windows 10 Team (版本 1511) 到 Surface Hub 的此更新包括在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中概括的质量改进和安全修补程序。 此更新中没有特定于 Surface Hub 的项目。
 
@@ -524,7 +537,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2016年7月12日-KB3172985 * (操作系统内部版本 10586.494) </summary>
+<summary>2016年7月12日-基于 KB3172985 * (操作系统内部版本10586.494 的团队更新) </summary>
 
 此更新包括质量改进和安全修补程序。 此更新中未引入任何新的操作系统功能。 特定于 Surface Hub 的关键更改 (那些尚未包含在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)) 中的内容，包括：
 
@@ -546,7 +559,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2016年6月14日-KB3163018 * (操作系统内部版本 10586.420) </summary>
+<summary>2016年6月14日-基于 KB3163018 * (操作系统内部版本10586.420 的团队更新) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 此更新中未引入任何新的操作系统功能。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -556,7 +569,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2016（）5月10日-KB3156421 * (操作系统内部版本 10586.318) </summary>
+<summary>2016（）-根据 KB3156421 * (操作系统内部版本10586.318 更新团队的更新) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 此更新中未引入任何新的操作系统功能。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
@@ -567,7 +580,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 </details>
 
 <details>
-<summary>2016年4月12日-KB3147458 * (操作系统内部版本 10586.218) </summary>
+<summary>2016年4月12日-基于 KB3147458 * (操作系统内部版本10586.218 的团队更新) </summary>
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 此更新中未引入任何新的操作系统功能。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 

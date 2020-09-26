@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 389db218d06f9f8d3f510e711b03487daf4e06f9
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: a031fd7fd861e5d45194ec1a8c391621a2bcb71a
+ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934862"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "11078742"
 ---
 # 使用 Intune 管理 Surface Hub 2S
 
@@ -26,10 +26,13 @@ Surface Hub 2S 支持 IT 管理员使用移动设备管理 (MDM) 提供程序管
 
 ### 手动注册
 
-1. 以本地管理员身份登录 Surface Hub 2S，然后打开“**设置**”应用。 选择“**Surface Hub**” > “**设备管理**”，然后选择 **+** 进行添加。
-2. 进行身份验证后，该设备将自动使用 Intune 进行注册。
+1. 打开 Surface Hub 2 的 " **设置** " 应用，并以本地管理员身份登录。 选择“**Surface Hub**” > “**设备管理**”，然后选择 **+** 进行添加。
+2. 系统将提示你使用要用于 Intune 的帐户登录。 进行身份验证后，该设备将自动使用 Intune 进行注册。
 
    ![使用 Intune 注册 Surface Hub 2S](images/sh2-set-intune1.png)<br>
+   
+> [!NOTE]
+> 用于身份验证的帐户将是 Intune 注册帐户，并且必须获得 Intune 许可。
 
 ### 自动注册 — 与 Azure Active Directory 关联
 

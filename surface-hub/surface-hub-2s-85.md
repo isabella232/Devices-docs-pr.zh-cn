@@ -1,5 +1,5 @@
 ---
-title: Surface Hub 2/2 85-英寸
+title: Surface Hub 2S 85 英寸
 description: 本文介绍 Surface Hub 2：85英寸。
 keywords: Surface Hub 2 85，技术规格
 ms.prod: surface-hub
@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 09/25/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 40c16aa783e0880a3d28178ed936a68d7dc49c1a
-ms.sourcegitcommit: d7fe059a823b7e5f1daec447d92dac60bdd2a26e
+ms.openlocfilehash: 149e3498b2d976b5ab090db1726d56eb2357ffc5
+ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "11072820"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "11078732"
 ---
 # Surface Hub 2 85 & 技术指标概述
 
@@ -35,7 +35,7 @@ ms.locfileid: "11072820"
 
 | 组件    | 描述                                                                                                                                                                                                                                         |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 三维        | 44.5 "x 62.8" x 3.4 "<br> (1130mm x 1595mm x 85.6 mm)                                                                                                                                                                                                         |
+| 三维        | 44.5 "x 77.1" x 3.4 "<br> (1130mm x 1959mm x 85.6 mm)                                                                                                                                                                                                         |
 | 粗细            | 185磅 (84kg)                                                                                                                                                                                                                                             |
 | 分辨率        | 3840 x 2160                                                                                                                                                                                                                                               |
 | 显示           | PixelSense™显示，16:9 纵横比，10位彩色，30.5 mm 边框宽度，防眩-IPS 液晶显示屏，具有20个同时接触点的单元格触摸                                                                                                           |
