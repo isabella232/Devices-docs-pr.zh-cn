@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: cf585626be4638539cc55ef78090dff706fbf755
-  ms.sourcegitcommit: 3766d1dd398d72e8478e5f08b6b208c6a8c25458
+  ms.openlocfilehash: 8fec6b0fdd34c196ba2e5cfcb229c16b8e340fe6
+  ms.sourcegitcommit: a71724a00e0e9626fa2e26c26fe3b30d8a99238a
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 09/24/2020
-  ms.locfileid: "11077885"
+  ms.lasthandoff: 09/28/2020
+  ms.locfileid: "11080641"
 landingContent:
 - title: 为 Surface Hub 2S 做好准备
   linkLists:
@@ -27,7 +27,7 @@ landingContent:
     links:
     - text: Surface Hub 2S 在当今混合工作区中的桥接数字和物理除法
       url: https://blogs.windows.com/devices/2020/09/22/surface-hub-2s-bridges-digital-and-physical-divide-in-todays-hybrid-workspaces/
-    - text: Surface Hub 2S 85 英寸
+    - text: Surface Hub 2S 85 英寸概述和技术规格
       url: surface-hub-2s-85.md
     - text: 公布 Surface Hub 2 上 Windows 10 专业版和企业版的可用性
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107
