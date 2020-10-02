@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 10/01/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: d1e7aa41f8219f0ae6ccd81a36fa0fc142dd1c3c
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 758cde12ea79e42630dad55b06eb50d0ab9dda12
+ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831007"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "11093125"
 ---
 # 部署、管理和维护 Surface Pro X
 
@@ -92,9 +92,8 @@ Surface Pro X 可使用 Windows 更新来简化将驱动程序和固件保持最
 - 本机 ARM64 和 Microsoft Store UWP 应用充分发挥了基于 ARM 的处理器的本机速度，同时优化了电池使用时间，从而提供了出色的用户体验。
 - 使用专为采用 ARM 处理器的 Windows 10 电脑设计的驱动程序的应用。
 
-### 不支持
-
-- x64 应用无法在采用 ARM 处理器的 Windows 10 电脑上运行。
+> [!NOTE]
+> 通过 Windows 预览体验计划即将在预览版中提供 64 位仿真功能，你将能够在 Surface Pro X 上运行 64 位 (x64) 应用程序。
 
 有关在 Surface Pro X 上运行应用的详细信息，请参阅：
 
