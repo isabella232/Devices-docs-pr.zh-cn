@@ -4,7 +4,8 @@
 
 ## 概述
 
-### [Surface Dock 2 的新增功能](surface-dock-whats-new.md)
+### [使用 Microsoft Surface 最大化 ROI](forrester-tei-study.md)
+### [Surface Dock 的新增功能](surface-dock-whats-new.md)
 ### [Surface Book 3 GPU 技术概述](surface-book-GPU-overview.md)
 ### [Surface Book 3 Quadro RTX 3000 技术概述](surface-book-quadro.md)
 ### [适用于企业的 Surface Book 3 ](https://www.microsoft.com/surface/business/surface-book-3)
