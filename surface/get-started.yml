@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Surface 设备文档
-summary: 充分利用通过云关联在一起的 Surface、Windows 和 Office 功能。
+title: Surface devices documentation
+summary: Harness the power of Surface, Windows, and Office connected together through the cloud.
 metadata:
-  title: Surface 设备文档
-  description: Microsoft Surface 设备入门
+  title: Surface devices documentation
+  description: Get started with Microsoft Surface devices
   ms.service: product-insights
   ms.topic: landing-page
   manager: laurawi
@@ -11,112 +11,112 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 6d3d6f4c3e9ed468f91cccf68ac3532afa3d2266
-  ms.sourcegitcommit: 3b1bc3682d0dee24149ec26cdc78d3148b8d7808
+  ms.openlocfilehash: 1a54d40faf9c3738bd07595b57a1c2d5a86373b4
+  ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 09/24/2020
-  ms.locfileid: "11077737"
+  ms.lasthandoff: 10/01/2020
+  ms.locfileid: "11093095"
 landingContent:
-- title: Surface 设备
+- title: Surface devices
   linkLists:
-  - linkListType: overview
+  - linkListType: whats-new
     links:
-    - text: 适用于企业的 Surface Go 2
-      url: https://www.microsoft.com/surface/business/surface-go-2
-    - text: '适用于企业的 Surface Book 3 '
-      url: https://www.microsoft.com/surface/business/surface-book-3
-    - text: 浏览所有 Surface 系列产品
+    - text: Surface Laptop Go  for Business
+      url: https://www.microsoft.com/surface/business/surface-laptop-go
+    - text: Surface Pro X for Business
+      url: https://www.microsoft.com/surface/business/surface-pro-x
+    - text: Explore all Surface family products
       url: https://www.microsoft.com/surface/business
-- title: 入门
+- title: Get started
   linkLists:
   - linkListType: get-started
     links:
-    - text: Surface Book 3 GPU 技术概述
+    - text: Surface Book 3 GPU technical overview
       url: surface-book-gpu-overview.md
-    - text: Surface Book 3 Quadro RTX 3000 技术概述
+    - text: Surface Book 3 Quadro RTX 3000 technical overview
       url: surface-book-quadro.md
-    - text: Surface Dock 2 中的新增功能
+    - text: What’s new in Surface Dock 2
       url: surface-dock-whats-new.md
 - title: Microsoft Ignite
   linkLists:
   - linkListType: video
     links:
-    - text: 通过 Surface & AutoPilot 进行零接触部署
+    - text: Zero Touch Deployment with Surface & AutoPilot
       url: https://youtu.be/WQ-wg8fRzN0
-    - text: 远程世界上 ARM 的 Surface Pro X 和 Windows
+    - text: Surface Pro X and Windows on ARM in a remote world
       url: https://youtu.be/bDw77ZQNPPw
-    - text: Surface Security-从 Microsoft 到云的芯片到云新式终结点保护
+    - text: Surface Security – Chip to Cloud Modern Endpoint Protection from Microsoft
       url: https://youtu.be/uadAecDbqf4
-- title: 部署 Surface 设备
+- title: Deploy Surface devices
   linkLists:
   - linkListType: deploy
     links:
-    - text: Autopilot 和 Surface 设备
+    - text: Autopilot and Surface devices
       url: windows-autopilot-and-surface-devices.md
-    - text: 适用于 Windows Autopilot 的 Surface 注册支持
+    - text: Surface Registration Support for Windows Autopilot
       url: surface-autopilot-registration-support.md
-    - text: Surface 上的 Windows 虚拟桌面
+    - text: Windows Virtual Desktop on Surface
       url: windows-virtual-desktop-surface.md
-- title: 管理 Surface 设备
+- title: Manage Surface devices
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: 管理和部署 Surface 驱动程序和固件更新
+    - text: Manage and deploy Surface driver and firmware updates
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Surface 设备电源设置的最佳实践
+    - text: Best practice power settings for Surface devices
       url: maintain-optimal-power-settings-on-Surface-devices.md
-    - text: 优化 Surface 设备的 WLAN 连接
+    - text: Optimize Wi-Fi connectivity for Surface devices
       url: surface-wireless-connect.md
-- title: 导出安全指导
+- title: Explore security guidance
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: '安全 Surface Dock 2 个具有 Surface Enterprise 管理模式的端口 (SEMM) '
+    - text: Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)
       url: secure-surface-dock-ports-semm.md
-    - text: Surface UEFI 设置的 Intune 管理
+    - text: Intune management of Surface UEFI settings
       url: surface-manage-dfci-guide.md
-    - text: Surface Data Eraser 工具
+    - text: Surface Data Eraser tool
       url: microsoft-surface-data-eraser.md
-- title: 了解 Surface 工具
+- title: Discover Surface tools
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: 适用于企业的 Surface 诊断工具包
+    - text: Surface Diagnostic Toolkit for Business
       url: surface-diagnostic-toolkit-for-business-intro.md
-    - text: SEMM 和 UEFI
+    - text: SEMM and UEFI
       url: surface-enterprise-management-mode.md
-    - text: Surface 部署加速器工具
+    - text: Surface Deployment Accelerator tool
       url: microsoft-surface-deployment-accelerator.md
-- title: 疑难解答
+- title: Troubleshoot
   linkLists:
   - linkListType: learn
     links:
-    - text: 热门支持解决方案
+    - text: Top support solutions
       url: support-solutions-surface.md
-    - text: 在兼容 Surface 的设备中删除 SSD 的最佳做法
+    - text: Best practices for SSD removal in compatible Surface devices
       url: surface-ssd-removal-guide.md
-    - text: Surface IT 专业人员博客
+    - text: Surface IT Pro Blog
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
-    - text: 在 Surface 修理或服务期间保护数据
+    - text: Protecting your data during Surface repair or service
       url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
-    - text: 对 Surface 扩展坞和坞站进行故障排除
+    - text: Troubleshoot Surface Dock and docking stations
       url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
-- title: 参加 Surface 社区
+- title: Participate in Surface Community
   linkLists:
   - linkListType: learn
     links:
-    - text: Surface IT Pro 博客
+    - text: Surface IT Pro blog
       url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
     - text: Surface 设备技术社区
       url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
     - text: Microsoft Mechanics Surface 视频
       url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
-- title: 需要帮助？
+- title: Need help?
   linkLists:
   - linkListType: learn
     links:
-    - text: 联系 Surface 支持部门
+    - text: Contact Surface Support
       url: contact-surface-support.md
-    - text: 适用于企业的 Surface 保修和延长服务计划
+    - text: Surface for Business warranty and extended service plans
       url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
