@@ -5,6 +5,7 @@
 ## 概述
 
 ### [使用 Microsoft Surface 最大化 ROI](forrester-tei-study.md)
+### [Microsoft Surface 教育版的总体经济影响](forrester-tei-edu-study.md)
 ### [Surface Dock 的新增功能](surface-dock-whats-new.md)
 ### [Surface Book 3 GPU 技术概述](surface-book-GPU-overview.md)
 ### [Surface Book 3 Quadro RTX 3000 技术概述](surface-book-quadro.md)
