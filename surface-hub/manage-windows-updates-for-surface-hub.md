@@ -1,26 +1,26 @@
 ---
-title: 管理 Surface Hub 上的 Windows 更新
-description: 你可以通过设置维护窗口、推迟更新或使用 Windows Server 更新服务（WSUS）来管理 Microsoft Surface Hub 或 Surface Hub 2 上的 Windows 更新。
+title: Manage Windows updates on Surface Hub
+description: You can manage Windows updates on your Microsoft Surface Hub or Surface Hub 2S by setting the maintenance window, deferring updates, or using Windows Server Update Services (WSUS).
 ms.assetid: A737BD50-2D36-4DE5-A604-55053D549045
 ms.reviewer: ''
 manager: laurawi
-keywords: 管理 Windows 更新, Surface Hub, Windows Server Update Services, WSUS
+keywords: manage Windows updates, Surface Hub, Windows Server Update Services, WSUS
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 6a2eacd2bdc8a6d5b49d6939372fcb7feb7b7b43
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 72214ec9436e6ea106d9e42c957664631ee88a0a
+ms.sourcegitcommit: f74253629aaf073b35b1af69439f76e63392c5aa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832193"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "11103786"
 ---
-# 管理 Surface Hub 上的 Windows 更新
+# Manage Windows updates on Surface Hub
 
-新版 Surface Hub 操作系统通过 Windows 更新发布，就像 Windows10 的各个版本一样。 可使用几种方法管理哪些更新安装在 Surface Hub 上以及应用更新的时间。
+New releases of the Surface Hub operating system are published through Windows Update, just like releases of Windows 10. 可使用几种方法管理哪些更新安装在 Surface Hub 上以及应用更新的时间。
 - **适用于企业的 Windows 更新** - 作为 Windows10 中的新增功能，适用于企业的 Windows 更新是一组功能，目的是在减少设备管理成本的同时，使企业可以额外控制 Windows 更新安装版本的方式和时间。 通过使用此方法，Surface Hub 直接连接到 Microsoft 的 Windows 更新服务。
 - **WindowsServer Update Services (WSUS)** - 使 IT 管理员能够获得 Windows 更新确定适用于其企业中设备的更新、对更新执行其他测试和评估，以及选择希望安装的更新。 Surface Hubs 使用此方法从 WSUS（而非 Windows 更新）接收更新。
 
@@ -45,12 +45,12 @@ ms.locfileid: "10832193"
 Surface Hub 使用 Windows10 服务模型，称为 [Windows 即服务 (WaaS)](https://docs.microsoft.com/windows/deployment/update/waas-overview)。 从传统上讲，仅在每隔几年发布的新版 Windows 中添加新功能。 在组织中部署新版本的过程耗时长且成本昂贵。 因此，最终用户和组织经常都享受不到创新带来的好处。 Windows 即服务的目标是在维持高级质量的同时，持续提供新功能。
 
 Microsoft 持续广泛发布两种类型的 Surface Hub 版本：
-- **功能更新** - 安装最新特性、体验和功能的更新。 Microsoft 预计每年发布两个新的功能更新。
-- **质量更新** - 侧重于安装安全修补程序、驱动程序和其他服务更新的更新。 Microsoft 希望每个月发布一个累积质量更新。
+- **Feature updates** - Updates that install the latest new features, experiences, and capabilities. Microsoft expects to publish two new feature updates per year.
+- **Quality updates** - Updates that focus on the installation of security fixes, drivers, and other servicing updates. Microsoft 希望每个月发布一个累积质量更新。
 
 为了改善版本质量和简化部署，Microsoft 发布的所有 Windows10 新版本（包括 Surface Hub）将累积在一起。 这意味着新功能更新和质量更新将包含所有早期版本的有效负载（采用优化的形式减少存储和网络需求），并且在设备上安装该版本将使设备保持最新。 此外，与早期版本的 Windows 不同，Windows10 质量更新内容的子集无法安装。 例如，如果质量更新包含三个安全漏洞和一个可靠性问题的修补程序，部署此更新将安装所有这四个修补程序。
 
-Surface Hub 操作系统接收[半年频道](https://docs.microsoft.com/windows/deployment/update/waas-overview#naming-changes)上的更新。 与 Windows 10 的其他版本一样，维护生存期是有限的。 必须在运行这些分支的计算机上安装新功能更新才能继续接收质量更新。
+The Surface Hub operating system receives updates on the [Semi-Annual Channel](https://docs.microsoft.com/windows/deployment/update/waas-overview#naming-changes). Like other editions of Windows 10, the servicing lifetime is finite. You must install new feature updates on machines running these branches in order to continue receiving quality updates.
 
 有关 Windows 即服务的详细信息，请参阅 [Windows 即服务概述](https://technet.microsoft.com/itpro/windows/manage/waas-overview)。
 
@@ -60,10 +60,10 @@ Surface Hub 操作系统接收[半年频道](https://docs.microsoft.com/windows/
 
 **若要设置适用于企业的 Windows 更新：**
 1. [将 Surface Hub 分组到部署圈](#group-surface-hub-into-deployment-rings)
-2. [配置 Surface Hub 接收更新的时间](#configure-when-surface-hub-receives-updates)。
+2. [Configure when Surface Hub receives updates](#configure-when-surface-hub-receives-updates).
 
 > [!NOTE]
-> 你可以使用 Microsoft Intune、Microsoft 终结点配置管理器或受支持的第三方 MDM 提供程序来设置 WUfB。 [演练：使用 Microsoft Intune 配置适用于企业的 Windows 更新。](https://docs.microsoft.com/windows/deployment/update/waas-wufb-intune)
+> You can use Microsoft Intune, Microsoft Endpoint Configuration Manager, or a supported third-party MDM provider to set up WUfB. [Walkthrough: use Microsoft Intune to configure Windows Update for Business.](https://docs.microsoft.com/windows/deployment/update/waas-wufb-intune)
 
 
 ### 将 Surface Hub 分组到部署圈
@@ -73,7 +73,7 @@ Surface Hub 操作系统接收[半年频道](https://docs.microsoft.com/windows/
 
 | 部署圈 | 圈大小 | 服务分支 | 功能更新延迟 | 质量更新延迟（安全修补程序、驱动程序和其他更新） | 验证步骤 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| 评估（例如非关键或测试设备） | 小 | Windows 预览体验计划预览 | 无。  | 无。  | 手动测试和评估新功能。 如果出现问题，请暂停更新。 |
+| 评估（例如非关键或测试设备） | Small | Windows Insider Preview | None.  | 无。  | 手动测试和评估新功能。 如果出现问题，请暂停更新。 |
 | 试用状态（例如所选团队使用的设备） | 中等 | 半年频道  | 无。 | 无。  | 监视设备使用情况和用户反馈。 如果出现问题，请暂停更新。 |
 | 广泛部署（例如组织中的大部分设备） | 大 | 半年频道 |  发布后 120 天。 | 发布后 7-14 天。 | 监视设备使用情况和用户反馈。 如果出现问题，请暂停更新。 |
 | 任务关键（例如执行会议室的设备） | 小 | 半年频道 |  发布后 180 天（功能更新的最长延迟时间）。 | 发布后 30 天（质量更新的最长延迟时间）。 | 监视设备使用情况和用户反馈。 |
@@ -114,35 +114,35 @@ Surface Hub 操作系统接收[半年频道](https://docs.microsoft.com/windows/
 
 ## 维护窗口
 
-为了确保设备在工作时间内始终可用，Surface Hub 在指定维护窗口期间执行其管理功能。 在维护窗口期间，Surface Hub 通过 Windows 更新或 WSUS 安装更新，然后在需要时重启设备。
+To ensure the device is always available for use during business hours, Surface Hub performs its administrative functions during a specified maintenance window. During the maintenance window, the Surface Hub automatically installs updates through Windows Update or WSUS, and reboots the device 20 minutes before the end of the window.
 
-Surface Hub 遵循以下应用更新的指南：
+Surface Hub follows these guidelines to apply updates:
 - 在下一个维护窗口期间安装更新。 如果计划在维护窗口期间开始会议，或者如果 Surface Hub 传感器检测到设备已在使用，则挂起的更新将推迟到下一个维护窗口。
 - 如果下一个维护窗口超过了更新预先规定的宽限期，设备将使用更新元数据中的预计安装时间在工作时间计算下一个可用槽。 如果会议已计划好，或者 Surface Hub 传感器检测到设备处于使用状态，将继续推迟更新。
-- 如果下一个维护窗口**未**超过更新的宽限期，Surface Hub 将继续推迟更新。
-- 如果需要重启，Surface Hub 将在下一个维护窗口期间自动重启。
+- If the next maintenance window is **not** past the update's grace period, the Surface Hub will continue to postpone the update.
+- If a reboot is needed, the Surface Hub will automatically reboot during the next maintenance window.
 
 > [!NOTE]
 > 首次设置 Surface Hub 时腾出更新时间。 例如，可能提供了病毒定义的积压工作，这应该立即安装。
 
-为所有新的 Surface Hub 设置默认维护窗口：
--   **开始时间：** 凌晨 3:00
--   **持续时间：** 1 小时
+A default maintenance window is set for all new Surface Hubs:
+-   **Start time:** 2:00 AM
+-   **Duration:** 2 hours
 
-**若要手动更改维护窗口：**
+**To manually change the maintenance window:**
 1.  在 Surface Hub 上，打开**设置**。
 2.  导航到**更新和安全** > **Windows 更新** > **高级选项**。
 3.  在**维护时间**下，选择**更改**。
 
-若要使用 MDM 更改维护窗口，请在 [SurfaceHub 配置服务提供程序](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)中设置 **MOMAgent** 节点。 请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)，了解详细信息。
+若要使用 MDM 更改维护窗口，请在 [SurfaceHub 配置服务提供程序](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)中设置 **MOMAgent** 节点。 See [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md) for more details.
 
 
-## 详细信息
+## More information
 
-- [博客文章：服务、外部测试版和管理 Surface Hub 的更新（当然有 Intune！）](https://blogs.technet.microsoft.com/y0av/2018/05/31/7-3/)
+- [Blog post: Servicing, Flighting, and Managing updates for Surface Hub (With Intune, of course!)](https://blogs.technet.microsoft.com/y0av/2018/05/31/7-3/)
 
 
-## 相关主题
+## Related topics
 
 [管理 Microsoft Surface Hub](manage-surface-hub.md)
 
