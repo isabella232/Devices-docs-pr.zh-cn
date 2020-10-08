@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/29/2020
+ms.date: 10/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 0c6a52d1023377f51ae6a63879e54b86db16cb9a
-ms.sourcegitcommit: 35f64110ce8e0c0b019b02023d746f648f554c1c
+ms.openlocfilehash: 0a74a082d1afe48c938fcc4780407d56cfdd121e
+ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "11088626"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11105273"
 ---
 # 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -87,7 +87,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 在单独的 PC 上：
 
-- 从 "Surface 工具" 下载 Microsoft [SURFACE UEFI 配置](https://www.microsoft.com/download/details.aspx?id=46703) 器。 Surface UEFI 配置程序不能在 Surface Hub 2-2 上运行，而是安装了 Windows 10 团队。
+- 选择 " [Surface Tools FOR IT" 页面](https://www.microsoft.com/download/details.aspx?id=46703)上的 "下载" 按钮，选择并下载 Surface UEFI 配置器。MSI 文件并将其安装在单独的 PC 上。 安装 Windows 10 团队版时，不能在 Surface Hub 2 上运行 Surface UEFI 配置器工具。
 
 - 下载 [Surface Hub 2 驱动程序和固件 Windows 安装程序。](https://www.microsoft.com/download/details.aspx?id=101974) 安装新操作系统时要应用的 MSI 文件。
 
@@ -107,6 +107,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 ### 创建 SEMM 程序包
 
 1. 安装之前下载到单独电脑的 **SURFACE UEFI 配置** 器工具。 
+
 2. 打开 **SURFACE UEFI 配置** 器，然后选择 " **开始**"。
 
    ![开放式 Surface UEFI 配置器](images/shm-fig2.png)
@@ -137,14 +138,14 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
    
 9. 设置 **UEFI 密码** ，然后选择 **"确定"**。
 
- > [!IMPORTANT]
+   > [!IMPORTANT]
    > 将密码保存在你的组织中负责管理 Surface Hub 的 IT 管理员可访问的安全位置。 如果密码丢失，则不会恢复过程。 
 
    ![输入你的 UEFI 密码](images/shm-fig9.png)
 
-10. 选择 **Surface Hub** 2-2，然后选择 " **下一步**"。
+10. 选择 " **Surface Hub**2"，然后选择 " **下一步**"。
 
-   ![选择 Surface Hub 2](images/shm-fig10.png)
+    ![选择 Surface Hub 2](images/shm-fig10.png)
    
 11. 选择**下一步** 。
 
@@ -159,7 +160,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
     ![将 "启用 OS 迁移" 设置为 "开"](images/shm-fig12.png)
 
 > [!NOTE]
-> 应用 SEMM 程序包后，所有 UEFI 设置将显示为灰色 (在设备上的 UEFI 菜单中已锁定) 。 这包括其他设置（如用于 PXE 启动的 IPv6）的默认值。 若要修改 UEFI 设置，你将需要应用另一个 SEMM 程序包或从 SEMM 取消注册设备。
+> 应用 SEMM 程序包后，所有 UEFI 设置将显示为灰色 (在设备上的 UEFI 菜单中已锁定) 。 这包括其他设置（如用于 PXE 启动的 IPv6）的默认值。 若要在完成迁移后修改 UEFI 设置，你需要应用另一个 SEMM 程序包或从 SEMM 取消注册设备。 如果你应用另一个 SEMM 包来修改 UEFI 设置，则必须使用 UEFI 配置器工具构建新的 SEMM 程序包时使用原始证书。 
 
 #### 将 SEMM 软件包保存到 USB 驱动器
 
@@ -213,10 +214,12 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 6. 在 Surface Hub 2 ( 上复制 Windows 10 专业版和企业版的 SEMM 软件包文件和驱动程序和固件。MSI 文件) 到包含 Windows 10 映像的 USB 闪存驱动器 (**BOOTME**) 的根。 BOOTME USB 驱动器包含：
 
     - Windows 10 可启动映像
+    
     - SEMM 软件包文件 (复制到 USB 驱动器的根目录) 
-        - DfciUpdate.dfi
-        - 带有 SEMM 指纹的文本文件。 此示例中的 (： SurfaceUEFI_2020Aug25_1058.txt。 自动生成的日期时间戳对应于使用 Surface UEFI 配置器创建文件的日期。 ) 
-    - Surface Hub 2 上的 Windows 10 专业版和企业版的驱动程序和固件 ( # A0) 
+    
+      - DfciUpdate.dfi
+      - 带有 SEMM 指纹的文本文件。 此示例中的 (： SurfaceUEFI_2020Aug25_1058.txt。 自动生成的日期时间戳对应于使用 Surface UEFI 配置器创建文件的日期。 ) 
+      - Surface Hub 2 上的 Windows 10 专业版和企业版的驱动程序和固件 ( # A0) 
 
 ### 更新 Surface Hub 2 的 UEFI 以启用操作系统迁移
 

@@ -8,7 +8,7 @@ ms.sitesec: library
 author: mccoybot
 ms.author: v-todmc
 ms.topic: article
-ms.date: 8/7/2020
+ms.date: 10/7/2020
 ms.reviewer: johnk
 manager: laurawi
 ms.audience: itpro
@@ -19,22 +19,22 @@ appliesto:
 ms.custom:
 - CI 121887
 - CSSTroubleshoot
-ms.openlocfilehash: 66860af06f4fad8f19ca26702350f19cc85ffef1
-ms.sourcegitcommit: bad416f04c6877f2200f134a69146bb633155f22
+ms.openlocfilehash: 00109e4e1bb3873fc2914b2044f58e6fa3b6c211
+ms.sourcegitcommit: d0a5c8fb2b37eb11858c7be4549e55c4b36d7471
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "10919221"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11104804"
 ---
 # 从兼容的 Surface 设备中删除 SSD 的最佳做法
 
 > [!IMPORTANT]
-> 本文仅供企业组织中合格的 IT 技术人员使用。 它介绍了符合条件的 IT 技术人员在具有可移动 SSDs 的 Surface 设备中删除和更换 SSDs 时使用的建议最佳做法。 
+> 本文仅供企业组织中合格的 IT 技术人员使用。 它介绍了合格的 IT 技术人员在 Surface 笔记本电脑3或 Surface Pro X 中删除和替换 SSDs 时所推荐的最佳做法。 
 
 > [!WARNING]
-> 打开设备和更换设备组件可能会带来电击、设备损坏、火灾和人身伤害风险以及其他危险。  在执行此类活动时，请务必小心。 按照[适用于企业的 RSSD 删除指南](https://www.microsoft.com/download/100440)中标识的安全预防措施和过程进行操作。 如果您无法遵循 "适用于企业的 rSSD 删除指南" 中指定的安全预防措施和过程，我们建议您获得专业帮助。
+> 打开设备和更换设备组件可能会带来电击、设备损坏、火灾和人身伤害风险以及其他危险。  在执行此类活动时，请务必小心。 按照 [适用于企业的 RSSD 删除指南](https://www.microsoft.com/download/100440)中标识的安全预防措施和过程进行操作。 如果您无法遵循 "适用于企业的 rSSD 删除指南" 中指定的安全预防措施和过程，我们建议您获得专业帮助。
 
-## 先决条件
+## 必备条件
 
 > [!IMPORTANT]
 > 本文假定你了解 "适用于企业的 rSSD 删除指南" 中介绍的常规安全预防措施和安全策略和过程。
@@ -52,21 +52,21 @@ ms.locfileid: "10919221"
 ## “管理 BitLocker” 
 
 > [!NOTE]
-> 本部分包括对硬盘启用了 BitLocker 加密的组织的建议。 有关详细信息，请参阅[BitLocker 恢复指南](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-recovery-guide-plan)。 
+> 本部分包括对硬盘启用了 BitLocker 加密的组织的建议。 有关详细信息，请参阅 [BitLocker 恢复指南](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-recovery-guide-plan)。 
 
 ### 如果在 SSD 删除和替换期间禁用 BitLocker 加密
 
 如果在 SSD 删除和替换之前可以解除对设备的加密，请按照以下步骤关闭 BitLocker：
 
-1.  在 "**设置**" 中，键入 " **bitlocker**"，然后选择 "**管理 bitlocker**"。 
-2.  选择 "**关闭 Bitlocker**"。 
+1.  在 " **设置**" 中，键入 " **bitlocker**"，然后选择 " **管理 bitlocker**"。 
+2.  选择 " **关闭 Bitlocker**"。 
 3.  关闭设备电源。 
 
 ### 如果在 SSD 删除和替换期间启用了 BitLocker 加密
 
 如果设备在 SSD 删除和替换之前已加密，请按照以下步骤生成 BitLocker 恢复密钥并将其保存到 USB 存储：
 
-1.  在 "**设置**" 中，键入**Bitlocker**。
+1.  在 " **设置**" 中，键入 **Bitlocker**。
 2. 选择 "**管理 bitlocker**  > **生成 bitlocker 恢复密钥**"。
 2.  插入 u 盘。 
 3.  将恢复密钥保存到 USB 存储。  
@@ -75,7 +75,7 @@ ms.locfileid: "10919221"
 
 ## 删除并替换 SSD 
 
-1.  使用[适用于企业的 RSSD 删除指南](https://www.microsoft.com/download/100440)中的说明删除 SSD。 
+1.  使用 [适用于企业的 RSSD 删除指南](https://www.microsoft.com/download/100440)中的说明删除 SSD。 
 2. 将原始的 SSD 放入新设备中，并将新设备连接到有线 internet 连接。
 2.  打开新设备的电源。 设备可能会在启动期间经历固件更新。  
  
@@ -91,7 +91,7 @@ ms.locfileid: "10919221"
 4.  使用密码重新登录，并在系统提示时设置 Windows Hello 和 PIN。 
     - 如果设备已禁用 BitLocker 来简化 SSD 删除和替换，并且你希望在替换后启用 bitlocker，请转到**bitlocker**  >  **管理 bitlocker**  >  **恢复 bitlocker**。  
 6.  运行适用于 Business (SDT) 的 Microsoft Surface 诊断工具包，以验证完整的设备功能。  
-7.  通过导航到 "**设置**激活" 来检查是否有 Windows 激活  >  **Activation**。  如果看到任何错误消息，请选择 "**疑难解答**"。 
+7.  通过导航到 "**设置**激活" 来检查是否有 Windows 激活  >  **Activation**。  如果看到任何错误消息，请选择 " **疑难解答**"。 
 8.  通过打开**office 应用**检查 office 帐户，导航到 "**文件**  >  **帐户**"，然后检查是否有任何错误消息。  
 
 ### 管理加密的 SSDs 
@@ -109,8 +109,8 @@ ms.locfileid: "10919221"
 6.  完全登录后，转到 "**开始**  >  **帐户**  >  **注销**"。  
 7.  使用密码重新登录，然后设置 Windows Hello 并添加 PIN 码。 
 8.  如果设备已禁用 BitLocker 以促进 SSD 删除和替换，并且如果你希望在更换后启用 bitlocker，请转到**Settings**  >  **bitlocker**  >  **管理 bitlocker**  >  **恢复 bitlocker**的设置。  
-9.  运行**SDT**以验证完整的设备功能。  
-10. 通过导航到 "**设置**激活" 检查 Windows 激活  >  **Activation**。  如果看到任何错误消息，请选择 "**疑难解答**"。
+9.  运行 **SDT** 以验证完整的设备功能。  
+10. 通过导航到 "**设置**激活" 检查 Windows 激活  >  **Activation**。  如果看到任何错误消息，请选择 " **疑难解答**"。
 11. 若要检查 office 帐户的状态，请打开**office 应用**，然后转到 "**文件**  >  **帐户**" 以检查是否有任何错误消息。
 
 ## 详细信息 
@@ -120,4 +120,4 @@ ms.locfileid: "10919221"
 - [适用于企业的 rSSD 删除指南](https://www.microsoft.com/download/100440)
 - [BitLocker 恢复指南](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-recovery-guide-plan)
 
-是否仍需要帮助？ 转到[Microsoft 社区](https://answers.microsoft.com/)。
+是否仍需要帮助？ 转到 [Microsoft 社区](https://answers.microsoft.com/)。

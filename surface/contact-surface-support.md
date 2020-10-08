@@ -7,7 +7,7 @@ ms.date: 5/27/2020
 audience: Admin
 ms.topic: article
 ms.prod: surface
-localization_priority: Normal
+localization_priority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -19,12 +19,12 @@ ms.custom:
 - CSSTroubleshoot
 ms.reviewer: mablaik
 description: Microsoft Surface 和 Surface Hub 产品的支持信息。
-ms.openlocfilehash: 37554183b4839b5e6825a8ac680336b12e213219
-ms.sourcegitcommit: edc92b4be50e6a86f4b942bf71339d97aaf3c5ab
+ms.openlocfilehash: fa86756c122814e7f90351782fc8f6f34227ae42
+ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "11094909"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11105253"
 ---
 # Surface 支持
 
@@ -39,6 +39,8 @@ ms.locfileid: "11094909"
 > [!NOTE]
 > 您需要使用您的 Microsoft 帐户或 Azure Active Directory 帐户登录到联机提交门户。  
 
+使用 " [保修和服务声明" 窗体](https://download.microsoft.com/download/2/e/0/2e00e1c2-3f49-4b6a-b605-74a0244cb88b/Warranty_and_Service_Claim_Submission_Form.xlsx)，加快您的保修和服务请求。 有关如何使用窗体的信息，请参阅 [保修和服务声明表单说明](warranty-and-service-claim-form.md) ，并将其附加到你的案例提交。
+
 对于商业客户： [提交服务请求](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d383b26c-f150-6220-8f1b-e8aa325d9727)。 
 
 对于 Microsoft Premier 客户： [在服务中心提交你的服务请求](https://serviceshub.microsoft.com/support/contactsupport)。 
@@ -52,11 +54,11 @@ ms.locfileid: "11094909"
 
 ## 中国、印度
 
-在 Surface Center 中间制作约会以帮助解决问题：
+在 Surface Walk-In Center 处创建约会以帮助解决问题：
 
-1. 转到 [Surface 中转中心联系人信息](https://support.microsoft.com/help/4498593/find-surface-walk-in-center-contact-information) 页面。 
-2. 选择您的位置，查找离您最近的 "走入" 中心。  
-3. 选择您的走入中心，并与他们联系以安排约会。
+1. 转到 " [Surface Walk-In 中心联系信息](https://support.microsoft.com/help/4498593/find-surface-walk-in-center-contact-information) " 页面。 
+2. 选择您的位置，查找离您最近的 Walk-In 中心。  
+3. 选择您的 Walk-In 中心，并与他们联系以安排约会。
 
 
 ---
