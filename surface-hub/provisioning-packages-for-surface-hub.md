@@ -87,19 +87,19 @@ ms.locfileid: "11103796"
 
 3. 为你的项目命名，然后单击**下一步**。
 
-### Configure settings
+### 配置设置
 
 <table>
-<tr><td style="width:45%" valign="top"><img src="images/one.png" alt="step one"/> <img src="images/add-certificates.png" alt="add certificates"/></br></br>To provision the device with a certificate, click <strong>Add a certificate</strong>. Enter a name for the certificate, and then browse to and select the certificate to be used.</td><td><img src="images/add-certificates-details.png" alt="add a certificate"/></td></tr> 
-<tr><td style="width:45%" valign="top"><img src="images/two.png" alt="step two"/>  <img src="images/proxy.png" alt="configure proxy settings"/></br></br>Toggle <strong>Yes</strong> or <strong>No</strong> for proxy settings. Surface Hub 的默认配置为自动检测代理设置，以便如果是你想要的设置，你可以选择<strong>否</strong>。 但是，如果你的基础结构以前需要使用代理服务器，现已更改为不需要代理服务器，你可以使用预配包将你的 Surface Hub 设备恢复为默认设置，方法是依次选择<strong>是</strong>和<strong>自动检测设置</strong>。 </br></br>如果切换为<strong>是</strong>，则可以选择自动检测代理设置，或者可以通过在设置脚本或静态代理服务器地址中输入 URL 手动配置设置。 你还可以确定是否要使用代理服务器作为本地地址，并输入例外（Surface Hub 无需使用代理服务器直接连接到的地址）。  </td><td><img src="images/proxy-details.png" alt="configure proxy settings"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/three.png" alt="step three"/>  <img src="images/set-up-device-admins.png" alt="device admins"/></br></br>你可以在 Active Directory 中注册设备并指定安全组使用设置应用，在 Azure Active Directory 中注册以允许全局管理员使用设置应用，或在该设备上创建本地管理员帐户。</br></br>在 Active Directory 中注册设备，请输入最低特权用户帐户的凭据，以将该设备加入域，并指定安全组在 Surface Hub 上拥有管理员凭据。 如果在 Active Directory 中注册设备的预配包将应用于重置的 Surface Hub，则仅当列出的帐户是域管理员或者是最初设置 Surface Hub 的同一帐户时，才能使用同一域帐户。 Otherwise, a different domain account must be used in the provisioning package.</br></br>Before you use a Windows Configuration Designer wizard to configure bulk Azure AD enrollment, <a href="https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup" data-raw-source="[set up Azure AD join in your organization](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup)">set up Azure AD join in your organization</a>. Azure AD 租户中的<strong>每个用户的最大设备数</strong>设置用于确定你在该向导中获取的批量令牌可使用的次数。 若要在 Azure AD 中注册设备，请选择该选项，并输入你要使用向导获取的批量令牌的友好名称。 Set an expiration date for the token (maximum is 30 days from the date you get the token). Click <strong>Get bulk token</strong>. In the <strong>Let&#39;s get you signed in</strong> window, enter an account that has permissions to join a device to Azure AD, and then the password. Click <strong>Accept</strong> to give Windows Configuration Designer the necessary permissions.</br></br>To create a local administrator account, select that option and enter a user name and password. </br></br><strong>Important:</strong> If you create a local account in the provisioning package, you must change the password using the <strong>Settings</strong> app every 42 days. If the password is not changed during that period, the account might be locked out and unable to sign in.  </td><td><img src="images/set-up-device-admins-details.png" alt="join Active Directory, Azure AD, or create a local admin account"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/four.png" alt="step four"/> <img src="images/enroll-mdm.png" alt="enroll in device management"/></br></br>Toggle <strong>Yes</strong> or <strong>No</strong> for enrollment in MDM. </br></br>如果切换为<strong>是</strong>，必须提供服务帐户和密码或有权注册设备的证书指纹，并指定身份验证类型。 If required by your MDM provider, also enter the URLs for the discovery service, enrollment service, and policy service. <a href="manage-settings-with-mdm-for-surface-hub.md" data-raw-source="[Learn more about managing Surface Hub with MDM.](manage-settings-with-mdm-for-surface-hub.md)">Learn more about managing Surface Hub with MDM.</a></td><td><img src="images/enroll-mdm-details.png" alt="enroll in mobile device management"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/five.png" alt="step five"/> <img src="images/add-applications.png" alt="add applications"/></br></br>You can install multiple Universal Windows Platform (UWP) apps in a provisioning package. For help with the settings, see <a href="https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps" data-raw-source="[Provision PCs with apps](https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps)">Provision PCs with apps</a>. </br></br><strong>Important:</strong> Although the wizard interface allows you to select a Classic Win32 app, only include UWP apps in a provisioning package that will be applied to Surface Hub. If you include a Classic Win32 app, provisioning will fail. </td><td><img src="images/add-applications-details.png" alt="add an application"/></td></tr>
-<tr><td style="width:45%" valign="top"><img src="images/six.png" alt="step six"/>  <img src="images/add-config-file.png" alt="Add configuration file"/></br></br>You don&#39;t configure any settings in this step. It provides instructions for including a configuration file that contains a list of device accounts. 配置文件不得包含列标题。 当将预配包应用于 Surface Hub 时，如果 Surface Hub 配置文件包含在 U 盘上，则可以从文件中选择设备帐户和友好名称。 See <a href="#sample-configuration-file" data-raw-source="[Sample configuration file](#sample-configuration-file)">Sample configuration file</a> for an example.</br></br><strong>Important:</strong> The configuration file can only be applied during the out-of-box setup experience (OOBE) and can only be used with provisioning packages created using the Windows Configuration Designer released with Windows 10, version 1703.  </td><td><img src="images/add-config-file-details.png" alt="Add a Surface Hub configuration file"/></td></tr>
-<tr><td style="width:45%" valign="top">  <img src="images/finish.png" alt="finish"/></br></br>You can set a password to protect your provisioning package. You must enter this password when you apply the provisioning package to a device.</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/one.png" alt="step one"/> <img src="images/add-certificates.png" alt="add certificates"/></br></br>若要使用证书预配设备，请单击<strong>添加证书</strong>。 输入证书的名称，然后浏览到要使用的证书并将其选中。</td><td><img src="images/add-certificates-details.png" alt="add a certificate"/></td></tr> 
+<tr><td style="width:45%" valign="top"><img src="images/two.png" alt="step two"/>  <img src="images/proxy.png" alt="configure proxy settings"/></br></br>对代理设置切换为<strong>是</strong>或<strong>否</strong>。 Surface Hub 的默认配置为自动检测代理设置，以便如果是你想要的设置，你可以选择<strong>否</strong>。 但是，如果你的基础结构以前需要使用代理服务器，现已更改为不需要代理服务器，你可以使用预配包将你的 Surface Hub 设备恢复为默认设置，方法是依次选择<strong>是</strong>和<strong>自动检测设置</strong>。 </br></br>如果切换为<strong>是</strong>，则可以选择自动检测代理设置，或者可以通过在设置脚本或静态代理服务器地址中输入 URL 手动配置设置。 你还可以确定是否要使用代理服务器作为本地地址，并输入例外（Surface Hub 无需使用代理服务器直接连接到的地址）。  </td><td><img src="images/proxy-details.png" alt="configure proxy settings"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/three.png" alt="step three"/>  <img src="images/set-up-device-admins.png" alt="device admins"/></br></br>你可以在 Active Directory 中注册设备并指定安全组使用设置应用，在 Azure Active Directory 中注册以允许全局管理员使用设置应用，或在该设备上创建本地管理员帐户。</br></br>在 Active Directory 中注册设备，请输入最低特权用户帐户的凭据，以将该设备加入域，并指定安全组在 Surface Hub 上拥有管理员凭据。 如果在 Active Directory 中注册设备的预配包将应用于重置的 Surface Hub，则仅当列出的帐户是域管理员或者是最初设置 Surface Hub 的同一帐户时，才能使用同一域帐户。 否则，必须在预配包中使用不同的域帐户。</br></br>使用 Windows 配置设计器向导配置 Azure AD 批量注册之前，请<a href="https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup" data-raw-source="[set up Azure AD join in your organization](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup)">在贵组织中设置 Azure AD 加入</a>。 Azure AD 租户中的<strong>每个用户的最大设备数</strong>设置用于确定你在该向导中获取的批量令牌可使用的次数。 若要在 Azure AD 中注册设备，请选择该选项，并输入你要使用向导获取的批量令牌的友好名称。 设置令牌的到期日期（从获取该令牌之日算起最多 30 天）。 单击<strong>获取批量令牌</strong>。 在 " <strong> 让&#39;s 登录" 窗口中 </strong> ，输入有权将设备加入 Azure AD 的帐户，然后输入密码。 单击<strong>接受</strong>以向 Windows 配置设计器提供所需的权限。</br></br>若要创建本地管理员帐户，请选择该选项，然后输入用户名和密码。 </br></br><strong>重要提示</strong>：如果在预配包中创建本地帐户，则必须每 42 天使用<strong>设置</strong>应用更改密码。 如果在此期限内未更改密码，帐户可能会被锁定而无法登录。  </td><td><img src="images/set-up-device-admins-details.png" alt="join Active Directory, Azure AD, or create a local admin account"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/four.png" alt="step four"/> <img src="images/enroll-mdm.png" alt="enroll in device management"/></br></br>对 MDM 中的注册切换为<strong>是</strong>或<strong>否</strong>。 </br></br>如果切换为<strong>是</strong>，必须提供服务帐户和密码或有权注册设备的证书指纹，并指定身份验证类型。 如果你的 MDM 提供程序要求，也请为发现服务、注册服务和策略服务输入 URL。 <a href="manage-settings-with-mdm-for-surface-hub.md" data-raw-source="[Learn more about managing Surface Hub with MDM.](manage-settings-with-mdm-for-surface-hub.md)">了解有关使用 MDM 管理 Surface Hub 的更多信息。</a></td><td><img src="images/enroll-mdm-details.png" alt="enroll in mobile device management"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/five.png" alt="step five"/> <img src="images/add-applications.png" alt="add applications"/></br></br>你可以在预配包中安装多个通用 Windows 平台 (UWP) 应用。 有关这些设置的帮助，请参阅<a href="https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps" data-raw-source="[Provision PCs with apps](https://technet.microsoft.com/itpro/windows/configure/provision-pcs-with-apps)">使用应用预配电脑</a>。 </br></br><strong>重要提示： </strong> 虽然向导界面允许你选择经典 Win32 应用，但仅在将应用于 Surface Hub 的预配包中包含 UWP 应用。 如果包括经典 Win32 应用，预配将失败。 </td><td><img src="images/add-applications-details.png" alt="add an application"/></td></tr>
+<tr><td style="width:45%" valign="top"><img src="images/six.png" alt="step six"/>  <img src="images/add-config-file.png" alt="Add configuration file"/></br></br>在此步骤中，你不会&#39;t 配置任何设置。 它提供添加包含设备帐户列表的配置文件的说明。 配置文件不得包含列标题。 当将预配包应用于 Surface Hub 时，如果 Surface Hub 配置文件包含在 U 盘上，则可以从文件中选择设备帐户和友好名称。 请参阅<a href="#sample-configuration-file" data-raw-source="[Sample configuration file](#sample-configuration-file)">样本配置文件</a>了解相关示例。</br></br><strong>重要提示： </strong> 配置文件只能在 (OOBE) 的全新设置体验期间应用，并且只能与使用 windows 10 版本1703发布的 Windows 配置设计器创建的预配程序包一起使用。  </td><td><img src="images/add-config-file-details.png" alt="Add a Surface Hub configuration file"/></td></tr>
+<tr><td style="width:45%" valign="top">  <img src="images/finish.png" alt="finish"/></br></br>你可以设置密码，以保护你的预配包。 你必须在将预配包应用到设备时输入此密码。</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
 </table>
 
-After you're done, click **Create**. 这只需几秒钟的时间。 生成该包之后，其存储位置将在页面底部显示为超链接。
+完成之后，请单击**创建**。 这只需几秒钟的时间。 生成该包之后，其存储位置将在页面底部显示为超链接。
 
 ## 示例配置文件
 
@@ -154,15 +154,15 @@ Rushmore@contoso.com,password,Rushmore Surface Hub
 
 2. 单击**高级预配**。
    
-3. Name your project and click **Next**.
+3. 为你的项目命名，然后单击**下一步**。
 
-4. Select **Common to Windows 10 Team**, click **Next**, and then click **Finish**.
+4. 选择 " **通用到 Windows 10 团队**"，单击 " **下一步**"，然后单击 " **完成**"。
 
-    ![ICD new project](images/icd-new-project.png)
+    ![ICD 新项目](images/icd-new-project.png)
 
-5. In the project, under **Available customizations**, select **Common Team settings**.
+5. 在项目中的 " **可用自定义**" 下，选择 " **常用团队设置**"。
 
-    ![ICD common settings](images/icd-common-settings.png)
+    ![ICD 常用设置](images/icd-common-settings.png)
 
 
 ### 将证书添加到程序包
@@ -189,9 +189,9 @@ Rushmore@contoso.com,password,Rushmore Surface Hub
 
 1. 在**可用自定义项**窗格中，转到**运行时设置** > **UniversalAppInstall** > **DeviceContextApp**。
 
-2. 为应用输入 **PackageFamilyName**，然后单击**添加**。 为了保持一致性，请使用应用的程序包系列名称。 If you acquired the app from the Microsoft Store for Business, you can find the package family name in the app license. Open the license file using a text editor, and use the value between the \<PFM\>...\</PFM\> tags.
+2. 为应用输入 **PackageFamilyName**，然后单击**添加**。 为了保持一致性，请使用应用的程序包系列名称。 如果已从适用于企业的 Microsoft Store 获取了该应用，可在应用许可中查找程序包系列名称。 使用文本编辑器打开许可证文件，并使用 "..." 标记之间的值。 \<PFM\> \</PFM\>
 
-3. For **ApplicationFile**, click **Browse** to find and select the target app (either an \*.appx or \*.appxbundle).
+3. 对于 **ApplicationFile**，单击**浏览**以查找并选择目标应用（\*.appx 或 \*.appxbundle）。
 
 4. 对于 **DependencyAppxFiles**，单击**浏览**，为应用查找并添加任何依赖项。 对于 Surface Hub，仅需要 x64 版本的依赖项。
 
@@ -201,9 +201,9 @@ Rushmore@contoso.com,password,Rushmore Surface Hub
 
 2. 在 ICD 的**可用自定义项**窗格中，转到**运行时设置** > **UniversalAppInstall** > **DeviceContextAppLicense**。
 
-3. 输入 **LicenseProductId**，然后单击**添加**。 为了保持一致性，请使用应用许可中的应用许可 ID。 Open the license file using a text editor. Then, in the \<License\> tag, use the value in the **LicenseID** attribute.
+3. 输入 **LicenseProductId**，然后单击**添加**。 为了保持一致性，请使用应用许可中的应用许可 ID。 使用文本编辑器打开许可文件。 然后，在 \<License\> 标记中，使用 **LicenseID** 属性中的值。
 
-4. Select the new **LicenseProductId** node. 对于 **LicenseInstall**，单击**浏览**，选择在步骤 1 中重命名的许可文件。
+4. 选择新的 **LicenseProductId** 节点。 对于 **LicenseInstall**，单击**浏览**，选择在步骤 1 中重命名的许可文件。
 
 
 ### 将策略添加到程序包
@@ -218,11 +218,11 @@ Surface Hub 支持[策略配置服务提供程序](https://msdn.microsoft.com/li
 
 ### 将 Surface Hub 设置添加到程序包 
 
-You can add settings from the [SurfaceHub configuration service provider](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx) to your provisioning package. 
+可将 [SurfaceHub 配置服务提供程序](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)中的设置添加到设置包。 
 
-1. In the **Available customizations** pane, go to **Runtime settings** > **SurfaceHub**.
+1. 在 "**可用自定义**" 窗格中，转到 "**运行时设置**  >  **SurfaceHub**"。
 
-2. Select one of the available setting areas.
+2. 选择其中一个可用的设置区域。
 
 3. 选择并设置要添加到设置包的设置。 
 
@@ -274,13 +274,13 @@ You can add settings from the [SurfaceHub configuration service provider](https:
 
 ## 将设置包应用到 Surface Hub
 
-There are two options for deploying provisioning packages to a Surface Hub. [During the first run wizard](#apply-a-provisioning-package-during-first-run), you can apply a provisioning package that installs certificates, or after the first-run program is complete, you can apply a provisioning package that configures settings, apps, and certificates by using [Settings](#apply-a-package-using-settings). 
+有两个选项可将设置包部署到 Surface Hub。 在[首次运行向导期间](#apply-a-provisioning-package-during-first-run)，你可以应用安装证书的预配包，或者在首次运行程序完成后，你可以通过使用[设置](#apply-a-package-using-settings)来应用配置设置、应用和证书的预配包。 
 
 
-### Apply a provisioning package during first run
+### 在首次运行时应用设置包
 
 > [!IMPORTANT]
-> During the first-run program, you can only use provisioning packages to install certificates. Use the **Settings** app to install apps and apply other settings.
+> 在首次运行程序中，只能使用预配程序包安装证书。 使用**设置**应用安装应用和应用其他设置。
 
 1. 第一次打开 Surface Hub 时，首次运行程序将显示[**“你好”页面**](first-run-program-surface-hub.md#first-page)。 确保设置已正确配置，然后再继续。
 

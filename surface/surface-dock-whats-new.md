@@ -1,6 +1,6 @@
 ---
-title: What’s new in Surface Dock
-description: This article highlights new features and functionality for the next generation Surface Dock.
+title: Surface Dock 中的新增功能
+description: 本文重点介绍了下一代 Surface Dock 的新增功能和功能。
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -19,116 +19,116 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 10/01/2020
 ms.locfileid: "11093135"
 ---
-# What’s new in Surface Dock 
+# Surface Dock 中的新增功能 
 
-Surface Dock 2, the next generation Surface dock, lets users connect external monitors and multiple peripherals to obtain a fully modernized desktop experience from a Surface device. Built to maximize efficiency at the office, in a flexible workspace, or at home, Surface Dock 2 features seven ports, including two front-facing USB-C ports, with 15 watts of fast charging power for phone and accessories. 
+Surface Dock 2，下一代 Surface Dock，允许用户连接外部监视器和多个外围设备，以便从 Surface 设备获取完全现代化的桌面体验。 构建为最大程度地提高 office 的效率，在灵活的工作区，或在家里，Surface Dock 2 有七个端口，包括两个前置 USB 端口，其中15瓦的电话和附件的充电功率为15瓦。 
 
-### Full device management support
+### 完整设备管理支持
 
-Surface Dock 2 is designed to simplify IT management, enabling admins to automate firmware updates using Windows Update or centralize updates with internal software distribution tools.
+Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新自动执行固件更新或使用内部软件分发工具集中更新。
 
-- Surface Enterprise Management Mode (SEMM) enables IT admins to secure ports on Surface Dock 2. For more information, see [Secure Surface Dock 2 ports with Surface Enterprise Management Mode](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999).
--  Windows Management Instrumentation (WMI) support enables IT admins to remotely monitor and manage the latest firmware, policy state, and related data across Surface Dock 2 devices. For more information, see [Manage Surface Dock 2 with WMI](surface-dock2-wmi.md).
+- Surface Enterprise 管理模式 (SEMM) 使 IT 管理员能够保护 Surface Dock 2 上的端口。 有关详细信息，请参阅 [具有 Surface Enterprise 管理模式的安全 Surface Dock 2 端口](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)。
+-  Windows Management Instrumentation (WMI) 支持使 IT 管理员能够在 Surface Dock 2 设备上远程监视和管理最新的固件、策略状态和相关数据。 有关详细信息，请参阅 [用 WMI 管理 Surface Dock 2](surface-dock2-wmi.md)。
 
-## General system requirements
+## 常规系统要求
 
-- Windows 10 version 1809. There is no support for Windows 7, Windows 8, or non-Surface host devices. Surface Dock 2 works with the following Surface devices:
+- Windows 10 版本1809。 不支持 Windows 7、Windows 8 或非 Surface 主机设备。 Surface Dock 2 与以下 Surface 设备配合使用：
 
-  - Surface Pro (5th Gen)
-  - Surface Laptop (1st Gen)
+  - Surface Pro (第5代) 
+  - Surface 笔记本电脑 (第一代) 
   - Surface Pro 6
   - Surface Book 2
   - Surface Laptop 2
   - Surface Go
   - Surface Pro 7
   - Surface Pro X 
-  - Surface Laptop 3
+  - Surface 笔记本电脑3
   - Surface Book 3
   - Surface Go 2
 
-## Surface Dock 2 Components
+## Surface Dock 2 组件
 
-![Surface Dock 2 Components](./images/surface-dock2.png)
+![Surface Dock 2 组件](./images/surface-dock2.png)
  
 ### USB
 
-- Two front facing USB-C ports.
-- Two rear facing USB-C (gen 2) ports.
-- Two rear facing USB-A ports. 
+- 两个正面朝上的 USB 端口。
+- 两个后部面向的 USB-C (第2代) 端口。
+- 两个背面的 USB-A 端口。 
 
-### Video
+### 视频
     
-- Dual 4K@60hz. Supports up to two displays on the following devices:
+- 双重4K@60hz。 在以下设备上最多支持两个显示：
 
   - Surface Book 3
   - Surface Go 2
   - Surface Pro 7
   - Surface Pro X
-  - Surface Laptop 3
+  - Surface 笔记本电脑3
 
-- Dual 4K@ 4K@30Hz. Supports up to two displays on the following devices:
+- 双 4K@ 4K@30Hz。 在以下设备上最多支持两个显示：
 
   - Surface Pro 6
-  - Surface Pro (5th Gen)
+  - Surface Pro (第5代) 
   - Surface Laptop 2
-  - Surface Laptop (1st Gen)
+  - Surface 笔记本电脑 (第一代) 
   - Surface Go
-  - Surface Book 2.
+  - Surface Book 2。
 
-### Ethernet
+### 以太网
 
-- 1 gigabit Ethernet port. 
+- 1个千兆以太网端口。 
 
-### External Power supply
+### 外部电源
 
-- 199 watts supporting 100V-240V.
-
-
-## Comparing Surface Dock 
-
-**Table 1. Surface Dock and USB-C Travel Hub**
+- 199瓦特，支持100V。
 
 
-| Component                           | Surface Dock                                                | Surface Dock 2                                                                                      | USB-C Travel Hub |
+## 比较 Surface Dock 
+
+**表 1.  Surface Dock 和 USB-C 旅游中心**
+
+
+| 组件                           | Surface 扩展坞                                                | Surface Dock 2                                                                                      | USB-C 旅游中心 |
 | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
-| Surflink                            | Yes                                                         | 是                                                                                                 | No               |
-| USB-A                               | 2 front facing USB 3.1 Gen 1<br>2 rear facing USB 3.1 Gen 1 | 2 rear facing USB 3.2 Gen 2 (7.5W power)                                                            | 1 USB 3.1 Gen 2  |
-| Mini Display port                   | 2 rear facing (DP1.2)                                       | None                                                                                                | None             |
-| USB-C                               | None                                                        | 2 front facing USB 3.2 Gen 2<br>(15W power)<br>2 rear facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5W power) | 1 USB 3.2 Gen 2  |
-| 3.5 mm Audio in/out                 | Yes                                                         | 是                                                                                                 | Yes              |
-| Ethernet                            | Yes, 1 gigabit                                              | Yes 1 gigabit                                                                                       | Yes, 1 gigabit   |
-| DC power in                         | Yes                                                         | Yes                                                                                                 |                  |
-| Kensington lock                     | Yes                                                         | Yes                                                                                                 |                  |
-| Surflink cable length               | 65cm                                                        | 80cm                                                                                                | 20cm             |
-| Surflink host power                 | 60W                                                         | 120W                                                                                                | N/A              |
-| USB load power                      | 30W                                                         | 60W                                                                                                 |                  |
-| USB bit rate                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
-| Monitor support                     | 2 x 4k @30fps, or<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps                                                                                      | 1 x 4K @ 60fps   |
-| Wake-on-LAN from Connected Standby<sup>1</sup> | Yes                                                         | Yes                                                                                                 |                  |
-| Wake-on-LAN from S4/S5 sleep modes  | No                                                          | 是                                                                                                 |          Yes        |
-| Network PXE boot                    | Yes                                                         | 是                                                                                                 |        Yes          |
-| SEMM host access control            | No                                                          | 是                                                                                                 | No               |
-| SEMM port access control<sup>2</sup>          | No                                                          | 是                                                                                                 | No               |
-| Servicing support                   | MSI                                                         | Windows Update or MSI                                                                               |                  |
+| Surflink                            | 是                                                         | 是                                                                                                 | 否               |
+| USB-A                               | 2正面朝 USB 3.1 第1代<br>2背面的 USB 3.1 第1代 | 2个后部的 USB 3.2 Gen 2 (7.5 W power)                                                             | 1个 USB 3.1 第2代  |
+| 微型显示端口                   | 2个后端 (DP 1.2)                                        | 无                                                                                                | 无             |
+| USB-C                               | 无                                                        | 2正面朝 USB 3.2 第2代<br> (15W power) <br>2个后部的 USB 3.2 第2代 (DP 1.4 a) <br> (7.5 W power)  | 1个 USB 3.2 第2代  |
+| 3.5 毫米音频 in/out                 | 是                                                         | 是                                                                                                 | 是              |
+| 以太网                            | 是，1千兆位                                              | 是1千兆位                                                                                       | 是，1千兆位   |
+| 直流电源                         | 是                                                         | 是                                                                                                 |                  |
+| Kensington 锁                     | 是                                                         | 是                                                                                                 |                  |
+| Surflink 电缆长度               | 65cm                                                        | 80cm                                                                                                | 20cm             |
+| Surflink 主机电源                 | 60W                                                         | 120W                                                                                                | 不适用              |
+| USB 加载电源                      | 30W                                                         | 60W                                                                                                 |                  |
+| USB 比特率                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
+| 监视器支持                     | 2 x 4k @30fps 或<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps                                                                                      | 1 x 4K @ 60fps   |
+| 已连接备用版1的 LAN 唤醒 <sup></sup> | 是                                                         | 是                                                                                                 |                  |
+| 来自 S4/S5 睡眠模式的 LAN 唤醒  | 否                                                          | 是                                                                                                 |          是        |
+| 网络 PXE 启动                    | 是                                                         | 是                                                                                                 |        是          |
+| SEMM 主机访问控制            | 否                                                          | 是                                                                                                 | 否               |
+| SEMM 端口访问控制 <sup> 2</sup>          | 否                                                          | 是                                                                                                 | 否               |
+| 服务支持                   | MSI                                                         | Windows 更新或 MSI                                                                               |                  |
 
  
 
 
 
-1. *Devices must be configured for Wake on LAN via Surface Enterprise Management Mode (SEMM) or Device Firmware Control Interface (DFCI) to wake from Hibernation or Power-Off states. Wake from Hibernation or Power-Off is supported on Surface Pro 7, Surface Laptop 3, Surface Pro X, Surface Book 3, and Surface Go 2.  Software license required for some features. Sold separately.*
+1. *必须通过 Surface Enterprise 管理模式将设备配置为通过 Surface Enterprise 管理模式 (SEMM) 或设备固件控制接口 (DFCI) 从休眠或断电状态唤醒。 在 Surface Pro 7、Surface 笔记本电脑3、Surface Pro X、Surface Book 3 和 Surface Go 2 上支持从休眠或关机中唤醒。  某些功能所需的软件许可证。 单独出售。*
 
-2. *Software license required for some features. Sold separately.*
+2. *某些功能所需的软件许可证。 单独出售。*
 
-## Streamlined device management
+## 简化的设备管理
 
-Surface has released streamlined management functionality via Windows Update enabling IT admins to utilize the following enterprise-grade features:
+Surface 通过 Windows 更新发布了简化的管理功能，使 IT 管理员能够利用以下企业级功能：
 
-- **Frictionless updates**. Update your docks silently and automatically, with Windows Update or Microsoft Endpoint Configuration Manager, (formerly System Center Configuration Manager - SCCM) or other MSI deployment tools. 
-- **Wake from the network**. Manage and access corporate devices without depending on users to keep their devices powered on. Even when a docked device is in sleep, hibernation, or power off mode, your team can wake from the network for service and management, using Endpoint Configuration Manager or other enterprise management tools.
-- **Centralized IT control**. Control who can connect to Surface Dock 2 by turning ports on and off. Restrict which host devices can be used with Surface Dock 2. Limit dock access to a single user or configure docks so they can only be accessed by specific users in your team or across the entire company.
+- **Frictionless 更新**。 通过 Windows Update 或 Microsoft 终结点配置管理器自动更新您的坞站， (以前的 System Center Configuration Manager-SCCM) 或其他 MSI 部署工具。 
+- **从网络唤醒**。 管理和访问公司设备，而无需依靠用户让设备保持打开状态。 即使固定设备处于睡眠、休眠或关机模式，你的团队也可以使用终结点配置管理器或其他企业管理工具，从网络进行服务和管理。
+- **集中式 IT 控制**。 通过打开和关闭端口控制哪些人可以连接到 Surface Dock 2。 限制可以与 Surface Dock 2 配合使用的主机设备。 限制对单个用户的停靠访问权限或配置停靠，以便仅由团队中的特定用户或整个公司访问。
 
-## Next steps
+## 后续步骤
 
-- [Secure Surface Dock 2 ports with Surface Enterprise Management Mode](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
-- [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
-- [Best practice power settings for Surface devices](maintain-optimal-power-settings-on-Surface-devices.md)
+- [安全 Surface Dock 2 个具有 Surface Enterprise 管理模式的端口](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
+- [Surface 企业管理模式](surface-enterprise-management-mode.md)
+- [Surface 设备电源设置的最佳实践](maintain-optimal-power-settings-on-Surface-devices.md)
