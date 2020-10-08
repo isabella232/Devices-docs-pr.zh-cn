@@ -55,16 +55,16 @@ ms.locfileid: "10903391"
 1.  <span data-ttu-id="1add0-118">下载最新版本的[SURFACE UEFI 配置](https://www.microsoft.com/download/confirmation.aspx?id=46703)器。</span><span class="sxs-lookup"><span data-stu-id="1add0-118">Download the latest version of [Surface UEFI Configurator](https://www.microsoft.com/download/confirmation.aspx?id=46703).</span></span>
 2.  <span data-ttu-id="1add0-119">以管理员身份登录 Surface 设备，打开**SURFACE UEFI 配置**器，选择 " **Surface 设备**"，然后选择 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="1add0-119">Sign in to your Surface device as an administrator, open **Surface UEFI Configurator**, select **Surface Devices**, and then select **Next**.</span></span>
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="选择 "Surface 设备"，然后选择 "下一步"。":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="选择 &quot;Surface 设备&quot;，然后选择 &quot;下一步&quot;。":::
 3.  <span data-ttu-id="1add0-121">选择 "**开始**"，然后选择 "**配置程序包**" 下的 "**创建**"。</span><span class="sxs-lookup"><span data-stu-id="1add0-121">Select **Start**, and then select **Create** under **Configuration Package**.</span></span>
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="选择 "创建配置包"。":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="选择 &quot;Surface 设备&quot;，然后选择 &quot;下一步&quot;。":::
 4.  <span data-ttu-id="1add0-123">选择 "**证书保护**"，然后添加证书 .pfx 文件。</span><span class="sxs-lookup"><span data-stu-id="1add0-123">Select **Certificate Protection**, and add your certificate .pfx file.</span></span> 
 5. <span data-ttu-id="1add0-124">输入您的密码，选择 "**下一步**，根据需要添加**密码保护**"，然后选择 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="1add0-124">Enter your password, select **Next**, add **Password Protection**, as appropriate, and then select **Next**.</span></span>
 6.  <span data-ttu-id="1add0-125">在 "**选择要作为目标的图面类型**" 页面上，根据需要选择目标设备。</span><span class="sxs-lookup"><span data-stu-id="1add0-125">On the **Choose which Surface type you want to target** page, select your target devices as appropriate.</span></span> <span data-ttu-id="1add0-126">例如，选择**Surface Pro 7**。</span><span class="sxs-lookup"><span data-stu-id="1add0-126">For example, select **Surface Pro 7**.</span></span>
 7.  <span data-ttu-id="1add0-127">在 "**高级功能**" 页面上，选择 " **Power on Power**"，将功能设置为 **"打开**"，然后选择 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="1add0-127">On the **Advanced Features** page, select **Wake on Power**, set the feature to **On**, and then select **Next**.</span></span>
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="选择 "接通电源时唤醒"，并设置为 "开"。"::: 
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="选择 &quot;Surface 设备&quot;，然后选择 &quot;下一步&quot;。"::: 
 8.  <span data-ttu-id="1add0-129">在 "**成功**" 页面上，选择 "**结束**"。</span><span class="sxs-lookup"><span data-stu-id="1add0-129">On the **Successful** page, select **End**.</span></span>
 
     > [!NOTE]
@@ -83,10 +83,10 @@ ms.locfileid: "10903391"
 
 2.  <span data-ttu-id="1add0-136">在 "**警告**" 对话框中，根据需要选择 **"确定" 或 "** 禁用 BitLocker"。</span><span class="sxs-lookup"><span data-stu-id="1add0-136">In the **Warning** dialog box, select **OK** or disable BitLocker, as appropriate.</span></span>
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="根据需要选择 "确定" 或 "禁用 BitLocker"。":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="选择 &quot;Surface 设备&quot;，然后选择 &quot;下一步&quot;。":::
 3.  <span data-ttu-id="1add0-138">在 "欢迎" 页面上，选择 "**下一步**" 以运行程序包并应用新配置的 UEFI 设置。</span><span class="sxs-lookup"><span data-stu-id="1add0-138">On the Welcome page, select **Next** to run the package and apply the newly configured UEFI setting.</span></span>
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="一个欢迎页面，选择 "下一步"。":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="选择 &quot;Surface 设备&quot;，然后选择 &quot;下一步&quot;。":::
 4.  <span data-ttu-id="1add0-140">重启您的设备。</span><span class="sxs-lookup"><span data-stu-id="1add0-140">Restart your device.</span></span> 
 
 <span data-ttu-id="1add0-141">现已配置 Power on Power。</span><span class="sxs-lookup"><span data-stu-id="1add0-141">Wake on Power is now configured.</span></span> <span data-ttu-id="1add0-142">要测试设置，请关闭您的设备，断开电源，然后重新连接电源。</span><span class="sxs-lookup"><span data-stu-id="1add0-142">To test the settings, turn off your device, disconnect the power, and then reconnect the power.</span></span> <span data-ttu-id="1add0-143">设备应自动启动。</span><span class="sxs-lookup"><span data-stu-id="1add0-143">The device should start automatically.</span></span> 
