@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: a031fd7fd861e5d45194ec1a8c391621a2bcb71a
-ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
+ms.openlocfilehash: 2fafca4a8f19da72d1584c02cbebe1ce3c03adde
+ms.sourcegitcommit: a16c75f4e81c48e2d0e3ec45430af0939e4feaa2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "11078742"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "11105938"
 ---
 # 使用 Intune 管理 Surface Hub 2S
 
@@ -92,19 +92,25 @@ Microsoft 通常会在每个新版本的 Windows 10 操作系统中提供新的 
 > [!NOTE]
 > 两张表都显示了默认端口范围。 管理员可以在 Skype for Business 和 Teams 控制面板中更改端口范围。
 
-## Microsoft Teams 模式设置
+## Microsoft 团队设置
 
-可以使用 Intune 设置 Microsoft Teams 应用的模式。 Surface Hub 2S 安装时附带模式 0 的 Microsoft Teams，该模式同时支持 Microsoft Teams 和 Skype for Business。 可按如下所示调整模式。
+你可以使用 Intune 配置各种 Microsoft 团队设置。
 
-### 模式：
+### 模型
+
+Surface Hub 2S 安装时附带模式 0 的 Microsoft Teams，该模式同时支持 Microsoft Teams 和 Skype for Business。 模式的功能如下所述：
 
 - 模式 0 — 具有 Microsoft Teams 计划会议功能的 Skype for Business。
 - 模式 1 — 具有 Skype for Business 计划会议功能的 Microsoft Teams。
 - 模式 2 — 仅 Microsoft Teams。
 
-若要设置模式，请将以下设置添加至设备配置文件。
+若要调整模式，请将以下设置添加到 [自定义设备配置文件](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)。
 
 | 名称 | 描述 | OMA-URI | 类型 | 值 |
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams 应用 ID**|应用名称|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|字符串| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Teams 应用模式**|Teams 模式|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|整型| 0 或 1 或 2|
+
+### 协调的会议和邻近感应联接
+
+团队协调会议和邻近感应联接功能可以通过 Intune 档案部署 [的 XML 文件进行配置](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) 。
