@@ -8,26 +8,26 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 758cde12ea79e42630dad55b06eb50d0ab9dda12
-ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
+ms.openlocfilehash: 202818488f19c82ba9d08cfcbfcd091e3e8b7bf6
+ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "11093125"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "11105837"
 ---
 # 部署、管理和维护 Surface Pro X
 
 ## 简介
 
-Surface Pro X 专为满足高性能商业要求而构建，集成了在 ARM 设备上发布的功能强大的处理器（即 Microsoft SQ1 ARM 芯片集），实现了新的突破。
+Surface Pro X 专为满足高性能商业要求而构建，集成了在同类中功能最强大的处理器（即 Microsoft SQ1 和 Microsoft SQ1 ARM 芯片集），实现了新的突破。
 
-Surface Pro X 由 3 GHz CPU 和 2.1 万亿次浮点运算 GPU 提供支持，可提供完整的 Windows 体验。 其具有 13 小时的电池使用时间并内置 4G LTE，非常适合金融、法律和医疗领域的移动一线工作人员和专业人员，或者需要更长的电池使用时间和连续连接能力的任何角色。
+Surface Pro X 由 3 GHz CPU 和 2.1 万亿次浮点运算 GPU 提供支持，可提供完整的 Windows 体验。 其具有 15 小时的电池使用时间、内置千兆 LTE 并兼有触控、手写笔、平板电脑和笔记本电脑功能，非常适合金融、法律和医疗领域的移动一线工作人员和专业人员，或者需要更长的电池使用时间和连续连接能力的任何角色。
 
-Surface Pro X 几乎专为围绕 Microsoft 365、Intune 和 Windows Autopilot 且基于云的现代环境而设计。 本文重点介绍了 Surface Pro X 的外观，并概述了部署、管理和维护 Surface Pro X 的主要注意事项。
+Surface Pro X 几乎专为基于云的现代环境而设计，搭配 Microsoft 365、Intune 和 Windows Autopilot 时效果最佳。 本文重点介绍了 Surface Pro X 的外观，并概述了部署、管理和维护 Surface Pro X 的主要注意事项。
 
 ## 部署 Surface Pro X
 
@@ -42,7 +42,7 @@ Autopilot 部署具有以下几个优点：为你提供出厂设置好的操作�
 
 ## 基于映像的部署注意事项
 
-Microsoft Deployment Toolkit (MDT) 和 Microsoft Endpoint Configuration Manager（以前称为 System Center Configuration Manager）当前不支持 Surface Pro X 的操作系统部署。 依赖基于映像的部署的客户在评估过渡到云的正确时间时，应考虑采用 Surface Pro 7。
+Microsoft Deployment Toolkit (MDT) 和 Microsoft Endpoint Configuration Manager（以前称为 System Center Configuration Manager）当前不支持 Surface Pro X 的操作系统部署。 依赖基于映像的部署的客户在评估过渡到现代部署解决方案的正确时间时，应考虑采用 Surface Pro 7。 
 
 ## 管理 Surface Pro X 设备
 
@@ -68,7 +68,7 @@ Microsoft Deployment Toolkit (MDT) 和 Microsoft Endpoint Configuration Manager�
 
 ## 维护 Surface Pro X
 
-Surface Pro X 支持 Windows 10 版本 1903 和更高版本。 作为一台基于 ARM 的设备，它对于保持最新的驱动程序和固件有着特定要求。 
+Surface Pro X 随附 Windows 10 版本 2004 并支持 Windows 10 版本 1903 及更高版本。 作为一台基于 ARM 的设备，它对于保持最新的驱动程序和固件有着特定要求。 
 
 Surface Pro X 可使用 Windows 更新来简化将驱动程序和固件保持最新的过程，这对家庭用户和小型企业用户均适用。 使用默认设置接收自动更新。  如需进行验证，请执行以下步骤：
 
@@ -78,7 +78,6 @@ Surface Pro X 可使用 Windows 更新来简化将驱动程序和固件保持最
 ### 针对商业客户的建议
 
 - 使用 Windows 更新或适用于企业的 Windows 更新来维护最新的驱动程序和固件。 有关详细信息，请参阅[使用适用于企业的 Windows 更新部署更新](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)。
-- 如果此过程需要使用 Windows Installer .msi 文件，请联系[商用 Surface 支持](https://support.microsoft.com/help/4037645)。 
 - 有关部署和管理 Surface 设备更新的更多信息，参见“[管理和部署 Surface 驱动程序和固件更新](manage-surface-driver-and-firmware-updates.md)”。
 - 请注意，Windows Server Update Services (WSUS) 不支持向 Surface Pro X 提供驱动程序和固件。
 
@@ -95,6 +94,11 @@ Surface Pro X 可使用 Windows 更新来简化将驱动程序和固件保持最
 > [!NOTE]
 > 通过 Windows 预览体验计划即将在预览版中提供 64 位仿真功能，你将能够在 Surface Pro X 上运行 64 位 (x64) 应用程序。
 
+### FastTrack 应用保证 
+
+应用保证计划适用于商业客户的 LOB、ISV 和面向基于 ARM 的 Windows 10 的 Microsoft 第一方应用。 如果商业客户使用基于 ARM 的 Windows 10 时遇到应用兼容性问题，Microsoft 将提供开发人员资源，无需额外付费即可对应用修正进行疑难解答并提供帮助。 若要了解详细信息，请访问 aka.ms/AppAssure
+
+
 有关在 Surface Pro X 上运行应用的详细信息，请参阅：
 
 - [基于 ARM 的 Windows 10 电脑支持常见问题解答](https://support.microsoft.com/help/4521606)
@@ -109,7 +113,7 @@ Windows 虚拟桌面允许从任何位置访问 Windows 桌面、应用程序和
 很多热门浏览器在 Surface Pro X 上运行：
 
 - 设备自带的 Edge、Firefox、Chrome 和 Internet Explorer 均可在 Surface Pro X 上运行。
-- 设备自带的 Edge 和 Firefox 均在本机运行，因此在采用 ARM 处理器的 Windows 10 电脑上性能有所增强。
+- 基于 Chromium 的 Firefox 和 Microsoft Edge 均在本机运行，因此在采用 ARM 处理器的 Windows 10 电脑上性能有所增强。
 
 ## 安装和使用 Microsoft Office
 
@@ -122,44 +126,57 @@ Windows 虚拟桌面允许从任何位置访问 Windows 桌面、应用程序和
 
 如需确认特定的第三方 VPN 是否支持采用 ARM 处理器的 Windows 10 电脑，请联系 VPN 提供商。
 
-## 主要功能比较
+## 功能摘要
 
-下表展示了所选关键功能在 Surface Pro X（采用基于 ARM 的 Windows 10 系统）与 Surface Pro 7（采用 Intel 处理器）上的可用性。
-
-| 部署                              | Surface Pro 7 | Surface Pro X | 注释                                                                                                                           |
-| --------------------------------------- | ------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Windows Autopilot                       | 是           | 是           |                                                                                                                                 |
-| 支持网络启动 (PXE)          | 是           | 否           |                                                                                                                                 |
-| Windows 配置设计器          | 是           | 否            | 不建议用于 Surface Pro X。                                                                                              |
-| WinPE                                   | 是           | 是           | 不建议用于 Surface Pro X。Microsoft 不提供 Surface Pro X 支持 WinPE 所需的 .ISO 和驱动程序。 |
-| Endpoint Configuration Manager：操作系统部署 (OSD) | 是           | 否            | 在 Surface Pro X 上不支持。                                                                                              |
-| MDT                                     | 是           | 否            | 在 Surface Pro X 上不支持。                                                                                              |
+下表展示了所选关键功能在 Surface Pro X（采用基于 ARM 的 Windows 10 系统）上的可用性。
 
 
-| 管理                                    | Surface Pro 7       | Surface Pro X | 注释                                                                                 |
-| --------------------------------------------- | ------------------- | ------------- | ------------------------------------------------------------------------------------- |
-| Intune                                        | 是                 | 是           | 使用 eSIM 配置文件管理 LTE。                                                        |
-| Windows Autopilot                             | 是                 | 是           |                                                                                       |
-| Azure AD（联合管理）                      | 是                 | 是           | 将 Surface Pro X 加入到 Azure AD 或 Active Directory（混合 Azure AD 联接）的功能。 |
-| Endpoint Configuration Manager                                          | 是               | 是           |                                                                                       |
-| 当 AC 恢复时开机                      | 是                 | 是           |                                                                                   |
-| 适用于企业的 Surface 诊断工具包 (SDT) | 是                 | 是           |                                                                                   |
-| Surface Dock 固件更新                  | 是                 | 否           |                                                                                   |
-| 资产标记实用工具                             | 是                 | 是           |                                                                                   |
-| Surface 企业管理模式 (SEMM)     | 是 | 部分       | 不支持在固件级别禁用 Surface Pro X 上的硬件。                 |
-| Surface UEFI 配置器                     | 是 |   否            | 不支持在固件级别 禁用 Surface Pro X 上的硬件。                |
-| Surface UEFI 管理器                          | 是 | 部分       | 不支持在固件级别禁用 Surface Pro X 上的硬件。                 |
+**部署**
+
+| 功能                                                           | 是/否 | 注释                                                                                                                             |
+| ----------------------------------------------------------------- | --- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Windows Autopilot                                                 | 是 |                                                                                                                                   |
+| 支持网络启动 (PXE)                                    | 否  |                                                                                                                                   |
+| Windows 配置设计器                                    | 否  | 不建议用于 Surface Pro X。                                                                                                |
+| WinPE                                                             | 是 | 不建议用于 Surface Pro X。Microsoft 不提供 Surface Pro X 支持 WinPE 所需的 .ISO 和驱动程序。 |
+| Endpoint Configuration Manager：操作系统部署 (OSD) | 否  | 在 Surface Pro X 上不支持。                                                                                                   |
+| MDT                                                               | 否  | 在 Surface Pro X 上不支持。                                                                                                   |
+
+ 
+ 
+ **管理**
+ 
+
+| 功能                                       | 是/否     | 注释                                                                                 |
+| --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| Intune                                        | 是     | 使用 eSIM 配置文件管理 LTE。                                                        |
+| Windows Autopilot                             | 是     |                                                                                       |
+| Azure AD（联合管理）                      | 是     | 将 Surface Pro X 加入到 Azure AD 或 Active Directory（混合 Azure AD 联接）的功能。 |
+| Endpoint Configuration Manager                | 是     |                                                                                       |
+| 当 AC 恢复时开机                      | 是     |                                                                                       |
+| 适用于企业的 Surface 诊断工具包 (SDT) | 是     |                                                                                       |
+| Surface 资产标记工具                        | 是     |                                                                                       |
+| Surface 企业管理模式 (SEMM)     | 部分 | 不支持在固件级别禁用 Surface Pro X 上的硬件。                 |
+| Surface UEFI 配置器                     | 否      | 不支持在固件级别 禁用 Surface Pro X 上的硬件。                |
+| Surface UEFI 管理器                          | 部分 | 不支持在固件级别禁用 Surface Pro X 上的硬件。                 |
+
+ 
+
+**安全性**
+ 
+
+ 功能                                       | 是/否     | 注释                                                                                 |
+| --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| BitLocker                                     | 是     |                                                       |
+| Windows Defender                              | 是     |                                                                                       |
+| 支持第三方防病毒程序             | 查看说明| 某些第三方防病毒软件无法安装到采用 ARM 处理器的 Windows 10 电脑。 与第三方防病毒软件提供商的协作仍在继续，以确保 AV 应用在基于 ARM 的电脑上的就绪度。 请联系你的防病毒软件提供商，了解其应用何时可用。 |
+| 安全启动               | 是     |                                                                                       |
+| Windows 信息保护                      | 是     |                                                                                       |
+| Surface Data Eraser (SDE)     | 是     |                                                                                       |
 
 
-| 安全性                          | Surface Pro 7 | Surface Pro X | 注释                                                                                                                                                                                                                                                                                                                                                |
-| --------------------------------- | ------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BitLocker                         | 是           | 是           |                                                                                                                                                                                                                                                                                                                                                      |
-| Windows Defender                  | 是           | 是           |                                                                                                                                                                                                                                                                                                                                                      |
-| 支持第三方防病毒程序 | 是           | 查看说明      |某些第三方防病毒软件无法安装到采用 ARM 处理器的 Windows 10 电脑。 与第三方防病毒软件提供商的协作仍在继续，以确保 AV 应用在基于 ARM 的电脑上的就绪度。 请联系你的防病毒软件提供商，了解其应用何时可用。 |
-| 条件访问                | 是           | 是           |                                                                                                                                                                                                                                                                                                                                                      |
-| 安全启动                       | 是           | 是           |                                                                                                                                                                                                                                                                                                                                                      |
-| Windows 信息保护    | 是           | 是           |                                                                                                                                                                                                                                                                                                                                                      |
-| Surface Data Eraser (SDE)         | 是           | 是           |                                                                                                                                                                                                                                                                                                                                                     
+
+
 ## 常见问题
 
 ### 我能否使用 MDT 或 Endpoint Configuration Manager 部署 Surface Pro X？
@@ -172,7 +189,7 @@ Microsoft Deployment Toolkit (MDT) 和 Microsoft Endpoint Configuration Manager 
 
 ### BMR 是否可用？
 
-是。
+是的，请参阅 [为 Surface 下载恢复映像](https://support.microsoft.com/surfacerecoveryimage)。
 
 ### 是否必须使用 Intune 来管理 Surface Pro X？
 
