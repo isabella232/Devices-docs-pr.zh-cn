@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/09/2020
+ms.date: 10/12/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 202818488f19c82ba9d08cfcbfcd091e3e8b7bf6
-ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
+ms.openlocfilehash: 7d82a24126798c20f11c51074f6099e1363c257f
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "11105837"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114620"
 ---
 # 部署、管理和维护 Surface Pro X
 
@@ -96,8 +96,7 @@ Surface Pro X 可使用 Windows 更新来简化将驱动程序和固件保持最
 
 ### FastTrack 应用保证 
 
-应用保证计划适用于商业客户的 LOB、ISV 和面向基于 ARM 的 Windows 10 的 Microsoft 第一方应用。 如果商业客户使用基于 ARM 的 Windows 10 时遇到应用兼容性问题，Microsoft 将提供开发人员资源，无需额外付费即可对应用修正进行疑难解答并提供帮助。 若要了解详细信息，请访问 aka.ms/AppAssure
-
+应用保证计划适用于商业客户的 LOB、ISV 和面向基于 ARM 的 Windows 10 的 Microsoft 第一方应用。 如果商业客户使用基于 ARM 的 Windows 10 时遇到应用兼容性问题，Microsoft 将提供开发人员资源，无需额外付费即可对应用修正进行疑难解答并提供帮助。 若要了解详细信息，请访问 [aka.ms/AppAssure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure)。
 
 有关在 Surface Pro X 上运行应用的详细信息，请参阅：
 
