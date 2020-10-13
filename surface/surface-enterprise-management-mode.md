@@ -13,20 +13,20 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 09/01/2020
-ms.openlocfilehash: 239b5e4659ff48e6c0fd9d2fca03341eadb9a27d
-ms.sourcegitcommit: 78694f3958117a339a28d3a5854908181f1b65d7
+ms.date: 10/12/2020
+ms.openlocfilehash: 463759d2dd01b9333d10a66c1781055f4a5217ac
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "10993662"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114640"
 ---
 # Microsoft Surface 企业版管理模式
 
 Microsoft Surface 企业管理模式 (SEMM) 是具有 Surface UEFI 的 Surface 设备的一种功能，可用于保护和管理组织内的固件设置。 通过 SEMM，IT 专业人员可以准备 UEFI 设置的配置，并将其安装在 Surface 设备上。 除了配置 UEFI 设置之外，SEMM 还使用证书来保护配置免遭未经授权的篡改或删除。 SEMM 是必须能够将 Surface Hub 2 迁移到 Windows 10 专业版和企业版的要求。
 
 >[!NOTE]
->SEMM 仅在具有 Surface UEFI 固件的设备上可用。 这包括大多数其他 Surface 设备，包括 Surface Pro 7、Surface Pro X、Surface Hub 2 和 Surface 膝上型3商业 Sku 与英特尔处理器。 SEMM 不支持在 15 "Surface 笔记本电脑 3 SKU 上使用 AMD 处理器， (仅供零售 SKU) 使用。 
+>SEMM 仅在具有 Surface UEFI 固件的设备上可用。 这包括大多数其他 Surface 设备，包括 Surface Pro 7、Surface Pro X、Surface Hub 2 和 Surface devices 3 商业 Sku （带有 Intel 处理器）和 Surface 膝上型电脑。 SEMM 不支持在 15 "Surface 笔记本电脑 3 SKU 上使用 AMD 处理器， (仅供零售 SKU) 使用。 
 
 当 Surface 设备由 SEMM 配置并使用 SEMM 证书进行保护时，它们被视为已 *注册* SEMM。 删除 SEMM 证书并将 UEFI 设置的控制权返回给设备用户时，Surface 设备被视为 SEMM 中的 *unenrolled* 。
 
@@ -174,7 +174,7 @@ Surface UEFI 重置程序包仅用于执行一项任务，即取消注册 SEMM �
 * **过期日期** -从证书创建到15个月
 * **密钥导出策略** -可导出
 
-我们还建议在两层公钥基础结构中验证 SEMM 证书 (PKI) 体系结构，其中的中间证书颁发机构 (CA) 专用于 SEMM，从而允许证书吊销。 有关双层 PKI 配置的详细信息，请参阅 [测试实验室指南：部署 AD CS 双层 PKI 层次结构](https://technet.microsoft.com/library/hh831348)。
+我们还建议在两层公钥基础结构中验证 SEMM 证书 (PKI) 体系结构，其中的中间证书颁发机构 (CA) 专用于 SEMM，从而允许证书吊销。 有关双层 PKI 配置的详细信息，请参阅 [测试实验室指南：部署 AD CS Two-Tier PKI 层次结构](https://technet.microsoft.com/library/hh831348)。
 
 ### 自签名证书 
 你可以使用以下示例 PowerShell 脚本创建自签名证书，以便在概念验证方案中使用。
@@ -241,6 +241,18 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 为特定设备类型创建配置包的 PowerShell 示例也可用于创建独立于序列号的重置程序包。 如果证书仍然有效，你可以使用 PowerShell 重置 SEMM 来创建重置程序包。
 
 ## 版本历史记录
+
+
+### 版本2.78.139。0
+
+此版本的 SEMM 包括：
+
+- 支持 Surface 膝上型电脑的走向和 Surface Pro X
+- 新版本发布通知
+- 创建自定义程序包以更改所有权的能力
+- Bug 修复
+
+
 
 
 ### 版本2.73.136。0

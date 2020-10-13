@@ -9,17 +9,17 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 08/04/2020
+ms.date: 10/12/2020
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 3eb177e976bd99ec245996db8cb22eab639f63cc
-ms.sourcegitcommit: c0676329f894135388b6d52f85ee8ac9507a836e
+ms.openlocfilehash: ec1d53a4bdbcaaf6606dcb0e52fc81de92a2a53b
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "10905669"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114540"
 ---
 # 系统 SKU 参考
 
@@ -51,9 +51,11 @@ ms.locfileid: "10905669"
 | Surface 笔记本电脑2商业版                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
 | Surface Pro 7                 | Surface Pro 7    | Surface_Pro_7_1866         |
 | Surface Pro X                 | Surface Pro X    | Surface_Pro_X_1876         |
+| Surface Pro X with SQ2 处理器                | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface 笔记本电脑 3 13 "英特尔 | Surface 笔记本电脑3 | Surface_Laptop_3_1867：1868 |
 | Surface 笔记本电脑 3 15 "英特尔 | Surface 笔记本电脑3 | Surface_Laptop_3_1872      |
 | Surface 笔记本电脑 3 15 "AMD   | Surface 笔记本电脑3 | Surface_Laptop_3_1873      | 
+| Surface 膝上型电脑 Go  | Surface 膝上型电脑 Go | Surface_Laptop_Go_1943      | 
 
 ## 示例 
 
@@ -65,10 +67,10 @@ gwmi -namespace root\wmi -class MS_SystemInformation | select SystemSKU
 ```
 
 **使用系统信息检索 SKU**  
-您还可以在 "**系统信息**" 中查找设备的系统 SKU 和系统模型。 为此，请执行下列步骤：
+您还可以在 " **系统信息**" 中查找设备的系统 SKU 和系统模型。 为此，请执行下列步骤：
 
-1. 选择 "**开始**"，然后在搜索框中键入 " **MSInfo32** "。  
-1. 选择 "**系统信息**"。
+1. 选择 " **开始**"，然后在搜索框中键入 " **MSInfo32** "。  
+1. 选择 " **系统信息**"。
 
 **在任务序列中使用 SKU WMI 条件**  
 你可以使用 Microsoft 部署工具包中的系统 SKU 信息 (MDT) 或 Microsoft 终结点配置管理器作为任务序列 WMI 条件的一部分。

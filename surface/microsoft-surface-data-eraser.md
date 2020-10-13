@@ -14,13 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 09/18/2020
-ms.openlocfilehash: dc1a9b4480f37af6d74699a2e693ef8d5318da76
-ms.sourcegitcommit: 8bd03770279d5e53446436781226ffd51eeec916
+ms.date: 10/12/2020
+ms.openlocfilehash: 8b201ce45533c28740a7c6bdfcb56688ada25718
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "11029226"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114700"
 ---
 # Microsoft Surface Data Eraser
 
@@ -38,6 +38,7 @@ ms.locfileid: "11029226"
 - 表面转 (所有版本) 
 - Surface Pro X (所有版本) 
 - Surface 膝上型电脑 (所有版本) 
+- Surface 膝上型电脑 Go
 - Surface Studio (所有版本) 
 - Surface Pro 2 及更高版本
 - Surface Hub 2 上的 Windows 10 专业版和企业版

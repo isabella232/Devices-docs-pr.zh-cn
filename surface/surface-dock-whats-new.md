@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/12/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 19aba3e88afd7b17de5b391d1bfe6eaf77db38e9
-ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
+ms.openlocfilehash: e96242ab9cef127238bda3ee3ea797c943479798
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "11093135"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114680"
 ---
 # Surface Dock 中的新增功能 
 
@@ -45,6 +45,7 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
   - Surface 笔记本电脑3
   - Surface Book 3
   - Surface Go 2
+  - Surface 膝上型电脑 Go
 
 ## Surface Dock 2 组件
 
@@ -115,7 +116,7 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
 
 
 
-1. *必须通过 Surface Enterprise 管理模式将设备配置为通过 Surface Enterprise 管理模式 (SEMM) 或设备固件控制接口 (DFCI) 从休眠或断电状态唤醒。 在 Surface Pro 7、Surface 笔记本电脑3、Surface Pro X、Surface Book 3 和 Surface Go 2 上支持从休眠或关机中唤醒。  某些功能所需的软件许可证。 单独出售。*
+1. *必须通过 Surface Enterprise 管理模式将设备配置为在 LAN 上唤醒 (SEMM) 或设备固件控制接口 (DFCI) 从休眠或 Power-Off 状态唤醒。 在 Surface Pro 7、Surface 笔记本电脑3、Surface Pro X、Surface Book 3 和 Surface Go 2 上支持从休眠或 Power-Off 唤醒。  某些功能所需的软件许可证。 单独出售。*
 
 2. *某些功能所需的软件许可证。 单独出售。*
 

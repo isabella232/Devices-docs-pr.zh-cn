@@ -12,19 +12,19 @@ ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
 ms.date: 8/07/2020
-ms.openlocfilehash: 159eb4ca27bb867623020936276470ba9897f3b8
-ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
+ms.openlocfilehash: 9069903421d6e621dfbc31cd1cfaffb045fa9f19
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "10918932"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114549"
 ---
 # Microsoft Surface Dock 固件更新： IT 管理员的技术信息
 
 > [!IMPORTANT]
 > 本文包含适用于 IT 管理员的技术说明。 如果您是家庭用户，请参阅如何在 Microsoft 支持网站上[更新 Surface Dock 固件](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)   。 支持网站上的说明与下面的常规安装步骤相同，但本文提供了有关监视、验证和将更新部署到网络上的多个设备的其他信息。
 
-本文介绍了如何使用 Microsoft Surface Dock 固件更新来更新 Surface Dock 固件。 当安装在 Surface 设备上时，它将更新连接到 Surface 设备的任何 Surface Dock。 
+本文介绍如何使用 Microsoft Surface Dock 固件更新更新原始 Surface Dock 1 上的固件，而不是应用于 Surface Dock 2。 当安装在 Surface 设备上时，它将更新连接到 Surface 设备的任何 Surface Dock。 
 
 此工具取代了以前的 Microsoft Surface Dock 更新工具，以前可将其作为 Surface 工具的一部分进行下载。 以前的工具被命名为 Surface_Dock_Updater_vx.xx.xxx.x.msi (其中 x 指示版本号) 且不再可供下载，因此不应使用。
 
@@ -35,7 +35,7 @@ ms.locfileid: "10918932"
 > [!NOTE]
 > Microsoft 定期发布 Surface Dock 固件更新的新版本。 MSI 文件不是自我更新。 如果你已将 MSI 部署到 Surface 设备，并且新版本的固件已发布，你将需要部署新版本。
 
-1. 下载并安装[Microsoft Surface Dock 固件更新](https://www.microsoft.com/download/details.aspx?id=46703)。
+1. 下载并安装 [Microsoft Surface Dock 固件更新](https://www.microsoft.com/download/details.aspx?id=46703)。
     - 更新需要运行 Windows 10 版本1803或更高版本的 Surface 设备。
     - 安装 MSI 文件可能会提示你重启 Surface。 但是，执行更新不需要重新启动。
 
@@ -54,10 +54,10 @@ ms.locfileid: "10918932"
     ```cmd
     Reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters"
     ```
-3. 按照本文[下一节](#install-the-surface-dock-firmware-update)中的说明安装更新。
-4. 事件2007和以下文本表示更新成功：**固件更新已完成。 hr = 0 DriverTelementry EventCode = 2007**。 
-    - 如果更新不成功，则事件 ID 2007 将显示为**错误**事件，而不是**信息**。 此外，Windows 注册表中报告的版本将不是最新版本。
-5. 更新完成后，Windows 注册表中将显示已更新的 DWORD 值，这些值对应于该工具的当前版本。 有关详细信息，请参阅本文中的[版本参考](#versions-reference)部分。 例如：
+3. 按照本文 [下一节](#install-the-surface-dock-firmware-update) 中的说明安装更新。
+4. 事件2007和以下文本表示更新成功： **固件更新已完成。 hr = 0 DriverTelementry EventCode = 2007**。 
+    - 如果更新不成功，则事件 ID 2007 将显示为 **错误** 事件，而不是 **信息**。 此外，Windows 注册表中报告的版本将不是最新版本。
+5. 更新完成后，Windows 注册表中将显示已更新的 DWORD 值，这些值对应于该工具的当前版本。 有关详细信息，请参阅本文中的 [版本参考](#versions-reference) 部分。 例如：
     - Component10CurrentFwVersion 0x04ac3970 (78395760) 
     - Component20CurrentFwVersion 0x04915a70 (76634736) 
 
@@ -84,10 +84,10 @@ ms.locfileid: "10918932"
   > [!NOTE]
   > 默认情况下不创建日志文件。 为了创建日志文件，你需要追加 "/l*v [path]"。例如： Msiexec.exe/i \<path to msi file\> /l*v%windir%\logs\ SurfaceDockFWI "
 
-  有关详细信息，请参阅[命令行选项](https://docs.microsoft.com/windows/win32/msi/command-line-options)文档。
+  有关详细信息，请参阅 [命令行选项](https://docs.microsoft.com/windows/win32/msi/command-line-options) 文档。
 
 > [!IMPORTANT]
-> 如果你想要使用任何其他方法更新 Surface Dock，请参阅[更新 Surface dock](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)以了解详细信息。
+> 如果你想要使用任何其他方法更新 Surface Dock，请参阅 [更新 Surface dock](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock) 以了解详细信息。
 
 ## Intune 部署
 
@@ -109,7 +109,7 @@ Surface dock 固件包含两个组件：
 
 1. 打开注册表编辑器，然后导航到以下注册表路径：
 
-    - **HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters**
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters**
 
 2. 查找注册表项： **Component10CurrentFwVersion 和 Component20CurrentFwVersion**，它指的是当前在设备上的固件。
 
@@ -126,7 +126,7 @@ Surface dock 固件包含两个组件：
 | Log                              | 位置                               | 注释                                                                                                                                                                                                         |
 | -------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Surface Dock 固件更新日志 | 需要指定路径 (请参阅注意)  | 此工具的早期版本将事件写入应用程序和服务 Logs\Microsoft Surface Dock 更新。                                                                                                  |
-| Windows 设备安装日志       | %windir%\inf\setupapi.dev.log           | 有关使用设备安装日志的详细信息，请参阅[SetupAPI 日志记录](https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-)文档。 |
+| Windows 设备安装日志       | %windir%\inf\setupapi.dev.log           | 有关使用设备安装日志的详细信息，请参阅 [SetupAPI 日志记录](https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-) 文档。 |
 
 
 **表 2.  Surface Dock 固件更新的事件日志 Id**<br>
@@ -173,8 +173,8 @@ Surface dock 固件包含两个组件：
 此版本（包含在 Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.MSI 中）会在后台更新固件。 
 **已更新注册表项值：**<br>
 
-- Component10CurrentFwVersion 更新为**4ac3970**。
-- Component20CurrentFwVersion 更新为**4a1d570**。
+- Component10CurrentFwVersion 更新为 **4ac3970**。
+- Component20CurrentFwVersion 更新为 **4a1d570**。
 
 它添加了对 Surface Pro 7 和 Surface 笔记本电脑3的支持。
 

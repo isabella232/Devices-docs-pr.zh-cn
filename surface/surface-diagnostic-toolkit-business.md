@@ -8,20 +8,20 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9c250cef63b760f3faab9172aa950c305e4e47e5
-ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
+ms.openlocfilehash: 1f2661811516507abd432dba602cf8ce81e6dbb3
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "10902980"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114660"
 ---
 # 部署适用于企业的 Surface 诊断工具包
 
-适用于企业的 Microsoft Surface 诊断工具包（SDT）使 IT 管理员能够快速调查和解决与 Surface 设备有关的硬件、软件和固件问题。 除了获取设备运行状况见解和解决问题的指南之外，还可以运行一系列诊断测试和软件修复。 
+适用于 Business (SDT) 的 Microsoft Surface 诊断工具包使 IT 管理员能够快速调查和解决与 Surface 设备有关的硬件、软件和固件问题。 除了获取设备运行状况见解和解决问题的指南之外，还可以运行一系列诊断测试和软件修复。 
 
 特别是，SDT for Business 使你能够：
 
@@ -46,6 +46,7 @@ ms.locfileid: "10902980"
 
 在 Surface 3 及更高版本的设备上支持 SDT for Business，包括：
 
+- Surface 膝上型电脑 Go
 - Surface Book 3
 - Surface Go 2
 - Surface Pro X
@@ -72,7 +73,7 @@ ms.locfileid: "10902980"
 若要创建可分发给组织中的用户的 SDT 程序包，请执行以下操作：
 
 1. 使用管理员帐户登录 Surface 设备。
-2. 从 " [Surface Tools FOR IT 下载" 页面](https://www.microsoft.com/download/details.aspx?id=46703)下载 SDT Windows Installer 程序包（.msi），并将其复制到 surface 设备（如桌面）上的首选位置。
+2. 从 " [Surface Tools FOR IT 下载" 页面](https://www.microsoft.com/download/details.aspx?id=46703) 下载 SDT Windows Installer 程序包 ( .msi) 并将其复制到 surface 设备（如桌面）上的首选位置。
 3. 将显示 "SDT 设置" 向导，如图1所示。 单击“下一步”****。 
 
     >[!NOTE]
@@ -82,17 +83,17 @@ ms.locfileid: "10902980"
 
     *图 1. 图面诊断工具包设置向导*
 
-4. 当 "SDT 设置" 向导出现时，单击 "**下一步**" 接受最终用户许可协议（EULA）
+4. 当 "SDT 设置向导" 出现时，单击 " **下一步**"，接受《最终用户许可协议》 (EULA) 
 
 5. 在 "安装选项" 屏幕上，根据需要更改默认安装位置。 
-6. 在 "安装类型" 下，选择 "**高级**"。 
+6. 在 "安装类型" 下，选择 " **高级**"。 
 
     >[!NOTE]
     >标准选项允许用户在其 Surface 设备上直接运行诊断工具，前提是他们已使用管理员帐户登录到其设备。 
     
      ![安装选项：高级](images/sdt-install.png)
 
-7. 单击 "**下一步**"，然后单击 "**安装**"。 
+7. 单击 " **下一步** "，然后单击 " **安装**"。 
 
 ## 使用命令行安装
 如果需要，您可以在命令提示符处安装 SDT 并设置自定义标志以在管理员模式下安装该工具。 SDT 包含以下安装选项标志：
@@ -117,7 +118,7 @@ ms.locfileid: "10902980"
 
 将安装 "SDT" 和 "SDT" 应用控制台 `C:\Program Files\Microsoft\Surface\Microsoft Surface Diagnostic Toolkit for Business` 。
 
-除了 .exe 文件，SDT 还会安装 JSON 文件和 admin.dll 文件（modules\admin.dll），如图2所示。
+除了 .exe 文件之外，SDT 还会安装 JSON 文件和 admin.dll 文件 ( # A1) ，如图2所示。
 
 ![文件资源管理器中的 SDT 已安装文件的列表](images/sdt-2.png)
 
@@ -129,8 +130,8 @@ ms.locfileid: "10902980"
 
 创建自定义程序包使你可以将工具定位到特定的已知问题。
 
-1. 单击 "**开始 > 运行**"，输入 "**表面**"，然后单击 "**面向企业的 surface 诊断工具包**"。 
-2. 当工具打开时，单击 "**创建自定义程序包**"，如图3所示。
+1. 单击 " **开始 > 运行**"，输入 " **表面** "，然后单击 " **面向企业的 surface 诊断工具包**"。 
+2. 当工具打开时，单击 " **创建自定义程序包**"，如图3所示。
 
     ![创建自定义程序包选项](images/sdt-3.png)
 
@@ -138,7 +139,7 @@ ms.locfileid: "10902980"
 
 ### 语言和遥测设置
 
-  创建程序包时，你可以选择语言设置或选择不向 Microsoft 发送遥测信息。 默认情况下，SDT 会将遥测发送到用于根据[Microsoft 隐私声明](https://privacy.microsoft.com/privacystatement)改进应用程序的 microsoft。 如果想要拒绝，请清除创建自定义程序包时的复选框，如下所示。 或清除 "**安装选项**" 页面上的 "将**遥测发送到 Microsoft** " 复选框（在 SDT 设置期间）。 
+  创建程序包时，你可以选择语言设置或选择不向 Microsoft 发送遥测信息。 默认情况下，SDT 会将遥测发送到用于根据 [Microsoft 隐私声明](https://privacy.microsoft.com/privacystatement)改进应用程序的 microsoft。 如果想要拒绝，请清除创建自定义程序包时的复选框，如下所示。 或清除 "**安装选项**" 页面上的 "将**遥测发送到 Microsoft** " 复选框（在 SDT 设置期间）。 
 
 >[!NOTE]
 >此设置不会影响运行需要 Internet 连接（如 Windows 更新和软件修复）或使用应用工具栏中的笑脸或 Frown 按钮提供反馈的测试和修复时，自动存储在 Microsoft 服务器上的最小遥测。 
@@ -151,7 +152,7 @@ ms.locfileid: "10902980"
 
 ### Windows 更新页面
 
-选择适用于你的组织的选项。 大多数具有多个用户的组织通常会选择通过 Windows Server 更新服务（WSUS）接收更新，如图5所示。 如果使用本地 Windows 更新程序包或 WSUS，请根据需要输入路径。 
+选择适用于你的组织的选项。 大多数具有多个用户的组织通常会选择通过 Windows Server Update Services (WSUS) 接收更新，如图5所示。 如果使用本地 Windows 更新程序包或 WSUS，请根据需要输入路径。 
 
 ![选择 "Windows 更新" 选项](images/sdt-5.png)
 
@@ -180,6 +181,17 @@ ms.locfileid: "10902980"
 
 ## 更改和更新
 
+### 版本2.124.139。0
+
+此面向企业的 Surface 诊断工具包的版本增加了对以下各项的支持：
+
+- 无缝集成支持
+- 保存所有测试结果
+- 检查图像是否已创建自定义
+- 包括来自设备管理器的警告
+- 插接固件版本
+- 将驱动器标记为存储测试中的潜在故障
+- 删除存储链接 
 
 ### 版本2.121.139
 *发布日期： 31 2020 年7月*<br>
