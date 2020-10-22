@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/08/2020
+ms.date: 10/21/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 66245f84f4413df2d9ae7b683947afbd84484325
-ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
+ms.openlocfilehash: 25705f889f70e3d12dfef690c34e03d98254725e
+ms.sourcegitcommit: 959d2d856b1e5b5c72cd636f576b5feb1b633048
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "11105301"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "11133177"
 ---
 # 配置 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -422,11 +422,11 @@ Surface Hub 2 具有用于本地存储的 128GB SSD，因此在正常使用期�
 
    - 状态检测将在系统托盘中显示为绿色图标。
     
-6. 验证投影到此电脑已通过 Connect 应用启用 (应用程序无需在连接) 之前运行。
+6. 验证在 Connect 应用中是否已启用投影到此电脑。 **将 Project 配置为此电脑**设置后，至少运行一次 Connect 应用。  (随后，连接应用无需运行即可投影到 Surface Hub。 ) 
 
 7. 验证电源和睡眠设置。
 
-    - 屏幕保护程序：15分钟，设置为 (none) ，Mystify 或空白;选中 "需要密码的复选框"
+    - 屏幕保护程序：15分钟，设置为 (none) ，Mystify 或空白;确保选中 "需要密码的复选框"。
     - 屏幕： **2 小时后关闭**。
     - PC：  **4 小时后关闭**。
     
