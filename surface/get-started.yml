@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 1a54d40faf9c3738bd07595b57a1c2d5a86373b4
-  ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
+  ms.openlocfilehash: 01c1cc2ea75e79825c80cc6f02970a755ae35b75
+  ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/01/2020
-  ms.locfileid: "11093095"
+  ms.lasthandoff: 10/23/2020
+  ms.locfileid: "11134380"
 landingContent:
 - title: Surface 设备
   linkLists:
@@ -32,10 +32,10 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Surface Book 3 GPU 技术概述
-      url: surface-book-gpu-overview.md
-    - text: Surface Book 3 Quadro RTX 3000 技术概述
-      url: surface-book-quadro.md
+    - text: 使用 Microsoft Surface 最大化 ROI
+      url: forrester-tei-study.md
+    - text: Surface 上的 Windows 虚拟桌面
+      url: windows-virtual-desktop-surface.md
     - text: Surface Dock 2 中的新增功能
       url: surface-dock-whats-new.md
 - title: Microsoft Ignite
@@ -56,52 +56,52 @@ landingContent:
       url: windows-autopilot-and-surface-devices.md
     - text: 适用于 Windows Autopilot 的 Surface 注册支持
       url: surface-autopilot-registration-support.md
-    - text: Surface 上的 Windows 虚拟桌面
-      url: windows-virtual-desktop-surface.md
+    - text: Surface 部署加速器工具
+      url: microsoft-surface-deployment-accelerator.md
 - title: 管理 Surface 设备
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: 管理和部署 Surface 驱动程序和固件更新
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Surface 设备电源设置的最佳实践
-      url: maintain-optimal-power-settings-on-Surface-devices.md
-    - text: 优化 Surface 设备的 WLAN 连接
-      url: surface-wireless-connect.md
+    - text: Surface UEFI 设置的 Intune 管理
+      url: surface-manage-dfci-guide.md
+    - text: 部署、管理和维护 Surface Pro X
+      url: surface-pro-arm-app-management.md
+- title: 排除故障
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 部署适用于企业的 Surface 诊断工具包
+      url: surface-diagnostic-toolkit-business.md
+    - text: 热门支持解决方案
+      url: support-solutions-surface.md
+    - text: 在兼容 Surface 的设备中删除 SSD 的最佳做法
+      url: surface-ssd-removal-guide.md
+    - text: 在 Surface 修理或服务期间保护数据
+      url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
+    - text: 对 Surface 扩展坞和坞站进行故障排除
+      url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
 - title: 导出安全指导
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Surface 设备上的 DMA 保护
+      url: dma-protect.md
     - text: '安全 Surface Dock 2 个具有 Surface Enterprise 管理模式的端口 (SEMM) '
       url: secure-surface-dock-ports-semm.md
-    - text: Surface UEFI 设置的 Intune 管理
-      url: surface-manage-dfci-guide.md
     - text: Surface Data Eraser 工具
       url: microsoft-surface-data-eraser.md
 - title: 了解 Surface 工具
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: 适用于企业的 Surface 诊断工具包
-      url: surface-diagnostic-toolkit-for-business-intro.md
+    - text: 部署适用于企业的 Surface 诊断工具包
+      url: surface-diagnostic-toolkit-business.md
     - text: SEMM 和 UEFI
       url: surface-enterprise-management-mode.md
-    - text: Surface 部署加速器工具
-      url: microsoft-surface-deployment-accelerator.md
-- title: 疑难解答
-  linkLists:
-  - linkListType: learn
-    links:
-    - text: 热门支持解决方案
-      url: support-solutions-surface.md
-    - text: 在兼容 Surface 的设备中删除 SSD 的最佳做法
-      url: surface-ssd-removal-guide.md
-    - text: Surface IT 专业人员博客
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
-    - text: 在 Surface 修理或服务期间保护数据
-      url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
-    - text: 对 Surface 扩展坞和坞站进行故障排除
-      url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
+    - text: 电池限制设置
+      url: battery-limit.md
 - title: 参加 Surface 社区
   linkLists:
   - linkListType: learn
