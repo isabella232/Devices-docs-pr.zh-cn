@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 10/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 0a74a082d1afe48c938fcc4780407d56cfdd121e
-ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
+ms.openlocfilehash: 96aec50335ab08e9d524c5ae1a595695c1de46d4
+ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "11105273"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "11134390"
 ---
 # 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -37,29 +37,29 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 ## 解决方案组件
 
-- 运行 Windows 10 协同操作系统的 Surface Hub 2 版设备
-- 运行 Windows 10 的单独设备
-- 用于创建 SEMM 程序包的 Surface UEFI 配置器工具
-- Windows 10 专业版或企业版操作系统映像版本1903或更高版本
-- 具有存储空间、FAT32 格式的两个 USB 驱动器
-- 适用于 Surface Hub 2、Windows Installer 的 Windows 10 专业版和企业版的驱动程序和固件。MSI 文件
-- Internet 连接
-- 图像处理解决方案 (可选) 
+- 运行 Windows 10 协同操作系统的 Surface Hub 2 版设备。
+- 运行 Windows 10 的单独设备。
+- 用于创建 SEMM 程序包的 Surface UEFI 配置器工具。
+- Windows 10 专业版或企业版操作系统映像版本1903或更高版本。
+- 两个 USB 驱动器，其存储空间为 FAT32 格式。
+- Surface Hub 2、Windows 安装程序上的 Windows 10 专业版和企业版操作系统的驱动程序和固件。MSI 文件。
+- 互联网连接。
+- 图像处理解决方案 (可选) 。
 
  
 ## 迁移和安装工作流摘要
 
 | 步骤  | 操作                                                                                                 | 摘要                                                                                                                                                                                                                                                                                                                                                                                                  |
 | - | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| raid-1 | [验证 Surface Hub 2 上的 UEFI 版本是否满足最低要求](#verify-uefi-version-on-surface-hub-2s-meets-minimum-requirements)                                  | 确保 UEFI 版本为694.2938.768.0 或更高版本。                                                                                                                                                                                                                                                                                                                                                      |
-| ppls-2 | [下载 Surface UEFI 配置器和 Surface Hub 2 驱动程序和固件](#download-surface-uefi-configurator-and-surface-hub-2-drivers-and-firmware)                             | 选择 " [Surface Tools FOR IT](https://www.microsoft.com/download/details.aspx?id=46703) " 页面上的 "下载" 按钮，选择并下载 **Surface UEFI 配置器。MSI 文件** 并将其安装在单独的 PC 上。 下载 [适用于 Surface Hub 2 上的 Windows 10 专业版和企业版的驱动程序和固件。MSI 文件](https://www.microsoft.com/download/details.aspx?id=101974) 并将其保存，以便在步骤5中使用。 |
+| raid-1 | [验证 Surface Hub 2 上的 UEFI 版本是否满足最低要求](#verify-uefi-version-on-surface-hub-2s-meets-minimum-requirements)                                  | 确保 UEFI 版本为 **694.2938.768.0** 或更高版本。                                                                                                                                                                                                                                                                                                                                                      |
+| ppls-2 | [下载 Surface UEFI 配置器和 Surface Hub 2 驱动程序和固件](#download-surface-uefi-configurator-and-surface-hub-2-drivers-and-firmware)                             | 选择 " [Surface Tools FOR IT](https://www.microsoft.com/download/details.aspx?id=46703) " 页面上的 "下载" 按钮，选择并下载 **Surface UEFI 配置器。MSI 文件** 并将其安装在单独的 PC 上。 下载 [适用于 Surface Hub 2 上的 Windows 10 专业版和企业版操作系统的驱动程序和固件。MSI 文件](https://www.microsoft.com/download/details.aspx?id=101974) 并将其保存，以便在步骤5中使用。 |
 | 三维空间 | [准备 SEMM 证书](#prepare-semm-certificate)                                                                          | 准备运行 Surface UEFI 配置器所需的证书或使用您的当前证书。                                                                                                                                                                                                                                                                                                      |
-| 第 | [创建 SEMM 程序包](#create-semm-package)                                                                               | 启动 Surface UEFI 配置器在 USB 驱动器上创建 SEMM 程序包，其中将包含 Surface Hub 2 上应用的必需配置文件。 将这些 SEMM 软件包文件复制到电脑上的某个文件夹中。                                                                                                                                                                                          |
-| 级 | [准备 USB 闪存驱动器，其中包含适用于 windows 10 的 Windows 10 映像、SEMM 程序包以及适用于 Surface Hub 2 的 Windows 10 专业版和企业版的驱动程序和固件](#prepare-usb-flash-drive-containing-windows-10-image-semm-package-and-surface-hub-2-drivers-and-firmware) | 在此示例中创建一个 (名为 **BOOTME** 的单个 USB 驱动器，) 包含 Windows 10 图像。 将 Windows 10 专业版和企业版的驱动程序和固件添加到 Surface Hub 2 (步骤 2) 和 SEMM 软件包文件 (步骤 4) 到 **BOOTME** 驱动器。                                                                                                                                                                                                  |
+| 第 | [创建 SEMM 程序包](#create-semm-package)                                                                               | 启动 Surface UEFI 配置器在 USB 驱动器上创建 SEMM 程序包，它将包含要应用于 Surface Hub 2 的必需配置文件。 将这些 SEMM 软件包文件复制到电脑上的某个文件夹中。                                                                                                                                                                                          |
+| 级 | [准备 USB 闪存驱动器，其中包含适用于 windows 10 的 Windows 10 映像、SEMM 程序包以及适用于 Surface Hub 2 的 Windows 10 专业版和企业操作系统的驱动程序和固件](#prepare-usb-flash-drive-containing-windows-10-image-semm-package-and-surface-hub-2-drivers-and-firmware) | 在此示例中创建一个 (名为 **BOOTME** 的单个 USB 驱动器，) 包含 Windows 10 图像。 将 Windows 10 专业版和企业操作系统的驱动程序和固件添加到 Surface Hub 2 (步骤 2) 和 SEMM 软件包文件 (步骤 4) 到 **BOOTME** 驱动器。                                                                                                                                                                                                  |
 | 型 | [更新 Surface Hub 2 的 UEFI 以启用操作系统迁移](#update-uefi-on-surface-hub-2s-to-enable-os-migration)                                              | 使用 **BOOTME** 驱动器将 Surface Hub 2 启动到 UEFI 菜单并安装 SEMM 程序包。|
 | 7 | [安装 Windows 10 专业版或企业版1903或更高版本](#install-windows-10-pro-or-enterprise)                                        | 使用 **BOOTME** 驱动器安装 **Windows 10 专业版或企业** 版1903或更高版本。                                                                                                                                                                                                                                                                                 |
-| 个 | [为 Surface Hub 2 上的 Windows 10 专业版和企业版安装驱动程序和固件](#install-surface-hub-2-drivers-and-firmware)                                        | 为确保你的设备具有所有最新的更新和驱动程序，请安装 [适用于 Surface Hub 2 的 Windows 10 专业版和企业版的驱动程序和固件。MSI 文件](https://www.microsoft.com/download/details.aspx?id=101974)                                                                                                                                                                                                                                                                                  |
-| db-9 | [将 Surface Hub 2 完全配置为个人生产力设备](#next-steps)                                        |  启用推荐设置和应用程序集，优化将 Surface Hub 2 作为个人生产力设备使用。                                                                                                                                                                                                                                                                    |
+| 个 | [为 Surface Hub 2 上的 Windows 10 专业版和企业版操作系统安装驱动程序和固件](#install-surface-hub-2-drivers-and-firmware)                                        | 为确保你的设备具有所有最新的更新和驱动程序，请安装 [适用于 Surface Hub 2 上的 Windows 10 专业版和企业版操作系统的驱动程序和固件。MSI 文件](https://www.microsoft.com/download/details.aspx?id=101974)。                                                                                                                                                                                                                                                                                  |
+| db-9 | [将 Surface Hub 2 完全配置为个人生产力设备](#next-steps)                                        |  启用推荐的设置和应用程序，优化将 Surface Hub 2 作为个人生产力设备使用。                                                                                                                                                                                                                                                                    |
 
 ### 验证 Surface Hub 2 上的 UEFI 版本是否满足最低要求
 
@@ -69,7 +69,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 1. 在 Surface Hub 2 主屏幕上，选择 "**开始**"，然后打开 " **SurfaceApp** (**所有应用**  >  **Surface** ") 。
 
-2. 选择 **你的图面** 以显示 surface Hub 的相关信息，包括设备上的当前版本。 如果 UEFI 版本为 **694.2938.768.0** 或更高版本，如下所示，则 UEFI 有资格创建 SEMM 程序包以启用操作系统迁移。
+2. 选择 **你的图面** 以显示 surface Hub 的相关信息，包括设备上的当前 UEFI 版本。 如果 UEFI 版本为 **694.2938.768.0** 或更高版本，如下所示，则 UEFI 有资格创建 SEMM 程序包以启用操作系统迁移。
 
     ![打开 Surface App & 选择你的 Surface](images/shm-fig1.png)
  
@@ -77,7 +77,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 **要从 Windows 更新更新 UEFI，请执行以下操作：**
 
-1. 在 Surface Hub 2，以**管理员**身份登录，转到 "**所有应用**  >  **设置**" >  **更新和安全**  >  **Windows 更新**并安装所有更新，然后重新启动设备。 使用 Surface App 验证 UEFI 版本。 注意：如果您不知道您的用户名或管理员密码，您将需要重置设备。 若要了解详细信息，请参阅 [重置和恢复 Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset)2。
+1. 在 Surface Hub 2，以**管理员**身份登录，转到 "**所有应用**  >  **设置**"  >  **更新和安全**  >  **Windows 更新**并安装所有更新，然后重新启动设备。 使用 Surface App 验证 UEFI 版本。 **注意：** 如果您不知道您的用户名或管理员密码，将需要重置设备。 若要了解详细信息，请参阅 [重置和恢复 Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset)2。
 
 2. 重复这些步骤，直到 UEFI 版本为 **694.2938.768.0** 或更高版本。
 
@@ -106,7 +106,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
  
 ### 创建 SEMM 程序包
 
-1. 安装之前下载到单独电脑的 **SURFACE UEFI 配置** 器工具。 
+1. 将 **SURFACE UEFI 配置** 器工具（如前面已下载的）安装到单独的 PC。 
 
 2. 打开 **SURFACE UEFI 配置** 器，然后选择 " **开始**"。
 
@@ -143,7 +143,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
    ![输入你的 UEFI 密码](images/shm-fig9.png)
 
-10. 选择 " **Surface Hub**2"，然后选择 " **下一步**"。
+10. 选择 **Surface Hub** 2-2，然后选择 " **下一步**"。
 
     ![选择 Surface Hub 2](images/shm-fig10.png)
    
@@ -160,7 +160,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
     ![将 "启用 OS 迁移" 设置为 "开"](images/shm-fig12.png)
 
 > [!NOTE]
-> 应用 SEMM 程序包后，所有 UEFI 设置将显示为灰色 (在设备上的 UEFI 菜单中已锁定) 。 这包括其他设置（如用于 PXE 启动的 IPv6）的默认值。 若要在完成迁移后修改 UEFI 设置，你需要应用另一个 SEMM 程序包或从 SEMM 取消注册设备。 如果你应用另一个 SEMM 包来修改 UEFI 设置，则必须使用 UEFI 配置器工具构建新的 SEMM 程序包时使用原始证书。 
+> 应用 SEMM 程序包后，所有 UEFI 设置将显示为灰色 (在设备上的 UEFI 菜单中已锁定) 。 这包括其他设置（如用于 PXE 启动的 IPv6）的默认值。 若要在完成迁移后修改 UEFI 设置，你需要应用另一个 SEMM 程序包或从 SEMM 取消注册设备。 如果你应用另一个 SEMM 包来修改 UEFI 设置，则必须使用 UEFI 配置器工具生成新的 SEMM 程序包时使用原始证书，并将 "EnableOSMigration" 关闭 (而不是 "on"，如原始迁移步骤) 所示。
 
 #### 将 SEMM 软件包保存到 USB 驱动器
 
@@ -184,16 +184,16 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 - 当前的图像处理解决方案。
 
-- [Surface 部署加速器](https://docs.microsoft.com/surface/microsoft-surface-deployment-accelerator) 允许创建可启动的 windows 10 映像，其中包括所有当前 Windows 10 更新、Office、你选择的其他应用以及所需的驱动程序和固件。 
+- [Surface 部署加速器](https://docs.microsoft.com/surface/microsoft-surface-deployment-accelerator) 允许你创建可启动的 Windows 10 映像，其中包括所有当前 Windows 10 更新、Office、你选择的其他应用以及所需的驱动程序和固件。 
 
-- 带有 Windows 10 专业版或企业版映像的 USB 闪存驱动器，然后安装了  [适用于 Surface Hub 2 的 windows 10 专业版和企业版的驱动程序和固件](https://www.microsoft.com/download/details.aspx?id=101974)。
+- 带有 Windows 10 专业版或企业版映像的 USB 闪存驱动器，然后安装了  [适用于 Surface Hub 2 上的 windows 10 专业版和企业版操作系统的驱动程序和固件](https://www.microsoft.com/download/details.aspx?id=101974)。
  
-此过程介绍如何从安装媒体创建一个 USB 闪存驱动器，然后添加 SEMM 软件包文件和适用于 Surface Hub 2 的 Windows 10 专业版和企业版的驱动程序和固件。MSI 文件。 如果你使用的是其他部署方法，请转到以下部分： [更新 Surface Hub 2 上的 UEFI 以启用操作系统迁移](#update-uefi-on-surface-hub-2s-to-enable-os-migration)。
+此过程介绍如何从安装媒体创建一个 USB 闪存驱动器，然后添加 SEMM 程序包文件和适用于 Surface Hub 2 上的 Windows 10 Pro 和企业操作系统的驱动程序和固件。MSI 文件。 如果你使用的是其他部署方法，请转到 [Surface Hub 2 的更新 UEFI 部分以启用操作系统迁移](#update-uefi-on-surface-hub-2s-to-enable-os-migration)。
 
 > [!NOTE]
-> 安装后，你将需要适用于 Windows 10 专业版或 Windows 10 企业版的有效许可证。
+> 安装后，你将需要与现有 Windows 10 团队许可证分开的 Windows 10 专业版或 Windows 10 企业版有效许可证。
 
-1. 若要创建 Windows 10 专业版安装，请按照 [下载 windows 10](https://www.microsoft.com/software-download/windows10) 页面上的说明使用 **媒体创建** 工具。 若要下载 Windows 10 企业版，请转到 [Microsoft 批量许可服务中心。](https://www.microsoft.com/licensing/servicecenter/default.aspx)。
+1. 若要创建 Windows 10 专业版安装，请按照 [下载 windows 10](https://www.microsoft.com/software-download/windows10) 页面上的说明使用 **媒体创建** 工具。 若要下载 Windows 10 企业版，请转到 [Microsoft 批量许可服务中心](https://www.microsoft.com/licensing/servicecenter/default.aspx)。
 
 2. 插入新的 **USB 存储** 驱动器。 启动 " **媒体创建** " 工具，选择 " **创建安装媒体** "，然后选择 " **下一步**"。
 
@@ -211,23 +211,24 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
    ![选择 "完成"](images/shm-fig19.png)
    
-6. 在 Surface Hub 2 ( 上复制 Windows 10 专业版和企业版的 SEMM 软件包文件和驱动程序和固件。MSI 文件) 到包含 Windows 10 映像的 USB 闪存驱动器 (**BOOTME**) 的根。 BOOTME USB 驱动器包含：
+6. 在 Surface Hub 2 ( 上复制 Windows 10 专业版和企业版操作系统的 SEMM 软件包文件和驱动程序和固件。MSI 文件) 到包含 Windows 10 映像的 USB 闪存驱动器 (**BOOTME**) 的根。 BOOTME USB 驱动器包含：
 
-    - Windows 10 可启动映像
+    - Windows 10 可启动映像。
     
     - SEMM 软件包文件 (复制到 USB 驱动器的根目录) 
     
-      - DfciUpdate.dfi
-      - 带有 SEMM 指纹的文本文件。 此示例中的 (： SurfaceUEFI_2020Aug25_1058.txt。 自动生成的日期时间戳对应于使用 Surface UEFI 配置器创建文件的日期。 ) 
-      - Surface Hub 2 上的 Windows 10 专业版和企业版的驱动程序和固件 ( # A0) 
+      - DfciUpdate.dfi.
+      - 带有 SEMM 指纹的文本文件。 此示例中的 (： SurfaceUEFI_2020Aug25_1058.txt。 ) 自动生成的日期时间戳对应于使用 Surface UEFI 配置器创建文件的日期。
+
+   - Surface Hub 2 上的 Windows 10 专业版和企业操作系统的驱动程序和固件 ( # A0) ，也复制到 USB 驱动器的根目录。
 
 ### 更新 Surface Hub 2 的 UEFI 以启用操作系统迁移
 
-1. 将 **BOOTME** 驱动器插入 Surface Hub 2 的 USB 端口。
+1. 将 **BOOTME** 驱动器插入到 Surface Hub 2 上的 USB 端口。  (请参阅上一节，了解所需文件的列表。 ) 
 
 2. 要启动到 UEFI，请执行以下操作：
 
-   1. 第一次关闭) Surface Hub 2 (关闭的电源。
+   1. 关闭 Surface Hub 2) 的 (关闭电源。
    1. 按住 " **音量 +** "，然后按下并松开 " **电源** " 按钮。
    1. 继续保持 **音量 +** ，直到 UEFI 菜单出现。
    
@@ -241,7 +242,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
    ![选择 "管理 & 从 USB 安装"](images/shm-fig21.png)
    
-5. 选择 " **立即重启**"，如下所示。 设备将重新启动并在屏幕中间显示 "4 平方" 徽标，然后将其关闭。
+5. 选择 " **立即重启**"，如下所示。 设备将重新启动并在屏幕中间显示 "4 平方" 徽标，然后关闭。
 
    ![选择 "立即重启"](images/shm-fig25.png)
    
@@ -254,7 +255,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
    > [!NOTE]
    > 在设备上激活 SEMM 后，将应用新的 UEFI 设置 **EnableOSMigration** 。 你将无法再访问 Windows 10 团队，并且必须继续下一步，并安装 Windows 10 专业版或 Windows 10 企业版。 
 
-8. 设备将重新启动，在屏幕中间显示4个方形的白色徽标，然后将关闭
+8. 设备将重新启动，显示屏幕中间的白色4方形徽标，然后将再次关闭。
 
 ### 安装 Windows 10 专业版或企业版
 
@@ -270,7 +271,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 ### 安装 Surface Hub 2 驱动程序和固件
 
- - 为确保你的设备具有所有最新的更新和驱动程序，请安装 [适用于 Surface Hub 2 的 Windows 10 专业版和企业版的驱动程序和固件](https://www.microsoft.com/download/details.aspx?id=101974)。
+ - 为确保你的设备具有所有最新的更新和驱动程序，请安装 [适用于 Surface Hub 2 上的 Windows 10 专业版和企业版操作系统的驱动程序和固件](https://www.microsoft.com/download/details.aspx?id=101974)。
  
 ### 后续步骤
 
@@ -281,7 +282,7 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 
 ### 回滚到 Windows 10 团队
 
-如果你想要将设备还原到 Windows 10 团队，请参阅[重置和恢复 Surface Hub](surface-hub-2s-recover-reset.md) 2
+如果你想要将设备还原到 Windows 10 团队，请参阅 [重置和恢复 Surface Hub](surface-hub-2s-recover-reset.md)2。
 
 ## 版本历史记录
 

@@ -17,12 +17,12 @@ ms.topic: article
 ms.date: 10/21/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 25705f889f70e3d12dfef690c34e03d98254725e
-ms.sourcegitcommit: 959d2d856b1e5b5c72cd636f576b5feb1b633048
+ms.openlocfilehash: a17d4b05e6ee5f7415fed62d96b9e0a62a6dc123
+ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "11133177"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "11134400"
 ---
 # 配置 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -51,6 +51,7 @@ ms.locfileid: "11133177"
 1. 点击并按住或右键单击任务栏，然后选择 " **显示触摸键盘按钮** " 和 " **显示触摸板" 按钮**。 
 
     - 触摸键盘对直接用户输入很有帮助，虚拟触摸板可帮助精确选择、悬停屏幕提示，或者作为点击并按住右键单击的替代方法。 
+    
     - 请参阅以下示例。
 
       ![触摸设置](images/touch.png)
@@ -63,10 +64,9 @@ ms.locfileid: "11133177"
     
     3. 选择顶部行上的 "最后一次键盘类型" 以启用标准，第二行中的最后一个选项启用浮动，这在大屏幕上非常有用。 请参阅以下示例。
 
-      ![键盘设置](images/kbd.png)
+       ![键盘设置](images/kbd.png)
  
 3. 配置软键盘设置。
-
 
     1. 选择触摸键盘上的 " **设置** " 图标，或搜索并打开 **键入设置**。
     
@@ -90,6 +90,7 @@ ms.locfileid: "11133177"
 使用 [OneDrive For business](https://docs.microsoft.com/onedrive/onedrive) 在所有工作设备之间轻松共享工具、日志和其他文件。
 
 - OneDrive 使你能够在笔记本电脑、Surface Hub 桌面和你的 Intune 管理的移动设备之间共享你的工作文件。 可以在任何设备上编辑文件，并且所有连接网络的设备都将更新为所做的更改。
+
 - 考虑 Surface Hub SSD 的大小 (128GB) ，如果在 Surface Hub 桌面设备上配置 OneDrive，请确保默认配置是在使用文件时保持联机文件和下载文件。
 
 若要将 OneDrive 配置为仅在需要时下载文件，请设置 **文件的按需** 设置以在 **使用时节省空间和下载文件**。 有关详细信息，请参阅 [在 Windows 中查询和设置文件的按需状态](https://docs.microsoft.com/onedrive/files-on-demand-windows)。
@@ -116,13 +117,17 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 5. 验证配置是否已设置为保持联机文件，并仅在使用时下载文件：
 
     1. 打开文件资源管理器。
-    2. 导航到并右键选择**Microsoft \ \<SharePoint Document Folder Name\> **。
+    
+    2. 导航到并右键单击您的 SharePoint 名称;例如， **Contoso \ \<SharePoint Document Folder Name\> **。
+    
     3. 选择 " **释放空间**"。
+    
     4. "状态" 列将显示文件和文件夹的状态。 有关详细信息，请参阅 [与 OneDrive 同步客户端同步 SharePoint 文件](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd)。
     
 6. 团队频道文件存储在 SharePoint 网站中，具有所有相同的 SharePoint 文档功能，包括版本历史记录和同步到本地桌面设备。 要同步团队频道文件，请执行以下操作：
 
-    1. 导航到感兴趣的团队频道，然后选择顶部的 " **文件** " 选项卡。 然后选择 "**同步**"。文件将开始同步，并且将在**桌面 \ Microsoft \ \<name of the Teams Channel\> **的文件资源管理器中可见。
+    1. 导航到感兴趣的团队频道，然后选择顶部的 " **文件** " 选项卡。 然后选择 "**同步**"。文件将开始同步，并且将在**桌面 \ Contoso \ \<name of the Teams Channel\> **的文件资源管理器中可见。
+    
     2. 使用您用于同步 SharePoint 网站的相同过程将文件保存在云中，并仅在使用它们时下载它们，方法是在 "文件资源管理器" 的 "团队频道名称" 中点击并按住或右键单击，然后选择 " **释放空间**"。
 
 ## Surface Hub 笔设置
@@ -145,7 +150,7 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 7. 完成配对操作。 
 
-8. 如果配对不成功，你可以尝试再次配对笔。 如果这不起作用，则可以通过验证笔在白板应用程序中的工作来查看电池是否有电。 如果不是，则更换电池，然后再次尝试配对笔。 如有必要，请重新启动设备，然后重试。
+8. 如果配对不成功，你可以尝试再次配对笔。 如果这不起作用，则可以通过验证笔在白板应用程序中的工作来查看电池是否有电。 如果不是，则更换电池，然后再次尝试配对笔。 如有必要，请重启设备，然后重试。
 
 **设置笔快捷方式** Surface Hub 笔具有一个快捷方式按钮，有时称为 "箭尾单击"。 配置快捷方式要求首先对笔进行配对，如前文所述。
 
@@ -153,7 +158,7 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 2. 在页面底部，选择打开该对话框的笔快捷方式，如下所示：
 
-![笔快捷方式](images/sh2-pen-shortcuts.png)
+   ![笔快捷方式](images/sh2-pen-shortcuts.png)
 
 ## 照相机配置
 
@@ -200,7 +205,9 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 若要更新安装的所有应用商店应用：
 
 1. 打开 Microsoft Store 应用，然后在右上角选择 " **查看更多** 省略号"。
+
 2. 选择 **下载和更新**。
+
 2. 选择**获取更新**。
 
 ### Microsoft Whiteboard
@@ -246,6 +253,7 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 3. 如果已安装 Outlook，请确保将 Outlook OST 设置为仅保存最近两周的缓存。 这将大大减少磁盘使用量和设置时间。
 
     - 选择 "**文件**  >  **帐户设置**"，然后选择您的帐户。
+    
     - 选择 " **更改** "，将 " **使用缓存 Exchange 模式** " 滑块设置为14天。
 
 ### Microsoft Teams
@@ -307,6 +315,11 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 下载并安装新的 [Edge Chromium 浏览器](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL)。
 
+
+### Surface Hub 硬件诊断工具
+
+从 Microsoft Store 免费获取 [Surface Hub 硬件诊断工具](https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g) 。 该工具旨在帮助你确保 Surface Hub 的性能最佳。 它包含用于确定你的固件是否为最新且配置正确的测试。 交互式测试允许你确认基本功能是否按预期工作。 如果遇到问题，可保存结果并与 Surface Hub 支持团队共享。 单击链接以从 Microsoft Store 安装它，然后将应用程序固定到任务栏。
+
 ## 其他设置
 
 ### 选择 "笔尾" 以启动白板
@@ -336,7 +349,7 @@ Surface Hub 2 上的 Windows 10 专业版或企业版通过触摸、鼠标和键
 2. 将 **屏幕超时设置** 和 **屏幕保护程序设置** 配置为你的首选项。 推荐的默认值为：
 
    - 屏幕保护程序 ("无") 或您选择的屏幕保护程序。
-   - 等待 "时间达15分钟。
+   - 等待15分钟的时间。
    - 在恢复时，显示 "登录" 屏幕。
 
 
