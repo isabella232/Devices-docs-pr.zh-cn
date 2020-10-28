@@ -10,14 +10,14 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/27/2017
+ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ad65170b3cc2534fec1b22730c718025026d7bc
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: e070c28d13cd8466bff47022f4508fdb8aa06331
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831840"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142911"
 ---
 # 首次运行计划 (Surface Hub)
 
@@ -71,7 +71,7 @@ ms.locfileid: "10831840"
 ### 会发生什么情况？
 
 >[!NOTE]
-> 在此页面上输入设置后，将无法返回到此屏幕，除非你重置设备（请参阅[设备重置](device-reset-surface-hub.md)）。 确保设置已正确配置，然后再继续。
+> 在此页面上输入设置后，将无法返回到此屏幕，除非你重置设备（请参阅[设备重置](device-reset-surface-hub.md)）。 确保设置已正确配置，然后再继续。
 
  
 
@@ -93,7 +93,7 @@ ms.locfileid: "10831840"
 -   可以选择显示的无线网络之一。 如果网络是安全的，你将转到登录页面。 有关详细信息，请参阅 [无线网络设置](#wireless) 。
 -   单击**跳过此步骤**以跳过连接到网络步骤。 你将转到[“为你设置”页面](#set-up-for-you)。
     >[!NOTE]
-    >如果跳过此页面，设备将没有网络连接，并且需要网络连接的所有工作（包括系统更新以及电子邮件和日历同步）均将无法在 Surface Hub 上进行。 您以后可以使用 "设置" 连接到无线网络（请参阅[无线网络管理](wireless-network-management-for-surface-hub.md)）。
+    >如果跳过此页面，设备将没有网络连接，并且需要网络连接的所有工作（包括系统更新以及电子邮件和日历同步）均将无法在 Surface Hub 上进行。 稍后可以使用 "设置" 连接到无线网络， (参阅 [无线网络管理](wireless-network-management-for-surface-hub.md)) 。
 
      
 
@@ -128,17 +128,17 @@ ms.locfileid: "10831840"
 
 -   可以选择使用无线网络，而不是有限的有线连接。
 -   可通过选择**跳过此步骤**跳过连接到网络步骤。 你将转到[“为你设置”页面](#set-up-for-you)。
-    **注意** 如果跳过此操作，设备将没有网络连接，并且不需要网络连接的任何内容都将在 Surface Hub 上工作，包括电子邮件和日历同步等内容。 您以后可以使用 "设置" 连接到无线网络（请参阅[无线网络管理](wireless-network-management-for-surface-hub.md)）。
+    **注意**  如果跳过此步骤，设备将没有网络连接，并且需要网络连接的所有工作（包括诸如电子邮件和日历同步等操作）均将无法在 Surface Hub 上进行。 稍后可以使用 "设置" 连接到无线网络， (参阅 [无线网络管理](wireless-network-management-for-surface-hub.md)) 。
 
      
 
 -   可以选择**输入代理设置**，这将允许你指定如何使用网络代理。 你将转到下一个屏幕。
 
-![显示“网络代理”页面的图像。](images/setupnetworksetup-2.png)
+    ![显示“网络代理”页面的图像。](images/setupnetworksetup-2.png)
 
-这是你将看到的屏幕（如果你在上一屏幕上单击了**输入代理设置**）。
+    这是你将看到的屏幕（如果你在上一屏幕上单击了**输入代理设置**）。
 
-![显示代理服务器设置详细信息的图像。](images/setupnetworksetup-4.png)
+    ![显示代理服务器设置详细信息的图像。](images/setupnetworksetup-4.png)
 
 ### 详细信息
 
@@ -154,7 +154,7 @@ ms.locfileid: "10831840"
 可通过选择**跳过此步骤**跳过连接到网络步骤。 你将转到[“为你设置”页面](#set-up-for-you)。
 
 >[!NOTE]
->如果跳过此步骤，设备将没有网络连接，并且需要网络连接的所有工作（包括诸如电子邮件和日历同步等操作）均将无法在 Surface Hub 上进行。 您以后可以使用 "设置" 连接到无线网络（请参阅[无线网络管理](wireless-network-management-for-surface-hub.md)）。
+>如果跳过此步骤，设备将没有网络连接，并且需要网络连接的所有工作（包括诸如电子邮件和日历同步等操作）均将无法在 Surface Hub 上进行。 稍后可以使用 "设置" 连接到无线网络， (参阅 [无线网络管理](wireless-network-management-for-surface-hub.md)) 。
 
  
 
@@ -371,9 +371,10 @@ Surface Hub 要求设备的两个名称，其默认为：
 加入 Azure AD 主要有两项好处：
 
 1.  你组织中的某些员工将能够以管理员身份访问设备，并且将能够启动“设置”应用和配置设备。 具有管理员权限的人员将在你的 Azure AD 订阅中进行定义。
+
 2.  如果你的 Azure AD 已连接到移动设备管理 (MDM) 解决方案，设备将注册该 MDM 解决方案，以便你可以应用策略和配置。
 
-![显示当你使 Surface Hub 加入 Azure Active Directory 时的消息的图像。](images/setupjoiningazuread-1.png)
+    ![显示当你使 Surface Hub 加入 Azure Active Directory 时的消息的图像。](images/setupjoiningazuread-1.png)
 
 ### 详细信息
 
@@ -451,7 +452,7 @@ Surface Hub 要求设备的两个名称，其默认为：
 
 若要获取最新的功能和修补程序，在完成上述所有首次运行步骤后，应立即更新 Surface Hub。
 
-1.  请确保设备具有对 Windows 更新服务器或 Windows Server Update Services (WSUS) 的访问权限。 若要配置 WSUS，请参阅[使用 WSUS](manage-windows-updates-for-surface-hub.md#use-windows-server-update-services)。
+1.  请确保设备有权访问 Windows Update 服务器。 
 2.  打开“设置”，然后依次单击**更新和安全**、**Windows 更新**和**检查更新**。
 3.  如果有可用的更新，将下载它们。 下载完成后，单击**立即更新**按钮即可安装更新。
 4.  安装更新后，请按照屏幕上的提示操作。 你可能需要重新启动设备。

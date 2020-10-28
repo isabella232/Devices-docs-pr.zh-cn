@@ -9,20 +9,23 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 08/13/2020
+ms.date: 10/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 51d6b9169b0074eb474ddc89b6fe9b43a921bb07
-ms.sourcegitcommit: feb81137d009d9b7c743aabd7d02615e89842200
+ms.openlocfilehash: 6d370db0232ae1f93d1ba6b8ff15b5ff2cfa9f10
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "10929759"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142901"
 ---
 # 安装 Windows 10 协同版 2020 更新预览版本 
 
-目前，Surface hub 操作系统、 **windows 10 Team 2020 更新**的最新更新现在可通过 [Windows 预览体验计划](https://insider.windows.com)中的 surface Hub 50 英寸和 surface Hub 2 55 英寸设备免费获得额外费用。 Windows 10 Team 2020 更新的最终版本中将支持 Surface Hub 84 英寸模型。
+Surface Hub 操作系统、 **windows 10 Team 2020 Update preview**的预览内部版本可通过 [Windows 预览体验计划](https://insider.windows.com)免费获得任何额外费用。 
 
-Windows 10 Team 2020 更新通过最新的 Windows 10 功能提升了设备部署和可管理性的主要改进。 若要了解有关新增功能的详细信息，请参阅以下博客文章：已 [发布用于公共预览版的新 Surface HUB 操作系统更新。](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) 对于已知问题，请参阅下面的 "已知问题" 部分。
+> [!NOTE] 
+> 现已推出 Windows 10 Team 2020 更新的最终公共版本。 若要了解详细信息，请参阅 [Windows 10 Team 2020 更新](surface-hub-2020-update.md)。
+
+Windows 10 Team 2020 更新通过最新的 Windows 10 功能提升了设备部署和可管理性的主要改进。 若要了解有关新增功能的详细信息，请参阅以下博客文章：已 [发布用于公共预览版的新 Surface HUB 操作系统更新。](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) 对于已知问题，请参阅 [已知问题： Windows 10 Team 2020 更新](surface-hub-2020-team-update-known-issues.md)
  
 ## 必备条件
 
