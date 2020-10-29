@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 10/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 3e376a740aa16333cbbabc812b0c0193ab90d585
-ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
+ms.openlocfilehash: 68eee89ac1b93501c73eccd3e5f9eecf514a8132
+ms.sourcegitcommit: b4cfb718274fd632661f9112e9fd086a2ad45640
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "11142924"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "11143637"
 ---
 # 安装 Windows 10 Team 2020 更新 
 
@@ -48,7 +48,7 @@ Windows 10 Team 2020 更新通过最新的 Windows 10 功能提升了设备部�
  
 ## 开始之前
 
-在安装 Windows 10 team 2020 更新之前，请确保保存与设备关联的 BitLocker 密钥。
+在安装 Windows 10 team 2020 更新之前，请确保保存与设备关联的 BitLocker 密钥。 若要了解详细信息，请参阅 [Windows 10 Team 2020 更新 iin 的新增功能](surface-hub-2020-update-whats-new.md)
 
 **手动保存 BitLocker 密钥**
 
