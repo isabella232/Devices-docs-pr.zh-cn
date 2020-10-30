@@ -13,13 +13,13 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.date: 10/13/2020
-ms.openlocfilehash: bfd10df3bb7a7dd031c1719d4191ffc46418c4e3
-ms.sourcegitcommit: 30c1eb469610dfd2ad9169c154ca07e565240fdb
+ms.date: 10/28/2020
+ms.openlocfilehash: 2d31f520d8c4da54f47b2b89b58b43e2cb983f1a
+ms.sourcegitcommit: 7f5b97275fe301ef700f9c77954a1054e2e8d046
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "11117848"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "11145613"
 ---
 # 使用 Microsoft Endpoint Configuration Manager 通过 SEMM 管理设备
 
@@ -388,11 +388,6 @@ Microsoft Surface UEFI 管理器的部署是典型的应用程序部署。 Micro
 
 运行 ShowSettingsOptions.ps1 的计算机必须安装有 Microsoft Surface UEFI 管理器，但该脚本不需要 Surface 设备。
 
-查看设备的最新设置名称和 Id 的最佳方式是使用 ConfigureSEMM.ps1 脚本或 <device name> 来自 [IT 下载的 Surface Tools](https://www.microsoft.com/download/details.aspx?id=46703)中的 SEMM_Powershell.zip 的 ConfigureSEMM。
-
-可以在 ConfigureSEMM.ps1 脚本中看到所有设备的 "设置名称" 和 "Id"。
-
-在 ConfigureSEMM 脚本中可以看到特定设备的设置名称和 Id <device name> 。 
 
 ## 部署 SEMM Configuration Manager 脚本
 
