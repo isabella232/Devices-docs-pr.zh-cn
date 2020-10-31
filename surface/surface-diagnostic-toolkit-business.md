@@ -12,12 +12,12 @@ ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 1f2661811516507abd432dba602cf8ce81e6dbb3
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: 97d0a3d76cf9286ca946e08be9f605084084b2ba
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114660"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145957"
 ---
 # 部署适用于企业的 Surface 诊断工具包
 
@@ -25,7 +25,7 @@ ms.locfileid: "11114660"
 
 特别是，SDT for Business 使你能够：
 
-- [自定义程序包。](#create-custom-sdt)
+- [自定义程序包。](#preparing-the-sdt-package-for-distribution)
 - [使用命令运行应用。](surface-diagnostic-toolkit-command-line.md)
 - [运行多个硬件测试以解决问题。](surface-diagnostic-toolkit-desktop-mode.md#multiple)
 - [生成用于分析问题的日志。](surface-diagnostic-toolkit-desktop-mode.md#logs)
@@ -123,8 +123,6 @@ ms.locfileid: "11114660"
 ![文件资源管理器中的 SDT 已安装文件的列表](images/sdt-2.png)
 
 *图 2. 由 SDT 安装的文件*
-
-<span id="create-custom-sdt" />
 
 ## 准备用于分发的 SDT 程序包
 

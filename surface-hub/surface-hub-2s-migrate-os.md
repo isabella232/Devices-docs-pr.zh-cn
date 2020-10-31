@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 10/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 96aec50335ab08e9d524c5ae1a595695c1de46d4
-ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
+ms.openlocfilehash: 12742cc887ba495f8f7cbded8bd84dc4fd63b6f6
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "11134390"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145967"
 ---
 # 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -167,6 +167,9 @@ Surface Hub 2 是预安装的 Windows 10 团队，它是 Windows 10 的自定义
 1. 将 USB 驱动器连接到电脑。 选择 " **中心** 2"，然后选择 " **下一步**"。
 
    ![选择 "USB](images/shm-fig13.png)
+
+> [!WARNING]
+> 生成 SEMM 程序包时，将擦除 USB 驱动器上的所有现有数据。 在生成 SEMM 程序包之前，请从要保存的 USB 驱动器中删除所有文件。
    
 2. 选择“构建”****。
 
