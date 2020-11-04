@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/21/2020
+ms.date: 11/03/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: a17d4b05e6ee5f7415fed62d96b9e0a62a6dc123
-ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
+ms.openlocfilehash: b86776b56e892c34ea8b5abbc55d5c48723a5f9e
+ms.sourcegitcommit: 3ca1d1bc77452acca914d0af03e252ee260ebf1a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "11134400"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "11154124"
 ---
 # 配置 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -34,7 +34,7 @@ ms.locfileid: "11134400"
 
 1. 使用对设备具有本地管理员权限的帐户登录。  
 
-    - 在 Azure AD 已加入设备上，执行 Azure AD 联接的用户将自动添加到本地管理员组。 Azure AD 全局管理员和 Azure AD 设备管理员 [也是本地管理员](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin)。 
+    - 在 Azure AD 已加入设备上，执行 Azure AD 联接的用户将自动添加到本地管理员组。 Azure AD 全局管理员和 Azure AD 设备管理员 <a href="https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin" target="_blank"> 也是本地管理员 </a> 。 
     
     - 您可以在命令提示符下键入 **net localgroup 管理员** ，以列出具有本地管理员权限的帐户。
     
@@ -83,17 +83,17 @@ ms.locfileid: "11134400"
 
 如果将设备用作主 Windows 设备，则连接键盘和鼠标，或者经常将其用于键入或精度工作。
 
-如果 Surface Hub 设备靠近 PC，则可以使用 [没有边框的鼠标](https://aka.ms/mm) 在 Surface HUB 和 PC 之间无缝移动。 有关详细信息，请参阅 [Microsoft 从车库下载：不带边框的鼠标](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/)。
+如果 Surface Hub 设备靠近 PC，则可以使用 <a href="https://aka.ms/mm" target="_blank"> 没有边框的鼠标在 </a> Surface HUB 和 PC 之间无缝移动。 有关详细信息，请参阅 <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Microsoft 从车库下载：不带边框的鼠标。 </a>
 
 ## OneDrive for Business
 
-使用 [OneDrive For business](https://docs.microsoft.com/onedrive/onedrive) 在所有工作设备之间轻松共享工具、日志和其他文件。
+使用 <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> OneDrive For business 在 </a> 所有工作设备之间轻松共享工具、日志和其他文件。
 
 - OneDrive 使你能够在笔记本电脑、Surface Hub 桌面和你的 Intune 管理的移动设备之间共享你的工作文件。 可以在任何设备上编辑文件，并且所有连接网络的设备都将更新为所做的更改。
 
 - 考虑 Surface Hub SSD 的大小 (128GB) ，如果在 Surface Hub 桌面设备上配置 OneDrive，请确保默认配置是在使用文件时保持联机文件和下载文件。
 
-若要将 OneDrive 配置为仅在需要时下载文件，请设置 **文件的按需** 设置以在 **使用时节省空间和下载文件**。 有关详细信息，请参阅 [在 Windows 中查询和设置文件的按需状态](https://docs.microsoft.com/onedrive/files-on-demand-windows)。
+若要将 OneDrive 配置为仅在需要时下载文件，请设置 **文件的按需** 设置以在 **使用时节省空间和下载文件**。 有关详细信息，请参阅 <a href="https://docs.microsoft.com/onedrive/files-on-demand-windows" target="_blank"> 在 Windows 中查询和设置文件的按需状态 </a> 。
 
 ![OneDrive 设置](images/onedrive.png)
 
@@ -122,7 +122,7 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
     
     3. 选择 " **释放空间**"。
     
-    4. "状态" 列将显示文件和文件夹的状态。 有关详细信息，请参阅 [与 OneDrive 同步客户端同步 SharePoint 文件](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd)。
+    4. "状态" 列将显示文件和文件夹的状态。 有关详细信息，请参阅 <a href="https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd" target="_blank"> 与 OneDrive 同步客户端同步 SharePoint 文件 </a> 。
     
 6. 团队频道文件存储在 SharePoint 网站中，具有所有相同的 SharePoint 文档功能，包括版本历史记录和同步到本地桌面设备。 要同步团队频道文件，请执行以下操作：
 
@@ -164,13 +164,13 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 可以在设备顶部或任意一侧安装相机。 如果您使用的是桌面支架而不是 cart，或者在与集线器紧密邻近的位置使用集线器，请将相机装入位置以优化相机角度。 摄像头不会自动旋转，因此你需要具有2mm 十六进制密钥才能手动旋转相机。 
 
-有关如何安装相机以及手动旋转相机的详细信息，请参阅 [Surface Hub 2 相机镜头方向](https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation)。
+有关如何安装相机以及手动旋转相机的详细信息，请参阅 <a href="https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation" target="_blank"> Surface Hub 2 相机镜头方向 </a> 。
 
 ## Windows Hello 配置
 
 运行 Windows 10 企业版的 Surface Hub 2 支持完整的 Win32 桌面应用程序和生物识别 Windows Hello 选项。 Surface Hub 2 指纹读取器附件可以插入到设备上的任何 USB 端口。 
 
-要订购 Surface Hub 2 指纹读取器或查看技术规范，请参阅 [Surface hub 2 上的适用于 Windows 10 专业版和企业版的基本加载项](surface-hub-2-essential-add-ons.md)。 
+要订购 Surface Hub 2 指纹读取器或查看技术规范，请参阅 (surface-hub-2-essential-add-ons.md "target =" _blank ">Surface Hub 2 上的 Windows 10 专业版和企业版的基本加载项 </a> 。 
 
 插入指纹读取器后，选择 "**开始**  >  **设置**  >  **帐户**"  >  **登录选项**  >  **Windows Hello 指纹**以注册指纹。
 
@@ -246,7 +246,7 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 ### Microsoft Office
 
-1. 打开 [Office 门户](https://portal.office.com/account#installs) 并安装所需的应用程序。
+1. 打开 <a href="https://portal.office.com/account#installs" target="_blank"> Office 门户 </a> 并安装所需的应用程序。
 
 2. 将所需的 Office 应用程序固定到任务栏。
 
@@ -258,7 +258,7 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 ### Microsoft Teams
 
-1. 下载并安装 [Microsoft 团队](https://teams.microsoft.com/downloads)。
+1. 下载并安装 <a href="https://teams.microsoft.com/downloads" target="_blank"> Microsoft 团队 </a> 。
 
 2. 将设置配置为自动启动应用程序 (可选) 。
 
@@ -305,20 +305,20 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 默认情况下， **您的手机** 应用安装在 Windows 10 上。 如果不存在，还可以从 Windows 应用商店安装它。
 
-有关设置应用的信息，请参阅 [如何在 Windows 10 上设置你的电话和在电脑和手机之间同步数据](https://www.windowscentral.com/how-set-your-phone-windows-10)。 另请参阅 [如何修复 Windows 10 上的手机应用常见问题](https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10)。
+有关设置应用的信息，请参阅 <a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank"> 如何在 Windows 10 上设置你的电话和在电脑和手机之间同步数据 </a> 。 另请参阅 <a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank"> 如何修复 Windows 10 上的手机应用常见问题 </a> 。
 
 ### 超级别致区域
 
-**Super 别致的区域** 可帮助用户排列窗口以最大化屏幕房地产。 它现已包含在 GitHub 上的 [PowerToys](https://github.com/microsoft/PowerToys/releases) 中。
+**Super 别致的区域** 可帮助用户排列窗口以最大化屏幕房地产。 它现已包含在 <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> GitHub 上的 PowerToys 中 </a> 。
 
 ### Edge Chromium 浏览器
 
-下载并安装新的 [Edge Chromium 浏览器](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL)。
+下载并安装新的 <a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank"> Edge Chromium 浏览器 </a> 。
 
 
 ### Surface Hub 硬件诊断工具
 
-从 Microsoft Store 免费获取 [Surface Hub 硬件诊断工具](https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g) 。 该工具旨在帮助你确保 Surface Hub 的性能最佳。 它包含用于确定你的固件是否为最新且配置正确的测试。 交互式测试允许你确认基本功能是否按预期工作。 如果遇到问题，可保存结果并与 Surface Hub 支持团队共享。 单击链接以从 Microsoft Store 安装它，然后将应用程序固定到任务栏。
+<a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g" target="_blank"> </a> 从 Microsoft Store 免费获取 Surface Hub 硬件诊断工具。 该工具旨在帮助你确保 Surface Hub 的性能最佳。 它包含用于确定你的固件是否为最新且配置正确的测试。 交互式测试允许你确认基本功能是否按预期工作。 如果遇到问题，可保存结果并与 Surface Hub 支持团队共享。 单击链接以从 Microsoft Store 安装它，然后将应用程序固定到任务栏。
 
 ## 其他设置
 
@@ -454,4 +454,4 @@ Surface Hub 2 具有用于本地存储的 128GB SSD，因此在正常使用期�
 
 ## 相关主题
 
-[迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版](surface-hub-2s-migrate-os.md)
+<a href="surface-hub-2s-migrate-os.md" target="_blank"> 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版</a>
