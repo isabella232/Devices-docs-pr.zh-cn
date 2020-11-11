@@ -13,12 +13,12 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: 9460b4a5e8b44cbf4b6af57d01aab3b09afb49de
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 6a5c53c3e161bd4c49069a0665896762ce587618
+ms.sourcegitcommit: e9190a6fe68b8a7cd9b024aea4be9f885f0de388
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830800"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "11163185"
 ---
 # 适用于 Surface Pro 3 的高级 UEFI 安全功能
 
@@ -54,7 +54,7 @@ ms.locfileid: "10830800"
 | WLAN           | 启用或禁用 Surface 设备中的内置 WLAN 收发器。 这也将禁用蓝牙。                                                                              | **已启用**、已禁用                       |
 | 蓝牙      | 启用或禁用 Surface 设备中的内置蓝牙无线收发器。                                                                                                        | **已启用**、已禁用                       |
 
- 
+ 
 
 ## 自动化其他安全设置
 
@@ -69,12 +69,13 @@ ms.locfileid: "10830800"
 
 **示例脚本**
 
->**注意**：&nbsp;&nbsp;以下示例脚本中使用的 UEFI 密码将以明文形式提供。 我们强烈建议将脚本保存在受保护的位置中并在受控环境中运行它们。
+> [!NOTE]
+> 以下示例脚本中使用的 UEFI 密码将以明文形式提供。 我们强烈建议将脚本保存在受保护的位置中并在受控环境中运行它们。
 
 
 显示所有可配置选项：
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -99,7 +100,7 @@ foreach ($uefiOption in $uefiOptions)
 
 设置或更改 UEFI 密码：
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -115,7 +116,7 @@ $Password.ProposedValue = "12345"
 
 检查建议的更改的状态：
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -141,7 +142,7 @@ if ($details.Count -gt 0)
 
 将 UEFI 还原为默认值：
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -166,11 +167,4 @@ foreach ($uefiOption in $uefiOptions)
 -   03 - 有一个无法识别的建议值集
 -   0F - 解锁密码与当前设置密码不匹配
 
- 
-
- 
-
-
-
-
-
+ 
