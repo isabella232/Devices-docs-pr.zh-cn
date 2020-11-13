@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 01c1cc2ea75e79825c80cc6f02970a755ae35b75
-  ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
+  ms.openlocfilehash: c356595e058c45cc95631d2ebd12ee2e5cc75c1d
+  ms.sourcegitcommit: b1c630dcf12530cf7034478bfe66ad3bb11b59c9
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/23/2020
-  ms.locfileid: "11134380"
+  ms.lasthandoff: 11/12/2020
+  ms.locfileid: "11166644"
 landingContent:
 - title: Surface 设备
   linkLists:
@@ -76,12 +76,8 @@ landingContent:
       url: surface-diagnostic-toolkit-business.md
     - text: 热门支持解决方案
       url: support-solutions-surface.md
-    - text: 在兼容 Surface 的设备中删除 SSD 的最佳做法
-      url: surface-ssd-removal-guide.md
-    - text: 在 Surface 修理或服务期间保护数据
-      url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
-    - text: 对 Surface 扩展坞和坞站进行故障排除
-      url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
+    - text: 基于 Windows 的设备的 Surface 驱动程序和固件生命周期
+      url: surface-driver-firmware-lifecycle-support.md
 - title: 导出安全指导
   linkLists:
   - linkListType: how-to-guide
