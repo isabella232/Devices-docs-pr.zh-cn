@@ -80,6 +80,7 @@
 #### [在桌面模式下使用适用于企业的 Surface 诊断工具包](surface-diagnostic-toolkit-desktop-mode.md)
 #### [使用命令运行适用于企业的 Surface 诊断工具包](surface-diagnostic-toolkit-command-line.md)
 ### [最终用户帮助信息](https://support.microsoft.com/products/surface-devices)
+### [基于 Windows 的设备的 Surface 驱动程序和固件生命周期](surface-driver-firmware-lifecycle-support.md)
 
 ## 保修和延长服务计划
 ### [适用于企业的 Surface 保修和延长服务计划](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
