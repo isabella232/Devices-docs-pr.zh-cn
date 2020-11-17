@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: d6b95ac565132c4e4f1632c2abaffa13ddb2c54c
-ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
+ms.openlocfilehash: e5ffefa44560d01135b3ac656d9357f1115110ba
+ms.sourcegitcommit: d60f82d9d22fe118f9c8dc24458d2c144b138eb8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "11142891"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "11174722"
 ---
 # 管理 Surface Hub 上的 Windows 更新
 
@@ -120,7 +120,7 @@ Surface Hub 遵循以下应用更新的指南：
 2.  导航到**更新和安全** > **Windows 更新** > **高级选项**。
 3.  在**维护时间**下，选择**更改**。
 
-若要使用 MDM 更改维护窗口，请在 [SurfaceHub 配置服务提供程序](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)中设置 **MOMAgent** 节点。 请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)，了解详细信息。
+若要使用 MDM 更改维护窗口，请在[SurfaceHub 配置服务提供程序](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)中设置**MaintenanceHoursSimple**节点。 请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)，了解详细信息。
 
 
 ## 详细信息

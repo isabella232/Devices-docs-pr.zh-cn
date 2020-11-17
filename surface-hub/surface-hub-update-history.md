@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f608e18d04a0d6c48ad2990715b400c95b6d8c12
-ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
+ms.openlocfilehash: ab43155ee5e2973c5c45fc9ce8dd1395e3ca8bc5
+ms.sourcegitcommit: d60f82d9d22fe118f9c8dc24458d2c144b138eb8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "11078722"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "11174742"
 ---
 # Surface Hub 更新历史记录
 
@@ -27,7 +27,17 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 
 请参阅 "[Surface Hub 重要信息](https://support.microsoft.com/products/surface-devices/surface-hub)" 页面，了解有关可能需要你注意的当前版本和过去版本的相关主题。
 
-## Windows 10 团队创意者更新1703
+## Windows 10 Team 2020 更新 (20H2) 
+
+<details>
+<summary>适用于 Surface Hub 的 Windows 10 Team 2020 更新-常规发行说明 (OS 内部版本 19042.572) </summary>
+
+对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 "[windows 10 Team 2020 更新](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)" 的 "新增功能" 页面上注明 Surface Hub 的关键更新，但尚未在[Windows 10 更新历史记录](https://support.microsoft.com/help/4581839/windows-10-update-history)中列出。
+
+请参阅 "[安装 Windows 10 Team 2020 更新](https://docs.microsoft.com/surface-hub/surface-hub-2020-update)" 页面，了解有关按区域、分发方法和设备类型更新可用性的详细信息。
+</details>
+
+## Windows 10 团队创意者更新 (1703) 
 
 <details>
 <summary>2020年9月1日-Surface Hub 2 的更新</summary>
@@ -169,7 +179,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 
 对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4018124/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
 
-* 解决了阻止某些用户登录到 "我的会议和文件" 的问题。
+* 解决了阻止某些用户 Signing-In "我的会议和文件" 的问题。
 
 请参阅 [Surface Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，了解如何启用/禁用设备功能和服务。
 *[KBKB4467699](https://support.microsoft.com/help/KB4467699)
@@ -322,7 +332,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 <summary>2017年8月1日-基于 KB4032188 * (操作系统内部版本15063.498 的团队更新) </summary>
 
 * Skype for Business 
-  * 解决 Skype for Business 登录问题，需要重试或重新启动系统。
+  * 解决了 Skype for Business Sign-In 问题，需要重试或重新启动系统。
   * 解决了不正确显示的 Skype for Business 会议时间。
   * 改进 Surface Hub Skype for business 可靠性的修补程序。
 
@@ -416,7 +426,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 * 可靠性和性能修复程序
   * 解决了多个重置和恢复问题
   * 利用客户证书时已解决 Surface Hub Exchange 身份验证问题
-  * 改进的 Wlan 网络连接和凭据稳定性
+  * 改进了 Wi-Fi 网络连接和凭据稳定性
   * 修复了视频播放期间的 "Miracast 音频" 弹出和同步问题
   * 用于禁用自动连接行为的包含设置
 
@@ -424,7 +434,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 
 </details>
 
-## Windows 10 团队周年纪念日更新1607
+## Windows 10 团队周年纪念日更新 (1607) 
 
 <details>
 <summary>2017年3月14日-基于 KB4013429 * (操作系统内部版本14393.953 的团队更新) </summary>
@@ -546,7 +556,7 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 * 修复了导致预关闭服务崩溃的问题
 * 修复了会话后无法正确删除某些应用数据的问题
 * 更新了 Broadcom NFC 驱动程序以提高 NFC 性能
-* 更新了 Marvell Wlan 驱动程序以提高 Miracast 性能
+* 更新了 Marvell Wi-Fi 驱动程序以提高 Miracast 性能
 * 已更新的 Nvidia 驱动程序，可修复 84 "Surface Hub 设备显示暗淡或模糊内容的显示 bug
 * 修复了许多 Skype for Business 问题，包括： 
   * 导致 Skype for Business 在会议期间断开连接的问题
