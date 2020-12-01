@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 2aba835da79d40d4ae5f2786f77071ab9e210844
-ms.sourcegitcommit: e2ade2f198e4123c922c6a4fb5ab61e040e38ccb
+ms.openlocfilehash: f45a2f202cdf350c6e51bb78a2bf87019a89453a
+ms.sourcegitcommit: 7c00ca47fe81a4f5b3a3317afabb4d028ff21289
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "11190065"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "11192843"
 ---
 # Surface Hub 更新历史记录
 
@@ -28,6 +28,24 @@ Windows 10 被设计为一种服务，这意味着它会通过定期软件更新
 请参阅 "[Surface Hub 重要信息](https://support.microsoft.com/products/surface-devices/surface-hub)" 页面，了解有关可能需要你注意的当前版本和过去版本的相关主题。
 
 ## Windows 10 Team 2020 更新 (20H2) 
+
+<details>
+<summary>2020年11月30日-基于 KB4586853 * (操作系统内部版本19042.662 的团队更新) </summary>
+
+对 Surface Hub 的此更新包括质量改进和安全修补程序。 在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4581839/windows-10-update-history)中尚未概括介绍 Surface Hub 的关键更新，包括：
+
+* "更新至隐私设置" 页面以提供其他选项。
+* 修复：确保结束会话清理完全删除所有与 Edge Chromium 相关的数据。
+* 解决了已开始的会议未显示在欢迎/开始屏幕上的问题。
+* 解决了非 en-us 区域设置的云恢复问题。
+* Skype for Business
+  * 改善方向音频性能。
+  * 在 Skype for business 通话期间，减少了使用笔时的 "笔点击" 声音。
+* 提高了注册到 Windows 预览体验计划的可靠性。
+* 提高 Windows 团队外壳的可靠性。
+
+请参阅 [Surface Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，了解如何启用/禁用设备功能和服务。 *[KB4586853](https://support.microsoft.com/help/4586853)
+</details>
 
 <details>
 <summary>2020年11月24日-Surface Hub 第2版更新</summary>
