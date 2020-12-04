@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 01/10/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: ebae05d4d1fe67d690c19e003b2755c4720af265
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 92b42139020db13251fa6c5f8439d7084a61a132
+ms.sourcegitcommit: 5d02cca9ca8c0a252798c2fc0a89dbda81911c44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832032"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "11195377"
 ---
 # 适用于 Surface Hub 的 PowerShell
 
@@ -33,6 +33,9 @@ ms.locfileid: "10832032"
     -   [允许 ActiveSync 的设备 ID](#whitelisting-device-ids-cmdlet)
     -   [自动接受和拒绝会议请求](#auto-accept-meetings-cmdlet)
     -   [接受外部会议请求](#accept-ext-meetings-cmdlet)
+    
+ > [!NOTE]
+ > 另请参阅 [Exchange Online PowerShell V2 中的新式身份验证和无人参与脚本](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
 
 ## 必备软件
 
@@ -1668,7 +1671,7 @@ Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
 对于要接受外部会议请求（会议请求来自不在相同租户/域中的帐户）的设备帐户，必须将该设备帐户设置为允许处理外部会议请求。 设置完成后，该设备帐户可自动接受或拒绝来自外部帐户以及本地帐户的会议请求。
 
 > [!Note]
-> 如果**AutomateProcessing**属性未设置为**AutoAccept**，则设置此属性将不起作用。
+> 如果 **AutomateProcessing** 属性未设置为 **AutoAccept**，则设置此属性将不起作用。
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -ProcessExternalMeetingMessages $true
