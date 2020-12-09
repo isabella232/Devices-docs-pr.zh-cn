@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 10/27/2020
+ms.date: 12/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 90bd5714b7427880f6e73c7031c26894d55ac500
-ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
+ms.openlocfilehash: 7035d4c89e2ef5937d0480cf2d77db2e7e829488
+ms.sourcegitcommit: e126b8ac66a781ebe42cdd677af3fe6a2eb5e72c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "11145947"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "11203534"
 ---
 # 安装 Windows 10 协同版 2020 更新 
 
@@ -34,8 +34,12 @@ ms.locfileid: "11145947"
 | ----- | -------------------------------------- | ----------------- |
 | raid-1     | 新西兰、澳大利亚、加拿大、比利时、墨西哥 | 2020年10月27日  |
 | ppls-2     | 英国、日本、瑞士、意大利          | 2020年11月10日 |
-| 三维空间     | 美国、德国                            | 2020年11月30日 |
-| 第     | 全局                                 | 2020年12月7日  |
+| 三维空间     | 美国、德国                            | 待定 |
+| 第     | 全局                                 | 待定  |
+
+## 通过 Windows 10 Team Edition v1703 维护 Surface Hub 2 
+
+所有地区的客户都可以使用 Windows 更新 for Business 继续更新其 Surface Hub 2 版设备，或使用裸机恢复 (BMR) 映像，如 [重置和恢复 Surface Hub](surface-hub-2s-recover-reset.md)2 中所述。 针对 Windows 10 Team Edition 版本1703的完整服务支持计划在年3月 16 2021 日之前继续。
 
 
 ## V1 设备支持 
@@ -44,11 +48,11 @@ ms.locfileid: "11145947"
  
 ## 新增内容
 
-Windows 10 Team 2020 更新通过最新的 Windows 10 功能提升了设备部署和可管理性的主要改进。 
+Windows 10 Team 2020 更新通过最新的 Windows 10 功能提升了设备部署和可管理性的主要改进。 若要了解详细信息，请参阅 [Windows 10 Team 2020 更新中的新增功能](surface-hub-2020-update-whats-new.md)。
  
 ## 开始之前
 
-在安装 Windows 10 team 2020 更新之前，请确保保存与设备关联的 BitLocker 密钥。 若要了解详细信息，请参阅 [Windows 10 Team 2020 更新中的新增功能](surface-hub-2020-update-whats-new.md)。
+在安装 Windows 10 team 2020 更新之前，请确保保存与设备关联的 BitLocker 密钥。 
 
 **手动保存 BitLocker 密钥**
 
@@ -59,9 +63,6 @@ Windows 10 Team 2020 更新通过最新的 Windows 10 功能提升了设备部�
 
 若要了解详细信息，请参阅 [保存 BitLocker 密钥](save-bitlocker-key-surface-hub.md)。
 
-
 ## 了解详细信息
 
-
-- [已发布用于公共预览版的新 Surface Hub 操作系统更新。](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823)
-
+- [Surface Hub Windows 10 Team 2020 更新的重要更新](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/important-updates-on-the-surface-hub-windows-10-team-2020-update/ba-p/1960897)

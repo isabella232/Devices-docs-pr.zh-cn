@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 11/03/2020
+ms.date: 12/08/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: b86776b56e892c34ea8b5abbc55d5c48723a5f9e
-ms.sourcegitcommit: 3ca1d1bc77452acca914d0af03e252ee260ebf1a
+ms.openlocfilehash: 7accbe3d905af3b295f92c002eecd5d77356672d
+ms.sourcegitcommit: e126b8ac66a781ebe42cdd677af3fe6a2eb5e72c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "11154124"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "11203547"
 ---
 # 配置 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -85,6 +85,29 @@ ms.locfileid: "11154124"
 
 如果 Surface Hub 设备靠近 PC，则可以使用 <a href="https://aka.ms/mm" target="_blank"> 没有边框的鼠标在 </a> Surface HUB 和 PC 之间无缝移动。 有关详细信息，请参阅 <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Microsoft 从车库下载：不带边框的鼠标。 </a>
 
+## 任务栏布局示例
+
+在完成以下步骤来为 Windows 10 专业版或企业版设置/配置 Surface Hub 2 后，我们建议你将最常用的应用程序固定到任务栏，以便每个应用程序快速进行一次触控启动。 下面是任务栏外观的示例：
+
+ ![任务栏布局](images/taskblyt.png)
+### 更新已安装的应用
+
+若要更新安装的所有应用商店应用：
+
+1. 打开 Microsoft Store 应用，然后在右上角选择 " **查看更多** 省略号"。
+2. 选择 " **下载和更新"。**
+3. 选择 "**获取更新**"
+
+### 扫描并安装所有 Windows 更新
+迁移到 Windows 10 专业版或 Windows 10 企业版后，可能会有可供你安装的服务和功能更新。 
+
+- 转到 "**设置**"  >  **更新 & 安全**"> 然后选择"**检查更新**"。
+- 如果存在任何更新，请安装它们，重新启动，然后重复该过程，直到看到以下通知：
+
+> [!div class="mx-imgBorder"]
+> ![Windows 更新 ' 已更新 ' 已更新 ' 通知](images/wustatus.png)
+
+
 ## OneDrive for Business
 
 使用 <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> OneDrive For business 在 </a> 所有工作设备之间轻松共享工具、日志和其他文件。
@@ -134,7 +157,7 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 **配对蓝牙 Surface Hub 笔**
 
-对笔进行配对以使笔固件保持最新状态，并在 "蓝牙设备设置" 页面或 Surface 应用中获取电池充电信息：
+将笔配对以使笔固件保持最新，在 "蓝牙设备设置" 页面或 Surface 应用中获取电池充电信息：
 
 1. 选择 "**开始**  >  **设置**  >  **设备**"。
 
@@ -200,15 +223,6 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 ## 应用程序
 
-### 更新已安装的应用
-
-若要更新安装的所有应用商店应用：
-
-1. 打开 Microsoft Store 应用，然后在右上角选择 " **查看更多** 省略号"。
-
-2. 选择 **下载和更新**。
-
-2. 选择**获取更新**。
 
 ### Microsoft Whiteboard
 
@@ -307,9 +321,21 @@ SharePoint 和团队频道文件也可以使用 OneDrive 同步引擎在本地�
 
 有关设置应用的信息，请参阅 <a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank"> 如何在 Windows 10 上设置你的电话和在电脑和手机之间同步数据 </a> 。 另请参阅 <a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank"> 如何修复 Windows 10 上的手机应用常见问题 </a> 。
 
-### 超级别致区域
+###  别致的区域
 
-**Super 别致的区域** 可帮助用户排列窗口以最大化屏幕房地产。 它现已包含在 <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> GitHub 上的 PowerToys 中 </a> 。
+
+**别致的区域** 是 <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> GitHub 上名为 PowerToys 的工具集合的一部分 </a> 。 通过使你能够在显示器上定义固定布局 ( "zone" ) ，然后选择要在每个区域中运行的应用，这是在 Surface Hub 2 上使用屏幕房地产的绝佳方式。 
+
+
+[PowerToys wiki](https://github.com/microsoft/PowerToys/wiki)具有有关如何使用和自定义每个工具的说明，包括[FancyZones](https://github.com/microsoft/PowerToys/wiki/FancyZones-Overview)。 在高级别下-安装 PowerToys 后，你可以选择或创建自定义布局，然后按住 shift 键并拖动或使用键盘键将正在运行的应用移动到特定区域。 使用蓝牙或 USB 键盘和鼠标将帮助你解决此情况，或者你可以使用屏幕触摸键盘和触摸板。
+
+**Power 玩具提示**
+- 要在 GitHub 上接收 PowerToys 发布更新的电子邮件通知，请单击 [页面](https://github.com/microsoft/PowerToys/releases)顶部的 "注册" 按钮。
+- 安装 PowerToys 后，你可以通过将 PowerToys 设置 **自动下载** 到 "打开" 来接收 Windows 通知和/或下载并安装最新的更新。
+- 若要访问 PowerToys 设置，请在任务栏上选择 **运行应用** 的 up carat，然后右键单击或按住 PowerToys 图标，直到出现菜单。 选择 "设置"。
+- 在 "PowerToys 设置" 页面的底部，将 " **自动下载更新** " 设置为 "打开"。
+- 当已发布更新时，将显示 Windows 通知，让你可以选择何时安装更新。
+
 
 ### Edge Chromium 浏览器
 
@@ -415,7 +441,7 @@ Surface Hub 2 具有用于本地存储的 128GB SSD，因此在正常使用期�
 
 1. 扫描并安装所有 Windows 更新。
 
-2. 更新组策略
+2. 更新组策略。
 
    1. 在提升的命令提示符处，输入 **gpupdate/force/boot/wait： 0**。
    
