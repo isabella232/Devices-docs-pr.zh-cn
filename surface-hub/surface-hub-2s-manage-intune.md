@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/23/2020
+ms.date: 12/10/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 2fafca4a8f19da72d1584c02cbebe1ce3c03adde
-ms.sourcegitcommit: a16c75f4e81c48e2d0e3ec45430af0939e4feaa2
+ms.openlocfilehash: 6b5dac9f418207293e3b9b386d59fd26762feb72
+ms.sourcegitcommit: 4b1cfcac090910a3ea634929942063eb51fc54f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "11105938"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "11206296"
 ---
 # 使用 Intune 管理 Surface Hub 2S
 
@@ -26,8 +26,8 @@ Surface Hub 2S 支持 IT 管理员使用移动设备管理 (MDM) 提供程序管
 
 ### 手动注册
 
-1. 打开 Surface Hub 2 的 " **设置** " 应用，并以本地管理员身份登录。 选择“**Surface Hub**” > “**设备管理**”，然后选择 **+** 进行添加。
-2. 系统将提示你使用要用于 Intune 的帐户登录。 进行身份验证后，该设备将自动使用 Intune 进行注册。
+1. 在**** Surface Hub 2S 上打开"设置"应用，然后以本地管理员登录。 选择“**Surface Hub**” > “**设备管理**”，然后选择 **+** 进行添加。
+2. 系统将提示你使用用于 Intune 的帐户登录。 进行身份验证后，该设备将自动使用 Intune 进行注册。
 
    ![使用 Intune 注册 Surface Hub 2S](images/sh2-set-intune1.png)<br>
    
@@ -38,27 +38,28 @@ Surface Hub 2S 支持 IT 管理员使用移动设备管理 (MDM) 提供程序管
 
 在初始设置流程中，将 Surface Hub 与已启用 Intune 自动注册的 Azure AD 租户相关联时，设备将自动使用 Intune 注册。 有关详细信息，请参阅[适用于 Windows 设备的 Intune 注册方法](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods)。 Surface Hub 需要进行 Azure AD 关联和 Intune 自动注册才能成为 Intune 中的“合规设备”。 
 
-## 通过 Intune 管理 Windows 10 团队设置
+## 使用 Intune 管理 Windows 10 团队设置
 
-1. 登录到**Microsoft 终结点管理器**，选择 "**设备**  >  **配置文件**"  >  **创建配置文件**。 
-2. 在 "**平台**" 下，选择 windows 10 团队 (的**windows 10 和更高版本**的  >  **设备限制) **然后选择 "**创建**"。 
-3. 现在，你可以浏览并选择 Surface Hub 和 Surface Hub 2 的预设设备限制设置。
+1. 登录到**Microsoft Endpoint Manager，** 选择 **"设备**  >  **配置文件**  >  **创建配置文件"。** 
+2. Under **Platform，** select **Windows 10 and later**Device  >  **restrictions (Windows 10 Team) ** and then select **Create.** 
+3. 现在，你可以浏览并选择 Surface Hub 和 Surface Hub 2S 的预设设备限制设置。
 
  ![设置 Surface Hub 2S 的设备限制。](images/sh2-set-intune3.png) <br>
 
-这些设置涵盖以下类别：应用和体验、Azure operational insights、维护、会话和无线投影。  
+这些设置包括以下类别：应用和体验、Azure 操作见解、维护、会话和无线投影。  
 
-##  (Csp) 支持的配置服务提供商
+## 受支持的配置服务提供程序 (SP) 
 
-除了可直接通过 Intune 控制台使用的策略之外，还有许多配置服务提供程序 (的 Csp) 映射到注册表项或文件。 
+除了通过 Intune 控制台直接提供的策略之外，还有大量映射到注册表项 () 的 CSP。 
 
-Microsoft 通常会在每个新版本的 Windows 10 操作系统中提供新的 Csp。 通过 Windows 预览体验计划在预览中提供的 [windows 10 Team 2020 更新](surface-hub-install-2020preview.md)包括20多个新的和更新的 surface Hub 和 surface hub 设备管理策略。 通过这些 MDM 策略，IT 管理员可以改进对 Microsoft Store 中的应用更新的控制，无线投影设置（如基础架构的 Miracast）、网络设置（如服务质量和 802.1 x 有线身份验证），以及新的隐私/GDPR 相关设置。
+Microsoft 通常会在每个新版本的 Windows 10 操作系统中提供新的 CSP。 [Windows 10 Team 2020 更新](surface-hub-2020-update.md)包括 20 多个适用于 Surface Hub 和 Surface Hub 2S 的新设备管理策略和更新的设备管理策略。 借助这些 MDM 策略，IT 管理员可以改进对来自 Microsoft Store 的应用更新、无线投影设置（如基础结构的 Miracast、网络设置（如服务质量和 802.1x 有线身份验证）以及新的隐私/GDPR 相关设置的控制。
 
 有关详细信息，请参阅下列资源： 
 
 - [配置服务提供程序参考](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) 
 - [SurfaceHub 云解决方案提供商](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 - [Microsoft Surface Hub 支持的策略 CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+- [Surface Hub Team 2020 更新的新增功能](surface-hub-2020-update-whats-new.md)
 
 ## 服务质量 (QoS) 概述
 
@@ -92,25 +93,25 @@ Microsoft 通常会在每个新版本的 Windows 10 操作系统中提供新的 
 > [!NOTE]
 > 两张表都显示了默认端口范围。 管理员可以在 Skype for Business 和 Teams 控制面板中更改端口范围。
 
-## Microsoft 团队设置
+## Microsoft Teams 设置
 
-你可以使用 Intune 配置各种 Microsoft 团队设置。
+可以使用 Intune 配置各种 Microsoft Teams 设置。
 
-### 模型
+### 模式
 
-Surface Hub 2S 安装时附带模式 0 的 Microsoft Teams，该模式同时支持 Microsoft Teams 和 Skype for Business。 模式的功能如下所述：
+Surface Hub 2S 安装时附带模式 0 的 Microsoft Teams，该模式同时支持 Microsoft Teams 和 Skype for Business。 这些模式的功能如下所述：
 
 - 模式 0 — 具有 Microsoft Teams 计划会议功能的 Skype for Business。
 - 模式 1 — 具有 Skype for Business 计划会议功能的 Microsoft Teams。
 - 模式 2 — 仅 Microsoft Teams。
 
-若要调整模式，请将以下设置添加到 [自定义设备配置文件](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)。
+若要调整模式，请向自定义设备配置文件添加 [以下设置](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)。
 
 | 名称 | 描述 | OMA-URI | 类型 | 值 |
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams 应用 ID**|应用名称|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|字符串| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Teams 应用模式**|Teams 模式|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|整型| 0 或 1 或 2|
 
-### 协调的会议和邻近感应联接
+### 协调会议和邻近感应加入
 
-团队协调会议和邻近感应联接功能可以通过 Intune 档案部署 [的 XML 文件进行配置](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) 。
+可以通过通过 Intune 配置文件部署的 [XML](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) 文件配置 Teams 协调式会议与邻近感应加入功能。

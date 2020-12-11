@@ -1,6 +1,6 @@
 ---
 title: Surface Hub 新式身份验证
-description: 此页面介绍了与传统基本身份验证相比，Surface Hub 上的新式身份验证的使用。
+description: 此页介绍在 Surface Hub 上使用新式验证与旧式基本身份验证不同。
 keywords: 值之间以逗号分隔
 ms.prod: surface-hub
 ms.sitesec: library
@@ -9,21 +9,23 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/08/2020
+ms.date: 12/10/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 14be433923ca564123952c2d1d7b1c158e725af3
-ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
+appliesto:
+- Surface Hub 2S 2020 Update
+ms.openlocfilehash: dd0b0ad257abbc52c443b075e62db00dcf5713ea
+ms.sourcegitcommit: 4b1cfcac090910a3ea634929942063eb51fc54f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "11004464"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "11206276"
 ---
 # Surface Hub 新式身份验证
 
-在即将推出的 Windows 10 Team 2020 更新中，通过 [windows 预览体验计划](https://insider.windows.com/)提供的预览版可完全集成基于云帐户的新式验证。 [安装预览版本](surface-hub-install-2020preview.md)后，您可以从旧版基本身份验证迁移，并利用 Microsoft Azure 和 Exchange Online 中的最新安全改进功能。 通过2020更新，Surface Hub 支持 Exchange Web 服务 (EWS) 协议和 Active Directory 身份验证库 (ADAL) 基于设备帐户同步的 Exchange Online 的身份验证。
+对基于云的帐户的新式验证的支持完全集成在 Windows [10 Team 2020 Update 中](surface-hub-2020-update.md)。 安装 2020 更新后，可以从旧式基本身份验证迁移，并使用 Microsoft Azure 和 Exchange Online 的最新安全改进。 通过 2020 更新，Surface Hub 支持 Exchange Web 服务 (EWS) 协议和基于 ADAL) 的基于 ADAL (的身份验证，从而启用 Exchange Online 设备帐户同步。
 
-对于基于云的新帐户，Surface Hub 会自动使用新式身份验证连接到 Exchange Online，而不只是使用 [alias@contoso.com](mailto:alias@contoso.com)格式创建设备帐户，而无需额外配置。 请勿使用旧格式-Contoso\alias，这对于新式验证不受支持。 有关详细信息，请参阅 [创建 Surface Hub 2 版设备帐户](https://docs.microsoft.com/surface-hub/surface-hub-2s-account)。
+对于新的基于云的帐户，Surface Hub 自动使用新式验证连接到 Exchange Online，除了只需使用 alias@contoso.com 格式创建设备帐户[之外，还需要其他alias@contoso.com。](mailto:alias@contoso.com) 请勿使用旧格式 -Contoso\alias，新式验证不支持这种格式。 有关详细信息，请参阅创建 [Surface Hub 2S 设备帐户](https://docs.microsoft.com/surface-hub/surface-hub-2s-account)。
 
 > [!NOTE]
-> Surface Hub 不支持本地帐户的新式验证。 必须在云中创建帐户。
+> Surface Hub 不支持内部部署帐户的新式验证。 必须在云中创建帐户。
 
