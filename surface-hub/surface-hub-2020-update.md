@@ -1,6 +1,6 @@
 ---
 title: 安装 Windows 10 协同版 2020 更新
-description: 获取 Surface Hub 操作系统、Windows 10 团队2020更新的最新更新。
+description: 获取 Surface Hub 操作系统的最新更新，即 Windows 10 Team 2020 更新。
 keywords: 值之间以逗号分隔
 ms.prod: surface-hub
 ms.sitesec: library
@@ -9,60 +9,63 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/08/2020
+ms.date: 12/17/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 7035d4c89e2ef5937d0480cf2d77db2e7e829488
-ms.sourcegitcommit: e126b8ac66a781ebe42cdd677af3fe6a2eb5e72c
+ms.openlocfilehash: 043c7ed49dafab7e0f3d042f5b98d527ffe0610f
+ms.sourcegitcommit: 6252903b28f0c410065eb2515c746f5e9920c652
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "11203534"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "11237212"
 ---
 # 安装 Windows 10 协同版 2020 更新 
 
-基于 Windows 10 版本20H2 的新 Surface Hub 操作系统、 **Windows 10 Team 2020 更新**现已适用于所有 Surface Hub 2 设备。  
+基于 Windows 10 版本 20H2 的新 Surface Hub 操作系统 **Windows 10 Team 2020**Update 现在可用于所有 Surface Hub 2S 设备。  
+
+- 另请参阅： [已知问题：Windows 10 团队 2020 更新](surface-hub-2020-update.md)
 
 ## 分发
 
-你可以使用以下方法之一获取 Windows 2020 更新：
+可以使用以下方法之一获取 Windows 2020 更新：
 
-- **适用于企业的 Windows 更新**。
-- **裸机恢复 (BMR) 映像**。 适用于将设备加入到 Azure Active Directory 或不允许其设备接收来自 internet 的更新的客户的推荐选项。 若要开始使用，请参阅 [下载 Surface 的恢复映像](https://support.microsoft.com/surfacerecoveryimage)。
-- **Windows 更新。** 可用性因地区/国家而异，如下表所述：
+- **适用于 Business 的 Windows 更新**。
+- **裸机恢复 (BMR) 映像**。 建议将设备加入 Azure Active Directory 或不允许其设备从 Internet 接收更新的客户。 若要开始，请参阅 [下载 Surface 的恢复映像](https://support.microsoft.com/surfacerecoveryimage)。
+- **Windows 更新。** 可用性因地区/国家/地区而异，如下表所示：
 
-| 阶段 | 国家/地区                         | 切入          |
+| 阶段 | 国家/地区                         | 正在启动          |
 | ----- | -------------------------------------- | ----------------- |
-| raid-1     | 新西兰、澳大利亚、加拿大、比利时、墨西哥 | 2020年10月27日  |
-| ppls-2     | 英国、日本、瑞士、意大利          | 2020年11月10日 |
-| 三维空间     | 美国、德国                            | 待定 |
-| 第     | 全局                                 | 待定  |
+| 1     | NZ、澳大利亚、加拿大、比利时、墨西哥 | 2020 年 10 月 27 日  |
+| 2     | 英国、日本、瑞士、意大利          | 2020 年 11 月 10 日 |
+| 3     | 美国、德国                            | 待定 |
+| 4     | 全局                                 | 待定  |
 
-## 通过 Windows 10 Team Edition v1703 维护 Surface Hub 2 
+## 使用 Windows 10 Team Edition v1703 维护 Surface Hub 2S 
 
-所有地区的客户都可以使用 Windows 更新 for Business 继续更新其 Surface Hub 2 版设备，或使用裸机恢复 (BMR) 映像，如 [重置和恢复 Surface Hub](surface-hub-2s-recover-reset.md)2 中所述。 针对 Windows 10 Team Edition 版本1703的完整服务支持计划在年3月 16 2021 日之前继续。
+所有地区的客户都可以继续使用适用于 Business 的 Windows 更新或裸机恢复 (BMR) 映像更新其 Surface Hub 2S 设备，如 [Surface Hub 2S](surface-hub-2s-recover-reset.md)的重置和恢复中介绍的。 Windows 10 Team Edition 版本 1703 的完整服务支持计划持续到 2021 年 3 月 16 日。
 
 
 ## V1 设备支持 
 
-第一次发布 Surface Hub 2 版设备时，Windows 10 协同版2020更新不久将可用于 Surface Hub 设备。 若要了解详细信息，请参阅 [SURFACE IT 专业版博客](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-available-october-27/ba-p/1810739)。
+最初为 Surface Hub 2S 设备发布 Windows Windows 10 Team 2020 更新即将适用于 Surface Hub v1 设备。 若要了解更多信息，请参阅 [Surface IT 专业人员博客](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-available-october-27/ba-p/1810739)。
  
 ## 新增内容
 
-Windows 10 Team 2020 更新通过最新的 Windows 10 功能提升了设备部署和可管理性的主要改进。 若要了解详细信息，请参阅 [Windows 10 Team 2020 更新中的新增功能](surface-hub-2020-update-whats-new.md)。
+Windows 10 Team 2020 Update 对设备部署和可管理性以及最新的 Windows 10 功能进行了重大改进。 若要了解更多信息，请参阅 [Windows 10 团队 2020 更新中的新增功能](surface-hub-2020-update-whats-new.md)。
  
 ## 开始之前
 
-在安装 Windows 10 team 2020 更新之前，请确保保存与设备关联的 BitLocker 密钥。 
+在安装 Windows 10 团队 2020 更新之前，请确保保存与设备关联的 BitLocker 密钥。 
 
 **手动保存 BitLocker 密钥**
 
-1. 将 USB 驱动器插入 Surface Hub。
-2. 在 Surface Hub 上，打开 " **设置** "，然后在出现提示时输入您的管理员凭据。
-3. 导航到 "**更新 & 安全**  >  **恢复**"。
-4. 在 " **BitLocker**" 下，选择 " **保存**"。 将 BitLocker 密钥保存到 USB 驱动器上的文本文件中。
+1. 将 U 盘插入 Surface Hub。
+2. 在 Surface Hub 上，打开 **"设置** "，在出现提示时输入管理员凭据。
+3. 导航到 **"&安全**  >  **恢复"。**
+4. 在**BitLocker 下**，选择"**保存"。** BitLocker 密钥将保存到 USB 驱动器上的文本文件中。
 
-若要了解详细信息，请参阅 [保存 BitLocker 密钥](save-bitlocker-key-surface-hub.md)。
+若要了解更多信息，请参阅["保存 BitLocker 密钥"。](save-bitlocker-key-surface-hub.md)
 
 ## 了解详细信息
 
-- [Surface Hub Windows 10 Team 2020 更新的重要更新](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/important-updates-on-the-surface-hub-windows-10-team-2020-update/ba-p/1960897)
+- [已知问题：Windows 10 团队 2020 更新](surface-hub-2020-update.md)
+- [Surface Hub Windows 10 Team 2020 更新上的重要更新](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/important-updates-on-the-surface-hub-windows-10-team-2020-update/ba-p/1960897)

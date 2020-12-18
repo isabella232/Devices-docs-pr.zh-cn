@@ -9,20 +9,21 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/04/2020
+ms.date: 12/17/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 87eb7d193b5afb1f1b2ea6e2dc1c17143d7ef3ef
-ms.sourcegitcommit: f007f40f4b4fb49280fe6073bd857c9d7624a9cc
+ms.openlocfilehash: c17d9b41bf4abc74319b16932074343edbe988d1
+ms.sourcegitcommit: 6252903b28f0c410065eb2515c746f5e9920c652
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "11218873"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "11237222"
 ---
 # 已知问题：Windows 10 团队 2020 更新 
 
 本文列出了 Windows 10 Team 2020 Update（Surface Hub 的当前操作系统）的已知问题。
 
 若要确保 Surface Hub 接收最新更新，请使用管理员帐户登录，然后选择"所有**应用**设置更新和安全 Windows 更新"，然后  >  ****  >  ****  >  **** 安装所有更新。
+
 
 
 
@@ -36,5 +37,5 @@ ms.locfileid: "11218873"
 | 中心 2S 设备无法使用 WSUS 接收驱动程序更新。                                             | Surface Hub 2S 支持 Windows 更新和适用于 Business 的 Windows 更新来分发驱动程序;不支持通过 Windows Server Update Services (WSUS) 分发。                                                                                                                                                                                                                                                                      | 如果使用 WSUS，请迁移到适用于 Business 的 Windows 更新。<br> <br>**了解更多信息**[：什么是适用于企业 Windows 的更新？](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)                                                                                                                                                                                                                                                                                                                            |
 | Microsoft Whiteboard 不会从 Microsoft Store 更新                                               | 升级到 Windows 10 Team 2020 更新后，Microsoft Whiteboard 应用无法通过 Microsoft Store 更新。                                                                                                                                                                                                                                                                                                                       | 卸载 Whiteboard 应用，然后从 Microsoft Store 或 MDM 提供程序重新安装它。                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 使用手机登录 Surface Hub 时，加入 Azure Active Directory 的设备的单一登录失败 | 如果 IT 管理员将租户配置为使用无密码[](surface-hub-2s-phone-authenticate.md)身份验证登录到 Surface Hub，并且设备已加入 AAD，则用户无法使用移动设备（如手机）登录。                                                                                                       | 手动登录到 Surface Hub。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| 操作中心具有一个无法点击的"设置"链接。 | 此链接不应显示在 Windows 10 团队中，并且可能导致混淆。                                                                                                       | 功能与 2020 年更新之前相同;"开始"菜单的"应用"部分应该用于启动"设置"应用。                                                                                                                                                                                                                                                                                                                                                                                                                           |
-
+| 操作中心具有一个无法点击的"设置"链接。 | 此链接不应显示在 Windows 10 团队中，并且可能导致混淆。   | 功能与 2020 年更新之前相同;"开始"菜单的"应用"部分应该用于启动"设置"应用。    |
+| Hub 2S 设备在更新到 Windows 10 Team 2020 for 2S 的 2020 年 11 月 24 日更新后报告序列号的所有 0。 | 升级到 Surface Hub 2S Windows 10 Team 2020 更新的 11 月 24 日更新或安装 Windows 10 Team 2020 恢复映像后，某些设备将报告序列号的所有零。 这将阻止设备注册到 MDM 提供程序。  | 使用 Windows 10 Team 2020 的 2020 年 11 月 24 日更新更新设备之前，请确保设备已安装 Windows 10 团队创意者更新的 2020 年 9 月 1 日更新。 了解更多信息 [：Surface Hub 更新历史记录](surface-hub-update-history.md)。 **注意：** 在移动到 SMC 固件更新 **3.91.139.0** 之前，设备应具有 Surface SMC 固件更新 **1.177.139.0。** 这可防止序列号设置为零 |
