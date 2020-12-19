@@ -1,6 +1,6 @@
 ---
 title: 使用 Surface Hub 恢复工具
-description: 如何使用 Surface Hub 恢复工具重新镜像 SSD。
+description: 如何使用 Surface Hub 恢复工具重新映像 SSD。
 ms.assetid: FDB6182C-1211-4A92-A930-6C106BCD5DC1
 ms.reviewer: ''
 manager: laurawi
@@ -10,97 +10,114 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 05/22/2018
+ms.date: 12/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 1988a6ed59525d7dc77872e532247dbc50f01bdf
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a9ebab6848efa706609a39b0eb99fa42df2156bf
+ms.sourcegitcommit: ce7ad475b776a78ba215e77111ea5371afeb4f28
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832168"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "11237303"
 ---
 # 使用 Surface Hub 恢复工具
 
-[Microsoft Surface Hub 恢复工具](https://www.microsoft.com/download/details.aspx?id=52210)可帮助你使用 Windows 10 桌面设备重新镜像 Surface Hub 固态驱动器（SSD），而无需调用支持或更换 SSD。 使用此工具，你可以重置具有未知管理员密码、启动错误、无法完成云恢复的 SSD，或者重置具有较早版本的操作系统的设备的映像。 该工具不会修复物理损坏的 SSDs。
+[Microsoft Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210)恢复工具可帮助你使用 Windows 10 桌面设备重新映像 Surface Hub 固态硬盘 (SSD) ，而无需调用支持或更换 SSD。 使用此工具，你可以为具有未知管理员密码、启动错误、无法完成云恢复的 SSD 或具有较旧版本操作系统的设备重置映像。 该工具不会修复物理损坏的 SSD。
 
-要使用恢复工具重新镜像 Surface Hub SSD，你需要从 Surface Hub 中删除 SSD，将驱动器连接到 USB 至 SATA 电缆，然后将电缆连接到安装了恢复工具的桌面电脑。 有关如何从 Surface Hub 中删除现有驱动器的详细信息，请参阅[Surface HUB SSD 替换](surface-hub-ssd-replacement.md)。
+若要使用恢复工具重新映像 Surface Hub SSD，你需要从 Surface Hub 中删除 SSD，将驱动器连接到 USB 到 SATA 电缆，然后将电缆连接到安装了恢复工具的台式电脑。 若要详细了解如何从 Surface Hub 中删除现有驱动器，请参阅 [Surface Hub SSD 替换](surface-hub-ssd-replacement.md)。
 
 > [!IMPORTANT]
-> 不要让设备进入睡眠状态或中断图像文件的下载。
+> 请勿让设备进入睡眠状态或中断映像文件的下载。
 
-如果该工具在重新映像驱动器中未成功，请联系[Surface Hub 支持](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)。
+如果工具在重新映像驱动器时失败，请联系 [Surface Hub 支持](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)人员。
 
 ## 必备条件
 
 ### Mandatory
 
-- 运行64位版本的 Windows 10、版本1607或更高版本的主机电脑。
+- 运行 64 位版本的 Windows 10 版本 1607 或更高版本的主机电脑。
 - Internet 访问权限
-- 打开 USB 2.0 或更高端口
-- USB 至 SATA 电缆
-- 主计算机上有 10 GB 的可用磁盘空间
-- SSDs 附带 Surface Hub 或 SSD 提供的支持作为替代。 不支持 Microsoft 提供的 SSDs。
+- 打开 USB 2.0 或更大端口
+- USB 到 SATA 电缆
+- 主计算机上 10 GB 的可用磁盘空间
+- Surface Hub 附带的 SSD 或由支持提供的 SSD 作为替代。 不支持 Microsoft 未提供的 SSD。
 
 ### 推荐
 
-- 高速互联网连接
+- 高速 Internet 连接
 - 打开 USB 3.0 端口
-- USB 3.0 或更高版本的 USB 至 SATA 电缆
-- 已通过以下电缆和型号对图像处理工具进行了测试：
+- USB 3.0 或更高版本的 USB 到 SATA 电缆
+- 使用以下电缆型号和型号测试了映像工具：
     - Startech USB312SAT3CB
-    - Rosewill RCUC16001
+    - 将 rcUC16001
     - Ugreen 20231
 
 ## 下载 Surface Hub 恢复工具
 
-Surface Hub 恢复工具可从[Surface Hub 工具](https://www.microsoft.com/download/details.aspx?id=52210)下载，在文件名**SurfaceHub_Recovery_v1.14.137.0.msi**下。
+Surface Hub 恢复工具可从适用于[IT](https://www.microsoft.com/download/details.aspx?id=52210)的 Surface Hub 工具的文件名下下载**SurfaceHub_Recovery_v2.0.139.0.msi。 **
 
-若要开始下载，请单击 "**下载**"，从列表中选择 " **SurfaceHub_Recovery_v1.14.137.0.msi** "，然后单击 "**下一步**"。 从弹出窗口中，选择下列操作之一：
+若要开始下载 **，请单击"** 下载"，**从SurfaceHub_Recovery_v2.0.139.0.msi**选择"下载"，然后单击"下一**步"。** 从弹出窗口中，选择下列选项之一：
 
-- 单击 "**运行**" 立即开始安装。
-- 单击 "**保存**" 将下载内容复制到计算机以供以后安装。
+- 单击 **"** 运行"立即启动安装。
+- 单击 **"** 保存"将下载复制到计算机，以稍后安装。
 
-在主机 PC 上安装 Surface Hub 恢复工具。
+在主电脑上安装 Surface Hub 恢复工具。
 
 ## 运行 Surface Hub 恢复工具
 
-1. 在主机 PC 上，选择 "**开始**" 按钮，滚动到左侧的 "按字母顺序" 列表，然后选择 "恢复工具" 快捷方式。
+1. 在主机电脑上，选择 **"** 开始"按钮，滚动左侧按字母顺序排列的列表，然后选择恢复工具快捷方式。
 
     ![Microsoft Surface Hub 恢复工具快捷方式](images/shrt-shortcut.png)
 
 2. 单击**开始**。
 
-    ![恢复工具 "开始" 按钮](images/shrt-start.png)
+    ![恢复工具"开始"按钮](images/shrt-start.png)
 
-3. 在 "**指南**" 窗口中，单击 "**下一步**"。
 
-    ![不要让计算机转到睡眠指南](images/shrt-guidance.png)
+3. 在"**指南"** 窗口中，单击"下**一步"。**
 
-4. 单击 **"是"** 下载图像。 下载恢复映像的时间取决于互联网连接速度。 在一般的企业连接中，下载8GB 图像文件最多可能需要一个小时。
+    ![不要让计算机进入睡眠指南](images/shrt-guidance.png)
 
-    ![下载图像？](images/shrt-download.png)
+4. 在"选择图像"窗口中，单击**RS2**或后续版本**20H2，****选择"继续**"，然后选择"**下载图像"。**
 
-5. 下载完成后，该工具指示你连接 SSD 驱动器。 如果该工具无法找到连接的驱动器，则很有可能是使用电缆时不报告 SSD 的名称到 Windows。  图像处理工具必须找到驱动器的名称，就像 "LITEON L CH-128V2S USB 设备"，然后它才能继续。  有关如何从 Surface Hub 中删除现有驱动器的详细信息，请参阅[Surface HUB SSD 替换](surface-hub-ssd-replacement.md)。
+     ![恢复工具 选择映像 ](images/shrt-select-image.png) ![ 恢复工具下载映像](images/shrt-download-image.png)
+
+5. 下载恢复映像的时间取决于 Internet 连接速度。 一般的公司连接可能需要一个小时才能下载 8GB 的图像文件。
+
+    ![下载图像](images/shrt-download.png)
+
+
+
+5. 下载完成后，该工具会指示你连接 SSD 驱动器。 如果工具无法找到连接的驱动器，则很有可能使用的电缆未向 Windows 报告 SSD 的名称。  映像工具必须找到驱动器名称"LITEON L CH-128V2S USB 设备"，然后才能继续。  若要详细了解如何从 Surface Hub 中删除现有驱动器，请参阅 [Surface Hub SSD 替换](surface-hub-ssd-replacement.md)。
 
     ![连接 SSD](images/shrt-drive.png)
 
-6. 识别驱动器时，单击 "**开始**" 以开始重新映像过程。 当出现有关将擦除驱动器上的所有数据的警告时，单击 **"确定"**。
+6. 识别驱动器后，单击"开始"**** 开始重新映像处理。 On the warning that the all data on the drive will be erased， click **OK**.
 
-    ![开始重新映像 SSD](images/shrt-drive-start.png)
 
-    在将系统映像应用到驱动器之前，将对 SSD 进行重新分区和格式化。 复制系统二进制文件大约需要30分钟，但可能需要较长时间，具体取决于 USB 总线的速度、所使用的电缆或系统上安装的防病毒软件。
 
-    ![复制完成](images/shrt-done.png)
+    在将系统映像应用到驱动器之前，SSD 会重新分区并设置格式。 复制系统二进制文件大约需要 30 分钟，但可能需要更长时间，具体取决于 USB 总线的速度、使用的电缆或系统上安装的防病毒软件。
 
-    ![映像完成](images/shrt-complete.png)
+
 
 ## 疑难解答和常见问题
 
 问题 | 注释
 --- | ---
-该工具无法映像 SSD | 确保使用工厂提供的 SSD 和已测试的电缆之一。
-映像进程显示已暂停/已冻结 | 可安全关闭并重新启动 Surface Hub 恢复工具，对 SSD 不产生任何影响。
-该工具无法识别该驱动器 | 验证 Surface Hub SSD 是否被枚举为一个精简的驱动器，"LITEON L CH-128V2S USB 设备"。  如果驱动器被识别为另一个已命名的设备，则当前电缆不兼容。 尝试其他电缆或上面列出的已测试电缆之一。
-错误：-2147024809 | 打开磁盘管理器并删除 Surface Hub 驱动器上的分区。  断开连接并将驱动器重新连接到主计算机。 重新启动图像处理工具。
+该工具无法映像 SSD | 确保使用的是出厂提供的 SSD 和一条经过测试的电缆。
+重新映像过程似乎已停止/冻结 | 可以安全地关闭并重新启动 Surface Hub 恢复工具，而对 SSD 没有不良影响。
+工具无法识别驱动器 | 验证 Surface Hub SSD 是否枚举为Lite-On驱动器"LITEON L CH-128V2S USB 设备"。  如果驱动器被识别为另一个命名设备，则当前电缆不兼容。 请尝试其他电缆或上面列出的测试电缆之一。
+错误：-2147024809 | 打开磁盘管理器并删除 Surface Hub 驱动器上的分区。  断开驱动器连接，然后重新连接到主机。 再次重新启动映像工具。
 
-如果该工具在重新映像驱动器中未成功，请联系[Surface Hub 支持](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)。
+如果工具在重新映像驱动器时失败，请联系 [Surface Hub 支持](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)人员。
+
+## 版本历史记录
+
+### 版本 v2.0.139.0
+
+*发布日期：2020 年 12 月 18 日*<br>
+此版本的 Surface Hub 恢复工具增加了对以下内容的支持：
+- 更新以支持 Windows 10 Team 2020 Update (20H2) 
+- 用户体验改进
+- 体系结构更改
+- 遥测新增功能
+
