@@ -1,92 +1,96 @@
 ---
-title: 84 "Surface Hub 的技术信息
+title: 84" Surface Hub 的技术信息
 ms.reviewer: ''
 manager: laurawi
-description: 84 "Surface Hub 的规范
+description: 84" Surface Hub 规范
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 932e5b801c0990a080148e420db3259cdb7e2ab5
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 12/21/2020
+ms.openlocfilehash: e8f01a7e6ce087f649d99c1fc13f149fa375fc8a
+ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831732"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "11238107"
 ---
-# 84 "Surface Hub 的技术信息
-
-## 计量 
+# 84" Surface Hub 的技术信息
 
 |
 --- | ---
-定价 | 起始于 $21999 
-大小 |  46.12 "x 86.7" x 4.15 "（1171.5 mm x 2202.9 mm x 105.4 mm）
-存储/RAM | 具有 8GB RAM 的 SSD 128GB
-处理者   | 第4代英特尔®内核™ i7 
+定价 | 从 $21，999 开始 
+大小 |  46.12" x 86.7" x 4.15" (1171.5mm x 2202.9mm x 105.4mm) 
+存储/RAM | 带 8GB RAM 的 SSD 128GB
+处理器   | 第 4 代 Intel® Core™ i7 
 显卡 |  NVIDIA Quadro K2200 
-端口 | **内部电脑**<br>•（1） USB 3.0 （底端） + （1） USB 3.0 （侧面访问）<br>•（4） USB 2。0<br>•以太网 1000 Base-T<br>• DisplayPort 视频输出<br>• 3.5 mm 立体声输出<br>•用于系统级控制的 RJ11 接口<br>**备用电脑**<br>•（2） USB 2.0 类型 B 输出<br>•适用于相机、传感器、麦克风、扬声器的连接<br>•（2） DisplayPort 视频输入<br>**来宾电脑**<br>• DisplayPort 视频输入<br>• HDMI 视频输入<br>• VGA 视频输入<br>•3.5 毫米立体声输入<br>•（1） USB 2.0 type B Touchback™输出
-传感器  | （2）被动红外状态传感器，环境光线传感器 
-扬声器 |  （2）正面的立体扬声器 
-麦克风 |    高性能、4元素数组 
-相机 |    （2）宽屏角高清摄像头 1080p @ 30fps 
-笔 |   （2）已通电、活动、子像素精度 
+端口 | **内部电脑**<br>• (1) USB 3.0 (底部) + (1) USB 3.0 (侧访问) <br>• (4) USB 2.0<br>• 以太网 1000 Base-T<br>• DisplayPort 视频输出<br>• 3.5mm 立体声输出<br>• 用于系统级控制的 RJ11 连接器<br>**备用电脑**<br>• (2) USB 2.0 类型 B 输出<br>• 相机、传感器、麦克风、扬声器的连接<br>• (2) DisplayPort 视频输入<br>**来宾电脑**<br>• DisplayPort 视频输入<br>• HDMI 视频输入<br>• VGA 视频输入<br>• 3.5mm 立体声输入<br>• (1) USB 2.0 类型 B Touchback™输出
+传感器  |  (2) 被动红外状态传感器、环境光传感器 
+扬声器 |   (2) 前置立体声扬声器 
+麦克风 |    高性能、4 元素数组 
+相机 |     (30fps) 1080p 宽角 HD 相机 2 
+笔 |    (2) 、活动、子pixel 精度 
 物理侧按钮 | 电源、输入选择、音量、亮度 
-软件 |  Windows 10 + Office （Word、PowerPoint、Excel） 
-框中的内容 | • Surface Hub 84 "<br>•（2） Surface Hub 笔<br>•电源线<br>•设置指南<br>•安全和保修文档<br>•无线多功能一体键盘
-安装功能   | 4倍速的 VESA 标准，1200mm x 600mm pattern，8X M8 X 1.25 线程安装位置
-显示基底的高度   | 推荐的高度54英寸（139.7 厘米）到屏幕中心
-产品重量 |    约为280磅（127公斤）
-产品运输重量  | 约为580磅（263公斤）
-产品维度 HxWxD |  46 x 86.9 x 4.1 英寸（116.8 x 220.6 x 10.4 厘米）
-产品运输尺寸 HxWxD | 66.14 x 88.19 x 24.4 英寸（168 x 224 x 62 厘米）
-产品厚度   | 触摸 surface to 挂载图面：≤3.1 英寸（7.8 厘米）
-Orientation  | 仅横向。 无法在纵向方向使用 "显示"。
+软件 |  Windows 10 + Office (Word、PowerPoint、Excel)  
+框中的是什么 | • Surface Hub 84"<br>• (2) Surface Hub 笔<br>• 电源电缆<br>• 安装指南<br>• 安全和担保文档<br>• 无线一键式键盘
+装载功能   | 4X VESA 标准版、1200mm x 600mm 模式、8X M8 X 1.25 线程安装位置
+显示从楼层开始的高度   | 建议的高度为 54 英寸 (139.7 cm) 到屏幕中心
+产品权重 |    大约 280 磅 (127 磅) 
+产品发货权重  | 大约 580 磅 (263 磅) 
+产品维度 HxWxD |  46 x 86.9 x 4.1 英寸 (116.8 x 220.6 x 10.4 cm) 
+产品发货维度 HxWxD | 66.14 x 88.19 x 24.4 英寸 (168 x 224 x 62 cm) 
+产品粗细   | 安装在表面上的触摸表面：≤ 3.1 英寸 (7.8 cm) 
+Orientation  | 仅横向。 无法在纵向方向使用显示。
 BTU  | 3070.8 BTU/h
 图像分辨率 |  3840 x 2160
 帧速率 |    120Hz
-对比比率 | 1400:1
-EDID 首选计时，更换电脑 | 3840 x 2140，120Hz 垂直刷新
+对比率 | 1400:1
+EDID 首选计时，替换电脑 | 3840 x 2140，120Hz 垂直刷新
 EDID 首选计时，有线连接 |  1920 x 1080，60Hz 垂直刷新
-输入电压 | 110/230v 的名义、90-265v 最大值
-输入功率、运营 |    900W 最大值
-输入功率，待机    |   5W 10W 最大值
+输入输出 | 110/230v/nominal，90-265v max
+输入电源，操作 |    最大 900W
+输入电源，待机    |   5W />，最大值 1-10W
 
+> [!NOTE]
+> Surface Hub 可以连续使用，最多一天 18 小时。 为了提高效率，Surface Hub 使用智能传感器在不再检测到状态时关闭 LED 屏幕，这意味着在一天结束时无需关闭电源。 如果单位安装在 24 小时工作场所环境中，可以禁用传感器以符合每天 18 小时的最大使用建议。 请注意，长时间显示视频信号可能会导致屏幕中出现已刻录或图像保留。 若要了解有关管理电源设置的信息，请参阅：
+>
+> - [Surface Hub 设置的本地管理](local-management-surface-hub-settings.md)
+> - [SurfaceHub CSP - Windows 客户端管理](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
-## 更换电脑连接 
-
-连接器和位置 | 标签 | 描述
---- | --- | ---
-开关，底部的 i/o | ![](images/switch.png) | 在使用内部电脑或外部电脑之间切换功能。
-显示端口，底部输入/输出 | ![](images/dport.png) | 提供用于替换 PC 的输入。
-显示端口，底部输入/输出 | ![](images/dport.png) | 提供更换电脑的第二个输入。
-USB 类型 B、底部 i/o | ![](images/usb.png) | 向内部外围设备提供用于更换 PC 的 USB 连接。 
-USB 类型 B、底部 i/o | ![](images/usb.png) | 为集成集线器提供 USB 连接。
-
-
-## 有线连接连接
+## 替换电脑连接 
 
 连接器和位置 | 标签 | 描述
 --- | --- | ---
-显示端口，底部输入/输出 | ![](images/dportio.png) | 提供有线连接 PC 的输入。
-HDMI，底部输入/输出 | ![](images/hdmi.png) | 为有线连接电脑提供 HDMI 输入。
-VGA，底部 i/o | ![](images/vga.png) | 为有线连接 PC 提供 VGA 输入。
-3.5 mm，底端 i/o | ![](images/35mm.png) | 提供模拟音频输入。
-USB 类型 B、底部 i/o | ![](images/usb.png) | 提供视频摄取 touchback 的 USB 连接。
+开关，底部 I/O | ![](images/switch.png) | 在使用内部电脑或外部电脑之间切换功能。
+显示端口，底部 I/O | ![](images/dport.png) | 为替换电脑提供输入。
+显示端口，底部 I/O | ![](images/dport.png) | 为替换电脑提供第二个输入。
+USB 类型 B，底部 I/O | ![](images/usb.png) | 提供用于替换电脑到内部外围设备的 USB 连接。 
+USB 类型 B，底部 I/O | ![](images/usb.png) | 为集成中心提供 USB 连接。
+
+
+## 有线连接
+
+连接器和位置 | 标签 | 描述
+--- | --- | ---
+显示端口，底部 I/O | ![](images/dportio.png) | 为有线连接电脑提供输入。
+HDMI，底部 I/O | ![](images/hdmi.png) | 为有线连接电脑提供 HDMI 输入。
+VGA，底部 I/O | ![](images/vga.png) | 为有线连接电脑提供 VGA 输入。
+3.5mm，底部 I/O | ![](images/35mm.png) | 提供模拟音频输入。
+USB 类型 B，底部 I/O | ![](images/usb.png) | 提供用于视频输入触摸的 USB 连接。
 
 ## 其他连接
 
 连接器和位置 | 标签 | 描述
 --- | --- | ---
-USB 类型 A，面 I O | ![](images/usb.png) | 为 USB 设备提供1个 USB 3.0 连接。 支持唤醒的 USB。
-USB 类型 A，底部的 i/o 与蓝色 insulator | ![](images/usb.png) | 提供 USB 3.0 连接。
-3.5 mm，底端 i/o | ![](images/analog.png) | 提供模拟音频输出。
-显示端口，底部输入/输出 | ![](images/dportout.png) | 将镜像视频输出函数提供给另一个显示器。
-带有硬开关的 IEC/EN60320-C13 插座 | ![](images/iec.png) | 按欧盟的电源要求提供交流电输入和合规性。
-RJ45，底部 i/o | ![](images/rj45.png) | 连接到以太网。
-RJ11、底部 i/o | ![](images/rj11.png) | 连接到房间控制系统。
+USB 类型 A，侧 I/O | ![](images/usb.png) | 为 USB 设备提供 1 个 USB 3.0 连接。 支持唤醒 USB。
+USB 类型 A，底部 I/O，带蓝色中层 | ![](images/usb.png) | 提供 USB 3.0 连接。
+3.5mm，底部 I/O | ![](images/analog.png) | 提供模拟音频输出。
+显示端口，底部 I/O | ![](images/dportout.png) | 向另一个显示器提供镜像视频退出功能。
+带硬开关的 IEC/EN60320-C13 接受器 | ![](images/iec.png) | 提供 AC 输入和符合欧盟电源要求。
+RJ45，底部 I/O | ![](images/rj45.png) | 连接到以太网。
+RJ11，底部 I/O | ![](images/rj11.png) | 连接到房间控制系统。
 
 
 
@@ -94,30 +98,30 @@ RJ11、底部 i/o | ![](images/rj11.png) | 连接到房间控制系统。
 
 
 
-## 端口和间隙示意图
+## 端口和清除的图示
 
-***84 "Surface Hub 的顶部视图***
+**_84" Surface Hub 的顶部_* 视图 _
 
 ![](images/sh-84-top.png)
 
 ---
 
 
-***84 Surface Hub 的正面视图***
+_*_84" Surface Hub 的正面视图_*_
 
 ![](images/sh-84-front.png)
 
 
 ---
 
-***84 "Surface Hub 底部视图***
+_*_84" Surface Hub 的底部视图_*_
 
 ![](images/sh-84-bottom.png)
 
 
 ---
 
-***84 英寸 Surface Hub 上的替换电脑端口***
+_*_84 英寸 Surface Hub 上的替换电脑端口_*_
 
 ![](images/sh-84-rpc-ports.png)
 
@@ -125,21 +129,21 @@ RJ11、底部 i/o | ![](images/rj11.png) | 连接到房间控制系统。
 
 ---
 
-***84 "Surface Hub 的后视图***
+_*_84" Surface Hub 的后视图_*_
 
 ![](images/sh-84-rear.png)
 
 
 ---
 
-***84 Surface Hub 的间隙***
+_*_84" Surface Hub 的间距_*_
 
 ![](images/sh-84-clearance.png)
 
 ---
 
 
-***84 "Surface Hub 上的可移动提升句柄***
+_*_84" Surface Hub 上的可移动提升手柄_*_
 
 ![](images/sh-84-hand.png)
 
@@ -147,17 +151,17 @@ RJ11、底部 i/o | ![](images/rj11.png) | 连接到房间控制系统。
 ---
 
 
-***84 Surface Hub 背面的墙上挂载线程***
+_*_84" Surface Hub 后端的挂载线程_*_
 
 ![](images/sh-84-wall.png)
 
 ---
-***84 "Surface Hub 顶部视图中的提升手柄***
+_*_84" Surface Hub 顶部视图中的提升手柄_*_
 
 ![](images/sh-84-hand-top.png)
 
 ---
-***84 "Surface Hub 的侧视图***
+_*_84" Surface Hub 的侧视图_**
 
 ![](images/sh-84-side.png)
 
