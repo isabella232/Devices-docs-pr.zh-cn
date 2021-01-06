@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/17/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 043c7ed49dafab7e0f3d042f5b98d527ffe0610f
-ms.sourcegitcommit: 6252903b28f0c410065eb2515c746f5e9920c652
+ms.openlocfilehash: b3f1f0884273728abc8b4f6e8662190dacdaf2b2
+ms.sourcegitcommit: 8c75e57dc32eaf7c11cb9badea74809fd3877ffc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "11237212"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "11253961"
 ---
 # 安装 Windows 10 协同版 2020 更新 
 
@@ -39,14 +39,17 @@ ms.locfileid: "11237212"
 | 3     | 美国、德国                            | 待定 |
 | 4     | 全局                                 | 待定  |
 
-## 使用 Windows 10 Team Edition v1703 维护 Surface Hub 2S 
+## 使用 Windows 10 Team Edition 版本 1703 维护 Surface Hub 
 
-所有地区的客户都可以继续使用适用于 Business 的 Windows 更新或裸机恢复 (BMR) 映像更新其 Surface Hub 2S 设备，如 [Surface Hub 2S](surface-hub-2s-recover-reset.md)的重置和恢复中介绍的。 Windows 10 Team Edition 版本 1703 的完整服务支持计划持续到 2021 年 3 月 16 日。
+Windows 10 Team Edition 版本 1703 的完整服务支持计划持续到 2021 年 3 月 16 日。
 
+### 2S 设备 
 
-## V1 设备支持 
+所有地区的客户都可以继续使用适用于 Business 的 Windows 更新或裸机恢复 (BMR) 映像将 Surface Hub 2S 设备更新到 2020 更新，如 [Surface Hub 2S](surface-hub-2s-recover-reset.md)的重置和恢复中介绍。
 
-最初为 Surface Hub 2S 设备发布 Windows Windows 10 Team 2020 更新即将适用于 Surface Hub v1 设备。 若要了解更多信息，请参阅 [Surface IT 专业人员博客](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-available-october-27/ba-p/1810739)。
+### V1 设备 
+
+所有地区的客户现在都可以使用 [Surface Hub](surface-hub-recovery-tool.md)恢复工具将 Surface Hub v1 设备更新到 2020 更新。 即将推出将这些设备更新到 Windows 10 团队 2020 更新的其他方法。 若要了解更多信息，请参阅 [Surface IT 专业人员博客](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update/ba-p/2000144)。
  
 ## 新增内容
 
