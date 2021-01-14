@@ -16,6 +16,7 @@
 #### [Surface Hub 2S 的站点规划](surface-hub-2s-site-planning.md)
 #### [Surface Hub 2S 快速入门](surface-hub-2s-quick-start.md)
 #### [安装和装载 Surface Hub 2S](surface-hub-2s-install-mount.md)
+#### [安装和安装 Surface Hub 2S 85](surface-hub-2s-85-install-mount.md)
 #### [自定义 Surface Hub 2S 的壁挂式托架](surface-hub-2s-custom-install.md)
 #### [设置工作表](setup-worksheet-surface-hub.md)
 #### [Surface Hub 2S 端口和小键盘概述](surface-hub-2s-port-keypad-overview.md)
