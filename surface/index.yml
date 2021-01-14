@@ -12,12 +12,12 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: eeb74e97d39c5ee02eed8c7d2544b709293092ea
-  ms.sourcegitcommit: e0047f07c42b1e3cbd074b66a4704ea72e9d7bae
+  ms.openlocfilehash: 8e97c8b1959364facbb74c6fac938fbaa279d2a1
+  ms.sourcegitcommit: 41124d496abaa38a0d989159f2afec3542d562ca
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/02/2020
-  ms.locfileid: "11093902"
+  ms.lasthandoff: 01/14/2021
+  ms.locfileid: "11269123"
 highlightedContent:
   items:
   - title: Surface 设备文档
@@ -35,32 +35,32 @@ conceptualContent:
   items:
   - title: Surface 概述
     links:
+    - url: https://www.microsoft.com/surface/business/surface-pro-7-plus
+      itemType: concept
+      text: Surface Laptop Pro 7 及以上商业版
     - url: https://www.microsoft.com/surface/business/surface-laptop-go
       itemType: concept
       text: 适用于企业的 Surface Laptop Go
-    - url: https://www.microsoft.com/surface/business/surface-pro-x
-      itemType: concept
-      text: 适用于企业的 Surface Pro X
     - url: https://www.microsoft.com/surface/business
       itemType: concept
       text: 浏览所有 Surface 系列产品
   - title: Surface Hub 概述
     links:
+    - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-85-install-mount
+      itemType: how-to-guide
+      text: 安装和装载 Surface Hub 2S 85"（准备指南）
     - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
       itemType: concept
       text: Surface Hub 2S 的新增功能？
     - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
       itemType: concept
       text: Surface Hub 2S 技术规格
-    - url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
-      itemType: concept
-      text: 操作系统基本知识
   - title: Surface Duo 概述
     links:
     - url: https://docs.microsoft.com/surface-duo/surface-duo-manage
       itemType: concept
       text: Surface Duo 管理概述
-    - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-secure
+    - url: https://docs.microsoft.com/surface-duo/surface-duo-secure
       itemType: concept
       text: Surface Duo 安全性概述
     - url: https://www.microsoft.com/surface/business/surface-duo
@@ -83,7 +83,7 @@ conceptualContent:
     links:
     - url: https://aka.ms/SurfaceDuoITBlog
       itemType: reference
-      text: Surface Duo IT Pro 博客
+      text: Surface IT 专业人员博客
   - title: Surface Hub
     links:
     - url: contact-surface-support.md
