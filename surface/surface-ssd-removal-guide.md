@@ -8,7 +8,7 @@ ms.sitesec: library
 author: mccoybot
 ms.author: v-todmc
 ms.topic: article
-ms.date: 01/13/2020
+ms.date: 01/13/2021
 ms.reviewer: ''
 manager: laurawi
 ms.audience: itpro
@@ -21,12 +21,12 @@ appliesto:
 ms.custom:
 - CI 121887
 - CSSTroubleshoot
-ms.openlocfilehash: b65feb24803311aba809819cd6da273ed6934c75
-ms.sourcegitcommit: 41124d496abaa38a0d989159f2afec3542d562ca
+ms.openlocfilehash: 51ef676e7379f0898d6b601bb08c96002c9e6ace
+ms.sourcegitcommit: d4e2a29aa21a911ee55642cd66b4337b89eebdd8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/14/2021
-ms.locfileid: "11269103"
+ms.locfileid: "11270627"
 ---
 # 从兼容的 Surface 设备删除 SSD 的最佳实践
 
@@ -67,7 +67,7 @@ ms.locfileid: "11269103"
 
 1.  在 **"设置**"中，键入**BitLocker，** 然后选择 **"管理 BitLocker"。** 
 2.  选择 **"关闭 BitLocker"。** 
-3.  关闭设备。 
+3.  关闭设备电源。 
 
 ### 如果在删除和替换 SSD 期间启用了 BitLocker 加密
 
@@ -78,7 +78,7 @@ ms.locfileid: "11269103"
 2.  插入 U 盘。 
 4.  将恢复密钥保存到 USB 存储。  
 5.  删除 USB 驱动器。  
-6.  关闭设备。 
+6.  关闭设备电源。 
 
 ## 删除和替换 SSD 
 
@@ -118,7 +118,7 @@ ms.locfileid: "11269103"
 8.  如果设备已禁用 BitLocker 以便于删除和替换 SSD，并且如果你想要在替换后启用 BitLocker，请转到"**设置**  >  **BitLocker**管理  >  **BitLocker**  >  **恢复 BitLocker"。**  
 9.  运行 **[SDT](surface-diagnostic-toolkit-for-business-intro.md)** 以验证完整的设备功能。  
 10. 若要检查 Windows 激活，请选择"**设置**  >  **激活"。**  如果看到任何错误消息，请选择"疑难**解答"。**
-11. 若要检查 Office 帐户的状态，请打开**Office 应用程序**，然后转到****"文件帐户"  >  **** 以检查是否有错误消息。
+11. 若要检查 Office 帐户的状态，请打开**Office 应用**，然后转到****"文件帐户"  >  **** 以检查是否有错误消息。
 
 ## 了解详细信息
 
