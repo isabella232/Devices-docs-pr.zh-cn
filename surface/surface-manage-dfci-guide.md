@@ -13,23 +13,24 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 appliesto:
+- Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
 - Surface Laptop 3
 - Surface Book 3
 - Surface Laptop Go
-ms.openlocfilehash: e984741a8367935eab18351815c5f00d9f8a72b7
-ms.sourcegitcommit: efc38524f81238e0c36371f462eb57123e46d09b
+ms.openlocfilehash: dde34126c726ec0ac8093a665804c4fb0f639e3e
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "11228543"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271566"
 ---
 # Surface UEFI 设置的 Intune 管理
 
 ## 简介
 
-从云管理设备的能力极大地简化了整个生命周期中的 IT 部署和预配。 借助内置于 [Microsoft Intune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows) (DFCI) 配置文件的设备固件配置接口，Surface UEFI 管理将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 有关常见问题的解答，请参阅 [Ignite 2019：宣布从 Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)远程管理 Surface UEFI 设置。
+从云管理设备的能力极大地简化了整个生命周期中的 IT 部署和预配。 借助内置于 [Microsoft Intune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows) (DFCI) DFCI 配置文件，Surface UEFI 管理将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 有关常见问题的解答，请参阅 [Ignite 2019：宣布从 Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)远程管理 Surface UEFI 设置。
 
 ### Background
 
@@ -39,7 +40,7 @@ ms.locfileid: "11228543"
 
 ### DFCI 与 SEMM
 
-以前，管理需要将设备注册到 Surface Enterprise Management Mode (SEMM) 具有正在进行的手动 IT 密集型任务的开销。 例如，SEMM 要求 IT 人员在物理上访问每台电脑，以在证书管理过程中输入两位数的引脚。 虽然 SEMM 对于严格位于本地环境中的组织仍然是一个很好的解决方案，但它的复杂性和 IT 密集型要求使使用成本高。
+以前，管理需要将设备注册到 Surface Enterprise Management Mode (SEMM) 与正在进行的手动 IT 密集型任务的开销有关。 例如，SEMM 要求 IT 人员在物理上访问每台电脑，以在证书管理过程中输入两位数的引脚。 虽然 SEMM 对于严格位于本地环境中的组织仍然是一个很好的解决方案，但它的复杂性和 IT 密集型要求使使用成本高。
 
  借助 Microsoft Intune 中的集成 UEFI 固件管理功能，锁定硬件的功能已简化，并且更易于与预配、安全性和简化更新的新功能一同使用，现在统一为[Microsoft Endpoint Manager。](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager) 下图显示了直接在设备左侧 (查看的 UEFI 设置) 在终结点管理器控制台中 (右) 。
 
@@ -51,6 +52,7 @@ ms.locfileid: "11228543"
 
 以下设备支持 DFCI：
 
+- Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
 - Surface Laptop 3
@@ -93,7 +95,7 @@ DFCI 环境需要设置包含设置的 DFCI 配置文件和 Autopilot 配置文�
 ## 创建 Autopilot 配置文件
 
 1. 在终结点管理器devicemanagement.microsoft.com，> **Windows** 注册的设备，然后向下滚动到 **部署配置文件**。
-2. 选择 **"创建配置文件**"并输入名称;例如 **，My Autopilot 配置文件**，然后选择"**下一步"。**
+2. 选择 **"创建配置文件**"并输入名称;例如，**我的 Autopilot 配置文件**，然后选择"**下一步"。**
 3. 选择以下设置：
 
     - 部署模式： **用户驱动**。
@@ -119,7 +121,7 @@ DFCI 包括一组简化的 UEFI 配置策略，这些策略通过锁定硬件级
 
 通过从终结点管理器编辑 DFCI 配置文件来配置 DFCI 策略设置，如下图所示。 
 
-- 在终结点管理器devicemanagement.microsoft.com，> **Windows > 配置文件>"DFCI 配置文件名称">属性>设置**。
+- 在终结点管理器devicemanagement.microsoft.com，> **Windows > 配置文件中的>"DFCI 配置文件名称">属性>设置**。
 
     ![配置 DFCI 设置](images/dfciconfig.png)
 
@@ -133,9 +135,9 @@ DFCI 包括一组简化的 UEFI 配置策略，这些策略通过锁定硬件级
 | 设备管理目标                        | 配置步骤                                                                           |
 | --------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | 阻止本地用户更改 UEFI 设置 | 在 **"安全功能>允许本地用户更改 UEFI 设置"** 下，选择"**无"。**              |
-| 禁用相机                               | 在 **"内置硬件>相机"下**，选择 **"已禁用"。**                                       |
+| 禁用相机                               | 在 **"内置硬件>相机"下**，选择"**已禁用"。**                                       |
 | 禁用麦克风和扬声器              | 在 **"内置硬件>麦克风和扬声器"下**，选择 **"已禁用"。**                      |
-| 禁用无线 (Bluetooth、WI-Fi)              | Under **Built in Hardware > Radios (Bluetooth， Wi-Fi， etc...) ， **select **Disabled**.                   |
+| 禁用无线 (Bluetooth、WLAN 和)              | Under **Built in Hardware > Radios (Bluetooth， Wi-Fi， etc...) ， **select **Disabled**.                   |
 | 禁用从外部媒体启动 (USB、SD)     | Under **Built in Hardware > Boot Options > Boot from external media (USB， SD) ， **select **Disabled.** |
 
 > [!CAUTION]
@@ -148,7 +150,7 @@ Intune 提供范围标记以委派管理权限和适用性规则来管理设备�
 
 ## 在 Autopilot 中注册设备
 
-如上所述，DFCI 只能应用于由经销商或分销商在 Windows Autopilot 中注册的设备，并且目前仅在 Surface Pro 7、Surface Pro X 和 Surface Laptop 3 上受支持。 出于安全考虑，无法将设备"自行预配"到 Autopilot 中。
+如上所述，DFCI 只能应用于由经销商或分销商在 Windows Autopilot 中注册的设备，并且仅在 Surface Pro 7+、Surface Laptop Go、Surface Pro 7、Surface Pro X 和 Surface Laptop 3 上受支持。 出于安全考虑，无法将设备"自行预配"到 Autopilot 中。 若要了解更多信息，请参阅 Windows [Autopilot](surface-autopilot-registration-support.md)的 Surface 注册支持。 
 
 ## 手动同步 Autopilot 设备
 
@@ -186,7 +188,7 @@ Intune 提供范围标记以委派管理权限和适用性规则来管理设备�
 **若要删除 DFCI 管理，将设备返回到出厂新状态：**
 
 1. 从 Intune 停用设备：
-    1. 在终结点管理器devicemanagement.microsoft.com，选择> **所有设备的组**。 选择要停用的设备，然后选择"停用 **/擦除"。** 若要了解详情，请参阅使用擦除、停用或 [手动注销设备来删除设备](https://docs.microsoft.com/intune/remote-actions/devices-wipe)。 
+    1. 在终结点管理器devicemanagement.microsoft.com，选择> **所有设备的组**。 选择要停用的设备，然后选择"停用 **/擦除"。** 若要了解详情，请参阅使用擦除、停用或手动注销设备来 [删除设备](https://docs.microsoft.com/intune/remote-actions/devices-wipe)。 
 2. 从 Intune 中删除 Autopilot 注册：
     1.  Choose **Device enrollment > Windows enrollment > Devices.**
     2. 在 Windows Autopilot 设备下，选择要删除的设备，然后选择"删除 **"。**

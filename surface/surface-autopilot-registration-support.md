@@ -1,6 +1,6 @@
 ---
-title: 适用于 Windows 的 Surface 注册支持 Autopilot
-description: 本文介绍向 Microsoft 支持提交 Autopilot 注册请求的要求。
+title: 适用于 Windows Autopilot 的 Surface 注册支持
+description: 本文介绍了向 Microsoft 支持人员提交 Autopilot 注册请求的要求。
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,39 +12,39 @@ ms.date: 9/14/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9a308edb37cc2cfd99490acad16bd2ae6a4d458a
-ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
+ms.openlocfilehash: 4ff3803701ffe71e1c5c0c36200c40e833a7fb25
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "11016464"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271386"
 ---
-# 适用于 Windows 的 Surface 注册支持 Autopilot
+# 适用于 Windows Autopilot 的 Surface 注册支持
 
-为 Windows Autopilot 部署注册 Surface 设备的简化过程现已提供 Microsoft 支持。 2020年9月开始，客户和 Microsoft 云解决方案提供商 (Csp) 可以通过向 Microsoft 支持人员提交请求来注册 Surface 设备。 此页面概述了以下受支持的 Autopilot 注册方案的要求：
+Microsoft 支持现已提供注册 Surface 设备进行 Windows Autopilot 部署的简化过程。 从 2020 年 9 月开始，客户和 Microsoft 云解决方案提供商 (云解决方案提供商) 向 Microsoft 支持人员提交请求来注册 Surface 设备。 此页面概述了以下受支持的 Autopilot 注册方案的要求：
  
 
-- **Surface Device Autopilot 注册**。 提交向 Windows Autopilot 注册 Surface 设备的请求。
-- **Surface 设备硬件哈希请求。** 向 Microsoft 支持人员提交请求，向您提供硬件哈希，客户或 Csp 可通过 Microsoft Intune 或 Microsoft 合作伙伴中心使用这些哈希。
-- **Surface 设备 Autopilot 注销。** 提交从 Windows Autopilot 删除设备的请求，通常用于生命周期的设备结束。
+- **Surface Device Autopilot Registration**. 提交将 Surface 设备注册到 Windows Autopilot 的请求。
+- **Surface 设备硬件哈希请求。** 向 Microsoft 支持人员提交请求，以向您提供客户或 CSP 可用于通过 Microsoft Intune 或 Microsoft 合作伙伴中心自行注册设备的硬件哈希。
+- **Surface Device Autopilot Deregistration.** 提交从 Windows Autopilot 删除设备的请求，通常用于设备生命周期结束方案。
 
-有关将注册请求提交到 Microsoft 支持之前需要收集的信息的详细信息，请参阅下表。
+有关向 Microsoft 支持人员提交注册请求之前需要收集的信息的详细信息，请参阅下表。
  
-**表 1.  Autopilot 注册请求所需的信息**
+**表 1.  Autopilot 注册请求的必需信息**
  
 
-| 所需信息                   | 描述                                                                                                                                                                                                                                                                                    | Autopilot 注册 | 硬件哈希请求 | Autopilot<br>注册 |
+| 所需信息                   | 描述                                                                                                                                                                                                                                                                                    | Autopilot 注册 | 硬件哈希请求 | Autopilot<br>取消注册 |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------- | --------------------------- |
-| **Azure Active Directory 租户 ID**   | 你的 Azure Active Directory 租户 ID 是与你的组织名称或域不同 (GUID) 的全局唯一标识符。<br> <br>在 [此处](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties)查找租户 ID 登录到 Azure 门户。 | Y                      | N                     | Y                           |
+| **Azure Active Directory 租户 ID**   | Azure Active Directory 租户 ID 是 GUID (全局唯一标识符) 与组织名称或域不同。<br> <br>若要在此处找到你的租户 ID 登录 Azure[门户，](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) | Y                      | N                     | Y                           |
 | **Azure Active Directory 域名** | 顶级域名;例如，contoso.com。                                                                                                                                                                                                                                          | Y                      | N                     | Y                           |
-| **所有权证明**                 | 通过以 PDF 格式上载原始帐单或发票，验证所有权证明。 屏幕截图不接受。<br> <br>账单或发票必须包含以下内容：<br>设备序列号。<br>公司名称。                                                           | Y                      | Y                     | Y                           |
-| **设备序列号**              | 以 CSV 格式上载 Excel 文件，并在新行中使用每个设备序列号。                                                                                                                                                                                                                  | Y                      | Y                     | Y                           |
+| **所有权证明**                 | 通过上载 PDF 格式的原始销售单或发票来验证所有权证明。 不接受屏幕截图。<br> <br>销售单或发票必须包括以下内容：<br>设备序列号。<br>公司名称。                                                           | Y                      | Y                     | Y                           |
+| **设备序列号**              | 使用新行中每个设备序列号上传 CSV 格式的 Excel 文件。                                                                                                                                                                                                                  | Y                      | Y                     | Y                           |
 
  
 
 ## 提交支持请求
 
-  [![Get Autopilot 注册支持 Surface](images/autopilot-reg-support-surface.png)](https://support.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
+  [![GSurface 的 et Autopilot 注册支持](images/autopilot-reg-support-surface.png)](https://prod.support.services.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
  
  
  

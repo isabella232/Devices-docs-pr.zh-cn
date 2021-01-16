@@ -14,13 +14,13 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 10/12/2020
-ms.openlocfilehash: 8b201ce45533c28740a7c6bdfcb56688ada25718
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.date: 01/15/2021
+ms.openlocfilehash: 2ae1b7b3af93c1449b96bf6307c830a928c1f0a7
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114700"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271406"
 ---
 # Microsoft Surface Data Eraser
 
@@ -35,10 +35,10 @@ ms.locfileid: "11114700"
 兼容的 Surface 设备包括：
 
 - Surface Book (所有版本) 
-- 表面转 (所有版本) 
+- Surface Go (所有版本) 
 - Surface Pro X (所有版本) 
-- Surface 膝上型电脑 (所有版本) 
-- Surface 膝上型电脑 Go
+- Surface Laptop (所有版本) 
+- Surface Laptop Go
 - Surface Studio (所有版本) 
 - Surface Pro 2 及更高版本
 - Surface Hub 2 上的 Windows 10 专业版和企业版
@@ -60,7 +60,7 @@ Microsoft Surface Data Eraser 在以下情况中可能有所帮助：
 >由于运行 Microsoft Surface Data Eraser 需要能够启动到 USB，因此，如果设备未配置为从 USB 启动，或者设备无法成功启动或 POST，Microsoft Surface Data Eraser 工具将不起作用。
 
 >[!NOTE]
->Surface Studio 和 Surface 2 上的 surface Data 橡皮擦最多可能需要6分钟的时间来启动到 WinPE，然后才能进行磁盘擦除。
+>Surface Studio 和 Surface Studio 2 上的 Surface Data Eraser 最多可能需要 6 分钟才能启动到 WinPE，然后才能进行磁盘擦除。
 
 
 ## 如何创建 Microsoft Surface Data Eraser U 盘
@@ -68,7 +68,7 @@ Microsoft Surface Data Eraser 在以下情况中可能有所帮助：
 
 若要创建 Microsoft Surface Data Eraser U 盘，首先要安装 Microsoft Surface Data Eraser 安装程序工具（可使用本文开头提供的链接，从 Microsoft 下载中心获取该工具）。 *创建* U 盘不需要使用 Surface 设备。 在将安装文件下载到计算机后，请按照以下步骤来安装 Microsoft Surface Data Eraser 创建工具：
 
-1.  运行从 [Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=46703)下载的 DataEraserSetup.msi 安装文件。
+1.  运行DataEraserSetup.msi从 Microsoft 下载中心下载的安装 [文件](https://www.microsoft.com/download/details.aspx?id=46703)。
 
 2.  选中指示接受许可协议条款的复选框，然后单击**安装**。
 
@@ -85,13 +85,13 @@ Microsoft Surface Data Eraser 在以下情况中可能有所帮助：
    ![启动 Microsoft Surface Data Eraser 工具](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
 
    *图 1. 启动 Microsoft Surface Data Eraser 工具*
-4.  从 "**体系结构选择**" 页面中为 Surface Pro X 的大多数 surface 设备或**ARM64**选择 " **x64** "，如图2所示。 选择**继续**。
+4.  从 **"体系结构选择**"页中选择适用于大多数 Surface 设备的 x64 或**** 适用于 Surface Pro X 的**ARM64，** 如图 2 所示。 选择**继续**。
 
     ![体系结构选择](images/dataeraser-arch.png "Architecture Selection")<br>
        *图 2. 选择设备体系结构*
     
 
-4. 从 " **Usb 拇指驱动器选择** " 页面中选择所选的 usb 驱动器（如图3所示），然后单击 " **开始** " 以开始 usb 创建过程。 所选的驱动器会进行格式化，此驱动器上的任何现有数据都将丢失。
+4. 从"USB U 盘选择"页中选择你选择的**USB**驱动器，如图 3 所示****，然后单击"开始"开始 USB 创建过程。 所选的驱动器会进行格式化，此驱动器上的任何现有数据都将丢失。
 
    >[!NOTE]
    >如果禁用了“开始”按钮，请检查可移动驱动器的总容量是否至少有 4 GB。
@@ -102,7 +102,7 @@ Microsoft Surface Data Eraser 在以下情况中可能有所帮助：
 
 5. 创建过程完成后，U 盘已进行格式化，并且所有二进制文件都会复制到该 U 盘中。 单击**成功**。
 
-6. 当**恭喜**屏幕显示时，即可弹出并移除该 U 盘。 该 U 盘现在随时可以插入一台 Surface 设备中、从中进行启动，然后擦除该设备上的所有数据。 单击 " **完成** " 以完成 USB 创建过程，如图4所示。
+6. 当**恭喜**屏幕显示时，即可弹出并移除该 U 盘。 该 U 盘现在随时可以插入一台 Surface 设备中、从中进行启动，然后擦除该设备上的所有数据。 单击 **"** 完成"完成 USB 创建过程，如图 4 所示。
 
    ![Surface Data Eraser USB 创建过程](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
 
@@ -130,7 +130,7 @@ Microsoft Surface Data Eraser 在以下情况中可能有所帮助：
    >[!NOTE]
    >如果设备使用这些步骤未能启动到 USB，则可能需要在 Surface UEFI 中打开 **Enable Alternate Boot Sequence**。 可以在[管理 Surface UEFI 设置](https://technet.microsoft.com/itpro/surface/manage-surface-uefi-settings)中阅读有关 Surface UEFI 启动配置的详细信息。
 
-3. 当 Surface 设备启动时，将显示一个 **SoftwareLicenseTerms** 文本文件，如图5所示。
+3. 当 Surface 设备启动时， **将显示 SoftwareLicenseTerms** 文本文件，如图 5 所示。
 
    ![启动 Microsoft Surface Data Eraser U 盘](images/data-eraser-3.png "Booting the Microsoft Surface Data Eraser USB stick")
 
@@ -160,72 +160,89 @@ Microsoft Surface Data Eraser 在以下情况中可能有所帮助：
 
 Microsoft 会定期更新 Microsoft Surface Data Eraser。 有关每个新版本中提供的更改的信息，请参阅以下各项：
 
+### 2.34.139.0
+*发布日期：2021 年 1 月 15 日*
+
+此版本的 Surface Data Eraser：
+
+- 包括 Bug 修复
+
 ### 3.33.139
-*发布日期：2020年9月9日*
+*发布日期：2020 年 9 月 9 日*
 
-此版本的 Surface Data 橡皮擦包括错误修复和添加对以下内容的支持： 
+此版本的 Surface Data Eraser 包括 Bug 修复并添加了对以下功能的支持： 
 
-- 体系结构重新设计，以减少更新新产品版本的需要
-- 适用于新工具更新的通知
-- 遥测添加
+- 体系结构重新设计，以减少使用新产品版本更新需求
+- 可用于新工具更新的通知
+- 遥测新增功能
 - Surface Hub 2 上的 Windows 10 专业版和企业版
 
 
 ### 3.30.139
-*发布日期：11月11日2020*
+*发布日期：2020 年 5 月 11 日*
 
-此版本的 Surface Data 橡皮擦添加了对以下内容的支持： 
+此版本的 Surface Data Eraser 增加了对以下功能的支持： 
 - Surface Book 3
 - Surface Go 2
-- 新的 SSD Surface Go
+- Surface Go 中的新 SSD
 
 ### 3.28.137
-*发布日期：11月11日 2019* 此版本的 Surface Data 橡皮擦：
+*发布日期：2019 年 11 月 11 日*
 
-- 包括 bug 修复
+此版本的 Surface Data Eraser：
 
-### 版本3.21.137
-*发布日期：2019年10月 21* 日此版本的 Surface Data 橡皮擦是针对 x86 编译的，并添加了对以下设备的支持：
+- 包括 Bug 修复
 
-- 支持 Surface Pro 7、Surface Pro X 和 Surface 笔记本电脑3
+### 版本 3.21.137
+*发布日期：2019 年 10 月 21 日*
 
-### 版本3.2.78。0
-*发布日期：2018年12月4日*
+此版本的 Surface Data Eraser 针对 x86 编译，并添加了对以下设备的支持：
 
-此版本的 Surface Data 橡皮擦：
+- Surface Pro 7、Surface Pro X 和 Surface Laptop 3
 
-- 包括 bug 修复
+### 版本 3.2.78.0
+
+*发布日期：2018 年 12 月 4 日*
+
+此版本的 Surface Data Eraser：
+
+- 包括 Bug 修复
 
 
-### 版本3.2.75。0
-*发布日期：2018年11月12日*
+### 版本 3.2.75.0
 
-此版本的 Surface Data 橡皮擦：
+*发布日期：2018 年 11 月 12 日*
 
-- 将支持添加到 Surface Studio 2
+此版本的 Surface Data Eraser：
+
+- 向 Surface Studio 2 添加支持
 - 修复了 SD 卡的问题
 
-### 版本3.2.69。0
-*发布日期：2018年10月12日*
+### 版本 3.2.69.0
 
-此版本的 Surface Data 橡皮擦添加了对以下项的支持：
+*发布日期：2018 年 10 月 12 日*
+
+此版本的 Surface Data Eraser 增加了对以下内容的支持：
 
 - Surface Pro 6
 - Surface Laptop 2
 
-### 版本3.2.68。0
+### 版本 3.2.68.0
+
 此版本的 Microsoft Surface Data Eraser 添加了以下支持：
 
 - Surface Go
 
 
-### 版本3.2.58。0
+### 版本 3.2.58.0
+
 此版本的 Microsoft Surface Data Eraser 添加了以下支持：
 
-- 适用于 Surface Pro 和 Surface 笔记本电脑设备 (驱动器) 的其他存储设备
+- Surface Pro (Surface Laptop 设备) 驱动器的其他存储设备
 
 
 ### 版本 3.2.46.0
+
 此版本的 Microsoft Surface Data Eraser 添加了以下支持：
 
 - 带有 LTE Advanced 的 Surface Pro

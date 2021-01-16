@@ -12,12 +12,12 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: 8e97c8b1959364facbb74c6fac938fbaa279d2a1
-  ms.sourcegitcommit: 41124d496abaa38a0d989159f2afec3542d562ca
+  ms.openlocfilehash: 03c1481004ddfa6ff7fb8baae9934bbd2acf9ed6
+  ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 01/14/2021
-  ms.locfileid: "11269123"
+  ms.lasthandoff: 01/16/2021
+  ms.locfileid: "11271516"
 highlightedContent:
   items:
   - title: Surface 设备文档
@@ -91,7 +91,7 @@ conceptualContent:
       text: 联系 Surface 支持部门
   - title: Surface Hub 帮助
     links:
-    - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+    - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e&hidden=false
       itemType: learn
       text: 联系 Surface Hub 支持部门
   - title: Surface Duo 帮助
