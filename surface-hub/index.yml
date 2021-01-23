@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: b950d8e0a15609312ba552df2be084257a5cd4ad
-  ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+  ms.openlocfilehash: fb4d07fb216a283a2a6d7b576e06cdfe7dc74a47
+  ms.sourcegitcommit: 880980b64bb394423280acbcb1653012a4de5642
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 01/16/2021
-  ms.locfileid: "11271546"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "11297065"
 landingContent:
 - title: 为 Surface Hub 2S 做好准备
   linkLists:
@@ -63,25 +63,37 @@ landingContent:
       url: https://www.youtube.com/watch?v=CH2seLS5Wb0
     - text: 深入了解 Microsoft Surface Hub 2S IT 专业版
       url: https://youtu.be/fFiL60JztGk
+- title: 部署
+  linkLists:
   - linkListType: deploy
     links:
+    - url: https://docs.microsoft.com/microsoftteams/rooms/coordinated-meetings
+      text: 使用 Microsoft Teams 会议室和 Surface Hub 安排协调会议
     - url: surface-hub-2s-adoption-kit.md
       text: Surface Hub 2S 采用和培训
-    - url: surface-hub-2s-deploy-checklist.md
-      text: Surface Hub 2S 部署清单
     - url: surface-hub-2s-account.md
       text: 创建设备帐户
+- title: 管理
+  linkLists:
+  - linkListType: learn
+    links:
+    - url: https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config
+      text: 在 Surface Hub 上管理 Microsoft Teams 设置
+    - url: surface-hub-2s-manage-intune.md
+      text: 使用 Intune 管理 Surface Hub 2S
+    - url: local-management-surface-hub-settings.md
+      text: 管理本地设置
 - title: 安全
   linkLists:
   - linkListType: learn
     links:
     - url: surface-hub-security.md
       text: Surface Hub 安全性概述
-    - url: surface-hub-2s-manage-intune.md
-      text: 通过 Intune 进行管理
-    - url: local-management-surface-hub-settings.md
-      text: 管理本地设置
-- title: 排除故障
+    - url: surface-hub-2s-phone-authenticate.md
+      text: 配置无密码登录 Surface Hub
+    - url: surface-hub-2s-secure-with-uefi-semm.md
+      text: 使用 SEMM 和 UEFI 保护 Surface Hub 2S 的安全并进行管理
+- title: 疑难解答
   linkLists:
   - linkListType: learn
     links:
