@@ -12,17 +12,17 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 01/15/2021
-ms.openlocfilehash: d8d47db3bd6f69783670b285a797337373e02d72
-ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+ms.date: 01/25/2021
+ms.openlocfilehash: af9eac171dea5d29ce9776766a2c5842bea9eb8c
+ms.sourcegitcommit: 1b12ea363785697ddc705b0a0cc7bb35cad6b327
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "11271426"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "11300693"
 ---
 # 管理 Surface UEFI 设置
 
-所有当前和将来的 Surface 设备都使用 Microsoft 专门为这些设备 (UEFI) 唯一的统一可扩展固件接口。 Surface UEFI 设置提供启用或禁用内置设备和组件、防止更改 UEFI 设置以及调整 Surface 设备启动设置的能力。 
+ Surface PC 设备旨在利用 Microsoft 专门为这些设备 (UEFI) 唯一的统一可扩展固件接口。 Surface UEFI 设置提供启用或禁用内置设备和组件、防止更改 UEFI 设置以及调整 Surface 设备启动设置的能力。 
 
 ## 支持的产品
 
@@ -32,11 +32,11 @@ ms.locfileid: "11271426"
 - Surface Laptop (第一代) 、Surface Laptop 2、Surface Laptop 3、Surface Laptop Go
 - Surface Studio (1 代) Surface Studio 2
 - Surface Book、Surface Book 2、Surface Book 3
-- Surface Go、Surface Go 2
+- Surface Go、Surface Go 2[ <sup> 1 </sup> ](#references)
 
 ## 支持基于云的管理
 
-借助内置于 Microsoft Intune (中的设备固件配置接口 (DFCI) 配置文件) ，Surface UEFI 管理可将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 DFCI 目前可用于 Surface Pro 7+、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7 和 Surface Pro X。 有关详细信息，请参阅 Surface [UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
+借助内置于 Microsoft Intune (中的设备固件配置接口 (DFCI) ) 配置文件，Surface UEFI 管理可将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 DFCI 当前可用于 Surface Pro 7+、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7 和 Surface Pro X。 有关详细信息，请参阅 Surface [UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
 
 ## 打开 Surface UEFI 菜单
 
@@ -50,7 +50,7 @@ ms.locfileid: "11271426"
 
 电脑信息页包含有关 Surface 设备的详细信息： 
 
-- **型号** – Surface 设备的型号将在此处显示，例如 Surface Book 2 或 Surface Pro 7。 不会显示设备的具体配置（例如处理器、磁盘大小或内存大小）。 
+- **型号** – Surface 设备型号将在此处显示，例如 Surface Book 2 或 Surface Pro 7。 不会显示设备的具体配置（例如处理器、磁盘大小或内存大小）。 
 - **UUID** - 此通用唯一标识号特定于设备，用于在部署或管理期间标识设备。 
 
 - **序列号** - 此编号用于标识资源标记和支持场景的特定 Surface 设备。
@@ -227,6 +227,10 @@ ms.locfileid: "11271426"
 ![指示安全启动已禁用的 Surface 启动屏幕](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
 
 *图 20. 指示安全启动已在 Surface UEFI 设置中禁用的安全启动屏幕*
+
+## 参考
+
+1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。 
 
 ## 相关主题
 
