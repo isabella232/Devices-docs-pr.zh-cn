@@ -14,21 +14,21 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: fb4d07fb216a283a2a6d7b576e06cdfe7dc74a47
-  ms.sourcegitcommit: 880980b64bb394423280acbcb1653012a4de5642
+  ms.openlocfilehash: b4161e3e041b8c6838ad7a498bb0c50784485fea
+  ms.sourcegitcommit: 9bf5c4367b471f77949482390fddf8ff137f60b5
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 01/22/2021
-  ms.locfileid: "11297065"
+  ms.lasthandoff: 01/25/2021
+  ms.locfileid: "11297895"
 landingContent:
 - title: 为 Surface Hub 2S 做好准备
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Windows 10 协同版推出更新
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655
     - text: 安装和装载 Surface Hub 2S 85"（准备指南）
       url: surface-hub-2s-85-install-mount.md
-    - text: 安装 Windows 10 协同版 2020 更新
-      url: surface-hub-2020-update.md
     - text: Windows 10 协同版 2020 更新中的新增功能
       url: surface-hub-2020-update-whats-new.md
     - text: Surface Hub 2S 在当今混合工作区中的桥接数字和物理除法
