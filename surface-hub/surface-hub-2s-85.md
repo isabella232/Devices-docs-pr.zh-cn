@@ -9,27 +9,24 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/21/2020
+ms.date: 11/26/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 7fe02f0e377c8ac586f7e60387f1d8e1f071a15a
-ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
+ms.openlocfilehash: 093185838250e9b52c078ece4e206639f8b7a630
+ms.sourcegitcommit: 38bb1d92064fb1ab0fe69f9c88ef6e44c9232b97
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "11238097"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "11304500"
 ---
 # Surface Hub 2S 85"概述&技术规范
 
-Surface Hub 系列 85" 版本将 Surface Hub 2S 体验引入需要更大屏幕的空间，如会议室、会议室或更大的空间。 Surface Hub 2S 85"自 2021 年 1 月开始提供以下体验：
+Surface Hub 系列 85" 版本将 Surface Hub 2S 体验引入需要更大屏幕的空间，如会议室、会议室或更大的空间。 Surface Hub 2S 85"提供以下体验：
 
 - **专为组协作设计。** 邀请 Microsoft Whiteboard 中的同时墨迹书写以及 Microsoft Teams 中超过生命周期的远程与会者。
 - **一致的 Surface Hub 2S 体验。** 提供与 Surface Hub 2S 50 相同的高级设计、4K 显示技术、触摸、笔/墨迹、计算和相机支持。
 - **与现有和新的 A/V 系统集成。** 与 Microsoft Teams 认证的外围设备相结合，并与 Microsoft Teams 会议室集成。
 
 ![Surface Hub 2S 85"](images/hub-2s-85.png)
-
-> [!NOTE]
-> *Surface Hub 2S 于 2021 年提供;显示的预发布产品;受法规认证/批准、可能更改且可能因国家/地区而异的产品和功能。*
 
 ## Surface Hub 2S 85" 技术规范
 
@@ -38,7 +35,7 @@ Surface Hub 系列 85" 版本将 Surface Hub 2S 体验引入需要更大屏幕�
 | 维度        | 44.5" x 77.1" x 3.4"<br> (1130mm x 1959mm x 85.6mm)                                                                                                                                                                                                         |
 | 粗细            | 185 lb. (84kg)                                                                                                                                                                                                                                             |
 | 解决方案        | 3840 x 2160                                                                                                                                                                                                                                               |
-| 显示           | PixelSense™ Display， 16：9 aspect ratio， 10-bit color， 30.5mm border width， anti-points， IPS LED， in-cell touch with 20 simultaneous touch points                                                                                                           |
+| 显示           | PixelSense™ 显示，16：9 纵横比，10 位颜色，30.5mm 边框宽度，防盲，IPS 图形，带 20 个同时触摸点的单元格内触摸                                                                                                           |
 | 计算           | 模块化计算系统<br>四核第 8 代 Intel® Core™ i5 处理器、8GB RAM、128GB SSD <sup> 1</sup>                                                                                                                                                      |
 | 软件 <sup> 2</sup>         | Windows 10 团队操作系统 <sup> 3</sup><br>适用于 Surface Hub 的 Microsoft Teams<br>Skype for Business<br>Microsoft Whiteboard<br>Microsoft Office (移动) <br>Microsoft Power BI                                                                                                   |
 | 连接       | USB-A<br>Mini-DisplayPort视频输出<br>RJ45 Gb 以太网<br>HDMI 视频输入<br>USB-C® DisplayPort 输入<br> (3) USB-C® (上显示)                                                                                                            |
@@ -52,7 +49,7 @@ Surface Hub 系列 85" 版本将 Surface Hub 2S 体验引入需要更大屏幕�
 | 框中的是什么 |  (Surface Hub 2S) 1<br> (2) Surface Hub 2 触控笔<br> (1) Surface Hub 2 相机<br>4m AC 电源电缆<br>快速入门指南                                                                                                                                         |
 
 > [!NOTE]
-> Surface Hub 可以连续使用，最多一天 18 小时。 为了提高效率，Surface Hub 使用智能传感器在不再检测到状态时关闭 LED 屏幕，这意味着在一天结束时无需关闭电源。 如果单位安装在 24 小时工作场所环境中，可以禁用传感器以符合每天 18 小时的最大使用建议。 请注意，长时间显示视频信号可能会导致屏幕中出现已刻录或图像保留。 若要了解有关管理电源设置的信息，请参阅：
+> Surface Hub 可以连续使用，一天最多使用 18 小时。 为了提高效率，Surface Hub 使用智能传感器在不再检测到状态时关闭 LED 屏幕，这意味着在一天结束时无需关闭电源。 如果单位安装在 24 小时工作场所环境中，可以禁用传感器，以符合每天 18 小时的最大使用建议。 请注意，长时间显示视频信号可能会导致屏幕中出现已刻录或图像保留。 若要了解有关管理电源设置的信息，请参阅：
 >
 > - [Surface Hub 设置的本地管理](local-management-surface-hub-settings.md)
 > - [SurfaceHub CSP - Windows 客户端管理](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
