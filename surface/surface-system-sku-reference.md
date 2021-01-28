@@ -1,7 +1,7 @@
 ---
-title: 'Surface (的系统 SKU 参考) '
-description: 请参阅系统模型和系统 SKU 名称的引用。
-keywords: uefi， 配置， 固件， 安全， semm
+title: Surface 系统 SKU 参考
+description: 请参阅所有 Surface 设备的系统型号和系统 SKU 名称参考。
+keywords: uefi， 配置， 固件， 安全， semm， Autopilot
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.pagetype: surface, devices, security
@@ -9,21 +9,21 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 1/15/2021
+ms.date: 01/27/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 2140faf346229842bffc4f9348041f4667b94686
-ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+ms.openlocfilehash: 0fe13750e7e8c8188b52726c114a6b3668434d39
+ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "11271366"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "11304825"
 ---
-# 系统 SKU 参考
+# Surface 系统 SKU 参考
 
-本文档提供系统模型和系统 SKU 名称的参考，您可以使用 PowerShell 或 WMI 快速确定特定设备的机器状态。
+本文档提供了可用于各种 IT 任务的参考，例如向 Windows Autopilot 注册 Surface 设备，或者使用 PowerShell 或 WMI 验证特定设备的机器状态。
 
 系统模型和系统 SKU 是存储在 Surface 设备的 UEFI 层中的系统管理 BIOS (SMBIOS) 表中的变量。 每当需要区分具有相同系统型号名称的设备（如 Surface Pro 和具有 LTE Advanced 的 Surface Pro）时，请使用系统 SKU 名称。
 
@@ -33,7 +33,7 @@ ms.locfileid: "11271366"
 | Surface 3 LTE AT&T                                           | Surface 3        | Surface_3_US1                    |
 | Surface 3 LTE Verizon                                        | Surface 3        | Surface_3_US2                    |
 | 北美 Surface 3 LTE                                  | Surface 3        | Surface_3_NAG                    |
-| 北美之外的 Surface 3 LTE 和日本 Y！移动版 | Surface 3        | Surface_3_ROW                    |
+| 北美之外的 Surface 3 LTE，以及日本 Y！移动版 | Surface 3        | Surface_3_ROW                    |
 | Surface Pro                                                  | Surface Pro      | Surface_Pro_1796                 |
 | 带有 LTE Advanced 的 Surface Pro                                 | Surface Pro      | Surface_Pro_1807                 |
 | Surface Book 2 13"                                        | Surface Book 2   | Surface_Book_1832                |
@@ -81,3 +81,8 @@ gwmi -namespace root\wmi -class MS_SystemInformation | select SystemSKU
     - WMI Namespace – Root\WMI
     - WQL Query – SELECT * FROM MS_SystemInformation WHERE SystemSKU = "Surface_Pro_1796"
  ``` 
+
+## 了解详细信息
+
+- [WMI 参考](https://docs.microsoft.com/windows/win32/wmisdk/wmi-reference)
+- [适用于 Windows Autopilot 的 Surface 注册支持](surface-autopilot-registration-support.md)

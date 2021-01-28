@@ -9,18 +9,18 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/27/2020
+ms.date: 01/26/2021
 ms.localizationpriority: High
-ms.openlocfilehash: f6022c4fd16cd8afbbea892e73ad831f12b10eaa
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: 446166618161fc54a77bab94b2d61ad85359a082
+ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934852"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "11304845"
 ---
 # Surface Hub 安全性概述
 
-Surface Hub 通过运行 Windows 10 团队操作系统的自定义平台固件提供锁定的计算装置。 由此产生的设备采用传统的“单一用途”安全网亭，融入“仅运行所需内容”的理念，并提供一种现代化的风格。 Surface Hub 是为支持丰富的协作用户体验而构建的，可抵御不断演变的安全威胁。
+Surface Hub 通过运行 Windows 10 团队操作系统的自定义平台固件提供锁定的类似设备的体验。 由此产生的设备采用传统的“单一用途”安全网亭，融入“仅运行所需内容”的理念，并提供一种现代化的风格。 Surface Hub 是为支持丰富的协作用户体验而构建的，可抵御不断演变的安全威胁。
 
 以 Windows 10 为基础，Surface Hub 可提供企业级现代安全性，支持 IT 管理员利用 BitLocker、受信任的平台模块 2.0 (TPM) 以及通过 Windows Defender（也称为 Microsoft Defender）实现的云驱动安全性实施数据保护。
 
@@ -28,7 +28,7 @@ Surface Hub 通过运行 Windows 10 团队操作系统的自定义平台固件�
 
 打开 Surface Hub 后，安全协议将立即启动。 从固件级别开始，Surface Hub 将仅加载操作系统及其组件，以响应多个安全检查。 Surface Hub 采用一种称为深度防御的策略，该策略涉及对独立的防护子组件进行分层，可在发生局部故障时保护整个系统。 事实证明，这一行业实践在缓解子组件中潜在的单边利用和弱点方面非常有效。
 
-当今的统一可扩展固件接口 (UEFI) 由 Microsoft 静态且安全地配置为仅从内部存储启动经过身份验证的 Windows 10 团队操作系统。  在 Surface Hub 上运行的每一行代码都将在执行前完成签名验证。 只有由 Microsoft 签署的应用程序（无论是操作系统的一部分还是通过 Microsoft Store 安装的）才能在 Surface Hub 上运行。 不符合这些要求的代码或应用将会被阻止。
+现代统一可扩展固件接口 (UEFI) 由 Microsoft 静态安全地配置为仅从内部存储中启动经过身份验证的 Windows 10 团队操作系统。  在 Surface Hub 上运行的每一行代码都将在执行前完成签名验证。 只有由 Microsoft 签署的应用程序（无论是操作系统的一部分还是通过 Microsoft Store 安装的）才能在 Surface Hub 上运行。 不符合这些要求的代码或应用将会被阻止。
 
 Surface Hub 安全系统包括以下各项：
 
