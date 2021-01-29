@@ -14,17 +14,19 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: b4161e3e041b8c6838ad7a498bb0c50784485fea
-  ms.sourcegitcommit: 9bf5c4367b471f77949482390fddf8ff137f60b5
+  ms.openlocfilehash: 655b10e575d1a7057e829c0312b586c2980462f4
+  ms.sourcegitcommit: 046623bfcc01a2daa3eacd229a6c5e70365d25b6
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 01/25/2021
-  ms.locfileid: "11297895"
+  ms.lasthandoff: 01/29/2021
+  ms.locfileid: "11306082"
 landingContent:
 - title: 为 Surface Hub 2S 做好准备
   linkLists:
   - linkListType: whats-new
     links:
+    - text: 适用于 Surface Hub 2S 的 Microsoft Teams 认证音频和视频配件
+      url: surface-hub-2s-certifications.md
     - text: Windows 10 协同版推出更新
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655
     - text: 安装和装载 Surface Hub 2S 85"（准备指南）
