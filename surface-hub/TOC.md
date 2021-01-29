@@ -36,6 +36,7 @@
 ### [使用 Intune 将应用部署到 Surface Hub 2S](surface-hub-2s-deploy-apps-intune.md)
 ### [使用 PowerShell 创建 Surface Hub 2S 的本地帐户](surface-hub-2s-onprem-powershell.md)
 ### [Surface Hub Teams 应用](hub-teams-app.md)
+### [适用于 Surface Hub 2S 的 Teams 认证附件](surface-hub-2s-certifications.md)
 
 ## 管理
 ### [迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版](surface-hub-2s-migrate-os.md)
