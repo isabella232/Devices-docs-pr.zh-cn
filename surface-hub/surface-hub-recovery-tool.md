@@ -10,20 +10,20 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 12/18/2018
+ms.date: 12/18/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: a9ebab6848efa706609a39b0eb99fa42df2156bf
-ms.sourcegitcommit: ce7ad475b776a78ba215e77111ea5371afeb4f28
+ms.openlocfilehash: 9df9de731ac5c8f8acb393db3d4b16e9d1c98a9e
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "11237303"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11312028"
 ---
 # 使用 Surface Hub 恢复工具
 
-[Microsoft Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210)恢复工具可帮助你使用 Windows 10 桌面设备重新映像 Surface Hub 固态硬盘 (SSD) ，而无需调用支持或更换 SSD。 使用此工具，你可以为具有未知管理员密码、启动错误、无法完成云恢复的 SSD 或具有较旧版本操作系统的设备重置映像。 该工具不会修复物理损坏的 SSD。
+[Microsoft Surface Hub 恢复](https://www.microsoft.com/download/details.aspx?id=52210)工具可帮助你使用 Windows 10 桌面设备重新映像 Surface Hub 固态硬盘 (SSD) ，而无需调用支持或替换 SSD。 使用此工具，你可以为具有未知管理员密码、启动错误、无法完成云恢复或具有较旧版本操作系统的设备的 SSD 重置映像。 该工具不会修复物理损坏的 SSD。
 
-若要使用恢复工具重新映像 Surface Hub SSD，你需要从 Surface Hub 中删除 SSD，将驱动器连接到 USB 到 SATA 电缆，然后将电缆连接到安装了恢复工具的台式电脑。 若要详细了解如何从 Surface Hub 中删除现有驱动器，请参阅 [Surface Hub SSD 替换](surface-hub-ssd-replacement.md)。
+若要使用恢复工具重新映像 Surface Hub SSD，需要从 Surface Hub 中删除 SSD，将驱动器连接到 USB 到 SATA 电缆，然后将电缆连接到安装了恢复工具的台式电脑。 若要详细了解如何从 Surface Hub 中删除现有驱动器，请参阅 [Surface Hub SSD 替换](surface-hub-ssd-replacement.md)。
 
 > [!IMPORTANT]
 > 请勿让设备进入睡眠状态或中断映像文件的下载。
@@ -48,12 +48,12 @@ ms.locfileid: "11237303"
 - USB 3.0 或更高版本的 USB 到 SATA 电缆
 - 使用以下电缆型号和型号测试了映像工具：
     - Startech USB312SAT3CB
-    - 将 rcUC16001
+    - 将 RcUC16001
     - Ugreen 20231
 
 ## 下载 Surface Hub 恢复工具
 
-Surface Hub 恢复工具可从适用于[IT](https://www.microsoft.com/download/details.aspx?id=52210)的 Surface Hub 工具的文件名下下载**SurfaceHub_Recovery_v2.0.139.0.msi。 **
+Surface Hub 恢复工具可从[Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210)工具下载，适用于 IT 的文件名下SurfaceHub_Recovery_v2.0.139.0.msi。 ** **
 
 若要开始下载 **，请单击"** 下载"，**从SurfaceHub_Recovery_v2.0.139.0.msi**选择"下载"，然后单击"下一**步"。** 从弹出窗口中，选择下列选项之一：
 
@@ -64,7 +64,7 @@ Surface Hub 恢复工具可从适用于[IT](https://www.microsoft.com/download/d
 
 ## 运行 Surface Hub 恢复工具
 
-1. 在主机电脑上，选择 **"** 开始"按钮，滚动左侧按字母顺序排列的列表，然后选择恢复工具快捷方式。
+1. 在主机电脑上，选择 **"** 开始"按钮，滚动左侧的字母列表，然后选择恢复工具快捷方式。
 
     ![Microsoft Surface Hub 恢复工具快捷方式](images/shrt-shortcut.png)
 
@@ -75,7 +75,7 @@ Surface Hub 恢复工具可从适用于[IT](https://www.microsoft.com/download/d
 
 3. 在"**指南"** 窗口中，单击"下**一步"。**
 
-    ![不要让计算机进入睡眠指南](images/shrt-guidance.png)
+    ![不允许计算机进入睡眠指南](images/shrt-guidance.png)
 
 4. 在"选择图像"窗口中，单击**RS2**或后续版本**20H2，****选择"继续**"，然后选择"**下载图像"。**
 

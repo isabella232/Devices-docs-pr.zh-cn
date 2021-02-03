@@ -13,28 +13,33 @@ ms.reviewer: scottmca
 ms.localizationpriority: medium
 ms.audience: itpro
 manager: jarrettr
+ms.date: 02/02/2021
 appliesto:
 - Surface Laptop (1st Gen)
 - Surface Laptop 2
 - Surface Laptop 3
-ms.openlocfilehash: d7ae6fc434f77cad86e73f111243968493de4ff2
-ms.sourcegitcommit: e6224f81f8efb6ac862afec0e60e3ddb182e9e6f
+ms.openlocfilehash: fb51dd3785882e74c90d8b2717e4cc499d492d6f
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "11247304"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11312058"
 ---
 # 如何在 MDT 部署期间启用 Surface Laptop 键盘
 
 本文介绍使用 Microsoft Deployment Toolkit (MDT) 。 您还可以将此信息应用于其他部署方法。 在大多数类型的 Surface 设备上，键盘应在 Lite Touch Installation (LTI) 。 但是，Surface Laptop 需要一些额外的驱动程序才能启用键盘。 对于 Surface Laptop (第一代) 和 Surface Laptop 2 设备，必须准备文件夹结构和选择配置文件，以允许你指定在 LTI 的 Windows 预安装环境 (Windows PE) 阶段使用的键盘驱动程序。 有关此文件夹结构的信息，请参阅使用 [MDT 部署 Windows 10 映像：步骤 5：准备驱动程序存储库](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt?redirectedfrom=MSDN#step-5-prepare-the-drivers-repository)。
 
+> [!TIP]    
+> 在同一 Windows PE 启动实例中将 Surface Laptop 2 和 Surface Laptop 3 的键盘驱动程序用于时，如果键盘或触摸板在 Windows PE 中不起作用，可能需要手动重置固件：
+>
+> - 长按电源按钮 30 秒。 如果连接到电源设备 (PSU) ，请长按电源按钮，直到看到 PSU 电缆末端的灯短暂关闭，然后再打开。
 
 > [!IMPORTANT]
 > 如果要将 Windows 10 映像部署到已预安装 S 模式下的 Windows 10 的 Surface Laptop，请参阅 KB [4032347，](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues)将 Windows 部署到在 S 模式下预安装 Windows 10 的 Surface 设备时出现问题。
 
 若要将键盘驱动程序添加到选择配置文件，请按照以下步骤操作：
 
-1. 从相应位置下载最新的 Surface Laptop MSI 文件：
+1. 从适当位置下载最新的 Surface Laptop MSI 文件：
     - [Surface Laptop (第一代) 驱动程序和固件](https://www.microsoft.com/download/details.aspx?id=55489)
     - [Surface Laptop 2 驱动程序和固件](https://www.microsoft.com/download/details.aspx?id=57515)
     - [带 Intel 处理器驱动程序和固件的 Surface Laptop 3](https://www.microsoft.com/download/details.aspx?id=100429)
@@ -50,78 +55,8 @@ ms.locfileid: "11247304"
    ![显示 WindowsPEX64 文件夹在部署工作台中的位置的图像](./images/surface-laptop-keyboard-1.png)
 
 4. 右键单击**WindowsPEX64**文件夹，然后选择 **"导入驱动程序"。**
+
 5. 按照导入驱动程序向导中的说明将驱动程序文件夹导入到 WindowsPEX64 文件夹中。  
-
-> [!NOTE]
->  检查下载的 MSI 程序包以确定格式和目录结构。  目录结构将首先使用 SurfacePlatformInstaller (较旧的 MSI 文件) 或 SurfaceUpdate (较新的 MSI 文件) 具体取决于 MSI 的发布时间。 
-
-若要支持 Surface Laptop (第一代) ，请导入以下文件夹：
-
- - SurfacePlatformInstaller\Drivers\System\GPIO
- - SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver
- - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
- - SurfacePlatformInstaller\Drivers\System\PreciseTouch
-
-或者对于以"SurfaceUpdate"开头的较新的 MSI 文件，请使用：
-
-- SurfaceUpdate\SerialIOGPIO
-- SurfaceUpdate\SurfaceHidMiniDriver
-- SurfaceUpdate\SurfaceSerialHubDriver
-- SurfaceUpdate\Itouch
-
-若要支持 Surface Laptop 2，请导入以下文件夹：
-
- - SurfacePlatformInstaller\Drivers\System\GPIO
- - SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver
- - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
- - SurfacePlatformInstaller\Drivers\System\I2C
- - SurfacePlatformInstaller\Drivers\System\SPI
- - SurfacePlatformInstaller\Drivers\System\UART
- - SurfacePlatformInstaller\Drivers\System\PreciseTouch
-
-或者对于以"SurfaceUpdate"开头的较新的 MSI 文件，请使用：
-
-- SurfaceUpdate\SerialIOGPIO
-- SurfaceUpdate\IclSerialIOI2C
-- SurfaceUpdate\IclSerialIOSPI
-- SurfaceUpdate\IclSerialIOUART
-- SurfaceUpdate\SurfaceHidMini
-- SurfaceUpdate\SurfaceSerialHub
-- SurfaceUpdate\Itouch
-
- 
-若要使用 Intel 处理器支持 Surface Laptop 3，请导入以下文件夹：
-
-- SurfaceUpdate\IclSerialIOGPIO
-- SurfaceUpdate\IclSerialIOI2C
-- SurfaceUpdate\IclSerialIOSPI
-- SurfaceUpdate\IclSerialIOUART
-- SurfaceUpdate\SurfaceHidMini
-- SurfaceUpdate\SurfaceSerialHub
-- SurfaceUpdate\SurfaceHotPlug
-- SurfaceUpdate\Itouch
-
-导入以下文件夹将在 PE 中为 Surface Laptop 3 启用完整的键盘、触控板和触摸功能。
-
-- IclSerialIOGPIO
-- IclSerialIOI2C
-- IclSerialIOSPI
-- IclSerialIOUART
-- itouch
-- IclChipset
-- IclChipsetLPSS
-- IclChipsetNorthpeak
-- ManagementEngine
-- SurfaceAcpiNotify
-- SurfaceBattery
-- SurfaceDockIntegration
-- SurfaceHidMini
-- SurfaceHotPlug
-- SurfaceIntegration
-- SurfaceSerialHub
-- SurfaceService
-- SurfaceStorageFwUpdate
-
 
     > [!NOTE]
     >  检查下载的 MSI 程序包以确定格式和目录结构。  目录结构将首先使用 SurfacePlatformInstaller (较旧的 MSI 文件) 或 SurfaceUpdate (较新的 MSI 文件) 具体取决于 MSI 的发布时间。 
@@ -153,19 +88,89 @@ ms.locfileid: "11247304"
     或者对于以"SurfaceUpdate"开头的较新的 MSI 文件，请使用：
 
     - SurfaceUpdate\SerialIOGPIO
-    - SurfaceUpdate\IclSerialIOI2C
-    - SurfaceUpdate\IclSerialIOSPI
-    - SurfaceUpdate\IclSerialIOUART
+    - SurfaceUpdate\serialioi2c
+    - SurfaceUpdate\SerialIOSPI
+    - SurfaceUpdate\SerialIOUART
+    - SurfaceUpdate\SurfaceHidMini
+    - SurfaceUpdate\SurfaceSerialHub
+    - SurfaceUpdate\Itouch
+
+     
+    若要使用 Intel 处理器支持 Surface Laptop 3，请导入以下文件夹：
+
+    - SurfaceUpdate\SerialIOGPIO
+    - SurfaceUpdate\SerialIOI2C
+    - SurfaceUpdate\SerialIOSPI
+    - SurfaceUpdate\SerialIOUART
+    - SurfaceUpdate\SurfaceHidMini
+    - SurfaceUpdate\SurfaceSerialHub
+    - SurfaceUpdate\SurfaceHotPlug
+    - SurfaceUpdate\Itouch
+
+    导入以下文件夹将在 PE 中为 Surface Laptop 3 启用完整的键盘、触控板和触摸功能。
+
+    - SerialIOGPIO
+    - SerialIOI2C
+    - SerialIOSPI
+    - SerialIOUART
+    - itouch
+    - 芯片集
+    - 芯片集LPS
+    - ChipsetNorthpeak
+    - ManagementEngine
+    - SurfaceAcpiNotify
+    - SurfaceBattery
+    - SurfaceDockIntegration
+    - SurfaceHidMini
+    - SurfaceHotPlug
+    - SurfaceIntegration
+    - SurfaceSerialHub
+    - SurfaceService
+    - SurfaceStorageFwUpdate
+
+     > [!NOTE]
+     >  检查下载的 MSI 程序包以确定格式和目录结构。  目录结构将首先使用 SurfacePlatformInstaller (较旧的 MSI 文件) 或 SurfaceUpdate (较新的 MSI 文件) 具体取决于 MSI 的发布时间。 
+
+     若要支持 Surface Laptop (第一代) ，请导入以下文件夹：
+
+    - SurfacePlatformInstaller\Drivers\System\GPIO
+    - SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver
+    - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
+    - SurfacePlatformInstaller\Drivers\System\PreciseTouch
+
+    或者对于以"SurfaceUpdate"开头的较新的 MSI 文件，请使用：
+
+    - SurfaceUpdate\SerialIOGPIO
+    - SurfaceUpdate\SurfaceHidMiniDriver
+    - SurfaceUpdate\SurfaceSerialHubDriver
+    - SurfaceUpdate\Itouch
+
+    若要支持 Surface Laptop 2，请导入以下文件夹：
+
+    - SurfacePlatformInstaller\Drivers\System\GPIO
+    - SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver
+    - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
+    - SurfacePlatformInstaller\Drivers\System\I2C
+    - SurfacePlatformInstaller\Drivers\System\SPI
+    - SurfacePlatformInstaller\Drivers\System\UART
+    - SurfacePlatformInstaller\Drivers\System\PreciseTouch
+
+    或者对于以"SurfaceUpdate"开头的较新的 MSI 文件，请使用：
+
+    - SurfaceUpdate\SerialIOGPIO
+    - SurfaceUpdate\SerialIOI2C
+    - SurfaceUpdate\SerialIOSPI
+    - SurfaceUpdate\SerialIOUART
     - SurfaceUpdate\SurfaceHidMini
     - SurfaceUpdate\SurfaceSerialHub
     - SurfaceUpdate\Itouch
 
     若要使用 Intel 处理器支持 Surface Laptop 3，请导入以下文件夹：
 
-    - SurfaceUpdate\IclSerialIOGPIO
-    - SurfaceUpdate\IclSerialIOI2C
-    - SurfaceUpdate\IclSerialIOSPI
-    - SurfaceUpdate\IclSerialIOUART
+    - SurfaceUpdate\SerialIOGPIO
+    - SurfaceUpdate\SerialIOI2C
+    - SurfaceUpdate\SerialIOSPI
+    - SurfaceUpdate\SerialIOUART
     - SurfaceUpdate\SurfaceHidMini
     - SurfaceUpdate\SurfaceSerialHub
     - SurfaceUpdate\SurfaceHotPlug

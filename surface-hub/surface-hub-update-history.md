@@ -9,18 +9,18 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: ad4de8a154e1169eb0beb08685a3c6a75056b94d
-ms.sourcegitcommit: 1b86286bd13b13749ddbf454ae78d9a24fec44ee
+ms.openlocfilehash: 28f6f844818a00078f2efa812da8bdd7dc28b115
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "11271079"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11311988"
 ---
 # Surface Hub 更新历史记录
 
-Windows 10 设计为一项服务，这意味着它通过定期软件更新自动获得更好的效果。 好消息是，你通常不需要执行任何工作来获取最新的 Windows 10 更新，只要可用，它们就会下载并安装。
+Windows 10 旨在成为一项服务，这意味着它会自动通过定期软件更新获得更好的效果。 好消息是，你通常不需要执行任何工作来获取最新的 Windows 10 更新，只要可用，它们就会下载并安装。
 
-大多数 Windows 更新侧重于性能和安全改进，可让你保持 24/7。
+大多数 Windows 更新侧重于性能和安全改进，让你保持 24/7。
 
 我们从你收到的信息之一是，你想要了解有关 Windows 10 更新中的内容的详细信息，因此我们将在此页面上提供更多详细信息。 在下面的列表中，将首先列出最新的 Windows 更新。 安装最新更新可确保还可以获取可能错过的任何以前的更新，包括安全更新。 Microsoft Store 应用通过 Microsoft Store (由 Surface Hub 的系统管理员管理) 。 有关应用更新的详细信息基于每个应用提供。
 随着新更新的发布，我们将刷新此页面，因此请关注最新信息。 感谢帮助我们了解每个更新并更好地获得帮助！
@@ -28,6 +28,15 @@ Windows 10 设计为一项服务，这意味着它通过定期软件更新自动
 请参阅["Surface Hub](https://support.microsoft.com/products/surface-devices/surface-hub)重要信息"页，了解可能需要你注意的当前和过去版本的相关主题。
 
 ## Windows 10 Team 2020 Update (20H2) 
+
+<details>
+<summary>2021 年 1 月 15 日 - Surface Hub 2S 更新</summary>
+
+此更新特定于 Surface Hub 2S，并提供下面列出的驱动程序和固件更新：
+
+* Surface SMC 固件更新 - 3.93.139.0
+* Surface UEFI 更新 - 694.3473.768.0
+</details>
 
 <details>
 <summary>2020 年 12 月 11 日 - Surface Hub 2S 更新</summary>
@@ -53,7 +62,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 在注册 Windows 预览体验计划时提高可靠性。
 * 提高 Windows Team Shell 的可靠性。
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。 *[KB4586853](https://support.microsoft.com/help/4586853)
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。 *[KB4586853](https://support.microsoft.com/help/4586853)
 </details>
 
 <details>
@@ -86,10 +95,10 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 请参阅"安装[Windows 10 团队 2020](https://docs.microsoft.com/surface-hub/surface-hub-2020-update)更新"页，了解有关按区域、分发方法和设备类型更新可用性详细信息。
 </details>
 
-## Windows 10 Team Creators Update (1703) 
+## Windows 10 团队创意者更新 (1703) 
 
 <details>
-<summary>2020 年 9 月 1 日 — Surface Hub 2S 更新</summary>
+<summary>2020 年 9 月 1 日 - Surface Hub 2S 更新</summary>
 
 此更新特定于 Surface Hub 2S，并提供下面列出的驱动程序和固件更新：
 
@@ -141,23 +150,23 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 解决了在 Skype for Business 呼叫期间其他参与者无法听到中心 2S 的问题。
 * 提高 Surface Hub 上某些阿拉伯语、希伯来语和其他 RTL 语言使用方案的可靠性。
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4537765](https://support.microsoft.com/help/4537765)
 </details>
 
 <details>
-<summary>2020 年 1 月 14 日 — 基于 KB4534296 的 Team 更新* (OS 内部版本 15063.2254) </summary>
+<summary>2020 年 1 月 14 日 — 基于 KB4534296* (OS 内部版本 15063.2254) </summary>
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
 * 解决了 Microsoft Surface Hub 2S 日志集合的问题。
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4534296](https://support.microsoft.com/help/4534296)
 </details>
 
 <details>
-<summary>2019 年 9 月 24 日 — 基于 KB4516059 的团队更新* (OS 内部版本 15063.2078) </summary>
+<summary>2019 年 9 月 24 日 — 基于 KB4516059 的 Team 更新* (OS 内部版本 15063.2078) </summary>
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
@@ -168,7 +177,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
  * 修复了在 Microsoft Edge 中浏览某些内部网站时发生的问题。
  * 修复了在全屏模式下显示时 Skype for Business 中发生的问题。
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4503289](https://support.microsoft.com/help/4503289)
 </details>
 
@@ -180,7 +189,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
  * 确保 Hub 2S 上的视频退出默认为"重复"模式。
  * 提高 Surface Hub 上某些阿拉伯语使用方案的可靠性。
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4503289](https://support.microsoft.com/help/4503289)
  </details>
 
@@ -194,7 +203,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 用于提高 Hub 2S 上硬件诊断应用可靠性的修补程序。 
 * 修复了在 Hub 2S 上提高首次运行安装体验的一致性。 
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4503289](https://support.microsoft.com/help/4503289)
 </details>
 
@@ -208,7 +217,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 添加对 Skype for Business 中 TLS 1.2 的支持。
 * 解决 Skype 服务器禁用 TLS 1.0 或 TLS 1.1 时 Skype 客户端中的 SIP 连接故障。
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4499162](https://support.microsoft.com/help/4499162)
 </details>
 
@@ -219,7 +228,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 * 解决连接到 Surface Hub 的一些 USB 设备的视频和音频同步问题。
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4493436](https://support.microsoft.com/help/4493436)
 </details>
 
@@ -230,7 +239,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 * 解决了阻止某些用户Signing-In"我的会议和文件"的问题。
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KBKB4467699](https://support.microsoft.com/help/KB4467699)
 </details>
 
@@ -246,7 +255,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 解决了集线器在企业代理环境中错误地报告"无 Internet 连接"的问题。
 * 实施了一项功能，允许客户使用新的白板体验。
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4462939](https://support.microsoft.com/help/4462939)
 </details>
 
@@ -260,18 +269,18 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 使管理员能够禁用集线器的即时消息和电子邮件服务
 * Surface Hub Skype for Business 应用的其他 Bug 修复和可靠性改进
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4343889](https://support.microsoft.com/help/4343889)
 </details>
 
 <details>
-<summary>2018 年 6 月 21 日 — 基于 KB4284830 的团队更新* (OS 内部版本 15063.1182) </summary>
+<summary>2018 年 6 月 21 日 - 基于 KB4284830* (OS Build 15063.1182) </summary>
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
 * EMEA 中支持 GDPR 要求的遥测更改
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4284830](https://support.microsoft.com/help/KB4284830)
 </details>
 
@@ -289,7 +298,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 解决 Miracast 问题，将 Surface Hub 指定为通道 149 至 165 时
   * 由于地区政府法规，149 至 165 频道将继续在欧洲、日本或以色列不可用
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4093117](https://support.microsoft.com/help/4093117)
 </details>
 
@@ -301,7 +310,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 解决了未正确应用 MDM 设置的问题
 * 改进的清理过程
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4077528](https://support.microsoft.com/help/4077528)
 </details>
 
@@ -311,9 +320,9 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
 * 添加了通过 MDM 管理"开始"菜单磁贴布局的功能
-* 密码轮换配置的 MDM Bug 修复
+* 密码轮换配置的 MDM bug 修复
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4057144](https://support.microsoft.com/help/4057144)
 </details>
 
@@ -325,7 +334,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 解决 Skype for Business (期间相机) 闪烁或闪烁
 * 解决通知中心 SSD ID 问题
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4053580](https://support.microsoft.com/help/4053580)
 </details>
 
@@ -338,12 +347,12 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 允许用户在打开文件时动态选择自己选择的应用程序的功能更新。
 * 修复了确保结束会话清理完全删除用户帐户和设备之间的所有连接的问题。
 * 可改进清理时间和 Miracast 连接时间的性能修复。
-* 在临时会议期间引入轻松的身份验证利用率。
+* 在临时会议期间引入轻松身份验证利用率。
 * 修复了确保服务组件使用跨设备配置的同一代理的问题。
 * 减少设备传输的遥测，并更加彻底地保护遥测，从而降低带宽利用率。
 * 启用允许用户在会议结束后向 Microsoft 提供反馈的功能。
 
-请参阅 Surface [Hub 管理指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。
 *[KB4048954](https://support.microsoft.com/help/4048954)
 </details>
 
@@ -353,11 +362,11 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
 * Skype for Business
-  * 解决从睡眠状态恢复时需要设备重新启动的问题。
+  * 解决从睡眠恢复时需要设备重新启动的问题。
   * 修复了外部联系人未通过 Skype Online Hub 帐户解析的问题。
 * PowerPoint
-  * 修复了某些 PowerPoint 演示文稿无法项目到 Hub 的问题。
-* 常规
+  * 修复了某些 PowerPoint 演示文稿无法在 Hub 上项目的问题。
+* 概要
   * 修复了系统管理员无法禁用 USB 端口的问题。
 
 *[KB4041676](https://support.microsoft.com/help/4041676)
@@ -370,8 +379,8 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 * 安全性
   * 解决设备从睡眠状态唤醒时 Bitlocker 的问题。
-* 常规
-  * 减少设备运行状况遥测的频率/量，提高系统性能。
+* 概要
+  * 减少设备运行状况遥测的频率/数量，提高系统性能。
   * 修复了阻止设备收集系统日志的问题。
 
 *[KB4038788](https://support.microsoft.com/help/4038788)
@@ -389,7 +398,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 </details>
 
 <details>
-<summary>2017 年 6 月 27 日 — 基于 KB4022716 的团队更新* (OS 内部版本 15063.442) </summary>
+<summary>2017 年 6 月 27 日 — 基于 KB4022716* (OS Build 15063.442) </summary>
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
@@ -404,7 +413,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
-* 常规
+* 概要
   * 解决了笔的笔墨迹拖放问题
   * 解决了导致"清理"会议时间延长的问题
 
@@ -412,11 +421,11 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 </details>
 
 <details>
-<summary>2017 年 5 月 24 日 — 基于 KB4021573* (OS 内部版本 15063.328) </summary>
+<summary>2017 年 5 月 24 日 — 基于 KB4021573 的 Team 更新* (OS 内部版本 15063.328) </summary>
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
-* 常规
+* 概要
   * 解决了更新期间代理设置保留的问题
 
 *[KB4021573](https://support.microsoft.com/help/4021573)
@@ -427,7 +436,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
-* 常规
+* 概要
   * 解决了睡眠/唤醒周期问题
   * 解决了多个重置和恢复问题
   * 已解决更新历史记录选项卡问题
@@ -448,7 +457,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
   * 直接从"开始"菜单加入会议并结束会话
   * 在会话期间，应用可以充分利用更多屏幕
   * 简化的 Skype 控件
-  * 改进了提供反馈的机制
+  * 提供反馈的改进机制
 * 访问我的个人内容*
   * 欢迎或开始的个人单一登录
   * 直接从"开始"菜单加入会议并结束会话
@@ -486,11 +495,11 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 ## Windows 10 团队周年更新 (1607) 
 
 <details>
-<summary>2017 年 3 月 14 日 — 基于 KB4013429 的 Team 更新* (OS 内部版本 14393.953) </summary>
+<summary>2017 年 3 月 14 日 — 基于 KB4013429 的团队更新* (OS 内部版本 14393.953) </summary>
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
-* 常规
+* 概要
   * 文件资源管理器的安全修复，以防止导航到受限制的文件位置
 * Skype for Business
   * 修复了在基于远程桌面的屏幕共享期间解决延迟问题
@@ -523,7 +532,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 Surface Hub 版本 1607 (Windows 10 团队周年更新) 包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
-* 用于提高可靠性的 Skype for Business Bug 修复
+* Skype for Business Bug 修复以提高可靠性
 
 *[KB3200970](https://support.microsoft.com/help/3200970)
 </details>
@@ -534,7 +543,7 @@ Surface Hub 版本 1607 (Windows 10 团队周年更新) 包括质量改进和安
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
 * 在操作系统和 Bios 中启用新的睡眠功能，以减少 Surface Hub 的电源消耗并改进其长期可靠性
-* 常规
+* 概要
   * 解决屏幕键盘有时不显示的方案
   * 解决在打开计划会议时偶尔发生的白板应用程序班次
   * 解决在重置设备后阻止管理员更改本地管理员密码的问题
@@ -569,7 +578,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
   * 预安装的 PowerBI 应用，查看仪表板
   * Office 应用程序（Word、Excel、PowerPoint）均支持墨迹
   * Surface Hub 上的边缘现在支持基于 Flash 的网站
-* 常规
+* 概要
   * 为使用外部音频 (连接的 Surface Hub 启用音频设备选择) 
   * 支持 DisplayPort 输出连接器上的 HDCP
   * 有关可用性优化设置的系统 UI 更改 (请参阅用户和 [管理员指南](https://www.microsoft.com/surface/support/surface-hub) ，了解) 
@@ -596,9 +605,9 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 </details>
 
 <details>
-<summary>2016 年 7 月 12 日 — 基于 KB3172985 的 Team 更新* (OS 内部版本 10586.494) </summary>
+<summary>2016 年 7 月 12 日 — 基于 KB3172985* (OS Build 10586.494) </summary>
 
-此更新包括质量改进和安全修补程序。 此更新中未引入任何新的操作系统功能。 特定于 Surface Hub 的关键更改 (Windows [10](https://support.microsoft.com/help/4018124/windows-10-update-history) 更新历史记录中尚未包含) 更改，包括：
+此更新包括质量改进和安全修补程序。 此更新中未引入任何新的操作系统功能。 特定于 Surface Hub 的关键更改 ([Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history) 更新历史记录中尚未包含) 更改，包括：
 
 * 修复了导致 Windows 系统崩溃的问题
 * 修复了导致重复的边缘崩溃的问题
@@ -609,10 +618,10 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 * 更新了 Nvidia 驱动程序以修复显示 Bug，其中 84" Surface Hub 设备显示模糊或模糊内容
 * 修复了许多 Skype for Business 问题，包括： 
   * 导致 Skype for Business 在会议期间断开连接的问题
-  * 用户在会议组织者使用联合配置时无法加入会议的问题
+  * 在会议组织者使用联合配置时用户无法加入会议的问题
   * 启用 Skype for Business 应用程序共享
   * 导致 Skype 应用程序崩溃的问题
-* 在"设置"中添加了提示，通知用户在设备重置完成之前中断操作系统可能会损坏
+* 在"设置"中添加了提示，以通知用户在设备重置完成之前中断操作系统可能会损坏
 
 *[KB3172985](https://support.microsoft.com/help/3172985)
 </details>
@@ -639,7 +648,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 此更新中�
 </details>
 
 <details>
-<summary>2016 年 4 月 12 日 — 基于 KB3147458* (OS 内部版本 10586.218 的 Team 更新) </summary>
+<summary>2016 年 4 月 12 日 — 基于 KB3147458* (OS Build 10586.218) </summary>
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 此更新中未引入任何新的操作系统功能。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 

@@ -1,5 +1,5 @@
 ---
-title: 管理员组管理 (Surface Hub)
+title: 管理员组管理
 description: 通过在 Microsoft Surface Hub 上打开“设置”应用，可分别配置每台设备。
 ms.assetid: FA67209E-B355-4333-B903-482C4A3BDCCE
 ms.reviewer: ''
@@ -10,16 +10,16 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/27/2017
+ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 716e409bf988e7178ec45e21165aad070d027eee
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 36c6010307603b36b8798a09aed26f8b337b2c1b
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831899"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11311948"
 ---
-# 管理员组管理 (Surface Hub)
+# Surface Hub 的管理员组管理
 
 
 可使用设备上的“设置”应用在本地配置每个 Surface Hub。 若要防止未经授权的用户更改设置，“设置”应用要求使用管理员凭据打开该应用。
@@ -27,11 +27,12 @@ ms.locfileid: "10831899"
 
 ## 管理员组管理
 
-可以使用以下三种方法之一设置设备的管理员帐户：
+可以通过以下方式为设备设置管理员帐户：
 
--   创建本地管理员帐户
--   将设备加入 Active Directory (AD) 域
--   将设备加入 Azure Active Directory (Azure AD)
+- [创建本地管理员帐户](#create-a-local-admin-account)
+- [将设备加入 Active Directory 的域](#domain-join-the-device-to-active-directory)
+- [Azure AD 加入设备](#azure-ad-join-the-device)
+- [在已加入 Azure AD 的设备上配置非全局管理员帐户 (Surface Hub 2S) ](#configure-non-global-admin-accounts-on-azure-ad-joined-devices)
 
 
 ### 创建本地管理员帐户
@@ -40,7 +41,7 @@ ms.locfileid: "10831899"
 
 注意：任何目录服务都不会备份本地管理员帐户信息。 我们建议你仅当设备无权访问 Active Directory (AD) 或 Azure Active Directory (Azure AD) 时，才选择本地管理员。 如果决定更改本地管理员的密码，可在“设置”中执行此操作。 但是，如果想要从使用本地管理员帐户更改为使用域或 Azure AD 租户的组，则需要[重置该设备](device-reset-surface-hub.md)，并再次完成首次计划。
 
-### 将设备加入 Active Directory (AD) 域
+### 将设备加入 Active Directory 的域
 
 可将 Surface Hub 加入 AD 域，支持指定安全组的用户配置设置。 在首次运行时，选择使用[Active Directory 域服务](first-run-program-surface-hub.md#use-active-directory-domain-services)。 需要提供可加入所选域的凭据以及现有安全组的名称。 属于该安全组成员的任何人都可以输入其凭据并解锁“设置”。
 
@@ -56,9 +57,9 @@ Surface Hub 不支持在域控制器中应用组策略或证书。
 > 如果 Surface Hub 失去与域的信任（例如，如果在 Surface Hub 加入域后，将其从该域中删除），将无法对设备进行身份验证并打开“设置”。 当决定删除 Surface Hub 与域的信任关系时，首先要[重置设备](device-reset-surface-hub.md)。
 
 
-### 将设备加入 Azure Active Directory (Azure AD)
+### Azure AD 加入设备
 
-可将 Surface Hub 加入 Azure AD，支持 Azure AD 租户中的 IT 专业人员配置设置。 在首次运行时，选择使用[Microsoft Azure Active Directory](first-run-program-surface-hub.md#use-microsoft-azure-active-directory)。 将需要提供能够加入所选 Azure AD 租户的凭据。 成功加入 Azure AD 后，将授予相应用户该设备的管理员权限。
+你可以将 Azure Active Directory (Azure AD) Surface Hub，以允许来自 Azure AD 租户的 IT 专业人员配置设置。 在首次运行时，选择使用[Microsoft Azure Active Directory](first-run-program-surface-hub.md#use-microsoft-azure-active-directory)。 将需要提供能够加入所选 Azure AD 租户的凭据。 成功加入 Azure AD 后，将授予相应用户该设备的管理员权限。
 
 默认情况下，所有**全局管理员**都将授予加入 Azure AD 的 Surface Hub 的管理员权限。 凭借 **Azure AD Premium** 或 **Enterprise Mobility Suite (EMS)** 可添加其他管理员：
 1.  在 [Azure 经典门户](https://manage.windowsazure.com/)中，单击“Active Directory”****，然后单击组织目录的名称。
@@ -71,13 +72,13 @@ Surface Hub 加入 Azure AD 可：
 - 将管理员权限授予 Azure AD 租户中的相应用户。
 - 将设备的 BitLocker 恢复密钥存储在加入 Azure AD 的设备帐户下，备份该密钥。 有关详细信息，请参阅[保存 BitLocker 密钥](save-bitlocker-key-surface-hub.md)。
 
-### 通过 Azure Active Directory 加入自动注册
+#### 通过 Azure Active Directory 加入自动注册
 
-Surface Hub 现在支持通过将设备加入 Azure Active Directory 来自动注册 Intune。 
+Surface Hub 现在支持通过将设备加入 Azure Active Directory 在 Intune 中自动注册。 
 
-有关详细信息，请参阅[启用 Windows 10 自动注册](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment)。
+有关详细信息，请参阅启用 [Windows 10 自动注册](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment)。
 
-### 我应该选择哪一个？
+#### 我应该选择哪一个？
 
 如果组织使用的是 AD 或 Azure AD，我们建议选择“域加入”或“Azure AD 加入”，这主要是出于安全方面的原因。 用户将能够使用自己的凭据进行身份验证和解锁“设置”，并且可移入或移出与域相关联的安全组。
 
@@ -89,3 +90,6 @@ Surface Hub 现在支持通过将设备加入 Azure Active Directory 来自动�
 | &nbsp;                                            | 组织使用 Azure AD Premium 或 Enterprise Mobility Suite (EMS) | 全局管理员和其他管理员 |
 
 
+### 在加入 Azure AD 的设备上配置非全局管理员帐户
+
+对于加入 Azure AD 的 Surface Hub 2S 设备，Windows 10 Team 2020 更新允许你将管理员权限限制为在 Surface Hub 2S 上管理"设置"应用。 这使你能够仅作用域 Surface Hub 2S 的管理员权限，并阻止可能不需要的管理员访问整个 Azure AD 域。 若要了解更多信息，请参阅 [在 Surface Hub 2S 上配置非全局管理员帐户](surface-hub-2s-nonglobal-admin.md)。

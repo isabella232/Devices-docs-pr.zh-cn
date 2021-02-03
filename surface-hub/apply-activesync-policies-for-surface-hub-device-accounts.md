@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 06/20/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 6e93069c2d90bdc4c2f505bc28ba0ec1a4f08076
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: b5f828ee6757c150b1287e8210c81592e970b74a
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831627"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11311958"
 ---
 # 将 ActiveSync 策略应用到设备帐户 (Surface Hub)
 
@@ -31,17 +31,15 @@ Microsoft Surface Hub 的设备帐户使用 ActiveSync 同步邮件和日历。 
 
 ## 允许 DeviceID
 
-
-你的组织可能有一个会阻止 Surface Hub 上预配的设备帐户同步的全局策略。 若要配置此属性，请参阅 [ActiveSync 的允许设备 ID](appendix-a-powershell-scripts-for-surface-hub.md#whitelisting-device-ids-cmdlet)。
+你的组织可能有一个会阻止 Surface Hub 上预配的设备帐户同步的全局策略。 若要配置此属性，请参阅 [ActiveSync 的允许设备 ID](appendix-a-powershell-scripts-for-surface-hub.md#allowing-device-ids-for-activesync)。
 
 ## 设置 PasswordEnabled
 
-
 设备帐户必须具有一个 ActiveSync 策略，其中 **PasswordEnabled** 属性已设为 False 或 0。 若要配置此属性，请参阅 [创建 Surface Hub 兼容的 Microsoft Exchange ActiveSync 策略](appendix-a-powershell-scripts-for-surface-hub.md#create-compatible-as-policy)。
 
- 
+ 
 
- 
+ 
 
 
 

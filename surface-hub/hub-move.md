@@ -1,5 +1,5 @@
 ---
-title: 移动和处理 Surface Hub 2S 85
+title: 正在移动和处理 Surface Hub 2S 85
 description: 了解如何安全移动 Surface Hub 2S 85。
 keywords: 值之间以逗号分隔
 ms.prod: surface-hub
@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 01/21/2020
+ms.date: 01/21/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 3890b843cb1a25a3f1515a5d48c6bcc9f1966341
-ms.sourcegitcommit: 880980b64bb394423280acbcb1653012a4de5642
+ms.openlocfilehash: 37804adfc915c61f2af245372c9d4239292f8646
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "11297096"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11312008"
 ---
 # 移动和处理 Surface Hub 2S 85"
 

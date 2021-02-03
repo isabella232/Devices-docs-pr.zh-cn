@@ -1,6 +1,6 @@
 ---
-title: 适用于 Surface Hub 的 PowerShell (Surface Hub)
-description: 可帮助设置和管理 Microsoft Surface Hub 的 PowerShell 脚本。
+title: '适用于 Surface Hub (v1) '
+description: '此页面包括适用于原始 Surface Hub (v1) '
 ms.assetid: 3EF48F63-8E4C-4D74-ACD5-461F1C653784
 ms.reviewer: ''
 manager: laurawi
@@ -10,18 +10,19 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 01/10/2018
+ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 92b42139020db13251fa6c5f8439d7084a61a132
-ms.sourcegitcommit: 5d02cca9ca8c0a252798c2fc0a89dbda81911c44
+ms.openlocfilehash: c0fa06153dc5597827f2973ecc9f728e35d79e85
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "11195377"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11311998"
 ---
-# 适用于 Surface Hub 的 PowerShell
+# 适用于 Surface Hub (v1) 
 
-可帮助设置和管理 Microsoft Surface Hub 的 PowerShell 脚本。
+> [!NOTE]
+ >此页面包括适用于原始 Surface Hub (v1) 。 有关 Surface Hub 2S 的最新帐户创建脚本，请参阅["创建 Surface Hub 2S 设备帐户"。](surface-hub-2s-account.md)
 
 -   [适用于 Surface Hub 管理员的 PowerShell 脚本](#scripts-for-admins)
     -   [创建本地帐户](#create-on-premises-ps-scripts)
@@ -30,12 +31,12 @@ ms.locfileid: "11195377"
     -   [启用 Skype for Business (EnableSfb.ps1)](#enable-sfb-ps-scripts)
 -   [有用的 cmdlet](#useful-cmdlets)
     -   [创建 Surface Hub 兼容的 Exchange ActiveSync 策略](#create-compatible-as-policy)
-    -   [允许 ActiveSync 的设备 ID](#whitelisting-device-ids-cmdlet)
+    -   [允许 ActiveSync 的设备 ID](#allowing-device-ids-for-activesync)
     -   [自动接受和拒绝会议请求](#auto-accept-meetings-cmdlet)
     -   [接受外部会议请求](#accept-ext-meetings-cmdlet)
     
  > [!NOTE]
- > 另请参阅 [Exchange Online PowerShell V2 中的新式身份验证和无人参与脚本](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
+ > 另请参阅[Exchange Online PowerShell V2 中的](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)新式身份验证和无人参与脚本
 
 ## 必备软件
 
@@ -993,7 +994,7 @@ else
 
 ## <a href="" id="acct-verification-ps-scripts"></a>帐户验证脚本
 
-此脚本将验证 Surface Hub 上之前创建的设备帐户，无需考虑创建该帐户所使用的方法。 此脚本基本上处于通过/未通过状态。 如果出现其中一个测试错误，将显示详细的错误消息；但如果所有测试都通过，最终结果将为摘要报告。 例如，你可能看到：
+此脚本验证 Surface Hub 和 Surface Hub 2S 上以前创建的设备帐户，无论使用哪种方法创建它。 此脚本基本上处于通过/未通过状态。 如果出现其中一个测试错误，将显示详细的错误消息；但如果所有测试都通过，最终结果将为摘要报告。 例如，你可能看到：
 
 ``` syntax
 15 tests executed
@@ -1642,7 +1643,7 @@ Set-CASMailbox $strRoomUpn -ActiveSyncMailboxPolicy $strPolicy
 Set-Mailbox $strRoomUpn -Type Room
 ```
 
-### <a href="" id="whitelisting-device-ids-cmdlet"></a>允许 ActiveSync 的设备 ID
+### 允许 ActiveSync 的设备 ID
 
 若要允许帐户 `$strRoomUpn`，请运行以下命令：
 
@@ -1671,7 +1672,7 @@ Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
 对于要接受外部会议请求（会议请求来自不在相同租户/域中的帐户）的设备帐户，必须将该设备帐户设置为允许处理外部会议请求。 设置完成后，该设备帐户可自动接受或拒绝来自外部帐户以及本地帐户的会议请求。
 
 > [!Note]
-> 如果 **AutomateProcessing** 属性未设置为 **AutoAccept**，则设置此属性将不起作用。
+> 如果 **AutomateProcessing** 属性未设置为 **AutoAccept，** 则设置该属性将不起作用。
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -ProcessExternalMeetingMessages $true
