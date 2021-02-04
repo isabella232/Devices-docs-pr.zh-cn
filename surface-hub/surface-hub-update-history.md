@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 28f6f844818a00078f2efa812da8bdd7dc28b115
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+ms.openlocfilehash: b26351fa822f1c3bc8933578902ea304581f5e6f
+ms.sourcegitcommit: 040dffc996fa5be0d93103b5093748c8d919679e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "11311988"
+ms.locfileid: "11312708"
 ---
 # Surface Hub 更新历史记录
 
@@ -28,6 +28,20 @@ Windows 10 旨在成为一项服务，这意味着它会自动通过定期软件
 请参阅["Surface Hub](https://support.microsoft.com/products/surface-devices/surface-hub)重要信息"页，了解可能需要你注意的当前和过去版本的相关主题。
 
 ## Windows 10 Team 2020 Update (20H2) 
+
+<details>
+<summary>2021 年 2 月 2 日 — 基于 KB4598291 的团队更新* (OS 内部版本 19042.789) </summary>
+
+Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history)更新历史记录中列出）包括：
+
+* 修复了当设备帐户的 UPN 不等于其 SMTP 时允许与 Exchange 进行日历同步的问题。
+* 添加了管理员在日历与 Exchange 同步期间禁用新式验证功能的能力。
+* 确保在启用"使用设备帐户凭据"功能后，不会提示 Surface Hub 用户输入代理凭据。
+* 解决了当需要使用身份验证的代理时，Windows 更新和应用商店更新检查无法完成的问题。
+* 提高有线应用在有线使用方案期间的可靠性。
+
+请参阅 Surface [Hub 管理员指南](https://docs.microsoft.com/surface-hub/) ，以启用/禁用设备功能和服务。 *[KB4598291](https://support.microsoft.com/help/4598291)
+</details>
 
 <details>
 <summary>2021 年 1 月 15 日 - Surface Hub 2S 更新</summary>
@@ -366,7 +380,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
   * 修复了外部联系人未通过 Skype Online Hub 帐户解析的问题。
 * PowerPoint
   * 修复了某些 PowerPoint 演示文稿无法在 Hub 上项目的问题。
-* 概要
+* 常规
   * 修复了系统管理员无法禁用 USB 端口的问题。
 
 *[KB4041676](https://support.microsoft.com/help/4041676)
@@ -377,9 +391,9 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
-* 安全性
+* 安全
   * 解决设备从睡眠状态唤醒时 Bitlocker 的问题。
-* 概要
+* 常规
   * 减少设备运行状况遥测的频率/数量，提高系统性能。
   * 修复了阻止设备收集系统日志的问题。
 
@@ -413,7 +427,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
-* 概要
+* 常规
   * 解决了笔的笔墨迹拖放问题
   * 解决了导致"清理"会议时间延长的问题
 
@@ -425,7 +439,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
-* 概要
+* 常规
   * 解决了更新期间代理设置保留的问题
 
 *[KB4021573](https://support.microsoft.com/help/4021573)
@@ -436,7 +450,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
-* 概要
+* 常规
   * 解决了睡眠/唤醒周期问题
   * 解决了多个重置和恢复问题
   * 已解决更新历史记录选项卡问题
@@ -499,7 +513,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
 
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
-* 概要
+* 常规
   * 文件资源管理器的安全修复，以防止导航到受限制的文件位置
 * Skype for Business
   * 修复了在基于远程桌面的屏幕共享期间解决延迟问题
@@ -543,7 +557,7 @@ Surface Hub 版本 1607 (Windows 10 团队周年更新) 包括质量改进和安
 Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub 的关键更新（尚未在 [Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)更新历史记录中列出）包括：
 
 * 在操作系统和 Bios 中启用新的睡眠功能，以减少 Surface Hub 的电源消耗并改进其长期可靠性
-* 概要
+* 常规
   * 解决屏幕键盘有时不显示的方案
   * 解决在打开计划会议时偶尔发生的白板应用程序班次
   * 解决在重置设备后阻止管理员更改本地管理员密码的问题
@@ -578,7 +592,7 @@ Surface Hub 的此更新包括质量改进和安全修补程序。 Surface Hub �
   * 预安装的 PowerBI 应用，查看仪表板
   * Office 应用程序（Word、Excel、PowerPoint）均支持墨迹
   * Surface Hub 上的边缘现在支持基于 Flash 的网站
-* 概要
+* 常规
   * 为使用外部音频 (连接的 Surface Hub 启用音频设备选择) 
   * 支持 DisplayPort 输出连接器上的 HDCP
   * 有关可用性优化设置的系统 UI 更改 (请参阅用户和 [管理员指南](https://www.microsoft.com/surface/support/surface-hub) ，了解) 
