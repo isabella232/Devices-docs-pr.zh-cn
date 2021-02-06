@@ -1,8 +1,8 @@
 ---
-title: 84" Surface Hub 的技术信息
+title: '84" Surface Hub (v1) '
 ms.reviewer: ''
 manager: laurawi
-description: 84" Surface Hub 规范
+description: '84" Surface Hub (v1) '
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
@@ -10,14 +10,16 @@ ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 12/21/2020
-ms.openlocfilehash: e8f01a7e6ce087f649d99c1fc13f149fa375fc8a
-ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
+appliesto:
+- Surface Hub
+ms.openlocfilehash: 6d309dbc05cd4fcb9abae54bd8a604787b74b312
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "11238107"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314455"
 ---
-# 84" Surface Hub 的技术信息
+# 84" Surface Hub (v1) 
 
 |
 --- | ---
@@ -100,28 +102,28 @@ RJ11，底部 I/O | ![](images/rj11.png) | 连接到房间控制系统。
 
 ## 端口和清除的图示
 
-**_84" Surface Hub 的顶部_* 视图 _
+***84" Surface Hub 的顶部视图***
 
 ![](images/sh-84-top.png)
 
 ---
 
 
-_*_84" Surface Hub 的正面视图_*_
+***84" Surface Hub 的正面视图***
 
 ![](images/sh-84-front.png)
 
 
 ---
 
-_*_84" Surface Hub 的底部视图_*_
+***84" Surface Hub 的底部视图***
 
 ![](images/sh-84-bottom.png)
 
 
 ---
 
-_*_84 英寸 Surface Hub 上的替换电脑端口_*_
+***84 英寸 Surface Hub 上的替换电脑端口***
 
 ![](images/sh-84-rpc-ports.png)
 
@@ -129,21 +131,21 @@ _*_84 英寸 Surface Hub 上的替换电脑端口_*_
 
 ---
 
-_*_84" Surface Hub 的后视图_*_
+***84" Surface Hub 的后视图***
 
 ![](images/sh-84-rear.png)
 
 
 ---
 
-_*_84" Surface Hub 的间距_*_
+***84" Surface Hub 的间距***
 
 ![](images/sh-84-clearance.png)
 
 ---
 
 
-_*_84" Surface Hub 上的可移动提升手柄_*_
+***84" Surface Hub 上的可移动提升手柄***
 
 ![](images/sh-84-hand.png)
 
@@ -151,17 +153,17 @@ _*_84" Surface Hub 上的可移动提升手柄_*_
 ---
 
 
-_*_84" Surface Hub 后端的挂载线程_*_
+***84" Surface Hub 后端的挂载线程***
 
 ![](images/sh-84-wall.png)
 
 ---
-_*_84" Surface Hub 顶部视图中的提升手柄_*_
+***84" Surface Hub 顶部视图中的提升手柄***
 
 ![](images/sh-84-hand-top.png)
 
 ---
-_*_84" Surface Hub 的侧视图_**
+***84" Surface Hub 的侧视图***
 
 ![](images/sh-84-side.png)
 

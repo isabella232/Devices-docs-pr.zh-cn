@@ -12,12 +12,15 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 36c6010307603b36b8798a09aed26f8b337b2c1b
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+appliesto:
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: c76ac577c1560020bf865a25d4a812343089013a
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11311948"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314435"
 ---
 # Surface Hub 的管理员组管理
 
@@ -51,7 +54,7 @@ ms.locfileid: "11311948"
 - 将设备的 BitLocker 恢复密钥存储在 AD 中的计算机对象下，备份该密钥。 有关详细信息，请参阅[保存 BitLocker 密钥](save-bitlocker-key-surface-hub.md)。
 - 同步系统时钟和域控制器，进行加密通信
 
-Surface Hub 不支持在域控制器中应用组策略或证书。
+Surface Hub 不支持从域控制器应用组策略或证书。
 
 > [!NOTE]
 > 如果 Surface Hub 失去与域的信任（例如，如果在 Surface Hub 加入域后，将其从该域中删除），将无法对设备进行身份验证并打开“设置”。 当决定删除 Surface Hub 与域的信任关系时，首先要[重置设备](device-reset-surface-hub.md)。

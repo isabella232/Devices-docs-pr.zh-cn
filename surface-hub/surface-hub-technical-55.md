@@ -1,8 +1,8 @@
 ---
-title: 55" Surface Hub 的技术信息
+title: '55" Surface Hub (v1) '
 ms.reviewer: ''
 manager: laurawi
-description: 55" Surface Hub 规范
+description: '55" Surface Hub (v1) '
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
@@ -10,14 +10,16 @@ ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 12/21/2020
-ms.openlocfilehash: e321b64ebbbc62da70cfdc1979053ee8facb7235
-ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
+appliesto:
+- Surface Hub
+ms.openlocfilehash: 5d0c88b1e0b7fdd0f144a7ee641dcab7599c68a1
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "11238087"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314445"
 ---
-# 55" Surface Hub 的技术信息
+# 55" Surface Hub (v1) 
 
 |
 --- | ---
@@ -103,56 +105,56 @@ RJ11，底部 I/O | ![](images/rj11.png) | 连接到房间控制系统。
 
 ## 端口和清除的图示
 
-**_55" Surface Hub 的顶部_* 视图 _
+***55" Surface Hub 的顶部视图***
 
 ![](images/sh-55-top.png)
 
 ---
 
 
-_*_55" Surface Hub 的正面视图_*_
+***55" Surface Hub 的正面视图***
 
 ![](images/sh-55-front.png)
 
 
 ---
 
-_*_55" Surface Hub 的底部视图_*_
+***55" Surface Hub 的底部视图***
 
 ![](images/sh-55-bottom.png)
 
 
 ---
 
-_*_55 英寸 Surface Hub 上的替换电脑端口_*_
+***55 英寸 Surface Hub 上的替换电脑端口***
 
 ![](images/sh-55-rpc-ports.png)
 
 
 ---
 
-_*_55" Surface Hub 右侧小键盘_*_
+***55" Surface Hub 右侧小键盘***
 
 ![](images/key-55.png)
 
 
 ---
 
-_*_55" Surface Hub 的后视图_*_
+***55" Surface Hub 的后视图***
 
 ![](images/sh-55-rear.png)
 
 
 ---
 
-_*_55" Surface Hub 的间距_*_
+***55" Surface Hub 的间距***
 
 ![](images/sh-55-clearance.png)
 
 ---
 
 
-_*_55" Surface Hub 的正面和底部讲台和间距_*_
+***55" Surface Hub 的正面和底部讲台和间距***
 
 ![](images/sh-55-hand.png)
 
@@ -160,7 +162,7 @@ _*_55" Surface Hub 的正面和底部讲台和间距_*_
 ---
 
 
-_*_55" Surface Hub_的后手和间距**
+***55" Surface Hub 的后手和间距***
 
 ![](images/sh-55-hand-rear.png)
 

@@ -1,10 +1,10 @@
 ---
-title: 使用 UI 创建设备帐户 (Surface Hub)
+title: '使用 Surface Hub v1 (UI 创建设备) '
 description: 如果你希望使用图形用户界面，可通过 Office 365 UI 或 Exchange 管理中心为 Microsoft Surface Hub 创建设备帐户。
 ms.assetid: D11BCDC4-DABA-4B9A-9ECB-58E02CC8218C
 ms.reviewer: ''
 manager: laurawi
-keywords: 创建设备帐户、Office 365 UI、Exchange Admin center、Microsoft 365 管理中心、Skype for business、移动设备邮箱策略
+keywords: 创建设备帐户， Office 365 UI， Exchange 管理中心， Microsoft 365 管理中心， Skype for Business， 移动设备邮箱策略
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
@@ -12,15 +12,17 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 05/04/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: e1f82f084103d4eef942e812c5e4f0e8bf425def
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9e6d72dc2b36bb149ee09c2edab885c80e60ac14
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832099"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314465"
 ---
-# 使用 UI 创建设备帐户 (Surface Hub)
+# 使用 Surface Hub v1 (UI 创建设备) 
 
+ > [!NOTE]
+ >此页面包含有关 v1 版本 (Surface Hub) 。 对于 Surface Hub 2S，请参阅["创建 Surface Hub 2S 设备帐户"。](surface-hub-2s-account.md)
 
 如果你希望使用图形用户界面，可通过 [Office 365 UI](#create-device-acct-o365) 或 [Exchange 管理中心](#create-device-acct-eac)为 Microsoft Surface Hub 创建设备帐户。
 
@@ -35,14 +37,14 @@ ms.locfileid: "10832099"
 
 ### <a href="" id="create-device-acct-o365-admin-ctr"></a>在管理中心创建帐户
 
-1.  通过访问登录到 Office 365https://portal.office.com
-2.  提供你的 Office 365 租户的管理凭据。 这将把你转到 Microsoft 365 管理中心。
+1.  通过访问登录到 Office 365 https://portal.office.com
+2.  提供你的 Office 365 租户的管理凭据。 这会将你带至 Microsoft 365 管理中心。
 
     ![Microsoft 365 管理中心。](images/setupdeviceaccto365-02.png)
 
-3. 在管理中心中，导航到左面板中的 "**资源**"，然后单击 "**会议室" & 设备**。
+3. 在管理中心中， **导航到左侧** 面板中的"资源"，然后单击"会议室& **设备**。
 
-    ![管理中心中的会议室 & 设备选项](images/room-equipment.png)
+    ![管理&中的会议室和设备选项](images/room-equipment.png)
 
 4. 单击 **“添加”** 创建新的房间帐户。 输入帐户的显示名称和电子邮件地址，然后单击**添加**。
 
@@ -54,9 +56,9 @@ ms.locfileid: "10832099"
 
 ### <a href="" id="create-device-acct-o365-mbx-policy"></a>从 Exchange 管理中心创建移动设备邮箱 (ActiveSync) 策略
 
-1.  在管理中心的左面板中，单击 "**管理**"，然后单击 " **Exchange**"。
+1.  在管理中心的左面板中，单击 **"管理**"，然后单击 **"Exchange"。**
 
-    ![管理中心，显示 exchange 活动用户。](images/setupdeviceaccto365-08.png)
+    ![管理中心，显示 Exchange 活动用户。](images/setupdeviceaccto365-08.png)
 
 2.  这将打开浏览器上的其他选项卡以将你带到 Exchange 管理中心，可在其中为 Surface Hub 创建和设置邮箱设置。
 
@@ -82,7 +84,7 @@ ms.locfileid: "10832099"
 
 为了运行这些 PowerShell 脚本所使用的 cmdlet，必须为管理 PowerShell 控制台安装以下项：
 
--   [面向 IT 专业人员的 Microsoft Online Services 登录助手 RTW](https://www.microsoft.com/download/details.aspx?id=41950)
+-   [Microsoft Online Services Sign-In IT 专业人员 RTW 的助理](https://www.microsoft.com/download/details.aspx?id=41950)
 -   [Windows PowerShell 的 Windows Azure Active Directory 模块](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/WindowsAzurePowershellGet.3f.3f.3fnew.appids)
 -   [Skype for Business Online、Windows PowerShell 模块](https://www.microsoft.com/download/details.aspx?id=39366)
 
@@ -197,10 +199,10 @@ ms.locfileid: "10832099"
 
 为了启用 Skype for Business，你的环境将需要满足以下先决条件：
 
--   您需要在 O365 计划中安装 Skype for business Online 独立计划2或更高版本。 该计划需要支持会议功能。
--   如果您需要针对 Surface Hub 的电话服务提供商使用企业语音（PSTN 电话服务），则需要 Skype for Business Online 独立计划3。
+-   你需要在 O365 计划中拥有 Skype for Business Online 独立计划 2 或更高版本。 该计划需要支持会议功能。
+-   如果需要使用 Surface Hub 企业语音 (服务提供商) PSTN 电话服务，则需要 Skype for Business Online 独立计划 3。
 -   租户用户必须具有 Exchange 邮箱。
--   Surface Hub 帐户需要 Skype for business Online 独立计划2或 Skype for business Online 独立计划3许可证，但不需要 Exchange Online 许可证。
+-   Surface Hub 帐户确实需要 Skype for Business Online 独立计划 2 或 Skype for Business Online 独立计划 3 许可证，但不需要 Exchange Online 许可证。
 
 1.  首先从电脑创建一个远程 PowerShell 会话。
 
@@ -225,7 +227,7 @@ ms.locfileid: "10832099"
 ## <a href="" id="create-device-acct-eac"></a>使用 Exchange 管理中心创建设备帐户
 
 >[!NOTE]
->仅当你从本地 Active Directory 进行同步时，此方法才会起作用。
+>此方法仅在从本地 Active Directory 同步时有效。
 
 可以使用 Exchange 管理中心来创建设备帐户：
 
@@ -248,7 +250,7 @@ ms.locfileid: "10832099"
 ### <a href="" id="create-device-acct-exch-mbx-policy"></a>从 Exchange 管理中心创建移动设备邮箱策略
 
 >[!NOTE]
->如果你想要为你创建的帐户创建和分配策略，并且使用的是 Exchange 2010，请在使用 EMC （Exchange 管理控制台）时查找有关策略创建和策略分配的相应信息。
+>如果要创建策略并将其分配给您创建的帐户，并且正在使用 Exchange 2010，则使用 EMC (Exchange 管理控制台管理控制台时查找有关策略创建和策略分配的相应) 。
 
  
 
@@ -314,7 +316,7 @@ ms.locfileid: "10832099"
 
     你将看到相应的电子邮件地址。
 
-2.  您需要将帐户转换为会议室邮箱，因此请运行：
+2.  你需要将帐户转换为会议室邮箱，因此请运行：
 
     ``` syntax
     Set-Mailbox $strEmail -Type Room
@@ -357,12 +359,12 @@ ms.locfileid: "10832099"
 
 为了启用 Skype for Business，你的环境将需要满足以下先决条件：
 
--   您需要在 O365 计划中安装 Skype for business Online 独立计划2或更高版本。 该计划需要支持会议功能。
--   如果您需要针对 Surface Hub 的电话服务提供商使用企业语音（PSTN 电话服务），则需要 Skype for Business Online 独立计划3。
--   租户用户必须具有 Exchange 邮箱。
--   Surface Hub 帐户需要 Skype for business Online 独立计划2或 Skype for business Online 独立计划3许可证，但不需要 Exchange Online 许可证。
+- 你需要在 O365 计划中拥有 Skype for Business Online 独立计划 2 或更高版本。 该计划需要支持会议功能。
+- 如果需要使用 Surface Hub 企业语音 (服务提供商) PSTN 电话服务，则需要 Skype for Business Online 独立计划 3。
+- 租户用户必须具有 Exchange 邮箱。
+- Surface Hub 帐户确实需要 Skype for Business Online 独立计划 2 或 Skype for Business Online 独立计划 3 许可证，但不需要 Exchange Online 许可证。
 
-1.  首先在电脑上创建一个远程 PowerShell 会话。
+1. 首先在电脑上创建一个远程 PowerShell 会话。
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -370,23 +372,16 @@ ms.locfileid: "10832099"
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. 检索 Surface Hub 帐户注册机构池
+2. 检索 Surface Hub 帐户注册器池
 
 如果你不确定在你的环境中要用于 `RegistrarPool` 参数的值，你可以使用此 cmdlet 从现有 Skype for Business 用户获取值：
 
-    ```PowerShell
+ ```PowerShell
     Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
-    ```
-    
+ ```
+
 3. 若要为 Skype for Business Server 启用你的 Surface Hub 帐户，请运行此 cmdlet：
 
    ```PowerShell
    Enable-CsMeetingRoom -Identity $strEmail -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
-
-    
-
-
-
-
-
