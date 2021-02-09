@@ -14,67 +14,67 @@ ms.date: 02/01/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 09d600efbf07bb58de1b5ebffcb6731e4125a62d
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: 73c028357849cd660d3b8720aaaa28aade12fea1
+ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314425"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "11317976"
 ---
-# <span data-ttu-id="69eb4-104">适用于 Surface Hub (v1) </span><span class="sxs-lookup"><span data-stu-id="69eb4-104">PowerShell for Surface Hub (v1)</span></span>
+# <span data-ttu-id="319a9-104">适用于 Surface Hub (v1) </span><span class="sxs-lookup"><span data-stu-id="319a9-104">PowerShell for Surface Hub (v1)</span></span>
 
 > [!NOTE]
- ><span data-ttu-id="69eb4-105">此页面包括适用于原始 Surface Hub (v1) 。</span><span class="sxs-lookup"><span data-stu-id="69eb4-105">This page includes PowerShell scripts intended for the original Surface Hub (v1).</span></span> <span data-ttu-id="69eb4-106">有关 Surface Hub 2S 的最新帐户创建脚本，请参阅["创建 Surface Hub 2S 设备帐户"。](surface-hub-2s-account.md)</span><span class="sxs-lookup"><span data-stu-id="69eb4-106">For the latest account creation scripts for Surface Hub 2S, see [Create Surface Hub 2S device account](surface-hub-2s-account.md).</span></span>
+ ><span data-ttu-id="319a9-105">此页面包括适用于原始 Surface Hub (v1) 。</span><span class="sxs-lookup"><span data-stu-id="319a9-105">This page includes PowerShell scripts intended for the original Surface Hub (v1).</span></span> <span data-ttu-id="319a9-106">有关 Surface Hub 2S 的最新帐户创建脚本，请参阅["创建 Surface Hub 2S 设备帐户"。](surface-hub-2s-account.md)</span><span class="sxs-lookup"><span data-stu-id="319a9-106">For the latest account creation scripts for Surface Hub 2S, see [Create Surface Hub 2S device account](surface-hub-2s-account.md).</span></span>
 
--   [<span data-ttu-id="69eb4-107">适用于 Surface Hub 管理员的 PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="69eb4-107">PowerShell scripts for Surface Hub admins</span></span>](#scripts-for-admins)
-    -   [<span data-ttu-id="69eb4-108">创建本地帐户</span><span class="sxs-lookup"><span data-stu-id="69eb4-108">Create an on-premises account</span></span>](#create-on-premises-ps-scripts)
-    -   [<span data-ttu-id="69eb4-109">使用 Office 365 创建设备帐户</span><span class="sxs-lookup"><span data-stu-id="69eb4-109">Create a device account using Office 365</span></span>](#create-os356-ps-scripts)
-    -   [<span data-ttu-id="69eb4-110">帐户验证脚本</span><span class="sxs-lookup"><span data-stu-id="69eb4-110">Account verification script</span></span>](#acct-verification-ps-scripts)
-    -   [<span data-ttu-id="69eb4-111">启用 Skype for Business (EnableSfb.ps1)</span><span class="sxs-lookup"><span data-stu-id="69eb4-111">Enable Skype for Business (EnableSfb.ps1)</span></span>](#enable-sfb-ps-scripts)
--   [<span data-ttu-id="69eb4-112">有用的 cmdlet</span><span class="sxs-lookup"><span data-stu-id="69eb4-112">Useful cmdlets</span></span>](#useful-cmdlets)
-    -   [<span data-ttu-id="69eb4-113">创建 Surface Hub 兼容的 Exchange ActiveSync 策略</span><span class="sxs-lookup"><span data-stu-id="69eb4-113">Creating a Surface Hub-compatible Exchange ActiveSync policy</span></span>](#create-compatible-as-policy)
-    -   [<span data-ttu-id="69eb4-114">允许 ActiveSync 的设备 ID</span><span class="sxs-lookup"><span data-stu-id="69eb4-114">Allowing device IDs for ActiveSync</span></span>](#allowing-device-ids-for-activesync)
-    -   [<span data-ttu-id="69eb4-115">自动接受和拒绝会议请求</span><span class="sxs-lookup"><span data-stu-id="69eb4-115">Auto-accepting and declining meeting requests</span></span>](#auto-accept-meetings-cmdlet)
-    -   [<span data-ttu-id="69eb4-116">接受外部会议请求</span><span class="sxs-lookup"><span data-stu-id="69eb4-116">Accepting external meeting requests</span></span>](#accept-ext-meetings-cmdlet)
+-   [<span data-ttu-id="319a9-107">适用于 Surface Hub 管理员的 PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="319a9-107">PowerShell scripts for Surface Hub admins</span></span>](#scripts-for-admins)
+    -   [<span data-ttu-id="319a9-108">创建本地帐户</span><span class="sxs-lookup"><span data-stu-id="319a9-108">Create an on-premises account</span></span>](#create-on-premises-ps-scripts)
+    -   [<span data-ttu-id="319a9-109">使用 Office 365 创建设备帐户</span><span class="sxs-lookup"><span data-stu-id="319a9-109">Create a device account using Office 365</span></span>](#create-os356-ps-scripts)
+    -   [<span data-ttu-id="319a9-110">帐户验证脚本</span><span class="sxs-lookup"><span data-stu-id="319a9-110">Account verification script</span></span>](#acct-verification-ps-scripts)
+    -   [<span data-ttu-id="319a9-111">启用 Skype for Business (EnableSfb.ps1)</span><span class="sxs-lookup"><span data-stu-id="319a9-111">Enable Skype for Business (EnableSfb.ps1)</span></span>](#enable-sfb-ps-scripts)
+-   [<span data-ttu-id="319a9-112">有用的 cmdlet</span><span class="sxs-lookup"><span data-stu-id="319a9-112">Useful cmdlets</span></span>](#useful-cmdlets)
+    -   [<span data-ttu-id="319a9-113">创建 Surface Hub 兼容的 Exchange ActiveSync 策略</span><span class="sxs-lookup"><span data-stu-id="319a9-113">Creating a Surface Hub-compatible Exchange ActiveSync policy</span></span>](#create-compatible-as-policy)
+    -   [<span data-ttu-id="319a9-114">允许 ActiveSync 的设备 ID</span><span class="sxs-lookup"><span data-stu-id="319a9-114">Allowing device IDs for ActiveSync</span></span>](#allowing-device-ids-for-activesync)
+    -   [<span data-ttu-id="319a9-115">自动接受和拒绝会议请求</span><span class="sxs-lookup"><span data-stu-id="319a9-115">Auto-accepting and declining meeting requests</span></span>](#auto-accept-meetings-cmdlet)
+    -   [<span data-ttu-id="319a9-116">接受外部会议请求</span><span class="sxs-lookup"><span data-stu-id="319a9-116">Accepting external meeting requests</span></span>](#accept-ext-meetings-cmdlet)
     
  > [!NOTE]
- > <span data-ttu-id="69eb4-117">另请参阅[Exchange Online PowerShell V2 中的](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)新式身份验证和无人参与脚本</span><span class="sxs-lookup"><span data-stu-id="69eb4-117">See also [Modern Auth and Unattended Scripts in Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)</span></span>
+ > <span data-ttu-id="319a9-117">另请参阅[Exchange Online PowerShell V2 中的](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)新式身份验证和无人参与脚本</span><span class="sxs-lookup"><span data-stu-id="319a9-117">See also [Modern Auth and Unattended Scripts in Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)</span></span>
 
-## <span data-ttu-id="69eb4-118">必备软件</span><span class="sxs-lookup"><span data-stu-id="69eb4-118">Prerequisites</span></span>
+## <span data-ttu-id="319a9-118">必备软件</span><span class="sxs-lookup"><span data-stu-id="319a9-118">Prerequisites</span></span>
 
-<span data-ttu-id="69eb4-119">要成功执行这些 PowerShell 脚本，将需要安装以下必备软件:</span><span class="sxs-lookup"><span data-stu-id="69eb4-119">To successfully execute these PowerShell scripts, you will need to install the following prerequisites:</span></span>
+<span data-ttu-id="319a9-119">要成功执行这些 PowerShell 脚本，将需要安装以下必备软件:</span><span class="sxs-lookup"><span data-stu-id="319a9-119">To successfully execute these PowerShell scripts, you will need to install the following prerequisites:</span></span>
 
-- [<span data-ttu-id="69eb4-120">适用于 IT 专业人员的 Microsoft Online Services 登录助手 RTW</span><span class="sxs-lookup"><span data-stu-id="69eb4-120">Microsoft Online Services Sign-in Assistant for IT Professionals RTW</span></span>](https://www.microsoft.com/download/details.aspx?id=41950)
-- [<span data-ttu-id="69eb4-121">用于 Windows PowerShell 的 Microsoft Azure Active Directory 模块（64 位版本）</span><span class="sxs-lookup"><span data-stu-id="69eb4-121">Microsoft Azure Active Directory Module for Windows PowerShell (64-bit version)</span></span>](https://www.powershellgallery.com/packages/MSOnline/1.1.183.17)
-- [<span data-ttu-id="69eb4-122">用于 Skype for Business Online 的 Windows PowerShell 模块</span><span class="sxs-lookup"><span data-stu-id="69eb4-122">Windows PowerShell Module for Skype for Business Online</span></span>](https://www.microsoft.com/download/details.aspx?id=39366)
+- [<span data-ttu-id="319a9-120">适用于 IT 专业人员的 Microsoft Online Services 登录助手 RTW</span><span class="sxs-lookup"><span data-stu-id="319a9-120">Microsoft Online Services Sign-in Assistant for IT Professionals RTW</span></span>](https://www.microsoft.com/download/details.aspx?id=41950)
+- [<span data-ttu-id="319a9-121">用于 Windows PowerShell 的 Microsoft Azure Active Directory 模块（64 位版本）</span><span class="sxs-lookup"><span data-stu-id="319a9-121">Microsoft Azure Active Directory Module for Windows PowerShell (64-bit version)</span></span>](https://www.powershellgallery.com/packages/MSOnline/1.1.183.17)
+- [<span data-ttu-id="319a9-122">用于 Skype for Business Online 的 Windows PowerShell 模块</span><span class="sxs-lookup"><span data-stu-id="319a9-122">Windows PowerShell Module for Skype for Business Online</span></span>](https://www.microsoft.com/download/details.aspx?id=39366)
 
-## <a href="" id="scripts-for-admins"></a><span data-ttu-id="69eb4-123">适用于 Surface Hub 管理员的 PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="69eb4-123">PowerShell scripts for Surface Hub administrators</span></span>
+## <a href="" id="scripts-for-admins"></a><span data-ttu-id="319a9-123">适用于 Surface Hub 管理员的 PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="319a9-123">PowerShell scripts for Surface Hub administrators</span></span>
 
-<span data-ttu-id="69eb4-124">脚本有什么作用？</span><span class="sxs-lookup"><span data-stu-id="69eb4-124">What do the scripts do?</span></span>
+<span data-ttu-id="319a9-124">脚本有什么作用？</span><span class="sxs-lookup"><span data-stu-id="319a9-124">What do the scripts do?</span></span>
 
--   <span data-ttu-id="69eb4-125">为使用纯单个林本地（仅限 Microsoft Exchange 和 Skype 2013 及更高版本）或联机 (Microsoft Office 365) 进行的设置创建设备帐户（针对 Surface Hub 正确配置）。</span><span class="sxs-lookup"><span data-stu-id="69eb4-125">Create device accounts for setups using pure single-forest on-premises (Microsoft Exchange and Skype 2013 and later only) or online (Microsoft Office 365), that are configured correctly for your Surface Hub.</span></span>
--   <span data-ttu-id="69eb4-126">验证用于任何设置（本地或联机）的现有设备帐户，以确保它们与 Surface Hub 兼容。</span><span class="sxs-lookup"><span data-stu-id="69eb4-126">Validate existing device accounts for any setup (on-premises or online) to make sure they're compatible with Surface Hub.</span></span>
--   <span data-ttu-id="69eb4-127">为想要创建自己的设备帐户创建或验证脚本的任何人提供基本模板。</span><span class="sxs-lookup"><span data-stu-id="69eb4-127">Provide a base template for anyone wanting to create their own device account creation or validation scripts.</span></span>
+-   <span data-ttu-id="319a9-125">为使用纯单个林本地（仅限 Microsoft Exchange 和 Skype 2013 及更高版本）或联机 (Microsoft Office 365) 进行的设置创建设备帐户（针对 Surface Hub 正确配置）。</span><span class="sxs-lookup"><span data-stu-id="319a9-125">Create device accounts for setups using pure single-forest on-premises (Microsoft Exchange and Skype 2013 and later only) or online (Microsoft Office 365), that are configured correctly for your Surface Hub.</span></span>
+-   <span data-ttu-id="319a9-126">验证用于任何设置（本地或联机）的现有设备帐户，以确保它们与 Surface Hub 兼容。</span><span class="sxs-lookup"><span data-stu-id="319a9-126">Validate existing device accounts for any setup (on-premises or online) to make sure they're compatible with Surface Hub.</span></span>
+-   <span data-ttu-id="319a9-127">为想要创建自己的设备帐户创建或验证脚本的任何人提供基本模板。</span><span class="sxs-lookup"><span data-stu-id="319a9-127">Provide a base template for anyone wanting to create their own device account creation or validation scripts.</span></span>
 
-<span data-ttu-id="69eb4-128">若要运行脚本，需要具备哪些内容？</span><span class="sxs-lookup"><span data-stu-id="69eb4-128">What do you need in order to run the scripts?</span></span>
+<span data-ttu-id="319a9-128">若要运行脚本，需要具备哪些内容？</span><span class="sxs-lookup"><span data-stu-id="319a9-128">What do you need in order to run the scripts?</span></span>
 
--   <span data-ttu-id="69eb4-129">用于访问组织的域或租户、Exchange Server 和 Skype for Business 服务器的远程 PowerShell。</span><span class="sxs-lookup"><span data-stu-id="69eb4-129">Remote PowerShell access to your organization's domain or tenant, Exchange servers, and Skype for Business servers.</span></span>
--   <span data-ttu-id="69eb4-130">适用于组织的域或租户、Exchange Server 和 Skype for Business 服务器的管理员凭据。</span><span class="sxs-lookup"><span data-stu-id="69eb4-130">Admin credentials for your organization's domain or tenant, Exchange servers, and Skype for Business servers.</span></span>
+-   <span data-ttu-id="319a9-129">用于访问组织的域或租户、Exchange Server 和 Skype for Business 服务器的远程 PowerShell。</span><span class="sxs-lookup"><span data-stu-id="319a9-129">Remote PowerShell access to your organization's domain or tenant, Exchange servers, and Skype for Business servers.</span></span>
+-   <span data-ttu-id="319a9-130">适用于组织的域或租户、Exchange Server 和 Skype for Business 服务器的管理员凭据。</span><span class="sxs-lookup"><span data-stu-id="319a9-130">Admin credentials for your organization's domain or tenant, Exchange servers, and Skype for Business servers.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="69eb4-131">无论是要创建新帐户还是要修改已有帐户，验证脚本都将验证是否已正确配置你的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="69eb4-131">Whether you’re creating a new account or modifying an already-existing account, the validation script will verify that your device account is configured correctly.</span></span> <span data-ttu-id="69eb4-132">在向 Surface Hub 添加设备帐户之前，应始终运行验证脚本。</span><span class="sxs-lookup"><span data-stu-id="69eb4-132">You should always run the validation script before adding a device account to Surface Hub.</span></span>
+> <span data-ttu-id="319a9-131">无论是要创建新帐户还是要修改已有帐户，验证脚本都将验证是否已正确配置你的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="319a9-131">Whether you’re creating a new account or modifying an already-existing account, the validation script will verify that your device account is configured correctly.</span></span> <span data-ttu-id="319a9-132">在向 Surface Hub 添加设备帐户之前，应始终运行验证脚本。</span><span class="sxs-lookup"><span data-stu-id="319a9-132">You should always run the validation script before adding a device account to Surface Hub.</span></span>
 
-## <span data-ttu-id="69eb4-133">运行脚本</span><span class="sxs-lookup"><span data-stu-id="69eb4-133">Running the scripts</span></span>
+## <span data-ttu-id="319a9-133">运行脚本</span><span class="sxs-lookup"><span data-stu-id="319a9-133">Running the scripts</span></span>
 
-<span data-ttu-id="69eb4-134">帐户创建脚本将：</span><span class="sxs-lookup"><span data-stu-id="69eb4-134">The account creation scripts will:</span></span>
+<span data-ttu-id="319a9-134">帐户创建脚本将：</span><span class="sxs-lookup"><span data-stu-id="319a9-134">The account creation scripts will:</span></span>
 
--   <span data-ttu-id="69eb4-135">要求提供管理员凭据</span><span class="sxs-lookup"><span data-stu-id="69eb4-135">Ask for administrator credentials</span></span>
--   <span data-ttu-id="69eb4-136">在域/租户中创建设备帐户</span><span class="sxs-lookup"><span data-stu-id="69eb4-136">Create device accounts in your domain/tenant</span></span>
--   <span data-ttu-id="69eb4-137">创建 Surface Hub 兼容的 ActiveSync 策略或将其分配给设备帐户</span><span class="sxs-lookup"><span data-stu-id="69eb4-137">Create or assign a Surface Hub-compatible ActiveSync policy to the device account(s)</span></span>
--   <span data-ttu-id="69eb4-138">在 Exchange 和 Skype for Business 中为已创建的帐户设置各种属性。</span><span class="sxs-lookup"><span data-stu-id="69eb4-138">Set various attributes for the created account(s) in Exchange and Skype for Business.</span></span>
--   <span data-ttu-id="69eb4-139">将许可证和权限分配给已创建的帐户</span><span class="sxs-lookup"><span data-stu-id="69eb4-139">Assign licenses and permissions to the created account(s)</span></span>
+-   <span data-ttu-id="319a9-135">请求管理员凭据。</span><span class="sxs-lookup"><span data-stu-id="319a9-135">Ask for administrator credentials.</span></span>
+-   <span data-ttu-id="319a9-136">在域/租户中创建设备帐户。</span><span class="sxs-lookup"><span data-stu-id="319a9-136">Create device accounts in your domain/tenant.</span></span>
+-   <span data-ttu-id="319a9-137">创建 Surface Hub 兼容的 ActiveSync 策略或将其分配给设备帐户 () 。</span><span class="sxs-lookup"><span data-stu-id="319a9-137">Create or assign a Surface Hub-compatible ActiveSync policy to the device account(s).</span></span>
+-   <span data-ttu-id="319a9-138">在 Exchange 和 Skype for Business 中为已创建的帐户设置各种属性。</span><span class="sxs-lookup"><span data-stu-id="319a9-138">Set various attributes for the created account(s) in Exchange and Skype for Business.</span></span>
+-   <span data-ttu-id="319a9-139">将许可证和权限分配给已创建 () 。</span><span class="sxs-lookup"><span data-stu-id="319a9-139">Assign licenses and permissions to the created account(s).</span></span>
 
-<span data-ttu-id="69eb4-140">下面是通过脚本设置的属性：</span><span class="sxs-lookup"><span data-stu-id="69eb4-140">These are the attributes that are set by the scripts:</span></span>
+<span data-ttu-id="319a9-140">下面是通过脚本设置的属性：</span><span class="sxs-lookup"><span data-stu-id="319a9-140">These are the attributes that are set by the scripts:</span></span>
 
 <table>
 <colgroup>
@@ -84,114 +84,114 @@ ms.locfileid: "11314425"
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left"><span data-ttu-id="69eb4-141">Cmdlet</span><span class="sxs-lookup"><span data-stu-id="69eb4-141">Cmdlet</span></span></th>
-<th align="left"><span data-ttu-id="69eb4-142">属性</span><span class="sxs-lookup"><span data-stu-id="69eb4-142">Attribute</span></span></th>
-<th align="left"><span data-ttu-id="69eb4-143">值</span><span class="sxs-lookup"><span data-stu-id="69eb4-143">Value</span></span></th>
+<th align="left"><span data-ttu-id="319a9-141">Cmdlet</span><span class="sxs-lookup"><span data-stu-id="319a9-141">Cmdlet</span></span></th>
+<th align="left"><span data-ttu-id="319a9-142">属性</span><span class="sxs-lookup"><span data-stu-id="319a9-142">Attribute</span></span></th>
+<th align="left"><span data-ttu-id="319a9-143">值</span><span class="sxs-lookup"><span data-stu-id="319a9-143">Value</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><p><span data-ttu-id="69eb4-144">Set-Mailbox</span><span class="sxs-lookup"><span data-stu-id="69eb4-144">Set-Mailbox</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-145">RoomMailboxPassword</span><span class="sxs-lookup"><span data-stu-id="69eb4-145">RoomMailboxPassword</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-146">用户提供</span><span class="sxs-lookup"><span data-stu-id="69eb4-146">User-provided</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-144">Set-Mailbox</span><span class="sxs-lookup"><span data-stu-id="319a9-144">Set-Mailbox</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-145">RoomMailboxPassword</span><span class="sxs-lookup"><span data-stu-id="319a9-145">RoomMailboxPassword</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-146">用户提供</span><span class="sxs-lookup"><span data-stu-id="319a9-146">User-provided</span></span></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-147">EnableRoomMailboxAccount</span><span class="sxs-lookup"><span data-stu-id="69eb4-147">EnableRoomMailboxAccount</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-148">True</span><span class="sxs-lookup"><span data-stu-id="69eb4-148">True</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-147">EnableRoomMailboxAccount</span><span class="sxs-lookup"><span data-stu-id="319a9-147">EnableRoomMailboxAccount</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-148">True</span><span class="sxs-lookup"><span data-stu-id="319a9-148">True</span></span></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-149">Type</span><span class="sxs-lookup"><span data-stu-id="69eb4-149">Type</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-150">Room</span><span class="sxs-lookup"><span data-stu-id="69eb4-150">Room</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-149">Type</span><span class="sxs-lookup"><span data-stu-id="319a9-149">Type</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-150">Room</span><span class="sxs-lookup"><span data-stu-id="319a9-150">Room</span></span></p></td>
 </tr>
 <tr class="even">
-<td align="left"><p><span data-ttu-id="69eb4-151">Set-CalendarProcessing</span><span class="sxs-lookup"><span data-stu-id="69eb4-151">Set-CalendarProcessing</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-152">AutomateProcessing</span><span class="sxs-lookup"><span data-stu-id="69eb4-152">AutomateProcessing</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-153">AutoAccept</span><span class="sxs-lookup"><span data-stu-id="69eb4-153">AutoAccept</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-151">Set-CalendarProcessing</span><span class="sxs-lookup"><span data-stu-id="319a9-151">Set-CalendarProcessing</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-152">AutomateProcessing</span><span class="sxs-lookup"><span data-stu-id="319a9-152">AutomateProcessing</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-153">AutoAccept</span><span class="sxs-lookup"><span data-stu-id="319a9-153">AutoAccept</span></span></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-154">RemovePrivateProperty</span><span class="sxs-lookup"><span data-stu-id="69eb4-154">RemovePrivateProperty</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-155">False</span><span class="sxs-lookup"><span data-stu-id="69eb4-155">False</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-154">RemovePrivateProperty</span><span class="sxs-lookup"><span data-stu-id="319a9-154">RemovePrivateProperty</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-155">False</span><span class="sxs-lookup"><span data-stu-id="319a9-155">False</span></span></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-156">DeleteSubject</span><span class="sxs-lookup"><span data-stu-id="69eb4-156">DeleteSubject</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-157">False</span><span class="sxs-lookup"><span data-stu-id="69eb4-157">False</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-156">DeleteSubject</span><span class="sxs-lookup"><span data-stu-id="319a9-156">DeleteSubject</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-157">False</span><span class="sxs-lookup"><span data-stu-id="319a9-157">False</span></span></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-158">DeleteComments</span><span class="sxs-lookup"><span data-stu-id="69eb4-158">DeleteComments</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-159">False</span><span class="sxs-lookup"><span data-stu-id="69eb4-159">False</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-158">DeleteComments</span><span class="sxs-lookup"><span data-stu-id="319a9-158">DeleteComments</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-159">False</span><span class="sxs-lookup"><span data-stu-id="319a9-159">False</span></span></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-160">AddOrganizerToSubject</span><span class="sxs-lookup"><span data-stu-id="69eb4-160">AddOrganizerToSubject</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-161">False</span><span class="sxs-lookup"><span data-stu-id="69eb4-161">False</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-160">AddOrganizerToSubject</span><span class="sxs-lookup"><span data-stu-id="319a9-160">AddOrganizerToSubject</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-161">False</span><span class="sxs-lookup"><span data-stu-id="319a9-161">False</span></span></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-162">AddAdditionalResponse</span><span class="sxs-lookup"><span data-stu-id="69eb4-162">AddAdditionalResponse</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-163">True</span><span class="sxs-lookup"><span data-stu-id="69eb4-163">True</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-162">AddAdditionalResponse</span><span class="sxs-lookup"><span data-stu-id="319a9-162">AddAdditionalResponse</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-163">True</span><span class="sxs-lookup"><span data-stu-id="319a9-163">True</span></span></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-164">AdditionalResponse</span><span class="sxs-lookup"><span data-stu-id="69eb4-164">AdditionalResponse</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-165">&quot;这是 Surface Hub 房间！&quot;</span><span class="sxs-lookup"><span data-stu-id="69eb4-165">&quot;This is a Surface Hub room!&quot;</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-164">AdditionalResponse</span><span class="sxs-lookup"><span data-stu-id="319a9-164">AdditionalResponse</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-165">&quot;这是 Surface Hub 房间！&quot;</span><span class="sxs-lookup"><span data-stu-id="319a9-165">&quot;This is a Surface Hub room!&quot;</span></span></p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p><span data-ttu-id="69eb4-166">New-MobileDeviceMailboxPolicy</span><span class="sxs-lookup"><span data-stu-id="69eb4-166">New-MobileDeviceMailboxPolicy</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-167">PasswordEnabled</span><span class="sxs-lookup"><span data-stu-id="69eb4-167">PasswordEnabled</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-168">False</span><span class="sxs-lookup"><span data-stu-id="69eb4-168">False</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-166">New-MobileDeviceMailboxPolicy</span><span class="sxs-lookup"><span data-stu-id="319a9-166">New-MobileDeviceMailboxPolicy</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-167">PasswordEnabled</span><span class="sxs-lookup"><span data-stu-id="319a9-167">PasswordEnabled</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-168">False</span><span class="sxs-lookup"><span data-stu-id="319a9-168">False</span></span></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-169">AllowNonProvisionableDevices</span><span class="sxs-lookup"><span data-stu-id="69eb4-169">AllowNonProvisionableDevices</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-170">True</span><span class="sxs-lookup"><span data-stu-id="69eb4-170">True</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-169">AllowNonProvisionableDevices</span><span class="sxs-lookup"><span data-stu-id="319a9-169">AllowNonProvisionableDevices</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-170">True</span><span class="sxs-lookup"><span data-stu-id="319a9-170">True</span></span></p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p><span data-ttu-id="69eb4-171">Enable-CSMeetingRoom</span><span class="sxs-lookup"><span data-stu-id="69eb4-171">Enable-CSMeetingRoom</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-172">RegistrarPool</span><span class="sxs-lookup"><span data-stu-id="69eb4-172">RegistrarPool</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-173">用户提供</span><span class="sxs-lookup"><span data-stu-id="69eb4-173">User-provided</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-171">Enable-CSMeetingRoom</span><span class="sxs-lookup"><span data-stu-id="319a9-171">Enable-CSMeetingRoom</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-172">RegistrarPool</span><span class="sxs-lookup"><span data-stu-id="319a9-172">RegistrarPool</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-173">用户提供</span><span class="sxs-lookup"><span data-stu-id="319a9-173">User-provided</span></span></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-174">SipAddress</span><span class="sxs-lookup"><span data-stu-id="69eb4-174">SipAddress</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-175">设置为设备帐户的用户主体名称 (UPN)</span><span class="sxs-lookup"><span data-stu-id="69eb4-175">Set to the User Principal Name (UPN) of the device account</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-174">SipAddress</span><span class="sxs-lookup"><span data-stu-id="319a9-174">SipAddress</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-175">设置为设备帐户的用户主体名称 (UPN)</span><span class="sxs-lookup"><span data-stu-id="319a9-175">Set to the User Principal Name (UPN) of the device account</span></span></p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p><span data-ttu-id="69eb4-176">Set-MsolUserLicense（仅限 O365）</span><span class="sxs-lookup"><span data-stu-id="69eb4-176">Set-MsolUserLicense (O365 only)</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-177">AddLicenses</span><span class="sxs-lookup"><span data-stu-id="69eb4-177">AddLicenses</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-178">用户提供</span><span class="sxs-lookup"><span data-stu-id="69eb4-178">User-provided</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-176">Set-MsolUserLicense（仅限 O365）</span><span class="sxs-lookup"><span data-stu-id="319a9-176">Set-MsolUserLicense (O365 only)</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-177">AddLicenses</span><span class="sxs-lookup"><span data-stu-id="319a9-177">AddLicenses</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-178">用户提供</span><span class="sxs-lookup"><span data-stu-id="319a9-178">User-provided</span></span></p></td>
 </tr>
 <tr class="even">
-<td align="left"><p><span data-ttu-id="69eb4-179">Set-MsolUser（仅限 O365）</span><span class="sxs-lookup"><span data-stu-id="69eb4-179">Set-MsolUser (O365 only)</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-180">PasswordNeverExpires</span><span class="sxs-lookup"><span data-stu-id="69eb4-180">PasswordNeverExpires</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-181">True</span><span class="sxs-lookup"><span data-stu-id="69eb4-181">True</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-179">Set-MsolUser（仅限 O365）</span><span class="sxs-lookup"><span data-stu-id="319a9-179">Set-MsolUser (O365 only)</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-180">PasswordNeverExpires</span><span class="sxs-lookup"><span data-stu-id="319a9-180">PasswordNeverExpires</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-181">True</span><span class="sxs-lookup"><span data-stu-id="319a9-181">True</span></span></p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p><span data-ttu-id="69eb4-182">Set-AdUser（仅限本地）</span><span class="sxs-lookup"><span data-stu-id="69eb4-182">Set-AdUser (On-prem only)</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-183">Enabled</span><span class="sxs-lookup"><span data-stu-id="69eb4-183">Enabled</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-184">True</span><span class="sxs-lookup"><span data-stu-id="69eb4-184">True</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-182">Set-AdUser（仅限本地）</span><span class="sxs-lookup"><span data-stu-id="319a9-182">Set-AdUser (On-prem only)</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-183">Enabled</span><span class="sxs-lookup"><span data-stu-id="319a9-183">Enabled</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-184">True</span><span class="sxs-lookup"><span data-stu-id="319a9-184">True</span></span></p></td>
 </tr>
 <tr class="even">
-<td align="left"><p><span data-ttu-id="69eb4-185">Set-AdUser（仅限本地）</span><span class="sxs-lookup"><span data-stu-id="69eb4-185">Set-AdUser (On-prem only)</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-186">PasswordNeverExpires</span><span class="sxs-lookup"><span data-stu-id="69eb4-186">PasswordNeverExpires</span></span></p></td>
-<td align="left"><p><span data-ttu-id="69eb4-187">True</span><span class="sxs-lookup"><span data-stu-id="69eb4-187">True</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-185">Set-AdUser（仅限本地）</span><span class="sxs-lookup"><span data-stu-id="319a9-185">Set-AdUser (On-prem only)</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-186">PasswordNeverExpires</span><span class="sxs-lookup"><span data-stu-id="319a9-186">PasswordNeverExpires</span></span></p></td>
+<td align="left"><p><span data-ttu-id="319a9-187">True</span><span class="sxs-lookup"><span data-stu-id="319a9-187">True</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-## <span data-ttu-id="69eb4-188">帐户创建脚本</span><span class="sxs-lookup"><span data-stu-id="69eb4-188">Account creation scripts</span></span>
+## <span data-ttu-id="319a9-188">帐户创建脚本</span><span class="sxs-lookup"><span data-stu-id="319a9-188">Account creation scripts</span></span>
 
-<span data-ttu-id="69eb4-189">这些脚本将为你创建设备帐户。</span><span class="sxs-lookup"><span data-stu-id="69eb4-189">These scripts will create a device account for you.</span></span> <span data-ttu-id="69eb4-190">可以使用[帐户验证脚本](#acct-verification-ps-scripts)来确保它们正确运行。</span><span class="sxs-lookup"><span data-stu-id="69eb4-190">You can use the [Account verification script](#acct-verification-ps-scripts) to make sure they ran correctly.</span></span>
+<span data-ttu-id="319a9-189">这些脚本将为你创建设备帐户。</span><span class="sxs-lookup"><span data-stu-id="319a9-189">These scripts will create a device account for you.</span></span> <span data-ttu-id="319a9-190">可以使用[帐户验证脚本](#acct-verification-ps-scripts)来确保它们正确运行。</span><span class="sxs-lookup"><span data-stu-id="319a9-190">You can use the [Account verification script](#acct-verification-ps-scripts) to make sure they ran correctly.</span></span>
 
-<span data-ttu-id="69eb4-191">帐户创建脚本无法修改已有帐户，但可用于帮助你了解正确配置现有帐户所需运行的 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="69eb4-191">The account creation scripts cannot modify an already existing account, but can be used to help you understand which cmdlets need to be run to configure the existing account correctly.</span></span>
+<span data-ttu-id="319a9-191">帐户创建脚本无法修改已有帐户，但可用于帮助你了解正确配置现有帐户所需运行的 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="319a9-191">The account creation scripts cannot modify an already existing account, but can be used to help you understand which cmdlets need to be run to configure the existing account correctly.</span></span>
 
-### <a href="" id="create-on-premises-ps-scripts"></a><span data-ttu-id="69eb4-192">创建本地帐户</span><span class="sxs-lookup"><span data-stu-id="69eb4-192">Create an on-premises account</span></span>
+### <a href="" id="create-on-premises-ps-scripts"></a><span data-ttu-id="319a9-192">创建本地帐户</span><span class="sxs-lookup"><span data-stu-id="319a9-192">Create an on-premises account</span></span>
 
-<span data-ttu-id="69eb4-193">按照[本地部署](on-premises-deployment-surface-hub-device-accounts.md)中的说明创建帐户。</span><span class="sxs-lookup"><span data-stu-id="69eb4-193">Creates an account as described in [On-premises deployment](on-premises-deployment-surface-hub-device-accounts.md).</span></span>
+<span data-ttu-id="319a9-193">按照[本地部署](on-premises-deployment-surface-hub-device-accounts.md)中的说明创建帐户。</span><span class="sxs-lookup"><span data-stu-id="319a9-193">Creates an account as described in [On-premises deployment](on-premises-deployment-surface-hub-device-accounts.md).</span></span>
 
 ```PowerShell
 # SHAccountCreateOnPrem.ps1
@@ -549,9 +549,9 @@ else
 }
 ```
 
-### <a href="" id="create-os356-ps-scripts"></a><span data-ttu-id="69eb4-194">使用 Office 365 创建设备帐户</span><span class="sxs-lookup"><span data-stu-id="69eb4-194">Create a device account using Office 365</span></span>
+### <a href="" id="create-os356-ps-scripts"></a><span data-ttu-id="319a9-194">使用 Office 365 创建设备帐户</span><span class="sxs-lookup"><span data-stu-id="319a9-194">Create a device account using Office 365</span></span>
 
-<span data-ttu-id="69eb4-195">按照[使用 Office 365 创建设备帐户](create-a-device-account-using-office-365.md)中的说明创建帐户。</span><span class="sxs-lookup"><span data-stu-id="69eb4-195">Creates an account as described in [Create a device account using Office 365](create-a-device-account-using-office-365.md)</span></span>
+<span data-ttu-id="319a9-195">创建一个帐户，如 [使用 Office 365](create-a-device-account-using-office-365.md)创建设备帐户中所述。</span><span class="sxs-lookup"><span data-stu-id="319a9-195">Creates an account as described in [Create a device account using Office 365](create-a-device-account-using-office-365.md).</span></span>
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -994,18 +994,18 @@ else
 }
 ```
 
-## <a href="" id="acct-verification-ps-scripts"></a><span data-ttu-id="69eb4-196">帐户验证脚本</span><span class="sxs-lookup"><span data-stu-id="69eb4-196">Account verification script</span></span>
+## <a href="" id="acct-verification-ps-scripts"></a><span data-ttu-id="319a9-196">帐户验证脚本</span><span class="sxs-lookup"><span data-stu-id="319a9-196">Account verification script</span></span>
 
-<span data-ttu-id="69eb4-197">此脚本验证 Surface Hub 和 Surface Hub 2S 上以前创建的设备帐户，无论使用哪种方法创建它。</span><span class="sxs-lookup"><span data-stu-id="69eb4-197">This script validates the previously-created device account on Surface Hub and Surface Hub 2S, no matter which method was used to create it.</span></span> <span data-ttu-id="69eb4-198">此脚本基本上处于通过/未通过状态。</span><span class="sxs-lookup"><span data-stu-id="69eb4-198">This script is basically pass/fail.</span></span> <span data-ttu-id="69eb4-199">如果出现其中一个测试错误，将显示详细的错误消息；但如果所有测试都通过，最终结果将为摘要报告。</span><span class="sxs-lookup"><span data-stu-id="69eb4-199">If one of the test errors out, it will show a detailed error message, but if all tests pass, the end result will be a summary report.</span></span> <span data-ttu-id="69eb4-200">例如，你可能看到：</span><span class="sxs-lookup"><span data-stu-id="69eb4-200">For example, you might see:</span></span>
+<span data-ttu-id="319a9-197">此脚本验证 Surface Hub 和 Surface Hub 2S 上以前创建的设备帐户，无论使用哪种方法创建它。</span><span class="sxs-lookup"><span data-stu-id="319a9-197">This script validates the previously-created device account on Surface Hub and Surface Hub 2S, no matter which method was used to create it.</span></span> <span data-ttu-id="319a9-198">此脚本基本上处于通过/未通过状态。</span><span class="sxs-lookup"><span data-stu-id="319a9-198">This script is basically pass/fail.</span></span> <span data-ttu-id="319a9-199">如果出现其中一个测试错误，将显示详细的错误消息；但如果所有测试都通过，最终结果将为摘要报告。</span><span class="sxs-lookup"><span data-stu-id="319a9-199">If one of the test errors out, it will show a detailed error message, but if all tests pass, the end result will be a summary report.</span></span> <span data-ttu-id="319a9-200">例如，你可能看到：</span><span class="sxs-lookup"><span data-stu-id="319a9-200">For example, you might see:</span></span>
 
-``` syntax
+```console
 15 tests executed
 0 failures
 2 warnings
 15 passed
 ```
 
-<span data-ttu-id="69eb4-201">不会显示特定设置的详细信息。</span><span class="sxs-lookup"><span data-stu-id="69eb4-201">Details of specific settings will not be shown.</span></span>
+<span data-ttu-id="319a9-201">不会显示特定设置的详细信息。</span><span class="sxs-lookup"><span data-stu-id="319a9-201">Details of specific settings will not be shown.</span></span>
 
 ```PowerShell
 # SHAccountValidate.ps1
@@ -1445,9 +1445,9 @@ Write-Host -ForegroundColor Green $Global:iTotalPasses "passes "
 Cleanup
 ```
 
-## <a href="" id="enable-sfb-ps-scripts"></a><span data-ttu-id="69eb4-202">启用 Skype for Business </span><span class="sxs-lookup"><span data-stu-id="69eb4-202">Enable Skype for Business</span></span>
+## <a href="" id="enable-sfb-ps-scripts"></a><span data-ttu-id="319a9-202">启用 Skype for Business </span><span class="sxs-lookup"><span data-stu-id="319a9-202">Enable Skype for Business</span></span>
 
-<span data-ttu-id="69eb4-203">此脚本将在设备帐户上启用 Skype for Business。</span><span class="sxs-lookup"><span data-stu-id="69eb4-203">This script will enable Skype for Business on a device account.</span></span> <span data-ttu-id="69eb4-204">仅当之前未在帐户创建过程中启用 Skype for Business 时，才会使用它。</span><span class="sxs-lookup"><span data-stu-id="69eb4-204">Use it only if Skype for Business wasn't previously enabled during account creation.</span></span>
+<span data-ttu-id="319a9-203">此脚本将在设备帐户上启用 Skype for Business。</span><span class="sxs-lookup"><span data-stu-id="319a9-203">This script will enable Skype for Business on a device account.</span></span> <span data-ttu-id="319a9-204">仅当之前未在帐户创建过程中启用 Skype for Business 时，才会使用它。</span><span class="sxs-lookup"><span data-stu-id="319a9-204">Use it only if Skype for Business wasn't previously enabled during account creation.</span></span>
 
 ```PowerShell
 ## This script performs only the Enable for Skype for Business step on an account. It should only be run if this step failed in SHAccountCreate and the other steps have been completed ##
@@ -1605,31 +1605,31 @@ PrintSuccess "Successfully enabled $strRoomUri as a Skype for Business meeting r
 Cleanup
 ```
 
-## <span data-ttu-id="69eb4-205">有用的 cmdlet</span><span class="sxs-lookup"><span data-stu-id="69eb4-205">Useful cmdlets</span></span>
+## <span data-ttu-id="319a9-205">有用的 cmdlet</span><span class="sxs-lookup"><span data-stu-id="319a9-205">Useful cmdlets</span></span>
 
-### <a href="" id="create-compatible-as-policy"></a><span data-ttu-id="69eb4-206">创建 Surface Hub 兼容的 ActiveSync 策略</span><span class="sxs-lookup"><span data-stu-id="69eb4-206">Creating a Surface Hub-compatible ActiveSync policy</span></span>
+### <a href="" id="create-compatible-as-policy"></a><span data-ttu-id="319a9-206">创建 Surface Hub 兼容的 ActiveSync 策略</span><span class="sxs-lookup"><span data-stu-id="319a9-206">Creating a Surface Hub-compatible ActiveSync policy</span></span>
 
-<span data-ttu-id="69eb4-207">对于要使用 Exchange 服务的 Surface Hub，必须在设备上预配使用兼容 ActiveSync 策略配置的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="69eb4-207">For Surface Hub to use Exchange services, a device account configured with a compatible ActiveSync policy must be provisioned on the device.</span></span> <span data-ttu-id="69eb4-208">此策略具有以下要求：</span><span class="sxs-lookup"><span data-stu-id="69eb4-208">This policy has the following requirements:</span></span>
+<span data-ttu-id="319a9-207">对于要使用 Exchange 服务的 Surface Hub，必须在设备上预配使用兼容 ActiveSync 策略配置的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="319a9-207">For Surface Hub to use Exchange services, a device account configured with a compatible ActiveSync policy must be provisioned on the device.</span></span> <span data-ttu-id="319a9-208">此策略具有以下要求：</span><span class="sxs-lookup"><span data-stu-id="319a9-208">This policy has the following requirements:</span></span>
 
 ``` syntax
 PasswordEnabled == 0
 ```
 
-<span data-ttu-id="69eb4-209">在以下 cmdlet 中，`$strPolicy` 是 ActiveSync 策略的名称，而 `$strRoomUpn` 是你要向其应用该策略的设备帐户的 UPN。</span><span class="sxs-lookup"><span data-stu-id="69eb4-209">In the following cmdlets, `$strPolicy` is the name of the ActiveSync policy, and `$strRoomUpn` is the UPN of the device account you want to apply the policy to.</span></span>
+<span data-ttu-id="319a9-209">在以下 cmdlet 中，`$strPolicy` 是 ActiveSync 策略的名称，而 `$strRoomUpn` 是你要向其应用该策略的设备帐户的 UPN。</span><span class="sxs-lookup"><span data-stu-id="319a9-209">In the following cmdlets, `$strPolicy` is the name of the ActiveSync policy, and `$strRoomUpn` is the UPN of the device account you want to apply the policy to.</span></span>
 
-<span data-ttu-id="69eb4-210">请注意，若要运行 cmdlet，需要设置远程 PowerShell 会话，并且：</span><span class="sxs-lookup"><span data-stu-id="69eb4-210">Note that in order to run the cmdlets, you need to set up a remote PowerShell session and:</span></span>
+<span data-ttu-id="319a9-210">请注意，若要运行 cmdlet，需要设置远程 PowerShell 会话，并且：</span><span class="sxs-lookup"><span data-stu-id="319a9-210">Note that in order to run the cmdlets, you need to set up a remote PowerShell session and:</span></span>
 
--   <span data-ttu-id="69eb4-211">你的管理员帐户必须已启用远程 PowerShell。</span><span class="sxs-lookup"><span data-stu-id="69eb4-211">Your admin account must be remote-PowerShell-enabled.</span></span> <span data-ttu-id="69eb4-212">这可让管理员使用脚本所需的 PowerShell cmdlet。</span><span class="sxs-lookup"><span data-stu-id="69eb4-212">This allows the admin to use the PowerShell cmdlets that are needed by the script.</span></span> <span data-ttu-id="69eb4-213">（可使用 `set-user $admin -RemotePowerShellEnabled $true` 设置此权限）</span><span class="sxs-lookup"><span data-stu-id="69eb4-213">(This permission can be set using `set-user $admin -RemotePowerShellEnabled $true`)</span></span>
--   <span data-ttu-id="69eb4-214">如果你计划运行创建脚本，你的管理员帐户必须具有“重置密码”角色。</span><span class="sxs-lookup"><span data-stu-id="69eb4-214">Your admin account must have the "Reset Password" role if you plan to run the creation scripts.</span></span> <span data-ttu-id="69eb4-215">这允许管理员更改帐户的密码（脚本需要它）。</span><span class="sxs-lookup"><span data-stu-id="69eb4-215">This allows the admin to change the password of the account, which is needed for the script.</span></span> <span data-ttu-id="69eb4-216">可以使用 Exchange 管理中心启用重置密码角色。</span><span class="sxs-lookup"><span data-stu-id="69eb4-216">The Reset Password Role can be enabled using the Exchange Admin Center.</span></span>
+-   <span data-ttu-id="319a9-211">你的管理员帐户必须已启用远程 PowerShell。</span><span class="sxs-lookup"><span data-stu-id="319a9-211">Your admin account must be remote-PowerShell-enabled.</span></span> <span data-ttu-id="319a9-212">这可让管理员使用脚本所需的 PowerShell cmdlet。</span><span class="sxs-lookup"><span data-stu-id="319a9-212">This allows the admin to use the PowerShell cmdlets that are needed by the script.</span></span> <span data-ttu-id="319a9-213">（可使用 `set-user $admin -RemotePowerShellEnabled $true` 设置此权限）</span><span class="sxs-lookup"><span data-stu-id="319a9-213">(This permission can be set using `set-user $admin -RemotePowerShellEnabled $true`)</span></span>
+-   <span data-ttu-id="319a9-214">如果你计划运行创建脚本，你的管理员帐户必须具有“重置密码”角色。</span><span class="sxs-lookup"><span data-stu-id="319a9-214">Your admin account must have the "Reset Password" role if you plan to run the creation scripts.</span></span> <span data-ttu-id="319a9-215">这允许管理员更改帐户的密码（脚本需要它）。</span><span class="sxs-lookup"><span data-stu-id="319a9-215">This allows the admin to change the password of the account, which is needed for the script.</span></span> <span data-ttu-id="319a9-216">可以使用 Exchange 管理中心启用重置密码角色。</span><span class="sxs-lookup"><span data-stu-id="319a9-216">The Reset Password Role can be enabled using the Exchange Admin Center.</span></span>
 
-<span data-ttu-id="69eb4-217">创建策略。</span><span class="sxs-lookup"><span data-stu-id="69eb4-217">Create the policy.</span></span>
+<span data-ttu-id="319a9-217">创建策略。</span><span class="sxs-lookup"><span data-stu-id="319a9-217">Create the policy.</span></span>
 
 ```PowerShell
 # Create new policy with PasswordEnabled == false
 New-MobileDeviceMailboxPolicy -Name $strPolicy -PasswordEnabled $false –AllowNonProvisionableDevices $true
 ```
 
-<span data-ttu-id="69eb4-218">若要应用策略，邮箱不能为房间类型，否则必须先将其转换为某个用户。</span><span class="sxs-lookup"><span data-stu-id="69eb4-218">To apply the policy, the mailbox cannot be a room type, so it has to be converted into a user first.</span></span>
+<span data-ttu-id="319a9-218">若要应用策略，邮箱不能为房间类型，否则必须先将其转换为某个用户。</span><span class="sxs-lookup"><span data-stu-id="319a9-218">To apply the policy, the mailbox cannot be a room type, so it has to be converted into a user first.</span></span>
 
 ```PowerShell
 # Convert user to regular type
@@ -1638,43 +1638,43 @@ Set-Mailbox $strRoomUpn -Type Regular
 Set-CASMailbox $strRoomUpn -ActiveSyncMailboxPolicy $strPolicy
 ```
 
-<span data-ttu-id="69eb4-219">现在，只需将设备帐户转换回房间类型即可。</span><span class="sxs-lookup"><span data-stu-id="69eb4-219">Now the device account just needs to be converted back into a room type.</span></span>
+<span data-ttu-id="319a9-219">现在，只需将设备帐户转换回房间类型即可。</span><span class="sxs-lookup"><span data-stu-id="319a9-219">Now the device account just needs to be converted back into a room type.</span></span>
 
 ```PowerShell
 # Convert back to room mailbox
 Set-Mailbox $strRoomUpn -Type Room
 ```
 
-### <span data-ttu-id="69eb4-220">允许 ActiveSync 的设备 ID</span><span class="sxs-lookup"><span data-stu-id="69eb4-220">Allowing device IDs for ActiveSync</span></span>
+### <span data-ttu-id="319a9-220">允许 ActiveSync 的设备 ID</span><span class="sxs-lookup"><span data-stu-id="319a9-220">Allowing device IDs for ActiveSync</span></span>
 
-<span data-ttu-id="69eb4-221">若要允许帐户 `$strRoomUpn`，请运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="69eb4-221">To allow an account `$strRoomUpn`, run the following command:</span></span>
+<span data-ttu-id="319a9-221">若要允许帐户 `$strRoomUpn`，请运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="319a9-221">To allow an account `$strRoomUpn`, run the following command:</span></span>
 
 ```PowerShell
 Set-CASMailbox –Identity $strRoomUpn –ActiveSyncAllowedDeviceIDs “<ID>”
 ```
 
-<span data-ttu-id="69eb4-222">若要查找设备的 ID，请运行：</span><span class="sxs-lookup"><span data-stu-id="69eb4-222">To find a device's ID, run:</span></span>
+<span data-ttu-id="319a9-222">若要查找设备的 ID，请运行：</span><span class="sxs-lookup"><span data-stu-id="319a9-222">To find a device's ID, run:</span></span>
 
 ```PowerShell
 Get-ActiveSyncDevice -Mailbox $strRoomUpn
 ```
 
-<span data-ttu-id="69eb4-223">这会检索每台设备（已在其上预配了帐户）的设备信息，包括 `DeviceId` 属性。</span><span class="sxs-lookup"><span data-stu-id="69eb4-223">This retrieves device information for every device that the account has been provisioned on, Including the `DeviceId` property.</span></span>
+<span data-ttu-id="319a9-223">这会检索每台设备（已在其上预配了帐户）的设备信息，包括 `DeviceId` 属性。</span><span class="sxs-lookup"><span data-stu-id="319a9-223">This retrieves device information for every device that the account has been provisioned on, Including the `DeviceId` property.</span></span>
 
-### <a href="" id="auto-accept-meetings-cmdlet"></a><span data-ttu-id="69eb4-224">自动接受和拒绝会议请求</span><span class="sxs-lookup"><span data-stu-id="69eb4-224">Auto-accepting and declining meeting requests</span></span>
+### <a href="" id="auto-accept-meetings-cmdlet"></a><span data-ttu-id="319a9-224">自动接受和拒绝会议请求</span><span class="sxs-lookup"><span data-stu-id="319a9-224">Auto-accepting and declining meeting requests</span></span>
 
-<span data-ttu-id="69eb4-225">对于基于设备帐户的可用性自动接受或拒绝会议请求的设备帐户，必须将 **AutomateProcessing** 属性设置为 **AutoAccept**。</span><span class="sxs-lookup"><span data-stu-id="69eb4-225">For a device account to automatically accept or decline meeting requests based on its availability, the **AutomateProcessing** attribute must be set to **AutoAccept**.</span></span> <span data-ttu-id="69eb4-226">建议这样做，以便阻止会议重叠。</span><span class="sxs-lookup"><span data-stu-id="69eb4-226">This is recommended as to prevent overlapping meetings.</span></span>
+<span data-ttu-id="319a9-225">对于基于设备帐户的可用性自动接受或拒绝会议请求的设备帐户，必须将 **AutomateProcessing** 属性设置为 **AutoAccept**。</span><span class="sxs-lookup"><span data-stu-id="319a9-225">For a device account to automatically accept or decline meeting requests based on its availability, the **AutomateProcessing** attribute must be set to **AutoAccept**.</span></span> <span data-ttu-id="319a9-226">建议这样做，以便阻止会议重叠。</span><span class="sxs-lookup"><span data-stu-id="319a9-226">This is recommended as to prevent overlapping meetings.</span></span>
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
 ```
 
-### <a href="" id="accept-ext-meetings-cmdlet"></a><span data-ttu-id="69eb4-227">接受外部会议请求</span><span class="sxs-lookup"><span data-stu-id="69eb4-227">Accepting external meeting requests</span></span>
+### <a href="" id="accept-ext-meetings-cmdlet"></a><span data-ttu-id="319a9-227">接受外部会议请求</span><span class="sxs-lookup"><span data-stu-id="319a9-227">Accepting external meeting requests</span></span>
 
-<span data-ttu-id="69eb4-228">对于要接受外部会议请求（会议请求来自不在相同租户/域中的帐户）的设备帐户，必须将该设备帐户设置为允许处理外部会议请求。</span><span class="sxs-lookup"><span data-stu-id="69eb4-228">For a device account to accept external meeting requests (a meeting request from an account not in the same tenant/domain), the device account must be set to allow processing of external meeting requests.</span></span> <span data-ttu-id="69eb4-229">设置完成后，该设备帐户可自动接受或拒绝来自外部帐户以及本地帐户的会议请求。</span><span class="sxs-lookup"><span data-stu-id="69eb4-229">Once set, the device account will automatically accept or decline meeting requests from external accounts as well as local accounts.</span></span>
+<span data-ttu-id="319a9-228">对于要接受外部会议请求（会议请求来自不在相同租户/域中的帐户）的设备帐户，必须将该设备帐户设置为允许处理外部会议请求。</span><span class="sxs-lookup"><span data-stu-id="319a9-228">For a device account to accept external meeting requests (a meeting request from an account not in the same tenant/domain), the device account must be set to allow processing of external meeting requests.</span></span> <span data-ttu-id="319a9-229">设置完成后，该设备帐户可自动接受或拒绝来自外部帐户以及本地帐户的会议请求。</span><span class="sxs-lookup"><span data-stu-id="319a9-229">Once set, the device account will automatically accept or decline meeting requests from external accounts as well as local accounts.</span></span>
 
 > [!Note]
-> <span data-ttu-id="69eb4-230">如果 **AutomateProcessing** 属性未设置为 **AutoAccept，** 则设置该属性将不起作用。</span><span class="sxs-lookup"><span data-stu-id="69eb4-230">If the **AutomateProcessing** attribute is not set to **AutoAccept**, then setting this will have no effect.</span></span>
+> <span data-ttu-id="319a9-230">如果 **AutomateProcessing** 属性未设置为 **AutoAccept，** 则设置该属性将不起作用。</span><span class="sxs-lookup"><span data-stu-id="319a9-230">If the **AutomateProcessing** attribute is not set to **AutoAccept**, then setting this will have no effect.</span></span>
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -ProcessExternalMeetingMessages $true
