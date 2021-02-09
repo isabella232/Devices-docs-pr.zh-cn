@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 12/2/2020
+ms.date: 02/08/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 81c224cf6c5232c4cefd4e64889bd2f724d22bac
-ms.sourcegitcommit: 1b86286bd13b13749ddbf454ae78d9a24fec44ee
+ms.openlocfilehash: d1eb3a6e01d28dc5b3239396c8149c97c0e6a91e
+ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "11271129"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "11319196"
 ---
 # Surface 扩展坞中的新增功能 
 
@@ -101,12 +101,12 @@ Surface 扩展坞 2 旨在简化 IT 管理，使管理员能够使用 Windows �
 | 3.5 mm 音频输入/输出                 | 是                                                         | 是                                                                                                 | 是              |
 | 以太网                            | 是，1 GB                                              | 是 1 GB                                                                                       | 是，1 GB   |
 | DC 电源输入                         | 是                                                         | 是                                                                                                 |                  |
-| Kensington 锁定                     | 是                                                         | 是                                                                                                 |                  |
+| Kensington lock                     | 是                                                         | 是                                                                                                 |                  |
 | 浮出电缆长度               | 65cm                                                        | 80cm                                                                                                | 20cm             |
 | 显示链接主机电源                 | 60W                                                         | 120W                                                                                                | 不适用              |
 | USB 负载电源                      | 30W                                                         | 60W                                                                                                 |                  |
 | USB 比特率                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
-| 监视支持                     | 2 x 4k @30fps，或<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps                                                                                      | 1 x 4K @ 60fps   |
+| 监视支持                     | 2 x 4k @30fps，或<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps<br> 或 1 x 4K @120fps                                                                                     | 1 x 4K @ 60fps   |
 | LAN 上从连接待机 <sup> 1 唤醒</sup> | 是                                                         | 是                                                                                                 |                  |
 | 从 S4/S5 睡眠模式在 LAN 上唤醒  | 否                                                          | 是                                                                                                 |          是        |
 | 网络 PXE 启动                    | 是                                                         | 是                                                                                                 |        是          |
@@ -127,7 +127,7 @@ Surface 扩展坞 2 旨在简化 IT 管理，使管理员能够使用 Windows �
 Surface 通过 Windows 更新发布了简化的管理功能，使 IT 管理员能够利用以下企业级功能：
 
 - **无接触更新**。 使用 Windows 更新或 Microsoft Endpoint Configuration Manager、以前 (System Center Configuration Manager - SCCM) 或其他 MSI 部署工具，以静默方式自动更新扩展坞。 
-- **从网络唤醒**。 管理和访问公司设备，而无需依赖用户来保持其设备的电源。 即使固定设备进入睡眠、休眠或断电模式，团队也可使用 Endpoint Configuration Manager 或其他企业管理工具从网络唤醒以用于服务和管理。
+- **从网络唤醒**。 无需依赖用户即可管理和访问公司设备，以继续打开其设备。 即使固定设备进入睡眠、休眠或断电模式，团队也可使用 Endpoint Configuration Manager 或其他企业管理工具从网络唤醒以用于服务和管理。
 - **集中式 IT 控制**。 通过打开和关闭端口来控制谁可以连接到 Surface Dock 2。 限制哪些主机设备可以与 Surface 扩展坞 2 一起使用。 限制对单个用户的扩展坞访问或配置扩展坞，以便只有团队中或整个公司中的特定用户访问它们。
 
 ## 后续步骤

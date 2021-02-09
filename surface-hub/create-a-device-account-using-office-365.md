@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 05/04/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e6d72dc2b36bb149ee09c2edab885c80e60ac14
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: dd19e2fd2417acd29e71c7555e94ee849fbc1bec
+ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314465"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "11318006"
 ---
 # 使用 Surface Hub v1 (UI 创建设备) 
 
@@ -37,18 +37,22 @@ ms.locfileid: "11314465"
 
 ### <a href="" id="create-device-acct-o365-admin-ctr"></a>在管理中心创建帐户
 
-1.  通过访问登录到 Office 365 https://portal.office.com
+1.  通过访问来登录 Office 365。 [https://portal.office.com](https://portal.office.com)
+
 2.  提供你的 Office 365 租户的管理凭据。 这会将你带至 Microsoft 365 管理中心。
 
-    ![Microsoft 365 管理中心。](images/setupdeviceaccto365-02.png)
+    > [!div class="mx-imgBorder"]
+    > ![Microsoft 365 管理中心。](images/setupdeviceaccto365-02.png)
 
 3. 在管理中心中， **导航到左侧** 面板中的"资源"，然后单击"会议室& **设备**。
 
-    ![管理&中的会议室和设备选项](images/room-equipment.png)
+    > [!div class="mx-imgBorder"]
+    > ![管理&中的会议室和设备选项](images/room-equipment.png)
 
 4. 单击 **“添加”** 创建新的房间帐户。 输入帐户的显示名称和电子邮件地址，然后单击**添加**。
 
-    ![创建新的房间帐户窗口](images/room-add.png)
+    > [!div class="mx-imgBorder"]
+    > ![创建新的房间帐户窗口](images/room-add.png)
 
 5. 从活动用户列表中选择刚创建的房间帐户。 在右侧面板中，你可以看到帐户属性和多个可选操作。 单击**重置密码**更改密码，然后取消选择**在用户首次登录时，让其更改密码**，因为无法通过 Surface Hub 登录流程更改密码。
 
@@ -58,15 +62,18 @@ ms.locfileid: "11314465"
 
 1.  在管理中心的左面板中，单击 **"管理**"，然后单击 **"Exchange"。**
 
-    ![管理中心，显示 Exchange 活动用户。](images/setupdeviceaccto365-08.png)
+    > [!div class="mx-imgBorder"]
+    > ![管理中心，显示 Exchange 活动用户。](images/setupdeviceaccto365-08.png)
 
 2.  这将打开浏览器上的其他选项卡以将你带到 Exchange 管理中心，可在其中为 Surface Hub 创建和设置邮箱设置。
 
-    ![Exchange 管理中心。](images/setupdeviceaccto365-09.png)
+    > [!div class="mx-imgBorder"]
+    > ![Exchange 管理中心。](images/setupdeviceaccto365-09.png)
 
 3.  若要创建移动设备邮箱策略，请从左侧面板单击**移动**，然后单击**移动设备邮箱策略**。 Surface Hub 需要一个具有不需要密码的移动设备邮箱策略的帐户，因此如果你具有一个符合该要求的现有策略，可将该策略应用到帐户。 如若不然，请使用以下步骤创建一个仅用于 Surface Hub 设备帐户的新帐户。
 
-    ![Exchange 管理中心 - 创建移动设备邮箱策略。](images/setupdeviceaccto365-10.png)
+    > [!div class="mx-imgBorder"]
+    > ![Exchange 管理中心 - 创建移动设备邮箱策略。](images/setupdeviceaccto365-10.png)
 
 4.  若要创建新的 Surface Hub 移动设备邮箱策略，请从策略列表上方的控件中单击 **+** 按钮来添加新策略。 对于名称，提供一个可帮助你将此策略与其他设备帐户区分开来的名称（例如 *SurfaceHubDeviceMobilePolicy*）。 确保该策略不需要已分配给设备的密码，因此请确保**需要密码**仍处于未选中状态，然后单击**保存**。
 
@@ -74,7 +81,8 @@ ms.locfileid: "11314465"
 
 5.  创建新的移动设备邮箱策略后，将返回到**Exchange 管理中心**，随后你将看到列出的新策略。
 
-    ![具有 Exchange 管理中心中的新移动设备邮箱策略的图像。](images/setupdeviceaccto365-12.png)
+    > [!div class="mx-imgBorder"]
+    > ![具有 Exchange 管理中心中的新移动设备邮箱策略的图像。](images/setupdeviceaccto365-12.png)
 
 
 
@@ -88,17 +96,19 @@ ms.locfileid: "11314465"
 -   [Windows PowerShell 的 Windows Azure Active Directory 模块](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/WindowsAzurePowershellGet.3f.3f.3fnew.appids)
 -   [Skype for Business Online、Windows PowerShell 模块](https://www.microsoft.com/download/details.aspx?id=39366)
 
-在 Powershell 中安装以下模块
-``` syntax
-    install-module AzureAD
-    Install-module MsOnline
+在 PowerShell 中安装以下模块。
+
+```powershell
+install-module AzureAD
+Install-module MsOnline
 ```
 
 ### 连接到在线服务
 
 1.  以管理员身份运行 Windows PowerShell。
 
-    ![显示如何以管理员身份启动和运行 Windows PowerShell 的图像。](images/setupdeviceaccto365-17.png)
+    > [!div class="mx-imgBorder"]
+    > ![显示如何以管理员身份启动和运行 Windows PowerShell 的图像。](images/setupdeviceaccto365-17.png)
 
 2.  创建凭据对象，随后创建连接到 Skype for Business Online 的新会话，并提供全局租户管理员帐户，然后单击**确定**。
 
@@ -106,7 +116,7 @@ ms.locfileid: "11314465"
 
 3.  若要连接到 Microsoft Online Services，请运行：
 
-    ``` syntax
+    ```powershell
     Connect-MsolService -Credential $Cred
     ```
 
@@ -114,7 +124,7 @@ ms.locfileid: "11314465"
 
 4.  现在，如果要连接到 Skype for Business Online Services，请运行：
 
-    ``` syntax
+    ```powershell
     $sfbsession = New-CsOnlineSession -Credential $cred
     ```
 
@@ -122,7 +132,7 @@ ms.locfileid: "11314465"
 
 5.  最后，如果要连接到 Exchange Online Services，请运行：
 
-    ``` syntax
+    ```powershell
     $exchangeSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $cred -Authentication "Basic" –AllowRedirection
     ```
 
@@ -130,7 +140,7 @@ ms.locfileid: "11314465"
 
 6.  现在，你需要导入刚创建的 Skype for Business Online 会话和 Exchange Online 会话，从而将导入 Exchange 和 Skype 命令，以便你可以在本地使用它们。
 
-    ``` syntax
+    ```powershell
     Import-PSSession $exchangesession -AllowClobber -WarningAction SilentlyContinue
     Import-PSSession $sfbsession -AllowClobber -WarningAction SilentlyContinue
     ```
@@ -180,7 +190,7 @@ ms.locfileid: "11314465"
 
 4.  可以在设备帐户上设置各种 Exchange 属性以改进会议体验。 可以在 [Exchange 属性](exchange-properties-for-surface-hub-device-accounts.md)部分中查看哪些属性需要设置。
 
-    ``` syntax
+    ```powershell
     Set-CalendarProcessing -Identity $strEmail -AutomateProcessing AutoAccept -AddOrganizerToSubject $false –AllowConflicts   $false –DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
     Set-CalendarProcessing -Identity $strEmail -AddAdditionalResponse $true -AdditionalResponse "This is a Surface Hub room!"
     ```
@@ -189,7 +199,7 @@ ms.locfileid: "11314465"
 
 5.  如果你确定密码未过期，也可以使用 PowerShell cmdlet 来设置它。 有关详细信息，请参阅[密码管理](password-management-for-surface-hub-device-accounts.md)。
 
-    ``` syntax
+    ```powershell
     Set-MsolUser -UserPrincipalName $strEmail -PasswordNeverExpires $True
     ```
 
@@ -214,13 +224,13 @@ ms.locfileid: "11314465"
 
 2.  若要为 Skype for Business Server 启用你的 Surface Hub 帐户，请运行此 cmdlet：
 
-    ```PowerShell
+    ```powershell
     Enable-CsMeetingRoom -Identity $strEmail -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
     ```
 
-    如果你不确定在你的环境中要用于 `RegistrarPool` 参数的值，可以使用此 cmdlet 从现有 Skype for Business 用户获取值：
+     如果你不确定在你的环境中要用于 `RegistrarPool` 参数的值，可以使用此 cmdlet 从现有 Skype for Business 用户获取值：
 
-    ```PowerShell
+    ```powershell
     Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
     ```
 
@@ -298,19 +308,19 @@ ms.locfileid: "11314465"
 
 1.  你将需要输入帐户的邮件地址，并使用该值创建一个变量：
 
-    ``` syntax
+    ```powershell
     $mailbox = (Get-Mailbox <your device account’s alias>)
     ```
 
     若要存储从邮箱中获取的值：
 
-    ``` syntax
+    ```powershell
     $strEmail = $mailbox.WindowsEmailAddress
     ```
 
     通过运行以下内容打印值：
 
-    ``` syntax
+    ```powershell
     $strEmail
     ```
 
@@ -318,38 +328,38 @@ ms.locfileid: "11314465"
 
 2.  你需要将帐户转换为会议室邮箱，因此请运行：
 
-    ``` syntax
+    ```powershell
     Set-Mailbox $strEmail -Type Room
     ```
 
 3.  为了使设备帐户能够在 Surface Hub 上进行身份验证，你需要启用会议室邮箱帐户并设置密码，以便该帐户可由设备用于使用 ActiveSync 来获取会议信息并登录到 Skype for Business。
 
-    ``` syntax
+    ```powershell
     Set-Mailbox $strEmail -RoomMailboxPassword (ConvertTo-SecureString  -String "<your password>" -AsPlainText -Force) -EnableRoomMailboxAccount $true
     ```
 
 4.  可以在设备帐户上设置各种 Exchange 属性以改进会议体验。 可以在 [Exchange 属性](exchange-properties-for-surface-hub-device-accounts.md)部分中查看哪些属性需要设置。
 
-    ``` syntax
+    ```powershell
     Set-CalendarProcessing -Identity $strEmail -AutomateProcessing AutoAccept -AddOrganizerToSubject $false –AllowConflicts   $false –DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
     Set-CalendarProcessing -Identity $strEmail -AddAdditionalResponse $true -AdditionalResponse "This is a Surface Hub room!"
     ```
 
 5.  现在我们必须在 AD 中设置一些属性。 为此，你需要帐户的别名（这是位于“@”之前的 UPN 的一部分）。
 
-    ``` syntax
+    ```powershell
     $strAlias = “<your device account’s alias>”
     ```
 
 6.  用户需要在 AD 中进行启用，然后才能使用 Surface Hub 进行身份验证。 运行：
 
-    ``` syntax
+    ```powershell
     Set-ADUser $strAlias -Enabled $True
     ```
 
 7.  如果你确定密码未过期，也可以使用 PowerShell cmdlet 来设置它。 有关详细信息，请参阅[密码管理](password-management-for-surface-hub-device-accounts.md)。
 
-    ``` syntax
+    ```powershell
     Set-ADUser $strAlias -PasswordNeverExpires $True
     ```
 
@@ -372,13 +382,13 @@ ms.locfileid: "11314465"
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. 检索 Surface Hub 帐户注册器池
+2. 检索 Surface Hub 帐户注册器池。
 
-如果你不确定在你的环境中要用于 `RegistrarPool` 参数的值，你可以使用此 cmdlet 从现有 Skype for Business 用户获取值：
+   如果你不确定在你的环境中要用于 `RegistrarPool` 参数的值，你可以使用此 cmdlet 从现有 Skype for Business 用户获取值：
 
- ```PowerShell
-    Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
- ```
+   ```PowerShell
+   Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
+   ```
 
 3. 若要为 Skype for Business Server 启用你的 Surface Hub 帐户，请运行此 cmdlet：
 

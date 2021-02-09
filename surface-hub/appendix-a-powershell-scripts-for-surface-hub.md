@@ -14,12 +14,12 @@ ms.date: 02/01/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 09d600efbf07bb58de1b5ebffcb6731e4125a62d
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: 73c028357849cd660d3b8720aaaa28aade12fea1
+ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314425"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "11317976"
 ---
 # 适用于 Surface Hub (v1) 
 
@@ -68,11 +68,11 @@ ms.locfileid: "11314425"
 
 帐户创建脚本将：
 
--   要求提供管理员凭据
--   在域/租户中创建设备帐户
--   创建 Surface Hub 兼容的 ActiveSync 策略或将其分配给设备帐户
+-   请求管理员凭据。
+-   在域/租户中创建设备帐户。
+-   创建 Surface Hub 兼容的 ActiveSync 策略或将其分配给设备帐户 () 。
 -   在 Exchange 和 Skype for Business 中为已创建的帐户设置各种属性。
--   将许可证和权限分配给已创建的帐户
+-   将许可证和权限分配给已创建 () 。
 
 下面是通过脚本设置的属性：
 
@@ -551,7 +551,7 @@ else
 
 ### <a href="" id="create-os356-ps-scripts"></a>使用 Office 365 创建设备帐户
 
-按照[使用 Office 365 创建设备帐户](create-a-device-account-using-office-365.md)中的说明创建帐户。
+创建一个帐户，如 [使用 Office 365](create-a-device-account-using-office-365.md)创建设备帐户中所述。
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -998,7 +998,7 @@ else
 
 此脚本验证 Surface Hub 和 Surface Hub 2S 上以前创建的设备帐户，无论使用哪种方法创建它。 此脚本基本上处于通过/未通过状态。 如果出现其中一个测试错误，将显示详细的错误消息；但如果所有测试都通过，最终结果将为摘要报告。 例如，你可能看到：
 
-``` syntax
+```console
 15 tests executed
 0 failures
 2 warnings
