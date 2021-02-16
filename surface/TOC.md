@@ -37,7 +37,7 @@
 ### [Surface Pro X 应用兼容性](surface-pro-arm-app-performance.md)
 ### [管理和部署 Surface 驱动程序和固件更新](manage-surface-driver-and-firmware-updates.md)
 ### [Surface Deployment Accelerator](microsoft-surface-deployment-accelerator.md)
-### [使用 MDT 将 Windows10 部署到 Surface 设备](deploy-windows-10-to-surface-devices-with-mdt.md)
+### [使用 MDT 将 Windows 10 部署到 Surface 设备](deploy-windows-10-to-surface-devices-with-mdt.md)
 ### [在 MDT 部署期间启用 Surface Laptop 键盘](enable-surface-keyboard-for-windows-pe-deployment.md)
 ### [使用 MDT 将 Surface 设备升级到 Windows 10](upgrade-surface-devices-to-windows-10-with-mdt.md)
 ### [针对 Surface 部署自定义 OOBE](customize-the-oobe-for-surface-deployments.md)
@@ -81,8 +81,8 @@
 ### [最终用户帮助信息](https://support.microsoft.com/products/surface-devices)
 ### [基于 Windows 的设备的 Surface 驱动程序和固件生命周期](surface-driver-firmware-lifecycle-support.md)
 
-## 保修和延长服务计划
-### [适用于企业的 Surface 保修和延长服务计划](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
+## 保证和保护计划
+### [Surface for Business 保证和保护计划](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
 ### [条款和条件](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
 ### [检查设备保修状态](https://mybusinessservice.surface.com/)
 ### [寄送 Surface 进行维修时保护数据](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
