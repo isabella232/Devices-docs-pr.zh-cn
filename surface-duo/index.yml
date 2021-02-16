@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: medium
-  ms.openlocfilehash: 21a98b8daa3cb3200109edbf65f3344c2058cf11
-  ms.sourcegitcommit: 37e0994e2b8ae62b0352b016b698edcc7ca500fb
+  ms.openlocfilehash: b3e289a93c564e59aa459d5dd452bb104dacef60
+  ms.sourcegitcommit: f8f32455b1230742c58ee74004cbaaad037069b6
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/10/2021
-  ms.locfileid: "11326022"
+  ms.lasthandoff: 02/14/2021
+  ms.locfileid: "11328166"
 landingContent:
 - title: 新增功能
   linkLists:
@@ -118,5 +118,5 @@ landingContent:
     links:
     - text: 联系 Surface Duo 支持部门
       url: /surface-duo/contact-surface-duo-support
-    - text: 适用于企业的 Surface 保修和延长服务计划
+    - text: Surface for Business 保证和保护计划
       url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
