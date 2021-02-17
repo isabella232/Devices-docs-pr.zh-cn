@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/11/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 34a05eeabd284e0ad43317577b8e7ff9348ffe21
-ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
+ms.openlocfilehash: 0cc444eab51e9c3cc0bf2f9c2f0c36ac491906b1
+ms.sourcegitcommit: 7b09b4bc757c5385c4f5560713cb03448afde9ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "11327336"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "11339363"
 ---
 # 使用 Surface Hub 恢复工具
 
@@ -56,7 +56,7 @@ ms.locfileid: "11327336"
 Surface Hub 恢复工具可从[Surface Hub Tools](https://www.microsoft.com/download/details.aspx?id=52210)中下载，用于 IT 的文件名下SurfaceHub_Recovery_v2.7.139.0.msi。 ** **
 
 > [!IMPORTANT]
-> 此版本于 2021 年 2 月 11 日发布，取代了不再起作用的早期版本。 如果之前已下载此工具，请放弃并使用当前版本。
+> 此版本于 2021 年 2 月 11 日发布，取代了不再起作用的早期版本。 如果之前已下载此工具，请将其卸载并安装当前版本。
 
 若要开始下载，请单击"**** 下载"，从**SurfaceHub_Recovery_v2.7.139.0.msi**中选择"下载"，然后单击"下一**步"。** 从弹出窗口中，选择下列选项之一：
 
