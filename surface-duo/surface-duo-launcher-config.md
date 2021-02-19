@@ -25,19 +25,19 @@ ms.locfileid: "11326277"
 ---
 # 为 Surface Duo 配置 Microsoft 启动器
 
-Surface Duo 支持适用于企业的 Microsoft 启动器，这是一个 Android 应用程序，允许用户个性化设置其手机、保持井井有条地在移动设备和电脑之间无缝同步其日历、任务、笔记等。 事实上，Surface Duo 启动器是两屏自定义的 Microsoft 启动器版本，你可以调整该版本以在完全托管的设备上为组织定义首选体验，并允许用户通过一些选项在这些公司设备上个性化体验。 例如，可以选择要固定到主屏幕的应用、部署品牌墙纸或隐藏搜索栏，同时允许用户启用搜索栏（如果需要）。
+Surface Duo 支持适用于企业的 Microsoft 启动器，这是一款 Android 应用程序，可让用户个性化其手机、保持井井有条地工作，并无缝同步移动设备和电脑之间的日历、任务、笔记等内容。 事实上，Surface Duo 启动器是 Microsoft 启动器的两屏自定义版本，你可以调整该版本以定义组织完全托管设备上的首选体验，并允许用户选择一些选项来个性化这些企业设备的体验。 例如，可以选择希望固定到主屏幕的应用、部署品牌墙纸或隐藏搜索栏，同时允许用户启用搜索栏（如果需要）。
 
 ## Microsoft 启动器设置
 
-Microsoft 启动器包括以下设置以自定义最终用户体验：
+Microsoft 启动器包括以下用于自定义最终用户体验的设置：
 
 
 - 允许主屏幕应用顺序用户更改
 - 设置网格大小
 - 设置设备墙纸
 - 设置设备墙纸用户允许更改
-- 源启用
-- 允许源启用用户更改
+- 订阅源启用
+- 允许订阅源启用用户更改
 - 搜索栏放置
 - 允许搜索栏放置用户更改
 - 扩展坞模式
@@ -45,4 +45,4 @@ Microsoft 启动器包括以下设置以自定义最终用户体验：
 
 有关每个设置的完整详细信息，请参阅使用 [Intune](https://docs.microsoft.com/mem/intune/apps/configure-microsoft-launcher)为 Android 企业版配置 Microsoft 启动器。
 
-有关分步部署说明，请参阅如何使用 Intune 在 Android 企业版完全 [托管设备上设置 Microsoft 启动器](https://techcommunity.microsoft.com/t5/intune-customer-success/how-to-setup-microsoft-launcher-on-android-enterprise-fully/ba-p/1482134)。
+有关分步部署说明，请参阅如何使用 [Intune 在 Android 企业版完全托管设备上设置 Microsoft 启动器](https://techcommunity.microsoft.com/t5/intune-customer-success/how-to-setup-microsoft-launcher-on-android-enterprise-fully/ba-p/1482134)。
