@@ -14,21 +14,21 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 1e52e6d73116fe7ab84d0cb2e787995eb7ac6119
-  ms.sourcegitcommit: f8f32455b1230742c58ee74004cbaaad037069b6
+  ms.openlocfilehash: 9be85d412a96351e8cb92013eb6ca0afe9b7c304
+  ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/14/2021
-  ms.locfileid: "11328186"
+  ms.lasthandoff: 03/03/2021
+  ms.locfileid: "11385130"
 landingContent:
 - title: 为 Surface Hub 2S 做好准备
   linkLists:
   - linkListType: whats-new
     links:
-    - text: 适用于 Surface Hub 2S 的 Microsoft Teams 认证音频和视频配件
-      url: surface-hub-2s-certifications.md
-    - text: Windows 10 协同版推出更新
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655
+    - text: Surface Hub Windows 10 团队 2020 更新 - 2 月状态
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-february-status/ba-p/2118369
+    - text: 可通过 Windows 更新获得 Surface Hub v1 的 2020 更新
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/2020-update-for-surface-hub-v1-available-via-windows-update/ba-p/2118370
     - text: 安装和装载 Surface Hub 2S 85"（准备指南）
       url: surface-hub-2s-85-install-mount.md
     - text: Windows 10 协同版 2020 更新中的新增功能
