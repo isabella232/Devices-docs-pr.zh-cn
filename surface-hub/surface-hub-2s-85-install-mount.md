@@ -26,7 +26,7 @@ ms.locfileid: "11387488"
 
 - <span data-ttu-id="2cb13-107">开始之前，请查看 Microsoft Surface Hub 2S 85"取消密码箱和设置视频：</span><span class="sxs-lookup"><span data-stu-id="2cb13-107">Before you begin, please review Microsoft Surface Hub 2S 85" Unboxing and Set Up video:</span></span>
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
+>[!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
 
 - <span data-ttu-id="2cb13-108">此视频的中文版本在下面的 [附录 B](#appendix-b-unboxing-video) 提供。</span><span class="sxs-lookup"><span data-stu-id="2cb13-108">A Chinese version of this video is available in [Appendix B](#appendix-b-unboxing-video) below.</span></span> 
 
