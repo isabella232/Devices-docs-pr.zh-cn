@@ -10,18 +10,18 @@ ms.date: 08/28/2017
 ms.reviewer: ''
 manager: laurawi
 localizationpriority: medium
-ms.openlocfilehash: 11768488d2ef7509af6a592b9e4ac945a7e35650
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: f8a2bf8ddb75ca6dd3ff89e16fe0d37e099be29d
+ms.sourcegitcommit: 85f5a2e67b34fe073ec588ed441ebee239ab0ac6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830926"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "11400733"
 ---
-# 使用 Microsoft Authenticator 登录到 Surface Hub
+# <a name="sign-in-to-surface-hub-with-microsoft-authenticator"></a>使用 Microsoft Authenticator 登录到 Surface Hub
 
 组织中的人员可以使用 Android 和 iOS 上提供的 Microsoft Authenticator 应用登录到 Surface Hub，而无需使用密码。
 
-## 组织先决条件
+## <a name="organization-prerequisites"></a>组织先决条件
 
 若要让组织中的人员利用其手机和其他设备登录到 Surface Hub，而不是利用密码登录，你将需要确保组织满足以下先决条件： 
 
@@ -33,15 +33,13 @@ ms.locfileid: "10830926"
 
     ![多重身份验证选项](images/mfa-options.png)
 
-- 启用在 Azure AD 服务（如 Office、SharePoint 等）上托管的内容。 
+- 在 Azure AD 服务（如 Office、SharePoint 等）上启用内容托管。 
 
 - Surface Hub 必须运行 Windows 10 版本 1703 或更高版本。
 
 - 使用本地或已加入域的帐户设置 Surface Hub。
 
-目前无法使用 Microsoft Authenticator 登录已加入 Azure AD 的 Surface Hub。
-
-## 单个先决条件
+## <a name="individual-prerequisites"></a>单个先决条件
 
 - 运行 6.0 或更高版本的 Android 手机，或者运行 iOS9 或更高版本的 iPhone 或 iPad 
 
@@ -54,9 +52,7 @@ ms.locfileid: "10830926"
 
 - 设备上的密码或屏幕锁定已启用
 
-- 标准 SMTP 电子邮件地址（示例：joe@contoso.com）。 非标准或虚 SMTP 电子邮件地址（示例：firstname.lastname@contoso.com）目前无效。
-
-## 如何设置 Microsoft Authenticator 应用
+## <a name="how-to-set-up-the-microsoft-authenticator-app"></a>如何设置 Microsoft Authenticator 应用
 
 >[!NOTE]
 >如果在 Android 设备上安装了公司门户，请在设置 Microsoft Authenticator 之前卸载此门户。 设置应用后，你可以重新安装公司门户。
@@ -67,7 +63,7 @@ ms.locfileid: "10830926"
 2. 转到**设置**并注册你的设备。
 3. 返回到帐户页面，然后从帐户下拉菜单中选择**启用电话登录**。
 
-## 如何在会议期间登录 Surface Hub
+## <a name="how-to-sign-in-to-surface-hub-during-a-meeting"></a>如何在会议期间登录 Surface Hub
 
 1. 在设置会议后，转到 Surface Hub 并选择**登录即可查看你的会议和文件**。
 
