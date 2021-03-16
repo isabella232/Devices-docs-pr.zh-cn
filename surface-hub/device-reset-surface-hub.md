@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/10/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 4b6797a83936b919aa43a7ae9fc8ae4dd720223a
-ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
+ms.openlocfilehash: 8d9a4f995abda4e005e8136ace62e10fb564c9b8
+ms.sourcegitcommit: ea853f2dba67e63e6df33538670fd581e17facab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "11406610"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "11408807"
 ---
 # <a name="reset-or-recover-a-surface-hub"></a>重置或恢复 Surface Hub
 
@@ -37,7 +37,7 @@ ms.locfileid: "11406610"
 
 出于以下原因，你可能必须重置 Surface Hub：
 
-- 你正在重新设置设备以用于新的会议空间，并且想要重新配置它。
+- 你正在将设备重新用于新的会议空间，并且想要重新配置它。
 - 想要更改本地管理设备的方式。
 - 设备帐户或管理员帐户的用户名或密码已丢失。
 - 安装更新后，设备性能会降低。
@@ -49,18 +49,21 @@ ms.locfileid: "11406610"
 
 1. 在 Surface Hub 上，打开**设置**。
 
-   ![显示 Surface Hub 的"设置"应用的图像。](images/sh-settings.png)
+   > [!div class="mx-imgBorder"]
+   > ![显示 Surface Hub 的"设置"应用的图像。](images/sh-settings.png)
 
 2. 选择 **"更新&安全"。**
 
-   ![显示 Surface Hub &"应用中的"更新和安全"组的图像。](images/sh-settings-update-security.png)
+   > [!div class="mx-imgBorder"]
+   > ![显示 Surface Hub &"应用中的"更新和安全"组的图像。](images/sh-settings-update-security.png)
 
 3. 选择 **"恢复**"，然后在"重置**设备"下**，选择 **"开始使用"。**
 
    > [!IMPORTANT]
    > 在重置设备之前，请确保你的 BitLocker 密钥可用，因为稍后会提示你提供它。 若要了解更多信息，请参阅 [保存 BitLocker 密钥](save-bitlocker-key-surface-hub.md)。 当集线器重新启动到恢复分区时，它将提示你输入 BitLocker 密钥。 跳过该提示将导致重置失败。
    
-   ![显示 Surface Hub 的"设置"应用中的"重置设备"选项的图像。](images/sh-settings-reset-device.png)
+   > [!div class="mx-imgBorder"]
+   > ![显示 Surface Hub 的"设置"应用中的"重置设备"选项的图像。](images/sh-settings-reset-device.png)
 
    重置过程完成后，Surface Hub 将再次 [启动首次运行](first-run-program-surface-hub.md) 计划。 如果重置过程遇到问题，它会将 Surface Hub 回滚到以前存在的操作系统映像，然后显示欢迎屏幕。
 
@@ -86,7 +89,8 @@ ms.locfileid: "11406610"
 
 2. 在 **"从云中恢复"下**，选择 **"立即重启"。**
 
-   ![从云中恢复](images/recover-from-the-cloud.png)
+   > [!div class="mx-imgBorder"]
+   > ![从云中恢复](images/recover-from-the-cloud.png)
 
 ### <a name="recover-a-locked-surface-hub"></a>恢复锁定的 Surface Hub
 
@@ -99,26 +103,31 @@ ms.locfileid: "11406610"
 3. 使用电源开关重新打开 Surface Hub。 设备启动并显示 Surface Hub 徽标屏幕。 当你在 Surface Hub 徽标下看到旋转的点时，请使用电源开关再次关闭 Surface Hub。  
 
 4. 重复步骤 3 三次，或直到 Surface Hub 显示"正在准备自动修复"消息。 显示此消息后，Surface Hub 将显示 Windows RE 屏幕。
-
  
-5. 选择 **重置以重新安装 Windows**。 
-![重置为重新安装](images/recover-from-cloud.png)
+5. 选择 **“重置”**。 
 
-8. 选择 **"云下载"。** 
+6. 如果系统提示你输入 BitLocker 密钥，请执行下列操作之一：
+   - 若要在 Surface Hub 上保留 BitLocker 保护的信息，请输入 BitLocker 密钥。
+   - 若要放弃受保护的信息，请选择跳过此驱动器
+
+7. 选择 **"云下载"。** 
 
    ![云下载](images/recover-cloud-download.png)
 
->[!IMPORTANT]
->如果收到指示无法下载 **的错误消息，** 请选择" **取消** "，然后重试。
+   >[!IMPORTANT]
+   >如果收到指示无法下载的错误消息，**** 请选择"**取消**"，然后**再次**重置。
 
-9. 选择 **"完全清理驱动器"。**  
-![恢复和完全清理驱动器](images/recover-fully-clean-drive.png)
+8. 选择 **"完全清理驱动器"。**
+ 
+   ![恢复和完全清理驱动器](images/recover-fully-clean-drive.png)
 
-10. 将询问你**准备好重置此设备了吗？。** 选择 **“重置”**。 
-![恢复并确认重置](images/recover-confirm-reset.png)
+9. 将询问你**准备好重置此设备了吗？。** 选择 **“重置”**。 
+   
+   ![恢复并确认重置](images/recover-confirm-reset.png)
 
-11. 下载开始，恢复过程指示 **重置此设备**。 
-![正在显示的恢复](images/recover-in-progress.png)
+10. 下载开始，恢复过程指示 **重置此设备**。
+
+    ![正在显示的恢复](images/recover-in-progress.png)
 
 ## <a name="contact-support"></a>联系支持人员
 
