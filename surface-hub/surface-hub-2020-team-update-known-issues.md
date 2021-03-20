@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 02/09/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: ddfa9369c03296d9a7792ee0b28bf3b91163b9c7
-ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
+ms.openlocfilehash: 903307112433d794052a4a4e9694f3e793d248c8
+ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "11406595"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "11442110"
 ---
 # <a name="known-issues-windows-10-team-2020-update"></a>已知问题：Windows 10 团队 2020 更新 
 
@@ -37,4 +37,3 @@ ms.locfileid: "11406595"
 | 使用手机登录 Surface Hub 时，加入 Azure Active Directory 的设备的单一登录失败 | 如果 IT 管理员将租户配置为使用无密码[](surface-hub-2s-phone-authenticate.md)身份验证登录到 Surface Hub，并且设备已加入 AAD，则用户无法使用移动设备（如手机）登录。                                                                                                       | 手动登录到 Surface Hub。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | 使用 Edge 旧版浏览器时，无法通过电子邮件共享旧版浏览器 Web 笔记。 | 创建 Web 笔记并浏览共享流以通过电子邮件发送便笺后，不显示"发送"按钮。 因此，无法通过电子邮件共享便笺。 | 已安装 2020 更新的 Surface Hub 可以升级到新的 Microsoft Edge 浏览器，并且通过电子邮件共享笔记适用于该浏览器。<br> <br>**了解更多信息**： [在 Surface Hub 上安装新的 Microsoft Edge](surface-hub-install-chromium-edge.md) |
 | 操作中心具有一个不可点击的"设置"链接。 | 此链接不应显示在 Windows 10 团队中，并且可能导致混淆。   | 该功能与 2020 更新之前相同;"开始"菜单的"应用"部分应该用于启动"设置"应用。    |
-| Hub 2S 设备在更新到 Windows 10 Team 2020 for 2S 的 2020 年 11 月 24 日更新后报告序列号的所有 0。 | 安装 Windows 10 Team 2020 的 Surface Hub 2S 11 月 24 日更新或安装 Windows 10 Team 2020 恢复映像 (BMR) 后，某些设备将报告序列号的所有零。 这将阻止设备注册到 MDM 提供程序。  | 当设备在 9 月 1 日未安装 **Surface SMC 固件更新 1.177.139.0** (发生此问题。 迁移到 SMC 固件更新 **3.91.139.0** (包括在原始 Windows 10 Team 2020 BMR 中或 Windows 10 Team 2020) 2020 年 11 月 24 日更新的一部分的 Windows 10 Team Creators Update) 的 2020 更新。 由于 **Surface SMC 固件更新 3.93.139.0** 现在包含在当前的 Windows 10 Team 2020 BMR 中，并且通过 Windows 更新提供给 Surface Hub 2S 设备，因此不能再遇到此问题。 安装固件更新后，已受到影响的设备将生成一个新的序列号。 请注意，安装更新后需要重新启动设备两次才能完成安装。 **了解更多信息**[：Surface Hub 更新历史记录](surface-hub-update-history.md)。 |
