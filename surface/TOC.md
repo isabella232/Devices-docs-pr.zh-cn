@@ -84,5 +84,6 @@
 ## 保证和保护计划
 ### [Surface for Business 保证和保护计划](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
 ### [条款和条件](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
+### [下个工作日更换](surface-next-business-day-replacement.md)
 ### [检查设备保修状态](https://mybusinessservice.surface.com/)
 ### [寄送 Surface 进行维修时保护数据](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)

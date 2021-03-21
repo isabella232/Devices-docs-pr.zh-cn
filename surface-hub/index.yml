@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 0aa7a76d8b010991b7c3dbc7c4c12f35f3715acb
-  ms.sourcegitcommit: ea853f2dba67e63e6df33538670fd581e17facab
+  ms.openlocfilehash: 24ff4e62cfe71791eca937483b610ab27ca0c60b
+  ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/15/2021
-  ms.locfileid: "11408797"
+  ms.lasthandoff: 03/20/2021
+  ms.locfileid: "11442140"
 landingContent:
 - title: 为 Surface Hub 2S 做好准备
   linkLists:
@@ -41,12 +41,12 @@ landingContent:
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107
     - text: 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
       url: surface-hub-2s-migrate-os.md
-- title: 开始行动
+- title: 入门
   linkLists:
   - linkListType: get-started
     links:
-    - text: 内幕观察新 Surface Hub 2S 85"
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/inside-look-at-the-new-surface-hub-2s-85/ba-p/1721773
+    - text: 为 Surface Hub 准备环境
+      url: prepare-your-environment-for-surface-hub.md
     - text: 订购 Surface Hub 2S
       url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab
     - text: 操作系统基本知识
