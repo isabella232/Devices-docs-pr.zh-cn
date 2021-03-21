@@ -22,7 +22,7 @@
 #### [设置工作表](setup-worksheet-surface-hub.md)
 #### [Surface Hub 2S 端口和小键盘概述](surface-hub-2s-port-keypad-overview.md)
 #### [将设备连接到 Surface Hub 2S](surface-hub-2s-connect.md)
-### [为 Microsoft Surface Hub 2S 准备环境](surface-hub-2s-prepare-environment.md)
+### [为 Microsoft Surface Hub 准备环境](prepare-your-environment-for-surface-hub.md)
 
 
 ## 部署
