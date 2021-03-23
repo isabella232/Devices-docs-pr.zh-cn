@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/02/2020
+ms.date: 03/22/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 1fab09ef21dbddbb2b4f292acd716c6e6cbaff7e
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
-ms.translationtype: HT
+ms.openlocfilehash: 6224f9aa3abed85d5aff7e7e58fccbb6df41d283
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387488"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442906"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a>安装和装载 Surface Hub 2S 85”
 
@@ -27,8 +27,6 @@ ms.locfileid: "11387488"
 - 开始之前，请查看 Microsoft Surface Hub 2S 85"取消密码箱和设置视频：
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
-
-- 此视频的中文版本在下面的 [附录 B](#appendix-b-unboxing-video) 提供。 
 
 ## <a name="follow-all-safety-precautions"></a>遵循所有安全注意事项 
 
@@ -205,15 +203,6 @@ Surface Hub 2S 85" 使用 600 x 600 VESA 挂载模式。 如下图所示，Micro
 > [!WARNING]
 >  **正确安装**<br>
 为避免与设备安装不当相关的错误，必须由在工作之前已阅读并了解安装说明的人执行安装。 如果你没有所需的设备或专业知识，或者不确定其能否正确支持，请咨询专业安装程序。
-
-
-## <a name="appendix-b-unboxing-video"></a>高明：取消框式视频
-
-
-### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Microsoft Surface Hub 2S 85" 解箱和设置视频（中文）
-
-> [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
-
 
 ## <a name="more-information"></a>更多信息
 
