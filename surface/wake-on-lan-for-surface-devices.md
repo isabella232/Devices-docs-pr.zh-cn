@@ -14,12 +14,12 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 3/19/2021
-ms.openlocfilehash: 1fbbf899876d154469d48fa75a179196697205c1
-ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
+ms.openlocfilehash: 9c3302616de97cf60b7d750948fed653456a7cba
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "11442152"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442886"
 ---
 # <a name="wake-on-lan-for-surface-devices"></a><span data-ttu-id="2109a-104">Surface 设备的 LAN 唤醒</span><span class="sxs-lookup"><span data-stu-id="2109a-104">Wake On LAN for Surface devices</span></span>
 
@@ -44,7 +44,7 @@ ms.locfileid: "11442152"
 <span data-ttu-id="2109a-120">许多管理解决方案（如 Microsoft Endpoint Configuration Manager 和第三方 Microsoft Store 应用）都提供对 WOL 的内置支持。</span><span class="sxs-lookup"><span data-stu-id="2109a-120">Many management solutions, such as Microsoft Endpoint Configuration Manager and third party Microsoft Store apps provide built-in support for WOL.</span></span> <span data-ttu-id="2109a-121">请注意，设备需要处于连接待机模式 (睡眠) 并连接到交流电源。</span><span class="sxs-lookup"><span data-stu-id="2109a-121">Note that devices need to be in Connected Standby (Sleep) mode and connected to AC power.</span></span> <span data-ttu-id="2109a-122">若要了解有关使用 Endpoint Configuration Manager 唤醒设备的信息，请参阅[Configure Wake on LAN - Configuration Manager。](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan)</span><span class="sxs-lookup"><span data-stu-id="2109a-122">To learn more about waking devices with Endpoint Configuration Manager, see [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan).</span></span>
 
 
-## <a name="to-check-wol-is-enabled-on-your-device"></a><span data-ttu-id="2109a-123">检查设备上是否已启用 WOL</span><span class="sxs-lookup"><span data-stu-id="2109a-123">To check WOL is enabled on your device</span></span>
+### <a name="to-check-wol-is-enabled-on-your-device"></a><span data-ttu-id="2109a-123">检查设备上是否已启用 WOL</span><span class="sxs-lookup"><span data-stu-id="2109a-123">To check WOL is enabled on your device</span></span>
 
 1. <span data-ttu-id="2109a-124">在已连接以太网的设备上，选择网络适配器，然后选择"属性 **"。**</span><span class="sxs-lookup"><span data-stu-id="2109a-124">On your Ethernet connected device, select your network adapter, and then select **Properties**.</span></span>
 
