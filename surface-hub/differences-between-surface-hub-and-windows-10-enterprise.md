@@ -1,22 +1,22 @@
 ---
 title: 操作系统基本知识 (Surface Hub)
-description: 本主题介绍 Windows 10 团队操作系统的独特方面及其与 Windows 10 企业版的区别。
+description: 本主题介绍 Windows 10 团队版操作系统的独特方面及其与 Windows 10 企业版的区别。
 keywords: 更改历史记录
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/03/2021
+ms.date: 03/23/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: f3ffcc46912fba3313e4489f5713b6ffcacf2d8a
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
+ms.openlocfilehash: 9c76f9405146c5cda4afe6b46ce7e1cce0062682
+ms.sourcegitcommit: 88ce9e77afdc3d09984edc05286cd0f1eb054223
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387473"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "11448296"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>操作系统基本知识 (Surface Hub)
 
@@ -24,7 +24,7 @@ Surface Hub 操作系统 Windows 10 协同版基于 Windows 10 企业版，提�
 
 从 2020 年 9 月开始，客户可以选择迁移到 Surface Hub 2S 上的 Windows 10 专业版或企业版。 若要了解详细信息，请参阅以下内容：
 
-- [宣布在 Surface Hub 2 上提供 Windows 10 专业版和企业版](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107)。
+- [宣布在 Surface Hub 2 上推出 Windows 10](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107)专业版和企业版。
 
 - [迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版](surface-hub-2s-migrate-os.md)
 
@@ -71,26 +71,26 @@ Surface Hub 设计用于公共场所，例如会议室。 与 Windows 电脑不�
 除少数情况外，Surface Hub 上的默认通用 Windows 平台 (UWP) 应用也可用于 Windows 10 电脑。
 
 在 Surface Hub 上预安装的 UWP 应用：
+
 - 闹钟和时钟
 - 计算器
 - Connect
 - Excel Mobile
 - 反馈中心
-- 文件资源管理器*
+- 文件资源管理器
 - 入门
 - 地图
 - Microsoft Edge
 - Microsoft Power BI
+- Microsoft Teams
+- Microsoft Whiteboard
 - OneDrive
 - 照片
 - PowerPoint Mobile
-- 设置*
-- Skype for Business*
+- “设置”
 - 应用商店
-- 白板*
+- 提示
 - Word Mobile
-
-*带有星号 (&ast;) 的应用专用于 Surface Hub*
 
 *这可能影响的组织策略：* <br> 使用适用于 Windows 10 企业版的指南，确定 Surface Hub 上的默认应用的功能和网络要求。
 
@@ -106,11 +106,11 @@ Surface Hub 设计用于公共场所，例如会议室。 与 Windows 电脑不�
 
 Surface Hub 可实现这些 Windows 10 安全功能：
 - [UEFI 安全启动](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview)
-- [用户模式代码完整性 (UMCI) 与 Device Guard](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
+- [Windows Defender 应用程序控制和对代码完整性的基于虚拟化的保护](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
 - [使用 AppLocker 的应用程序限制策略](https://technet.microsoft.com/itpro/windows/keep-secure/applocker-overview)
 - [BitLocker 驱动器加密](https://technet.microsoft.com/itpro/windows/keep-secure/bitlocker-overview)
 - [受信任的平台模块 (TPM)](https://technet.microsoft.com/itpro/windows/keep-secure/trusted-platform-module-overview)
-- [Windows Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
+- [Microsoft Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
 - 对“设置”应用的访问权限的[用户帐户控制 (UAC)](https://technet.microsoft.com/itpro/windows/keep-secure/user-account-control-overview)
 
 这些 Surface Hub 功能提供额外安全：
@@ -121,6 +121,8 @@ Surface Hub 可实现这些 Windows 10 安全功能：
 - 下载高级即插即用驱动程序处于禁用状态
 
 *这可能影响的组织策略：* <br> 在对 Surface Hub 执行安全评估时，考虑以下功能。
+
+若要了解更多信息，请参阅 [Surface Hub 安全性概述](surface-hub-security.md)
 
 ## <a name="management"></a>管理
 
