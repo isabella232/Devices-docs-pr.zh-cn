@@ -4,7 +4,6 @@
 
 ## 概述
 ### [Windows 10 协同版 2020 更新中的新增功能](surface-hub-2020-update-whats-new.md)
-### [适用于 IT 管理员的 Surface Hub 2S 新增功能](surface-hub-2s-whats-new.md)
 ### [Surface Hub 2S 50 英寸技术规格](surface-hub-2s-techspecs.md) 
 ### [Surface Hub 2S 85 英寸技术规格](surface-hub-2s-85.md)
 ### [操作系统基本知识 (Surface Hub)](differences-between-surface-hub-and-windows-10-enterprise.md)
