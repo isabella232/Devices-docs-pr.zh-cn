@@ -13,7 +13,7 @@ ms.date: 03/22/2020
 ms.localizationpriority: Medium
 ms.openlocfilehash: 6224f9aa3abed85d5aff7e7e58fccbb6df41d283
 ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/22/2021
 ms.locfileid: "11442906"
