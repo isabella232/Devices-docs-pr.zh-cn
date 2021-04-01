@@ -26,7 +26,7 @@ ms.locfileid: "11442906"
 
 - <span data-ttu-id="2fe1a-107">开始之前，请查看 Microsoft Surface Hub 2S 85"取消密码箱和设置视频：</span><span class="sxs-lookup"><span data-stu-id="2fe1a-107">Before you begin, please review Microsoft Surface Hub 2S 85" Unboxing and Set Up video:</span></span>
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4MRqV]
 
 ## <a name="follow-all-safety-precautions"></a><span data-ttu-id="2fe1a-108">遵循所有安全注意事项</span><span class="sxs-lookup"><span data-stu-id="2fe1a-108">Follow all safety precautions</span></span> 
 
