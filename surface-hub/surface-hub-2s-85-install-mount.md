@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/22/2020
+ms.date: 03/22/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 6224f9aa3abed85d5aff7e7e58fccbb6df41d283
-ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
+ms.openlocfilehash: 9b7a3e49f3fa05117fa37cbd47695e54ff26e899
+ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "11442906"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "11470490"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a><span data-ttu-id="2fe1a-104">安装和装载 Surface Hub 2S 85”</span><span class="sxs-lookup"><span data-stu-id="2fe1a-104">Install and mount Surface Hub 2S 85”</span></span>
 
@@ -26,7 +26,7 @@ ms.locfileid: "11442906"
 
 - <span data-ttu-id="2fe1a-107">开始之前，请查看 Microsoft Surface Hub 2S 85"取消密码箱和设置视频：</span><span class="sxs-lookup"><span data-stu-id="2fe1a-107">Before you begin, please review Microsoft Surface Hub 2S 85" Unboxing and Set Up video:</span></span>
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4MRqV]
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
 
 ## <a name="follow-all-safety-precautions"></a><span data-ttu-id="2fe1a-108">遵循所有安全注意事项</span><span class="sxs-lookup"><span data-stu-id="2fe1a-108">Follow all safety precautions</span></span> 
 
