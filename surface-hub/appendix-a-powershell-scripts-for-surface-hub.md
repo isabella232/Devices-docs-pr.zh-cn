@@ -1,6 +1,6 @@
 ---
 title: '适用于 Surface Hub (v1) '
-description: '此页面包括适用于原始 Surface Hub (v1) '
+description: '此页面包括适用于原始 Surface Hub v1 版本 1 (的 PowerShell) '
 ms.assetid: 3EF48F63-8E4C-4D74-ACD5-461F1C653784
 ms.reviewer: ''
 manager: laurawi
@@ -14,17 +14,17 @@ ms.date: 02/01/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 73c028357849cd660d3b8720aaaa28aade12fea1
-ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
+ms.openlocfilehash: bf130c2707de4507a76f0c0d6f711af3082a7647
+ms.sourcegitcommit: 4ec96ff1cd563d055fa0689a63f136acf2794a2e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "11317976"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "11474749"
 ---
-# 适用于 Surface Hub (v1) 
+# <a name="powershell-for-surface-hub-v1"></a>适用于 Surface Hub (v1) 
 
 > [!NOTE]
- >此页面包括适用于原始 Surface Hub (v1) 。 有关 Surface Hub 2S 的最新帐户创建脚本，请参阅["创建 Surface Hub 2S 设备帐户"。](surface-hub-2s-account.md)
+ >此页面包括适用于原始 Surface Hub (v1) 的 PowerShell 脚本。 有关 Surface Hub 2S 的最新帐户创建脚本，请参阅 [创建和测试设备帐户](create-and-test-a-device-account-surface-hub.md)。
 
 -   [适用于 Surface Hub 管理员的 PowerShell 脚本](#scripts-for-admins)
     -   [创建本地帐户](#create-on-premises-ps-scripts)
@@ -38,9 +38,9 @@ ms.locfileid: "11317976"
     -   [接受外部会议请求](#accept-ext-meetings-cmdlet)
     
  > [!NOTE]
- > 另请参阅[Exchange Online PowerShell V2 中的](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)新式身份验证和无人参与脚本
+ > 另请参阅[Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)中的新式身份验证和无人参与脚本
 
-## 必备软件
+## <a name="prerequisites"></a>必备软件
 
 要成功执行这些 PowerShell 脚本，将需要安装以下必备软件:
 
@@ -48,7 +48,7 @@ ms.locfileid: "11317976"
 - [用于 Windows PowerShell 的 Microsoft Azure Active Directory 模块（64 位版本）](https://www.powershellgallery.com/packages/MSOnline/1.1.183.17)
 - [用于 Skype for Business Online 的 Windows PowerShell 模块](https://www.microsoft.com/download/details.aspx?id=39366)
 
-## <a href="" id="scripts-for-admins"></a>适用于 Surface Hub 管理员的 PowerShell 脚本
+## <a name="powershell-scripts-for-surface-hub-administrators"></a><a href="" id="scripts-for-admins"></a>适用于 Surface Hub 管理员的 PowerShell 脚本
 
 脚本有什么作用？
 
@@ -64,15 +64,15 @@ ms.locfileid: "11317976"
 > [!NOTE]
 > 无论是要创建新帐户还是要修改已有帐户，验证脚本都将验证是否已正确配置你的设备帐户。 在向 Surface Hub 添加设备帐户之前，应始终运行验证脚本。
 
-## 运行脚本
+## <a name="running-the-scripts"></a>运行脚本
 
 帐户创建脚本将：
 
 -   请求管理员凭据。
 -   在域/租户中创建设备帐户。
--   创建 Surface Hub 兼容的 ActiveSync 策略或将其分配给设备帐户 () 。
+-   创建 Surface Hub 兼容的 ActiveSync 策略或将其分配给设备帐户 (设备) 。
 -   在 Exchange 和 Skype for Business 中为已创建的帐户设置各种属性。
--   将许可证和权限分配给已创建 () 。
+-   将许可证和权限分配给已创建 (帐户) 。
 
 下面是通过脚本设置的属性：
 
@@ -183,15 +183,14 @@ ms.locfileid: "11317976"
 </tbody>
 </table>
 
-## 帐户创建脚本
+## <a name="account-creation-scripts"></a>帐户创建脚本
 
 这些脚本将为你创建设备帐户。 可以使用[帐户验证脚本](#acct-verification-ps-scripts)来确保它们正确运行。
 
 帐户创建脚本无法修改已有帐户，但可用于帮助你了解正确配置现有帐户所需运行的 cmdlet。
 
-### <a href="" id="create-on-premises-ps-scripts"></a>创建本地帐户
+### <a name="create-an-on-premises-account"></a><a href="" id="create-on-premises-ps-scripts"></a>创建本地帐户
 
-按照[本地部署](on-premises-deployment-surface-hub-device-accounts.md)中的说明创建帐户。
 
 ```PowerShell
 # SHAccountCreateOnPrem.ps1
@@ -549,9 +548,9 @@ else
 }
 ```
 
-### <a href="" id="create-os356-ps-scripts"></a>使用 Office 365 创建设备帐户
+### <a name="create-a-device-account-using-office-365"></a><a href="" id="create-os356-ps-scripts"></a>使用 Office 365 创建设备帐户
 
-创建一个帐户，如 [使用 Office 365](create-a-device-account-using-office-365.md)创建设备帐户中所述。
+创建帐户，如使用 [Office 365 创建设备帐户中所述](create-and-test-a-device-account-surface-hub.md)。
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -994,7 +993,7 @@ else
 }
 ```
 
-## <a href="" id="acct-verification-ps-scripts"></a>帐户验证脚本
+## <a name="account-verification-script"></a><a href="" id="acct-verification-ps-scripts"></a>帐户验证脚本
 
 此脚本验证 Surface Hub 和 Surface Hub 2S 上以前创建的设备帐户，无论使用哪种方法创建它。 此脚本基本上处于通过/未通过状态。 如果出现其中一个测试错误，将显示详细的错误消息；但如果所有测试都通过，最终结果将为摘要报告。 例如，你可能看到：
 
@@ -1445,7 +1444,7 @@ Write-Host -ForegroundColor Green $Global:iTotalPasses "passes "
 Cleanup
 ```
 
-## <a href="" id="enable-sfb-ps-scripts"></a>启用 Skype for Business 
+## <a name="enable-skype-for-business"></a><a href="" id="enable-sfb-ps-scripts"></a>启用 Skype for Business 
 
 此脚本将在设备帐户上启用 Skype for Business。 仅当之前未在帐户创建过程中启用 Skype for Business 时，才会使用它。
 
@@ -1605,9 +1604,9 @@ PrintSuccess "Successfully enabled $strRoomUri as a Skype for Business meeting r
 Cleanup
 ```
 
-## 有用的 cmdlet
+## <a name="useful-cmdlets"></a>有用的 cmdlet
 
-### <a href="" id="create-compatible-as-policy"></a>创建 Surface Hub 兼容的 ActiveSync 策略
+### <a name="creating-a-surface-hub-compatible-activesync-policy"></a><a href="" id="create-compatible-as-policy"></a>创建 Surface Hub 兼容的 ActiveSync 策略
 
 对于要使用 Exchange 服务的 Surface Hub，必须在设备上预配使用兼容 ActiveSync 策略配置的设备帐户。 此策略具有以下要求：
 
@@ -1645,7 +1644,7 @@ Set-CASMailbox $strRoomUpn -ActiveSyncMailboxPolicy $strPolicy
 Set-Mailbox $strRoomUpn -Type Room
 ```
 
-### 允许 ActiveSync 的设备 ID
+### <a name="allowing-device-ids-for-activesync"></a>允许 ActiveSync 的设备 ID
 
 若要允许帐户 `$strRoomUpn`，请运行以下命令：
 
@@ -1661,7 +1660,7 @@ Get-ActiveSyncDevice -Mailbox $strRoomUpn
 
 这会检索每台设备（已在其上预配了帐户）的设备信息，包括 `DeviceId` 属性。
 
-### <a href="" id="auto-accept-meetings-cmdlet"></a>自动接受和拒绝会议请求
+### <a name="auto-accepting-and-declining-meeting-requests"></a><a href="" id="auto-accept-meetings-cmdlet"></a>自动接受和拒绝会议请求
 
 对于基于设备帐户的可用性自动接受或拒绝会议请求的设备帐户，必须将 **AutomateProcessing** 属性设置为 **AutoAccept**。 建议这样做，以便阻止会议重叠。
 
@@ -1669,7 +1668,7 @@ Get-ActiveSyncDevice -Mailbox $strRoomUpn
 Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
 ```
 
-### <a href="" id="accept-ext-meetings-cmdlet"></a>接受外部会议请求
+### <a name="accepting-external-meeting-requests"></a><a href="" id="accept-ext-meetings-cmdlet"></a>接受外部会议请求
 
 对于要接受外部会议请求（会议请求来自不在相同租户/域中的帐户）的设备帐户，必须将该设备帐户设置为允许处理外部会议请求。 设置完成后，该设备帐户可自动接受或拒绝来自外部帐户以及本地帐户的会议请求。
 

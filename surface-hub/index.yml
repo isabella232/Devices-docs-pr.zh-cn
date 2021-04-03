@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 24ff4e62cfe71791eca937483b610ab27ca0c60b
-  ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
+  ms.openlocfilehash: 19d3941e9fd13df437770bd75588d87eddcd30ac
+  ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/20/2021
-  ms.locfileid: "11442140"
+  ms.lasthandoff: 04/01/2021
+  ms.locfileid: "11470430"
 landingContent:
 - title: 为 Surface Hub 2S 做好准备
   linkLists:
@@ -81,8 +81,8 @@ landingContent:
     links:
     - url: https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config
       text: 在 Surface Hub 上管理 Microsoft Teams 设置
-    - url: surface-hub-2s-manage-intune.md
-      text: 使用 Intune 管理 Surface Hub 2S
+    - url: manage-settings-with-mdm-for-surface-hub.md
+      text: 通过 MDM 提供商管理 Surface Hub
     - url: local-management-surface-hub-settings.md
       text: 管理本地设置
 - title: 安全

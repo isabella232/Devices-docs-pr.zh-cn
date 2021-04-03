@@ -45,7 +45,7 @@
 ### [已知问题 - Windows 10 协同版 2020 更新](surface-hub-2020-team-update-known-issues.md)
 ### [配置 Surface Hub 上的非全局管理员帐户](surface-hub-2s-nonglobal-admin.md)
 ### [在 Surface Hub 上安装和配置新版 Microsoft Edge](surface-hub-install-chromium-edge.md)        
-### [使用 Microsoft Intune 管理 Surface Hub 2S](surface-hub-2s-manage-intune.md)
+### [通过 MDM 提供商管理 Surface Hub](manage-settings-with-mdm-for-surface-hub.md)
 ### [Surface Hub 2S 设置的本地管理](local-management-surface-hub-settings.md)
 ### [管理设备帐户密码轮换](password-management-for-surface-hub-device-accounts.md)
 ### [管理 Windows 更新](manage-windows-updates-for-surface-hub.md)

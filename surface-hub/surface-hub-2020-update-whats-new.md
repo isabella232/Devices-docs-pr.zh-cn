@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 96452885e19adc9784bb8d14be8ac6f2f86e883d
-ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
+ms.openlocfilehash: 14e08cf099ac441f7b2b3b76366406868ac6c056
+ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "11442866"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "11470420"
 ---
 # <a name="whats-new-in-windows-10-team-2020-update"></a>Windows 10 协同版 2020 更新中的新增功能
 
@@ -25,9 +25,18 @@ Windows 10 Team 2020 Update 对设备部署和可管理性以及最新的 Window
 ##  <a name="deployment-and-manageability"></a>部署和可管理性
 
 - **云设备帐户的新式验证**。 Surface Hub 支持 Exchange Web 服务 (EWS) 和基于 ADAL) 的 Active Directory 身份验证库 (ADAL 身份验证连接到 Exchange，从而允许客户弃用基本身份验证。 若要了解更多信息，请参阅 [Surface Hub 上的新式验证](https://docs.microsoft.com/surface-hub/surface-hub-modern-auth)。
-- **超过 20 个新的和更新的**移动设备管理 (MDM) 策略。      这些策略使 IT 管理员改进了对多个设备设置的控制，包括：来自 Microsoft Store 的应用更新、无线投影设置（如基础结构的 Miracast、网络设置（如服务质量和 802.1x 有线身份验证）以及新的隐私/GDPR 相关设置。 若要了解更多，请参阅： 
-- [使用 Microsoft Intune 管理 Surface Hub。](surface-hub-2s-manage-intune.md)
-- [Microsoft Surface Hub 支持的策略 CSP](https://docs.microsoft.com//windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+- **MDM 中超过 20 个新的和更新的移动设备 () 策略设置。**  这些策略设置使 IT 管理员改进了对多个设备设置的控制，包括：来自 Microsoft Store 的应用更新、无线投影设置（如基础结构的 Miracast、网络设置（如服务质量和 802.1x 有线身份验证）以及新的隐私/GDPR 相关设置。 新配置服务提供程序 (SP) 包括： 
+
+  - [帐户云解决方案提供商](https://docs.microsoft.com/windows/client-management/mdm/accounts-csp) 
+  - [Firewall-CSP](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp) 
+  - [RemoteWipe 云解决方案提供商](https://docs.microsoft.com/windows/client-management/mdm/remotewipe-csp) 
+  - [Wifi-CSP](https://docs.microsoft.com/windows/client-management/mdm/wifi-csp) 
+  - [Wirednetwork-CSP](https://docs.microsoft.com/windows/client-management/mdm/wirednetwork-csp) 
+
+若要了解更多，请参阅： 
+- [Microsoft Surface Hub 中支持的 CSP](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
+- [使用 MDM 提供程序管理 Surface Hub](manage-settings-with-mdm-for-surface-hub.md)
+
 
 ##  <a name="azure-active-directory-joined-devices"></a>加入 Azure Active Directory 的设备
 
@@ -51,7 +60,7 @@ Windows 10 Team 2020 Update 对设备部署和可管理性以及最新的 Window
 
 - **支持与 Microsoft Teams 协调会议**。 在具有 Surface Hub 和 Microsoft Teams 会议室设备的会议室或具有两个 Surface Hub 设备的空间中，协调会议使用户能够在 Microsoft Teams 会议期间轻松利用这两台设备。 通过一次点击，用户可以通过在一台设备上显示视频源和另一台设备上的数字白板或内容，从任一设备加入会议并最大化屏幕空间。 Windows 10 协同版 2020 更新添加了移动设备管理 (MDM) 支持，用于配置协调会议，该功能随后会作为 Microsoft Teams 更新通过 Microsoft Store.To 发布，了解更多信息，请参阅使用 Microsoft Teams 会议室和 [Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/coordinated-meetings)设置协调会议。
 
-## <a name="security"></a>安全
+## <a name="security"></a>安全性
 
 - **使用 FIDO2 安全密钥进行无密码登录**     使用 FIDO2 安全密钥，客户可以快速轻松地登录到 Surface Hub，而无需键入用户名和密码。 与单Sign-On (SSO) 结合使用，此功能在会议期间提供对文件、应用和网站的快速无缝身份验证。 若要了解更多信息，请参阅 [在 Surface Hub 上配置无密码登录](https://docs.microsoft.com/surface-hub/surface-hub-2s-phone-authenticate)。
 - **对使用 Microsoft Authenticator 的无密码登录进行了改进**。  对于使用 Azure AD 的组织，用户可以使用 Microsoft Authenticator 应用登录，而无需键入用户名和密码。 此外，用户可以使用 Azure AD 中的首选电子邮件别名以及其用户主体名称 (UPN) 。 若要了解更多信息，请参阅使用[Microsoft Authenticator 登录 Surface Hub。](https://docs.microsoft.com/surface-hub/surface-hub-authenticator-app)
