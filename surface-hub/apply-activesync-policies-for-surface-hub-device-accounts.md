@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: e8181ec499364c48586f5218983f667331788fc3
-ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
+ms.openlocfilehash: 7ead08e49d3eee2d616ac9fcf06b85dd82e136dc
+ms.sourcegitcommit: 4ec96ff1cd563d055fa0689a63f136acf2794a2e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "11470440"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "11474729"
 ---
 # <a name="applying-activesync-policies-to-device-accounts-surface-hub"></a>将 ActiveSync 策略应用到设备帐户 (Surface Hub)
 
 
-使用 Windows 10 团队 1703 操作系统的 Surface Hub 使用 ActiveSync 同步设备帐户的邮件和日历。 这将允许用户通过 Surface Hub 加入并启动安排的会议，并允许他们以电子邮件形式发送会议期间所做的任何白板内容。
+使用 Active Directory 设备帐户的 Surface Hub (在 Hub 上以 **域\** 用户名格式) 和本地 Exchange 服务使用 ActiveSync 同步邮件和日历。 这将允许用户通过 Surface Hub 加入并启动安排的会议，并允许他们以电子邮件形式发送会议期间所做的任何白板内容。
 
 若要使这些功能正常运行，必须将你的组织的 ActiveSync 策略配置为如下内容：
 
