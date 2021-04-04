@@ -30,10 +30,10 @@
 ### [Surface Hub 2S 的首次设置](surface-hub-2s-setup.md)
 ### [将设备连接到 Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Surface Hub 2S 部署清单](surface-hub-2s-deploy-checklist.md)
-### [创建 Surface Hub 2S 设备帐户](surface-hub-2s-account.md)
+### [创建和测试设备帐户](create-and-test-a-device-account-surface-hub.md)
 ### [创建 Surface Hub 2S 的预配程序包](surface-hub-2s-deploy.md)
 ### [使用 Intune 将应用部署到 Surface Hub 2S](surface-hub-2s-deploy-apps-intune.md)
-### [使用 PowerShell 创建 Surface Hub 2S 的本地帐户](surface-hub-2s-onprem-powershell.md)
+### [使用 PowerShell 创建 Surface Hub 2S 的本地帐户](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
 ### [Surface Hub Teams 应用](hub-teams-app.md)
 ### [适用于 Surface Hub 2S 的 Teams 认证附件](surface-hub-2s-certifications.md)
 
@@ -84,12 +84,10 @@
 
 ## 部署
 ### [创建和测试设备帐户](create-and-test-a-device-account-surface-hub.md)
-#### [联机部署](online-deployment-surface-hub-device-accounts.md)
-#### [本地部署（单个林）](on-premises-deployment-surface-hub-device-accounts.md)
-#### [本地部署（多个林）](on-premises-deployment-surface-hub-multi-forest.md)
+#### [联机部署](https://docs.microsoft.com/microsoftteams/rooms/with-office-365)
+#### [本地部署（单个林）](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
+#### [本地部署（多个林）](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments
 #### [混合部署](hybrid-deployment-surface-hub-device-accounts.md)
-#### [使用 Skype 混合语音环境的联机或混合部署](skype-hybrid-voice.md)
-#### [使用 UI 创建设备帐户](create-a-device-account-using-office-365.md)
 #### [Microsoft Exchange 属性](exchange-properties-for-surface-hub-device-accounts.md)
 #### [将 ActiveSync 策略应用到设备帐户](apply-activesync-policies-for-surface-hub-device-accounts.md)
 #### [密码管理](password-management-for-surface-hub-device-accounts.md)

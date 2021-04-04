@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 19d3941e9fd13df437770bd75588d87eddcd30ac
-  ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
+  ms.openlocfilehash: 3eb4acb7d169a725cab3a5c1b70056495c0419b1
+  ms.sourcegitcommit: 4ec96ff1cd563d055fa0689a63f136acf2794a2e
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/01/2021
-  ms.locfileid: "11470430"
+  ms.lasthandoff: 04/02/2021
+  ms.locfileid: "11474789"
 landingContent:
 - title: 为 Surface Hub 2S 做好准备
   linkLists:
@@ -73,8 +73,8 @@ landingContent:
       text: 使用 Microsoft Teams 会议室和 Surface Hub 安排协调会议
     - url: surface-hub-2s-adoption-kit.md
       text: Surface Hub 2S 采用和培训
-    - url: surface-hub-2s-account.md
-      text: 创建设备帐户
+    - url: create-and-test-a-device-account-surface-hub.md
+      text: 创建和测试设备帐户
 - title: 管理
   linkLists:
   - linkListType: learn
