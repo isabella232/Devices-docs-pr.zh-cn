@@ -10,248 +10,91 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 05/14/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: e0c31082669336d3762fd02f46a939aa8b0ff1bc
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+appliesto:
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: c0bba196aa71c751d092b4e1f2f6005d653b2f69
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831951"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576712"
 ---
-# <span data-ttu-id="5b2e1-104">设置工作表 (Surface Hub)</span><span class="sxs-lookup"><span data-stu-id="5b2e1-104">Setup worksheet (Surface Hub)</span></span>
+# <a name="setup-worksheet-surface-hub"></a><span data-ttu-id="3fc7b-104">设置工作表 (Surface Hub)</span><span class="sxs-lookup"><span data-stu-id="3fc7b-104">Setup worksheet (Surface Hub)</span></span>
 
+<span data-ttu-id="3fc7b-105">当你完成预设置并已准备好为你的 Microsoft Surface Hub 启动首次设置时，请确保你拥有本部分中列出的所有信息。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-105">When you've finished pre-setup and are ready to start first-time setup for your Microsoft Surface Hub, make sure you have all the information listed in this section.</span></span>
 
-<span data-ttu-id="5b2e1-105">当你完成预设置并已准备好为你的 Microsoft Surface Hub 启动首次设置时，请确保你拥有本部分中列出的所有信息。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-105">When you've finished pre-setup and are ready to start first-time setup for your Microsoft Surface Hub, make sure you have all the information listed in this section.</span></span>
+<span data-ttu-id="3fc7b-106">应当为需要配置的每个 Surface Hub 都填写一个列表，尽管某些信息（如代理信息或域凭据）可用于所有 Surface Hub。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-106">You should fill out one list for each Surface Hub you need to configure, although some information can be used on all Surface Hubs, like the proxy information or domain credentials.</span></span> <span data-ttu-id="3fc7b-107">其中某些信息可能不需要，具体取决于决定配置你的设备的方式或者针对组织的基础结构配置环境的方式。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-107">Some of this information may not be needed, depending on how you've decided to configure your device, or depending on how the environment is configured for your organization's infrastructure.</span></span>
 
-<span data-ttu-id="5b2e1-106">应当为需要配置的每个 Surface Hub 都填写一个列表，尽管某些信息（如代理信息或域凭据）可用于所有 Surface Hub。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-106">You should fill out one list for each Surface Hub you need to configure, although some information can be used on all Surface Hubs, like the proxy information or domain credentials.</span></span> <span data-ttu-id="5b2e1-107">其中某些信息可能不需要，具体取决于决定配置你的设备的方式或者针对组织的基础结构配置环境的方式。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-107">Some of this information may not be needed, depending on how you've decided to configure your device, or depending on how the environment is configured for your organization's infrastructure.</span></span>
+<span data-ttu-id="3fc7b-108">完成后，请查看下面的 [部署后](#post-deployment-checklist) 清单。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-108">When finished, review [Post deployment checklist](#post-deployment-checklist) below.</span></span>
 
-<table>
-<tr>
-<th><span data-ttu-id="5b2e1-108">属性</span><span class="sxs-lookup"><span data-stu-id="5b2e1-108">Property</span></span></th>
-<th><span data-ttu-id="5b2e1-109">用途</span><span class="sxs-lookup"><span data-stu-id="5b2e1-109">What this is used for</span></span></th>
-<th><span data-ttu-id="5b2e1-110">示例</span><span class="sxs-lookup"><span data-stu-id="5b2e1-110">Example</span></span></th>
-<th><span data-ttu-id="5b2e1-111">实际值</span><span class="sxs-lookup"><span data-stu-id="5b2e1-111">Actual value</span></span></th>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-112">代理信息</span><span class="sxs-lookup"><span data-stu-id="5b2e1-112">Proxy information</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-113">如果你的网络使用代理进行网络和/或 Internet 访问，必须提供脚本或服务器/端口信息。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-113">If your network uses a proxy for network and/or Internet access, you must provide a script or server/port information.</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-114">代理脚本：</span><span class="sxs-lookup"><span data-stu-id="5b2e1-114">Proxy script:</span></span> <code>http://contoso/proxy.pa</code> </br>
-- <span data-ttu-id="5b2e1-115">或 -</span><span class="sxs-lookup"><span data-stu-id="5b2e1-115">OR -</span></span> </br>
-<span data-ttu-id="5b2e1-116">服务器和端口信息：10.10.10.100，端口 80</span><span class="sxs-lookup"><span data-stu-id="5b2e1-116">Server and port info: 10.10.10.100, port 80</span></span>
-</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-117">无线网络凭据（用户名和密码）</span><span class="sxs-lookup"><span data-stu-id="5b2e1-117">Wireless network credentials (username and password)</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-118">如果你决定将设备连接到 WLAN，而无线网络要求用户凭据。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-118">If you decide to connect your device to Wi-Fi, and your wireless network requires user credentials.</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-119">admin1@contoso.com，#MyPassw0rd</span><span class="sxs-lookup"><span data-stu-id="5b2e1-119">admin1@contoso.com, #MyPassw0rd</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-120">设备帐户 UPN 或域\用户名以及设备帐户密码</span><span class="sxs-lookup"><span data-stu-id="5b2e1-120">Device account UPN or Domain\username and device account password</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-121">这是用户主体名称 (UPN) 或域\用户名以及设备帐户的密码。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-121">This is the User Principal Name (UPN) or the domain\username, and the password of the device account.</span></span> <span data-ttu-id="5b2e1-122">邮件、日历和 Skype for Business，具体取决于兼容的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-122">Mail, calendar, and Skype for Business depend on a compatible device account.</span></span></p>
-</td>
-<td>
-<p> <span data-ttu-id="5b2e1-123">UPN：ConfRoom15@contoso.com，#Passw0rd1</span><span class="sxs-lookup"><span data-stu-id="5b2e1-123">UPN: ConfRoom15@contoso.com, #Passw0rd1</span></span> </br>
-- <span data-ttu-id="5b2e1-124">或 -</span><span class="sxs-lookup"><span data-stu-id="5b2e1-124">OR -</span></span> <br> 
-<span data-ttu-id="5b2e1-125">域和用户名：CONTOSO\ConfRoom15，#Passw0rd1</span><span class="sxs-lookup"><span data-stu-id="5b2e1-125">Domain and username: CONTOSO\ConfRoom15, #Passw0rd1</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-126">设备帐户 Microsoft Exchange Server</span><span class="sxs-lookup"><span data-stu-id="5b2e1-126">Device account Microsoft Exchange server</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-127">这是设备帐户的 Exchange Server。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-127">This is the device account's Exchange server.</span></span>
-<span data-ttu-id="5b2e1-128">邮件、日历和 Skype for Business，具体取决于兼容的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-128">Mail, calendar, and Skype for Business depend on a compatible device account.</span></span>
-<span data-ttu-id="5b2e1-129">为了使邮件和日历正常工作，设备帐户必须具有有效的 Exchange Server。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-129">For mail and calendar to work, the device account must have a valid Exchange server.</span></span> <span data-ttu-id="5b2e1-130">设备将尝试自动查找此项。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-130">The device will try to find this automatically.</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-131">outlook.office365.com</span><span class="sxs-lookup"><span data-stu-id="5b2e1-131">outlook.office365.com</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-132">设备帐户会话初始协议 (SIP) 地址</span><span class="sxs-lookup"><span data-stu-id="5b2e1-132">Device account Session Initiation Protocol (SIP) address</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-133">这是设备帐户的 Skype for Business SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-133">This is the device account's Skype for Business SIP address.</span></span>
-<span data-ttu-id="5b2e1-134">邮件、日历和 Skype for Business，具体取决于兼容的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-134">Mail, calendar, and Skype for Business depend on a compatible device account.</span></span>
-<span data-ttu-id="5b2e1-135">为了使 Skype for Business 正常工作，设备帐户必须具有有效的 SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-135">For Skype for Business to work, the device account must have a valid SIP address.</span></span> <span data-ttu-id="5b2e1-136">设备将尝试自动查找此项。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-136">The device will try to find this automatically.</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-137">sip：ConfRoom15@contoso.com</span><span class="sxs-lookup"><span data-stu-id="5b2e1-137">sip: ConfRoom15@contoso.com</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-138">友好名称</span><span class="sxs-lookup"><span data-stu-id="5b2e1-138">Friendly name</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-139">设备的友好名称是指用户将在尝试以无线方式连接到 Surface Hub 时看到的广播名称。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-139">The friendly name of the device is the broadcast name that people will see when they try to wirelessly connect to the Surface Hub.</span></span> <span data-ttu-id="5b2e1-140">此名称将突出显示在 Surface Hub 的屏幕上。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-140">This name will be displayed prominently on the Surface Hub's screen.</span></span>
-<span data-ttu-id="5b2e1-141">我们建议所选的友好名称可识别且唯一，以便用户在尝试连接时可以区分不同的 Surface Hub。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-141">We suggest that the friendly name you choose is recognizable and unique so that people can distinguish one Surface Hub from another when trying to connect.</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-142">会议室 15</span><span class="sxs-lookup"><span data-stu-id="5b2e1-142">Conference Room 15</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-143">设备名称</span><span class="sxs-lookup"><span data-stu-id="5b2e1-143">Device name</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-144">设备名称既是将用于域加入的名称，也是你将在设备注册到 MDM 中时在 MDM 提供程序中看到的标识。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-144">The device name is the name that will be used for domain join, and is the identity you will see in your MDM provider if the device is enrolled into MDM.</span></span>
-<span data-ttu-id="5b2e1-145">所选的设备名称不得与用户的 Active Directory 域上的任何其他设备同名（如果你决定域加入设备）。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-145">The device name you choose must not be the same name as any other device on the user’s Active Directory domain (if you decide to domain join the device).</span></span> <span data-ttu-id="5b2e1-146">如果设备名称不唯一，该设备将无法加入域。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-146">The device cannot join the domain if its name is not unique.</span></span>
-</p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-147">confroom15</span><span class="sxs-lookup"><span data-stu-id="5b2e1-147">confroom15</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b><span data-ttu-id="5b2e1-148">如果你要加入 Azure AD</span><span class="sxs-lookup"><span data-stu-id="5b2e1-148">IF YOU'RE JOINING AZURE AD</span></span></b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-149">Azure AD 租户用户凭据（用户名和密码）</span><span class="sxs-lookup"><span data-stu-id="5b2e1-149">Azure AD tenant user credentials (username and password)</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-150">如果你决定让你的 Azure Active Directory (Azure AD) 组织中的用户成为设备管理员，将需要加入 Azure AD。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-150">If you decide to have people in your Azure Active Directory (Azure AD) organization become admins on the device, then you'll need to join Azure AD.</span></span>
-<span data-ttu-id="5b2e1-151">若要加入 Azure AD，将需要有效的用户凭据。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-151">To join Azure AD, you will need valid user credentials.</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-152">admin1@contoso.com，#MyPassw0rd</span><span class="sxs-lookup"><span data-stu-id="5b2e1-152">admin1@contoso.com, #MyPassw0rd</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b><span data-ttu-id="5b2e1-153">如果你要加入域</span><span class="sxs-lookup"><span data-stu-id="5b2e1-153">IF YOU'RE JOINING A DOMAIN</span></span></b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-154">要加入的域</span><span class="sxs-lookup"><span data-stu-id="5b2e1-154">Domain to join</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-155">这是将要加入的域，这样所选的安全组即可成为设备的管理员。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-155">This is the domain you will need to join so that a security group of your choice can be admins for the device.</span></span>
-<span data-ttu-id="5b2e1-156">你可能需要完全限定的域名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-156">You may need the fully qualified domain name (FQDN).</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-157">contoso（短名称）或 contoso.corp.com (FQDN)</span><span class="sxs-lookup"><span data-stu-id="5b2e1-157">contoso (short name) OR contoso.corp.com (FQDN)</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-158">域帐户凭据（用户名和密码）</span><span class="sxs-lookup"><span data-stu-id="5b2e1-158">Domain account credentials (username and password)</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-159">除非你提供足够的帐户凭据来加入域，否则你将无法加入域。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-159">A domain can't be joined unless you provide sufficient account credentials to join the domain.</span></span> <span data-ttu-id="5b2e1-160">在提供要加入的域以及要加入该域所需的凭据后，所选的安全组可以更改设备上的设置。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-160">Once you provide a domain to join and credentials to join the domain, then a security group of your choice can change settings on the device.</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-161">admin1，#MyPassw0rd</span><span class="sxs-lookup"><span data-stu-id="5b2e1-161">admin1, #MyPassw0rd</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-162">管理员安全组别名</span><span class="sxs-lookup"><span data-stu-id="5b2e1-162">Admin security group alias</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-163">这是你的 Active Directory (AD) 中的安全组；此安全组的任何成员都可以更改设备上的设置。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-163">This is a security group in your Active Directory (AD); any members of this security group can change settings on the device.</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-164">SurfaceHubAdmins</span><span class="sxs-lookup"><span data-stu-id="5b2e1-164">SurfaceHubAdmins</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b><span data-ttu-id="5b2e1-165">如果你使用的是本地管理员</span><span class="sxs-lookup"><span data-stu-id="5b2e1-165">IF YOU'RE USING A LOCAL ADMIN</span></span></b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-166">本地管理员帐户凭据（用户名和密码）</span><span class="sxs-lookup"><span data-stu-id="5b2e1-166">Local admin account credentials (username and password)</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-167">如果你决定不加入 AD 域或 Azure AD，你可以在设备上创建本地管理员帐户。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-167">If you decide not to join an AD domain or Azure AD, you can create a local admin account on the device.</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-168">admin1，#MyPassw0rd</span><span class="sxs-lookup"><span data-stu-id="5b2e1-168">admin1, #MyPassw0rd</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b><span data-ttu-id="5b2e1-169">如果你需要安装证书或应用</span><span class="sxs-lookup"><span data-stu-id="5b2e1-169">IF YOU NEED TO INSTALL CERTIFICATES OR APPS</span></span></b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span data-ttu-id="5b2e1-170">USB 驱动器</span><span class="sxs-lookup"><span data-stu-id="5b2e1-170">USB drive</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="5b2e1-171">如果你在首次运行之前知道自己想要安装证书或通用应用，请按照<a href="provisioning-packages-for-certificates-surface-hub.md">创建设置包</a>中的步骤操作。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-171">If you know before first run that you want to install certificates or universal apps, follow the steps in <a href="provisioning-packages-for-certificates-surface-hub.md">Create provisioning packages</a>.</span></span> <span data-ttu-id="5b2e1-172">你的设置包将在 USB 驱动器上创建。</span><span class="sxs-lookup"><span data-stu-id="5b2e1-172">Your provisioning packages will be created on a USB drive.</span></span></p>
-</td>
-<td>
-<p></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-</table> 
+| <span data-ttu-id="3fc7b-109">属性</span><span class="sxs-lookup"><span data-stu-id="3fc7b-109">Property</span></span>                                                          | <span data-ttu-id="3fc7b-110">用途</span><span class="sxs-lookup"><span data-stu-id="3fc7b-110">What this is used for</span></span>                                                                                                                                                                                                                                                                                                                                                           | <span data-ttu-id="3fc7b-111">示例</span><span class="sxs-lookup"><span data-stu-id="3fc7b-111">Example</span></span>                                                                                                                               | <span data-ttu-id="3fc7b-112">了解详细信息</span><span class="sxs-lookup"><span data-stu-id="3fc7b-112">Learn more</span></span>                                                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <span data-ttu-id="3fc7b-113">代理信息</span><span class="sxs-lookup"><span data-stu-id="3fc7b-113">Proxy information</span></span>                                                 | <span data-ttu-id="3fc7b-114">如果使用代理进行网络或 Internet 访问，则必须提供脚本或服务器/端口信息。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-114">If you use a proxy for network or Internet access, you must provide a script or server/port information.</span></span>                                                                                                                                                                                                                                                                        |  <span data-ttu-id="3fc7b-115">代理脚本： http://contoso/proxy.pac</span><span class="sxs-lookup"><span data-stu-id="3fc7b-115">Proxy script: http://contoso/proxy.pac</span></span> <br><br><span data-ttu-id="3fc7b-116">或者：</span><span class="sxs-lookup"><span data-stu-id="3fc7b-116">Or:</span></span><br><br><span data-ttu-id="3fc7b-117">服务器和端口信息：10.10.10.100，端口 80</span><span class="sxs-lookup"><span data-stu-id="3fc7b-117">Server and port info: 10.10.10.100, port 80</span></span>                                  | [<span data-ttu-id="3fc7b-118">使用预配包配置代理。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-118">Configure proxy using provisioning package.</span></span>](surface-hub-2s-deploy.md)                                                                                                                           |
+| <span data-ttu-id="3fc7b-119">无线网络凭据（用户名和密码）</span><span class="sxs-lookup"><span data-stu-id="3fc7b-119">Wireless network credentials (username and password)</span></span>              | <span data-ttu-id="3fc7b-120">如果你的设备连接到 WLAN，并且无线网络需要用户凭据。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-120">If connect your device to Wi-Fi, and your wireless network requires user credentials.</span></span>                                                                                                                                                                                                                                                                                           | <span data-ttu-id="3fc7b-121">admin1@contoso.com，#MyPassw0rd</span><span class="sxs-lookup"><span data-stu-id="3fc7b-121">admin1@contoso.com, #MyPassw0rd</span></span>                                                                                                       | [<span data-ttu-id="3fc7b-122">无线网络管理</span><span class="sxs-lookup"><span data-stu-id="3fc7b-122">Wireless network management</span></span>](wireless-network-management-for-surface-hub.md)                                                                                                                                                 |
+| <span data-ttu-id="3fc7b-123">设备帐户 UPN 或域\用户名以及设备帐户密码</span><span class="sxs-lookup"><span data-stu-id="3fc7b-123">Device account UPN or Domain\username and device account password</span></span> | <span data-ttu-id="3fc7b-124">这是用户主体名称 (UPN) 或域\用户名以及设备帐户的密码。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-124">This is the User Principal Name (UPN) or the domain\username, and the password of the device account.</span></span> <span data-ttu-id="3fc7b-125">邮件、日历Microsoft Teams和Skype for Business取决于兼容的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-125">Mail, calendar, Microsoft Teams, and Skype for Business depend on a compatible device account.</span></span>                                                                                                                                                                            | <span data-ttu-id="3fc7b-126">UPN：ConfRoom15@contoso.com，#Passw0rd1</span><span class="sxs-lookup"><span data-stu-id="3fc7b-126">UPN: ConfRoom15@contoso.com, #Passw0rd1</span></span> <br><br><span data-ttu-id="3fc7b-127">或者：</span><span class="sxs-lookup"><span data-stu-id="3fc7b-127">Or:</span></span><br><br><span data-ttu-id="3fc7b-128">域和用户名：CONTOSO\ConfRoom15，#Passw0rd1</span><span class="sxs-lookup"><span data-stu-id="3fc7b-128">Domain and username: CONTOSO\ConfRoom15, #Passw0rd1</span></span>                        | [<span data-ttu-id="3fc7b-129">创建和测试设备帐户</span><span class="sxs-lookup"><span data-stu-id="3fc7b-129">Create and test a device account</span></span>](create-and-test-a-device-account-surface-hub.md) |
+| <span data-ttu-id="3fc7b-130">邮箱属性</span><span class="sxs-lookup"><span data-stu-id="3fc7b-130">Mailbox properties</span></span>                                                | <span data-ttu-id="3fc7b-131">必须使用正确的属性配置邮箱，才能在 Surface Hub 上获得最佳会议体验。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-131">The mailbox must be configured with the correct properties to enable the best meeting experience on Surface Hub.</span></span>                                                                                                                                                                                                                                                                | <span data-ttu-id="3fc7b-132">请参阅[Microsoft Exchange 属性](exchange-properties-for-surface-hub-device-accounts.md)</span><span class="sxs-lookup"><span data-stu-id="3fc7b-132">See [Microsoft Exchange properties](exchange-properties-for-surface-hub-device-accounts.md)</span></span> |                                                                                                                                        |
+| <span data-ttu-id="3fc7b-133">设备帐户邮箱的 EWS URL</span><span class="sxs-lookup"><span data-stu-id="3fc7b-133">EWS URL for device account's mailbox</span></span>                              | <span data-ttu-id="3fc7b-134">这是设备帐户的 Exchange Server。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-134">This is the device account's Exchange server.</span></span> <span data-ttu-id="3fc7b-135">邮件、日历Microsoft Teams和Skype for Business取决于兼容的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-135">Mail, calendar, Microsoft Teams, and Skype for Business depend on a compatible device account.</span></span> <span data-ttu-id="3fc7b-136">为了使邮件和日历正常工作，设备帐户必须具有有效的 Exchange Server。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-136">For mail and calendar to work, the device account must have a valid Exchange server.</span></span> <span data-ttu-id="3fc7b-137">设备将尝试自动查找此项。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-137">The device will try to find this automatically.</span></span>                                                                                               | https://outlook.office365.com/EWS/exchange.asmx                                                                                                                 | [<span data-ttu-id="3fc7b-138">创建和测试设备帐户</span><span class="sxs-lookup"><span data-stu-id="3fc7b-138">Create and test a device account</span></span>](create-and-test-a-device-account-surface-hub.md)<br><br>[<span data-ttu-id="3fc7b-139">Microsoft Exchange 属性</span><span class="sxs-lookup"><span data-stu-id="3fc7b-139">Microsoft Exchange properties</span></span>](exchange-properties-for-surface-hub-device-accounts.md)      |
+| <span data-ttu-id="3fc7b-140">设备帐户会话初始协议 (SIP) 地址</span><span class="sxs-lookup"><span data-stu-id="3fc7b-140">Device account Session Initiation Protocol (SIP) address</span></span>          | <span data-ttu-id="3fc7b-141">这是设备帐户的 SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-141">This is the device account's SIP address.</span></span> <span data-ttu-id="3fc7b-142">邮件、日历Microsoft Teams和Skype for Business取决于兼容的设备帐户。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-142">Mail, calendar, Microsoft Teams, and Skype for Business depend on a compatible device account.</span></span> <span data-ttu-id="3fc7b-143">若要使Skype或企业正常工作，设备帐户必须具有有效的 SIP 地址 设备将尝试自动查找此地址。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-143">For teams or Skype for business to work, the device account must have a valid SIP address The device will try to find this automatically.</span></span>                                                                                              | <span data-ttu-id="3fc7b-144">sip：ConfRoom15@contoso.com</span><span class="sxs-lookup"><span data-stu-id="3fc7b-144">sip: ConfRoom15@contoso.com</span></span>                                                                                                           |                                                                                                                                                                                                                                                                         |
+| <span data-ttu-id="3fc7b-145">设备帐户密码</span><span class="sxs-lookup"><span data-stu-id="3fc7b-145">Device account password</span></span>                                           | <span data-ttu-id="3fc7b-146">为了简化管理，你可以禁用设备帐户的密码过期，或Surface Hub自动轮换设备帐户密码。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-146">To simplify management, you can either disable password expiration for the device account or allow Surface Hub to automatically rotate the device account password.</span></span> <br> <br><span data-ttu-id="3fc7b-147">**注意：** 如果以域\用户名格式添加帐户，则初始设置期间将中心与本地 Active Directory 关联。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-147">**Note:** If adding the account in domain\username format, affiliate the Hub with on-premises Active Directory during initial setup.</span></span> <span data-ttu-id="3fc7b-148">如果以自定义 username@domain.com 添加帐户，则初始设置期间Azure Active Directory中心关联。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-148">If adding the account in username@domain.com format, affiliate the Hub with Azure Active Directory during initial setup.</span></span> <span data-ttu-id="3fc7b-149">否则，密码轮换将没有效果。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-149">Otherwise, password rotation will not work.</span></span>                                                                                                                                                                                                                 |                                                                                                                                       | [<span data-ttu-id="3fc7b-150">密码管理</span><span class="sxs-lookup"><span data-stu-id="3fc7b-150">Password management</span></span>](password-management-for-surface-hub-device-accounts.md)                                                                                                                                                 |
+| <span data-ttu-id="3fc7b-151">ExchangeWeb 服务 (EWS) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-151">Exchange Web Services (EWS)</span></span>                                       | <span data-ttu-id="3fc7b-152">启用 EWS。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-152">Enable EWS.</span></span> <span data-ttu-id="3fc7b-153">Surface Hub EWS 同步其日历。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-153">Surface Hub uses EWS to sync its calendar.</span></span>                                                                                                                                                                                                                                                                                                                          |                                                                                                                                       | [<span data-ttu-id="3fc7b-154">Surface Hub 新式身份验证</span><span class="sxs-lookup"><span data-stu-id="3fc7b-154">Modern authentication on Surface Hub</span></span>](surface-hub-modern-auth.md)                                                                                                                                                            |
+| <span data-ttu-id="3fc7b-155">多重身份验证</span><span class="sxs-lookup"><span data-stu-id="3fc7b-155">Multifactor authentication</span></span>                                        | <span data-ttu-id="3fc7b-156">在设备帐户上禁用多重身份验证。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-156">Disable multifactor authentication on the device account.</span></span> <span data-ttu-id="3fc7b-157">当Surface Hub登录后台Exchange用户交互时，它无法响应任何交互式提示，如多重身份验证。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-157">As the Surface Hub logs into Exchange in the background without user interaction, it cannot respond to any interactive prompts, such as multifactor authentication.</span></span>                                                                                                                                                                         |                                                                                                                                       |                                                                                                                                                                                                                                                                         |
+| <span data-ttu-id="3fc7b-158">MDM 注册详细信息</span><span class="sxs-lookup"><span data-stu-id="3fc7b-158">MDM enrollment details</span></span>                                            | <span data-ttu-id="3fc7b-159">如果你想要将设备手动注册到 MDM，则需要具有对 MDM 提供程序和注册 URL 有效的用户凭据。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-159">If you would like to manually enroll the device to MDM, you will need to have user credentials that are valid for the MDM provider and the enrollment URL.</span></span> <span data-ttu-id="3fc7b-160">设备将尝试自动查找注册 URL。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-160">The device will try to find the enrollment URL automatically.</span></span> | <span data-ttu-id="3fc7b-161">manage.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="3fc7b-161">manage.microsoft.com</span></span> | [<span data-ttu-id="3fc7b-162">通过 MDM 提供商管理 Surface Hub</span><span class="sxs-lookup"><span data-stu-id="3fc7b-162">Manage Surface Hub with an MDM provider</span></span>](manage-settings-with-mdm-for-surface-hub.md) |
+| <span data-ttu-id="3fc7b-163">友好名称</span><span class="sxs-lookup"><span data-stu-id="3fc7b-163">Friendly name</span></span>                                                     | <span data-ttu-id="3fc7b-164">设备的友好名称是指用户将在尝试以无线方式连接到 Surface Hub 时看到的广播名称。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-164">The friendly name of the device is the broadcast name that people will see when they try to wirelessly connect to the Surface Hub.</span></span> <span data-ttu-id="3fc7b-165">此名称将突出显示在 Surface Hub 的屏幕上。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-165">This name will be displayed prominently on the Surface Hub's screen.</span></span> <span data-ttu-id="3fc7b-166">我们建议所选的友好名称可识别且唯一，以便用户在尝试连接时可以区分不同的 Surface Hub。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-166">We suggest that the friendly name you choose is recognizable and unique so that people can distinguish one Surface Hub from another when trying to connect.</span></span>             | <span data-ttu-id="3fc7b-167">会议室 15</span><span class="sxs-lookup"><span data-stu-id="3fc7b-167">Conference Room 15</span></span>                                                                                                                    | [<span data-ttu-id="3fc7b-168">首次设置Surface Hub</span><span class="sxs-lookup"><span data-stu-id="3fc7b-168">First time Setup for Surface Hub</span></span>](surface-hub-2s-setup.md)                                                                                                                                                                   |
+| <span data-ttu-id="3fc7b-169">设备名称</span><span class="sxs-lookup"><span data-stu-id="3fc7b-169">Device name</span></span>                                                       | <span data-ttu-id="3fc7b-170">设备名称既是将用于域加入的名称，也是你将在设备注册到 MDM 中时在 MDM 提供程序中看到的标识。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-170">The device name is the name that will be used for domain join, and is the identity you will see in your MDM provider if the device is enrolled into MDM.</span></span> <span data-ttu-id="3fc7b-171">如果你决定将设备加入域，则你选择的设备名称不得与 Active Directory 域 (中任何其他设备的名称) 。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-171">The device name you choose must not be the same name as any other device in your Active Directory domain (if you decide to domain join the device).</span></span> <span data-ttu-id="3fc7b-172">设备无法加入没有唯一名称的域。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-172">The device cannot join the domain without a unique name.</span></span>  | <span data-ttu-id="3fc7b-173">confroom15</span><span class="sxs-lookup"><span data-stu-id="3fc7b-173">confroom15</span></span>                                                                                                                            | [<span data-ttu-id="3fc7b-174">首次设置Surface Hub</span><span class="sxs-lookup"><span data-stu-id="3fc7b-174">First time Setup for Surface Hub</span></span>](surface-hub-2s-setup.md)                                                                                                                                                                   |
+| <span data-ttu-id="3fc7b-175">Teams 应用模式</span><span class="sxs-lookup"><span data-stu-id="3fc7b-175">Teams App Mode</span></span>                                                    | <span data-ttu-id="3fc7b-176">- 模式 0 - Skype for Business安排Microsoft Teams会议提供高级功能。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-176">- Mode 0 — Skype for Business with Microsoft Teams functionality for scheduled meetings.</span></span><br><span data-ttu-id="3fc7b-177">- 模式 1 — Microsoft Teams安排Skype for Business会议提供高级功能。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-177">- Mode 1 — Microsoft Teams with Skype for Business functionality for scheduled meetings.</span></span><br><span data-ttu-id="3fc7b-178">- 模式 2 - 仅Microsoft Teams模式</span><span class="sxs-lookup"><span data-stu-id="3fc7b-178">- Mode 2 — Microsoft Teams only</span></span>                                                                                                                                                         |                                                                                                                                       | [<span data-ttu-id="3fc7b-179">更改默认业务通信平台</span><span class="sxs-lookup"><span data-stu-id="3fc7b-179">Changing default business communications platform</span></span>](manage-settings-with-mdm-for-surface-hub.md)                                                                            |
 
+## <a name="device-affiliation"></a><span data-ttu-id="3fc7b-180">设备附属关系</span><span class="sxs-lookup"><span data-stu-id="3fc7b-180">Device affiliation</span></span>
 
+<span data-ttu-id="3fc7b-181">使用设备附属关系管理用户对 设置 应用的访问权限Surface Hub。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-181">Use Device affiliation to manage user access to the Settings app on Surface Hub.</span></span> <span data-ttu-id="3fc7b-182">使用Windows 10 协同版运行 (操作系统Surface Hub) ，只有授权用户可以使用 设置 应用调整设置。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-182">With the Windows 10 Team operating system (that runs on Surface Hub), only authorized users can adjust settings using the Settings app.</span></span> <span data-ttu-id="3fc7b-183">由于选择附属关系可能会影响功能可用性，请进行相应的规划以确保用户可以访问预期的功能。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-183">Since choosing the affiliation can impact feature availability, plan appropriately to ensure that users can access features as intended.</span></span>
 
+> [!NOTE]
+> <span data-ttu-id="3fc7b-184">在 OOBE 设置的初始开箱即用体验期间，你 (设备) 关联。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-184">You can only set Device affiliation during the initial out-of-box experience (OOBE) setup.</span></span> <span data-ttu-id="3fc7b-185">如果需要重置设备附属关系，必须重复 OOBE 设置。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-185">If you need to reset Device affiliation, you’ll have to repeat OOBE setup.</span></span>
 
+### <a name="if-youre-joining-azure-ad"></a><span data-ttu-id="3fc7b-186">如果你要加入 Azure AD</span><span class="sxs-lookup"><span data-stu-id="3fc7b-186">If you’re joining Azure AD</span></span>
 
+| <span data-ttu-id="3fc7b-187">属性</span><span class="sxs-lookup"><span data-stu-id="3fc7b-187">Property</span></span>                                                 | <span data-ttu-id="3fc7b-188">用途</span><span class="sxs-lookup"><span data-stu-id="3fc7b-188">What this is used for</span></span>                                                                                                                                                                                                                                                    | <span data-ttu-id="3fc7b-189">示例</span><span class="sxs-lookup"><span data-stu-id="3fc7b-189">Example</span></span>                         | <span data-ttu-id="3fc7b-190">了解详细信息</span><span class="sxs-lookup"><span data-stu-id="3fc7b-190">Learn more</span></span>                                                                                                                        |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| <span data-ttu-id="3fc7b-191">Azure AD 租户用户凭据（用户名和密码）</span><span class="sxs-lookup"><span data-stu-id="3fc7b-191">Azure AD tenant user credentials (username and password)</span></span> | <span data-ttu-id="3fc7b-192">如果你决定让 azure AD Azure Active Directory (组织) 成为设备的管理员，则需要将 Surface Hub 加入 Azure AD。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-192">If you decide to have people in your Azure Active Directory (Azure AD) organization become admins on the device, then you'll need to join the Surface Hub to Azure AD.</span></span> <span data-ttu-id="3fc7b-193">若要将帐户加入 Azure AD，你将需要租户中帐户的有效凭据。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-193">To join it to Azure AD, you will need valid credentials for an account in the tenant.</span></span>                                                               | <span data-ttu-id="3fc7b-194">admin1@contoso.com，#MyPassw0rd</span><span class="sxs-lookup"><span data-stu-id="3fc7b-194">admin1@contoso.com, #MyPassw0rd</span></span> | [<span data-ttu-id="3fc7b-195">管理员组管理</span><span class="sxs-lookup"><span data-stu-id="3fc7b-195">Admin group management</span></span>](admin-group-management-for-surface-hub.md)                     |
+| <span data-ttu-id="3fc7b-196">非全局管理员帐户</span><span class="sxs-lookup"><span data-stu-id="3fc7b-196">Non Global Admin accounts</span></span>                                | <span data-ttu-id="3fc7b-197">对于Surface Hub Azure AD 的设备，你可以将管理员权限限制为在 Surface Hub 上管理 设置 应用。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-197">For Surface Hub devices joined to Azure AD,  you can limit admin permissions to management of the Settings app on Surface Hub.</span></span> <span data-ttu-id="3fc7b-198">这使你能够仅作用域管理员Surface Hub并阻止可能不需要的管理员访问整个 Azure AD 域。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-198">This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access an entire Azure AD domain.</span></span> |                                 | [<span data-ttu-id="3fc7b-199">配置 Surface Hub 上的非全局管理员帐户</span><span class="sxs-lookup"><span data-stu-id="3fc7b-199">Configure non Global admin accounts on Surface Hub</span></span>](surface-hub-2s-nonglobal-admin.md) |
+
+### <a name="if-youre-joining-a-domain"></a><span data-ttu-id="3fc7b-200">如果你要加入域</span><span class="sxs-lookup"><span data-stu-id="3fc7b-200">If you’re joining a domain</span></span>
+
+| <span data-ttu-id="3fc7b-201">属性</span><span class="sxs-lookup"><span data-stu-id="3fc7b-201">Property</span></span>                                           | <span data-ttu-id="3fc7b-202">用途</span><span class="sxs-lookup"><span data-stu-id="3fc7b-202">What this is used for</span></span>                                                                                                                                                                                                                        | <span data-ttu-id="3fc7b-203">示例</span><span class="sxs-lookup"><span data-stu-id="3fc7b-203">Example</span></span>                                         |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| <span data-ttu-id="3fc7b-204">要加入的域</span><span class="sxs-lookup"><span data-stu-id="3fc7b-204">Domain to join</span></span>                                     | <span data-ttu-id="3fc7b-205">这是将要加入的域，这样所选的安全组即可成为设备的管理员。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-205">This is the domain you will need to join so that a security group of your choice can be admins for the device.</span></span> <span data-ttu-id="3fc7b-206">你可能需要完全限定的域名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-206">You may need the fully qualified domain name (FQDN).</span></span>                                                                          | <span data-ttu-id="3fc7b-207">contoso（短名称）或 contoso.corp.com (FQDN)</span><span class="sxs-lookup"><span data-stu-id="3fc7b-207">contoso (short name) OR contoso.corp.com (FQDN)</span></span> |
+| <span data-ttu-id="3fc7b-208">域帐户凭据（用户名和密码）</span><span class="sxs-lookup"><span data-stu-id="3fc7b-208">Domain account credentials (username and password)</span></span> | <span data-ttu-id="3fc7b-209">除非你提供足够的帐户凭据来加入域，否则你将无法加入域。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-209">A domain can't be joined unless you provide sufficient account credentials to join the domain.</span></span> <span data-ttu-id="3fc7b-210">在提供要加入的域以及要加入该域所需的凭据后，所选的安全组可以更改设备上的设置。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-210">Once you provide a domain to join and credentials to join the domain, then a security group of your choice can change settings on the device.</span></span> | <span data-ttu-id="3fc7b-211">admin1，#MyPassw0rd</span><span class="sxs-lookup"><span data-stu-id="3fc7b-211">admin1, #MyPassw0rd</span></span>                             |
+| <span data-ttu-id="3fc7b-212">管理员安全组别名</span><span class="sxs-lookup"><span data-stu-id="3fc7b-212">Admin security group alias</span></span>                         | <span data-ttu-id="3fc7b-213">这是你的 Active Directory (AD) 中的安全组；此安全组的任何成员都可以更改设备上的设置。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-213">This is a security group in your Active Directory (AD); any members of this security group can change settings on the device.</span></span>                                                                                                                | <span data-ttu-id="3fc7b-214">SurfaceHubAdmins</span><span class="sxs-lookup"><span data-stu-id="3fc7b-214">SurfaceHubAdmins</span></span>                                |
+
+### <a name="if-youre-using-a-local-admin"></a><span data-ttu-id="3fc7b-215">如果你使用的是本地管理员</span><span class="sxs-lookup"><span data-stu-id="3fc7b-215">If you're using a local admin</span></span>
+
+| <span data-ttu-id="3fc7b-216">属性</span><span class="sxs-lookup"><span data-stu-id="3fc7b-216">Property</span></span>                                                | <span data-ttu-id="3fc7b-217">用途</span><span class="sxs-lookup"><span data-stu-id="3fc7b-217">What this is used for</span></span>                                                                                   | <span data-ttu-id="3fc7b-218">示例</span><span class="sxs-lookup"><span data-stu-id="3fc7b-218">Example</span></span>             |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------- |
+| <span data-ttu-id="3fc7b-219">本地管理员帐户凭据（用户名和密码）</span><span class="sxs-lookup"><span data-stu-id="3fc7b-219">Local admin account credentials (username and password)</span></span> | <span data-ttu-id="3fc7b-220">如果你决定不加入 AD 域或 Azure AD，你可以在设备上创建本地管理员帐户。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-220">If you decide not to join an AD domain or Azure AD, you can create a local admin account on the device.</span></span> | <span data-ttu-id="3fc7b-221">admin1，#MyPassw0rd</span><span class="sxs-lookup"><span data-stu-id="3fc7b-221">admin1, #MyPassw0rd</span></span> |
+
+### <a name="if-you-need-to-install-certificates-or-apps"></a><span data-ttu-id="3fc7b-222">如果你需要安装证书或应用</span><span class="sxs-lookup"><span data-stu-id="3fc7b-222">If you need to install certificates or apps</span></span>
+
+| <span data-ttu-id="3fc7b-223">属性</span><span class="sxs-lookup"><span data-stu-id="3fc7b-223">Property</span></span>  | <span data-ttu-id="3fc7b-224">用途</span><span class="sxs-lookup"><span data-stu-id="3fc7b-224">What this is used for</span></span>                                                                                                                                                                                                                                                                                        |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <span data-ttu-id="3fc7b-225">USB 驱动器</span><span class="sxs-lookup"><span data-stu-id="3fc7b-225">USB drive</span></span> | <span data-ttu-id="3fc7b-226">如果你在首次运行之前知道自己想要安装证书或通用应用，请按照[创建设置包](provisioning-packages-for-certificates-surface-hub.md)中的步骤操作。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-226">If you know before first run that you want to install certificates or universal apps, follow the steps in [Create provisioning packages](provisioning-packages-for-certificates-surface-hub.md).</span></span> <span data-ttu-id="3fc7b-227">你的设置包将在 USB 驱动器上创建。</span><span class="sxs-lookup"><span data-stu-id="3fc7b-227">Your provisioning packages will be created on a USB drive.</span></span> |
+
+## <a name="post-deployment-checklist"></a><span data-ttu-id="3fc7b-228">部署后清单</span><span class="sxs-lookup"><span data-stu-id="3fc7b-228">Post deployment checklist</span></span>
+
+| <span data-ttu-id="3fc7b-229">选中</span><span class="sxs-lookup"><span data-stu-id="3fc7b-229">Check</span></span>                                      | <span data-ttu-id="3fc7b-230">响应</span><span class="sxs-lookup"><span data-stu-id="3fc7b-230">Response</span></span>                                                                                                                                                                                                          |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **<span data-ttu-id="3fc7b-231">设备帐户同步</span><span class="sxs-lookup"><span data-stu-id="3fc7b-231">Device account syncing</span></span>**                 | <span data-ttu-id="3fc7b-232">☐是</span><span class="sxs-lookup"><span data-stu-id="3fc7b-232">☐ Yes</span></span> <br><br><span data-ttu-id="3fc7b-233">☐ 否</span><span class="sxs-lookup"><span data-stu-id="3fc7b-233">☐ No</span></span>                                                                                                                                                                                                |
+| **<span data-ttu-id="3fc7b-234">Bitlocker 密钥</span><span class="sxs-lookup"><span data-stu-id="3fc7b-234">Bitlocker key</span></span>**                          | <span data-ttu-id="3fc7b-235">☐保存到文件 (没有附属关系) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-235">☐ Saved to file (no affiliation)</span></span> <br><br><span data-ttu-id="3fc7b-236">☐保存在 Active Directory (AD 附属) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-236">☐ Saved in Active Directory (AD affiliation)</span></span> <br><br><span data-ttu-id="3fc7b-237">☐保存在 Azure AD (Azure AD 附属) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-237">☐ Saved in Azure AD (Azure AD affiliation)</span></span>                                                                          |
+| **<span data-ttu-id="3fc7b-238">设备操作系统更新</span><span class="sxs-lookup"><span data-stu-id="3fc7b-238">Device OS updates</span></span>**                      | <span data-ttu-id="3fc7b-239">☐ Completed</span><span class="sxs-lookup"><span data-stu-id="3fc7b-239">☐ Completed</span></span>                                                                                                                                                                                                       |
+| **<span data-ttu-id="3fc7b-240">Windows应用商店更新</span><span class="sxs-lookup"><span data-stu-id="3fc7b-240">Windows Store updates</span></span>**                  | <span data-ttu-id="3fc7b-241">☐ 自动</span><span class="sxs-lookup"><span data-stu-id="3fc7b-241">☐ Automatic</span></span> <br><br><span data-ttu-id="3fc7b-242">☐ 手动</span><span class="sxs-lookup"><span data-stu-id="3fc7b-242">☐ Manual</span></span>                                                                                                                                                                                      |
+| **<span data-ttu-id="3fc7b-243">Microsoft Teams安排的会议</span><span class="sxs-lookup"><span data-stu-id="3fc7b-243">Microsoft Teams scheduled meeting</span></span>**      | <span data-ttu-id="3fc7b-244">☐收到确认电子邮件</span><span class="sxs-lookup"><span data-stu-id="3fc7b-244">☐ Confirmation email received</span></span> <br><br><span data-ttu-id="3fc7b-245">☐会议显示在"开始"屏幕上</span><span class="sxs-lookup"><span data-stu-id="3fc7b-245">☐ Meeting appears on start screen</span></span> <br><br><span data-ttu-id="3fc7b-246">☐一键联接函数</span><span class="sxs-lookup"><span data-stu-id="3fc7b-246">☐ One-touch join functions</span></span> <br><br><span data-ttu-id="3fc7b-247">☐能够加入音频</span><span class="sxs-lookup"><span data-stu-id="3fc7b-247">☐ Able to join audio</span></span> <br><br><span data-ttu-id="3fc7b-248">☐能够加入视频</span><span class="sxs-lookup"><span data-stu-id="3fc7b-248">☐ Able to join video</span></span> <br><br><span data-ttu-id="3fc7b-249">☐能够共享屏幕</span><span class="sxs-lookup"><span data-stu-id="3fc7b-249">☐ Able to share screen</span></span>               |
+| **<span data-ttu-id="3fc7b-250">Skype for Business安排的会议</span><span class="sxs-lookup"><span data-stu-id="3fc7b-250">Skype for Business scheduled meeting</span></span>**   | <span data-ttu-id="3fc7b-251">☐收到确认电子邮件</span><span class="sxs-lookup"><span data-stu-id="3fc7b-251">☐ Confirmation email received</span></span><br><span data-ttu-id="3fc7b-252">☐会议显示在"开始"屏幕上</span><span class="sxs-lookup"><span data-stu-id="3fc7b-252">☐ Meeting appears on start screen</span></span><br><span data-ttu-id="3fc7b-253">☐一键联接功能正确</span><span class="sxs-lookup"><span data-stu-id="3fc7b-253">☐ One-touch join functions correctly</span></span><br><span data-ttu-id="3fc7b-254">☐能够加入音频</span><span class="sxs-lookup"><span data-stu-id="3fc7b-254">☐ Able to join audio</span></span><br><span data-ttu-id="3fc7b-255">☐能够加入视频</span><span class="sxs-lookup"><span data-stu-id="3fc7b-255">☐ Able to join video</span></span><br><span data-ttu-id="3fc7b-256">☐能够共享屏幕</span><span class="sxs-lookup"><span data-stu-id="3fc7b-256">☐ Able to share screen</span></span><br><span data-ttu-id="3fc7b-257">☐能够发送/接收 IM</span><span class="sxs-lookup"><span data-stu-id="3fc7b-257">☐ Able to send/receive IM</span></span> |
+| **<span data-ttu-id="3fc7b-258">已受邀时安排的会议</span><span class="sxs-lookup"><span data-stu-id="3fc7b-258">Scheduled meeting when already invited</span></span>** | <span data-ttu-id="3fc7b-259">☐会议被拒绝</span><span class="sxs-lookup"><span data-stu-id="3fc7b-259">☐ Meeting declined</span></span>                                                                                                                                                                                                |
+| **<span data-ttu-id="3fc7b-260">Microsoft Teams临时会议</span><span class="sxs-lookup"><span data-stu-id="3fc7b-260">Microsoft Teams ad-hoc meeting</span></span>**         | <span data-ttu-id="3fc7b-261">☐邀请其他用户工作</span><span class="sxs-lookup"><span data-stu-id="3fc7b-261">☐ Invite other users work</span></span> <br><br><span data-ttu-id="3fc7b-262">☐能够加入音频</span><span class="sxs-lookup"><span data-stu-id="3fc7b-262">☐ Able to join audio</span></span> <br><br><span data-ttu-id="3fc7b-263">☐能够加入视频</span><span class="sxs-lookup"><span data-stu-id="3fc7b-263">☐ Able to join video</span></span> <br><br><span data-ttu-id="3fc7b-264">☐能够共享屏幕</span><span class="sxs-lookup"><span data-stu-id="3fc7b-264">☐ Able to share screen</span></span>                                                                                                |
+| **<span data-ttu-id="3fc7b-265">Microsoft Whiteboard</span><span class="sxs-lookup"><span data-stu-id="3fc7b-265">Microsoft Whiteboard</span></span>**                   | <span data-ttu-id="3fc7b-266">☐欢迎/开始"屏幕启动</span><span class="sxs-lookup"><span data-stu-id="3fc7b-266">☐ Launch from Welcome / Start screen</span></span> <br><br><span data-ttu-id="3fc7b-267">☐启动Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="3fc7b-267">☐ Launch from Microsoft Teams</span></span>                                                                                                                                        |
+| **<span data-ttu-id="3fc7b-268">传入Teams/Skype呼叫</span><span class="sxs-lookup"><span data-stu-id="3fc7b-268">Incoming Teams/Skype call</span></span>**              | <span data-ttu-id="3fc7b-269">☐能够加入音频</span><span class="sxs-lookup"><span data-stu-id="3fc7b-269">☐ Able to join audio</span></span><br><span data-ttu-id="3fc7b-270">☐能够加入视频</span><span class="sxs-lookup"><span data-stu-id="3fc7b-270">☐ Able to join video</span></span><br><span data-ttu-id="3fc7b-271">☐能够共享屏幕</span><span class="sxs-lookup"><span data-stu-id="3fc7b-271">☐ Able to share screen</span></span><br><span data-ttu-id="3fc7b-272">☐仅能发送/接收 (SKYPE FOR BUSINESS IM) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-272">☐ Able to send/receive IM (Skype for Business only)</span></span>                                                                                     |
+| **<span data-ttu-id="3fc7b-273">传入实时视频流</span><span class="sxs-lookup"><span data-stu-id="3fc7b-273">Incoming live video streams</span></span>**            | <span data-ttu-id="3fc7b-274">☐最多 2 (Skype for Business) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-274">☐ Maximum 2 (Skype for Business)</span></span><br><span data-ttu-id="3fc7b-275">☐最多 4 (Microsoft Teams) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-275">☐ Maximum 4 (Microsoft Teams)</span></span>                                                                                                                                                 |
+| **<span data-ttu-id="3fc7b-276">Microsoft Teams模式 0 行为</span><span class="sxs-lookup"><span data-stu-id="3fc7b-276">Microsoft Teams Mode 0 behavior</span></span>**        | <span data-ttu-id="3fc7b-277">☐ Skype for Business/开始"屏幕上显示磁贴</span><span class="sxs-lookup"><span data-stu-id="3fc7b-277">☐ Skype for Business tile on Welcome/Start screen</span></span><br><span data-ttu-id="3fc7b-278">☐ UI 会议Skype for Business安排 (Skype会议) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-278">☐ Can join scheduled Skype for Business meetings (Skype UI)</span></span><br><span data-ttu-id="3fc7b-279">☐ UI 会议Teams计划 (Teams会议) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-279">☐ Can join scheduled Teams meetings (Teams UI)</span></span>                                                |
+| **<span data-ttu-id="3fc7b-280">Microsoft Teams模式 1 行为</span><span class="sxs-lookup"><span data-stu-id="3fc7b-280">Microsoft Teams Mode 1 behavior</span></span>**        | <span data-ttu-id="3fc7b-281">☐ Teams/开始"屏幕上的"开始"磁贴</span><span class="sxs-lookup"><span data-stu-id="3fc7b-281">☐ Teams tile on Welcome/Start screen</span></span><br><span data-ttu-id="3fc7b-282">☐ UI 会议Skype for Business安排 (Skype会议) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-282">☐ Can join scheduled Skype for Business meetings (Skype UI)</span></span><br><span data-ttu-id="3fc7b-283">☐ UI 会议Teams计划 (Teams会议) </span><span class="sxs-lookup"><span data-stu-id="3fc7b-283">☐ Can join scheduled Teams meetings (Teams UI)</span></span>                                                             |
+| **<span data-ttu-id="3fc7b-284">Microsoft Teams模式 2 行为</span><span class="sxs-lookup"><span data-stu-id="3fc7b-284">Microsoft Teams Mode 2 behavior</span></span>**        | <span data-ttu-id="3fc7b-285">☐ Teams/"开始"屏幕上的"开始"磁贴</span><span class="sxs-lookup"><span data-stu-id="3fc7b-285">☐ Teams tile on Welcome / Start screen</span></span><br><span data-ttu-id="3fc7b-286">☐可以加入预定Teams会议</span><span class="sxs-lookup"><span data-stu-id="3fc7b-286">☐ Can join scheduled Teams meetings</span></span><br><span data-ttu-id="3fc7b-287">☐无法加入Skype for Business会议</span><span class="sxs-lookup"><span data-stu-id="3fc7b-287">☐ Fail to join Skype for Business meetings</span></span>                                                                                       |
