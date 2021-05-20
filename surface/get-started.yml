@@ -11,20 +11,22 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 9360df030e5a562dfeb3ad471c228408122c3471
-  ms.sourcegitcommit: f8f32455b1230742c58ee74004cbaaad037069b6
+  ms.openlocfilehash: 301a4b733ee477c1e9999dba84cd58283c02844f
+  ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/14/2021
-  ms.locfileid: "11328176"
+  ms.lasthandoff: 05/20/2021
+  ms.locfileid: "11576822"
 landingContent:
 - title: Surface 设备
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Surface Laptop 4 + 商业版
+      url: https://www.microsoft.com/surface/business/surface-laptop-4
     - text: 适用于企业的 Surface Pro 7+
       url: https://www.microsoft.com/surface/business/surface-pro-7-plus
-    - text: Surface Laptop Go for Business
+    - text: Surface LaptopGo for Business
       url: https://www.microsoft.com/surface/business/surface-laptop-go
     - text: 适用于企业的 Surface Pro X
       url: https://www.microsoft.com/surface/business/surface-pro-x
@@ -34,21 +36,21 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Surface Pro 7+ 商业版中的新增功能
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-pro-7-brings-next-level-performance-and-versatility-to/ba-p/1928797
+    - text: Surface Laptop 4 个处理器技术概述
+      url: surface-laptop-processors.md
+    - text: Surface Headphones 2+ 技术概述
+      url: surface-headphones.md
     - text: Surface 上的 Windows 虚拟桌面
       url: windows-virtual-desktop-surface.md
-    - text: Surface Dock 2 中的新增功能
-      url: surface-dock-whats-new.md
 - title: Microsoft Ignite
   linkLists:
   - linkListType: video
     links:
     - text: 使用 Surface & AutoPilot 进行零接触部署
       url: https://youtu.be/WQ-wg8fRzN0
-    - text: 远程世界ARM Surface Pro X 和 Windows
+    - text: Surface Pro远程Windows ARM X 和 ARM
       url: https://youtu.be/bDw77ZQNPPw
-    - text: Surface Security – 从 Microsoft 芯片到云新式终结点保护
+    - text: Surface Security – Microsoft 的云Endpoint Protection芯片
       url: https://youtu.be/uadAecDbqf4
 - title: 部署 Surface 设备
   linkLists:
@@ -64,12 +66,12 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Surface 企业管理模式
+      url: surface-enterprise-management-mode.md
     - text: 管理和部署 Surface 驱动程序和固件更新
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Surface UEFI 设置的 Intune 管理
+    - text: 在 Surface 设备上管理 DFCI
       url: surface-manage-dfci-guide.md
-    - text: 部署、管理和维护 Surface Pro X
-      url: surface-pro-arm-app-management.md
 - title: 排除故障
   linkLists:
   - linkListType: learn
@@ -84,9 +86,9 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Surface 设备的 DMA 保护
+    - text: Surface 设备上 DMA 保护
       url: dma-protect.md
-    - text: '使用 Surface Enterprise Management Mode (SEMM 保护 Surface Dock 2 端口) '
+    - text: '使用 Surface Enterprise 管理模式的安全 Surface 扩展坞 2 (SEMM) '
       url: secure-surface-dock-ports-semm.md
     - text: Surface Data Eraser 工具
       url: microsoft-surface-data-eraser.md
@@ -116,5 +118,5 @@ landingContent:
     links:
     - text: 联系 Surface 支持部门
       url: contact-surface-support.md
-    - text: Surface for Business 担保和保护计划
+    - text: Surface for Business 保证和保护计划
       url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support

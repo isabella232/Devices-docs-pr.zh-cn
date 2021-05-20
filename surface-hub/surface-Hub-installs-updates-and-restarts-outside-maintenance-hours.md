@@ -1,45 +1,42 @@
 ---
 title: Surface Hub 可能会安装更新，并在维护时间外重启
-description: 有关 "自动更新" 的 Surface Hub 的疑难解答信息
+description: 有关自动更新Surface Hub疑难解答信息
 ms.assetid: 6C09A9F8-F9CF-4491-BBFB-67A1A1DED0AA
-keywords: surface hub，维护窗口，更新
+keywords: surface hub， 维护窗口， 更新
 ms.prod: surface-hub
 ms.sitesec: library
 author: Teresa-MOTIV
 ms.author: v-tea
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 117c18cfce6dfb84b4fe2156ea98198f96da2abf
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 04/15/2021
+ms.openlocfilehash: 7df7857258c1baeedf4ff239eda17c66c93a531c
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831928"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11577022"
 ---
-# Surface Hub 可能会安装更新，并在维护时间外重启
+# <a name="surface-hub-may-install-updates-and-restart-outside-maintenance-hours"></a>Surface Hub 可能会安装更新，并在维护时间外重启
 
-在特定情况下，Surface Hub 在工作时间内（而不是在常规维护窗口期间）安装更新。 如果需要，设备将重新启动。 只有在完成该过程后，才能使用该设备。
+在某些情况下，Surface Hub在工作时间而不是常规维护时段安装更新。 然后，如有必要，设备将重新启动。 在此过程完成之前，无法使用该设备。
 
 > [!NOTE]  
-> 缺少维护窗口时，这不是预期的行为。 它仅在设备已过期的情况中发生。
+> 对于缺少维护窗口，这不是预期行为。 它仅在设备长时间过期时发生。
 
-## 原因
-为了确保 Surface Hub 在工作时间内保持可用，中心配置为在 "设置" 中定义的维护窗口期间执行管理功能（请参阅下面的 "参考"）。 在此维护期内，中心将通过 Windows 更新或 Windows Server 更新服务（WSUS）自动安装任何可用更新。 更新完成后，集线器可能会重启。
+## <a name="cause"></a>原因
 
-仅当 Surface Hub 已打开但未在使用或保留时，才能在维护窗口期间安装更新。 例如，如果为持续24小时的会议安排了 Surface Hub，则计划安装的任何更新都将推迟到下一个维护时段内的中心可用。 如果集线器继续繁忙且错过了多个维护窗口，则中心将最终开始安装和下载更新。 这可能会在维护窗口期间或之外发生。 下载和安装开始后，设备可能会重启。
+为了确保Surface Hub在工作时间可用，Hub 配置为在 设置 (中定义的维护时段内执行管理功能，请参阅下面的"引用) 。 在此维护期间，中心会自动通过 WUfB Windows Windows Update for Business (安装任何) 。 更新完成后，中心可能会重新启动。
 
-## 若要避免此问题
+只有在设备打开但没有使用或保留Surface Hub才能在维护时段内安装更新。 例如，如果 Surface Hub安排在持续 24 小时的会议，则计划安装的任何更新都将延迟，直到下次维护时段提供 Hub。 如果 Hub 继续繁忙，并错过多个维护窗口，则 Hub 最终将开始安装和下载更新。 这可在维护时段期间或之外发生。 下载和安装开始后，设备可能会重新启动。
 
-请务必为 Surface Hub 留出维护时间，以执行管理功能。 将 Surface Hub 保留24小时间隔或在维护窗口期间使用设备会延迟安装更新。 我们建议你在计划的维护期内不要使用或保留中心。 应保留两小时的窗口进行更新。
+## <a name="to-avoid-this-issue"></a>避免此问题
 
-可用于控制更新可用性的一个选项是 "Windows Server 更新服务（WSUS）"。 WSUS 可控制安装哪些更新以及何时安装。
+为用户留出维护时间以执行管理功能Surface Hub这一点很重要。 将更新Surface Hub 24 小时，或在维护时段期间使用设备延迟安装更新。 建议您在计划维护期间不使用或保留 Hub。 应保留一个两小时窗口以供更新。
 
-## 参考 
+一个可用于控制更新可用性的选项是Windows更新。
+
+## <a name="learn-more"></a>了解详细信息
  
-[更新 Surface Hub](first-run-program-surface-hub.md#update-the-surface-hub) 
-
-[维护窗口](manage-windows-updates-for-surface-hub.md#maintenance-window) 
-
-[使用 Windows Server Update Services (WSUS) 部署 Windows 10 更新](/windows/deployment/update/waas-manage-updates-wsus) 
-
-
+- [更新 Surface Hub](first-run-program-surface-hub.md#update-the-surface-hub) 
+- [维护窗口](manage-windows-updates-for-surface-hub.md#maintenance-window) 

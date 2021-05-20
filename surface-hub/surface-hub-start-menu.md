@@ -10,20 +10,20 @@ ms.date: 08/15/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: c5b6a083d543649eab899d2fea36327d08f8bc29
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: cf9649b8d1f747722064793fbbde70116bc7f424
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830741"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576842"
 ---
-# 配置 Surface Hub 的“开始”菜单
+# <a name="configure-surface-hub-start-menu"></a>配置 Surface Hub 的“开始”菜单
 
 [Windows 10 的 2018 年 1 月 17 更新](https://support.microsoft.com/help/4057144)(版本 15063.877)支持在 Surface Hub 设备上自定义“开始”菜单。 使用移动设备管理(MDM)应用自定义的开始菜单布局。
 
 如果将自定义的开始菜单布局应用到 Surface Hub，则用户无法从“开始”菜单固定、解锁或卸载应用。 
 
-## 如何将自定义的“开始”菜单应用到 Surface Hub
+## <a name="how-to-apply-a-customized-start-menu-to-surface-hub"></a>如何将自定义的“开始”菜单应用到 Surface Hub
 
 自定义的“开始”菜单是在开始菜单布局 XML 文件中定义的。 有两个选项可用于创建开始菜单布局 XML 文件:
 
@@ -41,19 +41,23 @@ ms.locfileid: "10830741"
 如果已在开始菜单布局 XML 中定义了“开始”菜单，请[创建 MDM 策略以应用该布局。](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
 
 <span id="differences" />
-## Surface Hub 和桌面版在“开始”菜单方面的差异
+
+## <a name="differences-between-surface-hub-and-desktop-start-menu"></a>Surface Hub 和桌面版在“开始”菜单方面的差异
 
 Surface Hub 和 Windows 10 桌面版在“开始”菜单自定义方面存在以下一些主要差异:
 
-- 无法在 " **DesktopApplicationTile**开始" https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) 布局 XML 中使用 DesktopApplicationTile，因为 Surface Hub 不支持 Windows 桌面应用程序（Win32）。
+- 不能在"开始" (Windows布局 XML 中使用**DesktopApplicationTile** https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) (，) 不支持 Win32 Surface Hub。
 - 不可使用开始菜单布局来配置 Surface Hub 的任务栏和欢迎屏幕。  
+- "开始"屏幕布局策略应仅分配给设备，而非用户。
+- 策略中要使用的 OMA-URI 设置是 `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
 - Surface Hub 最多支持 6 列(6 个 1x1 的磁贴)，但你**必须**定义 `GroupCellWidth=8` 列，即使 Surface Hub 仅显示 0-5 列的磁贴，而不显示第 6 列和 7 列。
 - Surface Hub 最多支持 6 行(6 个 1x1 的磁贴)
 - `SecondaryTile`这用于链接，且将在 Microsoft Edge 中打开链接。
 
 
 <span id="default" />
-## 示例: 默认的 Surface Hub 开始菜单布局
+
+## <a name="example-default-surface-hub-start-layout"></a>示例: 默认的 Surface Hub 开始菜单布局
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -110,9 +114,10 @@ Surface Hub 和 Windows 10 桌面版在“开始”菜单自定义方面存在�
 ```
 
 <span id="edge" />
-## 示例: 包含 Microsoft Edge 链接的开始菜单布局
 
-此示例显示了两个分别指向网站和 .pdf 文件的链接。 Microsoft Edge 的辅助磁贴使用 150 x 150 像素图标。
+## <a name="example-start-layout-that-includes-a-microsoft-edge-link"></a>示例: 包含 Microsoft Edge 链接的开始菜单布局
+
+此示例显示了两个分别指向网站和 .pdf 文件的链接。 磁贴的辅助磁贴Microsoft Edge 150 x 150 像素的图标。
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -186,4 +191,4 @@ Surface Hub 和 Windows 10 桌面版在“开始”菜单自定义方面存在�
 ```
 
 >[!NOTE]
->的默认值为 `ForegroundText` 浅色; 你无需包含 `ForegroundText` 在 XML 中，除非你将值更改为深色。
+>的默认值为 light;除非将该值更改为深色，否则不需要包括在 `ForegroundText` `ForegroundText` XML 中。
