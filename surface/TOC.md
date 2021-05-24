@@ -4,10 +4,11 @@
 
 ## 概述
 
-### [适用于企业的 Surface Pro 7+](https://www.microsoft.com/surface/business/surface-pro-7-plus)
+### [Surface Laptop 4 商用版](https://www.microsoft.com/surface/business/surface-laptop-4)
+### [Surface Laptop 4 处理器技术概述](surface-laptop-processors.md)
+### [Surface Pro 7+ 商用版](https://www.microsoft.com/surface/business/surface-pro-7-plus)
 ### [适用于企业的 Surface Go 2](https://www.microsoft.com/surface/business/surface-go-2)
 ### [适用于企业的 Surface Pro X](https://www.microsoft.com/surface/business/surface-pro-x)
-### [适用于企业的 Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3)
 ### [适用于企业的 Surface Studio 2](https://www.microsoft.com/surface/business/surface-studio-2)
 ### [适用于企业的 Surface Book 3 ](https://www.microsoft.com/surface/business/surface-book-3)
 ### [使用 Microsoft Surface 最大化 ROI](forrester-tei-study.md)
@@ -15,9 +16,11 @@
 ### [Surface Dock 的新增功能](surface-dock-whats-new.md)
 ### [Surface Book 3 GPU 技术概述](surface-book-GPU-overview.md)
 ### [Surface Book 3 Quadro RTX 3000 技术概述](surface-book-quadro.md)
-### [借助 LTE advanced，保障安全的移动办公](https://www.microsoft.com/surface/business/lte-laptops-and-tablets)
+### [借助 LTE advanced，实现安全和随处工作的移动性](https://www.microsoft.com/surface/business/lte-laptops-and-tablets)
+### [Surface HeadPhones 2+ 技术概述](surface-headphones.md)
 
-## 计划
+
+## 规划
 
 ### [Surface 设备与 Windows 10 Long-Term Servicing Branch 的兼容性](surface-device-compatibility-with-windows-10-ltsc.md)
 ### [Surface 设备的 Long-Term Servicing Branch](ltsb-for-surface.md)
