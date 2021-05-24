@@ -3,7 +3,7 @@ title: 下一工作日更换服务信息和覆盖区域
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 02/19/2021
+ms.date: 05/18/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -14,39 +14,108 @@ appliesto:
 - Surface Hub
 ms.reviewer: irenewhite
 description: 下一工作日更换服务信息和覆盖区域。
-ms.openlocfilehash: febc81156fea88d1f08ef162152b9cde6d78a559
-ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
+ms.openlocfilehash: 387286698a1f82066bf1631682e2ceb749c0a6ab
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "11442130"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11577082"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>下一工作日更换服务信息和覆盖区域
 
 下一工作日更换是付费服务​​，更换的 Surface 设备将在下一工作日配送到你的处所。 
 
-下一工作日更换服务适用于美国、加拿大、欧洲（仅限奥地利、比利时、捷克共和国、法国、德国、荷兰、波兰、英国）、澳大利亚、新加坡和日本的 Complete 商业增强版保护计划。 代理商确定需要更换设备、我们有可用库存并按 Microsoft 确定的标准截止时间订购更换设备后，此服务适用。 
+购买完整的商业增强版保护计划（在选定国家/地区可用）后，可进行下个工作日更换。 当代理确定需要替换设备、确认可用库存以及按 Microsoft 预先确定的标准截止时间提交替换设备订单后，这些服务便适用。 
 
 ## <a name="guidelines"></a>准则
 
 - 隔夜送达具体取决于授权隔夜送达承运商的配送能力。
-- 为保证更换的设备在下一工作日送达，设备更换申请必须在表 1 中所列的截止时间前完成。 
+- 为保证更换的设备在下个工作日送达，必须在下列截止时间前完成设备替换请求。
 - 有关完整的条款和条件，请参阅《[设备保修、延期服务计划和条款和条件](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5)》。
 
-### <a name="table-1-replacement-request-cutoff-times-by-locale"></a>表 1. 按区域设置排序的更换申请截止时间
+## <a name="coverage"></a>营业时间
 
-| 区域设置                                                                                                    | 截止时间 |
-| -------------------------------------------------------------------------------------------------------------- | --------------- |
-| **美国和加拿大**                                                                                     | 14:00 CST    (UTC-6)      |
-| **欧洲**（仅限奥地利、比利时、捷克共和国、法国、德国、荷兰、波兰和英国） | 12:00 CET   (UTC+1)     |
-| **澳大利亚**                                                                                                  | 13:00 AET   (UTC+11)    |
-| **新加坡**                                                                                                  | 13:00 SGT    (UTC+8)   |
-| **日本**                                                                                                      | 13:00 JST    (UTC+9)   |
+有关受支持的邮政编码的列表，请参阅“下个工作日营业时间”（如果适用）。 
+
+- [澳大利亚](#australia)
+- [奥地利](#austria)
+- [比利时](#belgium)
+- [加拿大](#canada)
+- [捷克共和国](#czech-republic)
+- [丹麦](#denmark)
+- [芬兰](#finland)
+- [法国](#france)
+- [德国](#germany)
+- [爱尔兰](#ireland)
+- [意大利](#italy)
+- [日本](#japan)
+- [挪威](#norway)
+- [波兰](#poland)
+- [葡萄牙](#portugal)
+- [新加坡](#singapore)
+- [西班牙](#spain)
+- [瑞典](#sweden)
+- [瑞士](#switzerland)
+- [荷兰](#the-netherlands)
+- [美国](#united-states)
 
 
-##  <a name="available-areas-in-japan"></a>日本可用区域 
+#### <a name="australia"></a>澳大利亚
 
-它将在日本的以下区域提供。 有关详细信息，请参阅 [Surface Complete 商业增强版（日本）](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
+- 截止时间：14:30 AET (UTC+11)
+
+#### <a name="austria"></a>奥地利
+
+- 截止时间：12:00 CET (UTC+1)
+- [下个工作日营业时间](https://download.microsoft.com/download/5/7/5/575447e3-70c1-468b-a714-22d3cded7a6e/NBD%20Coverage%20-%20Austria%20Post%20Codes%20030321.xlsx)
+
+#### <a name="belgium"></a>比利时
+
+- 截止时间：12:00 CET (UTC+1)
+- [下个工作日营业时间](https://download.microsoft.com/download/f/b/9/fb95d99c-1403-4ecf-bbde-0bab2af2c2ce/NBD%20Coverage%20-%20Belgium%20Post%20Codes%20030321.xlsx)
+
+#### <a name="canada"></a>加拿大
+
+- 截止时间：14:00 CST (UTC-6)
+
+#### <a name="czech-republic"></a>捷克共和国
+
+- 截止时间：12:00 CET (UTC+1)
+
+#### <a name="denmark"></a>丹麦 
+
+- 截止时间：12:00 CET (UTC+1) 
+- [下个工作日营业时间](https://download.microsoft.com/download/9/e/6/9e6b4db6-b9f6-412e-a296-a10b5bc6e591/NBD%20Coverage%20-%20Denmark%20Post%20Codes%20030321.xlsx)
+
+#### <a name="finland"></a>芬兰
+
+- 截止时间：12:00 CET (UTC+1)
+- [下个工作日营业时间](https://download.microsoft.com/download/b/d/d/bddd01a3-6f8e-4bd2-9549-4dbf0a5aee86/NBD%20Coverage%20-%20Finland%20Post%20Codes%20030321.xlsx)
+
+#### <a name="france"></a>法国
+
+- 截止时间：12:00 CET (UTC+1)
+
+#### <a name="germany"></a>德国
+
+- 截止时间：12:00 CET (UTC+1)
+
+#### <a name="ireland"></a>爱尔兰
+
+- 截止时间：12:00 CET (UTC+1)
+- [下个工作日营业时间](https://download.microsoft.com/download/d/6/f/d6f05276-3657-49d3-8871-a2e445b686ef/NBD%20Coverage%20-%20Ireland%20Post%20Codes%20030321.xlsx)
+
+#### <a name="italy"></a>意大利
+
+- 截止时间：12:00 CET (UTC+1)
+- [下个工作日营业时间](https://download.microsoft.com/download/6/9/a/69a57c96-f4ce-4f93-a99a-2469ed737351/NBD%20Coverage%20-%20Italy%20Post%20Codes%20030321.xlsx)
+
+#### <a name="japan"></a>日本
+
+- 截止时间：15：30 JST (UTC+9) 
+- [下个工作日营业时间](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
+
+**日本可用区域** 
 
 - 青森
 - 岩手
@@ -79,3 +148,44 @@ ms.locfileid: "11442130"
 - 广岛
 - 山口
 
+#### <a name="norway"></a>挪威
+
+- 截止时间：12:00 CET (UTC+1)
+- [下个工作日营业时间](https://download.microsoft.com/download/2/8/0/2803e50f-b7fb-431a-9eb9-efba7fb32260/NBD%20Coverage%20-%20Norway%20Post%20Codes%20032521.xlsx)
+
+#### <a name="poland"></a>波兰
+
+- 截止时间：12:00 CET (UTC+1)
+
+
+#### <a name="portugal"></a>葡萄牙
+
+- 截止时间：12:00 CET (UTC+1)
+- [下个工作日营业时间](https://download.microsoft.com/download/5/1/4/5146ceeb-651c-4b10-afeb-ea1abb733e33/NBD%20Coverage%20-%20Portugal%20Post%20Codes%20030321.xlsx)
+
+#### <a name="singapore"></a>新加坡
+
+- 截止时间：13：00 SGT (UTC+8) 
+
+#### <a name="spain"></a>西班牙
+
+- 截止时间：12:00 CET (UTC+1)
+- [下个工作日营业时间](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coveragef-%20Spain%20Post%20Codes%20030321.xlsx)
+
+#### <a name="sweden"></a>瑞典
+
+- 截止时间：12:00 CET (UTC+1)
+- [下个工作日营业时间](https://download.microsoft.com/download/3/c/8/3c8a0591-2ee9-4742-835f-86b8c79b986f/NBD%20Coverage%20-%20Sweden%20Post%20Codes%20030321.xlsx)
+
+#### <a name="switzerland"></a>瑞士
+
+- 截止时间：12:00 CET (UTC+1)
+- [下个工作日营业时间](https://download.microsoft.com/download/e/6/9/e69789ca-4617-4b23-afb2-09529f320de3/NBD%20Coverage%20-%20Switzerland%20Post%20Codes%20030321%20update.xlsx)
+
+#### <a name="the-netherlands"></a>荷兰
+
+- 截止时间：12:00 CET (UTC+1)
+
+#### <a name="united-states"></a>美国 
+
+- 截止时间：14:00 CST (UTC-6)
