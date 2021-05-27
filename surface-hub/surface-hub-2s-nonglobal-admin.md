@@ -14,12 +14,12 @@ ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 03359a7d8ea028a8094c064c1fcb82cc9a53fe6a
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: cdb6dbdb49b34857f7b30feebb39f7a5c36e883c
+ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576762"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "11585953"
 ---
 # <a name="configure-non-global-admin-accounts-on-surface-hub"></a>配置 Surface Hub 上的非全局管理员帐户
 
@@ -47,7 +47,7 @@ Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支
 
      ![为中心管理员创建安全组](images/sh-create-sec-group.png)
 
-3. 打开组，选择 **"成员**"，然后选择"**** 添加成员"以输入你希望指定为非全局管理员的管理员帐户Surface Hub。 若要了解有关在 Intune 中创建组的信息，请参阅添加  [组以组织用户和设备](https://docs.microsoft.com/mem/intune/fundamentals/groups-add)。
+3. 打开组，选择 **"成员**"，然后选择"**** 添加成员"以输入你希望指定为非全局管理员的管理员帐户Surface Hub。 若要了解有关在 Intune 中创建组的信息，请参阅添加  [组以组织用户和设备](/mem/intune/fundamentals/groups-add)。
 
 ### <a name="create-security-group-for-surface-hub-devices"></a>为设备创建Surface Hub组
 
@@ -57,8 +57,8 @@ Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支
 
 ## <a name="obtain-azure-ad-group-sid-using-powershell"></a>使用 PowerShell 获取 Azure AD 组 SID
 
-1. 使用提升的帐户权限启动 PowerShell (**以** 管理员) 并确保系统配置为运行 PowerShell 脚本。 若要了解详情，请参阅关于 [执行策略](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?)。 
-2. [安装Azure PowerShell模块](https://docs.microsoft.com/powershell/azure/install-az-ps)。
+1. 使用提升的帐户权限启动 PowerShell (**以** 管理员) 并确保系统配置为运行 PowerShell 脚本。 若要了解详情，请参阅关于 [执行策略](/powershell/module/microsoft.powershell.core/about/about_execution_policies?)。 
+2. [安装Azure PowerShell模块](/powershell/azure/install-az-ps)。
 3. 登录到 Azure AD 租户。
 
     ```powershell
@@ -106,6 +106,9 @@ Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支
 
 2. 将占位符 SID (S-1-12-1) **Azure AD 组 SID，** 然后将文件另存为 XML;例如 ** ，aad-local-admin.xml**。 
 
+      > [!NOTE]
+      > 虽然组应该通过 SID 指定，但如果你想要直接添加 Azure 用户，可以通过按此格式指定其用户主体名称 (UPN) 添加组： `<member name = "AzureAD\user@contoso.com" />`
+
 ## <a name="create-custom-configuration-profile"></a>创建自定义配置文件
 
 1. In Endpoint Manager， select **Devices**  >  **Configuration profiles**Create  >  **profile**. 
@@ -125,7 +128,7 @@ Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支
 8. 单击 **"选择要包含的组**"，然后选择之前[在](#create-security-group-for-surface-hub-devices) (Surface Hub**创建的安全**) 。 单击“下一步”****。
 9. 在"适用性规则"下，根据需要添加"规则"。 否则，请选择 **"下一**步"，然后选择"创建 **"。**
 
-若要了解有关使用 OMA-URI 字符串的自定义配置文件，请参阅在[Intune Windows 10自定义设置](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10)。
+若要了解有关使用 OMA-URI 字符串的自定义配置文件，请参阅在[Intune Windows 10自定义设置](/mem/intune/configuration/custom-settings-windows-10)。
 
 
 ## <a name="non-global-admins-managing-surface-hub"></a>非全局管理员管理Surface Hub
