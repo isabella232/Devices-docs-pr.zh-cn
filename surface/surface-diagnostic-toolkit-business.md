@@ -32,7 +32,7 @@ ms.locfileid: "11271576"
 - [<span data-ttu-id="6baff-111">获取比较设备与最佳配置的详细报告。</span><span class="sxs-lookup"><span data-stu-id="6baff-111">Obtain detailed report comparing device vs optimal configuration.</span></span>](surface-diagnostic-toolkit-desktop-mode.md#detailed-report)
 
 
-## <span data-ttu-id="6baff-112">主要方案和下载资源</span><span class="sxs-lookup"><span data-stu-id="6baff-112">Primary scenarios and download resources</span></span> 
+## <a name="primary-scenarios-and-download-resources"></a><span data-ttu-id="6baff-112">主要方案和下载资源</span><span class="sxs-lookup"><span data-stu-id="6baff-112">Primary scenarios and download resources</span></span> 
 
 <span data-ttu-id="6baff-113">若要运行 SDT for Business，请下载下表中列出的组件。</span><span class="sxs-lookup"><span data-stu-id="6baff-113">To run SDT for Business, download the components listed in the following table.</span></span>
 
@@ -42,7 +42,7 @@ ms.locfileid: "11271576"
 <span data-ttu-id="6baff-118">桌面模式</span><span class="sxs-lookup"><span data-stu-id="6baff-118">Desktop mode</span></span> |  <span data-ttu-id="6baff-119">帮助用户在 Surface 设备上运行 SDT 以解决问题。</span><span class="sxs-lookup"><span data-stu-id="6baff-119">Assist users in running SDT on their Surface devices to troubleshoot issues.</span></span><br><span data-ttu-id="6baff-120">创建要部署在一个或多个 Surface 设备的自定义程序包，允许用户选择要收集和分析的特定日志。</span><span class="sxs-lookup"><span data-stu-id="6baff-120">Create a custom package to deploy on one or more Surface devices allowing users to select specific logs to collect and analyze.</span></span> | <span data-ttu-id="6baff-121">SDT 可分发的 MSI 程序包：</span><span class="sxs-lookup"><span data-stu-id="6baff-121">SDT distributable MSI package:</span></span><br><span data-ttu-id="6baff-122">Microsoft Surface Diagnostic Toolkit for Business Installer</span><span class="sxs-lookup"><span data-stu-id="6baff-122">Microsoft Surface Diagnostic Toolkit for Business Installer</span></span><br>[<span data-ttu-id="6baff-123">适合 IT 的 Surface 工具</span><span class="sxs-lookup"><span data-stu-id="6baff-123">Surface Tools for IT</span></span>](https://www.microsoft.com/download/details.aspx?id=46703) | [<span data-ttu-id="6baff-124">在桌面Toolkit Surface Diagnostic Toolkit</span><span class="sxs-lookup"><span data-stu-id="6baff-124">Use Surface Diagnostic Toolkit in desktop mode</span></span>](surface-diagnostic-toolkit-desktop-mode.md)
 <span data-ttu-id="6baff-125">命令行</span><span class="sxs-lookup"><span data-stu-id="6baff-125">Command line</span></span> |  <span data-ttu-id="6baff-126">使用标准工具（如 Configuration Manager）直接远程解决 Surface 设备问题，而无需用户交互。</span><span class="sxs-lookup"><span data-stu-id="6baff-126">Directly troubleshoot Surface devices remotely without user interaction, using standard tools such as Configuration Manager.</span></span> <span data-ttu-id="6baff-127">它包含以下命令：</span><span class="sxs-lookup"><span data-stu-id="6baff-127">It includes the following commands:</span></span><br>`-DataCollector` <span data-ttu-id="6baff-128">收集所有日志文件</span><span class="sxs-lookup"><span data-stu-id="6baff-128">collects all log files</span></span><br>`-bpa` <span data-ttu-id="6baff-129">使用最佳做法分析器运行运行状况诊断。</span><span class="sxs-lookup"><span data-stu-id="6baff-129">runs health diagnostics using Best Practice Analyzer.</span></span><br>`-windowsupdate` <span data-ttu-id="6baff-130">检查 Windows 更新中缺少固件或驱动程序更新。</span><span class="sxs-lookup"><span data-stu-id="6baff-130">checks Windows Update for missing firmware or driver updates.</span></span><br>`-warranty` <span data-ttu-id="6baff-131">检查担保信息。</span><span class="sxs-lookup"><span data-stu-id="6baff-131">checks warranty information.</span></span> <br><br>| <span data-ttu-id="6baff-132">SDT 控制台应用：</span><span class="sxs-lookup"><span data-stu-id="6baff-132">SDT console app:</span></span><br><span data-ttu-id="6baff-133">Microsoft Surface Diagnostics 应用控制台</span><span class="sxs-lookup"><span data-stu-id="6baff-133">Microsoft Surface Diagnostics App Console</span></span><br>[<span data-ttu-id="6baff-134">适合 IT 的 Surface 工具</span><span class="sxs-lookup"><span data-stu-id="6baff-134">Surface Tools for IT</span></span>](https://www.microsoft.com/download/details.aspx?id=46703) | [<span data-ttu-id="6baff-135">使用命令运行 Surface 诊断Toolkit</span><span class="sxs-lookup"><span data-stu-id="6baff-135">Run Surface Diagnostic Toolkit using commands</span></span>](surface-diagnostic-toolkit-command-line.md)
 
-## <span data-ttu-id="6baff-136">支持的设备</span><span class="sxs-lookup"><span data-stu-id="6baff-136">Supported devices</span></span> 
+## <a name="supported-devices-"></a><span data-ttu-id="6baff-136">支持的设备</span><span class="sxs-lookup"><span data-stu-id="6baff-136">Supported devices</span></span> 
 
 <span data-ttu-id="6baff-137">SDT for Business 在 Surface 3 和更高版本设备上受支持，包括：</span><span class="sxs-lookup"><span data-stu-id="6baff-137">SDT for Business is supported on Surface 3 and later devices, including:</span></span>
 
@@ -56,7 +56,7 @@ ms.locfileid: "11271576"
 - <span data-ttu-id="6baff-145">Surface 3</span><span class="sxs-lookup"><span data-stu-id="6baff-145">Surface 3</span></span>
 
 
-## <span data-ttu-id="6baff-146">安装 Surface Diagnostic Toolkit for Business</span><span class="sxs-lookup"><span data-stu-id="6baff-146">Installing Surface Diagnostic Toolkit for Business</span></span>
+## <a name="installing-surface-diagnostic-toolkit-for-business"></a><span data-ttu-id="6baff-146">安装 Surface Diagnostic Toolkit for Business</span><span class="sxs-lookup"><span data-stu-id="6baff-146">Installing Surface Diagnostic Toolkit for Business</span></span>
 
 <span data-ttu-id="6baff-147">若要创建可分发给组织中用户的 SDT 包：</span><span class="sxs-lookup"><span data-stu-id="6baff-147">To create an SDT package that you can distribute to users in your organization:</span></span>
 
@@ -83,13 +83,13 @@ ms.locfileid: "11271576"
 
 7. <span data-ttu-id="6baff-161">单击 **"** 下一步"，然后单击"**安装"。**</span><span class="sxs-lookup"><span data-stu-id="6baff-161">Click **Next** and then click **Install**.</span></span> 
 
-## <span data-ttu-id="6baff-162">使用命令行安装</span><span class="sxs-lookup"><span data-stu-id="6baff-162">Installing using the command line</span></span>
+## <a name="installing-using-the-command-line"></a><span data-ttu-id="6baff-162">使用命令行安装</span><span class="sxs-lookup"><span data-stu-id="6baff-162">Installing using the command line</span></span>
 <span data-ttu-id="6baff-163">如果需要，可以在命令提示符下安装 SDT，并设置自定义标志以在管理模式下安装该工具。</span><span class="sxs-lookup"><span data-stu-id="6baff-163">If desired, you can install SDT at a command prompt and set a custom flag to install the tool in admin mode.</span></span> <span data-ttu-id="6baff-164">SDT 包含以下安装选项标志：</span><span class="sxs-lookup"><span data-stu-id="6baff-164">SDT contains the following install option flags:</span></span>
 
 - `SENDTELEMETRY` <span data-ttu-id="6baff-165">将遥测数据发送到 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6baff-165">sends telemetry data to Microsoft.</span></span> <span data-ttu-id="6baff-166">标志接受 `0` 禁用或 `1` 启用。</span><span class="sxs-lookup"><span data-stu-id="6baff-166">The flag accepts `0` for disabled or `1` for enabled.</span></span> <span data-ttu-id="6baff-167">默认值是 `1` 发送遥测。</span><span class="sxs-lookup"><span data-stu-id="6baff-167">The default value is `1` to send telemetry.</span></span>
 - `ADMINMODE` <span data-ttu-id="6baff-168">配置要以管理模式安装的工具。</span><span class="sxs-lookup"><span data-stu-id="6baff-168">configures the tool to be installed in admin mode.</span></span> <span data-ttu-id="6baff-169">该标志接受 `0` 客户端模式或 `1` IT 管理员模式。</span><span class="sxs-lookup"><span data-stu-id="6baff-169">The flag accepts `0` for client mode or `1` for IT Administrator mode.</span></span> <span data-ttu-id="6baff-170">默认值为 `0`。</span><span class="sxs-lookup"><span data-stu-id="6baff-170">The default value is `0`.</span></span>
 
-### <span data-ttu-id="6baff-171">若要从命令行安装 SDT：</span><span class="sxs-lookup"><span data-stu-id="6baff-171">To install SDT from the command line:</span></span>
+### <a name="to-install-sdt-from-the-command-line"></a><span data-ttu-id="6baff-171">若要从命令行安装 SDT：</span><span class="sxs-lookup"><span data-stu-id="6baff-171">To install SDT from the command line:</span></span>
 
 1. <span data-ttu-id="6baff-172">打开命令提示符并输入：</span><span class="sxs-lookup"><span data-stu-id="6baff-172">Open a command prompt and enter:</span></span>
 
@@ -102,7 +102,7 @@ ms.locfileid: "11271576"
     C:\Users\Administrator> msiexec.exe/I"C:\Users\Administrator\Desktop\Microsoft_Surface_Diagnostic_Toolkit_for_Business_Installer.msi" ADMINMODE=1
     ```
 
-## <span data-ttu-id="6baff-174">在 Surface 设备上定位 SDT</span><span class="sxs-lookup"><span data-stu-id="6baff-174">Locating SDT on your Surface device</span></span>
+## <a name="locating-sdt-on-your-surface-device"></a><span data-ttu-id="6baff-174">在 Surface 设备上定位 SDT</span><span class="sxs-lookup"><span data-stu-id="6baff-174">Locating SDT on your Surface device</span></span>
 
 <span data-ttu-id="6baff-175">SDT 和 SDT 应用控制台都安装在 `C:\Program Files\Microsoft\Surface\Microsoft Surface Diagnostic Toolkit for Business` 。</span><span class="sxs-lookup"><span data-stu-id="6baff-175">Both SDT and the SDT app console are installed at `C:\Program Files\Microsoft\Surface\Microsoft Surface Diagnostic Toolkit for Business`.</span></span>
 
@@ -112,7 +112,7 @@ ms.locfileid: "11271576"
 
 *<span data-ttu-id="6baff-178">图 2.</span><span class="sxs-lookup"><span data-stu-id="6baff-178">Figure 2.</span></span> <span data-ttu-id="6baff-179">由 SDT 安装的文件</span><span class="sxs-lookup"><span data-stu-id="6baff-179">Files installed by SDT</span></span>*
 
-## <span data-ttu-id="6baff-180">准备 SDT 包进行分发</span><span class="sxs-lookup"><span data-stu-id="6baff-180">Preparing the SDT package for distribution</span></span>
+## <a name="preparing-the-sdt-package-for-distribution"></a><span data-ttu-id="6baff-180">准备 SDT 包进行分发</span><span class="sxs-lookup"><span data-stu-id="6baff-180">Preparing the SDT package for distribution</span></span>
 
 <span data-ttu-id="6baff-181">通过创建自定义程序包，你可以将工具定向到特定的已知问题。</span><span class="sxs-lookup"><span data-stu-id="6baff-181">Creating a custom package allows you to target the tool to specific known issues.</span></span>
 
@@ -123,7 +123,7 @@ ms.locfileid: "11271576"
 
     *<span data-ttu-id="6baff-185">图 3.</span><span class="sxs-lookup"><span data-stu-id="6baff-185">Figure 3.</span></span> <span data-ttu-id="6baff-186">创建自定义程序包</span><span class="sxs-lookup"><span data-stu-id="6baff-186">Create custom package</span></span>*
 
-### <span data-ttu-id="6baff-187">语言和遥测设置</span><span class="sxs-lookup"><span data-stu-id="6baff-187">Language and telemetry settings</span></span>
+### <a name="language-and-telemetry-settings"></a><span data-ttu-id="6baff-187">语言和遥测设置</span><span class="sxs-lookup"><span data-stu-id="6baff-187">Language and telemetry settings</span></span>
 
   <span data-ttu-id="6baff-188">创建程序包时，可以选择语言设置或选择不向 Microsoft 发送遥测信息。</span><span class="sxs-lookup"><span data-stu-id="6baff-188">When creating a package, you can select language settings or opt out of sending telemetry information to Microsoft.</span></span> <span data-ttu-id="6baff-189">默认情况下，SDT 根据 Microsoft 隐私声明向 Microsoft 发送用于改进应用程序的 [遥测](https://privacy.microsoft.com/privacystatement)。</span><span class="sxs-lookup"><span data-stu-id="6baff-189">By default, SDT sends telemetry to Microsoft that is used to improve the application in accordance with the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).</span></span> <span data-ttu-id="6baff-190">如果希望拒绝，请在创建自定义程序包时清除该复选框，如下所示。</span><span class="sxs-lookup"><span data-stu-id="6baff-190">If you wish to decline, clear the check box when creating a custom package, as shown below.</span></span> <span data-ttu-id="6baff-191">或者，在 SDT 安装期间清除"\*\*\*\* 安装选项"页上的"将遥测发送到**Microsoft"** 复选框。</span><span class="sxs-lookup"><span data-stu-id="6baff-191">Or clear the **Send telemetry to Microsoft** check box on the **Install Options** page during SDT Setup.</span></span> 
 
@@ -136,7 +136,7 @@ ms.locfileid: "11271576"
 *<span data-ttu-id="6baff-194">图 4.</span><span class="sxs-lookup"><span data-stu-id="6baff-194">Figure 4.</span></span> <span data-ttu-id="6baff-195">选择语言和遥测设置</span><span class="sxs-lookup"><span data-stu-id="6baff-195">Select language and telemetry settings</span></span>*
 
 
-### <span data-ttu-id="6baff-196">Windows 更新页</span><span class="sxs-lookup"><span data-stu-id="6baff-196">Windows Update page</span></span>
+### <a name="windows-update-page"></a><span data-ttu-id="6baff-196">Windows 更新页</span><span class="sxs-lookup"><span data-stu-id="6baff-196">Windows Update page</span></span>
 
 <span data-ttu-id="6baff-197">选择适合贵组织的选项。</span><span class="sxs-lookup"><span data-stu-id="6baff-197">Select the option appropriate for your organization.</span></span> <span data-ttu-id="6baff-198">具有多个用户的大多数组织通常会选择通过 Windows Server Update Services (WSUS) 接收更新，如图 5 所示。</span><span class="sxs-lookup"><span data-stu-id="6baff-198">Most organizations with multiple users will typically select to receive updates via Windows Server Update Services (WSUS), as shown in figure 5.</span></span> <span data-ttu-id="6baff-199">如果使用本地 Windows 更新程序包或 WSUS，请根据情况输入路径。</span><span class="sxs-lookup"><span data-stu-id="6baff-199">If using local Windows Update packages or WSUS, enter the path as appropriate.</span></span> 
 
@@ -144,7 +144,7 @@ ms.locfileid: "11271576"
 
 *<span data-ttu-id="6baff-201">图 5.</span><span class="sxs-lookup"><span data-stu-id="6baff-201">Figure 5.</span></span> <span data-ttu-id="6baff-202">Windows 更新选项</span><span class="sxs-lookup"><span data-stu-id="6baff-202">Windows Update option</span></span>*
 
-### <span data-ttu-id="6baff-203">软件修复页</span><span class="sxs-lookup"><span data-stu-id="6baff-203">Software repair page</span></span>
+### <a name="software-repair-page"></a><span data-ttu-id="6baff-203">软件修复页</span><span class="sxs-lookup"><span data-stu-id="6baff-203">Software repair page</span></span>
 
 <span data-ttu-id="6baff-204">这允许你选择或删除运行软件修复更新的选项。</span><span class="sxs-lookup"><span data-stu-id="6baff-204">This allows you to select or remove the option to run software repair updates.</span></span> 
 
@@ -152,7 +152,7 @@ ms.locfileid: "11271576"
 
 *<span data-ttu-id="6baff-206">图 6.</span><span class="sxs-lookup"><span data-stu-id="6baff-206">Figure 6.</span></span> <span data-ttu-id="6baff-207">软件修复选项</span><span class="sxs-lookup"><span data-stu-id="6baff-207">Software repair option</span></span>*
 
-### <span data-ttu-id="6baff-208">收集日志并保存程序包页面</span><span class="sxs-lookup"><span data-stu-id="6baff-208">Collecting logs and saving package page</span></span>
+### <a name="collecting-logs-and-saving-package-page"></a><span data-ttu-id="6baff-208">收集日志并保存程序包页面</span><span class="sxs-lookup"><span data-stu-id="6baff-208">Collecting logs and saving package page</span></span>
 
 <span data-ttu-id="6baff-209">可以选择跨应用程序、驱动程序、硬件和操作系统运行各种日志。</span><span class="sxs-lookup"><span data-stu-id="6baff-209">You can select to run a wide range of logs across applications, drivers, hardware, and the operating system.</span></span> <span data-ttu-id="6baff-210">单击相应的区域，然后从可用日志的菜单中选择。</span><span class="sxs-lookup"><span data-stu-id="6baff-210">Click the appropriate area and select from the menu of available logs.</span></span> <span data-ttu-id="6baff-211">然后，您可以将程序包保存到软件分发点或用户可以访问的等效位置。</span><span class="sxs-lookup"><span data-stu-id="6baff-211">You can then save the package to a software distribution point or equivalent location that users can access.</span></span> 
 
@@ -160,14 +160,14 @@ ms.locfileid: "11271576"
 
 *<span data-ttu-id="6baff-213">图 7.</span><span class="sxs-lookup"><span data-stu-id="6baff-213">Figure 7.</span></span> <span data-ttu-id="6baff-214">日志选项和保存程序包</span><span class="sxs-lookup"><span data-stu-id="6baff-214">Log option and save package</span></span>*
 
-## <span data-ttu-id="6baff-215">后续步骤</span><span class="sxs-lookup"><span data-stu-id="6baff-215">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="6baff-215">后续步骤</span><span class="sxs-lookup"><span data-stu-id="6baff-215">Next steps</span></span>
 
 - [<span data-ttu-id="6baff-216">在桌面模式下使用适用于企业的 Surface 诊断工具包</span><span class="sxs-lookup"><span data-stu-id="6baff-216">Use Surface Diagnostic Toolkit for Business in desktop mode</span></span>](surface-diagnostic-toolkit-desktop-mode.md)
 - [<span data-ttu-id="6baff-217">使用适用于Toolkit Surface Diagnostic Toolkit For Business</span><span class="sxs-lookup"><span data-stu-id="6baff-217">Use Surface Diagnostic Toolkit for Business using commands</span></span>](surface-diagnostic-toolkit-command-line.md)
 
-## <span data-ttu-id="6baff-218">更改和更新</span><span class="sxs-lookup"><span data-stu-id="6baff-218">Changes and updates</span></span>
+## <a name="changes-and-updates"></a><span data-ttu-id="6baff-218">更改和更新</span><span class="sxs-lookup"><span data-stu-id="6baff-218">Changes and updates</span></span>
 
-### <span data-ttu-id="6baff-219">版本 2.131.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-219">Version 2.131.139.0</span></span>
+### <a name="version-2.131.139.0"></a><span data-ttu-id="6baff-219">版本 2.131.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-219">Version 2.131.139.0</span></span>
 
 <span data-ttu-id="6baff-220">此版本的 Surface Diagnostic Toolkit for Business 增加了对以下内容的支持：</span><span class="sxs-lookup"><span data-stu-id="6baff-220">This version of Surface Diagnostic Toolkit for Business adds support for the following:</span></span>
 
@@ -176,7 +176,7 @@ ms.locfileid: "11271576"
 - <span data-ttu-id="6baff-223">安全改进</span><span class="sxs-lookup"><span data-stu-id="6baff-223">Security improvements</span></span>
 - <span data-ttu-id="6baff-224">非独占用户体验改进</span><span class="sxs-lookup"><span data-stu-id="6baff-224">Inclusive user experience improvements</span></span>
 
-### <span data-ttu-id="6baff-225">版本 2.124.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-225">Version 2.124.139.0</span></span>
+### <a name="version-2.124.139.0"></a><span data-ttu-id="6baff-225">版本 2.124.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-225">Version 2.124.139.0</span></span>
 
 <span data-ttu-id="6baff-226">此版本的 Surface Diagnostic Toolkit for Business 增加了对以下内容的支持：</span><span class="sxs-lookup"><span data-stu-id="6baff-226">This version of Surface Diagnostic Toolkit for Business adds support for the following:</span></span>
 
@@ -188,14 +188,14 @@ ms.locfileid: "11271576"
 - <span data-ttu-id="6baff-232">将驱动器标为存储测试中的潜在故障</span><span class="sxs-lookup"><span data-stu-id="6baff-232">Flag drives as potential failures in storage test</span></span>
 - <span data-ttu-id="6baff-233">删除存储链接</span><span class="sxs-lookup"><span data-stu-id="6baff-233">Remove store link</span></span> 
 
-### <span data-ttu-id="6baff-234">版本 2.121.139</span><span class="sxs-lookup"><span data-stu-id="6baff-234">Version 2.121.139</span></span>
+### <a name="version-2.121.139"></a><span data-ttu-id="6baff-234">版本 2.121.139</span><span class="sxs-lookup"><span data-stu-id="6baff-234">Version 2.121.139</span></span>
 *<span data-ttu-id="6baff-235">发布日期：2020 年 7 月 31 日</span><span class="sxs-lookup"><span data-stu-id="6baff-235">Release date: July 31 2020</span></span>*<br>
 <span data-ttu-id="6baff-236">此版本的 Surface Diagnostic Toolkit for Business 增加了对以下内容的支持：</span><span class="sxs-lookup"><span data-stu-id="6baff-236">This version of Surface Diagnostic Toolkit for Business adds support for the following:</span></span>
 
 - <span data-ttu-id="6baff-237">无缝支持体验</span><span class="sxs-lookup"><span data-stu-id="6baff-237">Seamless support experience</span></span>
 - <span data-ttu-id="6baff-238">Bug 修复</span><span class="sxs-lookup"><span data-stu-id="6baff-238">Bug fixes</span></span>
 
-### <span data-ttu-id="6baff-239">版本 2.94.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-239">Version 2.94.139.0</span></span>
+### <a name="version-2.94.139.0"></a><span data-ttu-id="6baff-239">版本 2.94.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-239">Version 2.94.139.0</span></span>
 *<span data-ttu-id="6baff-240">发布日期：2020 年 5 月 11 日</span><span class="sxs-lookup"><span data-stu-id="6baff-240">Release date: May 11, 2020</span></span>*<br>
 <span data-ttu-id="6baff-241">此版本的 Surface Diagnostic Toolkit for Business 增加了对以下内容的支持：</span><span class="sxs-lookup"><span data-stu-id="6baff-241">This version of Surface Diagnostic Toolkit for Business adds support for the following:</span></span>
 
@@ -206,27 +206,27 @@ ms.locfileid: "11271576"
 - <span data-ttu-id="6baff-246">显示进度指示器</span><span class="sxs-lookup"><span data-stu-id="6baff-246">Show progress indicator</span></span>
 
 
-### <span data-ttu-id="6baff-247">版本 2.43.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-247">Version 2.43.139.0</span></span>
+### <a name="version-2.43.139.0"></a><span data-ttu-id="6baff-247">版本 2.43.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-247">Version 2.43.139.0</span></span>
 *<span data-ttu-id="6baff-248">发布日期：2019 年 10 月 21 日</span><span class="sxs-lookup"><span data-stu-id="6baff-248">Release date: October 21, 2019</span></span>*<br>
 <span data-ttu-id="6baff-249">此版本的 Surface Diagnostic Toolkit for Business 增加了对以下内容的支持：</span><span class="sxs-lookup"><span data-stu-id="6baff-249">This version of Surface Diagnostic Toolkit for Business adds support for the following:</span></span>
 
 - <span data-ttu-id="6baff-250">Surface Pro 7</span><span class="sxs-lookup"><span data-stu-id="6baff-250">Surface Pro 7</span></span>
 - <span data-ttu-id="6baff-251">Surface Laptop 3</span><span class="sxs-lookup"><span data-stu-id="6baff-251">Surface Laptop 3</span></span>
 
-### <span data-ttu-id="6baff-252">版本 2.42.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-252">Version 2.42.139.0</span></span>
+### <a name="version-2.42.139.0"></a><span data-ttu-id="6baff-252">版本 2.42.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-252">Version 2.42.139.0</span></span>
 *<span data-ttu-id="6baff-253">发布日期：2019 年 9 月 24 日</span><span class="sxs-lookup"><span data-stu-id="6baff-253">Release date: September 24, 2019</span></span>*<br>
 <span data-ttu-id="6baff-254">此版本的 Surface Diagnostic Toolkit for Business 增加了对以下内容的支持：</span><span class="sxs-lookup"><span data-stu-id="6baff-254">This version of Surface Diagnostic Toolkit for Business adds support for the following:</span></span> 
 - <span data-ttu-id="6baff-255">下载硬件报告的能力。</span><span class="sxs-lookup"><span data-stu-id="6baff-255">Ability to download hardware reports.</span></span>
 - <span data-ttu-id="6baff-256">可以直接通过该工具联系 Microsoft 支持人员。</span><span class="sxs-lookup"><span data-stu-id="6baff-256">Ability to contact Microsoft Support directly from the tool.</span></span> <br>
 
-### <span data-ttu-id="6baff-257">版本 2.41.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-257">Version 2.41.139.0</span></span>
+### <a name="version-2.41.139.0"></a><span data-ttu-id="6baff-257">版本 2.41.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-257">Version 2.41.139.0</span></span>
 *<span data-ttu-id="6baff-258">发布日期：2019 年 6 月 24 日</span><span class="sxs-lookup"><span data-stu-id="6baff-258">Release date: June 24, 2019</span></span>*<br>
 <span data-ttu-id="6baff-259">此版本的 Surface Diagnostic Toolkit for Business 增加了对以下内容的支持：</span><span class="sxs-lookup"><span data-stu-id="6baff-259">This version of Surface Diagnostic Toolkit for Business adds support for the following:</span></span> 
 - <span data-ttu-id="6baff-260">日志和报告中包含的驱动程序版本信息。</span><span class="sxs-lookup"><span data-stu-id="6baff-260">Driver version information included in logs and report.</span></span>
 - <span data-ttu-id="6baff-261">提供有关应用的反馈的能力。</span><span class="sxs-lookup"><span data-stu-id="6baff-261">Ability to provide feedback about the app.</span></span><br>
 
 
-### <span data-ttu-id="6baff-262">版本 2.36.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-262">Version 2.36.139.0</span></span>
+### <a name="version-2.36.139.0"></a><span data-ttu-id="6baff-262">版本 2.36.139.0</span><span class="sxs-lookup"><span data-stu-id="6baff-262">Version 2.36.139.0</span></span>
 *<span data-ttu-id="6baff-263">发布日期：2019 年 4 月 26 日</span><span class="sxs-lookup"><span data-stu-id="6baff-263">Release date: April 26, 2019</span></span>*<br>
 <span data-ttu-id="6baff-264">此版本的 Surface Diagnostic Toolkit for Business 增加了对以下内容的支持：</span><span class="sxs-lookup"><span data-stu-id="6baff-264">This version of Surface Diagnostic Toolkit for Business adds support for the following:</span></span> 
 - <span data-ttu-id="6baff-265">高级安装程序选项，用于通过安装程序 UI 解锁管理功能，而无需命令行配置。</span><span class="sxs-lookup"><span data-stu-id="6baff-265">Advanced Setup option to unlock admin capabilities through the installer UI, without requiring command line configuration.</span></span>

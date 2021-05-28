@@ -26,7 +26,7 @@ ms.locfileid: "10832079"
 >[!NOTE]
 ><span data-ttu-id="d4719-106">Surface Hub 将使用您选择的视频输入，直到建立新连接、现有连接中断或连接应用关闭。</span><span class="sxs-lookup"><span data-stu-id="d4719-106">Surface Hub will use the video input that you select until a new connection is made, the existing connection is disrupted, or the Connect App is closed.</span></span>
 
-## <span data-ttu-id="d4719-107">我应该选择哪一种方法？</span><span class="sxs-lookup"><span data-stu-id="d4719-107">Which method should I choose?</span></span>
+## <a name="which-method-should-i-choose"></a><span data-ttu-id="d4719-107">我应该选择哪一种方法？</span><span class="sxs-lookup"><span data-stu-id="d4719-107">Which method should I choose?</span></span>
 
 <span data-ttu-id="d4719-108">将外部设备和屏幕连接到 Surface Hub 时，有几个可用选项。</span><span class="sxs-lookup"><span data-stu-id="d4719-108">When connecting external devices and displays to a Surface Hub, there are several available options.</span></span> <span data-ttu-id="d4719-109">根据你的方案和需求，确定要使用的方法。</span><span class="sxs-lookup"><span data-stu-id="d4719-109">The method you use will depend upon your scenario and needs.</span></span> 
 
@@ -37,7 +37,7 @@ ms.locfileid: "10832079"
 | <span data-ttu-id="d4719-116">通过外部 Windows 10 电脑使用 Surface Hub，关闭 Surface Hub 的嵌入计算机。</span><span class="sxs-lookup"><span data-stu-id="d4719-116">Power the Surface Hub from an external Windows 10 PC, turning off the embedded computer of the Surface Hub.</span></span> <span data-ttu-id="d4719-117">除了笔和触摸，还可向外部电脑发送相机、麦克风、扬声器和其他外设。</span><span class="sxs-lookup"><span data-stu-id="d4719-117">Cameras, microphones, speakers, and other peripherals, are sent to the external PC, in addition to pen and touch.</span></span> | [<span data-ttu-id="d4719-118">替换电脑模式</span><span class="sxs-lookup"><span data-stu-id="d4719-118">Replacement PC Mode</span></span>](#replacement-pc-mode) |
 
 
-## <span data-ttu-id="d4719-119">来宾模式</span><span class="sxs-lookup"><span data-stu-id="d4719-119">Guest Mode</span></span>
+## <a name="guest-mode"></a><span data-ttu-id="d4719-119">来宾模式</span><span class="sxs-lookup"><span data-stu-id="d4719-119">Guest Mode</span></span>
 
 
 <span data-ttu-id="d4719-120">来宾模式使用有线连接，因此用户可将其设备中的内容显示到 Surface Hub。</span><span class="sxs-lookup"><span data-stu-id="d4719-120">Guest Mode uses a wired connection, so people can display content from their devices to the Surface Hub.</span></span> <span data-ttu-id="d4719-121">如果源设备基于 Windows，则该设备还提供 Touchback 和 Inkback。</span><span class="sxs-lookup"><span data-stu-id="d4719-121">If the source device is Windows-based, that device can also provide Touchback and Inkback.</span></span> <span data-ttu-id="d4719-122">Surface Hub 的内部电脑提取连接设备中的视频和音频，并将它们显示在 Surface Hub 上。</span><span class="sxs-lookup"><span data-stu-id="d4719-122">Surface Hub's internal PC takes video and audio from the connected device and presents them on the Surface Hub.</span></span> <span data-ttu-id="d4719-123">如果 Surface Hub 遇到高带宽数字内容保护（HDCP）信号，则源将显示为黑色图像。</span><span class="sxs-lookup"><span data-stu-id="d4719-123">If Surface Hub encounters a High-Bandwidth Digital Content Protection (HDCP) signal, the source will be displayed as a black image.</span></span> <span data-ttu-id="d4719-124">若要在不违反 HDCP 要求情况下显示内容，请使用 Surface Hub 右侧的小键盘直接选择外部源。</span><span class="sxs-lookup"><span data-stu-id="d4719-124">To display your content without violating HDCP requirements, use the keypad on the right side of the Surface Hub to directly choose the external source.</span></span>
@@ -45,7 +45,7 @@ ms.locfileid: "10832079"
 >[!NOTE]
 ><span data-ttu-id="d4719-125">当连接 HDCP 源时，使用侧键盘更改源输入。</span><span class="sxs-lookup"><span data-stu-id="d4719-125">When an HDCP source is connected, use the side  keypad to change source inputs.</span></span>
 
-### <span data-ttu-id="d4719-126">端口</span><span class="sxs-lookup"><span data-stu-id="d4719-126">Ports</span></span>
+### <a name="ports"></a><span data-ttu-id="d4719-126">端口</span><span class="sxs-lookup"><span data-stu-id="d4719-126">Ports</span></span>
 
 <span data-ttu-id="d4719-127">针对来宾模式使用 Surface Hub 上的这些端口。</span><span class="sxs-lookup"><span data-stu-id="d4719-127">Use these ports on the Surface Hub for Guest Mode.</span></span>
 
@@ -116,7 +116,7 @@ ms.locfileid: "10832079"
 
  
 
-### <span data-ttu-id="d4719-158">端口位置</span><span class="sxs-lookup"><span data-stu-id="d4719-158">Port locations</span></span>
+### <a name="port-locations"></a><span data-ttu-id="d4719-158">端口位置</span><span class="sxs-lookup"><span data-stu-id="d4719-158">Port locations</span></span>
 
 <span data-ttu-id="d4719-159">这些是在 55 英寸和 84 英寸 Surface Hub 上用于来宾模式的端口连接。</span><span class="sxs-lookup"><span data-stu-id="d4719-159">These are the port connections used for Guest Mode on the 55" and 84" Surface Hubs.</span></span>
 
@@ -128,7 +128,7 @@ ms.locfileid: "10832079"
 
 <span data-ttu-id="d4719-163">84 英寸 Surface Hub 上的有线端口连接</span><span class="sxs-lookup"><span data-stu-id="d4719-163">Wired port connections on 84" Surface Hub</span></span>
 
-### <span data-ttu-id="d4719-164">端口枚举</span><span class="sxs-lookup"><span data-stu-id="d4719-164">Port enumeration</span></span>
+### <a name="port-enumeration"></a><span data-ttu-id="d4719-164">端口枚举</span><span class="sxs-lookup"><span data-stu-id="d4719-164">Port enumeration</span></span>
 
 <span data-ttu-id="d4719-165">当 Surface Hub 通过有线连接 USB 端口连接到来宾计算机时，会发现并配置多台 USB 设备。</span><span class="sxs-lookup"><span data-stu-id="d4719-165">When a Surface hub is connected to a guest computer with the wired connect USB port, a number of USB devices are discovered and configured.</span></span> <span data-ttu-id="d4719-166">这些外围设备针对 Touchback 和 Inkback 创建。</span><span class="sxs-lookup"><span data-stu-id="d4719-166">These peripheral devices are created for Touchback and Inkback.</span></span> <span data-ttu-id="d4719-167">可以在设备管理器中查看外围设备。</span><span class="sxs-lookup"><span data-stu-id="d4719-167">The peripheral devices can be viewed in Device Manager.</span></span> <span data-ttu-id="d4719-168">设备管理器将显示某些设备的重复名称。</span><span class="sxs-lookup"><span data-stu-id="d4719-168">Device Manager will show duplicate names for some devices.</span></span>
 
@@ -162,7 +162,7 @@ ms.locfileid: "10832079"
 
 -   <span data-ttu-id="d4719-183">USB 复合设备</span><span class="sxs-lookup"><span data-stu-id="d4719-183">USB composite device</span></span>
 
-### <span data-ttu-id="d4719-184">来宾模式连接</span><span class="sxs-lookup"><span data-stu-id="d4719-184">Guest Mode connectivity</span></span>
+### <a name="guest-mode-connectivity"></a><span data-ttu-id="d4719-184">来宾模式连接</span><span class="sxs-lookup"><span data-stu-id="d4719-184">Guest Mode connectivity</span></span>
 
 <span data-ttu-id="d4719-185">你对视频电缆的选择取决于源输入的可用电缆。</span><span class="sxs-lookup"><span data-stu-id="d4719-185">Your choice of video cable will be determined by what is available from your source input.</span></span> <span data-ttu-id="d4719-186">Surface Hub 有三种视频输入选择：DisplayPort、HDMI 和 VGA。</span><span class="sxs-lookup"><span data-stu-id="d4719-186">The Surface Hub has three choices of video input: DisplayPort, HDMI, and VGA.</span></span> <span data-ttu-id="d4719-187">请参见下图中的可用分辨率。</span><span class="sxs-lookup"><span data-stu-id="d4719-187">See the following chart for available resolutions.</span></span>
 
@@ -243,20 +243,20 @@ ms.locfileid: "10832079"
 
 <span data-ttu-id="d4719-231">如果你为来宾模式使用的计算机与 Touchback 和 Inkback 不兼容，则你不需要 USB 电缆。</span><span class="sxs-lookup"><span data-stu-id="d4719-231">If the computer you are using for Guest Mode is not compatible with Touchback and Inkback, then you won't need the USB cable.</span></span>
 
-## <span data-ttu-id="d4719-232">替换电脑模式</span><span class="sxs-lookup"><span data-stu-id="d4719-232">Replacement PC Mode</span></span>
+## <a name="replacement-pc-mode"></a><span data-ttu-id="d4719-232">替换电脑模式</span><span class="sxs-lookup"><span data-stu-id="d4719-232">Replacement PC Mode</span></span>
 
 
 <span data-ttu-id="d4719-233">在替换电脑模式中，Surface Hub 的嵌入计算机处于关闭状态，而将一台外部电脑连接到 Surface Hub。</span><span class="sxs-lookup"><span data-stu-id="d4719-233">In Replacement PC Mode, the embedded computer of the Surface Hub is turned off and an external PC is connected to the Surface Hub.</span></span> <span data-ttu-id="d4719-234">连接到替换电脑端口可访问 Surface Hub 上的关键外设，包括屏幕、笔和触摸功能。</span><span class="sxs-lookup"><span data-stu-id="d4719-234">Connections to replacement PC ports give access to key peripherals on the Surface Hub, including the screen, pen, and touch features.</span></span> <span data-ttu-id="d4719-235">这意味着你的 Surface Hub 不会获得 Windows 团队体验的优势，但你将拥有提供和管理你自己的 Windows 计算机所提供的灵活性。</span><span class="sxs-lookup"><span data-stu-id="d4719-235">This does mean that your Surface Hub won’t have the benefit of the Windows Team experience, but you will have the flexibility offered by providing and managing your own Windows computer.</span></span>
 
-### <span data-ttu-id="d4719-236">软件要求</span><span class="sxs-lookup"><span data-stu-id="d4719-236">Software requirements</span></span>
+### <a name="software-requirements"></a><span data-ttu-id="d4719-236">软件要求</span><span class="sxs-lookup"><span data-stu-id="d4719-236">Software requirements</span></span>
 
 <span data-ttu-id="d4719-237">你可以在 64 位版本的 Windows 10 家庭版、Windows 10 专业版和 Windows 10 企业版中在替换电脑模式下运行 Surface Hub。</span><span class="sxs-lookup"><span data-stu-id="d4719-237">You can run Surface Hub in Replacement PC Mode with 64-bit versions of Windows 10 Home, Windows 10 Pro, and Windows 10 Enterprise.</span></span> <span data-ttu-id="d4719-238">你可以从 Microsoft 下载中心下载 [Surface Hub 替换电脑驱动程序包](https://www.microsoft.com/download/details.aspx?id=52210)。</span><span class="sxs-lookup"><span data-stu-id="d4719-238">You can download the  [Surface Hub Replacement PC driver package](https://www.microsoft.com/download/details.aspx?id=52210) from the Microsoft Download Center.</span></span> <span data-ttu-id="d4719-239">我们建议在任何计划用作替换电脑的计算机上安装这些驱动程序。</span><span class="sxs-lookup"><span data-stu-id="d4719-239">We recommend that you install these drivers on any computer you plan to use as a replacement PC.</span></span>
 
-### <span data-ttu-id="d4719-240">硬件要求</span><span class="sxs-lookup"><span data-stu-id="d4719-240">Hardware requirements</span></span>
+### <a name="hardware-requirements"></a><span data-ttu-id="d4719-240">硬件要求</span><span class="sxs-lookup"><span data-stu-id="d4719-240">Hardware requirements</span></span>
 
 <span data-ttu-id="d4719-241">Surface Hub 与多种硬件兼容。</span><span class="sxs-lookup"><span data-stu-id="d4719-241">Surface Hub is compatible with a range of hardware.</span></span> <span data-ttu-id="d4719-242">为你的替换电脑选择处理器和内存确认，以便它支持你将使用的程序。</span><span class="sxs-lookup"><span data-stu-id="d4719-242">Choose the processor and memory confirmation for your replacement PC so that it supports the programs you'll be using.</span></span> <span data-ttu-id="d4719-243">你的替换电脑硬件需要支持 64 位版本的 Windows 10。</span><span class="sxs-lookup"><span data-stu-id="d4719-243">Your replacement PC hardware needs to support 64-bit versions of Windows 10.</span></span>
 
-### <span data-ttu-id="d4719-244">图形适配器</span><span class="sxs-lookup"><span data-stu-id="d4719-244">Graphics adapter</span></span>
+### <a name="graphics-adapter"></a><span data-ttu-id="d4719-244">图形适配器</span><span class="sxs-lookup"><span data-stu-id="d4719-244">Graphics adapter</span></span>
 
 <span data-ttu-id="d4719-245">在替换电脑模式下，Surface Hub 支持可生成 DisplayPort 信号的任何图形适配器。</span><span class="sxs-lookup"><span data-stu-id="d4719-245">In Replacement PC Mode, Surface Hub supports any graphics adapter that can produce a DisplayPort signal.</span></span> <span data-ttu-id="d4719-246">通过可与 Surface Hub 的分辨率和刷新率匹配的图形适配器，你将改进你的体验。</span><span class="sxs-lookup"><span data-stu-id="d4719-246">You'll improve your experience with a graphics adapter that can match Surface Hub's resolution and refresh rate.</span></span> <span data-ttu-id="d4719-247">例如，Surface Hub 上的最佳和推荐替换电脑体验是采用 120Hz 视频信号。</span><span class="sxs-lookup"><span data-stu-id="d4719-247">For example, the best and recommended replacement PC experience on the Surface Hub is with a 120Hz video signal.</span></span>
 
@@ -295,7 +295,7 @@ ms.locfileid: "10832079"
 
  
 
-### <span data-ttu-id="d4719-258">端口</span><span class="sxs-lookup"><span data-stu-id="d4719-258">Ports</span></span>
+### <a name="ports"></a><span data-ttu-id="d4719-258">端口</span><span class="sxs-lookup"><span data-stu-id="d4719-258">Ports</span></span>
 
 <span data-ttu-id="d4719-259">55 英寸 Surface Hub 上的替换电脑端口</span><span class="sxs-lookup"><span data-stu-id="d4719-259">Replacement PC ports on 55" Surface Hub</span></span>
 
@@ -411,7 +411,7 @@ ms.locfileid: "10832079"
 
  
 
-### <span data-ttu-id="d4719-311">替换电脑设置说明</span><span class="sxs-lookup"><span data-stu-id="d4719-311">Replacement PC setup instructions</span></span>
+### <a name="replacement-pc-setup-instructions"></a><span data-ttu-id="d4719-311">替换电脑设置说明</span><span class="sxs-lookup"><span data-stu-id="d4719-311">Replacement PC setup instructions</span></span>
 
 **<span data-ttu-id="d4719-312">使用替换电脑模式</span><span class="sxs-lookup"><span data-stu-id="d4719-312">To use Replacement PC Mode</span></span>**
 
@@ -445,11 +445,11 @@ ms.locfileid: "10832079"
 3.  <span data-ttu-id="d4719-329">使用电源电缆旁边的电源开关打开 Surface Hub。</span><span class="sxs-lookup"><span data-stu-id="d4719-329">Turn on the Surface Hub using the power switch next to the power cable.</span></span>
 
  
-## <span data-ttu-id="d4719-330">视频输出</span><span class="sxs-lookup"><span data-stu-id="d4719-330">Video Out</span></span>
+## <a name="video-out"></a><span data-ttu-id="d4719-330">视频输出</span><span class="sxs-lookup"><span data-stu-id="d4719-330">Video Out</span></span>
  
 <span data-ttu-id="d4719-331">Surface Hub 包括视频输出端口，用于将可视内容从 Surface Hub 镜像到其他屏幕。</span><span class="sxs-lookup"><span data-stu-id="d4719-331">The Surface Hub includes a Video Out port for mirroring visual content from the Surface Hub to another display.</span></span>
 
-### <span data-ttu-id="d4719-332">端口</span><span class="sxs-lookup"><span data-stu-id="d4719-332">Ports</span></span>
+### <a name="ports"></a><span data-ttu-id="d4719-332">端口</span><span class="sxs-lookup"><span data-stu-id="d4719-332">Ports</span></span>
 
 <span data-ttu-id="d4719-333">55 英寸 Surface Hub 上的视频输出端口</span><span class="sxs-lookup"><span data-stu-id="d4719-333">Video Out port on the 55" Surface Hub</span></span>
 
@@ -481,12 +481,12 @@ ms.locfileid: "10832079"
 </tbody>
 </table>
 
-## <span data-ttu-id="d4719-346">电缆</span><span class="sxs-lookup"><span data-stu-id="d4719-346">Cables</span></span>
+## <a name="cables"></a><span data-ttu-id="d4719-346">电缆</span><span class="sxs-lookup"><span data-stu-id="d4719-346">Cables</span></span>
 
 <span data-ttu-id="d4719-347">对 55 英寸和 84 英寸 Surface Hub 设备进行了测试，可与已认证的 DisplayPort 和 HDMI 电缆一起使用。</span><span class="sxs-lookup"><span data-stu-id="d4719-347">Both the 55” and 84” Surface Hub devices have been tested to work with Certified DisplayPort and HDMI cables.</span></span>  <span data-ttu-id="d4719-348">尽管供应商确实会销售可适用于 Surface Hub 的较长电缆，但是只有经实验室认证的电缆才能确定用于 Hub。</span><span class="sxs-lookup"><span data-stu-id="d4719-348">While vendors do sell longer cables that may work with the Surface Hub, only those cables that have been certified by testing labs are certain to work with the Hub.</span></span> <span data-ttu-id="d4719-349">例如，经认证的 DisplayPort 电缆最长为 3 米，但是许多供应商销售的电缆可达这一长度的 3 倍。</span><span class="sxs-lookup"><span data-stu-id="d4719-349">For example, DisplayPort cables are certified only up to 3 meters, however many vendors sell cables that are 3 times that length.</span></span> <span data-ttu-id="d4719-350">如有需要使用长电缆，我们强烈建议使用 HDMI。</span><span class="sxs-lookup"><span data-stu-id="d4719-350">If a long cable is necessary, we strongly suggest using HDMI.</span></span>  <span data-ttu-id="d4719-351">对于长程电缆，HDMI 有多种经济高效的解决方案，包括使用中继器。</span><span class="sxs-lookup"><span data-stu-id="d4719-351">HDMI has many cost-effective solutions for long-haul cables, including the use of repeaters.</span></span> <span data-ttu-id="d4719-352">如果检测到 HDMI 接收器，则几乎每个 DisplayPort 源都能自动切换到 HDMI 信号。</span><span class="sxs-lookup"><span data-stu-id="d4719-352">Nearly every DisplayPort source will automatically switch to HDMI signaling if a HDMI sink is detected.</span></span>
 
 
-## <span data-ttu-id="d4719-353">蓝牙外部设备</span><span class="sxs-lookup"><span data-stu-id="d4719-353">Bluetooth accessories</span></span>
+## <a name="bluetooth-accessories"></a><span data-ttu-id="d4719-353">蓝牙外部设备</span><span class="sxs-lookup"><span data-stu-id="d4719-353">Bluetooth accessories</span></span>
 
 <span data-ttu-id="d4719-354">你可以使用蓝牙将以下外部设备连接到 Surface Hub：</span><span class="sxs-lookup"><span data-stu-id="d4719-354">You can connect the following accessories to Surface Hub using Bluetooth:</span></span>
 

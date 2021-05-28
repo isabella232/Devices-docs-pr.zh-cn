@@ -28,7 +28,7 @@ ms.locfileid: "10832190"
 
 <span data-ttu-id="39529-114">Surface Hub 的 Miracast 通常存在以下两种类型的问题：[连接](#connect-issues)和[性能](#performance-issues)。</span><span class="sxs-lookup"><span data-stu-id="39529-114">There are generally two types of issues with Miracast to Surface Hub: [connection](#connect-issues) and [performance](#performance-issues).</span></span> <span data-ttu-id="39529-115">在任何一种情况下，最好在 Surface Hub 的位置获取无线网络活动的一般图片。</span><span class="sxs-lookup"><span data-stu-id="39529-115">In either case, it is a good idea to get a general picture of wireless network activity in the Surface Hub's location.</span></span> <span data-ttu-id="39529-116">如果运行网络扫描工具，则将向你显示环境中可用的网络和通道使用情况。</span><span class="sxs-lookup"><span data-stu-id="39529-116">Running a network scanning tool will show you the available networks and channel usage in the environment.</span></span>
 
-## <span data-ttu-id="39529-117">连接问题</span><span class="sxs-lookup"><span data-stu-id="39529-117">Connect issues</span></span>
+## <a name="connect-issues"></a><span data-ttu-id="39529-117">连接问题</span><span class="sxs-lookup"><span data-stu-id="39529-117">Connect issues</span></span>
 
 <span data-ttu-id="39529-118">确保在 Surface Hub 上的“设置”中启用了 WLAN 和 Miracast。</span><span class="sxs-lookup"><span data-stu-id="39529-118">Ensure both Wi-Fi and Miracast are both enabled in Settings on Surface Hub.</span></span> 
 
@@ -38,11 +38,11 @@ ms.locfileid: "10832190"
 
 <span data-ttu-id="39529-126">连接问题也可能是连接设备问题所造成的。</span><span class="sxs-lookup"><span data-stu-id="39529-126">It is also possible that the connect issue can be the result of a problem on the connecting device.</span></span> <span data-ttu-id="39529-127">如果投影设备要运行 Windows，则应该运行 Windows 8.1 或更高版本以获得全面的 Miracast 支持。</span><span class="sxs-lookup"><span data-stu-id="39529-127">If the projecting device is running Windows, it should be Windows 8.1 or newer for full Miracast support.</span></span> <span data-ttu-id="39529-128">同样，为了进行排除故障，请从任何 WLAN 网络中断开投影设备。</span><span class="sxs-lookup"><span data-stu-id="39529-128">Again, for troubleshooting, disconnect the projecting device from any Wi-Fi networks.</span></span> <span data-ttu-id="39529-129">这将消除接入点通道与 Surface Hub 上设置的 Miracast 通道之间的任何通道切换。</span><span class="sxs-lookup"><span data-stu-id="39529-129">This will eliminate any channel switching between the access point channel and the Miracast channel set on Surface Hub.</span></span> <span data-ttu-id="39529-130">此外，某些组策略和防火墙设置可能与 WLAN 网络相关联。</span><span class="sxs-lookup"><span data-stu-id="39529-130">Also, some Group Policy and firewall settings may be tied to a Wi-Fi network.</span></span>
 
-### <span data-ttu-id="39529-131">检查驱动程序</span><span class="sxs-lookup"><span data-stu-id="39529-131">Check drivers</span></span>
+### <a name="check-drivers"></a><span data-ttu-id="39529-131">检查驱动程序</span><span class="sxs-lookup"><span data-stu-id="39529-131">Check drivers</span></span>
 
 <span data-ttu-id="39529-132">确保在投影设备上安装最新的驱动程序和更新也是一个好主意。</span><span class="sxs-lookup"><span data-stu-id="39529-132">It is also a good idea to ensure the latest drivers and updates are installed on the projecting device.</span></span> <span data-ttu-id="39529-133">在设备管理器中，打开 WLAN 适配器和视频适配器，并检查是否有更新的驱动程序版本。</span><span class="sxs-lookup"><span data-stu-id="39529-133">In Device Manager, open the Wi-Fi adapter and video adapter and check for an updated driver version.</span></span> <span data-ttu-id="39529-134">如果 Surface Pro 3 和 Surface Pro 4 使用的是较旧的 WLAN 驱动程序，则强烈建议对它们使用[修补程序 3120232](https://support.microsoft.com/help/3120232/poor-wireless-performance-on-5-ghz-connections-on-surface-pro-3-and-surface-3)。</span><span class="sxs-lookup"><span data-stu-id="39529-134">[Hotfix 3120232](https://support.microsoft.com/help/3120232/poor-wireless-performance-on-5-ghz-connections-on-surface-pro-3-and-surface-3) is highly recommended for Surface Pro 3 and Surface Pro 4 if they are on an older Wi-Fi driver.</span></span> 
 
-### <span data-ttu-id="39529-135">检查 Miracast 支持</span><span class="sxs-lookup"><span data-stu-id="39529-135">Check for Miracast support</span></span>
+### <a name="check-for-miracast-support"></a><span data-ttu-id="39529-135">检查 Miracast 支持</span><span class="sxs-lookup"><span data-stu-id="39529-135">Check for Miracast support</span></span>
 
 <span data-ttu-id="39529-136">接下来，确保设备支持 Miracast。</span><span class="sxs-lookup"><span data-stu-id="39529-136">Next, ensure Miracast is supported on the device.</span></span> 
 
@@ -50,14 +50,14 @@ ms.locfileid: "10832190"
 2. <span data-ttu-id="39529-138">单击 "保存所有信息"。</span><span class="sxs-lookup"><span data-stu-id="39529-138">Click "Save all information".</span></span> 
 3. <span data-ttu-id="39529-139">打开保存的 dxdiag.txt 并查找 **Miracast**。</span><span class="sxs-lookup"><span data-stu-id="39529-139">Open the saved dxdiag.txt and find **Miracast**.</span></span> <span data-ttu-id="39529-140">它应该显示 **Available, with HDCP**。</span><span class="sxs-lookup"><span data-stu-id="39529-140">It should say **Available, with HDCP**.</span></span> 
     
-### <span data-ttu-id="39529-141">检查防火墙</span><span class="sxs-lookup"><span data-stu-id="39529-141">Check firewall</span></span>
+### <a name="check-firewall"></a><span data-ttu-id="39529-141">检查防火墙</span><span class="sxs-lookup"><span data-stu-id="39529-141">Check firewall</span></span>
     
 <span data-ttu-id="39529-142">Windows 防火墙可能会阻止 Miracast 流量。</span><span class="sxs-lookup"><span data-stu-id="39529-142">The Windows firewall can block Miracast traffic.</span></span> <span data-ttu-id="39529-143">最简单的测试是禁用防火墙并测试投影。</span><span class="sxs-lookup"><span data-stu-id="39529-143">The simplest test is to disable the firewall and test projection.</span></span> <span data-ttu-id="39529-144">如果禁用防火墙后 Miracast 正常工作，则为以下项添加例外</span><span class="sxs-lookup"><span data-stu-id="39529-144">If Miracast works with the firewall disabled, add an exception for</span></span>
 
     C:\Windows\System32\WUDFHost.exe
     Allow In/Out connections for TCP and UDP, Ports: All.
 
-### <span data-ttu-id="39529-145">检查组策略设置</span><span class="sxs-lookup"><span data-stu-id="39529-145">Check Group Policy settings</span></span>
+### <a name="check-group-policy-settings"></a><span data-ttu-id="39529-145">检查组策略设置</span><span class="sxs-lookup"><span data-stu-id="39529-145">Check Group Policy settings</span></span>
 
 <span data-ttu-id="39529-146">在加入域的设备上，组策略也可能会阻止 Miracast。</span><span class="sxs-lookup"><span data-stu-id="39529-146">On domain-joined devices, Group Policy can also block Miracast.</span></span> 
 
@@ -66,11 +66,11 @@ ms.locfileid: "10832190"
 3. <span data-ttu-id="39529-151">双击无线策略的设置，随即将出现一个对话框。</span><span class="sxs-lookup"><span data-stu-id="39529-151">Double click the setting for wireless policies and a dialog box will appear.</span></span> 
 4. <span data-ttu-id="39529-152">打开**网络权限**选项卡，并选择**允许所有人创建所有用户配置文件**。</span><span class="sxs-lookup"><span data-stu-id="39529-152">Open the **Network Permissions** tab and select **Allow everyone to create all user profiles**.</span></span>
 
-### <span data-ttu-id="39529-153">检查事件日志</span><span class="sxs-lookup"><span data-stu-id="39529-153">Check event logs</span></span>
+### <a name="check-event-logs"></a><span data-ttu-id="39529-153">检查事件日志</span><span class="sxs-lookup"><span data-stu-id="39529-153">Check event logs</span></span>
 
 <span data-ttu-id="39529-154">最后一项检查是检查事件日志。</span><span class="sxs-lookup"><span data-stu-id="39529-154">The last place to check is in the Event logs.</span></span> <span data-ttu-id="39529-155">Miracast 事件将记录到 **Wlanautoconfig** 中。</span><span class="sxs-lookup"><span data-stu-id="39529-155">Miracast events will be logged to **Wlanautoconfig**.</span></span> <span data-ttu-id="39529-156">这适用于 Surface Hub 和投影设备。</span><span class="sxs-lookup"><span data-stu-id="39529-156">This is true on both Surface Hub and the projecting device.</span></span> <span data-ttu-id="39529-157">如果您导出 Surface Hub 日志，则可以在**WindowsEventLog**文件夹中查看 surface Hub 的 Wlanautoconfig。</span><span class="sxs-lookup"><span data-stu-id="39529-157">If you export Surface Hub logs, you can view Surface Hub's Wlanautoconfig in the **WindowsEventLog** folder.</span></span> <span data-ttu-id="39529-158">事件日志中的错误可以提供关于连接失败位置的一些附加详细信息。</span><span class="sxs-lookup"><span data-stu-id="39529-158">Errors in the event log can provide some additional details on where the connection fails.</span></span>
 
-## <span data-ttu-id="39529-159">性能问题</span><span class="sxs-lookup"><span data-stu-id="39529-159">Performance issues</span></span>
+## <a name="performance-issues"></a><span data-ttu-id="39529-159">性能问题</span><span class="sxs-lookup"><span data-stu-id="39529-159">Performance issues</span></span>
 
 <span data-ttu-id="39529-160">连接无线投影后，可能会遇到导致延迟的性能问题。</span><span class="sxs-lookup"><span data-stu-id="39529-160">After wireless projection is connected, it is possible to see performance issues causing latency.</span></span> <span data-ttu-id="39529-161">这通常是整体通道饱和或导致通道切换的情况所造成的。</span><span class="sxs-lookup"><span data-stu-id="39529-161">This is generally a result of overall channel saturation or a situation that causes channel switching.</span></span> 
 
@@ -84,6 +84,6 @@ ms.locfileid: "10832190"
 
 <span data-ttu-id="39529-174">如果环境中存在多个 WLAN 网络或接入点，则无法避免某些通道切换。</span><span class="sxs-lookup"><span data-stu-id="39529-174">If there are multiple Wi-Fi networks or access points in the environment, some channel switching is unavoidable.</span></span> <span data-ttu-id="39529-175">通过确保所有 WLAN 驱动程序是最新版本，可以最好地解决此问题。</span><span class="sxs-lookup"><span data-stu-id="39529-175">This is best addressed by ensuring all Wi-Fi drivers are up to date.</span></span>
 
-## <span data-ttu-id="39529-176">联系支持人员</span><span class="sxs-lookup"><span data-stu-id="39529-176">Contact Support</span></span>
+## <a name="contact-support"></a><span data-ttu-id="39529-176">联系支持人员</span><span class="sxs-lookup"><span data-stu-id="39529-176">Contact Support</span></span>
 
 <span data-ttu-id="39529-177">如果有疑问或需要帮助，您可以[创建支持请求](https://support.microsoft.com/supportforbusiness/productselection)。</span><span class="sxs-lookup"><span data-stu-id="39529-177">If you have questions or need help, you can [create a support request](https://support.microsoft.com/supportforbusiness/productselection).</span></span>

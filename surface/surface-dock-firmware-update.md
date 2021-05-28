@@ -31,7 +31,7 @@ ms.locfileid: "11319206"
 
 <span data-ttu-id="3f764-112">此工具取代以前作为适用于 IT 的 Surface Tools 的一部分可供下载的早期的 Microsoft Surface Dock Updater 工具。</span><span class="sxs-lookup"><span data-stu-id="3f764-112">This tool supersedes the earlier Microsoft Surface Dock Updater tool, previously available for download as part of Surface Tools for IT.</span></span> <span data-ttu-id="3f764-113">之前的工具名为 Surface_Dock_Updater_vx.xx.xxx.x.msi (其中 x 指示版本号) 且不再可供下载，因此不应使用。</span><span class="sxs-lookup"><span data-stu-id="3f764-113">The earlier tool was named Surface_Dock_Updater_vx.xx.xxx.x.msi (where x indicates the version number) and is no longer available for download and should not be used.</span></span>
 
-## <span data-ttu-id="3f764-114">安装 Surface 扩展坞固件更新</span><span class="sxs-lookup"><span data-stu-id="3f764-114">Install the Surface Dock Firmware Update</span></span>
+## <a name="install-the-surface-dock-firmware-update"></a><span data-ttu-id="3f764-114">安装 Surface 扩展坞固件更新</span><span class="sxs-lookup"><span data-stu-id="3f764-114">Install the Surface Dock Firmware Update</span></span>
 
 <span data-ttu-id="3f764-115">本节介绍如何手动安装固件更新。</span><span class="sxs-lookup"><span data-stu-id="3f764-115">This section describes how to manually install the firmware update.</span></span>
 
@@ -44,7 +44,7 @@ ms.locfileid: "11319206"
 
 2. <span data-ttu-id="3f764-123">断开 Surface 设备与 Surface 扩展坞连接，等待约 5 秒，然后重新连接。</span><span class="sxs-lookup"><span data-stu-id="3f764-123">Disconnect your Surface device from the Surface Dock, wait ~5 seconds, and then reconnect.</span></span> <span data-ttu-id="3f764-124">Surface 扩展坞固件更新将在后台以静默方式更新扩展坞。</span><span class="sxs-lookup"><span data-stu-id="3f764-124">The Surface Dock Firmware Update will update the dock silently in background.</span></span> <span data-ttu-id="3f764-125">此过程可能需要几分钟才能完成，即使中断，也会继续。</span><span class="sxs-lookup"><span data-stu-id="3f764-125">The process can take a few minutes to complete and will continue even if interrupted.</span></span> 
 
-## <span data-ttu-id="3f764-126">监视 Surface 扩展坞固件更新</span><span class="sxs-lookup"><span data-stu-id="3f764-126">Monitor the Surface Dock Firmware Update</span></span>
+## <a name="monitor-the-surface-dock-firmware-update"></a><span data-ttu-id="3f764-126">监视 Surface 扩展坞固件更新</span><span class="sxs-lookup"><span data-stu-id="3f764-126">Monitor the Surface Dock Firmware Update</span></span>
 
 <span data-ttu-id="3f764-127">此部分是可选的，概述了如何监视固件更新的安装。</span><span class="sxs-lookup"><span data-stu-id="3f764-127">This section is optional and provides an overview of how to monitor installation of the firmware update.</span></span> 
 
@@ -77,7 +77,7 @@ ms.locfileid: "11319206"
   - [<span data-ttu-id="3f764-144">疑难解答提示</span><span class="sxs-lookup"><span data-stu-id="3f764-144">Troubleshooting tips</span></span>](#troubleshooting-tips)
   - [<span data-ttu-id="3f764-145">版本参考</span><span class="sxs-lookup"><span data-stu-id="3f764-145">Versions reference</span></span>](#versions-reference)
 
-## <span data-ttu-id="3f764-146">网络部署</span><span class="sxs-lookup"><span data-stu-id="3f764-146">Network deployment</span></span>
+## <a name="network-deployment"></a><span data-ttu-id="3f764-146">网络部署</span><span class="sxs-lookup"><span data-stu-id="3f764-146">Network deployment</span></span>
 
 <span data-ttu-id="3f764-147">可以使用 Windows Installer (Msiexec.exe) 将 Surface 扩展坞固件更新部署到整个网络的多个设备。</span><span class="sxs-lookup"><span data-stu-id="3f764-147">You can use Windows Installer commands (Msiexec.exe) to deploy Surface Dock Firmware Update to multiple devices across your network.</span></span> <span data-ttu-id="3f764-148">使用 Microsoft Endpoint Configuration Manager 或其他部署工具时，输入以下语法以确保安装是无提示的：</span><span class="sxs-lookup"><span data-stu-id="3f764-148">When using Microsoft Endpoint Configuration Manager or other deployment tool, enter the following syntax to ensure the installation is silent:</span></span>
 
@@ -97,14 +97,14 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 > [!IMPORTANT]
 > <span data-ttu-id="3f764-154">如果你想要使用任何其他方法更新 Surface 扩展坞，请参阅更新 Surface [扩展](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock) 坞了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="3f764-154">If you want to keep your Surface Dock updated using any other method, refer to [Update your Surface Dock](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock) for details.</span></span>
 
-## <span data-ttu-id="3f764-155">Intune 部署</span><span class="sxs-lookup"><span data-stu-id="3f764-155">Intune deployment</span></span>
+## <a name="intune-deployment"></a><span data-ttu-id="3f764-155">Intune 部署</span><span class="sxs-lookup"><span data-stu-id="3f764-155">Intune deployment</span></span>
 
 <span data-ttu-id="3f764-156">可以使用 Intune 将 Surface 扩展坞固件更新分发到设备。</span><span class="sxs-lookup"><span data-stu-id="3f764-156">You can use Intune to distribute Surface Dock Firmware Update to your devices.</span></span> <span data-ttu-id="3f764-157">首先，你需要将 MSI 文件转换为 .intunewin 格式，如以下文档所述 [：Intune Standalone - Win32 应用管理](https://docs.microsoft.com/intune/apps/apps-win32-app-management)。</span><span class="sxs-lookup"><span data-stu-id="3f764-157">First you will need to convert the MSI file to the .intunewin format, as described in the following documentation: [Intune Standalone - Win32 app management](https://docs.microsoft.com/intune/apps/apps-win32-app-management).</span></span>
 
 <span data-ttu-id="3f764-158">使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="3f764-158">Use the following command:</span></span>
   - **<span data-ttu-id="3f764-159">msiexec /i \<path to msi file\> /quiet /q</span><span class="sxs-lookup"><span data-stu-id="3f764-159">msiexec /i \<path to msi file\> /quiet /q</span></span>**
 
-## <span data-ttu-id="3f764-160">如何验证固件更新的完成情况</span><span class="sxs-lookup"><span data-stu-id="3f764-160">How to verify completion of the firmware update</span></span>
+## <a name="how-to-verify-completion-of-the-firmware-update"></a><span data-ttu-id="3f764-160">如何验证固件更新的完成情况</span><span class="sxs-lookup"><span data-stu-id="3f764-160">How to verify completion of the firmware update</span></span>
 
 <span data-ttu-id="3f764-161">Surface 扩展坞固件由两个组件组成：</span><span class="sxs-lookup"><span data-stu-id="3f764-161">Surface dock firmware consists of two components:</span></span>
 
@@ -127,7 +127,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 
 4. <span data-ttu-id="3f764-172">如果无法验证，请查看下一节中的事件日志记录和疑难解答提示。</span><span class="sxs-lookup"><span data-stu-id="3f764-172">If unable to verify, review Event logging and Troubleshooting tips in the next section.</span></span>
 
-## <span data-ttu-id="3f764-173">事件日志记录</span><span class="sxs-lookup"><span data-stu-id="3f764-173">Event logging</span></span>
+## <a name="event-logging"></a><span data-ttu-id="3f764-173">事件日志记录</span><span class="sxs-lookup"><span data-stu-id="3f764-173">Event logging</span></span>
 
 **<span data-ttu-id="3f764-174">表 1. </span><span class="sxs-lookup"><span data-stu-id="3f764-174">Table 1.</span></span> <span data-ttu-id="3f764-175">Surface 扩展坞固件更新的日志文件</span><span class="sxs-lookup"><span data-stu-id="3f764-175">Log files for Surface Dock Firmware Update</span></span>**
 
@@ -152,7 +152,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 | <span data-ttu-id="3f764-205">2008</span><span class="sxs-lookup"><span data-stu-id="3f764-205">2008</span></span>     | <span data-ttu-id="3f764-206">BEGIN 扩展坞遥测。</span><span class="sxs-lookup"><span data-stu-id="3f764-206">BEGIN dock telemetry.</span></span>                                                |
 | <span data-ttu-id="3f764-207">2011</span><span class="sxs-lookup"><span data-stu-id="3f764-207">2011</span></span>     | <span data-ttu-id="3f764-208">END 扩展坞遥测。</span><span class="sxs-lookup"><span data-stu-id="3f764-208">END dock telemetry.</span></span>                                                  |
 
-## <span data-ttu-id="3f764-209">疑难解答提示</span><span class="sxs-lookup"><span data-stu-id="3f764-209">Troubleshooting tips</span></span>
+## <a name="troubleshooting-tips"></a><span data-ttu-id="3f764-209">疑难解答提示</span><span class="sxs-lookup"><span data-stu-id="3f764-209">Troubleshooting tips</span></span>
 
 - <span data-ttu-id="3f764-210">Surface 扩展坞与交流电源完全断开连接以重置 Surface 扩展坞。</span><span class="sxs-lookup"><span data-stu-id="3f764-210">Completely disconnect power for Surface dock from the AC power to reset the Surface Dock.</span></span>
 - <span data-ttu-id="3f764-211">断开除 Surface 扩展坞之外的所有外围设备。</span><span class="sxs-lookup"><span data-stu-id="3f764-211">Disconnect all peripherals except for the Surface Dock.</span></span>
@@ -160,12 +160,12 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 - <span data-ttu-id="3f764-213">确保 Surface 扩展坞已断开连接，然后留出足够的时间，以便更新完成（通过扩展坞的以太网端口中的 LED 进行监视）。</span><span class="sxs-lookup"><span data-stu-id="3f764-213">Ensure that the Surface Dock is disconnected, and then allow enough time for the update to complete as monitored via an LED in the Ethernet port of the dock.</span></span> <span data-ttu-id="3f764-214">等待 LED 停止闪烁，然后拔下 Surface 扩展坞电源。</span><span class="sxs-lookup"><span data-stu-id="3f764-214">Wait until the LED stops blinking before you unplug Surface Dock from power.</span></span>
 - <span data-ttu-id="3f764-215">将 Surface 扩展坞连接到其他设备，以查看其能否更新扩展坞。</span><span class="sxs-lookup"><span data-stu-id="3f764-215">Connect the Surface Dock to a different device to see if it is able to update the dock.</span></span>
 
-## <span data-ttu-id="3f764-216">版本参考</span><span class="sxs-lookup"><span data-stu-id="3f764-216">Versions reference</span></span>
+## <a name="versions-reference"></a><span data-ttu-id="3f764-216">版本参考</span><span class="sxs-lookup"><span data-stu-id="3f764-216">Versions reference</span></span>
 
 >[!NOTE]
 ><span data-ttu-id="3f764-217">安装文件以以下命名格式 \*\* 发布：Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI(\*\* 例如：Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) 并默认安装到 C：\Program Files\SurfaceUpdate。</span><span class="sxs-lookup"><span data-stu-id="3f764-217">The installation file is released with the following naming format: **Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI** (ex: Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) and installs by default to C:\Program Files\SurfaceUpdate.</span></span>
 
-### <span data-ttu-id="3f764-218">版本 1.53.139.0</span><span class="sxs-lookup"><span data-stu-id="3f764-218">Version 1.53.139.0</span></span>
+### <a name="version-1.53.139.0"></a><span data-ttu-id="3f764-218">版本 1.53.139.0</span><span class="sxs-lookup"><span data-stu-id="3f764-218">Version 1.53.139.0</span></span>
 *<span data-ttu-id="3f764-219">发布日期：2020 年 8 月 4 日</span><span class="sxs-lookup"><span data-stu-id="3f764-219">Release Date: August 4, 2020</span></span>*
 
 <span data-ttu-id="3f764-220">此版本的 Surface 扩展坞固件更新包括 Bug 修复和支持：</span><span class="sxs-lookup"><span data-stu-id="3f764-220">This version of Surface Dock Firmware Update includes bug fixes and support for:</span></span>
@@ -180,7 +180,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 - <span data-ttu-id="3f764-226">Component10CurrentFwVersion 更新为 **4ac3970**。</span><span class="sxs-lookup"><span data-stu-id="3f764-226">Component10CurrentFwVersion updated to **4ac3970**.</span></span>
 - <span data-ttu-id="3f764-227">Component20CurrentFwVersion 更新为 **4a1d570**。</span><span class="sxs-lookup"><span data-stu-id="3f764-227">Component20CurrentFwVersion updated to **4a1d570**.</span></span>
  
-### <span data-ttu-id="3f764-228">版本 1.42.139</span><span class="sxs-lookup"><span data-stu-id="3f764-228">Version 1.42.139</span></span> 
+### <a name="version-1.42.139"></a><span data-ttu-id="3f764-228">版本 1.42.139</span><span class="sxs-lookup"><span data-stu-id="3f764-228">Version 1.42.139</span></span> 
 *<span data-ttu-id="3f764-229">发布日期：2019 年 9 月 18 日</span><span class="sxs-lookup"><span data-stu-id="3f764-229">Release Date: September 18 2019</span></span>*
 
 <span data-ttu-id="3f764-230">此版本包含在 Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.MSI，可更新后台固件。</span><span class="sxs-lookup"><span data-stu-id="3f764-230">This version, contained in Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.MSI, updates firmware in the background.</span></span> 
@@ -192,9 +192,9 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 
 <span data-ttu-id="3f764-234">它增加了对 Surface Pro 7 和 Surface Laptop 3 的支持。</span><span class="sxs-lookup"><span data-stu-id="3f764-234">It adds support for Surface Pro 7 and Surface Laptop 3.</span></span>
 
-## <span data-ttu-id="3f764-235">旧版本</span><span class="sxs-lookup"><span data-stu-id="3f764-235">Legacy versions</span></span>
+## <a name="legacy-versions"></a><span data-ttu-id="3f764-235">旧版本</span><span class="sxs-lookup"><span data-stu-id="3f764-235">Legacy versions</span></span>
 
-### <span data-ttu-id="3f764-236">版本 2.23.139.0</span><span class="sxs-lookup"><span data-stu-id="3f764-236">Version 2.23.139.0</span></span>
+### <a name="version-2.23.139.0"></a><span data-ttu-id="3f764-236">版本 2.23.139.0</span><span class="sxs-lookup"><span data-stu-id="3f764-236">Version 2.23.139.0</span></span>
 *<span data-ttu-id="3f764-237">发布日期：2018 年 10 月 10 日</span><span class="sxs-lookup"><span data-stu-id="3f764-237">Release Date: 10 October 2018</span></span>*
 
 <span data-ttu-id="3f764-238">此版本的 Surface Dock Updater 添加了以下支持：</span><span class="sxs-lookup"><span data-stu-id="3f764-238">This version of Surface Dock Updater adds support for the following:</span></span>
@@ -203,7 +203,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 - <span data-ttu-id="3f764-240">添加对 Surface Laptop 2 的支持</span><span class="sxs-lookup"><span data-stu-id="3f764-240">Add support for Surface Laptop 2</span></span>
 
 
-### <span data-ttu-id="3f764-241">版本 2.22.139.0</span><span class="sxs-lookup"><span data-stu-id="3f764-241">Version 2.22.139.0</span></span>
+### <a name="version-2.22.139.0"></a><span data-ttu-id="3f764-241">版本 2.22.139.0</span><span class="sxs-lookup"><span data-stu-id="3f764-241">Version 2.22.139.0</span></span>
 *<span data-ttu-id="3f764-242">发布日期：2018 年 7 月 26 日</span><span class="sxs-lookup"><span data-stu-id="3f764-242">Release Date: 26 July 2018</span></span>*
 
 <span data-ttu-id="3f764-243">此版本的 Surface Dock Updater 添加了以下支持：</span><span class="sxs-lookup"><span data-stu-id="3f764-243">This version of Surface Dock Updater adds support for the following:</span></span>
@@ -211,7 +211,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 - <span data-ttu-id="3f764-244">提高更新可靠性</span><span class="sxs-lookup"><span data-stu-id="3f764-244">Increase update reliability</span></span>
 - <span data-ttu-id="3f764-245">添加对 Surface Go 的支持</span><span class="sxs-lookup"><span data-stu-id="3f764-245">Add support for Surface Go</span></span>
 
-### <span data-ttu-id="3f764-246">版本 2.12.136.0</span><span class="sxs-lookup"><span data-stu-id="3f764-246">Version 2.12.136.0</span></span>
+### <a name="version-2.12.136.0"></a><span data-ttu-id="3f764-246">版本 2.12.136.0</span><span class="sxs-lookup"><span data-stu-id="3f764-246">Version 2.12.136.0</span></span>
 *<span data-ttu-id="3f764-247">发布日期：2018 年 1 月 29 日</span><span class="sxs-lookup"><span data-stu-id="3f764-247">Release Date: 29 January 2018</span></span>*
 
 <span data-ttu-id="3f764-248">此版本的 Surface Dock Updater 添加了以下支持：</span><span class="sxs-lookup"><span data-stu-id="3f764-248">This version of Surface Dock Updater adds support for the following:</span></span>
@@ -224,7 +224,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 * <span data-ttu-id="3f764-254">增加了 Surface 扩展坞固件更新支持，针对 Surface Book 设备做出了改进</span><span class="sxs-lookup"><span data-stu-id="3f764-254">Added support for Surface Dock firmware updates with improvements targeted to Surface Book devices</span></span>
 
 
-### <span data-ttu-id="3f764-255">版本 2.9.136.0</span><span class="sxs-lookup"><span data-stu-id="3f764-255">Version 2.9.136.0</span></span>
+### <a name="version-2.9.136.0"></a><span data-ttu-id="3f764-255">版本 2.9.136.0</span><span class="sxs-lookup"><span data-stu-id="3f764-255">Version 2.9.136.0</span></span>
 *<span data-ttu-id="3f764-256">发布日期：2017 年 11 月 3 日</span><span class="sxs-lookup"><span data-stu-id="3f764-256">Release date: November 3, 2017</span></span>*
 
 <span data-ttu-id="3f764-257">此版本的 Surface Dock Updater 添加了以下支持：</span><span class="sxs-lookup"><span data-stu-id="3f764-257">This version of Surface Dock Updater adds support for the following:</span></span>
@@ -232,7 +232,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 * <span data-ttu-id="3f764-258">Surface 扩展坞 DisplayPort 固件更新</span><span class="sxs-lookup"><span data-stu-id="3f764-258">Update for Surface Dock DisplayPort Firmware</span></span>
 * <span data-ttu-id="3f764-259">通过无源显示端口适配器解决音频问题</span><span class="sxs-lookup"><span data-stu-id="3f764-259">Resolves an issue with audio over passive display port adapters</span></span>
 
-### <span data-ttu-id="3f764-260">版本 2.1.15.0</span><span class="sxs-lookup"><span data-stu-id="3f764-260">Version 2.1.15.0</span></span>
+### <a name="version-2.1.15.0"></a><span data-ttu-id="3f764-260">版本 2.1.15.0</span><span class="sxs-lookup"><span data-stu-id="3f764-260">Version 2.1.15.0</span></span>
 *<span data-ttu-id="3f764-261">发布日期：2017 年 6 月 19 日</span><span class="sxs-lookup"><span data-stu-id="3f764-261">Release date: June 19, 2017</span></span>*
 
 <span data-ttu-id="3f764-262">此版本的 Surface Dock Updater 添加了以下支持：</span><span class="sxs-lookup"><span data-stu-id="3f764-262">This version of Surface Dock Updater adds support for the following:</span></span>
@@ -240,7 +240,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 * <span data-ttu-id="3f764-263">Surface Laptop</span><span class="sxs-lookup"><span data-stu-id="3f764-263">Surface Laptop</span></span>
 * <span data-ttu-id="3f764-264">Surface Pro</span><span class="sxs-lookup"><span data-stu-id="3f764-264">Surface Pro</span></span>
 
-### <span data-ttu-id="3f764-265">版本 2.1.6.0</span><span class="sxs-lookup"><span data-stu-id="3f764-265">Version 2.1.6.0</span></span>
+### <a name="version-2.1.6.0"></a><span data-ttu-id="3f764-265">版本 2.1.6.0</span><span class="sxs-lookup"><span data-stu-id="3f764-265">Version 2.1.6.0</span></span>
 *<span data-ttu-id="3f764-266">发布日期：2017 年 4 月 7 日</span><span class="sxs-lookup"><span data-stu-id="3f764-266">Release date: April 7, 2017</span></span>*
 
 <span data-ttu-id="3f764-267">此版本的 Surface Dock Updater 添加了以下支持：</span><span class="sxs-lookup"><span data-stu-id="3f764-267">This version of Surface Dock Updater adds support for the following:</span></span>
@@ -248,7 +248,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 * <span data-ttu-id="3f764-268">Surface 扩展坞 DisplayPort 固件更新</span><span class="sxs-lookup"><span data-stu-id="3f764-268">Update for Surface Dock DisplayPort firmware</span></span>
 * <span data-ttu-id="3f764-269">要求使用 Windows 10</span><span class="sxs-lookup"><span data-stu-id="3f764-269">Requires Windows 10</span></span>
 
-### <span data-ttu-id="3f764-270">版本 2.0.22.0</span><span class="sxs-lookup"><span data-stu-id="3f764-270">Version 2.0.22.0</span></span>
+### <a name="version-2.0.22.0"></a><span data-ttu-id="3f764-270">版本 2.0.22.0</span><span class="sxs-lookup"><span data-stu-id="3f764-270">Version 2.0.22.0</span></span>
 *<span data-ttu-id="3f764-271">发布日期：2016 年 10 月 21 日</span><span class="sxs-lookup"><span data-stu-id="3f764-271">Release date: October 21, 2016</span></span>*
 
 <span data-ttu-id="3f764-272">此版本的 Surface Dock Updater 添加了以下支持：</span><span class="sxs-lookup"><span data-stu-id="3f764-272">This version of Surface Dock Updater adds support for the following:</span></span>
@@ -256,7 +256,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 * <span data-ttu-id="3f764-273">Surface 扩展坞 USB 固件更新</span><span class="sxs-lookup"><span data-stu-id="3f764-273">Update for Surface Dock USB firmware</span></span>
 * <span data-ttu-id="3f764-274">提升了以太网、音频和 USB 端口的可靠性</span><span class="sxs-lookup"><span data-stu-id="3f764-274">Improved reliability of Ethernet, audio, and USB ports</span></span>
 
-### <span data-ttu-id="3f764-275">版本 1.0.8.0</span><span class="sxs-lookup"><span data-stu-id="3f764-275">Version 1.0.8.0</span></span>
+### <a name="version-1.0.8.0"></a><span data-ttu-id="3f764-275">版本 1.0.8.0</span><span class="sxs-lookup"><span data-stu-id="3f764-275">Version 1.0.8.0</span></span>
 *<span data-ttu-id="3f764-276">发布日期：2016 年 4 月 26 日</span><span class="sxs-lookup"><span data-stu-id="3f764-276">Release date: April 26, 2016</span></span>*
 
 <span data-ttu-id="3f764-277">此版本的 Surface Dock Updater 添加了以下支持：</span><span class="sxs-lookup"><span data-stu-id="3f764-277">This version of Surface Dock Updater adds support for the following:</span></span>

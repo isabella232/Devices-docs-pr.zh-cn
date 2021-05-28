@@ -72,7 +72,7 @@ ms.locfileid: "11145937"
 
 <span id="multiple" />
 
-## <span data-ttu-id="d3300-141">运行多个硬件测试以解决问题</span><span class="sxs-lookup"><span data-stu-id="d3300-141">Running multiple hardware tests to troubleshoot issues</span></span>
+## <a name="running-multiple-hardware-tests-to-troubleshoot-issues"></a><span data-ttu-id="d3300-141">运行多个硬件测试以解决问题</span><span class="sxs-lookup"><span data-stu-id="d3300-141">Running multiple hardware tests to troubleshoot issues</span></span>
 
 <span data-ttu-id="d3300-142">SDT 设计为可运行一系列测试的交互式工具。</span><span class="sxs-lookup"><span data-stu-id="d3300-142">SDT is designed as an interactive tool that runs a series of tests.</span></span> <span data-ttu-id="d3300-143">对于每个测试，SDT 都提供有关测试性质的说明以及用户应期望或查找的内容，以便测试成功。</span><span class="sxs-lookup"><span data-stu-id="d3300-143">For each test, SDT provides instructions summarizing  the nature of the test and what users should expect or look for in order for the test to be successful.</span></span> <span data-ttu-id="d3300-144">例如，若要诊断显示亮度是否正常工作，SDT 将从零开始，并将亮度增加到100%，要求用户通过回答 **"是"** 或 " **否** " 来进行确认--该亮度按预期方式工作，如图4所示。</span><span class="sxs-lookup"><span data-stu-id="d3300-144">For example, to diagnose if the display brightness is working properly, SDT starts at zero and increases the brightness to 100 percent, asking users to confirm – by answering **Yes** or **No** -- that brightness is functioning as expected, as shown in figure 4.</span></span> 
 
@@ -87,7 +87,7 @@ ms.locfileid: "11145937"
 3. <span data-ttu-id="d3300-149">根据需要指导用户完成剩余的测试。</span><span class="sxs-lookup"><span data-stu-id="d3300-149">Guide users through remaining tests as appropriate.</span></span> <span data-ttu-id="d3300-150">完成后，SDT 将自动提供报表的高级别摘要，包括任何硬件问题的可能原因以及解决方案的指南。</span><span class="sxs-lookup"><span data-stu-id="d3300-150">When finished, SDT automatically provides a high-level summary of the report, including the possible causes of any hardware issues along with guidance for resolution.</span></span>
 
 
-### <span data-ttu-id="d3300-151">修复应用程序</span><span class="sxs-lookup"><span data-stu-id="d3300-151">Repairing applications</span></span>
+### <a name="repairing-applications"></a><span data-ttu-id="d3300-151">修复应用程序</span><span class="sxs-lookup"><span data-stu-id="d3300-151">Repairing applications</span></span>
 
 <span data-ttu-id="d3300-152">SDT 使你能够诊断和修复可能导致问题的应用程序，如图5所示。</span><span class="sxs-lookup"><span data-stu-id="d3300-152">SDT enables you to diagnose and repair applications that may be causing issues, as shown in figure 5.</span></span>
 
@@ -96,7 +96,7 @@ ms.locfileid: "11145937"
 *Figure 5. Running repairs*</span></span>
 <span id="logs" />
 
-### <span data-ttu-id="d3300-154">生成用于分析问题的日志</span><span class="sxs-lookup"><span data-stu-id="d3300-154">Generating logs for analyzing issues</span></span> 
+### <a name="generating-logs-for-analyzing-issues"></a><span data-ttu-id="d3300-154">生成用于分析问题的日志</span><span class="sxs-lookup"><span data-stu-id="d3300-154">Generating logs for analyzing issues</span></span> 
 
 <span data-ttu-id="d3300-155">SDT 在应用程序、驱动程序、硬件和操作系统问题上提供丰富的支持日志的诊断支持，如图6所示。</span><span class="sxs-lookup"><span data-stu-id="d3300-155">SDT provides extensive log-enabled diagnosis support across applications, drivers, hardware, and operating system issues, as shown in figure 6.</span></span>
 
@@ -106,11 +106,11 @@ ms.locfileid: "11145937"
 
 <span id="detailed-report" />
 
-### <span data-ttu-id="d3300-157">生成比较设备和最佳配置的详细报告</span><span class="sxs-lookup"><span data-stu-id="d3300-157">Generating detailed report comparing device vs. optimal configuration</span></span>
+### <a name="generating-detailed-report-comparing-device-vs.-optimal-configuration"></a><span data-ttu-id="d3300-157">生成比较设备和最佳配置的详细报告</span><span class="sxs-lookup"><span data-stu-id="d3300-157">Generating detailed report comparing device vs. optimal configuration</span></span>
 
 <span data-ttu-id="d3300-158">根据日志，SDT 将为基于软件和固件的问题生成报表，你可以将这些问题保存到首选位置。</span><span class="sxs-lookup"><span data-stu-id="d3300-158">Based on the logs, SDT generates a report for software- and firmware-based issues that you can save to a preferred location.</span></span>
 
-## <span data-ttu-id="d3300-159">相关主题</span><span class="sxs-lookup"><span data-stu-id="d3300-159">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d3300-159">相关主题</span><span class="sxs-lookup"><span data-stu-id="d3300-159">Related topics</span></span>
 
 - [<span data-ttu-id="d3300-160">使用命令运行适用于企业的 Surface 诊断工具包</span><span class="sxs-lookup"><span data-stu-id="d3300-160">Run Surface Diagnostic Toolkit for Business using commands</span></span>](surface-diagnostic-toolkit-command-line.md)
 

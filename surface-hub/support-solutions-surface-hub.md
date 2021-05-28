@@ -28,20 +28,20 @@ ms.locfileid: "10831932"
 
 <span data-ttu-id="46c66-109">以下是解决使用 Surface Hub 时遇到的常见问题的主要 Microsoft 支持解决方案。</span><span class="sxs-lookup"><span data-stu-id="46c66-109">These are the top Microsoft Support solutions for common issues experienced when using Surface Hub.</span></span>
 
-## <span data-ttu-id="46c66-110">设置和安装问题</span><span class="sxs-lookup"><span data-stu-id="46c66-110">Setup and install issues</span></span>
+## <a name="setup-and-install-issues"></a><span data-ttu-id="46c66-110">设置和安装问题</span><span class="sxs-lookup"><span data-stu-id="46c66-110">Setup and install issues</span></span>
 
 - [<span data-ttu-id="46c66-111">设置疑难解答</span><span class="sxs-lookup"><span data-stu-id="46c66-111">Setup troubleshooting</span></span>](troubleshoot-surface-hub.md#setup-troubleshooting)
 - [<span data-ttu-id="46c66-112">Exchange ActiveSync 错误</span><span class="sxs-lookup"><span data-stu-id="46c66-112">Exchange ActiveSync errors</span></span>](troubleshoot-surface-hub.md#exchange-activesync-errors)
 
-## <span data-ttu-id="46c66-113">Miracast 问题</span><span class="sxs-lookup"><span data-stu-id="46c66-113">Miracast issues</span></span>
+## <a name="miracast-issues"></a><span data-ttu-id="46c66-113">Miracast 问题</span><span class="sxs-lookup"><span data-stu-id="46c66-113">Miracast issues</span></span>
 
 - [<span data-ttu-id="46c66-114">Surface Hub 上的 Miracast 疑难解答</span><span class="sxs-lookup"><span data-stu-id="46c66-114">Troubleshoot Miracast on Surface Hub</span></span>](miracast-troubleshooting.md)
  
-## <span data-ttu-id="46c66-115">下载更新问题</span><span class="sxs-lookup"><span data-stu-id="46c66-115">Download updates issues</span></span>
+## <a name="download-updates-issues"></a><span data-ttu-id="46c66-115">下载更新问题</span><span class="sxs-lookup"><span data-stu-id="46c66-115">Download updates issues</span></span>
 
 - [<span data-ttu-id="46c66-116">Surface Hub 无法从 Windows 更新下载更新</span><span class="sxs-lookup"><span data-stu-id="46c66-116">Surface Hub can't download updates from Windows Update</span></span>](https://support.microsoft.com/help/3191418/surface-hub-can-t-download-updates-from-windows-update)
 
-## <span data-ttu-id="46c66-117">连接应用问题</span><span class="sxs-lookup"><span data-stu-id="46c66-117">Connect app issues</span></span>
+## <a name="connect-app-issues"></a><span data-ttu-id="46c66-117">连接应用问题</span><span class="sxs-lookup"><span data-stu-id="46c66-117">Connect app issues</span></span>
 
 - [<span data-ttu-id="46c66-118">Surface Hub 中的连接应用意外退出</span><span class="sxs-lookup"><span data-stu-id="46c66-118">The Connect app in Surface Hub exits unexpectedly</span></span>](https://support.microsoft.com/help/3157417/the-connect-app-in-surface-hub-exits-unexpectedly)
 

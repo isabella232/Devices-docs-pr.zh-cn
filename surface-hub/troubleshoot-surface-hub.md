@@ -31,12 +31,12 @@ ms.locfileid: "10830835"
 
 
 
-## <span data-ttu-id="94cdb-113">设置疑难解答</span><span class="sxs-lookup"><span data-stu-id="94cdb-113">Setup troubleshooting</span></span>
+## <a name="setup-troubleshooting"></a><span data-ttu-id="94cdb-113">设置疑难解答</span><span class="sxs-lookup"><span data-stu-id="94cdb-113">Setup troubleshooting</span></span>
 
 
 <span data-ttu-id="94cdb-114">本部分列出了原因和可能的修补程序，以帮助解决在设置 Microsoft Surface Hub 时可能发现的问题。</span><span class="sxs-lookup"><span data-stu-id="94cdb-114">This section lists causes, and possible fixes to help troubleshoot issues you might find when you set up your Microsoft Surface Hub.</span></span>
 
-### <span data-ttu-id="94cdb-115">设备上</span><span class="sxs-lookup"><span data-stu-id="94cdb-115">On-device</span></span>
+### <a name="on-device"></a><span data-ttu-id="94cdb-115">设备上</span><span class="sxs-lookup"><span data-stu-id="94cdb-115">On-device</span></span>
 
 <span data-ttu-id="94cdb-116">完成首次运行计划后 Surface Hub 上的问题的可能修补程序。</span><span class="sxs-lookup"><span data-stu-id="94cdb-116">Possible fixes for issues on the Surface Hub after you've completed the first-run program.</span></span>
 
@@ -143,7 +143,7 @@ ms.locfileid: "10830835"
 </table>
  
 
-### <span data-ttu-id="94cdb-150">首次运行</span><span class="sxs-lookup"><span data-stu-id="94cdb-150">First run</span></span>
+### <a name="first-run"></a><span data-ttu-id="94cdb-150">首次运行</span><span class="sxs-lookup"><span data-stu-id="94cdb-150">First run</span></span>
 
 <span data-ttu-id="94cdb-151">Surface Hub 首次运行计划的问题的可能修补程序。</span><span class="sxs-lookup"><span data-stu-id="94cdb-151">Possible fixes for issues with Surface Hub first-run program.</span></span>
 
@@ -212,7 +212,7 @@ ms.locfileid: "10830835"
 
  
 
-### <span data-ttu-id="94cdb-178">设备帐户页面，有关现有帐户设置的问题</span><span class="sxs-lookup"><span data-stu-id="94cdb-178">Device account page, issues for existing account settings</span></span>
+### <a name="device-account-page,-issues-for-existing-account-settings"></a><span data-ttu-id="94cdb-178">设备帐户页面，有关现有帐户设置的问题</span><span class="sxs-lookup"><span data-stu-id="94cdb-178">Device account page, issues for existing account settings</span></span>
 
 <table>
 <tr>
@@ -372,7 +372,7 @@ ms.locfileid: "10830835"
 
  
 
-### <span data-ttu-id="94cdb-227">首次运行，Exchange Server 页面</span><span class="sxs-lookup"><span data-stu-id="94cdb-227">First run, Exchange server page</span></span>
+### <a name="first-run,-exchange-server-page"></a><span data-ttu-id="94cdb-227">首次运行，Exchange Server 页面</span><span class="sxs-lookup"><span data-stu-id="94cdb-227">First run, Exchange server page</span></span>
 
 <table>
 <colgroup>
@@ -431,7 +431,7 @@ ms.locfileid: "10830835"
 
  
 
-## <span data-ttu-id="94cdb-243">Exchange ActiveSync 错误</span><span class="sxs-lookup"><span data-stu-id="94cdb-243">Exchange ActiveSync errors</span></span>
+## <a name="exchange-activesync-errors"></a><span data-ttu-id="94cdb-243">Exchange ActiveSync 错误</span><span class="sxs-lookup"><span data-stu-id="94cdb-243">Exchange ActiveSync errors</span></span>
 
 
 <span data-ttu-id="94cdb-244">本部分列出了状态代码、映射、用户消息，以及管理员为解决 Exchange ActiveSync 错误可以执行的操作。</span><span class="sxs-lookup"><span data-stu-id="94cdb-244">This section lists status codes, mapping, user messages, and actions an admin can take to solve Exchange ActiveSync errors.</span></span>
@@ -607,13 +607,13 @@ ms.locfileid: "10830835"
 </tbody>
 </table>
 
-## <span data-ttu-id="94cdb-372">联系支持人员</span><span class="sxs-lookup"><span data-stu-id="94cdb-372">Contact Support</span></span>
+## <a name="contact-support"></a><span data-ttu-id="94cdb-372">联系支持人员</span><span class="sxs-lookup"><span data-stu-id="94cdb-372">Contact Support</span></span>
 
 <span data-ttu-id="94cdb-373">如果有疑问或需要帮助，您可以[创建支持请求](https://support.microsoft.com/supportforbusiness/productselection)。</span><span class="sxs-lookup"><span data-stu-id="94cdb-373">If you have questions or need help, you can [create a support request](https://support.microsoft.com/supportforbusiness/productselection).</span></span>
 
 
  
-## <span data-ttu-id="94cdb-374">相关内容</span><span class="sxs-lookup"><span data-stu-id="94cdb-374">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="94cdb-374">相关内容</span><span class="sxs-lookup"><span data-stu-id="94cdb-374">Related content</span></span>
 
 - [<span data-ttu-id="94cdb-375">Surface Hub 的 Miracast 连接疑难解答</span><span class="sxs-lookup"><span data-stu-id="94cdb-375">Troubleshooting Miracast connection to the Surface Hub</span></span>](https://docs.microsoft.com/surface-hub/miracast-troubleshooting)
  

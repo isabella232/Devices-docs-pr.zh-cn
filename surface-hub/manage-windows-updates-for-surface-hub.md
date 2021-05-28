@@ -23,7 +23,7 @@ ms.locfileid: "11174722"
 
 <span data-ttu-id="aa17a-105">新版 Surface Hub 操作系统通过 Windows 更新发布，就像 Windows10 的各个版本一样。</span><span class="sxs-lookup"><span data-stu-id="aa17a-105">New releases of the Surface Hub operating system are published through Windows Update, just like releases of Windows 10.</span></span> <span data-ttu-id="aa17a-106">此页面介绍管理 Surface Hub 设备更新的最佳做法。</span><span class="sxs-lookup"><span data-stu-id="aa17a-106">This page explains best practices for managing updates for Surface Hub devices.</span></span> 
 
-## <span data-ttu-id="aa17a-107">适用于企业的 Windows 更新</span><span class="sxs-lookup"><span data-stu-id="aa17a-107">Windows Update for Business</span></span>
+## <a name="windows-update-for-business"></a><span data-ttu-id="aa17a-107">适用于企业的 Windows 更新</span><span class="sxs-lookup"><span data-stu-id="aa17a-107">Windows Update for Business</span></span>
 
 <span data-ttu-id="aa17a-108">Windows 更新企业版是一组功能，旨在针对 Windows 更新在 Windows 更新安装时的方式和时间提供更多控制，同时降低设备管理成本。</span><span class="sxs-lookup"><span data-stu-id="aa17a-108">Windows Update for Business is a set of features designed to provide enterprises additional control over how and when Windows Update installs releases, while reducing device management costs.</span></span> <span data-ttu-id="aa17a-109">通过使用此方法，Surface Hub 直接连接到 Microsoft 的 Windows 更新服务。</span><span class="sxs-lookup"><span data-stu-id="aa17a-109">Using this method, Surface Hubs are directly connected to Microsoft’s Windows Update service.</span></span>
 
@@ -39,7 +39,7 @@ ms.locfileid: "11174722"
 > <span data-ttu-id="aa17a-116">Surface Hub 当前不支持回退更新。</span><span class="sxs-lookup"><span data-stu-id="aa17a-116">Surface Hub does not currently support rolling back updates.</span></span>
 
 
-## <span data-ttu-id="aa17a-117">Surface Hub 服务模型</span><span class="sxs-lookup"><span data-stu-id="aa17a-117">Surface Hub servicing model</span></span>
+## <a name="surface-hub-servicing-model"></a><span data-ttu-id="aa17a-117">Surface Hub 服务模型</span><span class="sxs-lookup"><span data-stu-id="aa17a-117">Surface Hub servicing model</span></span>
 
 <span data-ttu-id="aa17a-118">Surface Hub 使用 Windows10 服务模型，称为 [Windows 即服务 (WaaS)](https://docs.microsoft.com/windows/deployment/update/waas-overview)。</span><span class="sxs-lookup"><span data-stu-id="aa17a-118">Surface Hub uses the Windows 10 servicing model, referred to as [Windows as a Service (WaaS)](https://docs.microsoft.com/windows/deployment/update/waas-overview).</span></span> <span data-ttu-id="aa17a-119">从传统上讲，仅在每隔几年发布的新版 Windows 中添加新功能。</span><span class="sxs-lookup"><span data-stu-id="aa17a-119">Traditionally, new features were added only in new versions of Windows that were released every few years.</span></span> <span data-ttu-id="aa17a-120">在组织中部署新版本的过程耗时长且成本昂贵。</span><span class="sxs-lookup"><span data-stu-id="aa17a-120">Each new version required lengthy and expensive processes to deploy in an organization.</span></span> <span data-ttu-id="aa17a-121">因此，最终用户和组织经常都享受不到创新带来的好处。</span><span class="sxs-lookup"><span data-stu-id="aa17a-121">As a result, end users and organizations don't frequently enjoy the benefits of new innovation.</span></span> <span data-ttu-id="aa17a-122">Windows 即服务的目标是在维持高级质量的同时，持续提供新功能。</span><span class="sxs-lookup"><span data-stu-id="aa17a-122">The goal of Windows as a Service is to continually provide new capabilities while maintaining a high level of quality.</span></span>
 
@@ -54,7 +54,7 @@ ms.locfileid: "11174722"
 <span data-ttu-id="aa17a-135">有关 Windows 即服务的详细信息，请参阅 [Windows 即服务概述](https://technet.microsoft.com/itpro/windows/manage/waas-overview)。</span><span class="sxs-lookup"><span data-stu-id="aa17a-135">For more information on Windows as a Service, see [Overview of Windows as a service](https://technet.microsoft.com/itpro/windows/manage/waas-overview).</span></span>
 
 
-## <span data-ttu-id="aa17a-136">使用适用于企业的 Windows 更新</span><span class="sxs-lookup"><span data-stu-id="aa17a-136">Use Windows Update for Business</span></span>
+## <a name="use-windows-update-for-business"></a><span data-ttu-id="aa17a-136">使用适用于企业的 Windows 更新</span><span class="sxs-lookup"><span data-stu-id="aa17a-136">Use Windows Update for Business</span></span>
 
 <span data-ttu-id="aa17a-137">就像所有的 Windows10 设备一样，Surface Hub 包含**适用于企业的 Windows 更新 (WUfB)**，可控制更新设备的方式。</span><span class="sxs-lookup"><span data-stu-id="aa17a-137">Surface Hubs, like all Windows 10 devices, include **Windows Update for Business (WUfB)** to enable you to control how your devices are being updated.</span></span> <span data-ttu-id="aa17a-138">适用于企业的 Windows 更新有助于持续降低设备管理成本、控制更新部署、更快速地访问安全更新以及访问 Microsoft 的最新创新。</span><span class="sxs-lookup"><span data-stu-id="aa17a-138">Windows Update for Business helps reduce device management costs, provide controls over update deployment, offer quicker access to security updates, as well as provide access to the latest innovations from Microsoft on an ongoing basis.</span></span> <span data-ttu-id="aa17a-139">有关详细信息，请参阅[使用适用于企业的 Windows 更新管理更新](https://technet.microsoft.com/itpro/windows/manage/waas-manage-updates-wufb)。</span><span class="sxs-lookup"><span data-stu-id="aa17a-139">For more information, see [Manage updates using Windows Update for Business](https://technet.microsoft.com/itpro/windows/manage/waas-manage-updates-wufb).</span></span>
 
@@ -66,7 +66,7 @@ ms.locfileid: "11174722"
 > <span data-ttu-id="aa17a-143">你可以使用 Microsoft Intune、Microsoft 终结点配置管理器或受支持的第三方 MDM 提供程序来设置 WUfB。</span><span class="sxs-lookup"><span data-stu-id="aa17a-143">You can use Microsoft Intune, Microsoft Endpoint Configuration Manager, or a supported third-party MDM provider to set up WUfB.</span></span> [<span data-ttu-id="aa17a-144">演练：使用 Microsoft Intune 配置适用于企业的 Windows 更新。</span><span class="sxs-lookup"><span data-stu-id="aa17a-144">Walkthrough: use Microsoft Intune to configure Windows Update for Business.</span></span>](https://docs.microsoft.com/windows/deployment/update/waas-wufb-intune)
 
 
-### <span data-ttu-id="aa17a-145">将 Surface Hub 分组到部署圈</span><span class="sxs-lookup"><span data-stu-id="aa17a-145">Group Surface Hub into deployment rings</span></span>
+### <a name="group-surface-hub-into-deployment-rings"></a><span data-ttu-id="aa17a-145">将 Surface Hub 分组到部署圈</span><span class="sxs-lookup"><span data-stu-id="aa17a-145">Group Surface Hub into deployment rings</span></span>
 
 <span data-ttu-id="aa17a-146">使用部署圈控制向 Surface Hub 推出更新的时间，这可提供验证更新的时间。</span><span class="sxs-lookup"><span data-stu-id="aa17a-146">Use deployment rings to control when updates roll out to your Surface Hubs, giving you time to validate them.</span></span> <span data-ttu-id="aa17a-147">例如，可以先小范围更新设备，验证更新质量，然后在更大范围内向组织推出。</span><span class="sxs-lookup"><span data-stu-id="aa17a-147">For example, you can update a small pool of devices first to verify quality before a broader roll-out to your organization.</span></span> <span data-ttu-id="aa17a-148">可考虑将 Surface Hub 并入为其他 Windows10 设备生成的部署圈，具体取决于组织管理 Surface Hub 的人员而定。</span><span class="sxs-lookup"><span data-stu-id="aa17a-148">Depending on who manages Surface Hub in your organization, consider incorporating Surface Hub into the deployment rings that you've built for your other Windows 10 devices.</span></span> <span data-ttu-id="aa17a-149">有关部署圈的详细信息，请参阅[生成 Windows10 更新的部署圈](https://technet.microsoft.com/itpro/windows/manage/waas-deployment-rings-windows-10-updates)。</span><span class="sxs-lookup"><span data-stu-id="aa17a-149">For more information about deployment rings, see [Build deployment rings for Windows 10 updates](https://technet.microsoft.com/itpro/windows/manage/waas-deployment-rings-windows-10-updates).</span></span>
 
@@ -80,7 +80,7 @@ ms.locfileid: "11174722"
 | <span data-ttu-id="aa17a-178">任务关键（例如执行会议室的设备）</span><span class="sxs-lookup"><span data-stu-id="aa17a-178">Mission critical (e.g. devices in executive boardrooms)</span></span> | <span data-ttu-id="aa17a-179">小</span><span class="sxs-lookup"><span data-stu-id="aa17a-179">Small</span></span> | <span data-ttu-id="aa17a-180">半年频道</span><span class="sxs-lookup"><span data-stu-id="aa17a-180">Semi-annual channel</span></span> |  <span data-ttu-id="aa17a-181">发布后 180 天（功能更新的最长延迟时间）。</span><span class="sxs-lookup"><span data-stu-id="aa17a-181">180 days after release (maximum deferral for feature updates).</span></span> | <span data-ttu-id="aa17a-182">发布后 30 天（质量更新的最长延迟时间）。</span><span class="sxs-lookup"><span data-stu-id="aa17a-182">30 days after release (maximum deferral for quality updates).</span></span> | <span data-ttu-id="aa17a-183">监视设备使用情况和用户反馈。</span><span class="sxs-lookup"><span data-stu-id="aa17a-183">Monitor device usage and user feedback.</span></span> |
 
 
-### <span data-ttu-id="aa17a-184">配置 Surface Hub 接收更新的时间</span><span class="sxs-lookup"><span data-stu-id="aa17a-184">Configure when Surface Hub receives updates</span></span>
+### <a name="configure-when-surface-hub-receives-updates"></a><span data-ttu-id="aa17a-184">配置 Surface Hub 接收更新的时间</span><span class="sxs-lookup"><span data-stu-id="aa17a-184">Configure when Surface Hub receives updates</span></span>
 
 <span data-ttu-id="aa17a-185">为 Surface Hub 确定了部署圈后，为每个圈配置更新延迟策略：</span><span class="sxs-lookup"><span data-stu-id="aa17a-185">Once you've determined deployment rings for your Surface Hubs, configure update deferral policies for each ring:</span></span>
 - <span data-ttu-id="aa17a-186">若要延迟功能更新，请为每个圈设置相应的 [Update/DeferFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays) 策略。</span><span class="sxs-lookup"><span data-stu-id="aa17a-186">To defer feature updates, set an appropriate [Update/DeferFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays) policy for each ring.</span></span>
@@ -98,7 +98,7 @@ ms.locfileid: "11174722"
 
 <span data-ttu-id="aa17a-191">安装 Windows 10 协同版周年更新后，可以删除这些地址，将 Surface Hub 恢复到之前的状态。</span><span class="sxs-lookup"><span data-stu-id="aa17a-191">Once the Windows 10 Team Anniversary Update is installed, you can remove these addresses to return your Surface Hub to its previous state.</span></span>
 
-## <span data-ttu-id="aa17a-192">维护窗口</span><span class="sxs-lookup"><span data-stu-id="aa17a-192">Maintenance window</span></span>
+## <a name="maintenance-window"></a><span data-ttu-id="aa17a-192">维护窗口</span><span class="sxs-lookup"><span data-stu-id="aa17a-192">Maintenance window</span></span>
 
 <span data-ttu-id="aa17a-193">为了确保设备在工作时间内始终可用，Surface Hub 在指定维护窗口期间执行其管理功能。</span><span class="sxs-lookup"><span data-stu-id="aa17a-193">To ensure the device is always available for use during business hours, Surface Hub performs its administrative functions during a specified maintenance window.</span></span> <span data-ttu-id="aa17a-194">在 "维护" 窗口期间，Surface Hub 将通过 Windows 更新自动安装更新，并在窗口结束之前的20分钟内重新启动设备。</span><span class="sxs-lookup"><span data-stu-id="aa17a-194">During the maintenance window, the Surface Hub automatically installs updates through Windows Update and reboots the device 20 minutes before the end of the window.</span></span>
 
@@ -123,12 +123,12 @@ ms.locfileid: "11174722"
 <span data-ttu-id="aa17a-211">若要使用 MDM 更改维护窗口，请在[SurfaceHub 配置服务提供程序](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)中设置**MaintenanceHoursSimple**节点。</span><span class="sxs-lookup"><span data-stu-id="aa17a-211">To change the maintenance window using MDM, set the **MaintenanceHoursSimple** node in the [SurfaceHub configuration service provider](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx).</span></span> <span data-ttu-id="aa17a-212">请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)，了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="aa17a-212">See [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md) for more details.</span></span>
 
 
-## <span data-ttu-id="aa17a-213">详细信息</span><span class="sxs-lookup"><span data-stu-id="aa17a-213">More information</span></span>
+## <a name="more-information"></a><span data-ttu-id="aa17a-213">详细信息</span><span class="sxs-lookup"><span data-stu-id="aa17a-213">More information</span></span>
 
 - [<span data-ttu-id="aa17a-214">博客文章：外部测试版和管理 Surface Hub (与 Intune 的服务（当然） ) </span><span class="sxs-lookup"><span data-stu-id="aa17a-214">Blog post: Servicing, Flighting, and Managing updates for Surface Hub (With Intune, of course!)</span></span>](https://blogs.technet.microsoft.com/y0av/2018/05/31/7-3/)
 
 
-## <span data-ttu-id="aa17a-215">相关主题</span><span class="sxs-lookup"><span data-stu-id="aa17a-215">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="aa17a-215">相关主题</span><span class="sxs-lookup"><span data-stu-id="aa17a-215">Related topics</span></span>
 
 [<span data-ttu-id="aa17a-216">管理 Microsoft Surface Hub</span><span class="sxs-lookup"><span data-stu-id="aa17a-216">Manage Microsoft Surface Hub</span></span>](manage-surface-hub.md)
 
