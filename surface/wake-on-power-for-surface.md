@@ -60,16 +60,16 @@ Surface UEFI 配置器允许你将单个 UEFI 设置保存在 Windows Installer 
 1.  下载最新版本的[Surface UEFI Configurator。](https://www.microsoft.com/download/confirmation.aspx?id=46703)
 2.  以管理员角色登录 Surface 设备，打开**Surface UEFI 配置**器，选择**Surface 设备**，然后选择"下一**步"。**
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="选择 Surface 设备并选择"下一步"。":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="选择 Surface 设备并选择下一步。":::
 3.  选择 **"** 开始"，然后选择 **"配置包****"下的"创建"。**
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="选择"创建配置包"。":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="选择创建配置包。":::
 4.  选择 **证书保护**，并添加证书 .pfx 文件。 
 5. 输入您的密码，选择 **"下**一步****"，根据需要添加密码保护，然后选择"下一**步"。**
 6.  在 **"选择要面向的 Surface 类型"** 页上，选择相应的目标设备。 例如，选择**Surface Pro 7。**
 7.  在"**高级功能**"页上，选择 **"电源**唤醒"，将功能设置为 **"打开**"，然后选择"下一**步"。**
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="选择"电源唤醒"并设置为"打开"。"::: 
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="选择电源唤醒并设置为打开。"::: 
 8.  在"**成功"** 页上，选择"**结束"。**
 
     > [!NOTE]
@@ -88,10 +88,10 @@ Surface UEFI 配置器允许你将单个 UEFI 设置保存在 Windows Installer 
 
 2.  在 **"警告** "对话框中，选择 **"确定** "或禁用 BitLocker（如果适用）。
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="选择"确定"或在适当时禁用 BitLocker。":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="选择确定或在适当时禁用 BitLocker。":::
 3.  在"欢迎"页上，选择 **"下** 一步"运行程序包并应用新配置的 UEFI 设置。
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="在欢迎页面之一，选择"下一步"。":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="在欢迎页面之一，选择下一步。":::
 4.  重新启动设备。 
 
 现在配置了"电源唤醒"。 若要测试设置，请关闭设备，断开电源连接，然后重新连接电源。 设备应自动启动。 

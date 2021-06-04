@@ -42,7 +42,7 @@ ms.locfileid: "11577360"
 
 障碍 - 要求某人在时间限制内阅读、解释和采取行动的提示可能会导致丢失工作（如果某人不能满足这些期望）。
 
-:::image type="content" source="images/cognition-speed-facilitator.jpg" alt-text="她查看屏幕，选择"是"回答有关她是否想要消除有时间响应的问题。":::
+:::image type="content" source="images/cognition-speed-facilitator.jpg" alt-text="她查看屏幕，选择是回答有关她是否想要消除有时间响应的问题。":::
 
 FACILITATOR — 消除时间响应的能力允许用户以自己的节奏对提示做出响应，而无需担心负面影响。
 

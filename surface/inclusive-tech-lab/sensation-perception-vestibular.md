@@ -41,7 +41,7 @@ ms.locfileid: "11577270"
 
 障碍 - 某些用户可能无法检测到跨屏幕的对象运动，同时使其他人感到非常眼动或感到疲劳。 
 
-:::image type="content" source="images/sensory-vestibular-facilitator.jpg" alt-text="她正在按住手机。 她的屏幕上是 &quot; 辅助功能减少运动 &quot; 设置窗口。 她要切换"减少 &quot; 运动" &quot; 选项。":::
+:::image type="content" source="images/sensory-vestibular-facilitator.jpg" alt-text="她正在按住手机。 她的屏幕上是 &quot; 辅助功能减少运动 &quot; 设置窗口。 她要切换减少 &quot; 运动 &quot; 选项。":::
 
 FACILITATOR — 减少对象在屏幕上移动的能力可增强体验的可用性和安全性。 
 
