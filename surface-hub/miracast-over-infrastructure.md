@@ -31,7 +31,7 @@ ms.locfileid: "10832195"
 - 它利用了现有连接，这既缩短了连接时间，也提供了非常稳定的流。
 
 
-## 工作原理
+##  <a name="how-it-works"></a>工作原理
 
 用户尝试通过其 Wi-fi 适配器连接到 Miracast 接收器，就像以前一样。 填充 Miracast 接收器列表时，Windows 10 将确认接收器是否能够支持通过基础结构进行连接。 当用户选择 Miracast 接收器时，Windows 10 将尝试通过标准 DNS 以及多播 DNS (mDNS) 解析设备的主机名。 如果名称无法通过任何一种 DNS 方法解析，则 Windows 10 将回退到使用标准 WLAN Direct 连接建立 Miracast 会话。
 
@@ -41,7 +41,7 @@ ms.locfileid: "10832195"
 
 
 
-## 启用基础结构上的 Miracast 
+##  <a name="enabling-miracast-over-infrastructure-"></a>启用基础结构上的 Miracast 
 
 如果你的 Surface Hub 或其他 Windows 10 设备已更新至 Windows 10 版本 1703，则你将自动具有此新功能。 若要在你的环境中充分利用此功能，你需要确保部署中以下条件成立：
 
@@ -59,6 +59,6 @@ ms.locfileid: "10832195"
 
 基础结构上的 Miracast 不需要 [SurfaceHub 配置服务提供程序 (CSP)](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/surfacehub-csp) 中的 **InBoxApps/WirelessProjection/PinRequired** 设置。 这是因为仅当两台设备连接到同一企业网络时，基础结构上的 Miracast 才能工作。 这将删除 Miracast 以前缺少的安全限制。 我们建议你继续使用此设置（如果你之前使用过它），因为在基础结构连接不起作用的情况下 Miracast 将恢复为常规 Miracast。 
 
-## 常见问题
+##  <a name="faq"></a>常见问题
 **为什么仍需要 Wi-fi 才能通过基础架构使用 Miracast？**<br>
 确定 Miracast 接收器的发现请求只能通过 Wi-fi 适配器进行。 一旦接收器已确定，Windows 10 就可以尝试连接到网络。

@@ -22,15 +22,15 @@ ms.locfileid: "10831612"
 
 无论您是小型企业还是大型企业，Surface Hub 采纳计划在生成合适的使用情形和帮助用户对设备感到满意方面都非常重要。 查看这些可下载的指南，这些指南旨在帮助你在组织中提供培训。
 
-## 按需培训
+##  <a name="on-demand-training"></a>按需培训
 
 - [Surface Hub 2 采用和培训视频](surface-hub-2s-adoption-videos.md)
 
-## 采纳工具包
+##  <a name="adoption-toolkit"></a>采纳工具包
 
 - [Surface Hub 采纳工具包](downloads/SurfaceHubAdoptionToolKit.pdf)
 
-## 培训指南
+##  <a name="training-guides"></a>培训指南
 
 - [培训指南-最终用户](downloads/TrainingGuide-SurfaceHub2S-EndUser.pdf)
 - [培训指南-高级用户](downloads/TrainingGuide-SurfaceHub2S-PowerUser.pdf)
@@ -39,7 +39,7 @@ ms.locfileid: "10831612"
 
 [下载所有培训指南](https://download.microsoft.com/download/2/2/3/2234F70E-E65A-4790-93DF-F4C373A75B8E/SurfaceHub2S-TrainerGuides-July2019.zip)
 
-## 最终用户指南
+##  <a name="end-user-guides"></a>最终用户指南
 
 - [Surface Hub 上的导航指南](downloads/Guide-SurfaceHub2S-Navigation.pptx)
 - [Surface Hub 上的 Office 365 指南](downloads/Guide-SurfaceHub2S-Office365.pptx)
@@ -48,7 +48,7 @@ ms.locfileid: "10831612"
 
 [下载所有最终用户指南](https://download.microsoft.com/download/E/7/F/E7FC6611-BB55-43E1-AF36-7BD5CE6E0FE0/SurfaceHub2S-EndUserGuides-July2019.zip)
 
-## 课程摘要卡
+##  <a name="quick-reference-cards"></a>课程摘要卡
 
 - [连接电脑](downloads/QRCConnectYourPC.pdf) 
 - [加入团队会议](downloads/QRCJoinTeamsMeeting.pdf)

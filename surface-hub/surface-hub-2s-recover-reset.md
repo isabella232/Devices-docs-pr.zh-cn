@@ -24,7 +24,7 @@ ms.locfileid: "11342972"
 
 若要开始，使用管理员凭据登录 Surface Hub 2S，打开"**** 设置"应用，选择"&**安全**"，然后选择"**恢复"。**
 
-## 重置设备
+##  <a name="reset-device"></a>重置设备
 
    > [!IMPORTANT]
    > 在重置设备之前，请确保你的 BitLocker 密钥可用，因为稍后会提示你输入它。 若要了解更多信息，请参阅["保存 BitLocker 密钥"。](save-bitlocker-key-surface-hub.md)
@@ -44,11 +44,11 @@ ms.locfileid: "11342972"
    > ![*Surface Hub 2S 的重置和恢复*](images/sh2-reset.png)
    <br/>*图 1. Surface Hub 2S 的重置和恢复* 
 
-## 使用 USB 恢复驱动器恢复 Surface Hub 2S
+##  <a name="recover-surface-hub-2s-by-using-a-usb-recovery-drive"></a>使用 USB 恢复驱动器恢复 Surface Hub 2S
 
 Surface Hub 2S 中的新增功能，现在可以使用恢复映像重新安装设备。
 
-### 从 U 盘恢复
+###  <a name="recovery-from-a-usb-drive"></a>从 U 盘恢复
 
 使用 Surface Hub 2S，可以使用恢复映像重新安装设备。 通过执行此操作，如果你丢失了 BitLocker 密钥，或者如果你不再具有"设置"应用的管理员凭据，你可以将设备重新安装到出厂设置。
 
@@ -90,6 +90,6 @@ Surface Hub 2S 中的新增功能，现在可以使用恢复映像重新安装�
 
 首次显示设置屏幕时，删除 USB 驱动器。
 
-## 联系支持人员
+##  <a name="contact-support"></a>联系支持人员
 
 如果你有问题或需要帮助，可以创建 [支持请求](https://support.microsoft.com/supportforbusiness/productselection)。

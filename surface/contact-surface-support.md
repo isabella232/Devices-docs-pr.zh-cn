@@ -28,7 +28,7 @@ ms.locfileid: "11271536"
 ---
 # Surface 支持
 
-### 在联系我们之前：  
+###  <a name="before-you-contact-us"></a>在联系我们之前：  
 
 运行 [Surface Diagnostic Toolkit for Business (](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business) SDT) 。 SDT 使 IT 管理员可以快速调查、排查并解决 Surface 设备的硬件、软件和固件问题。 除了获取设备运行状况见解和解决问题的指导外，还可以运行一系列诊断测试和软件修复。 
 
@@ -52,7 +52,7 @@ ms.locfileid: "11271536"
 
 ## [应用商店内支持](#tab/instore)
 
-## 中国、印度
+##  <a name="china,-india"></a>中国、印度
 
 在 Surface Walk-In 中心进行约会以帮助解决问题：
 

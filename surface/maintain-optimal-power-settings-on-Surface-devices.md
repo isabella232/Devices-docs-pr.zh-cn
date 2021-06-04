@@ -128,7 +128,7 @@ Surface 提供与最佳做法电源设置建议相一致且简化的 UI。 通�
 | 检查应用使用情况 | 应用 | 关闭应用。|
 | 检查您的电缆是否损坏。| 您的电缆 | 如果断电或损坏，请更换电缆。|
 
-## 了解详细信息 
+##  <a name="learn-more"></a>了解详细信息 
 
 - [新式待机](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby-wake-sources)
 

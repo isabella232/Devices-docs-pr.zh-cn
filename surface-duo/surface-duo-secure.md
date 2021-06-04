@@ -34,7 +34,7 @@ Surface Duo 在具有深入集成的硬件、固件和软件的每一层内置�
 - **Microsoft Defender ATP。** 适用于 Window 10 的企业级防病毒和恶意软件保护软件现在可用于从 Intune 管理的 Android 设备。 若要了解更多信息，请参阅[适用于 Android 的 Microsoft defender ATP。](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-android) 
 
 
-## 移动设备管理安全性
+##  <a name="mobile-device-management-security"></a>移动设备管理安全性
 
 Surface Duo 在企业环境中使用企业移动性管理 (EMM) 解决方案进行保护，该解决方案提供一组一致的保护工具、技术和最佳做法，你可以根据组织和合规性要求进行定制。 广泛的管理 API 为 IT 部门提供了各种工具，以帮助防止数据泄露，并强制在多种方案中实现合规性。 多配置文件支持和设备管理选项支持分离工作和个人数据，帮助确保公司数据安全。
 
@@ -43,13 +43,13 @@ MDM 安全性基于一组扩展的配置技术构建，使用户能够在一起�
 例如，你可能希望通过要求用户输入 6 位字母数字引脚和 2 因素身份验证来加强设备身份验证。  你可能希望限制用户可以注册的设备，以帮助确保你遵守许可限制，或者避免授予对"越狱"电话或其他不受支持的设备类型的访问权限。
 Intune 和其他 EMM 为组织提供了根据其需求管理设备的灵活性。
 
-## 应用保护策略
+##  <a name="app-protection-policies"></a>应用保护策略
 
 APP (策略) 是可确保组织数据保持安全或包含在托管应用中的规则。 策略可以是在用户尝试访问或移动"公司"数据时强制执行的规则，或者是在用户位于应用内时禁止或监视的一组操作。 托管应用是应用了应用保护策略的应用，并且可以通过 Intune 进行管理。
 
 应用保护策略允许你在应用程序中管理和保护组织的数据。 许多生产力应用（如Microsoft Office应用）都可以由 Intune MAM 管理。 请参阅可供公共使用的 [Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-supported-intune-apps) 保护的应用的官方列表。
 
-## 管理 Surface Duo 的安全注意事项
+##  <a name="security-considerations-for-managing-surface-duo"></a>管理 Surface Duo 的安全注意事项
 
 移动设备管理解决方案中可用的策略设置数量不断增加，使组织能够调整保护级别以满足其特定需求。 为了帮助组织确定 Surface Duo (或任何其他 Android 设备) 的安全设置的优先级，Intune 引入了其组织到多个不同配置方案的 [Android 企业](https://docs.microsoft.com/mem/intune/enrollment/android-configuration-framework) 版安全配置框架，为工作配置文件和完全管理的方案提供指导。
  

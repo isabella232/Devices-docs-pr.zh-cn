@@ -40,7 +40,7 @@ ms.locfileid: "11271059"
 >[!NOTE]
 >Microsoft Surface UEFI 配置器仅在 Windows 10 上受支持。
 
-## 创建 Surface UEFI 配置包
+##  <a name="create-a-surface-uefi-configuration-package"></a>创建 Surface UEFI 配置包
 
 Surface UEFI 配置包同时执行将 Surface UEFI 设置的新配置应用到使用 SEMM 管理的 Surface 设备的角色和在 SEMM 中注册 Surface 设备的角色。 创建配置包需要具有签名证书以与 SEMM 一起使用，以确保在每个 Surface 设备上配置 UEFI 设置。 有关 SEMM 证书的要求详细信息，请参阅 Microsoft [Surface Enterprise 管理模式](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode)。
 
@@ -100,7 +100,7 @@ Surface UEFI 配置包同时执行将 Surface UEFI 设置的新配置应用到�
 >[!NOTE]
 >创建 Surface UEFI 配置包时，日志文件在桌面上创建一个配置包设置和选项的详细信息。
 
-## 在 SEMM 中注册 Surface 设备
+##  <a name="enroll-a-surface-device-in-semm"></a>在 SEMM 中注册 Surface 设备
 执行 Surface UEFI 配置包时，SEMM 证书和 Surface UEFI 配置文件将存储在 Surface 设备的固件存储中。 当 Surface 设备重新启动时，Surface UEFI 将处理这些文件，并开始在 SEMM 中应用 Surface UEFI 配置或注册 Surface 设备的过程，如图 7 所示。
 
 ![用于配置 Surface UEFI 或注册的 SEMM 过程](images/surface-semm-enroll-fig7.png "SEMM process for configuration of Surface UEFI or enrollment")
@@ -143,7 +143,7 @@ Surface UEFI 配置包同时执行将 Surface UEFI 设置的新配置应用到�
 *图 11. Surface UEFI 企业版管理页*
 
 
-## 使用 SEMM 配置 Surface UEFI 设置
+##  <a name="configure-surface-uefi-settings-with-semm"></a>使用 SEMM 配置 Surface UEFI 设置
 
 在 SEMM 中注册设备后，你可以运行使用同一 SEMM 证书签名的 Surface UEFI 配置包，以应用新的 Surface UEFI 设置。 这些设置将在设备下次启动时自动应用，无需用户的任何交互。 可以使用 Microsoft Endpoint Configuration Manager 等应用程序部署解决方案将 Surface UEFI 配置包部署到 Surface 设备，以更改或管理 Surface UEFI 中的设置。
 

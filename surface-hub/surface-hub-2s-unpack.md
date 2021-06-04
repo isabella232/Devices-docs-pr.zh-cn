@@ -20,7 +20,7 @@ ms.locfileid: "10831767"
 ---
 # 解包 Surface Hub 2
 
-## 解包 Surface Hub 2
+##  <a name="unpacking-the-surface-hub-2s"></a>解包 Surface Hub 2
 
 在从框中删除 Surface Hub 2 之前，请确保你已装配了你的装载解决方案，并且有其他人可为你提供帮助。
 
@@ -33,7 +33,7 @@ ms.locfileid: "10831767"
 7. 将已安装的硬件与装载的槽对齐，使其稳定到位。
 8. 按照安装解决方案附带的任何其他说明进行操作。
 
-## 安装笔和照相机
+##  <a name="install-pen-and-camera"></a>安装笔和照相机
 
 1. 解包 Surface Hub 2 笔，并将其连接到设备的首选边。
 2. 从相机中删除镜头墨守成规，并将其附加到 Surface Hub 2 顶部的 USB 端口。

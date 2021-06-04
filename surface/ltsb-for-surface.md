@@ -35,7 +35,7 @@ LTSC 阻止 Surface 设备收到关键的 Windows 10 功能更新和某些非安
 
 特定方案中的 Surface 设备-例如控制医疗设备、销售点系统和 Atm 的 Pc-可能会考虑使用 LTSC。 这些特殊用途的系统通常执行单个任务，并且不需要与组织中的其他设备一样频繁的功能更新。 
 
-## 相关主题
+##  <a name="related-topics"></a>相关主题
 
 - [Surface IT 专业人员博客](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro)
 

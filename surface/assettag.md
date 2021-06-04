@@ -21,13 +21,13 @@ ms.locfileid: "10830799"
 
 Surface 资产标记是一个命令行界面（CLI）实用工具，允许你查看、分配和修改 Surface 设备的已分配资产标记值。 它适用于 Surface Pro 3 和所有较新的 Surface 设备。
 
-## 系统要求
+##  <a name="system-requirements"></a>系统要求
 
 - Surface Pro 3 或更高版本
 
 - UEFI 固件版本3.9.150.0 或更高版本
 
-## 使用 Surface 资产标签 
+##  <a name="using-surface-asset-tag-"></a>使用 Surface 资产标签 
 
 要运行 Surface 资产标签，请执行以下操作：
 
@@ -40,7 +40,7 @@ Surface 资产标记是一个命令行界面（CLI）实用工具，允许你查
 
 3.  重启图面。
 
-### 资产标签工具命令   
+###  <a name="asset-tag-tool-commands"></a>资产标签工具命令   
 在以下示例中，AssetTag.exe 保存在本地计算机（C:\assets）的目录中。 
 
 若要获取建议的资产标签，请运行 AssetTag-g。
@@ -70,7 +70,7 @@ C:\assets\AssetTag.exe -s testassettag12
 >资产标签值必须包含1到36个字符。 有效字符包括 A-z、A-z、0-9、句号（.）和连字符（-）。
 
 
-## 管理资产标签
+##  <a name="managing-asset-tags"></a>管理资产标签
 
 你可以在 "设备信息" （**控制面板 > 恢复 > 高级启动 > "立即重启**"）下的 "UEFI 设置" 中查看现有资产标记。
 
@@ -91,7 +91,7 @@ C:\assets\AssetTag.exe -s testassettag12
 C:\Windows\System32> (Get-WmiObject -query “Select * from Win32_SystemEnclosure”)
   ```
   
-### 使用 PowerShell
+###  <a name="using-powershell"></a>使用 PowerShell
 
 你可以使用下面的脚本作为获取建议值和解释任何错误的方法。
 

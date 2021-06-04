@@ -167,7 +167,7 @@ Surface Hub 可以处于以下一种电源状态。
 
  
 
-## 相关主题
+##  <a name="related-topics"></a>相关主题
 
 
 [管理 Microsoft Surface Hub](manage-surface-hub.md)

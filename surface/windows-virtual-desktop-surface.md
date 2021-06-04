@@ -21,19 +21,19 @@ ms.locfileid: "11271526"
 ---
 # Surface 上的 Windows 虚拟桌面
 
-## 简介
+##  <a name="introduction"></a>简介
 
 Surface 上的 Windows 虚拟桌面允许你在 Surface 设备上运行虚拟桌面基础结构 (VDI) ，模糊了本地桌面体验与虚拟桌面之间的界限，其中触摸、笔、墨迹和生物识别身份验证跨越物理和虚拟环境。 作为计算发展的另一个里程碑，Surface 1 上的 Windows 虚拟桌面将 <a href="#1"><sup> Microsoft 365（在 Azure 云中虚拟化）与 Surface 上的 Windows 10 的高级安全保护、企业级可管理性和增强的工作效率工具相结合。 </sup></a>  Azure 中高级外形因素和虚拟桌面基础结构的这种融合提供了跨用户体验、可移植性、安全性、业务连续性和现代管理的卓越客户价值。
 
-### Windows 虚拟桌面
+###  <a name="windows-virtual-desktop"></a>Windows 虚拟桌面
 
 Windows 虚拟桌面 (WVD) 是一项在 Azure 云中运行的综合桌面应用虚拟化服务。 它是唯一提供简化管理、多会话 Windows 10、Office 365 专业增强版优化和支持远程桌面服务 (RDS) 的虚拟桌面基础结构。 借助 WVD，可以在 Azure 上快速部署和扩展 Windows 桌面和应用，并获取内置的安全性和合规性功能。
 
-### Windows 虚拟桌面合作伙伴集成
+###  <a name="windows-virtual-desktop-partner-integrations"></a>Windows 虚拟桌面合作伙伴集成
 
 有关适用于 Windows 虚拟桌面的已批准合作伙伴提供商和独立软件供应商的列表，请参阅 [Windows 虚拟桌面合作伙伴集成](https://docs.microsoft.com/azure/virtual-desktop/partners)。 某些合作伙伴还在 DaaS (提供虚拟桌面即) 。 DaaS 通过提供完全托管的桌面和虚拟化服务 (VM) 无需维护自己的虚拟机。 通过向全球任何地方的用户提供自定义桌面的能力，公司可以按需旋转云桌面，从而快速调整以适应不断变化的市场情况- 随时随地需要它们。
  
-## Microsoft Surface Devices
+##  <a name="microsoft-surface-devices"></a>Microsoft Surface Devices
 
 Surface 工程部门通过超越键盘和鼠标来想象更自然的设备交互方式（无论是通过触摸、语音、墨迹还是 Surface Dial）来为创新设定了新的标准。 借助 Microsoft 365 的芯片到云集成以及 Windows 10 专业版的安全性和可管理性，Surface 按预期方式提供连接的硬件、软件、应用和服务。 尽管从 Windows 设备运行 WVD 可以回到 Windows 7，但 Microsoft Surface 设备提供了独特的优势，包括支持：
 
@@ -41,11 +41,11 @@ Surface 工程部门通过超越键盘和鼠标来想象更自然的设备交互
 - **持久、按需** 和实时工作方案 - 通过脱机和设备访问获得更高效的体验。
 - **Windows 10 现代设备安全性和可管理性** - 提供随时随地提高工作效率的灵活性。
 
-## 灵活的外形要素和高级用户体验
+##  <a name="flexible-form-factors-and-premium-user-experience"></a>灵活的外形要素和高级用户体验
 
 Microsoft Surface for Business 系列包含各种外形设备组合，包括传统笔记本电脑、一体机和一体机设备。 Surface 设备提供人们喜欢的体验，他们选择和灵活性，以便根据他们的条件工作。
 
-### 新式虚拟桌面终结点
+###  <a name="the-modern-virtual-desktop-endpoint"></a>新式虚拟桌面终结点
 
 Surface 2-in-1 设备（包括 [Surface Go 2](https://www.microsoft.com/p/surface-go-2) (10.5") 、Surface [Pro 7+](https://www.microsoft.com/surface/business/surface-pro-7-plus) (12") 和 [Surface Pro X](https://www.microsoft.com/p/surface-pro-x/) (13") ）为用户提供了理想的云桌面终结点，将可移植性、灵活性、电源和全天电池的最佳平衡汇集在一起。 从在平板电脑模式下依赖 Surface Go 2 的网站工程师到将 Surface Pro 7 附加到扩展坞和多台监视器的财务顾问，二对一设备可提供定义现代工作场所的多种功能。
 
@@ -61,15 +61,15 @@ Surface 2-in-1 设备（包括 [Surface Go 2](https://www.microsoft.com/p/surfac
 - 支持各种外围设备，如标准打印机、3D 打印机、相机、信用卡读卡器、条形码扫描仪等。 专为 Surface 合作伙伴设计的大型生态系统提供经过许可和认证的 Surface 附件。
 - 广泛的设备重定向支持。
 
-### 设备重定向支持
+###  <a name="device-redirection-support"></a>设备重定向支持
 
 通过利用 Windows 10 的设备重定向功能，上面列出的以 Surface 为中心的工作效率体验在 Windows 虚拟桌面环境中变得更加具有吸引力。 Surface 提供广泛的设备重定向支持，尤其是与 OEM 瘦客户端和固定终端、Android、iOS/macOS 和基于 Web 的访问相比。 Windows Inbox (MSTSC) 和 Windows Desktop (MSRDC) 客户端提供了大多数设备重定向功能，包括输入重定向 (键盘、鼠标、笔和触摸) 、端口重定向 (串行和 USB) 以及其他重定向 (相机、剪贴板、本地驱动器/存储、位置、麦克风、打印机、扫描仪、智能卡和扬声器) 。 有关设备重定向支持的详细比较，请参阅 [设备重定向文档](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare#redirection-support)。
 
-### 熟悉的桌面体验
+###  <a name="familiar-desktop-experience"></a>熟悉的桌面体验
 
 在 Surface 设备上运行 Windows 桌面客户端不仅为用户提供了一组广泛的设备重定向功能，还使每个人都可以直接从"开始"菜单或搜索栏以熟悉的方式启动应用。
 
-### 持久、按需和实时工作方案
+###  <a name="persistent,-on-demand-and-just-in-time-work-scenarios"></a>持久、按需和实时工作方案
 
 Surface 上的 Windows 虚拟桌面帮助客户满足行业、员工角色和工作环境中越来越复杂的业务和安全要求。 这些地方包括：
 
@@ -80,13 +80,13 @@ Surface 上的 Windows 虚拟桌面帮助客户满足行业、员工角色和工
 - 支持专用、处理器密集型工作负载的能力。
 - 中断期间持续运营的复原能力。
 
-### 表 1.  Windows 虚拟桌面业务对话
+###  <a name="surface-hub-2-fingerprint-reader-tech-specs"></a>表 1.  Windows 虚拟桌面业务对话
 
 | 安全&法规                                | 弹性员工                                                            | 工作角色                                                        | 特殊工作负载                                                            | 业务连续性                                  |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------- |
 | - 金融服务<br>- 医疗保健<br>- 政府 | - 合并&购置<br>- 短期员工<br>- 承包商&合作伙伴 | - BYOD &移动<br>- 客户支持/服务<br>- 分支工作人员 | - 设计&工程<br>- 支持旧版应用<br>- 软件开发&测试 | - 按需<br>- 实时 (JIT) <br>- 工作 @ 主页 |
 
-### 脱机和设备访问，获得更高效的体验
+###  <a name="offline-and-on-device-access-for-more-productive-experiences"></a>脱机和设备访问，获得更高效的体验
 
 通常，VDI 解决方案仅在终结点连接到 Internet 时工作。 但是，当 Internet 或电源因任何 (、在平面上或断电等原因无法使用时，会发生什么) ？
  
@@ -96,7 +96,7 @@ Surface 上的 Windows 虚拟桌面帮助客户满足行业、员工角色和工
  
 本地安装传统应用程序的一种替代方法是利用 Microsoft Edge 的最新版本，它附带了对渐进式 Web 应用 (PWA) 。 PWA 只是逐步增强的网站，其功能与支持平台上的本机应用类似。 PWA 的特性通过其他功能（如推送通知、后台数据刷新、脱机支持等）将 Web 和本机应用的最佳功能相结合。
 
-### 虚拟 GPU
+###  <a name="virtual-gpus"></a>虚拟 GPU
 
 GPU 非常适合 AI 计算和图形密集型工作负载，帮助客户通过高端远程可视化、深度学习以及预测分析等方案推动创新。  但是，这对需要远程工作或进行移动的专业人员来说并不理想，因为不同程度的内部 GPU 计算能力与物理设备关联，从而限制了移动和灵活性。
  
@@ -104,7 +104,7 @@ GPU 非常适合 AI 计算和图形密集型工作负载，帮助客户通过高
  
 Azure N 系列为 Surface 设备提供了这些功能，使你可以随时随地以任何方式工作。  [详细了解 Azure N 系列和 GPU 优化的虚拟机大小。](https://docs.microsoft.com/azure/virtual-machines/sizes-gpu)
 
-## Microsoft 365 和 Surface
+##  <a name="microsoft-365-and-surface"></a>Microsoft 365 和 Surface
 
 即使在虚拟化桌面环境中，Microsoft 365 和 Surface 也提供员工喜欢的体验、组织所需的保护以及团队以自己方式工作的灵活性。 根据 Forrester <a href="#4"><sup> Research：4</sup></a>
 
@@ -112,7 +112,7 @@ Azure N 系列为 Surface 设备提供了这些功能，使你可以随时随地
 - 75% 的百分比认为支持 Microsoft 365 的 Surface 设备有助于提高员工满意度和保留率
 - 支持 Microsoft 365 的 Surface 设备有助于提高员工满意度和保留率。
 
-### 安全和管理
+###  <a name="security-and-management"></a>安全和管理
 
 从芯片到云，Microsoft 365 和 Surface 可帮助组织保持受保护和最新状态。
 通过 Microsoft 设计、构建和测试 Surface 硬件和软件，用户可以确信自己工作效率高，并受芯片到云的领先技术的保护。  随着远程工作的用户数量的增加，保护公司数据和知识产权变得更加重要。 Surface 上的 Windows 虚拟桌面围绕零信任安全模型进行设计，在此模型中，每个访问请求都经过强身份验证，在策略约束内获得授权，在授予访问权限之前检查异常。
@@ -132,15 +132,15 @@ Surface 上的 Windows 虚拟桌面提供的安全和管理功能包括：
 - **适用于旧版 Windows 7** 工作负载的桥 - 对于依赖于旧 Windows OS 环境的解决方案方案，企业可以使用在 Azure 中运行的 Windows 7 的 VDI 实例。 这将支持 Surface 等现代设备，而不会依赖于不再接收最新安全更新的旧版 Windows 7 计算机。  除了这些"未来校对"优势之外，在部署现代 Windows 10 硬件后，任何旧工作负载的迁移将大大简化。
 - **零接触部署** - Autopilot 是 Surface 设备的推荐新式管理部署选项。 Surface 上的 Windows Autopilot 是 Windows 10 中的一种基于云的部署技术。 你可以立即使用 Surface 上的 Windows Autopilot 在零接触进程中远程部署和配置设备。 Windows Autopilot 注册的设备在首次启动时通过称为硬件哈希的唯一设备签名通过 Internet 进行标识。 通过使用现代管理解决方案（如 Azure Active Directory (Azure AD) 移动设备管理）自动注册和配置它们。
 
-### Surface 设备：最大限度地减少对环境的影响
+###  <a name="surface-devices:-minimizing-environmental-impacts"></a>Surface 设备：最大限度地减少对环境的影响
 
 Surface 执行生命周期评估，以计算设备在产品生命周期的关键阶段对环境的影响，从而使 Microsoft 能够最大限度地减少这些影响。 每个 Surface 产品都有一个一个</a0>配置文件，其中包括有关管道泄漏、主要能耗和材料组合数据、打包、回收和相关条件的详细信息。 若要下载每个 Surface 设备的配置文件，请参阅 Microsoft 下载中心上的 ["MICROSOFT](https://www.microsoft.com/download/details.aspx?id=55974) 下载配置文件"。
 
-## 摘要
+##  <a name="summary"></a>摘要
 
 Surface 上的 Windows 虚拟桌面为组织提供了更大的灵活性和复原能力，以满足用户、利益干系人和客户的不同需求。 与持续依赖旧版设备相比，在 Surface 设备上运行 Windows 虚拟桌面解决方案具有独特的优势。  Surface Go 2 和 Surface Pro 7+ 等灵活的外形 (或离线) ，使用户能够随时随地提高工作效率。 无论员工在持久、按需或实时方案中工作，Surface 上的 Windows 虚拟桌面都为企业提供了多种功能，以在因公共健康紧急情况或其他未预见事件而中断期间维持生产力。 通过使用 Windows 10 的内置多层安全性和现代可管理性，公司可以利用基于云的服务的扩展生态系统来快速部署和扩展 Windows 桌面和应用。 简单地说，Surface 上的 Windows 虚拟桌面为各种规模的组织和企业提供了关键所需的技术。
 
-## 了解详细信息
+##  <a name="learn-more"></a>了解详细信息
 
 有关详细信息，请参阅下列资源：
 

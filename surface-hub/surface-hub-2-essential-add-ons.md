@@ -26,11 +26,11 @@ ms.locfileid: "11030419"
 
 如果已从 Windows 10 团队迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版，则可以从各种通过 USB-C、USB A、HDMI 或蓝牙连接的附件中进行选择。 
 
-## Surface Hub 2 指纹读取器
+##  <a name="surface-hub-2-fingerprint-reader"></a>Surface Hub 2 指纹读取器
 
 如果你在 Surface Hub 2 上运行 Windows 10 专业版或 Windows 10 企业版，则可以使用可选 Surface Hub 2 指纹读取器（使用 [Windows Hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello)的生物识别身份验证选项登录）。
 
-### 订购
+###  <a name="ordering"></a>订购
 
 商业客户可以通过其 Surface 授权设备经销商下的订单。
 
@@ -45,7 +45,7 @@ ms.locfileid: "11030419"
 - [企业版中的 Windows Hello 生物识别](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-biometrics-in-enterprise)。
 
   
-### 表 1.  Surface Hub 2 指纹读取器技术规格
+###  <a name="surface-hub-2-fingerprint-reader-tech-specs"></a>表 1.  Surface Hub 2 指纹读取器技术规格
 
 
 | 组件                       | 描述                                                                                                                          |
@@ -60,12 +60,12 @@ ms.locfileid: "11030419"
 > [!NOTE]
 > 在 Surface Hub 2 上运行的 Windows 10 团队不支持 Surface Hub 2 指纹读取器。 这是因为 Windows 10 团队设计为允许多个用户与会议会议室环境中的设备交互。 
  
-## Windows Hello 人脸识别
+##  <a name="windows-hello-face-recognition"></a>Windows Hello 人脸识别
 
 Surface Hub 2 上的 windows 10 专业版和企业版支持 Windows Hello 身份验证，需要 Windows Hello 认证的相机附件。 请注意，Surface Hub 2 的内置相机不是为身份验证设计的，并且不支持 Windows Hello。 有关详细信息，请参阅 [Windows Hello。](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello)
 
 
-## 音频和视频附件
+##  <a name="audio-and-video-accessories"></a>音频和视频附件
 
 您可以使用 USB-C 或 USB 端口，使用音频和照相机外围设备扩展 Surface Hub 2 的音频和视频功能。
 
@@ -76,7 +76,7 @@ Surface Hub 2 上的 windows 10 专业版和企业版支持 Windows Hello 身份
 
 
 
-## 其他附件
+##  <a name="other-accessories"></a>其他附件
 Surface Hub 2 包括用于连接各种设备的以下端口。 
 
 - 1个 USB "计算" 模块上的端口 ("背后显示") 
@@ -89,6 +89,6 @@ Surface Hub 2 包括用于连接各种设备的以下端口。
 有关详细信息，请参阅 [Surface Hub 2 端口和键盘概述](surface-hub-2s-port-keypad-overview.md)
 
 
-## 了解详细信息
+##  <a name="learn-more"></a>了解详细信息
 
 - [在 Surface Hub 2 上配置 Windows 10 专业版或企业版](surface-hub-2-post-install.md)。

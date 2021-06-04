@@ -31,14 +31,14 @@ ms.locfileid: "10830795"
 > [!NOTE]
 > 对于 Surface 设备的管理，建议使用 Microsoft 终结点配置管理器的当前分支。
 
-## 更新 Surface 设备驱动程序和固件
+##  <a name="updating-surface-device-drivers-and-firmware"></a>更新 Surface 设备驱动程序和固件
 
 对于通过 Windows 更新接收更新的设备，Surface 组件（甚至固件更新）的驱动程序将自动应用为 Windows 更新过程的一部分。 对于具有托管更新（如通过 Windows Server 更新服务（WSUS）或配置管理器更新）的设备，请参阅[管理 Surface 驱动程序和固件更新](https://docs.microsoft.com/surface/manage-surface-driver-and-firmware-updates/)。
 
 > [!NOTE]
 > Surface 设备驱动程序和固件使用 SHA-256 进行了签名，这不是 Windows Server 2008 R2 本身所支持的。 适用于 Windows Server 2008 R2 上运行的 Configuration Manager 环境的解决方法。 有关详细信息，请参阅[无法将驱动程序导入 Microsoft 终结点配置管理器（KB3025419）](https://support.microsoft.com/kb/3025419)。
 
-## Surface 以太网适配器和 Configuration Manager 部署
+##  <a name="surface-ethernet-adapters-and-configuration-manager-deployment"></a>Surface 以太网适配器和 Configuration Manager 部署
 
 Configuration Manager 用于在部署期间标识设备的默认机制是媒体访问控制（MAC）地址。 由于 MAC 地址与以太网控制器相关联，因此在多个设备之间共享的以太网适配器将导致 Configuration Manager 仅将每个设备标识为一个设备。 这可能会导致 Windows Configuration Manager 部署不会应用到预期设备。
 
@@ -54,17 +54,17 @@ Configuration Manager 用于在部署期间标识设备的默认机制是媒体�
 
 对于 windows 10 版本1511（包括 Windows 10 RTM 和 Windows 8.1）之前的 Windows 版本，你可能仍然需要安装 Surface 以太网适配器驱动程序，并将该驱动程序包括在 WinPE 启动媒体中。 在 Windows 10 中包含该驱动程序后，从 Microsoft 下载中心下载该驱动程序将不再可用。 若要下载 Surface 以太网适配器驱动程序，请从 Microsoft Update 目录下载，如图中所述。从咨询核心团队博客文章中的 "[以太网驱动程序](https://blogs.technet.microsoft.com/askcore/2016/08/18/surface-ethernet-drivers/)博客文章"。
 
-## 通过 Configuration Manager 部署 Surface 应用
+##  <a name="deploy-surface-app-with-configuration-manager"></a>通过 Configuration Manager 部署 Surface 应用
 
 使用 Microsoft Store for Business 发布后，Surface app 将不再以驱动程序和固件下载的形式提供。 希望将 Surface 应用部署到托管 Surface 设备或在部署期间使用配置管理器的组织必须通过 Microsoft Store for Business 获取 Surface 应用，然后再使用 PowerShell 部署 Surface 应用。 你可以在 TechNet 库中找到部署 surface 应用的 PowerShell 命令、下载 surface 应用的说明，以及 Microsoft [store for business 中的必备](https://technet.microsoft.com/itpro/surface/deploy-surface-app-with-windows-store-for-business)框架。
 
-## 将预留媒体与 Surface 客户端配合使用
+##  <a name="use-prestaged-media-with-surface-clients"></a>将预留媒体与 Surface 客户端配合使用
 
 如果你的组织在使用配置管理器部署之前使用预留媒体将部署资源预加载到计算机，则作为 UEFI 设备的 Surface 设备的性质可能需要你执行其他步骤。 具体说来，本机 UEFI 环境要求你在系统的启动磁盘上创建多个分区。 如果你与[预留媒体的文档](https://technet.microsoft.com/library/79465d90-4831-4872-96c2-2062d80f5583?f=255&MSPPError=-2147217396#BKMK_CreatePrestagedMedia)一起关注，说明仅提供单个分区启动磁盘，因此在应用到 Surface 设备时将失败。
 
 有关将预置媒体应用于 UEFI 设备（如 Surface 设备）的说明，请参阅[如何在 Microsoft 终结点配置管理器博客文章中的多分区磁盘上应用任务序列预留媒体（适用于 BIOS 或 UEFI 电脑](https://blogs.technet.microsoft.com/system_center_configuration_manager_operating_system_deployment_support_blog/2014/04/02/how-to-apply-task-sequence-prestaged-media-on-multi-partitioned-disks-for-bios-or-uefi-pcs-in-system-center-configuration-manager/)）。
 
-## 与 OEM 激活3.0 的许可冲突
+##  <a name="licensing-conflicts-with-oem-activation-3.0"></a>与 OEM 激活3.0 的许可冲突
 
 Surface 设备预装了 Windows 的许可副本。 例如，Surface Pro 4 预装了 Windows 10 专业版。 此预安装的 Windows 副本的许可证密钥嵌入在具有 OEM 激活3.0 （OA 3.0）的设备的固件中。 当使用 OA 3.0 密钥在设备上运行 Windows 安装媒体时，Windows 安装程序会自动读取许可证密钥并使用它来安装和激活 Windows。 在大多数情况下，这将简化 Windows 的重新安装，因为用户不必查找或输入许可证密钥。
 
@@ -72,13 +72,13 @@ Surface 设备预装了 Windows 的许可副本。 例如，Surface Pro 4 预装
 
 但是，当组织希望使用与固件嵌入式密钥兼容的 Windows 版本时，可能会出现问题。 例如，要在最初随 Windows 10 家庭版附带的3个设备上安装 Windows 10 专业版的组织可能会在 Windows 安装程序在安装期间自动读取 Home 版密钥而不是专业版时遇到问题。 若要避免此冲突，你可以使用 Ei 或 Pid.txt 文件显式指示 Windows 安装程序提示输入产品密钥，或者你可以在部署任务序列中输入特定的产品密钥。 有关详细信息，请参阅[Windows 设置版本配置和产品 ID 文件](https://technet.microsoft.com/library/hh824952.aspx)。 如果你没有特定密钥，你可以使用 Windows 的默认产品密钥，你可以在设备合作伙伴中心的[自定义和部署 windows 10 操作系统](https://dpcenter.microsoft.com/en/Windows/Build/cp-Windows-10-build)中找到它。
 
-## 在部署过程中应用资产标签
+##  <a name="apply-an-asset-tag-during-deployment"></a>在部署过程中应用资产标签
 
 Surface Studio、Surface Book、Surface Pro 4、Surface Pro 3 和 Surface 3 设备都支持在 UEFI 中应用资产标记。 即使操作系统失败，也可以使用此资产标记从 UEFI 标识设备，也可以从操作系统中查询它。 若要阅读有关 Surface 资产标签功能的详细信息，请参阅[Surface Pro 3](https://blogs.technet.microsoft.com/askcore/2014/10/20/asset-tag-tool-for-surface-pro-3/)博客文章的 "资产标签" 工具。
 
 若要在 Configuration Manager 部署任务序列期间使用[Surface 资产标记 CLI 实用工具](https://www.microsoft.com/download/details.aspx?id=44076)应用资产标签，请使用[Configuration manager 任务序列博客文章期间在设置 Surface 资产标签](https://blogs.technet.microsoft.com/jchalfant/set-surface-pro-3-asset-tag-during-a-configuration-manager-task-sequence/)中找到的脚本和说明。
 
-## 配置推送按钮重置
+##  <a name="configure-push-button-reset"></a>配置推送按钮重置
 
 将 Windows 部署到 Surface 设备时，默认情况下会配置 Windows 的按钮重置功能，以将系统恢复到尚未配置环境的状态。 使用 reset 函数时，系统会丢弃任何已安装的应用程序和设置。 尽管在某些情况下，将系统还原为没有应用程序和设置的状态很有用，因为在专业环境中，这会有效地将系统呈现为最终用户不可用。
 

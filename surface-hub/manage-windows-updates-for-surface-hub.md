@@ -123,12 +123,12 @@ Surface Hub 遵循以下应用更新的指南：
 若要使用 MDM 更改维护窗口，请在[SurfaceHub 配置服务提供程序](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx)中设置**MaintenanceHoursSimple**节点。 请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)，了解详细信息。
 
 
-## 详细信息
+##  <a name="details"></a>详细信息
 
 - [博客文章：外部测试版和管理 Surface Hub (与 Intune 的服务（当然） ) ](https://blogs.technet.microsoft.com/y0av/2018/05/31/7-3/)
 
 
-## 相关主题
+##  <a name="related-topics"></a>相关主题
 
 [管理 Microsoft Surface Hub](manage-surface-hub.md)
 

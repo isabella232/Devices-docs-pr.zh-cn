@@ -43,11 +43,11 @@ ms.locfileid: "10830930"
     - 靴子
     - 日期/时间
 
-## 创建 UEFI 配置图像
+##  <a name="create-uefi-configuration-image"></a>创建 UEFI 配置图像
 
 与其他 Surface 设备不同，您不能使用 MSI 文件或 Win PE 映像在 Surface Hub 2 秒上应用这些设置。 相反，你需要创建一个 USB 图像以加载到设备中。 若要创建 Surface Hub 2 UEFI 配置映像，请从 Microsoft 下载中心的 " [Surface Tools FOR IT](https://www.microsoft.com/download/details.aspx?id=46703) " 页面下载并安装最新版本的 MICROSOFT Surface UEFI 配置器。 有关使用 UEFI 和 SEMM 的详细信息，请参阅[Microsoft Surface 企业管理模式](https://docs.microsoft.com/surface/surface-enterprise-management-mode)。
 
-## 在 Surface Hub 2 上配置 UEFI
+##  <a name="to-configure-uefi-on-surface-hub-2s"></a>在 Surface Hub 2 上配置 UEFI
 
 1. 启动 UEFI 配置器，在第一个屏幕上，选择 "**配置包**"。<br><br>
 ![* 启动 UEFI 配置器并选择 "配置包" *](images/sh2-uefi1.png) <br> <br>
@@ -68,6 +68,6 @@ ms.locfileid: "10830930"
 9. 成功创建程序包后，配置器将显示你的证书指纹的最后两个字符。 当你将配置导入到 Surface Hub 2 的配置时，你需要这些字符。<br>
 ![* 程序包的成功配置 *](images/sh2-uefi10.png) <br>
 
-## 启动到 UEFI
+##  <a name="to-boot-into-uefi"></a>启动到 UEFI
 
 关闭 Surface Hub 2。 长按**音量**按钮并按**电源**按钮。 一直按住音量按钮，直到 UEFI 菜单出现。

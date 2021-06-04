@@ -35,7 +35,7 @@ ms.locfileid: "10831959"
 3.  如果你使用本地管理员帐户管理设备，你可以通过转到 "**设置**" 应用并导航到 "**更新 & 安全**恢复" 来保存 BitLocker 密钥 &gt; **Recovery**。 插入 USB 驱动器，然后选择用于保存 BitLocker 密钥的选项。 该密钥将保存到 USB 驱动器上的文本文件中。
 
 
-## 相关主题
+##  <a name="related-topics"></a>相关主题
 
 [管理 Microsoft Surface Hub](manage-surface-hub.md)
 

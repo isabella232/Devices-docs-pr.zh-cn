@@ -30,7 +30,7 @@ ms.locfileid: "11145613"
 > [!Note]
 > 虽然本文中介绍的过程可能适用于终结点配置管理器的早期版本或其他第三方管理解决方案，但只有终结点配置管理器的当前分支才支持使用 Microsoft Surface UEFI 管理器和 PowerShell 的 SEMM 管理。
 
-#### 必备条件
+####  <a name="prerequisites"></a>必备条件
 
 开始本文概述的过程之前，请熟悉以下技术和工具：
 

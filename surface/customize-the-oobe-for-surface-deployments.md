@@ -44,14 +44,14 @@ Windows 部署中的常见做法是针对已部署计算机的首次启动自定
 
  
 
-## 方案 1：使用 MDT 2013 的 OOBE 中的无线网络
+##  <a name="scenario-1:-wireless-networking-in-oobe-with-mdt-2013"></a>方案 1：使用 MDT 2013 的 OOBE 中的无线网络
 
 
 如果在 OOBE 期间存在无线网络适配器，将显示**加入无线网络**页，可提示用户连接到无线网络。 此页面不会自动通过部署技术（包括 MDT 2013）隐藏，因此即使针对完全自动化配置部署也将显示该页面。
 
 若要确保自动部署不会因此页面而停止，必须通过在应答文件 **HideWirelessSetupInOOBE** 中配置附加设置来隐藏该页面。 你可以在[无人参与 Windows 安装程序参考](https://technet.microsoft.com/library/ff716213.aspx)中找到有关 **HideWirelessSetupInOOBE** 设置的其他信息。
 
-## 方案 2：OOBE 中的 Surface 触控笔配对
+##  <a name="scenario-2:-surface-pen-pairing-in-oobe"></a>方案 2：OOBE 中的 Surface 触控笔配对
 
 
 当你首次从包装中取出 Surface Pro 3、Surface Pro 4、Surface Book 或 Surface Studio 并启动它时，出厂映像的首次运行体验包含一条提示，询问你是否要将随附的 Surface 触控笔与该设备配对。 此提示仅由设备随附的出厂映像提供，不会包含在用于部署的其他映像（例如从批量许可服务中心中下载的 Windows 企业安装媒体）中。 由于配对此体验之外的蓝牙 Surface 触控笔要求你进入控制面板或电脑设置并手动配对蓝牙设备，因此你可能希望用户或技术人员使用此提示来执行配对操作。

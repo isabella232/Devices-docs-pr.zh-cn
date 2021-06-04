@@ -27,7 +27,7 @@ ms.locfileid: "11326277"
 
 Surface Duo 支持适用于企业的 Microsoft 启动器，这是一款 Android 应用程序，可让用户个性化其手机、保持井井有条地工作，并无缝同步移动设备和电脑之间的日历、任务、笔记等内容。 事实上，Surface Duo 启动器是 Microsoft 启动器的两屏自定义版本，你可以调整该版本以定义组织完全托管设备上的首选体验，并允许用户选择一些选项来个性化这些企业设备的体验。 例如，可以选择希望固定到主屏幕的应用、部署品牌墙纸或隐藏搜索栏，同时允许用户启用搜索栏（如果需要）。
 
-## Microsoft 启动器设置
+##  <a name="microsoft-launcher-settings"></a>Microsoft 启动器设置
 
 Microsoft 启动器包括以下用于自定义最终用户体验的设置：
 

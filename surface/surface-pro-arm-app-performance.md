@@ -44,7 +44,7 @@ ms.locfileid: "11093912"
 - **无法安装某些第三方防病毒软件**。 你将无法在基于 Windows 10 ARM 的电脑上安装某些第三方防病毒软件。 但是，Windows 安全将帮助你保护 Windows 10 设备受支持的生命周期。
 - **Windows 传真和扫描不可用**。 此功能在基于 Windows 10 ARM 的电脑上不可用。
 
-## 应用程序确保
+##  <a name="app-assure"></a>应用程序确保
 
 Microsoft 致力于确保客户在 ARM64 设备（如 Surface Pro X）上与 Windows 10 有很好的兼容性体验。我们扩展了应用程序，让工程师能够通过让工程师排除和提供应用 remediations 来支持遇到应用兼容性问题的客户-所有这些都不需要额外费用。 对于你的 LOB、ISV 和 Microsoft 第一方应用，教育机构 ARM64 上的适用于 Windows 10 的商业和客户均可使用该服务。 
 

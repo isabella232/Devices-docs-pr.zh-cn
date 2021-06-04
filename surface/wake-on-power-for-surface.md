@@ -48,14 +48,14 @@ ms.locfileid: "11271556"
 - Surface Pro X 
 
 
-## 概述和先决条件
+##  <a name="overview-and-prerequisites"></a>概述和先决条件
 
 Surface UEFI 配置器允许你将单个 UEFI 设置保存在 Windows Installer .msi 程序包中，以分发到目标设备。 
 
 > [!NOTE]
 > 本文假定你了解如何使用 SEMM。 有关详细信息，请参阅 [SURFACE Enterprise Management Mode (SEMM) ](surface-enterprise-management-mode.md) 文档。
 
-## 启用电源唤醒
+##  <a name="to-enable-wake-on-power"></a>启用电源唤醒
 
 1.  下载最新版本的[Surface UEFI Configurator。](https://www.microsoft.com/download/confirmation.aspx?id=46703)
 2.  以管理员角色登录 Surface 设备，打开**Surface UEFI 配置**器，选择**Surface 设备**，然后选择"下一**步"。**
@@ -76,7 +76,7 @@ Surface UEFI 配置器允许你将单个 UEFI 设置保存在 Windows Installer 
     > 如果这是第一次向设备提供设置，系统将提示你提供证书指纹的最后两个字符。 
 9.  保存 .msi 包。 
 
-## 应用 MSI 程序包 
+##  <a name="apply-the-msi-package"></a>应用 MSI 程序包 
 
 可以使用软件分发工具（如 Microsoft Endpoint Configuration Manager）将 MSI 程序包应用到整个网络的设备。 此过程包括在本地计算机上安装程序包的步骤。 
 
@@ -96,7 +96,7 @@ Surface UEFI 配置器允许你将单个 UEFI 设置保存在 Windows Installer 
 
 现在配置了"电源唤醒"。 若要测试设置，请关闭设备，断开电源连接，然后重新连接电源。 设备应自动启动。 
 
-## 参考
+##  <a name="references"></a>参考
 
 有关详细信息，请参阅以下文章。 
 

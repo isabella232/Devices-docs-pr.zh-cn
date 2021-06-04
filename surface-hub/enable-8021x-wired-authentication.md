@@ -25,7 +25,7 @@ ms.locfileid: "10831852"
 
 主要配置设置为 **LanProfile** 策略。 根据所选的身份验证方法，可能需要其他策略，**EapUserData** 策略，或通过用于添加用户或计算证书的 MDM 策略（例如用户用户/设备证书的 [ClientCertificateInstall](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp) 或用于设备证书的 [RootCATrustedCertificates](https://docs.microsoft.com/windows/client-management/mdm/rootcacertificates-csp)）。 
 
-## LanProfile 策略元素
+##  <a name="lanprofile-policy-element"></a>LanProfile 策略元素
 
 若要将 Surface Hub 配置为使用受支持的 802.1x 身份验证方法之一，请使用以下 OMA URI。 
 
@@ -49,7 +49,7 @@ Profile File Name: .\Ethernet.xml
 1 profile(s) were exported successfully.
 ```
 
-## EapUserData 策略元素
+##  <a name="eapuserdata-policy-element"></a>EapUserData 策略元素
 
 如果所选的身份验证方法需要用户名和密码而不是证书，则可以使用 **EapUserData** 元素指定供设备用于身份验证到网络的凭据。 
 
@@ -61,7 +61,7 @@ Profile File Name: .\Ethernet.xml
 
 
 
-## 添加证书
+##  <a name="adding-certificates"></a>添加证书
 
 如果所选身份验证方法是基于证书的，则需要[创建预配包](provisioning-packages-for-surface-hub.md)、[利用 MDM](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp)或从设置（**设置**  >  **更新和安全**  >  **证书**）导入证书，以将这些证书部署到相应证书存储中的 Surface Hub 设备。 添加证书时，每个 PFX 必须只包含一个证书（一个PFX 不能具有多个证书）。
 

@@ -41,13 +41,13 @@ Microsoft 支持现已提供注册 Surface 设备进行 Windows Autopilot 部署
 
  
 
-## 提交支持请求
+##  <a name="submit-support-requests"></a>提交支持请求
 
   [![GSurface 的 et Autopilot 注册支持](images/autopilot-reg-support-surface.png)](https://prod.support.services.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
  
  
  
-## 了解详细信息
+##  <a name="learn-more"></a>了解详细信息
 
 - [Windows Autopilot 和 Surface 设备](windows-autopilot-and-surface-devices.md)
 - [使用 Windows Autopilot 在 Intune 中注册 Windows 设备](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)

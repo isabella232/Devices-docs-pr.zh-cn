@@ -26,7 +26,7 @@ Surface Hub 的设置说明包括设置工作表和首次运行计划的操作�
 
 在首次打开 Microsoft Surface Hub 之前，请确保你已完成[为 Surface Hub 准备你的环境](prepare-your-environment-for-surface-hub.md)部分结尾处的清单，并且具有[设置工作表](setup-worksheet-surface-hub.md)中列出的信息。 将其打开后，设备将指导你完成一系列设置屏幕。 如果你尚未正确设置环境或者不具有必需的信息，将需要在确保设置正确无误之后进行额外的工作。
 
-## 本部分内容
+##  <a name="in-this-section"></a>本部分内容
 
 
 <table>

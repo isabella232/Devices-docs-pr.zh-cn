@@ -607,7 +607,7 @@ Surface Hub 首次运行计划的问题的可能修补程序。
 </tbody>
 </table>
 
-## 联系支持人员
+##  <a name="contact-support"></a>联系支持人员
 
 如果有疑问或需要帮助，您可以[创建支持请求](https://support.microsoft.com/supportforbusiness/productselection)。
 

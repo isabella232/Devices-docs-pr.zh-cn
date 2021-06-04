@@ -31,7 +31,7 @@ ms.locfileid: "10830830"
 > [!IMPORTANT]
 > 此过程需要打开不使用代理或其他身份验证方法的 Internet 连接。
 
-## 云恢复过程
+##  <a name="cloud-recovery-process"></a>云恢复过程
 
 若要执行云恢复，请按照下列步骤操作：
 
@@ -61,7 +61,7 @@ ms.locfileid: "10830830"
 
    ![现成的屏幕截图](images/06-out-of-box.png)
 
-## "出现了错误" 错误消息
+##  <a name="something-went-wrong-error-message"></a>"出现了错误" 错误消息
 
 此错误通常由恢复下载期间出现的网络问题引起。 如果出现此问题，请不要关闭集线器，因为您无法重新启动它。 如果收到此错误消息，请返回到 "从云恢复" 步骤，然后重新启动恢复过程。
 

@@ -24,7 +24,7 @@ ms.locfileid: "10832103"
 
 可以在“设置”中更改设备帐户，以便添加帐户（如果尚未预配帐户），或更改已预配的帐户的任何属性。
 
-## 详细信息
+##  <a name="details"></a>详细信息
 
 
 <table>
@@ -72,7 +72,7 @@ ms.locfileid: "10832103"
 
  
 
-## 会发生什么情况？
+##  <a name="what-happened"></a>会发生什么情况？
 
 
 UPN 和密码用于验证 AD 或 Azure AD 中的帐户。 如果验证失败，可能需要提供域和用户名。
@@ -81,7 +81,7 @@ UPN 和密码用于验证 AD 或 Azure AD 中的帐户。 如果验证失败，�
 
 如果设备找不到与登录凭据相关联的服务器，将需要提供 Exchange Server 地址。 Microsoft Surface Hub 将使用 Exchange Server 与 ActiveSync 进行交互，这会在设备上启用多个关键功能。
 
-## 相关主题
+##  <a name="related-topics"></a>相关主题
 
 
 [管理 Microsoft Surface Hub](manage-surface-hub.md)

@@ -21,7 +21,7 @@ ms.locfileid: "10831611"
 
 此页面包含 Surface Hub 2 的全面培训，可按需提供。
 
-## 第1章-培训概述
+##  <a name="chapter-1---training-overview"></a>第1章-培训概述
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46Jud] 
 
@@ -33,7 +33,7 @@ ms.locfileid: "10831611"
 - 培训服务概述
 - 培训最佳做法
 
-## 第2章-Surface Hub 入门
+##  <a name="chapter-2---getting-started-with-surface-hub"></a>第2章-Surface Hub 入门
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46Ejt] 
 
@@ -44,7 +44,7 @@ ms.locfileid: "10831611"
 - Surface Hub 入门
 - 收集期望值
 
-## 第3章-导航 Surface Hub
+##  <a name="chapter-3---navigating-surface-hub"></a>第3章-导航 Surface Hub
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46OFW] 
 
@@ -56,7 +56,7 @@ ms.locfileid: "10831611"
 - 团队/Skype
 - 结束会话
 
-## 第4章-Whiteboarding 和协作
+##  <a name="chapter-4---whiteboarding-and-collaboration"></a>第4章-Whiteboarding 和协作
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46M4v] 
 
@@ -68,7 +68,7 @@ ms.locfileid: "10831611"
 - 共享白板
 - 导出白板 
  
-## 第5章-探索 Surface Hub 应用
+##  <a name="chapter-5---exploring-surface-hub-apps"></a>第5章-探索 Surface Hub 应用
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46Ejz] 
 
@@ -78,7 +78,7 @@ ms.locfileid: "10831611"
 - Microsoft Excel
 - Microsoft Edge
 
-## 第6章-高级应用和 Office 365
+##  <a name="chapter-6---advanced-apps-and-office-365"></a>第6章-高级应用和 Office 365
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46EjA] 
 
@@ -90,7 +90,7 @@ ms.locfileid: "10831611"
 - OneDrive
 - 共同创作文档
 
-## 第7章-连接设备
+##  <a name="chapter-7---connecting-devices"></a>第7章-连接设备
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46M4w] 
 
@@ -101,7 +101,7 @@ ms.locfileid: "10831611"
 - 业务线应用工作流
 - Miracast 和有线连接疑难解答    
  
-## 第8章-Skype for business 会议
+##  <a name="chapter-8---skype-for-business-meetings"></a>第8章-Skype for business 会议
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46M4x] 
 
@@ -112,7 +112,7 @@ ms.locfileid: "10831611"
 - 管理 Skype for Business 会议
 - 演示内容
     
-## 第9章-Microsoft 团队会议
+##  <a name="chapter-9---microsoft-teams-meetings"></a>第9章-Microsoft 团队会议
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46OFZ] 
 
@@ -125,7 +125,7 @@ ms.locfileid: "10831611"
 - 演示内容
 - 总结
 
-## 第10章-基本疑难解答
+##  <a name="chapter-10---basic-troubleshooting"></a>第10章-基本疑难解答
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46z65] 
 

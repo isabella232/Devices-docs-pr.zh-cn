@@ -102,7 +102,7 @@ SDT 在应用程序、驱动程序、硬件和操作系统问题上提供丰富�
 
 根据日志，SDT 将为基于软件和固件的问题生成报表，你可以将这些问题保存到首选位置。
 
-## 相关主题
+##  <a name="related-topics"></a>相关主题
 
 - [使用命令运行适用于企业的 Surface 诊断工具包](surface-diagnostic-toolkit-command-line.md)
 

@@ -185,7 +185,7 @@ Surface 扩展坞固件由两个组件组成：
 
 此版本包含在 Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.MSI，可更新后台固件。 
 
-#### 更新了注册表项值
+####  <a name="update"></a>更新了注册表项值
 
 - Component10CurrentFwVersion 更新为 **4ac3970**。
 - Component20CurrentFwVersion 更新为 **4a1d570**。

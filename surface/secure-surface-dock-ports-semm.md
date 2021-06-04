@@ -24,22 +24,22 @@ ms.locfileid: "11114690"
 ---
 # 安全 Surface Dock 2 个具有 Surface Enterprise 管理模式的端口 (SEMM) 
 
-## 简介
+##  <a name="introduction"></a>简介
 
 Surface Enterprise 管理模式 (SEMM) 使 IT 管理员可以通过在 Windows 安装程序配置包 ( 中配置 UEFI 设置来保护和管理 Surface Dock 2 端口。MSI 文件) 在企业环境中部署到兼容的 Surface 设备。
 
-### 支持的设备
+###  <a name="supported-devices"></a>支持的设备
 
 使用 SEMM 管理 Surface Dock 2 适用于连接到 Surface Book 3、Surface 笔记本电脑3、Surface 笔记本电脑 Go、Surface Pro 7 和 Surface Pro X 的坞站。这些兼容的 Surface 设备通常称为 **主机设备**。 根据主机设备是否 **经过身份验证** 或 **未经身份**验证，将程序包应用于主机设备。 已配置的设置驻留在主机设备上的 UEFI 层中，使你（IT 管理员）可以管理 Surface Dock 2，就像任何其他内置外围设备（如相机）一样。
 
 >[!NOTE]
 >只有当插接连接到以下兼容设备之一时，才能管理 Surface Dock 2 端口： Surface Book 3、Surface 笔记本3和 Surface Pro 7。 任何未接收到 UEFI 身份验证策略设置的设备本身就是未经身份验证的设备。
 
-### 方案
+###  <a name="scenarios"></a>方案
 
 对登录到企业主机设备的授权人员限制 Surface Dock 2，提供另一层数据保护。 这种锁定 Surface Dock 2 的能力对于高度安全的环境中的特定客户非常重要，这些客户希望在保持遵守严格的安全协议的同时获得固定的功能和生产力。 我们预计使用 Surface Dock 的 SEMM 在开放办公和共享空间中尤其有用，特别是出于安全原因希望锁定 USB 端口的客户。 对于视频演示，请查看 [Surface Dock 2 的 SEMM](https://youtu.be/VLV19ISvq_s)。
 
-## 配置和部署 Surface Dock 的 UEFI 设置2
+##  <a name="configuring-and-deploying-uefi-settings-for-surface-dock-2"></a>配置和部署 Surface Dock 的 UEFI 设置2
 
 本部分提供以下任务的分步指南：
 
@@ -54,29 +54,29 @@ Surface Enterprise 管理模式 (SEMM) 使 IT 管理员可以通过在 Windows �
 >[!NOTE]
 >** (RN) 的随机数字**是一个唯一的16位十六进制代码标识符，在工厂预配，并且在 dock 的底部以较小的类型打印。 RN 与大多数序列号不同，因为它无法以电子方式读取。 这确保了所有权证明主要是通过在物理上访问设备时读取 RN 来确定的。 RN 也可以在购买交易期间获取，并记录在 Microsoft 库存系统中。
 
-### 安装 SEMM 和 Surface UEFI 配置器
+###  <a name="install-semm-and-surface-uefi-configurator"></a>安装 SEMM 和 Surface UEFI 配置器
 
 通过运行 **SurfaceUEFI_Configurator_v2.71.139.0.msi**安装 SEMM。 这是一个独立安装程序，包含创建和分发 Surface Dock 2 的配置包所需的所有内容。
 
 - 从[Surface Tools FOR IT](https://www.microsoft.com/en-us/download/details.aspx?id=46703)下载**surface UEFI 配置**器。
 
-## 创建公钥证书
+##  <a name="create-public-key-certificates"></a>创建公钥证书
 
 本部分提供了创建管理 Surface Dock 的端口所需证书的规范。
 
-### 必备条件
+###  <a name="prerequisites"></a>必备条件
 
 本文假定你从第三方提供商获取证书，或者你已经拥有 PKI 证书服务的专业知识，并知道如何创建自己的证书。  你应该熟悉并按照 [图面企业管理模式 (SEMM) ](https://docs.microsoft.com/surface/surface-enterprise-management-mode) 文档中所述的常规建议创建证书，但有一个例外。 此页面上记录的证书要求为 **Dock 证书颁发机构**提供30年的有效期，以及用于 **主机身份验证证书**的20年。
 
 有关详细信息，请参阅 [证书服务体系结构](https://docs.microsoft.com/windows/win32/seccrypto/certificate-services-architecture) 文档，并在 [windows server 2019 中查看 windows server](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277)中的相应章节，以及 Microsoft 新闻可用的 [Windows Server 2008 PKI 和证书安全](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) 。
 
-### 根和主机证书要求
+###  <a name="root-and-host-certificate-requirements"></a>根和主机证书要求
 
 在创建配置程序包之前，你需要准备验证 Surface Dock 的所有权的公钥证书，并在设备生命周期内帮助所有权的任何后续更改。 主机和预配证书需要输入 EKU Id （也称为 **客户端身份验证增强密钥用法）， (EKU) 对象标识符 (oid) **。
 
 表1和表2中列出了所需的 EKU 值。
 
-#### 表 1.  根和插接证书要求
+####  <a name="surface-hub-2-fingerprint-reader-tech-specs"></a>表 1.  根和插接证书要求
 
 |证书|算法|描述|到期|EKU OID|
 |---|---|---|---|---|
@@ -86,7 +86,7 @@ Surface Enterprise 管理模式 (SEMM) 使 IT 管理员可以通过在 Windows �
    >[!NOTE]
    >必须将 dock CA 导出为 p7b 文件。
 
-### 预配管理证书要求
+###  <a name="provisioning-administration-certificate-requirements"></a>预配管理证书要求
 
 每台主机设备都必须具有 doc CA 和两个证书，如表2中所示。
 
@@ -100,7 +100,7 @@ Surface Enterprise 管理模式 (SEMM) 使 IT 管理员可以通过在 Windows �
    >[!NOTE]
    >必须以 .pfx 文件的形式导出主机身份验证和预配证书。
 
-### 创建配置包
+###  <a name="create-configuration-package"></a>创建配置包
 
 获取或创建证书后，即可创建将应用于目标 Surface 设备的 MSI 配置包。
 
@@ -131,16 +131,16 @@ Surface Enterprise 管理模式 (SEMM) 使 IT 管理员可以通过在 Windows �
 
 1. 选择 " **生成** " 以创建指定的程序包。
 
-### 将配置包应用于 Surface Dock 2
+###  <a name="apply-the-configuration-package-to-a-surface-dock-2"></a>将配置包应用于 Surface Dock 2
 
 1. 获取 Surface UEFI 配置器生成的 MSI 文件，并将其安装在 Surface host 设备上。 兼容的主机设备是 Surface Book 3、Surface 笔记本3或 Surface Pro 7。
 1. 将主机设备连接到 Surface Dock 2。 当你连接时，将应用停靠的 UEFI 策略设置。
 
-## 使用 Surface App 验证托管状态
+##  <a name="verify-managed-state-using-the-surface-app"></a>使用 Surface App 验证托管状态
 
 应用配置包后，您可以直接从 Surface App （默认情况下在所有 Surface 设备上安装）快速验证 dock 的最终策略状态。 如果设备上不存在 Surface 应用，则可以从 Microsoft Store 下载并安装它。
 
-### 测试方案
+###  <a name="test-scenario"></a>测试方案
 
 目标：将策略设置配置为仅允许经过身份验证的用户访问端口。
 
@@ -165,7 +165,7 @@ Surface Enterprise 管理模式 (SEMM) 使 IT 管理员可以通过在 Windows �
 
 得到. 你已在目标主机设备上成功管理 Surface Dock 2 端口。
 
-## 了解详细信息
+##  <a name="learn-more"></a>了解详细信息
 
 - [ (SEMM) 文档的 Surface Enterprise 管理模式](https://docs.microsoft.com/surface/surface-enterprise-management-mode)
 - [证书服务体系结构](https://docs.microsoft.com/windows/win32/seccrypto/certificate-services-architecture)

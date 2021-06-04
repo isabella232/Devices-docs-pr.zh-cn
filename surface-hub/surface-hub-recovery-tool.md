@@ -30,9 +30,9 @@ ms.locfileid: "11339363"
 
 如果该工具在重新映像驱动器时失败，请联系 [Surface Hub 支持人员](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)。
 
-## 必备条件
+##  <a name="prerequisites"></a>必备条件
 
-### Mandatory
+###  <a name="mandatory"></a>Mandatory
 
 - 运行 64 位版本的 Windows 10 版本 1607 或更高版本的主机电脑。
 - Internet 访问权限
@@ -41,7 +41,7 @@ ms.locfileid: "11339363"
 - 主计算机上 10 GB 的可用磁盘空间
 - Surface Hub 附带的 SSD 或由支持提供的 SSD 作为替代。 不支持 Microsoft 未提供的 SSD。
 
-### 推荐
+###  <a name="recommended"></a>推荐
 
 - 高速 Internet 连接
 - 打开 USB 3.0 端口
@@ -51,7 +51,7 @@ ms.locfileid: "11339363"
     - Will RCUC16001
     - Ugreen 20231
 
-## 下载 Surface Hub 恢复工具
+##  <a name="download-surface-hub-recovery-tool"></a>下载 Surface Hub 恢复工具
 
 Surface Hub 恢复工具可从[Surface Hub Tools](https://www.microsoft.com/download/details.aspx?id=52210)中下载，用于 IT 的文件名下SurfaceHub_Recovery_v2.7.139.0.msi。 ** **
 
@@ -65,7 +65,7 @@ Surface Hub 恢复工具可从[Surface Hub Tools](https://www.microsoft.com/down
 
 在主机计算机上安装 Surface Hub 恢复工具。
 
-## 运行 Surface Hub 恢复工具
+##  <a name="run-surface-hub-recovery-tool"></a>运行 Surface Hub 恢复工具
 
 1. 在主机电脑上 **，选择"** 开始"按钮，滚动左侧的字母列表，然后选择恢复工具快捷方式。
 
@@ -102,7 +102,7 @@ Surface Hub 恢复工具可从[Surface Hub Tools](https://www.microsoft.com/down
 
 
 
-## 疑难解答和常见问题
+##  <a name="troubleshooting-and-common-problems"></a>疑难解答和常见问题
 
 问题 | 注释
 --- | ---
@@ -113,10 +113,10 @@ Surface Hub 恢复工具可从[Surface Hub Tools](https://www.microsoft.com/down
 
 如果该工具在重新映像驱动器时失败，请联系 [Surface Hub 支持人员](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)。
 
-## 版本历史记录
+##  <a name="version-history"></a>版本历史记录
 
 
-### 版本 v2.7.139.0
+###  <a name="version-v2.7.139.0"></a>版本 v2.7.139.0
 
 *发布日期：2021 年 2 月 11 日*<br>
 此版本的 Surface Hub 恢复工具增加了对以下内容的支持：
@@ -124,7 +124,7 @@ Surface Hub 恢复工具可从[Surface Hub Tools](https://www.microsoft.com/down
 - 安全更新
 
 
-### 版本 v2.0.139.0
+###  <a name="version-v2.0.139.0"></a>版本 v2.0.139.0
 
 > [!IMPORTANT]
 > 此版本不再可用。 请下载上面列出的当前版本。 

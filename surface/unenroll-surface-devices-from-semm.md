@@ -29,7 +29,7 @@ ms.locfileid: "10830764"
 
 有关 SEMM 的详细信息，请参阅[Microsoft Surface 企业管理模式](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode)。
 
-## 使用 Surface UEFI reset 程序包取消注册 SEMM 中的 Surface 设备
+##  <a name="unenroll-a-surface-device-from-semm-with-a-surface-uefi-reset-package"></a>使用 Surface UEFI reset 程序包取消注册 SEMM 中的 Surface 设备
 
 Surface UEFI 重置程序包是用于从 SEMM 取消注册 Surface 设备的主要方法。 与 Surface UEFI 配置包一样，reset 程序包是在设备上配置 SEMM 的 Windows Installer （.msi）文件。 与配置包不同，重置程序包会将 Surface 设备上的 Surface UEFI 配置重置为其默认设置，删除 SEMM 证书，然后从 SEMM 取消注册该设备。
 
@@ -74,7 +74,7 @@ Surface UEFI 重置程序包是用于从 SEMM 取消注册 Surface 设备的主�
 
 *图 5. "程序和功能" 中的 Microsoft Surface 配置包项目的存在表示设备已注册 SEMM*
 
-## 使用恢复请求取消注册 Surface 设备 SEMM
+##  <a name="unenroll-a-surface-device-from-semm-with-a-recovery-request"></a>使用恢复请求取消注册 Surface 设备 SEMM
 
 在某些情况下，Surface UEFI 重置程序包可能无法用于取消注册 SEMM 中的 Surface 设备（例如，Windows 变得不可用）。 在这些方案中，你可以使用从 Surface UEFI 内部生成的恢复请求取消注册设备。 即使在没有 Surface UEFI 密码的设备上，也可以启动恢复请求进程。
 

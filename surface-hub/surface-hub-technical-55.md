@@ -61,7 +61,7 @@ EDID 首选计时，有线连接 |  1920 x 1080，60Hz 垂直刷新
 > - [Surface Hub 设置的本地管理](local-management-surface-hub-settings.md)
 > - [SurfaceHub CSP - Windows 客户端管理](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
-## 替换电脑连接 
+##  <a name="replacement-pc-connections"></a>替换电脑连接 
 
 连接器和位置 | 标签 | 描述
 --- | --- | ---
@@ -71,7 +71,7 @@ USB 类型 B，底部 I/O | ![](images/usb.png) | 提供用于替换电脑到内
 USB 类型 B，底部 I/O | ![](images/usb.png) | 为集成中心提供 USB 连接。
 
 
-## 有线连接
+##  <a name="wired-connect-connections"></a>有线连接
 
 连接器和位置 | 标签 | 描述
 --- | --- | ---
@@ -81,7 +81,7 @@ VGA，底部 I/O | ![](images/vga.png) | 为有线连接电脑提供 VGA 输入�
 3.5mm，底部 I/O | ![](images/35mm.png) | 提供模拟音频输入。
 USB 类型 B，底部 I/O | ![](images/usb.png) | 提供用于视频输入触摸的 USB 连接。
 
-## 其他连接
+##  <a name="additional-connections"></a>其他连接
 
 连接器和位置 | 标签 | 描述
 --- | --- | ---
@@ -103,7 +103,7 @@ RJ11，底部 I/O | ![](images/rj11.png) | 连接到房间控制系统。
 
 
 
-## 端口和清除的图示
+##  <a name="diagrams-of-ports-and-clearances"></a>端口和清除的图示
 
 ***55" Surface Hub 的顶部视图***
 

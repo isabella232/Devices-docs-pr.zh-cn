@@ -84,6 +84,6 @@ Windows 防火墙可能会阻止 Miracast 流量。 最简单的测试是禁用�
 
 如果环境中存在多个 WLAN 网络或接入点，则无法避免某些通道切换。 通过确保所有 WLAN 驱动程序是最新版本，可以最好地解决此问题。
 
-## 联系支持人员
+##  <a name="contact-support"></a>联系支持人员
 
 如果有疑问或需要帮助，您可以[创建支持请求](https://support.microsoft.com/supportforbusiness/productselection)。

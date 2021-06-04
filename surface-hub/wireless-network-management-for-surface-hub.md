@@ -24,12 +24,12 @@ ms.locfileid: "10830801"
 
 Microsoft Surface Hub 向你的公司网络和 Internet 提供两个网络连接选项：无线和有线。 尽管两者都提供网络访问，但我们建议你使用有线连接。
 
-## 修改、添加或查看网络连接
+##  <a name="modifying,-adding,-or-reviewing-a-network-connection"></a>修改、添加或查看网络连接
 
 
 如果有线网络连接不可用，Surface Hub 可以将无线网络用于 Internet 访问。 必须提供正常连接和配置的 WLAN 接入点，并且该接入点位于 Surface Hub 范围内。
 
-### 选择无线接入点
+###  <a name="choose-a-wireless-access-point"></a>选择无线接入点
 
 1.  在 Surface Hub 上，打开**设置**，然后输入管理员凭据。
 2.  单击**网络和 Internet**。 在 **WLAN** 下，选择接入点。 如果想要 Surface Hub 自动连接到此接入点，请单击**自动连接**。 单击**连接**。
@@ -40,7 +40,7 @@ Microsoft Surface Hub 向你的公司网络和 Internet 提供两个网络连接
 
     ![显示用于连接到安全 WLAN 的安全密钥和密码提示的图像。](images/networkmgtwireless-02.png)
 
-### 查看无线设置
+###  <a name="review-wireless-settings"></a>查看无线设置
 
 1.  在 Surface Hub 上，打开**设置**，然后输入管理员凭据。
 2.  依次单击**网络和 Internet**、**WLAN** 和**高级选项**。
@@ -48,7 +48,7 @@ Microsoft Surface Hub 向你的公司网络和 Internet 提供两个网络连接
 
     ![显示已连接 WLAN 的属性的图像。](images/networkmgtwireless-04.png)
 
-### 查看有线设置
+###  <a name="review-wired-settings"></a>查看有线设置
 
 1.  在 Surface Hub 上，打开**设置**，然后输入管理员凭据。
 2.  依次单击**系统**、**网络和 Internet**，然后单击“以太网”下的网络。
@@ -59,7 +59,7 @@ Microsoft Surface Hub 向你的公司网络和 Internet 提供两个网络连接
 
     ![显示以太网连接的属性的图像。](images/networkmgtwired-02.png)
 
-## 相关主题
+##  <a name="related-topics"></a>相关主题
 
 
 [管理 Microsoft Surface Hub](manage-surface-hub.md)

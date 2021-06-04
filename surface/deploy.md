@@ -23,7 +23,7 @@ ms.locfileid: "10830890"
 
 了解如何部署 ARM 和基于 Intel 的 Surface 设备。
 
-## 部署基于 ARM 的设备
+##  <a name="deploying-arm-based-devices"></a>部署基于 ARM 的设备
 
 | 主题 | 描述 |
 | --- | --- |
@@ -32,7 +32,7 @@ ms.locfileid: "10830890"
 | [基于 Windows 10 ARM 的电脑应用兼容性](surface-pro-arm-app-performance.md) | 查看 Surface Pro X 的应用兼容性指南。 |
 
 
-## 部署基于 Intel 的设备 
+##  <a name="deploying-intel-based-devices"></a>部署基于 Intel 的设备 
 
 | 主题 | 描述 |
 | --- | --- |
@@ -45,7 +45,7 @@ ms.locfileid: "10830890"
 | [Surface Deployment Accelerator](microsoft-surface-deployment-accelerator.md)| 了解 Microsoft Surface 部署加速器如何为组织提供映像 Surface 设备的快速且简单的部署机制。 |
 [电池限制设置](battery-limit.md) | 了解如何使用电池限制，这是一个 UEFI 设置，用于更改 Surface 设备电池的充电方式，并可能延长其寿命。
 
-## 相关主题
+##  <a name="related-topics"></a>相关主题
 
 [Surface IT 专业人员博客](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro)
 

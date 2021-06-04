@@ -26,7 +26,7 @@ Surface Hub 2 使你能够连接外部设备、将 Surface Hub 2 的显示镜像
 > [!NOTE]
 > Surface Hub 2 使用选择的视频输入，直到建立新连接、现有连接中断或连接应用关闭。
 
-## 推荐的有线配置 
+##  <a name="recommended-wired-configurations"></a>推荐的有线配置 
 
 通常情况下，建议尽可能使用本机电缆连接（如 USB-C 至 USB-C）或 HDMI 到 HDMI。 其他组合，如 MiniDP 到 HDMI 或 MiniDP 到 USB-C 也会正常工作。 如本页所述，可能需要一些其他配置来优化视频输出体验。
 
@@ -47,11 +47,11 @@ Surface Hub 2 使你能够连接外部设备、将 Surface Hub 2 的显示镜像
 | 鼠标和其他指针设备 | 符合 HID 标准的鼠标 |
 | USB 控制器 | 通用 USB 集线器<br>USB 复合设备 |
 
-## 将视频连接到 Surface Hub 2
+##  <a name="connecting-video-in-to-surface-hub-2s"></a>将视频连接到 Surface Hub 2
 
 你可以使用 USB-C 或 HDMI 输入 Surface Hub 2 的视频，如下表所示。  
 
-### Surface Hub 2/秒视频入设置
+###  <a name="surface-hub-2s-video-in-settings"></a>Surface Hub 2/秒视频入设置
 
 | **信号类型** | **分辨率** | **帧速率** | **HDMI** | **USB-C** |
 | --------------- | -------------- | -------------- | -------- | --------- |
@@ -70,11 +70,11 @@ Surface Hub 2 使你能够连接外部设备、将 Surface Hub 2 的显示镜像
 > [!NOTE]
 > 当 Surface Hub 2 上显示时，连接的外部电脑上的视频可能会变得更小。
 
-## 镜像 Surface Hub 2 秒显示在另一个设备上
+##  <a name="mirroring-surface-hub-2s-display-on-another-device"></a>镜像 Surface Hub 2 秒显示在另一个设备上
 
 你可以使用 MiniDP 将视频输出到另一个显示器，如下表所示。
 
-### Surface Hub 2 视频输出设置
+###  <a name="surface-hub-2s-video-out-settings"></a>Surface Hub 2 视频输出设置
 
 | **信号类型** | **分辨率** | **帧速率** | **MiniDP** |
 | --------------- | -------------- | -------------- | ---------- |
@@ -100,7 +100,7 @@ Surface Hub 2 包含一个 MiniDP 视频输出端口，用于将 Surface Hub 2 �
 > [!NOTE]
 > 如果第二台监视器使用的是16:9 纵横比（大多数电视监视器的主要比率），则会在镜像显示的左侧和右侧显示黑色条。 如果出现这种情况，您可能希望通知用户不需要调整第二个显示器。
 
-## 选择电缆
+##  <a name="selecting-cables"></a>选择电缆
 
 请注意以下建议：
 
@@ -111,11 +111,11 @@ Surface Hub 2 包含一个 MiniDP 视频输出端口，用于将 Surface Hub 2 �
 > [!NOTE]
 > 如果检测到 HDMI，大多数 DisplayPort 源将自动切换到 HDMI 信号。
 
-## 无线连接到 Surface Hub 2
+##  <a name="wirelessly-connect-to-surface-hub-2s"></a>无线连接到 Surface Hub 2
 
 Windows 10 本身支持 Miracast，使你可以无线连接到 Surface Hub 2。<br><br>
 
-### 要使用 Miracast 进行连接，请执行以下操作：
+###  <a name="to-connect-using-miracast"></a>要使用 Miracast 进行连接，请执行以下操作：
 
 1. 在 Windows 10 设备上，输入**windows 徽标键**  +  **K**。 
 2. 在 "连接" 窗口中，查找邻近设备列表中 Surface Hub 2 的名称。 你可以在显示屏左下角找到 Surface Hub 2 的名称。
@@ -124,9 +124,9 @@ Windows 10 本身支持 Miracast，使你可以无线连接到 Surface Hub 2。<
 > [!NOTE]
 >如果看不到所需的 Surface Hub 2 设备的名称，则可能是以前的会话已过早关闭。 如果是这样，请直接登录 Surface Hub 2 以结束上一个会话，然后从外部设备进行连接。
 
-## 将外围设备连接到 Surface Hub 2
+##  <a name="connecting-peripherals-to-surface-hub-2s"></a>将外围设备连接到 Surface Hub 2
 
-### 蓝牙外部设备
+###  <a name="bluetooth-accessories"></a>蓝牙外部设备
 
 您可以使用蓝牙将以下附件连接到 Surface Hub-2：
 

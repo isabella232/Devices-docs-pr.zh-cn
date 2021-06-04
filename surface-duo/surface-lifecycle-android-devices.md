@@ -27,7 +27,7 @@ ms.locfileid: "11326276"
 
 基于 Android 的设备的 Surface 生命周期涵盖 Android 版本和 Surface Duo 安全更新。 生命周期从设备首次发布时开始，在 Surface 停止发布更新时结束。
 
-## Surface Android 设备支持 
+##  <a name="surface-android-device-support"></a>Surface Android 设备支持 
 
 从 2020 年 9 月 10 日 (起，Surface Android 设备将接收 Android 版本和安全更新程序至少 3) 。 如果支持期限超过 3 年，则更新的服务结束日期将在上次计划服务日期到期前 18 个月发布。 
 

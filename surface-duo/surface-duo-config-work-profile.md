@@ -27,7 +27,7 @@ ms.locfileid: "11326121"
 
 工作配置文件面向 BYOD 部署，在 Duo 上为工作应用和数据提供了单独的空间，使组织可以完全控制其数据、应用和安全策略，而不会阻止员工将设备用于个人应用和数据。
 
-### 设置 Android 企业版工作配置文件
+###  <a name="set-up-android-enterprise-work-profile"></a>设置 Android 企业版工作配置文件
 
 使用工作配置文件在用户拥有的 Android 设备上管理公司数据和应用。 默认情况下，将启用对个人拥有的工作配置文件设备的注册，并且不需要进一步管理员配置。  
 
@@ -64,7 +64,7 @@ ms.locfileid: "11326121"
      ![选择"继续完成设置"](images/duo-wp-8.png)<br><br>
      ![完成设置](images/duo-wp-9.png)<br><br>
 
-## 了解详细信息
+##  <a name="learn-more"></a>了解详细信息
 
 - [设置 Android 企业版工作配置文件设备的注册](https://docs.microsoft.com/mem/intune/enrollment/android-work-profile-enroll)
 

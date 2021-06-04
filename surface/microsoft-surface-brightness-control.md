@@ -38,7 +38,7 @@ Surface 亮度控件旨在帮助减少热量负载，降低部署 Surface 设备
 
 - 在目标设备上安装 surfacebrightnesscontrol.msi，表面亮度控件将立即开始工作。
 
-## 配置 Surface 亮度控件
+##  <a name="configuring-surface-brightness-control"></a>配置 Surface 亮度控件
 
 你可以通过 Windows 注册表调整默认值。 有关使用 Windows 注册表的详细信息，请参阅[注册表文档](https://docs.microsoft.com/windows/desktop/sysinfo/registry)。
 
@@ -60,18 +60,18 @@ Surface 亮度控件旨在帮助减少热量负载，降低部署 Surface 设备
 | 不活动超时| 默认：30秒 <br>选项：任何数字值  <br>数据类型：整型  <br> 类型： REG_DWORD | 此设置允许你在变暗设备之前管理处于非活动状态的时间段。 如果未配置此设置，则不活动超时为30秒。|
 | 已启用遥测 | 默认值：01 <br>选项：01，00 <br> 类型： REG_BINARY  | 此设置允许你管理应用使用情况信息的共享以改进软件，并提供更好的用户体验。 若要禁用遥测，请将值设置为00。 如果未配置此设置，则会根据[Microsoft 隐私声明](https://privacy.microsoft.com/privacystatement)与 microsoft 共享遥测信息。 |
 
-## 更改和更新
+##  <a name="changes-and-updates"></a>更改和更新
 
-### 版本1.16.137<br>
+###  <a name="version-1.16.137"></a>版本1.16.137<br>
 *发布日期：2019年10月22日*<br>
 此版本的 Surface 亮度控件增加了对以下各项的支持：-为 x86 重新编译，添加了对 Surface Pro 7、Surface Pro X 和 Surface 笔记本3的支持。 
 
-### 版本1.12.239。0
+###  <a name="version-1.12.239.0"></a>版本1.12.239。0
 *发布日期：2019年4月26日*<br>
 此版本的 Surface 亮度控件增加了对以下各项的支持：
 - 触摸延迟修复。
 
 
-## 相关主题
+##  <a name="related-topics"></a>相关主题
 
 - [电池限制设置](battery-limit.md)

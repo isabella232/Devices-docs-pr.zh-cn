@@ -23,7 +23,7 @@ ms.locfileid: "10831635"
 Microsoft Surface Hub 具有与 Windows10 相同的辅助功能选项。
 
 
-## 默认辅助功能设置
+##  <a name="default-accessibility-settings"></a>默认辅助功能设置
 
 辅助功能设置的完整列表在“设置”**** 应用中向 IT 管理员提供。 Surface Hub 的默认辅助功能设置包括：
 
@@ -57,7 +57,7 @@ Microsoft Surface Hub 具有与 Windows10 相同的辅助功能选项。
 - 鼠标键
 
 
-## 在会议中更改辅助功能设置
+##  <a name="change-accessibility-settings-during-a-meeting"></a>在会议中更改辅助功能设置
 
 用户在会议中可使用多种方式切换辅助功能和应用：
 - [键盘快捷方式](https://support.microsoft.com/help/13813/windows-10-microsoft-surface-hub-keyboard-shortcuts)
@@ -66,7 +66,7 @@ Microsoft Surface Hub 具有与 Windows10 相同的辅助功能选项。
 > ![显示 Surface Hub 快速操作中心的图像](images/sh-quick-action.png)
 
 
-## 相关主题
+##  <a name="related-topics"></a>相关主题
 
 [管理 Microsoft Surface Hub](manage-surface-hub.md)
 

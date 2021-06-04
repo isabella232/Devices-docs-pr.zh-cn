@@ -25,11 +25,11 @@ ms.locfileid: "11105404"
 
 保修和服务声明表单使你能够在 Microsoft Surface、Microsoft Surface Hub、Microsoft HoloLens 2 和 Microsoft Azure Kinect 产品的一个服务请求中提交多个声明。
 
-## 何时使用此表单
+##  <a name="when-to-use-this-form"></a>何时使用此表单
 
 当您必须提交硬件保修声明或请求对您的保修进行调整时，请使用保修和服务声明表单。  
 
-## 如何使用窗体
+##  <a name="how-to-use-the-form"></a>如何使用窗体
 
 1.  下载窗体，然后选择 "启用"。
 2.  输入产品信息：
@@ -67,13 +67,13 @@ ms.locfileid: "11105404"
         1. 如果您请求保修调整，请提供概括请求的报表。 如果您不请求保修调整，请将此字段留空。
         2. 若要加快流程，请将购买的保修或硬件证明与你的请求一起上传。
 
-## 超出保修期的服务费用
+##  <a name="out-of-warranty-service-fees"></a>超出保修期的服务费用
 
 辅助支持倡议将为 Surface Hub、HoloLens 和 Azure Kinect 产品交流超出保修期的费用。
 
 有关超出保修期的服务费用的详细信息，请参阅 [您的 Surface 设备或附件的保修服务费用有多大？](https://support.microsoft.com/help/4563717)
 
-## 详细信息
+##  <a name="details"></a>详细信息
 
 有关 Surface 服务的详细信息，请参阅 [如何获取 surface 服务](https://support.microsoft.com/help/4023527/surface-how-to-get-service-for-surface)。
 

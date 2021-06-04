@@ -27,7 +27,7 @@ ms.locfileid: "11099781"
 - **人工智能** -使用适用于 GPU 加速 AI 的 240 Tensor 内核删除冗余、单调乏味的任务和计算密集型工作。
 - **高级图形和计算技术** -在最大程度的图形中体验非凡的速度和交互性，并以 1920 CUDA 核心和6GB 的 GDDR6 内存计算工作负荷。
 
-## 企业级解决方案
+##  <a name="enterprise-grade-solution"></a>企业级解决方案
 
 对于商业客户来说极其重要的重要性，Quadro RTX 3000 提供了一种完全专业的解决方案，它将加速的 ray 跟踪和深入的学习功能与集成的企业级管理和支持解决方案结合在一起。 Quadro 驱动程序针对超过100的专业应用程序进行了测试和认证，主要供 Isv 使用，提供了一个额外的质量保证层来验证稳定性、可靠性和性能。
  
@@ -36,7 +36,7 @@ Quadro 包括用于远程管理 Surface Book 3 设备和 Quadro RTX 3000 的专�
 NVIDIA 开发和维护针对企业 (ODE) 的最佳驱动程序，这些驱动程序经过优化、测试和验证，可提供企业级稳定性、可靠性、可用性和支持，从而提供更好的产品可用性。 每个驱动程序版本都涉及超过2000个工作日的测试和专业应用程序测试套件和测试用例以及 WHQL 认证。 安全威胁会持续受到监视，并发布定期安全更新，以防止新发现的漏洞。 此外，在通过 Windows Update 发布之前，Quadro 驱动程序还会通过 Surface 工程来经历一个额外的测试层。
  
 
-## 针对计算密集型工作负荷而构建
+##  <a name="built-for-compute-intensive-workloads"></a>针对计算密集型工作负荷而构建
 
 带有 Quadro RTX 3000 的 Surface Book 3 提供了任何 Surface 笔记本电脑的最佳图形性能，使高级专业人员可以从任意位置进行工作。
  
@@ -89,7 +89,7 @@ NVIDIA 开发和维护针对企业 (ODE) 的最佳驱动程序，这些驱动程
 | NVIDIA Optimus                                             | 是             |
 
  
-## & 应用加速的 ISV 测试
+##  <a name="isv-testing-&-app-acceleration"></a>& 应用加速的 ISV 测试
 
 如表3所示，带有 Quadro RTX 3000 的 Surface Book 3 由主要的 Isv 进行测试和批准，并且跨专业应用程序提供明显更快的加速。 SPECview 性能13基准测试结果通过 NVIDIA GeForce GTX 1060 设备，比较 Surface Book 3 15 英寸和 NVIDIA Quadro RTX 3000 与 Surface Book 2 15-英寸。
 
@@ -125,7 +125,7 @@ NVIDIA 开发和维护针对企业 (ODE) 的最佳驱动程序，这些驱动程
 
 
 
-## Sku
+##  <a name="skus"></a>Sku
 
 **表 4. 带有 Quadro RTX 3000 Sku 的 Surface Book 3**
 
@@ -134,7 +134,7 @@ NVIDIA 开发和维护针对企业 (ODE) 的最佳驱动程序，这些驱动程
 | 15英寸 | 四核第10代内核 i7-1065G7 | 英特尔虹膜™和图形<br>NVIDIA Quadro RTX 3000。 具有 6GB GDDR6 图形内存的最大问答设计 | 32 LPDDR4x | 512 GB      |
 | 15英寸 | 四核第10代内核 i7-1065G7 | 英特尔虹膜™和图形<br>NVIDIA Quadro RTX 3000。 具有 6GB GDDR6 图形内存的最大问答设计 | 32 LPDDR4x | 1 TB        |
 
-## 摘要
+##  <a name="summary"></a>摘要
 
 Surface Book 3 with Quadro RTX 3000 提供了任何 Surface 笔记本电脑的最佳图形性能，为架构师、工程师、开发人员和数据科学家提供了从任意位置高效工作所需的工具：
  
@@ -142,7 +142,7 @@ Surface Book 3 with Quadro RTX 3000 提供了任何 Surface 笔记本电脑的�
 - 桌面级性能，采用移动外形规格。
 - 适用于任务关键型项目的企业级功能、可靠性和支持。
 
-## 了解详细信息
+##  <a name="learn-more"></a>了解详细信息
 
 - [Surface Book 3 GPU 技术概述](surface-book-GPU-overview.md)
 - [商用 Surface](https://www.microsoft.com/surface/business)

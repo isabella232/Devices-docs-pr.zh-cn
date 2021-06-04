@@ -29,7 +29,7 @@ Passwordless 登录简化了对你的应用、会议和文件的访问。 Surfac
 - [启用 passwordless 安全密钥登录](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key)
 
 
-## 使用 Microsoft 身份验证器应用配置登录
+##  <a name="configure-sign-in-using-microsoft-authenticator-app"></a>使用 Microsoft 身份验证器应用配置登录
 
 **注意：** 从 Windows 10 Team 2020 更新开始，用户可以在 Azure AD 中使用其首选电子邮件别名以及其用户主体名称（UPN），使用 Microsoft 身份验证器登录。 例如，用户可以使用其首选别名（John.Doe@contoso.com）或其 UPN （jdoe@contoso.com）登录。
  
@@ -43,7 +43,7 @@ Microsoft 身份验证器应用可帮助你使用移动设备登录 Surface Hub�
 3. 从你的移动设备上的 Microsoft 身份验证程序应用，为你的工作或学校帐户[打开并使用手机登录](https://docs.microsoft.com/azure/active-directory/user-help/user-help-auth-app-sign-in#turn-on-and-use-phone-sign-in-for-your-work-or-school-account)。
 
  
-## 使用 FIDO2 安全密钥配置登录
+##  <a name="configure-sign-in-using-fido2-security-keys"></a>使用 FIDO2 安全密钥配置登录
 
 > [!NOTE]
 >  使用 FIDO2 安全密钥的 Passwordless 登录 Surface Hub 需要 Windows 10 Team 2020 更新。
@@ -53,7 +53,7 @@ Microsoft 身份验证器应用可帮助你使用移动设备登录 Surface Hub�
  
 您也可以使用由您的组织提供的 FIDO2 安全密钥登录 Surface Hub。 
 
-### 若要使用安全密钥配置登录，请执行以下操作：
+###  <a name="to-configure-sign-in-using-a-security-key"></a>若要使用安全密钥配置登录，请执行以下操作：
 
 
 1. 在你的电脑上，转到你的 [https://myprofile.microsoft.com/](https://myprofile.microsoft.com/) 页面并登录到你的工作或学校帐户。
@@ -65,7 +65,7 @@ Microsoft 身份验证器应用可帮助你使用移动设备登录 Surface Hub�
 7. 在 "**安全密钥**" 页面上，为安全密钥提供一个名称，然后选择 "**下一步**"。
 8. 选择 "**完成**" 以完成该过程。
 
-## 登录 Surface Hub
+##  <a name="sign-in-to-surface-hub"></a>登录 Surface Hub
 
 配置 passwordless 登录后，你可以使用它让你更轻松地在 Surface Hub 上访问你的应用、会议和文件：
 
@@ -75,7 +75,7 @@ Microsoft 身份验证器应用可帮助你使用移动设备登录 Surface Hub�
 - 登录 Surface Hub 后，您可以使用其他应用，而无需再次登录，直到选择 "**结束会话**"。 选择 "**结束会话**" 将从设备中删除您的凭据、文件和个人数据。 有关详细信息，请参阅[结束会话](finishing-your-surface-hub-meeting.md)。
 
 
-## 了解详细信息
+##  <a name="learn-more"></a>了解详细信息
 
 - [Azure Active Directory 的 Passwordless 身份验证选项](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless)
 - [Microsoft 身份验证应用的 Passwordless 登录](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-phone)

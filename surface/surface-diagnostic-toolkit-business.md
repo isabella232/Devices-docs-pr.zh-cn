@@ -42,7 +42,7 @@ Microsoft Surface Diagnostic Toolkit for Business (SDT) 使 IT 管理员能够�
 桌面模式 |  帮助用户在 Surface 设备上运行 SDT 以解决问题。<br>创建要部署在一个或多个 Surface 设备的自定义程序包，允许用户选择要收集和分析的特定日志。 | SDT 可分发的 MSI 程序包：<br>Microsoft Surface Diagnostic Toolkit for Business Installer<br>[适合 IT 的 Surface 工具](https://www.microsoft.com/download/details.aspx?id=46703) | [在桌面Toolkit Surface Diagnostic Toolkit](surface-diagnostic-toolkit-desktop-mode.md)
 命令行 |  使用标准工具（如 Configuration Manager）直接远程解决 Surface 设备问题，而无需用户交互。 它包含以下命令：<br>`-DataCollector` 收集所有日志文件<br>`-bpa` 使用最佳做法分析器运行运行状况诊断。<br>`-windowsupdate` 检查 Windows 更新中缺少固件或驱动程序更新。<br>`-warranty` 检查担保信息。 <br><br>| SDT 控制台应用：<br>Microsoft Surface Diagnostics 应用控制台<br>[适合 IT 的 Surface 工具](https://www.microsoft.com/download/details.aspx?id=46703) | [使用命令运行 Surface 诊断Toolkit](surface-diagnostic-toolkit-command-line.md)
 
-## 支持的设备 
+##  <a name="supported-devices"></a>支持的设备 
 
 SDT for Business 在 Surface 3 和更高版本设备上受支持，包括：
 
@@ -160,12 +160,12 @@ SDT 和 SDT 应用控制台都安装在 `C:\Program Files\Microsoft\Surface\Micr
 
 *图 7. 日志选项和保存程序包*
 
-## 后续步骤
+##  <a name="next-steps"></a>后续步骤
 
 - [在桌面模式下使用适用于企业的 Surface 诊断工具包](surface-diagnostic-toolkit-desktop-mode.md)
 - [使用适用于Toolkit Surface Diagnostic Toolkit For Business](surface-diagnostic-toolkit-command-line.md)
 
-## 更改和更新
+##  <a name="changes-and-updates"></a>更改和更新
 
 ### 版本 2.131.139.0
 

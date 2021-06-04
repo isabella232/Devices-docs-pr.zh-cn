@@ -26,13 +26,13 @@ Microsoft Surface Hub 是一款一体式的高效率设备，团队借助它能�
 
 本文的目标读者是希望使用最佳安全设置在其企业环境中部署 Surface Hub 的 IT 和网络管理员。
 
-## 概述
+##  <a name="overview"></a>概述
 
 Surface Hub 的安全性广泛地依赖于 Wi-fi Direct/Miracast 以及关联的802.11、Wi-fi 保护访问（WPA2）和无线保护设置（WPS）标准。 由于设备仅支持 WPS （而不是 WPA2 预共享密钥 [PSK] 或 WPA2 Enterprise），因此与802.11 加密相关的问题会得到简化。
 
 Surface Hub 与 Miracast 接收器的字段进行操作。 因此，它容易受到类似于所有基于 WPS 的无线网络设备的一组类似的攻击。 但是，WPS 的 Surface Hub 实现中内置了额外的预防措施。 此外，它的内部体系结构可帮助防止已损坏 Wi-fi Direct/Miracast 层的攻击者将超过网络接口的攻击者移到其他攻击面和连接的企业网络。
 
-## WLAN Direct 背景
+##  <a name="wi-fi-direct-background"></a>WLAN Direct 背景
 
 Miracast 是 Wi-fi 显示标准的一部分，由 Wi-fi Direct 协议支持。 这些标准受用于屏幕共享和协作的现代移动设备的支持。
 
@@ -46,7 +46,7 @@ Wlan Direct 的安全性由 WPA2 在 WPS 标准下提供。 设备的身份验�
 
 Wi-fi Direct 组通过协商协议确定*组所有者*（GO），该协议模仿已建立的 wi-fi Direct 组的 "工作站" 或 "访问点" 功能。 Wi-fi Direct GO 提供身份验证（通过 "内部注册机构"），并推动上游网络连接。 对于 Surface Hub，不会发生此转协商。 网络仅以 "自治" 模式运行，Surface Hub 始终是组所有者。 最后，Surface Hub 本身不会作为客户端加入其他 Wi-fi Direct 网络。
 
-## Surface Hub 如何解决 Wi-fi 直接漏洞
+##  <a name="how-surface-hub-addresses-wi-fi-direct-vulnerabilities"></a>Surface Hub 如何解决 Wi-fi 直接漏洞
 
 **Wi-fi 直接邀请、广播和发现过程中的漏洞和攻击：** Wi-fi Direct/Miracast 攻击可能针对组建立、对等发现、设备广播或邀请流程中的弱点。
 
@@ -106,7 +106,7 @@ Wi-fi Direct 组通过协商协议确定*组所有者*（GO），该协议模仿
 | --- | --- |
 | 通过哄骗或克隆目标网络的无线名称或 "SSID"，攻击者可以诱使用户连接到虚假的恶意网络。 通过支持未经身份验证的自动加入 Miracast，攻击者可以捕获所需的显示资料或在连接设备上启动网络攻击。 | 虽然在加入欺骗 Surface Hub 时没有特定的保护措施，但此漏洞有两种减轻部分影响的方式。 首先，任何潜在攻击必须在物理上位于 WLAN 范围内。 第二，此攻击仅在第一次连接期间才可能。 后续连接使用永久 Wi-fi Direct 组，并且在将来的中心使用时，Windows 将记住并优先处理此之前的连接。 （注意：对于此报告，不考虑对 MAC 地址、Wi-fi 通道和 SSID 的欺骗，可能会导致 Wlan 行为不一致。）总而言之，对于任何缺少企业 WPA2 协议（如 EAP-TLS 或 EAP-PWD）的802.11 无线网络而言，此弱点是一个基本问题，这种情况下，Wi-fi Direct 不支持。 |
 
-## Surface Hub 强化指南
+##  <a name="surface-hub-hardening-guidelines"></a>Surface Hub 强化指南
 
 Surface Hub 是专为促进协作和允许用户快速高效地开始和加入会议而设计。 为此方案优化了 Surface Hub 的默认 Wi-fi 直接设置。
 
@@ -118,7 +118,7 @@ Surface Hub 是专为促进协作和允许用户快速高效地开始和加入�
 - [安装常规系统更新](manage-windows-updates-for-surface-hub.md) 
 - 更新 Miracast 设置以禁用自动显示模式
 
-## 了解详情
+##  <a name="learn-more"></a>了解详情
 
 - [WLAN Direct 规范](http://www.wi-fi.org/discover-wi-fi/wi-fi-direct)
 - [无线保护设置 (WPS) 规范](http://www.wi-fi.org/discover-wi-fi/wi-fi-protected-setup)

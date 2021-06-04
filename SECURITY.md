@@ -8,13 +8,13 @@ ms.locfileid: "10830743"
 ---
 <!-- BEGIN MICROSOFT SECURITY.MD V0.0.5 BLOCK -->
 
-## 安全性
+##  <a name="security"></a>安全性
 
 Microsoft 会认真对待软件产品和服务的安全，其中包括通过我们的 GitHub 组织管理的所有源代码库，其中包括[Microsoft](https://github.com/Microsoft)、 [Azure](https://github.com/Azure)、[新](https://github.com/dotnet)、 [AspNet](https://github.com/aspnet)、 [Xamarin](https://github.com/xamarin)和[我们的 github 组织](https://opensource.microsoft.com/)。
 
 如果您认为在任何 Microsoft 拥有的存储库中发现了任何满足[microsoft 对安全漏洞的定义](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc751383(v=technet.10))的安全漏洞，请按照下面的说明将其报告给我们。
 
-## 报告安全问题
+##  <a name="reporting-security-issues"></a>报告安全问题
 
 **请不要通过公共 GitHub 问题报告安全漏洞。**
 
@@ -38,11 +38,11 @@ Microsoft 会认真对待软件产品和服务的安全，其中包括通过我�
 
 如果你正在报告 bug bounty，则更完整的报表可能会增加更高的 bounty 奖。 请访问我们的[Microsoft Bug Bounty 程序](https://microsoft.com/msrc/bounty)页面，了解有关我们的活动程序的更多详细信息。
 
-## 首选语言
+##  <a name="preferred-languages"></a>首选语言
 
 我们希望所有通信都采用英语。
 
-## 策略
+##  <a name="policy"></a>策略
 
 Microsoft 遵循[协调漏洞披露](https://www.microsoft.com/en-us/msrc/cvd)的原则。
 

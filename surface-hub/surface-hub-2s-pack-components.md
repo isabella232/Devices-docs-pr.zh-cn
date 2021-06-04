@@ -25,7 +25,7 @@ ms.locfileid: "10830969"
 >[!IMPORTANT]  
 >为装运打包设备时，请确保使用您的替换设备接收的包装。  
 
-## 如何打包 Surface Hub 2： 50 "
+##  <a name="how-to-pack-your-surface-hub-2s-50"></a>如何打包 Surface Hub 2： 50 "
 
 使用以下步骤将 Surface Hub 2-2 50 "打包到装运。
 
@@ -45,7 +45,7 @@ ms.locfileid: "10830969"
 | **11.** | 关闭四个剪贴画。                                                                                            | ![关闭四个剪贴画。](images/surface-hub-2s-repack-13.png)|
 
 
-## 如何更换和打包 Surface Hub 2 计算墨盒
+##  <a name="how-to-replace-and-pack-your-surface-hub-2s-compute-cartridge"></a>如何更换和打包 Surface Hub 2 计算墨盒
 
 使用以下步骤删除 Surface Hub 2 计算墨盒，将其打包以进行装运，然后安装新的计算盒式清洗带。<br>
     ![计算墨盒的图像。](images/surface-hub-2s-replace-cartridge-1.png)
@@ -62,7 +62,7 @@ ms.locfileid: "10830969"
 | **8.**| 将替换计算墨盒滑入设备。                                                                                          | ![将替换计算墨盒滑入设备。](images/surface-hub-2s-replace-cartridge-9.png) |
 | **9.**| 固定锁螺丝并将封盖滑入到位                                                                                         | ![固定锁螺丝并将封盖滑入到位。](images/surface-hub-2s-replace-cartridge-10.png) |
 
-## 如何更换 Surface Hub 2/2 相机
+##  <a name="how-to-replace-your-surface-hub-2s-camera"></a>如何更换 Surface Hub 2/2 相机
 
 使用以下步骤删除 Surface Hub 2/2 相机并安装新相机。
 

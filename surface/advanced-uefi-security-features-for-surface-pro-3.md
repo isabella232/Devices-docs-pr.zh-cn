@@ -27,14 +27,14 @@ ms.locfileid: "11163185"
 
 为了解决对 Surface 设备安全的更细化的控制，v3.11.760.0 UEF 更新提供了其他安全选项，可使你禁用特定的硬件设备或阻止这些设备启动。 在设备上安装 UEFI 更新后，你可以手动配置它，也可以通过运行脚本自动进行配置。
 
-## 手动安装 UEFI 更新
+##  <a name="manually-install-the-uefi-update"></a>手动安装 UEFI 更新
 
 
 必须先安装 v3.11.760.0 UEFI 更新，然后你才可以配置你的 Surface 设备的高级安全功能。 如果你从 Windows 更新接收更新，此更新将自动安装。 有关如何将 Windows 配置为使用 Windows 更新自动更新的详细信息，请参阅[如何配置和使用 Windows 中的自动更新](https://support.microsoft.com/kb/306525)。
 
 若要更新 Surface Pro 3 上的 UEFI，你可以下载并安装作为 Surface Pro 3 固件和驱动程序包一部分的 Surface UEFI 更新。 可以从 Microsoft 下载中心上的[Surface Pro 3 页面](https://www.microsoft.com/download/details.aspx?id=38826)获取这些固件和驱动程序包。 你可以在[为 Surface 设备下载最新的固件和驱动程序](https://technet.microsoft.com/itpro/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)中了解有关固件和驱动程序包的详细信息。 将以独立的 Windows Installer (.msi) 和存档 (.zip) 格式提供这些固件和驱动程序包。 你可以在[管理 Surface 驱动程序和固件更新](https://technet.microsoft.com/itpro/surface/manage-surface-pro-3-firmware-updates)中了解有关这两种格式的详细信息以及如何使用它们更新驱动程序。
 
-## 手动配置其他安全设置
+##  <a name="manually-configure-additional-security-settings"></a>手动配置其他安全设置
 
 
 >[!NOTE]
@@ -56,7 +56,7 @@ ms.locfileid: "11163185"
 
  
 
-## 自动化其他安全设置
+##  <a name="automate-additional-security-settings"></a>自动化其他安全设置
 
 
 作为一名具有管理权限的 IT 专业人员，你可以通过利用 Microsoft 下载中心中提供的 [Surface Pro 3 固件工具 (476 KB)](https://go.microsoft.com/fwlink/p/?LinkID=618038) 来自动化 UEFI 设置的配置。 这些工具将安装可从任何自定义应用程序或脚本调用的 .NET 程序集。
