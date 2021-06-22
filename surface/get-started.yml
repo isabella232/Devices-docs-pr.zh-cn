@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 301a4b733ee477c1e9999dba84cd58283c02844f
-  ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+  ms.openlocfilehash: 021d30e782bc50e0c89fad6478c8e784234c768d
+  ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/20/2021
-  ms.locfileid: "11576822"
+  ms.lasthandoff: 06/22/2021
+  ms.locfileid: "11613921"
 landingContent:
 - title: Surface 设备
   linkLists:
@@ -24,7 +24,7 @@ landingContent:
     links:
     - text: Surface Laptop 4 + 商业版
       url: https://www.microsoft.com/surface/business/surface-laptop-4
-    - text: 适用于企业的 Surface Pro 7+
+    - text: Surface Pro 7+ 商用版
       url: https://www.microsoft.com/surface/business/surface-pro-7-plus
     - text: Surface LaptopGo for Business
       url: https://www.microsoft.com/surface/business/surface-laptop-go
@@ -36,9 +36,9 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Surface Laptop 4 个处理器技术概述
+    - text: Surface Laptop 4 处理器技术概述
       url: surface-laptop-processors.md
-    - text: Surface Headphones 2+ 技术概述
+    - text: Surface HeadPhones 2+ 技术概述
       url: surface-headphones.md
     - text: Surface 上的 Windows 虚拟桌面
       url: windows-virtual-desktop-surface.md
@@ -86,10 +86,10 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Surface 安全性概述
+      url: surface-security.md
     - text: Surface 设备上 DMA 保护
       url: dma-protect.md
-    - text: '使用 Surface Enterprise 管理模式的安全 Surface 扩展坞 2 (SEMM) '
-      url: secure-surface-dock-ports-semm.md
     - text: Surface Data Eraser 工具
       url: microsoft-surface-data-eraser.md
 - title: 了解 Surface 工具
