@@ -3,7 +3,7 @@ title: 下一工作日更换服务信息和覆盖区域
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 05/23/2021
+ms.date: 06/17/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -11,15 +11,14 @@ localization_priority: high
 ms.custom: references_regions
 appliesto:
 - Surface
-- Surface Hub
 ms.reviewer: irenewhite
 description: 下一工作日更换服务信息和覆盖区域。
-ms.openlocfilehash: 2708890c864582cf638c48474f85ddc01ef36576
-ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
+ms.openlocfilehash: 4488d2f1cc8a3e6c240710d59f3465d05abae12b
+ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "11585923"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "11613841"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>下一工作日更换服务信息和覆盖区域
 
@@ -58,6 +57,7 @@ ms.locfileid: "11585923"
 - [瑞典](#sweden)
 - [瑞士](#switzerland)
 - [荷兰](#the-netherlands)
+- [英国](#united-kingdom)
 - [美国](#united-states)
 
 
@@ -106,7 +106,8 @@ ms.locfileid: "11585923"
 
 #### <a name="hong-kong"></a>香港特别行政区
 
-- 截止时间：16：00 LTT （UTC+8） 
+- 截止时间：16:00 HKT (UTC+8) 
+- NBD 营业时间适用于香港特别行政区的所有邮政编码。
 
 #### <a name="ireland"></a>爱尔兰
 
@@ -141,12 +142,13 @@ ms.locfileid: "11585923"
 
 #### <a name="singapore"></a>新加坡
 
-- 截止时间：13：00 SGT (UTC+8) 
+- 截止时间：13:00 SGT (UTC+8) 
+- NBD 营业时间适用于此国家/地区的所有邮政编码。
 
 #### <a name="spain"></a>西班牙
 
 - 截止时间：12:00 CET (UTC+1)
-- [下个工作日营业时间](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coveragef-%20Spain%20Post%20Codes%20030321.xlsx)
+- [下个工作日营业时间](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coverage-%20Spain%20Post%20Codes%20030321.xlsx)
 
 #### <a name="sweden"></a>瑞典
 
@@ -162,6 +164,10 @@ ms.locfileid: "11585923"
 
 - 截止时间：12:00 CET (UTC+1)
 - [下个工作日营业时间](https://download.microsoft.com/download/6/3/f/63f2ff4c-3b8f-465e-9498-0878f7ba70f3/NBD%20Coverage%20-%20Netherlands%20Post%20Codes%20042821.xlsx)
+
+### <a name="united-kingdom"></a>英国
+
+- 截止时间：12:00 CET (UTC+1)
 
 #### <a name="united-states"></a>美国 
 
