@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/14/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 5e2eaa88fe0e5677c78cb5a7d49802ed71d4b902
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 472dc41bd73ace90cccdeb4e52884401c2f9d6d7
+ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576742"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "11613851"
 ---
 # <a name="migrate-to-windows-10-pro-or-enterprise-on-surface-hub-2"></a>迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
 
@@ -28,11 +28,11 @@ Surface Hub 2S 附带Windows 10 协同版软件。 此自定义版本的Windows 
 > 此迁移过程要求你遵循本文中描述的特定过程。 在继续之前，请阅读 [解决方案组件](#solution-components) 和 [迁移和安装工作流](#migration-and-installation-workflow-summary)。
 
 > [!NOTE]
-> 安装 Windows 10 专业版 或 Enterprise 时，你需要一个独立于现有许可证的新Windows 10 协同版许可证。
+> 在 Surface Hub 2S Windows 10 专业版或 Enterprise 时，需要与设备提供的现有 Windows 10 协同版 许可证不同的新许可证。
 
 通过使用单独的电脑Windows 10 协同版可下载*的 Surface UEFI 配置*器工具，从服务器开始迁移。 该工具将创建一个程序包，其中包含应用于 2S Surface Hub UEFI 设置。  
 
-Surface UEFI 配置器用作 SURFACE Enterprise 管理模式 (SEMM) 。 它支持在企业环境中集中管理 Surface 设备的固件设置。 有关详细信息，请参阅[Microsoft Surface Enterprise管理模式](https://docs.microsoft.com/surface/surface-enterprise-management-mode)。
+Surface UEFI 配置器用作 SURFACE Enterprise 管理模式 (SEMM) 。 它支持在企业环境中集中管理 Surface 设备的固件设置。 有关详细信息，请参阅[Microsoft Surface Enterprise管理模式](/surface/surface-enterprise-management-mode)。
  
 ## <a name="solution-components"></a>解决方案组件
 
@@ -79,7 +79,7 @@ Surface UEFI 配置器用作 SURFACE Enterprise 管理模式 (SEMM) 。 它支�
 1. 在 Surface Hub 2S 上，以管理员**登录**。
 
     >[!Note]
-    > 如果不知道用户名或管理员密码，则需要重置设备。 有关详细信息，请参阅重置[和恢复 Surface Hub 2S。](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset)
+    > 如果不知道用户名或管理员密码，则需要重置设备。 有关详细信息，请参阅重置[和恢复 Surface Hub 2S。](/surface-hub/surface-hub-2s-recover-reset)
 
 1. 转到"**所有应用**  >  **设置**  >  **更新和安全**  >  **Windows更新"，** 然后安装所有更新。
 1. 重新启动设备。
@@ -111,9 +111,9 @@ Surface UEFI 配置器用作 SURFACE Enterprise 管理模式 (SEMM) 。 它支�
 
 - 中型企业和其他企业通常选择从合作伙伴提供商获取证书。 对于没有太多 IT 专业知识或缺乏专门的 IT 安全团队的组织，建议使用此选项。
 
-- 或者，您可以使用 PowerShell 脚本生成自签名证书。 有关详细信息，请参阅 Surface [Enterprise管理模式证书要求](https://docs.microsoft.com/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements)。 或者，您可以使用 PowerShell 创建自己的证书。 有关详细信息，请参阅自 [签名证书](https://docs.microsoft.com/dotnet/core/additional-tools/self-signed-certificates-guide#create-a-self-signed-certificate) 文档。
+- 或者，您可以使用 PowerShell 脚本生成自签名证书。 有关详细信息，请参阅 Surface [Enterprise管理模式证书要求](/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements)。 或者，您可以使用 PowerShell 创建自己的证书。 有关详细信息，请参阅自 [签名证书](/dotnet/core/additional-tools/self-signed-certificates-guide#create-a-self-signed-certificate) 文档。
 
-Surface UEFI 配置器创建的 SEMM 程序包必须使用证书进行保护。 证书先验证配置文件的签名，然后才能应用 UEFI 设置。 有关详细信息，请参阅 [SEMM](https://docs.microsoft.com/surface/surface-enterprise-management-mode) 文档。
+Surface UEFI 配置器创建的 SEMM 程序包必须使用证书进行保护。 证书先验证配置文件的签名，然后才能应用 UEFI 设置。 有关详细信息，请参阅 [SEMM](/surface/surface-enterprise-management-mode) 文档。
  
 ### <a name="create-a-semm-package"></a>创建 SEMM 程序包
 
@@ -176,11 +176,11 @@ Surface UEFI 配置器创建的 SEMM 程序包必须使用证书进行保护。 
 
 #### <a name="if-you-work-with-partners"></a>如果与合作伙伴合作
 
-如果你的公司将 Surface Hub 2 迁移外包到 Windows 10 专业版 或 Enterprise，你可能希望合作伙伴将 SEMM 证书、SEMM 程序包和 UEFI 密码转移给你。 或者，迁移中心后，你可以立即从 SEMM 取消注册它。 此步骤启用 UEFI 的本地管理和将设备传输给另一方。 但是，我们强烈建议你使用 UEFI 密码，可以在迁移后配置该密码。 若要了解更多信息，请参阅 [管理 Surface UEFI 设置](https://docs.microsoft.com/surface/manage-surface-uefi-settings)。 
+如果你的公司将 Surface Hub 2 迁移外包到 Windows 10 专业版 或 Enterprise，你可能希望合作伙伴将 SEMM 证书、SEMM 程序包和 UEFI 密码转移给你。 或者，迁移中心后，你可以立即从 SEMM 取消注册它。 此步骤启用 UEFI 的本地管理和将设备传输给另一方。 但是，我们强烈建议你使用 UEFI 密码，可以在迁移后配置该密码。 若要了解更多信息，请参阅 [管理 Surface UEFI 设置](/surface/manage-surface-uefi-settings)。 
 
 #### <a name="to-roll-back-to-windows-10-team"></a>回滚到Windows 10 协同版
 
-如果你选择在迁移后将设备还原Windows 10 协同版如本文稍后所述，我们建议[](#to-roll-back-to-windows-10-team)你先从 SEMM 注销 Hub。 若要了解更多信息，请参阅 [从 SEMM 注销 Surface 设备](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm)。
+如果你选择在迁移后将设备还原Windows 10 协同版如本文稍后所述，我们建议[](#to-roll-back-to-windows-10-team)你先从 SEMM 注销 Hub。 若要了解更多信息，请参阅 [从 SEMM 注销 Surface 设备](/surface/unenroll-surface-devices-from-semm)。
 
 #### <a name="save-the-semm-package-to-a-usb-drive"></a>将 SEMM 程序包保存到 USB 驱动器
 
@@ -208,9 +208,9 @@ Surface UEFI 配置器创建的 SEMM 程序包必须使用证书进行保护。 
 
 - 当前的映像解决方案。
 
-- [Surface Deployment Accelerator](https://docs.microsoft.com/surface/microsoft-surface-deployment-accelerator)。 使用此工具创建可启动Windows 10映像。 该映像可以包含所有当前Windows 10更新Microsoft Office应用、其他应用以及所需的驱动程序和固件。
+- [Surface Deployment Accelerator](/surface/microsoft-surface-deployment-accelerator)。 使用此工具创建可启动Windows 10映像。 该映像可以包含所有当前Windows 10更新Microsoft Office应用、其他应用以及所需的驱动程序和固件。
 
-- 包含 U 盘或Windows 10 专业版Enterprise U 盘。 然后，在 Windows 10 专业版 2 [Enterprise安装和](https://www.microsoft.com/download/details.aspx?id=101974)Surface Hub驱动程序和固件。
+- 包含 U 盘或Windows 10 专业版Enterprise U 盘。 在安装 OOBE Wi-Fi后，此选项才可用 (OOBE) 可用。 设置完成后，在设备上安装Surface Hub 2 个驱动程序和[Windows 10 专业版Enterprise 2](https://www.microsoft.com/download/details.aspx?id=101974)个驱动程序和固件。
  
 以下步骤显示如何从安装媒体创建 U 盘，然后在 Surface Hub 2 MSI 文件上为 Windows 10 专业版 和 Enterprise 操作系统添加 SEMM 程序包文件和驱动程序和固件。 如果你使用另一种部署方法，请转到本文Surface Hub 2S 上的更新[UEFI](#update-uefi-on-surface-hub-2s-to-enable-os-migration)以启用操作系统迁移部分。
 
@@ -311,7 +311,7 @@ Surface UEFI 配置器创建的 SEMM 程序包必须使用证书进行保护。 
 如果要将设备还原到 Windows 10 协同版，请参阅重置和恢复 Surface Hub [2S。](surface-hub-2s-recover-reset.md)
 
 > [!NOTE]
-> 在回滚到Windows 10 协同版，我们建议你先从 SEMM Surface Hub注销该注册。 若要了解更多信息，请参阅 [从 SEMM 注销 Surface 设备](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm)。
+> 在回滚到Windows 10 协同版，我们建议你先从 SEMM Surface Hub注销该注册。 若要了解更多信息，请参阅 [从 SEMM 注销 Surface 设备](/surface/unenroll-surface-devices-from-semm)。
 
 ## <a name="version-history"></a>版本历史记录
 

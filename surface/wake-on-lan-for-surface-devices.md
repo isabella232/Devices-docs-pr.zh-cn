@@ -13,72 +13,83 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 3/19/2021
-ms.openlocfilehash: 9c3302616de97cf60b7d750948fed653456a7cba
-ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
+ms.date: 6/04/2021
+ms.openlocfilehash: 83989461ca557d27740252149418056688774d3f
+ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "11442886"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "11613793"
 ---
 # <a name="wake-on-lan-for-surface-devices"></a>Surface 设备的 LAN 唤醒
 
-使用 Surface 以太网适配器连接到有线网络的 Surface 设备可以利用连接待机LAN 唤醒 (WOL) 连接。 借助 WOL，你可以远程唤醒设备，并自动使用管理解决方案（如 Microsoft Endpoint Manager/Microsoft Intune）执行管理任务。
+若要使设备完全保持最新，IT 管理员需要能够在设备不使用时（通常是夜间维护时段）管理设备。 LAN 唤醒 (WOL) 使管理员能够远程唤醒设备，并自动使用 Microsoft Endpoint Manager 或第三方解决方案执行管理任务。
 
-## <a name="wol-supported-devices"></a>支持 WOL 的设备
+## <a name="requirements"></a>要求
 
+设备必须连接到交流电源，并且具有与以下兼容的以太网适配器之一的有线连接：
+
+- Surface USB 3.0 千兆位以太网适配器
 - Surface 以太网适配器
 - Surface USB-C 到以太网和 USB 适配器
+- Microsoft USB-C 旅行适配器中心
+- Surface 扩展坞
 - Surface Dock 2
-- Surface Pro 6 及更高版本
-- Surface Book (代) 
-- Surface Laptop (所有代) 
-- Surface Go (代) 
-- Surface Studio 2 (请参阅附录) 
 
+> [!NOTE]
+> Surface Dock 2 提供了对 LAN 唤醒的最佳支持，无需任何其他 IT 配置。 若要了解更多信息，请参阅 [Surface Dock 2 的 LAN 唤醒](wake-on-lan-surface-dock2.md)
 
-## <a name="using-surface-wol"></a>使用 Surface WOL
+## <a name="how-it-works"></a>工作原理
 
-IT 管理员可以使用 LAN 请求唤醒 (包含目标计算机的 MAC 地址的) 数据包来触发设备。 若要发送神奇数据包，然后使用 WOL 唤醒设备，必须知道目标设备和以太网适配器的 MAC 地址。 由于神奇数据包不使用 IP 网络协议，因此不可能使用设备的 IP 地址或 DNS 名称。
+不使用时，Surface 设备将进入空闲的低电源状态，称为现代待机或连接待机。 IT 管理员可以使用唤醒请求远程触发设备 (包含目标 Surface 设备的媒体访问控制 (MAC) 地址的神奇数据包) 。 许多管理解决方案（Microsoft Endpoint Configuration Manager第三方Microsoft Store应用）都提供对 WOL 的内置支持。 若要了解有关使用 Endpoint Configuration Manager 唤醒设备的信息，请参阅[Configure Wake on LAN - Configuration Manager。](/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
 
-许多管理解决方案（如 Microsoft Endpoint Configuration Manager 和第三方 Microsoft Store 应用）都提供对 WOL 的内置支持。 请注意，设备需要处于连接待机模式 (睡眠) 并连接到交流电源。 若要了解有关使用 Endpoint Configuration Manager 唤醒设备的信息，请参阅[Configure Wake on LAN - Configuration Manager。](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
+对 LAN 唤醒的支持因睡眠状态而异：连接待机或休眠 (S4 电源状态) 。
 
+## <a name="connected-standby"></a>连接待机
 
-### <a name="to-check-wol-is-enabled-on-your-device"></a>检查设备上是否已启用 WOL
+默认情况下，Windows 10待机时支持 Surface 设备在 LAN 上唤醒。
 
-1. 在已连接以太网的设备上，选择网络适配器，然后选择"属性 **"。**
+### <a name="supported-surface-devices---connected-standby"></a>受支持的 Surface 设备 - 连接待机
 
-   > [!div class="mx-imgBorder"]
-   > ![Surface 以太网适配器](images/surface-ethernet.png)
+- Surface Laptop 4 (Intel 处理器) 
+- Surface Laptop 3 (Intel 处理器) 
+- Surface Pro 7+
+- Surface Pro 7
+- Surface Pro X
+- Surface Go 2
+- Surface Laptop转到
+- Surface Book 3
 
-2. 选择 **"配置**  >  **高级"。**
-3. 滚动到 **"新式待机 WoL 神奇数据包** "，并确保 **选中"** 已启用"。
+## <a name="hibernation"></a>休眠
 
-     ![检查设备上是否已启用 WOL](images/ethernet-wol-setting.png)
+若要将设备从休眠状态中唤醒，需要为连接到 Surface Dock 2) 的设备启用[Surface Enterprise](surface-enterprise-management-mode.md)管理模式 (SEMM)  (UEFI 策略设置。
 
-## <a name="appendix-surface-studio-2"></a>附录：Surface Studio 2
+### <a name="supported-surface-devices---hibernation"></a>受支持的 Surface 设备 - 休眠
 
-若要在 Surface Studio 2 上启用 WOL，请使用以下过程。
+- Surface Laptop 4 (Intel 处理器) 
+- Surface Laptop 3 (Intel 处理器) 
+- Surface Pro 7+
+- Surface Pro 7
+- Surface Laptop转到
+- Surface Book 3
 
-1. 创建以下注册表项：
+### <a name="to-enable-wake-on-lan-uefi-setting"></a>启用 LAN UEFI 唤醒设置
 
-   ```console
-   ; Set CONNECTIVITYINSTANDBY to 1:
-   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\F15576E8-98B7-4186-B944-EAFA664402D9]
-   "Attributes"=dword:00000001
-   ; Set EnforceDisconnectedStandby to 0 and AllowSystemRequiredPowerRequests to 1:
-   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
-   "EnforceDisconnectedStandby"=dword:00000000
-   "AllowSystemRequiredPowerRequests"=dword:00000001
-   ```
+若要启用 LAN UEFI 唤醒设置，你需要将目标设备注册到 SEMM，创建配置包，然后应用该包到设备。 有关详细信息，请参阅：
 
-2. 运行以下命令
+- [Surface 企业管理模式](surface-enterprise-management-mode.md)
+- [使用 SEMM 注册并配置 Surface 设备](enroll-and-configure-surface-devices-with-semm.md)
 
-    ```powercfg /SETACVALUEINDEX SCHEME_BALANCED SUB_NONE CONNECTIVITYINSTANDBY 1```
+1. 下载并安装 [**Surface UEFI Configurator**](https://www.microsoft.com/download/details.aspx?id=46703)。
+2. 选择 **"启动**  >  **配置包**  >  **创建**  > **+ 证书保护"。**
+3. 转到高级**设置，** 将 LAN**上的唤醒切换到****开**。
+4. 将程序包应用到目标设备。
 
+    > [!div class="mx-imgBorder"]
+    > ![启用 LAN UEFI 策略设置唤醒](images/wol-uefi.png)
 
 ## <a name="learn-more"></a>了解详细信息
 
+- [Surface 扩展坞 2 的 LAN 唤醒](wake-on-lan-surface-dock2.md)
 - [Microsoft Surface USB-C 到以太网和 USB 适配器](https://www.microsoft.com/p/surface-usb-c-to-ethernet-and-usb-adapter/8wt81cglrblp?)
-
 - [Surface USB 3.0 千兆位以太网适配器](https://www.microsoft.com/p/surface-usb-30-gigabit-ethernet-adapter/8xn9fqvzbvq0?)
