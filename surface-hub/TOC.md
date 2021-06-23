@@ -30,7 +30,7 @@
 ### [Surface Hub 2S 的首次设置](surface-hub-2s-setup.md)
 ### [将设备连接到 Surface Hub 2S](surface-hub-2s-connect.md)
 ### [创建和测试设备帐户](create-and-test-a-device-account-surface-hub.md)
-### [创建 Surface Hub 2S 的预配程序包](surface-hub-2s-deploy.md)
+### [创建 Surface Hub 的预配程序包](provisioning-packages-for-surface-hub.md)
 ### [使用 Intune 将应用部署到 Surface Hub 2S](surface-hub-2s-deploy-apps-intune.md)
 ### [使用 PowerShell 创建 Surface Hub 2S 的本地帐户](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
 ### [Surface Hub Teams 应用](hub-teams-app.md)
