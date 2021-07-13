@@ -14,12 +14,12 @@ ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: cdb6dbdb49b34857f7b30feebb39f7a5c36e883c
-ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
+ms.openlocfilehash: 11170f6c202faef7aa3dddcb8aa8c6fa84bea80f
+ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "11585953"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "11643858"
 ---
 # <a name="configure-non-global-admin-accounts-on-surface-hub"></a>配置 Surface Hub 上的非全局管理员帐户
 
@@ -95,14 +95,14 @@ Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支
 
     ```xml
       <groupmembership>   
-      <accessgroup desc = "Administrators">        
+      <accessgroup desc = "S-1-5-32-544">        
       <member name = "Administrator" />        
       <member name = "S-1-12-1-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX" />  
       </accessgroup>
       </groupmembership>
       ```
       > [!IMPORTANT]
-      > 请勿从 XML 文件中删除默认的 Administrator 成员。
+      > 您可能需要使用管理员 [帐户的本地化名称](https://social.technet.microsoft.com/wiki/contents/articles/13813.localized-names-for-administrator-account-in-windows.aspx)。 请勿从 XML 文件中删除默认的 Administrator 成员。
 
 2. 将占位符 SID (S-1-12-1) **Azure AD 组 SID，** 然后将文件另存为 XML;例如 ** ，aad-local-admin.xml**。 
 

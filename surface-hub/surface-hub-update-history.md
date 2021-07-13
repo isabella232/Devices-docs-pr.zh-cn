@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f1790da48425b645d7e25342cfd4c1b0cde44661
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: b03b1a60ebc75e6af37c979082bf7c4a2eca4937
+ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576732"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "11643838"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 更新历史记录
 
@@ -29,6 +29,19 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 请参阅"Surface Hub[重要信息](https://support.microsoft.com/products/surface-devices/surface-hub)"页，了解可能需要你注意的当前和过去的版本的相关主题。
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 协同版 2020H2 (2020 更新) 
+
+<details>
+<summary>2021 年 6 月 10 日 — Surface Hub 2S 的更新</summary>
+
+此更新特定于 Surface Hub 2S，并提供下面列出的驱动程序和固件更新：
+
+* Surface UEFI 更新 - 694.3751.768.0
+  * 解决关键安全漏洞并提高系统稳定性。
+* Surface ME 固件更新 - 11.8.86.3877
+  * 解决关键安全漏洞并提高系统稳定性。
+* Intel (R) Management Engine Interface 驱动程序 - 2102.100.0.1044
+  * 解决关键安全漏洞并提高系统稳定性。
+</details>
 
 <details>
 <summary>2021 年 4 月 13 日 — 基于 KB5001330* (OS 内部版本 19042.928) </summary>
@@ -46,11 +59,11 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 此更新特定于 Surface Hub 2S，并提供下面列出的驱动程序和固件更新：
 
 * Intel (R) 蓝牙 驱动程序 - 22.30.0.4
-  * 解决安全更新问题并提高系统稳定性。
+  * 提高系统安全性和稳定性。
 * Intel (R) 图形驱动程序 - 27.20.100.8682
-  * 解决安全更新问题并提高系统稳定性。
+  * 提高系统安全性和稳定性。
 * Intel (R) Wi-Fi 驱动程序 - 22.30.0.11
-  * 解决安全更新问题并提高系统稳定性。
+  * 提高系统安全性和稳定性。
 </details>
 
 <details>
@@ -64,7 +77,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 解决了当使用Windows需要身份验证的代理时，更新和应用商店更新检查无法完成的问题。
 * 提高有线连接应用的可靠性。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。 *[KB4598291](https://support.microsoft.com/help/4598291)
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。 *[KB4598291](https://support.microsoft.com/help/4598291)
 </details>
 
 <details>
@@ -100,7 +113,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 在注册预览体验计划时Windows可靠性。
 * 提高团队Windows的可靠性。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。 *[KB4586853](https://support.microsoft.com/help/4586853)
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。 *[KB4586853](https://support.microsoft.com/help/4586853)
 </details>
 
 <details>
@@ -128,9 +141,9 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 <details>
 <summary>Windows 10 协同版 2020 update for Surface Hub — OS 内部版本 19042.572 (发行说明 - 通用) </summary>
 
-此更新至 Surface Hub包括质量改进和安全修补程序。 "Windows 10 协同版[Surface Hub 2020](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)更新中的新增功能"页面上介绍了Surface Hub更新的关键更新（尚未在[Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history)更新历史记录中列出）。
+此更新至 Surface Hub包括质量改进和安全修补程序。 "Windows 10 协同版[Surface Hub 2020](/surface-hub/surface-hub-2020-update-whats-new)更新中的新增功能"页面上介绍了Surface Hub更新的关键更新（尚未在[Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history)更新历史记录中列出）。
 
-有关按区域、分发[方法和设备类型更新可用性Windows 10 协同版请参阅"Install Windows 10 协同版 2020 Update"](https://docs.microsoft.com/surface-hub/surface-hub-2020-update)页。
+有关按区域、分发[方法和设备类型更新可用性Windows 10 协同版请参阅"Install Windows 10 协同版 2020 Update"](/surface-hub/surface-hub-2020-update)页。
 </details>
 
 ## <a name="windows-10-team-creators-update-1703"></a>Windows 10 协同版创意者更新 (1703) 
@@ -188,7 +201,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 解决了其他参与者在呼叫期间无法听到 Hub 2S Skype for Business的问题。
 * 提高了某些阿拉伯语、希伯来语和其他 RTL 语言使用方案的可靠性Surface Hub。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4537765](https://support.microsoft.com/help/4537765)
 </details>
 
@@ -199,7 +212,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 
 * 解决了 2S 的日志Microsoft Surface Hub问题。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4534296](https://support.microsoft.com/help/4534296)
 </details>
 
@@ -215,7 +228,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
  * 修复了Microsoft Edge某些内部网站时出现的问题。
  * 修复了Skype for Business全屏显示时出现的问题。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4503289](https://support.microsoft.com/help/4503289)
 </details>
 
@@ -227,7 +240,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
  * 确保 Hub 2S 上的视频退出默认为"重复"模式。
  * 提高应用程序上某些阿拉伯语使用方案的可靠性Surface Hub。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4503289](https://support.microsoft.com/help/4503289)
  </details>
 
@@ -241,7 +254,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 用于提高 Hub 2S 上硬件诊断应用可靠性的修补程序。 
 * 修复以提高 Hub 2S 上首次运行设置体验的一致性。 
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4503289](https://support.microsoft.com/help/4503289)
 </details>
 
@@ -255,7 +268,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 添加对 TLS 1.2 在 Skype for Business 的支持。
 * 当客户端服务器禁用 TLS 1.0 Skype TLS 1.1 时Skype客户端中的 SIP 连接故障。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4499162](https://support.microsoft.com/help/4499162)
 </details>
 
@@ -266,7 +279,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 
 * 解决与设备连接某些 USB 设备的视频和音频Surface Hub。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4493436](https://support.microsoft.com/help/4493436)
 </details>
 
@@ -277,7 +290,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 
 * 解决了阻止某些用户Signing-In"我的会议和文件"的问题。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KBKB4467699](https://support.microsoft.com/help/KB4467699)
 </details>
 
@@ -293,7 +306,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 解决了中心错误地在企业代理环境中报告"无 Internet 连接"的问题。
 * 实施了一项功能，使客户能够使用新的白板体验。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4462939](https://support.microsoft.com/help/4462939)
 </details>
 
@@ -307,7 +320,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 使管理员能够禁用集线器的即时消息和电子邮件服务
 * Surface Hub Skype for Business 应用的其他 bug 修复和可靠性改进
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4343889](https://support.microsoft.com/help/4343889)
 </details>
 
@@ -318,7 +331,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 
 * EMEA 中支持 GDPR 要求的遥测更改
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4284830](https://support.microsoft.com/help/KB4284830)
 </details>
 
@@ -336,7 +349,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 解决了Miracast通道 149 Surface Hub 165 时出现的问题
   * 由于地区政府法规，第 149 至 165 频道将继续在欧洲、日本或以色列不可用
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4093117](https://support.microsoft.com/help/4093117)
 </details>
 
@@ -348,7 +361,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 解决了未正确应用 MDM 设置的问题
 * 改进的清理过程
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4077528](https://support.microsoft.com/help/4077528)
 </details>
 
@@ -360,7 +373,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 添加了通过 MDM 管理"开始"菜单磁贴布局的功能
 * 密码轮换配置的 MDM bug 修复
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4057144](https://support.microsoft.com/help/4057144)
 </details>
 
@@ -372,7 +385,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 解决呼叫期间相机 (闪烁) 闪烁Skype for Business闪烁
 * 解决通知中心 SSD ID 问题
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4053580](https://support.microsoft.com/help/4053580)
 </details>
 
@@ -390,7 +403,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 * 减少并更加彻底地保护设备传输的遥测，从而降低带宽利用率。
 * 启用允许用户在会议结束后向 Microsoft 提供反馈的功能。
 
-请参阅启用[Surface Hub/](https://docs.microsoft.com/surface-hub/)禁用设备功能和服务的管理指南。
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4048954](https://support.microsoft.com/help/4048954)
 </details>
 
@@ -492,13 +505,13 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 
 * 正在发展大屏幕体验 
   * 改进了"欢迎"和"开始"中的会议盘点
-  * 直接从"开始"菜单加入会议并结束会话
+  * 加入会议并直接从会议结束"开始"菜单
   * 在会话期间，应用可以充分利用更多屏幕
   * 简化Skype控件
   * 提供反馈的改进机制
 * 访问我的个人内容*
   * 欢迎或开始的个人单一登录
-  * 直接从"开始"菜单加入会议并结束会话
+  * 加入会议并直接从会议结束"开始"菜单
   * 直接从"开始"OneDrive for Business访问个人文件
   * 预填充与会者登录
   * 使用"Authenticator"应用的简化身份验证流程**
@@ -509,9 +522,9 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
   * 改进了代理凭据支持
   * 添加了和/Skype QoS (QoS) 服务质量
   * 新增了在设备中设置默认设备设置
-  * 改进了对自定义设置的 MDM Surface Hub[支持](https://docs.microsoft.com/surface-hub/remote-surface-hub-management)
+  * 改进了对自定义设置的 MDM Surface Hub[支持](/surface-hub/remote-surface-hub-management)
 * 安全性提高 
-  * 添加了将 USB 驱动器限制为仅BitLocker功能
+  * 添加了将 USB 驱动器限制为仅 BitLocker 的能力
   * 添加了通过 MDM 禁用 USB 端口的功能
   * 添加了在超时时禁用"恢复会话"功能的功能
   * 添加有线 802.1x 支持

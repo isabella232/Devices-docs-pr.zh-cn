@@ -1,5 +1,5 @@
 ---
-title: LAN 唤醒 Surface 扩展坞 2
+title: 通过 Surface Dock 2 LAN 唤醒
 description: Surface Dock 2 为 LAN 上的唤醒和 WOL (最佳) 使管理员能够远程唤醒设备并自动执行管理任务。
 keywords: 更新， 部署， 驱动程序， wol， lan 上唤醒
 ms.prod: w10
@@ -13,15 +13,15 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 6/03/2021
-ms.openlocfilehash: 74b36b60cb58ecb9042b73b8cdba7271d0af8c80
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.date: 7/02/2021
+ms.openlocfilehash: 4a74efb8af776e9805ad3148ea656f0a65d5d09c
+ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11614043"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "11643848"
 ---
-# <a name="wake-on-lan-with-surface-dock-2"></a>LAN 唤醒 Surface 扩展坞 2
+# <a name="wake-on-lan-with-surface-dock-2"></a>通过 Surface Dock 2 LAN 唤醒
 
 若要使设备完全保持最新，IT 管理员需要能够在设备不使用时（通常是夜间维护时段）管理设备。 Surface Dock 2 为 LAN (WOL 上的唤醒提供最佳支持) 使管理员能够远程唤醒设备，并自动使用 Microsoft Endpoint Manager 或其他第三方解决方案执行管理任务。
 
@@ -48,7 +48,7 @@ Surface Dock 2 为以下电源状态中的设备提供 WOL 支持：
 
 - 连接待机
 - 休眠 (S4 电源状态) 
-- 休眠 (S5"软关闭"电源状态) 
+- 关机 (S5"软关闭"电源状态) 
 
 若要详细了解电源状态，请参阅 [系统电源状态](/windows/win32/power/system-power-states)。
 
