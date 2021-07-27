@@ -12,14 +12,14 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 50c7c9109d98448f10afcf3105974c8bee9515af
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 52b988315951132284c7016752a6817dadbf74c6
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577295"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676616"
 ---
-# <a name="surface-laptop-4-processors-tech-overview"></a>Surface Laptop 4 个处理器技术概述
+# <a name="surface-laptop-4-processors-tech-overview"></a>Surface Laptop 4 处理器技术概述
 
 Surface Laptop 4 旨在向商业客户提供一组丰富的设备选项，以帮助决策者更好地将设备采购目标与日益具体的角色要求保持一致。 与 Surface Laptop 3 相比：
 
@@ -31,7 +31,7 @@ Surface Laptop 4 旨在向商业客户提供一组丰富的设备选项，以帮
 - 如果多线程应用性能和较长的电池使用时间是首要任务，Surface Laptop AMD Ryzen Surface Edition 处理器安装 4 是一个不错的选择。
 - 如果单线程性能速度更快，以及用于增加内存和存储的选项，Surface Laptop 4 和 Intel 11 代核心处理器是一个不错的选择。
 
-若要了解更多信息，请参阅[Surface Laptop 4 for Business。](https://www.microsoft.com/surface/business/surface-laptop-4)
+若要了解更多信息[，请参阅](https://www.microsoft.com/surface/business/surface-laptop-4)Surface Laptop 4 商用版。
 
 ## <a name="processor-tech-specs"></a>处理器技术规格
 
@@ -85,7 +85,7 @@ Surface Laptop 4 旨在向商业客户提供一组丰富的设备选项，以帮
 | 默认 TDP/TDP    | 15W               | 15W               |
 | 最大临时数            | 105C              | 105 C             |
 
-有关 4 中 AMD 处理器的Surface Laptop，请参阅[AMD Ryzen](https://www.amd.com/processors/ryzen)
+有关 4 中 AMD 处理器的一般Surface Laptop，请参阅[Microsoft Surface Laptop 4 Powered by AMD Ryzen Mobile Processors。](https://www.amd.com/processors/ryzen-surface-edition)
 
 ## <a name="surface-laptop-4-skus"></a>Surface Laptop 4 个 SUS
 
@@ -104,4 +104,4 @@ Surface Laptop 4 旨在向商业客户提供一组丰富的设备选项，以帮
 
 ## <a name="learn-more"></a>了解详细信息
 
-- [Surface Laptop 4 商业版](https://www.microsoft.com/surface/business/surface-laptop-4)
+- [Surface Laptop 4 商用版](https://www.microsoft.com/surface/business/surface-laptop-4)

@@ -12,14 +12,14 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 2036379ce52f3b7824570ab10473568a57f64fb0
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 0abdd30f3bdc136dd94fcaf41cf7af16cc3c53ab
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576642"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676406"
 ---
-# <a name="whats-new-in-surface-dock"></a>Surface 扩展坞中的新增功能
+# <a name="whats-new-in-surface-dock-2"></a>Surface Dock 2 中的新增功能
 
 Surface 扩展坞 2 是下一代 Surface 扩展坞，它允许用户连接外部监视器和多个外围设备，以便从 Surface 设备获得完全现代化桌面体验。 Surface Dock 2 专为最大限度提高办公室、灵活工作区或家庭效率而构建，具有七个端口，包括两个前置 USB-C 端口，为手机和配件提供 15 分钟快速充电电源。 
 
@@ -106,7 +106,7 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
 | Kensington 锁定                     | 是                                                         | 是                                                                                                 |                  |
 | 浮出电缆长度               | 65cm                                                        | 80cm                                                                                                | 20cm             |
 | 显示链接主机电源                 | 60W                                                         | 120W                                                                                                | 不适用              |
-| USB 负载电源                      | 400                                                         | 60W                                                                                                 |                  |
+| USB 负载电源                      | 30W                                                         | 60W                                                                                                 |                  |
 | USB 比特率                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
 | 监视支持                     | 2 x 4k @30fps，或<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps<br> 或 1 x 4K @120fps                                                                                     | 1 x 4K @ 60fps   |
 | 从连接待机 1 唤醒 LAN <sup> 上</sup> | 是                                                         | 是                                                                                                 |                  |

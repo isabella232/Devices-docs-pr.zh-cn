@@ -11,17 +11,19 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 021d30e782bc50e0c89fad6478c8e784234c768d
-  ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+  ms.openlocfilehash: 9367329bcaa7c42a31cc8de5ffcee2e65f4c8437
+  ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 06/22/2021
-  ms.locfileid: "11613921"
+  ms.lasthandoff: 07/24/2021
+  ms.locfileid: "11676506"
 landingContent:
 - title: Surface 设备
   linkLists:
   - linkListType: whats-new
     links:
+    - text: 使用 Surface 的远程工作解决方案
+      url: https://www.microsoft.com/surface/business/remote-work-solutions
     - text: Surface Laptop 4 + 商业版
       url: https://www.microsoft.com/surface/business/surface-laptop-4
     - text: Surface Pro 7+ 商用版
@@ -102,6 +104,14 @@ landingContent:
       url: surface-enterprise-management-mode.md
     - text: 电池限制设置
       url: battery-limit.md
+- title: Surface ROI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 使用 Microsoft Surface 最大化 ROI
+      url: forrester-tei-study.md
+    - text: Microsoft Surface 教育版的总体经济影响
+      url: forrester-tei-edu-study.md
 - title: 参与 Surface 社区
   linkLists:
   - linkListType: learn

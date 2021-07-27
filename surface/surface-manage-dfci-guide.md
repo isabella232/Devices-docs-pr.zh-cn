@@ -1,5 +1,5 @@
 ---
-title: Surface UEFI 设置的 Intune 管理
+title: 在 Surface 设备上管理 DFCI
 description: 本文介绍如何在目标 Surface 设备Microsoft Intune配置 DFCI 环境并管理固件设置。
 ms.localizationpriority: medium
 ms.prod: w10
@@ -20,18 +20,18 @@ appliesto:
 - Surface Book 3
 - Surface Laptop Go
 - Surface Laptop 4
-ms.openlocfilehash: b74aeab45dd2354550f0dff712af5b37b853111c
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 871bead0ae5f73c546b8dbe219d71b819d3a865e
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576512"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676446"
 ---
-# <a name="intune-management-of-surface-uefi-settings"></a>Surface UEFI 设置的 Intune 管理
+# <a name="manage-dfci-on-surface-devices"></a>在 Surface 设备上管理 DFCI
 
 ## <a name="introduction"></a>简介
 
-从云管理设备的能力极大地简化了整个生命周期中的 IT 部署和预配。 通过设备固件配置接口 (内置 DFCI) [Microsoft Intune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)配置文件，Surface UEFI 管理将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 有关常见问题的解答，请参阅 [Ignite 2019：宣布从 Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)远程管理 Surface UEFI 设置。
+从云管理设备的能力极大地简化了整个生命周期中的 IT 部署和预配。 通过设备固件配置接口 (内置 DFCI) [Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows)配置文件，Surface UEFI 管理将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 有关常见问题的解答，请参阅 [Ignite 2019：宣布从 Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)远程管理 Surface UEFI 设置。
 
 ### <a name="background"></a>Background
 
@@ -68,11 +68,11 @@ ms.locfileid: "11576512"
 
 - 设备必须由云解决方案提供商Windows OEM Microsoft 云解决方案提供商 (向) [Autopilot](https://partner.microsoft.com/membership/cloud-solution-provider)注册。
 
-- 在配置 Surface 的 DFCI 之前，你应该熟悉[Microsoft Intune](https://docs.microsoft.com/intune/)中的 Autopilot 配置[](https://docs.microsoft.com/azure/active-directory/)要求Azure Active Directory (Azure AD) 。
+- 在配置 Surface 的 DFCI 之前，你应该熟悉[Microsoft Intune](/intune/)中的 Autopilot 配置[](/azure/active-directory/)要求Azure Active Directory (Azure AD) 。
 
-## <a name="before-you-begin"></a>开始之前
+## <a name="before-you-begin"></a>在你开始前
 
-将目标 Surface 设备添加到 Azure AD 安全组。 有关创建和管理安全组的信息，请参阅 [Intune 文档](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups)。
+将目标 Surface 设备添加到 Azure AD 安全组。 有关创建和管理安全组的信息，请参阅 [Intune 文档](/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups)。
 
 ## <a name="configure-dfci-management-for-surface-devices"></a>为 Surface 设备配置 DFCI 管理
 
@@ -85,7 +85,7 @@ DFCI 环境需要设置包含设置的 DFCI 配置文件和 Autopilot 配置文�
 1. 在租户中登录 devicemanagement.microsoft.com。
 2. 在"Microsoft Endpoint Manager中心"中，选择">**配置文件">"** 配置文件"，然后输入名称;例如 **，DFCI 配置策略。**
 3. 选择**Windows 10类型选择**"Windows 10及更高版本"。
-4. 在配置文件类型下拉列表中，选择 **设备固件配置接口** 以打开包含所有可用策略设置的 DFCI 边栏选项卡。 有关 DFCI 设置的信息，请参阅此页面上的表 1 或 [Intune 文档](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)。 可以在初始设置过程中或稍后通过编辑 DFCI 配置文件来配置 DFCI 设置。
+4. 在配置文件类型下拉列表中，选择 **设备固件配置接口** 以打开包含所有可用策略设置的 DFCI 边栏选项卡。 有关 DFCI 设置的信息，请参阅此页面上的表 1 或 [Intune 文档](/intune/configuration/device-firmware-configuration-interface-windows)。 可以在初始设置过程中或稍后通过编辑 DFCI 配置文件来配置 DFCI 设置。
 
     ![创建 DFCI 配置文件](images/df1.png)
 
@@ -114,7 +114,7 @@ DFCI 环境需要设置包含设置的 DFCI 配置文件和 Autopilot 配置文�
 
 若要确保设备在用户登录之前在 OOBE 期间应用 DFCI 配置，你需要配置注册状态。
 
-有关详细信息，请参阅设置 [注册状态页面](https://docs.microsoft.com/intune/enrollment/windows-enrollment-status)。
+有关详细信息，请参阅设置 [注册状态页面](/intune/enrollment/windows-enrollment-status)。
 
 
 ## <a name="configure-dfci-settings-on-surface-devices"></a>在 Surface 设备上配置 DFCI 设置
@@ -148,7 +148,7 @@ DFCI 包括一组简化的 UEFI 配置策略，这些策略通过锁定硬件级
 > [!NOTE]
 >  Intune 中的 DFCI 包括两个当前不适用于 Surface 设备的设置： (1) CPU 和 IO 虚拟化和 (2) 禁用从网络适配器启动。
  
-Intune 提供作用域标记以委派管理权限和适用性规则来管理设备类型。 有关策略管理支持和有关所有 DFCI 设置的完整详细信息的详细信息，请参阅Microsoft Intune[文档](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)。
+Intune 提供作用域标记以委派管理权限和适用性规则来管理设备类型。 有关策略管理支持和有关所有 DFCI 设置的完整详细信息的详细信息，请参阅Microsoft Intune[文档](/intune/configuration/device-firmware-configuration-interface-windows)。
 
 ## <a name="register-devices-in-autopilot"></a>在 Autopilot 中注册设备
 
@@ -160,7 +160,7 @@ Intune 提供作用域标记以委派管理权限和适用性规则来管理设�
 
 - In Endpoint Manager at devicemanagement.microsoft.com， go to **Devices > Device enrollment > Windows enrollment > Windows Autopilot Devices** and select **Sync**.
 
- 有关详细信息，请参阅手动[同步Windows设备](https://docs.microsoft.com/intune-user-help/sync-your-device-manually-windows)。
+ 有关详细信息，请参阅手动[同步Windows设备](/intune-user-help/sync-your-device-manually-windows)。
 
 > [!NOTE]
 > 直接在 UEFI 中调整设置时，你需要确保设备完全重启到标准登录Windows。
@@ -190,7 +190,7 @@ Intune 提供作用域标记以委派管理权限和适用性规则来管理设�
 **若要删除 DFCI 管理，将设备返回到出厂新状态：**
 
 1. 从 Intune 停用设备：
-    1. In Endpoint Manager at devicemanagement.microsoft.com， choose **Groups > All Devices**. 选择要停用的设备，然后选择" **停用/擦除"。** 若要了解详情，请参阅使用擦除、停用或手动注销 [设备来删除设备](https://docs.microsoft.com/intune/remote-actions/devices-wipe)。 
+    1. In Endpoint Manager at devicemanagement.microsoft.com， choose **Groups > All Devices**. 选择要停用的设备，然后选择" **停用/擦除"。** 若要了解详情，请参阅使用擦除、停用或手动注销 [设备来删除设备](/intune/remote-actions/devices-wipe)。 
 2. 从 Intune 中删除 Autopilot 注册：
     1.  Choose **Device enrollment > Windows enrollment > Devices**.
     2. 在Windows Autopilot 设备"下，选择要删除的设备，然后选择"删除 **"。**
@@ -203,4 +203,4 @@ Intune 提供作用域标记以委派管理权限和适用性规则来管理设�
 - [Ignite 2019：宣布从 Intune 远程管理 Surface UEFI 设置](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333) 
 [Windows Autopilot](https://www.microsoft.com/microsoft-365/windows/windows-autopilot)
 - [Windows Autopilot 和 Surface 设备](windows-autopilot-and-surface-devices.md) 
-- [在 Windows 的设备上使用 DFCI Microsoft Intune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)
+- [在 Windows 的设备上使用 DFCI Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows)

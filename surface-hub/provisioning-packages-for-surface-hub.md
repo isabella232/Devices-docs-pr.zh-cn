@@ -10,19 +10,19 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 05/28/2021
+ms.date: 07/20/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 087826a7a0cba7a47accc0d3d66714289f2ae9d2
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: bb5c08454d6c148c5e07b80ee0b4452e5b768a87
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613939"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676706"
 ---
-# <a name="create-provisioning-packages-for-surface-hub"></a>为用户创建预配Surface Hub
+# <a name="create-provisioning-packages-for-surface-hub"></a>创建 Surface Hub 的预配程序包
 
 预配包允许你自动部署关键功能，从而有助于在组织的所有 Surface Hub 中提供一致的体验。  在Windows电脑上 (WCD) 配置设计器，可以完成以下任务：
 
@@ -113,7 +113,8 @@ ms.locfileid: "11613939"
 
 **若要创建Surface Hub配置文件：**
 
-1. 打开Microsoft Excel (或其他.csv编辑器) ，创建.csv一个名为 SurfaceHubConfiguration.csv
+1. 打开Microsoft Excel (或其他.csv编辑器) ，.csv一个名为SurfaceHubConfiguration.csv_的文件_。
+
 2. 按此格式输入设备帐户和友好名称列表：
 
     ```
@@ -123,7 +124,7 @@ ms.locfileid: "11613939"
     > [!NOTE]
     > 配置文件不得包含列标题。 当包含在应用于设备的预配包Surface Hub，你可以从文件中选择设备的帐户和友好名称。 若要创建.csv文件，请使用 UPN 地址格式 (rainier@contoso.com) 或下层登录名格式 (contoso\用户) 。
 
-- rainier@contoso.com，password，一Surface Hub
+    rainier@contoso.com，password，一Surface Hub
 
 3. 将文件保存到项目文件夹，然后使用预配包将其复制到 U 盘。
 
@@ -143,15 +144,19 @@ ms.locfileid: "11613939"
 > [!TIP]
 > 使用向导创建带有通用设置的程序包，然后切换到高级编辑器以添加其他设置。<br><br> ![切换到高级编辑器](images/icd-simple-edit.png)
 
-1. 如果继续上一部分，请选择切换到**高级编辑器**，否则Windows**配置设计器**，然后选择**高级预配**。<br>
-  ![使用高级预配](images/sh-prov-adv.png)
+1. 如果继续上一部分，请选择切换到**高级编辑器**，否则Windows**配置设计器**，然后选择**高级预配**。
+
+   ![使用高级预配](images/sh-prov-adv.png)
 
 2. 将项目命名，然后选择"下一**步"。**
-3. 选择 **"常用Windows 10 协同版"，** 选择"下**** 一步"，然后选择"完成 **"。**<br>
-     ![WCD 新项目](images/icd-new-project.png)
 
-4. 在项目中的可用 **自定义项下**，选择 **常用团队设置**。<br>
-     ![WCD 通用设置](images/icd-common-settings.png)
+3. 选择 **"常用Windows 10 协同版"，** 选择"下**** 一步"，然后选择"完成 **"。**
+
+   ![WCD 新项目](images/icd-new-project.png)
+
+4. 在项目中的可用 **自定义项下**，选择 **常用团队设置**。
+
+   :::image type="content" alt-text="WCD 通用设置。" source="images/icd-common-settings.png":::
 
 ### <a name="add-a-certificate-to-your-package"></a>将证书添加到程序包
 
@@ -178,8 +183,11 @@ ms.locfileid: "11613939"
 **若要添加 UWP 应用：**
 
 1. 在**可用自定义项**窗格中，转到**运行时设置** > **UniversalAppInstall** > **DeviceContextApp**。
+
 2. 输入应用的**PackageFamilyName，****然后选择添加**。 为了保持一致性，请使用应用的程序包系列名称。 如果已从适用于企业的 Microsoft Store 获取了该应用，可在应用许可中查找程序包系列名称。 使用文本编辑器打开许可证文件，并使用 PFM 标记之间的值。
+
 3. 对于**ApplicationFile，****选择"** 浏览"以查找并选择目标应用 ( .appx 或 .appxbundle) 。
+
 4. 对于 **DependencyAppxFiles，** 选择 **"** 浏览"查找并添加应用的任何依赖项。 对于 Surface Hub，仅需要 x64 版本的依赖项。
 
 如果你从应用包适用于企业的 Microsoft Store，则需要将应用许可证添加到预配包。
@@ -187,8 +195,11 @@ ms.locfileid: "11613939"
 **添加应用程序许可证：**
 
 1. 制作应用许可的副本，并为其重命名，以使用 **.ms-windows-store-license** 扩展名。 例如，将"example.xml"重命名为"example.ms-windows-store-license"。
+
 2. In Windows Configuration Designer， go to **Available customizations**  >  **Runtime settings**  >  **UniversalAppInstall**  >  **DeviceContextAppLicense**.
+
 3. 输入**LicenseProductId，** 然后选择"添加 **"。** 为了保持一致性，请使用应用许可中的应用许可 ID。 使用文本编辑器打开许可文件。 然后，在 **License** 标记中，使用 **LicenseID 属性中的** 值。
+
 4. 选择新的 **LicenseProductId** 节点。 对于**LicenseInstall，** 选择"浏览"以查找并选择重命名的许可证文件 (example.ms-windows-store-license) 。 ****
 
 ### <a name="add-a-policy-to-your-package"></a>将策略添加到程序包
@@ -200,8 +211,7 @@ Surface Hub 支持[策略配置服务提供程序](/windows/client-management/md
 1. 转到可用**自定义运行时**  >  **设置**  >  **策略**。
 2. 选择想要管理和配置相应策略设置的组件。 例如，若要阻止员工使用 InPrivate 网站浏览Surface Hub **AllowInPrivate，** 然后选择"禁用 **"。**  
 
-    > [!div class="mx-imgBorder"]
-    > ![配置策略设置](images/sh-prov-policies.png)
+   :::image type="content" alt-text="配置策略设置。" source="images/sh-prov-policies.png" lightbox="images/sh-prov-policies.png":::
 
 ### <a name="add-surface-hub-settings-to-your-package"></a>将 Surface Hub 设置添加到程序包
 
@@ -217,14 +227,16 @@ Surface Hub 支持[策略配置服务提供程序](/windows/client-management/md
 生成预配包时，可能会在项目文件和预配包 (.ppkg) 文件中包含敏感信息。 尽管你可以选择加密 .ppkg 文件，但项目文件不会加密。  将项目文件存储在安全位置，或删除（如果不再需要）。
 
 1. 打开**Windows设计器**  >  **导出**  >  **预配包。**
+
 2. 将**所有者****更改为 IT 管理员**。  
+
 3. 设置**程序包版本**的值，然后选择**下一步**。
 
-> [!TIP]
-> 将所有者设置为 IT 管理员可确保包设置保留适当的"优先属性"，并保留在 Surface Hub如果随后从其他源应用了其他预配包。
+   > [!TIP]
+   > 将所有者设置为 IT 管理员可确保包设置保留适当的"优先属性"，并保留在 Surface Hub如果随后从其他源应用了其他预配包。
 
-> [!TIP]
-> 你可以修改现有程序包，并更改版本号以更新以前应用的程序包。
+   > [!TIP]
+   > 你可以修改现有程序包，并更改版本号以更新以前应用的程序包。
 
 4. 可选：你可以选择加密程序包并启用程序包签名：
 
@@ -235,26 +247,36 @@ Surface Hub 支持[策略配置服务提供程序](/windows/client-management/md
     > 建议将受信任的预配证书包括在预配包中。 将程序包应用于设备时，证书将添加到系统存储，从而允许以静默方式应用后续程序包。
 
 5. 选择 **"下** 一步"以指定输出位置。 默认情况下，Windows 配置设计器使用项目文件夹作为输出位置。 或者， **选择** "浏览"更改默认输出位置。 选择**下一步** 。
+
 6. 选择 **"生成** "开始生成程序包。 项目信息显示在生成页面中。
+
 7. 如果生成失败，将显示一条错误消息，并包含指向项目文件夹的链接。 查看日志以诊断错误，然后再次尝试生成程序包。
+
 8. 如果生成成功，将显示预配包的名称、输出目录和项目目录。 选择 **"** 完成"关闭向导并返回到"自定义"页。
+
 9. 选择  **输出**  位置以转到程序包的位置。 将 .ppkg 复制到空 U 盘。
 
 ## <a name="apply-a-provisioning-package-to-surface-hub"></a>将设置包应用到 Surface Hub
 
-有两个选项可将设置包部署到 Surface Hub。 [在第一次](#apply-a-provisioning-package-during-first-run)运行向导期间，你可以应用安装证书的预配包，或在首次运行计划完成后，可以使用 设置 应用配置设置、[应用和证书的预配包](#apply-a-provisioning-package-using-settings-app)。
+有两种方法将预配包部署到Surface Hub：
+
+- [首次运行安装程序。](#apply-a-provisioning-package-during-first-run) 你可以应用预配包来自定义多个选项，包括Wi-Fi设置、代理设置、设备帐户详细信息、Azure AD 加入和相关设置。  
+- [设置应用。](#apply-a-provisioning-package-using-settings-app) 首次运行安装程序后，可以通过应用应用设置包。 
 
 ### <a name="apply-a-provisioning-package-during-first-run"></a>在首次运行时应用设置包
 
-> [!IMPORTANT]
-> 在首次运行计划期间，只能使用预配包安装证书。 使用**设置**应用安装应用和应用其他设置。
-
 1. 当你首次打开Surface Hub时，首次运行程序将显示"[**你好"页面**](first-run-program-surface-hub.md)。 确保设置已正确配置，然后再继续。
+
 2. 将包含 .ppkg 文件的 U 盘插入 Surface Hub。 如果程序包位于驱动器的根目录中，首次运行程序将识别它，并询问是否要设置设备。 选择**设置**。
+
 3. 下一个屏幕会要求你选择预配源。 选择“可移动媒体”****，然后点击“下一步”****。
+
 4. 选择要应用 (*.ppkg) 设置包，然后点击"下一**步"。** 注意，首次运行期间只能安装一个程序包。
+
 5. 首次运行程序将显示预配包要应用的更改汇总。 选择**是的，添加它**。
+
 6. 如果配置文件包含在 U 盘的根目录中，你将看到**选择配置**。 将显示配置文件中的第一个设备帐户以及将应用到 Surface Hub 的帐户信息摘要。
+
 7. 在 **"选择配置"** 中，选择要应用的设备名称，然后选择"下一**步"。**
 
 预配包中的设置将应用于设备，并将完成 OOBE。 设备重启后，你可以删除 U 盘。

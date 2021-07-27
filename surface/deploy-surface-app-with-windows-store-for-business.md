@@ -14,12 +14,12 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 4/16/2021
-ms.openlocfilehash: c7a882859339ff3d7feeb685c62672bc57c301ec
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 339a6a3ab76f36004f2399b333d48487c9d6e31d
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576522"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676670"
 ---
 # <a name="deploy-surface-app-with-microsoft-store-for-business-and-education"></a>使用应用和教育适用于企业的 Microsoft Store Surface 应用
 
@@ -47,17 +47,7 @@ ms.locfileid: "11576522"
 - Surface Pro 3
 
 
-Surface 应用是轻型Microsoft Store应用，可控制许多特定于 Surface 的设置和选项，包括： 
-
-* 启用或禁用 Surface 设备上的 Windows 按钮 
-
-* 调整 Surface 触控笔的灵敏度 
-
-* 自定义 Surface 触控笔按钮操作 
-
-* 启用或禁用 Surface 音频增强功能 
-
-* 快速访问设备的支持文档和信息
+Surface 应用是轻型 Microsoft Store 应用，可控制许多特定于 Surface 的设置和选项，并快速访问设备信息，包括序列号、Surface 型号名称、UEFI 版本和相关驱动程序。  
 
 使用 Windows 更新的客户通常会收到 Surface 应用作为自动更新的一部分。 但是，如果你的组织准备映像以部署到 Surface 设备，你可能希望将 Surface 应用 (以前称为 Surface Hub) 包括在映像和部署过程中，而不是要求每个设备的用户从 Microsoft Store 或 适用于企业的 Microsoft Store 下载和安装该应用。 
 
@@ -66,7 +56,7 @@ Surface 应用是轻型Microsoft Store应用，可控制许多特定于 Surface 
 
 ## <a name="surface-app-overview"></a>Surface 应用概述
 
-Surface 应用可从应用商店免费下载[Microsoft Store。](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P) 用户可以从 Microsoft Store 下载并安装它，但如果你的组织改为使用 适用于企业的 Microsoft Store，你将需要将其添加到应用商店的清单中，并可能在 Windows 部署过程中包括该应用。 本文将讨论这些过程。 有关此适用于企业的 Microsoft Store，[请参阅](https://docs.microsoft.com/microsoft-store/)适用于企业的 Microsoft Store TechCenter Windows。 
+Surface 应用可从应用商店免费下载[Microsoft Store。](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P) 用户可以从 Microsoft Store 下载并安装它，但如果你的组织改为使用 适用于企业的 Microsoft Store，你将需要将其添加到应用商店的清单中，并可能在 Windows 部署过程中包括该应用。 本文将讨论这些过程。 有关此适用于企业的 Microsoft Store，[请参阅](/microsoft-store/)适用于企业的 Microsoft Store。 
 
 ## <a name="add-surface-app-to-a-microsoft-store-for-business-account"></a>将 Surface 应用添加到适用于企业的 Microsoft Store帐户 
 
@@ -76,17 +66,15 @@ Surface 应用可从应用商店免费下载[Microsoft Store。](https://www.mic
 
 2. 登录到门户。 
 
-3. 启用离线许可 **：单击**">应用商店设置"，然后选中"向在应用商店中**** 购物的用户显示离线许可应用"复选框，如图 1 所示。 有关应用许可模型适用于企业的 Microsoft Store，请参阅应用[适用于企业的 Microsoft Store和教育。](https://docs.microsoft.com/microsoft-store/)
+3. 启用离线许可 **：单击**"设置"，然后选中"向在应用商店中购物的用户显示离线授权应用"复选框，  >  **** 如图 1 所示。 **** 有关应用许可模型适用于企业的 Microsoft Store，请参阅应用[适用于企业的 Microsoft Store和教育。](/microsoft-store/)
 
    > [!div class="mx-imgBorder"]
    > ![显示离线许可证应用复选框](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
    *图 1. 启用应用以便脱机使用*
 
-4. 按照以下过程适用于企业的 Microsoft Store Surface 应用添加到你的应用帐户：
+4. 将 Surface 应用添加到你的适用于企业的 Microsoft Store帐户：
 
-    * 单击购买 **菜单** 。
-    
-    * 在搜索框中，键入 **Surface 应用**，然后单击搜索图标。
+    * 在应用商店中搜索 **Surface 应用** 
     
     * 在搜索结果中显示 Surface 应用后，单击该应用的图标。
     
@@ -229,4 +217,4 @@ Surface 应用可从应用商店免费下载[Microsoft Store。](https://www.mic
 
 3. 选择 **"安装单个应用程序** "，将 **Surface App** 指定为 **要安装的应用程序**。
 
-有关将应用包括到 Windows 部署中[Windows 10，](https://technet.microsoft.com/itpro/windows/deploy/deploy-windows-10-with-the-microsoft-deployment-toolkit)请参阅使用 Microsoft 部署Toolkit。
+有关将应用包括到你的 Windows 部署中，请参阅准备使用[MDT 进行部署](/windows/deployment/deploy-windows-mdt/prepare-for-windows-deployment-with-mdt)。

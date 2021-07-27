@@ -19,12 +19,12 @@ appliesto:
 - Surface Laptop 2
 - Surface Laptop 3
 - Surface Laptop 4
-ms.openlocfilehash: c02837b0cfda72c6f2a447b99ff4c94a027bb29c
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: 1ee3376a24d3e83cc66c8a220a1f7afa195840d0
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613861"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676716"
 ---
 # <a name="how-to-enable-the-surface-laptop-keyboard-during-mdt-deployment"></a>如何在 MDT Surface Laptop启用键盘
 
@@ -36,7 +36,7 @@ ms.locfileid: "11613861"
 > - 长按电源按钮 30 秒。 如果连接到电源设备 (PSU) ，请长按电源按钮，直到看到 PSU 电缆末端的灯在重新打开之前短暂关闭。
 
 > [!IMPORTANT]
-> 如果要将 Windows 10 映像部署到在 S 模式下预安装 Windows 10 的 Surface Laptop，请参阅 KB [4032347](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues)将 Windows 部署到在 S 模式下预安装 Windows 10 的 Surface 设备时出现问题。
+> 如果要将 Windows 10 映像部署到在 S 模式下预安装 Windows 10 的 Surface Laptop，请参阅 KB [4032347， Problems when deploying Windows to Surface devices with pre-talled Windows 10 in S mode](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues)。
 
 ## <a name="add-keyboard-drivers-to-the-selection-profile"></a>将键盘驱动程序添加到选择配置文件
 
@@ -95,4 +95,4 @@ ms.locfileid: "11613861"
 
     ![显示部署工作Surface Laptop (的 Surface Laptop 文件夹中的常规第一代) 驱动程序的图像](./images/surface-laptop-keyboard-5.png)
 
-将 MDT 部署共享配置为使用新的选择配置文件和相关设置后，继续部署过程，如使用 MDT 部署 Windows 10 映像[：步骤 6：创建部署任务序列](/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt#step-6-create-the-deployment-task-sequence)中所述。
+将 MDT 部署共享配置为使用新的选择配置文件和相关设置后，继续部署过程，如使用 MDT 部署 Windows 10 映像[：步骤 6：创建部署任务序列](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt#step-6-create-the-deployment-task-sequence)中所述。
