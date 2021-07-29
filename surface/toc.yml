@@ -79,11 +79,9 @@
                   href: unenroll-surface-devices-from-semm.md
                 - name: 使用 Microsoft Endpoint Configuration Manager 通过 SEMM 管理设备
                   href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
-            - name: 使用适用于企业的 Surface 诊断工具包修复 Surface 常见问题
-              href: surface-diagnostic-toolkit-for-business-intro.md
+            - name: 适用于企业的 Surface 诊断工具包
+              href: surface-diagnostic-toolkit-business.md
               items:
-                - name: 部署适用于企业的 Surface 诊断工具包
-                  href: surface-diagnostic-toolkit-business.md
                 - name: 在桌面模式下使用适用于企业的 Surface 诊断工具包
                   href: surface-diagnostic-toolkit-desktop-mode.md
                 - name: 通过命令运行适用于企业的 Surface 诊断工具包
