@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 0abdd30f3bdc136dd94fcaf41cf7af16cc3c53ab
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: a43566461ab6bbac8045326801617bd6f723316e
+ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676406"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "11708763"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Surface Dock 2 中的新增功能
 
@@ -29,6 +29,7 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
 
 - Surface Enterprise Management Mode (SEMM) 使 IT 管理员能够保护 Surface Dock 2 上的端口。 有关详细信息，请参阅使用 Surface 管理模式保护 Surface 扩展坞[2 Enterprise端口](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)。
 -  WindowsManagement Instrumentation (WMI) 支持使 IT 管理员能够跨 Surface Dock 2 设备远程监视和管理最新的固件、策略状态和相关的数据。 有关详细信息，请参阅使用[WMI 管理 Surface Dock 2。](surface-dock2-wmi.md)
+- 使用软件分发工具集中本地网络更新。 [下载 Surface Dock 2 固件和驱动程序](https://www.microsoft.com/en-us/download/details.aspx?id=101317)。
 
 ## <a name="general-system-requirements"></a>一般系统要求
 
@@ -136,4 +137,4 @@ Surface 通过 Windows 更新发布了简化的管理功能，使 IT 管理员�
 
 - [使用 Surface Enterprise 管理模式保护 Surface 扩展坞 2 端口](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 - [Surface 企业管理模式](surface-enterprise-management-mode.md)
-- [Surface 设备电源设置的最佳实践](maintain-optimal-power-settings-on-Surface-devices.md)
+- [Surface 设备电源设置的最佳做法](maintain-optimal-power-settings-on-Surface-devices.md)
