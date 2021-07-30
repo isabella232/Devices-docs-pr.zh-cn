@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: b03b1a60ebc75e6af37c979082bf7c4a2eca4937
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+ms.openlocfilehash: a611653c557f7df4d8029502f82a09f0000e5756
+ms.sourcegitcommit: 0d1a23988be4da24a8d42b391e1c60e624465fa4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643838"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "11710381"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 更新历史记录
 
@@ -29,6 +29,18 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 请参阅"Surface Hub[重要信息](https://support.microsoft.com/products/surface-devices/surface-hub)"页，了解可能需要你注意的当前和过去的版本的相关主题。
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 协同版 2020H2 (2020 更新) 
+
+<details>
+<summary>2021 年 7 月 29 日 — 基于 KB5004296* (OS 内部版本 19042.1151) </summary>
+
+此更新至 Surface Hub包括质量改进和安全修补程序。 更新历史记录Surface Hub未列出Windows 10[更新的关键更新](https://support.microsoft.com/help/4581839/windows-10-update-history)包括：
+
+* 更新到"收集日志"功能，以Windows csv 格式的诊断数据。
+* 修复了确保结束会话清理完全删除与边缘会话相关的Chromium。
+* 改进了使用加入 Azure AD 的 Surface Hub 的一些应用场景，Authenticator应用。
+
+请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。 *[KB5004296](https://support.microsoft.com/help/5004296)
+</details>
 
 <details>
 <summary>2021 年 6 月 10 日 — Surface Hub 2S 的更新</summary>
@@ -104,7 +116,6 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
 此更新至 Surface Hub包括质量改进和安全修补程序。 更新历史记录Surface Hub未列出Windows 10[更新的关键更新](https://support.microsoft.com/help/4581839/windows-10-update-history)包括：
 
 * 更新到隐私设置页面以提供其他选项。
-* 修复了确保结束会话清理完全删除与边缘会话相关的Chromium。
 * 解决了在欢迎/开始屏幕上未显示已启动的会议的问题。
 * 解决非 en-US 区域设置云恢复的问题。
 * Skype for Business
@@ -304,7 +315,7 @@ Windows 10设计为一项服务，这意味着它会自动通过定期软件更�
   * 解决Skype for Business连接到 Internet 时出现网络连接问题
   * 解决Skype for Business目录中搜索用户时崩溃的问题
 * 解决了中心错误地在企业代理环境中报告"无 Internet 连接"的问题。
-* 实施了一项功能，使客户能够使用新的白板体验。
+* 实施了一项功能，允许客户选择加入新的白板体验。
 
 请参阅启用[Surface Hub/](/surface-hub/)禁用设备功能和服务的管理指南。
 *[KB4462939](https://support.microsoft.com/help/4462939)
