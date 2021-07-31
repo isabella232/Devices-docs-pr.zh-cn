@@ -13,17 +13,17 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/02/2021
-ms.openlocfilehash: 4a74efb8af776e9805ad3148ea656f0a65d5d09c
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+ms.date: 7/30/2021
+ms.openlocfilehash: 935cec6eed15b7831bffafdc2078a9cadf2067e2
+ms.sourcegitcommit: 6a7f96a497c8749a5997972db139542563769101
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643848"
+ms.lasthandoff: 07/31/2021
+ms.locfileid: "11710576"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>通过 Surface Dock 2 LAN 唤醒
 
-若要使设备完全保持最新，IT 管理员需要能够在设备不使用时（通常是夜间维护时段）管理设备。 Surface Dock 2 为 LAN (WOL 上的唤醒提供最佳支持) 使管理员能够远程唤醒设备，并自动使用 Microsoft Endpoint Manager 或其他第三方解决方案执行管理任务。
+若要使设备完全保持最新，IT 管理员需要能够在设备不使用时（通常是夜间维护时段）管理设备。 Surface Dock 2 为 LAN (WOL 上的唤醒提供最佳支持) 使管理员能够远程唤醒 Surface 设备，并自动使用 Microsoft Endpoint Manager 或其他第三方解决方案执行管理任务。
 
 ## <a name="requirements"></a>要求
 
@@ -32,6 +32,9 @@ ms.locfileid: "11643848"
 > [!div class="mx-imgBorder"]
 > ![Surface Dock 2](images/surface-dock2-angled.png)
 
+> [!NOTE]
+> 唤醒连接到 Surface 扩展坞 2 的设备不需要使用 Surface Enterprise 管理模式 (SEMM) 或启用任何 UEFI 策略设置。
+ 
 ## <a name="supported-surface-devices"></a>支持的 Surface 设备
 
 - Surface Laptop 4 (Intel 处理器) 
@@ -54,13 +57,15 @@ Surface Dock 2 为以下电源状态中的设备提供 WOL 支持：
 
 ## <a name="how-it-works"></a>工作原理
 
-不使用时，Surface 设备将进入空闲的低电源状态，称为现代待机或连接待机。 IT 管理员可以使用唤醒请求远程触发设备 (包含目标 Surface 设备的媒体访问控制 (MAC) 地址的神奇数据包) 。 许多管理解决方案（Microsoft Endpoint Configuration Manager第三方Microsoft Store应用）都提供对 WOL 的内置支持。
+不使用时，Surface 设备将进入空闲的低电源状态，称为现代待机或连接待机。 或者设备可能休眠或 (S4) 或 (S5) 电源状态，根据设备上配置的电源设置。 IT 管理员可以使用唤醒请求远程触发设备 (包含目标 Surface 设备的媒体访问控制 (MAC) 地址的神奇数据包) 。 许多管理解决方案（Microsoft Endpoint Configuration Manager第三方Microsoft Store应用）都提供对 WOL 的内置支持。
 
-若要在没有 Surface 扩展坞 2 的设备上启用 WOL，请参阅 [Surface 设备的 LAN 唤醒](wake-on-lan-for-surface-devices.md)。
+若要在没有 Surface 扩展坞 2 的设备上启用 WOL，请参阅：
+
+- [Surface 设备的 LAN 唤醒](wake-on-lan-for-surface-devices.md)
 
 ## <a name="learn-more"></a>了解详细信息
 
 - [Surface Dock 2](https://www.microsoft.com/p/surface-dock-2-for-business/8q4hgc6kbmdq?)
 - [Surface 设备的 LAN 唤醒](wake-on-lan-for-surface-devices.md)
 - [系统电源状态](/windows/win32/power/system-power-states)
-- [在 LAN 上配置唤醒 - Configuration Manager](/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
+
