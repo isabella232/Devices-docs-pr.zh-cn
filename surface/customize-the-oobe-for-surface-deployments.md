@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: e72abd2fbd3289989d64f23bbc06fa72d3c5b1d2
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: f704541a2d862550250794308df6201c38b09e15
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676645"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721262"
 ---
 # <a name="customize-the-oobe-for-surface-deployments"></a>针对 Surface 部署自定义 OOBE
 
@@ -44,7 +44,7 @@ Windows 部署中的常见做法是针对已部署计算机的首次启动自定
 
 如果在 OOBE 期间存在无线网络适配器，将显示**加入无线网络**页，可提示用户连接到无线网络。 此页面不会自动通过部署技术（包括 MDT 2013）隐藏，因此即使针对完全自动化配置部署也将显示该页面。
 
-若要确保自动部署不会因此页面而停止，必须通过在应答文件 **HideWirelessSetupInOOBE** 中配置附加设置来隐藏该页面。 你可以在[无人参与 Windows 安装程序参考](/previous-versions/windows/it-pro/windows-8.1-and-8/ff716213(v=win.10))中找到有关 **HideWirelessSetupInOOBE** 设置的其他信息。
+若要确保自动部署不会因此页面而停止，必须通过在应答文件 **HideWirelessSetupInOOBE** 中配置附加设置来隐藏该页面。 你可以在[无人参与 Windows 安装程序参考](/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-oobe-hidewirelesssetupinoobe)中找到有关 **HideWirelessSetupInOOBE** 设置的其他信息。
 
 ## <a name="scenario-2-surface-pen-pairing-in-oobe"></a>方案 2：OOBE 中的 Surface 触控笔配对
 

@@ -13,18 +13,18 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: 3cb8af88e0aab78d5c1aa7f30c983d1da81216c0
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: e887a449fb00b76c14de5b8ede51a1ba91a6b4c4
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708743"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721242"
 ---
 # <a name="enable-peap-eap-fast-and-cisco-leap-on-surface-devices"></a>在 Surface 设备上启用 PEAP、EAP-FAST 和 Cisco LEAP
 
 了解如何在你的 Surface 设备上启用对 PEAP、EAP-FAST 或 Cisco LEAP 协议的支持。
 
-如果你在你的企业网络中使用 PEAP、EAP-FAST 或 Cisco LEAP，你可能已经了解这三种无线身份验证协议不受全新 Surface 设备支持。 一些用户在尝试连接到无线网络时可能会发现此情况；另一些用户在无法获取对网络内资源（例如文件共享和内部站点）的访问权限时可能会发现此情况。 有关详细信息，请参阅[可扩展身份验证协议](/previous-versions/windows/it-pro/windows-xp/bb457039(v=technet.10)?)。
+如果你在你的企业网络中使用 PEAP、EAP-FAST 或 Cisco LEAP，你可能已经了解这三种无线身份验证协议不受全新 Surface 设备支持。 一些用户在尝试连接到无线网络时可能会发现此情况；另一些用户在无法获取对网络内资源（例如文件共享和内部站点）的访问权限时可能会发现此情况。 有关详细信息，请参阅[可扩展身份验证协议](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)。
 
 你可以通过从 U 盘或文件共享执行较小的 MSI 程序包来添加对每个协议的支持。 对于想要在 Surface 设备上启用 EAP 支持的组织，MSI 程序包格式支持使用许多管理和部署工具（如 Microsoft Deployment Toolkit (MDT) 和 Microsoft Endpoint Configuration Manager）进行部署。
 

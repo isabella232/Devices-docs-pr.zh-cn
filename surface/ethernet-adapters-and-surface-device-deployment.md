@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: eacb7bd6b1f2f62b97b02cc871f8980e65ba7c8a
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 0eb0eb1e1d73852a2131c5aa5d6a7731ce78d54f
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676546"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721252"
 ---
 # <a name="ethernet-adapters-and-surface-deployment"></a>以太网适配器和 Surface 部署
 
@@ -40,6 +40,7 @@ Surface 设备的网络启动支持以下以太网设备：
 - Surface USB-C 到以太网和 USB 3.0 适配器
 - Surface USB 3.0 到千兆位以太网适配器
 - Surface 扩展坞
+- Surface Dock 2
 - Surface 3 扩展坞
 - Surface Pro 3 扩展坞
 - 适用于 Surface Pro 和 Surface Pro 2 的扩展坞
