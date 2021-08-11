@@ -12,12 +12,12 @@ ms.date: 1/15/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 83b3db2e9fa3da253c16d208b752bd7b6e6be771
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: f0fed17dade345bf3f7dc9619eab7981dcb30cb0
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676416"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721272"
 ---
 # <a name="deploying-managing--servicing-surface-pro-x"></a>部署、管理和维护 Surface Pro X
 
@@ -36,7 +36,7 @@ Surface Pro X 几乎专为基于云的现代环境而设计，搭配 Microsoft 3
 - [Windows Autopilot 和 Surface 设备](windows-autopilot-and-surface-devices.md)
 - [Windows Autopilot 概述](/windows/deployment/windows-autopilot/windows-autopilot)
 
-Autopilot 部署具有以下几个优点：为你提供出厂设置好的操作系统，针对零接触部署进行了优化，并预安装 Office 专业增强版。
+Autopilot 部署有几个优点：它允许使用工厂预配的操作系统（针对零接触部署进行了简化），以包括预安装Microsoft 365企业应用（也称为 Office Pro Plus）。
 
 已经在使用现代管理、安全和工作效率解决方案的组织可充分利用 Surface Pro X 中独特的性能功能。使用现代化业务线应用、Microsoft Store (UWP) 应用或远程桌面解决方案的客户也可从中受益。
 
