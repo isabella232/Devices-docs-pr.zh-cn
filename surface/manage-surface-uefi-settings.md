@@ -13,20 +13,20 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 04/13/2021
-ms.openlocfilehash: ea995eda277ecf235eedd92f3af6edb0b60ae68a
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 1ba8da50472927ff106b7243d89c15995844b191
+ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576502"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "11883019"
 ---
 # <a name="manage-surface-uefi-settings"></a>管理 Surface UEFI 设置
 
- Surface PC 设备旨在利用 Microsoft 专门为这些设备 (UEFI) 唯一的统一可扩展固件接口。 Surface UEFI 设置提供启用或禁用内置设备和组件、防止更改 UEFI 设置以及调整 Surface 设备启动设置的能力。 
+ Surface PC 设备旨在利用 Microsoft 专门为这些设备 (UEFI) 唯一的统一可扩展固件接口。 Surface UEFI 设置提供启用或禁用内置设备和组件、防止更改 UEFI 设置以及调整 Surface 设备启动设置的能力。
 
 ## <a name="supported-products"></a>支持的产品
 
-以下各项支持 UEFI 管理： 
+以下各项支持 UEFI 管理：
 
 - Surface Pro 4、Surface Pro (第五代) 、Surface Pro 6、Surface Pro 7、Surface Pro 7+、Surface Pro X
 - Surface Laptop (第一代) 、Surface Laptop 2、Surface Laptop 3、Surface Laptop Go、Surface Laptop 4
@@ -48,49 +48,49 @@ ms.locfileid: "11576502"
 
 ## <a name="uefi-pc-information-page"></a>UEFI 电脑信息页
 
-电脑信息页面包含有关 Surface 设备的详细信息： 
+电脑信息页面包含有关 Surface 设备的详细信息：
 
-- **型号**– Surface 设备型号将在此处显示，如 Surface Book 2 或 Surface Pro 7。 不会显示设备的具体配置（例如处理器、磁盘大小或内存大小）。 
-- **UUID** - 此通用唯一标识号特定于设备，用于在部署或管理期间标识设备。 
+- **型号**– Surface 设备型号将在此处显示，如 Surface Book 2 或 Surface Pro 7。 不会显示设备的具体配置（例如处理器、磁盘大小或内存大小）。
+- **UUID** - 此通用唯一标识号特定于设备，用于在部署或管理期间标识设备。
 
 - **序列号** - 此编号用于标识资源标记和支持场景的特定 Surface 设备。
-- **资源标记** - 资源标记通过[资源标记工具](https://docs.microsoft.com/surface/assettag)分配到 Surface 设备。 
+- **资源标记** - 资源标记通过[资源标记工具](assettag.md)分配到 Surface 设备。
 
-还可以找到关于 Surface 设备固件的详细信息。 Surface 设备具有多个内部组件，每个组件运行不同版本的固件。 以下所有设备的固件版本显示在**电脑信息**页上（如图 1 所示）： 
+还可以找到关于 Surface 设备固件的详细信息。 Surface 设备具有多个内部组件，每个组件运行不同版本的固件。 以下所有设备的固件版本显示在**电脑信息**页上（如图 1 所示）：
 
-- 系统 UEFI 
+- 系统 UEFI
 
-- SAM 控制器 
+- SAM 控制器
 
-- Intel 管理引擎 
+- Intel 管理引擎
 
-- 系统嵌入式控制器 
+- 系统嵌入式控制器
 
-- 触摸固件 
+- 触摸固件
 
-![系统信息和固件版本信息](images/manage-surface-uefi-figure-1.png "System information and firmware version information")
+:::image type="content" alt-text="系统信息和固件版本信息。" source="images/manage-surface-uefi-figure-1.png":::
 
 *图 1. 系统信息和固件版本信息*
 
-在设备的 [Surface 更新历史记录](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history)中可以找到有关 Surface 设备最新固件版本的最新信息。 
+在设备的 [Surface 更新历史记录](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history)中可以找到有关 Surface 设备最新固件版本的最新信息。
 
-## <a name="uefi-security-page"></a>UEFI 安全页 
+## <a name="uefi-security-page"></a>UEFI 安全页
 
-![配置 Surface UEFI 安全设置](images/manage-surface-uefi-fig4.png "Configure Surface UEFI security settings")
+:::image type="content" alt-text="配置 Surface UEFI 安全设置。" source="images/manage-surface-uefi-fig4.png":::
 
 *图 2. 配置 Surface UEFI 安全设置*
 
-The Security page allows you to set a password to protect UEFI settings. 在将 Surface 设备启动到 UEFI 时，必须输入此密码。 密码可以包含以下字符 (如图) 3 所示： 
+The Security page allows you to set a password to protect UEFI settings. 在将 Surface 设备启动到 UEFI 时，必须输入此密码。 密码可以包含以下字符 (如图) 3 所示：
 
-- 大写字母：A-Z 
+- 大写字母：A-Z
 
-- 小写字母：a-z 
+- 小写字母：a-z
 
-- 数字：1-0 
+- 数字：1-0
 
-- 特殊字符：！@#$%^&* () ？<>{} []-_=+|.，;：''" 
+- 特殊字符：！@#$%^&* () ？<>{} []-_=+|.，;：''"
 
-密码必须最少为 6 个字符，并且区分大小写。 
+密码必须最少为 6 个字符，并且区分大小写。
 
 ![添加保护 Surface UEFI 设置的密码](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
 
@@ -102,82 +102,82 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 *图 4. 配置安全启动*
 
-根据你的设备，你可能还能够查看你的 TPM 是已启用还是已禁用。 如果看不到"启用**TPM"** 设置，请在"Windows中打开 tpm.msc 以检查状态，如图 5 所示。 TPM 用于与 BitLocker 一起验证设备数据的加密情况。 若要了解更多信息，请参阅BitLocker[概述](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview)。 
+根据你的设备，你可能还能够查看你的 TPM 是已启用还是已禁用。 如果看不到"启用**TPM"** 设置，请在"Windows打开 tpm.msc 以检查状态，如图 5 所示。 TPM 用于与 BitLocker 一起验证设备数据的加密情况。 若要了解更多信息，请参阅 [BitLocker 概述](/windows/security/information-protection/bitlocker/bitlocker-overview)。
 
 ![TPM 控制台](images/manage-surface-uefi-fig5-a.png "TPM console")
 
 *图 5. TPM 控制台*
 
-
-## <a name="uefi-menu-devices"></a>UEFI 菜单：设备 
+## <a name="uefi-menu-devices"></a>UEFI 菜单：设备
 
 "设备"页允许你启用或禁用特定设备和组件，包括：
 
-- 扩展坞和 USB 端口 
+- 扩展 USB 端口
 
-- MicroSD 或 SD 卡槽 
+- MicroSD 或 SD 卡槽
 
-- 后置摄像头 
+- 后置摄像头
 
-- 前置摄像头 
+- 前置摄像头
 
-- 红外 (IR) 相机 
+- 红外 (IR) 相机
 
-- WLAN 和蓝牙 
+- WLAN 和蓝牙
 
-- 板载音频（扬声器和麦克风） 
+- 板载音频（扬声器和麦克风）
 
-每个设备都列出了一个滑块按钮，你可以将其移动到"**** 打开" (启用 **) 或 (** 禁用) 位置，如图 6 所示。 
+每个设备都列出了一个滑块按钮，你可以将其移动到启用**** () 或 (禁用) 位置，如图**** 6 所示。
 
-![启用和禁用特定设备](images/manage-surface-uefi-fig5a.png "Enable and disable specific devices")
+:::image type="content" alt-text="启用和禁用特定设备。" source="images/manage-surface-uefi-fig5a.png":::
 
 *图 6. 启用和禁用特定设备*
 
-## <a name="uefi-menu-boot-configuration"></a>UEFI 菜单：启动配置 
+## <a name="uefi-menu-boot-configuration"></a>UEFI 菜单：启动配置
 
-"启动配置"页允许你更改启动设备的顺序，以及启用或禁用以下设备的启动： 
+"启动配置"页允许你更改启动设备的顺序，以及启用或禁用以下设备的启动：
 
-- Windows 启动管理器 
+- Windows 启动管理器
 
-- USB 存储 
+- USB 存储
 
-- PXE 网络 
+- PXE 网络
 
-- 内部存储 
+- 内部存储
 
-可以立即启动特定设备，或使用触摸屏在列表中向左滑动该设备项。 还可以在关闭 Surface 设备电源时，同时按**调低音量**按钮和**电源**按钮，立即启动到 USB 设备或 USB 以太网适配器。 
+可以立即启动特定设备，或使用触摸屏在列表中向左滑动该设备项。 还可以在关闭 Surface 设备电源时，同时按**调低音量**按钮和**电源**按钮，立即启动到 USB 设备或 USB 以太网适配器。
 
-为了使指定的启动顺序生效，必须将"启用备用启动序列"**** 选项设置为 **"打开**"，如图 7 所示。 
+为了使指定的启动顺序生效，必须将"启用备用启动序列"**** 选项设置为 **"打开**"，如图 7 所示。
 
-![配置 Surface 设备的启动顺序](images/manage-surface-uefi-fig6.png "Configure the boot order for your Surface device")
+:::image type="content" alt-text="配置 Surface 设备的启动顺序。" source="images/manage-surface-uefi-fig6.png":::
 
-*图 7. 配置 Surface 设备的启动顺序* 
+*图 7. 配置 Surface 设备的启动顺序*
 
 在使用 PXE 服务器仅为 IPv4 配置的 PXE 部署 Windows 时，还可以使用**启用用于 PXE 网络启动的 IPv6** 选项来打开和关闭对 PXE 的 IPv6 支持。  
 
 ## <a name="uefi-menu-management"></a>UEFI 菜单："管理"
+
 "管理"页允许你在符合条件的设备上管理零接触 UEFI 管理和其他功能的使用，包括 Surface Pro 7、Surface Pro X 和 Surface Laptop 3。  
 
-![管理对零接触 UEFI 管理和其他功能的访问权限 ](images/manage-surface-uefi-fig7a.png "Manage access to Zero Touch UEFI Management and other features")
- *图 8。管理对零接触 UEFI 管理和其他功能的访问权限* 
+:::image type="content" alt-text="管理对零接触 UEFI 管理和其他功能的访问权限。" source="images/manage-surface-uefi-fig7a.png":::
 
+*图 8. 管理对零接触 UEFI 管理和其他功能的访问权限*
 
-借助零接触 UEFI 管理，可以使用 Intune 中的设备配置文件（称为设备固件配置接口 (DFCI) ）远程管理 UEFI 设置。 如果未配置此设置，则使用 DFCI 管理符合条件的设备的能力将设置为 **"就绪"。** 若要阻止 DFCI，请选择 **"选择退出"。** 
+零接触 UEFI 管理允许你使用 Intune 中的设备配置文件（称为设备固件配置接口和 DFCI (）远程管理 UEFI) 。 如果未配置此设置，则使用 DFCI 管理符合条件的设备的能力将设置为 **"就绪"。** 若要阻止 DFCI，请选择 **"选择退出"。**
 
 > [!NOTE]
 > UEFI 管理设置页和 DFCI 的使用目前适用于 Surface Pro 7+、Surface Laptop Go、Surface Book 3、Surface Laptop 4、Surface Laptop 3、Surface Pro 7 和 Surface Pro X。若要了解更多信息，请参阅[Surface UEFI](surface-manage-dfci-guide.md)设置的 Intune 管理。
 
-## <a name="uefi-menu-exit"></a>UEFI 菜单：退出 
+## <a name="uefi-menu-exit"></a>UEFI 菜单：退出
 
-使用"**退出"****页上的"** 立即重启"按钮退出 UEFI 设置，如图 9 所示。 
+使用"**退出"****页上的"** 立即重启"按钮退出 UEFI 设置，如图 9 所示。
 
-![退出 Surface UEFI，并重启设备](images/manage-surface-uefi-fig7.png "Exit Surface UEFI and restart the device")
+:::image type="content" alt-text="退出 Surface UEFI 并重启设备。" source="images/manage-surface-uefi-fig7.png":::
 
 *图 9. 单击“立即重启”退出 Surface UEFI，并重启设备*
 
 ## <a name="surface-uefi-boot-screens"></a>Surface UEFI 启动屏幕
 
-当你通过 Windows 更新或手动安装更新 Surface 设备固件时，更新不会立即适用于设备，而是在下个重新启动周期应用。 可以在管理和部署 Surface 驱动程序和固件更新中了解有关 Surface 固件更新 [过程的信息](manage-surface-driver-and-firmware-updates.md)。 固件更新的进度会在屏幕上显示为具有不同颜色的进度栏，以指示每个组件的固件。 图 9 至 18 显示了每个组件的进度栏。
+当你通过 Windows 更新或手动安装更新 Surface 设备固件时，更新不会立即适用于设备，而是在下个重新启动周期应用。 可以在管理和部署 Surface 驱动程序和固件更新中了解有关 Surface 固件更新 [过程的信息](manage-surface-driver-and-firmware-updates.md)。 固件更新的进度会在屏幕上显示为具有不同颜色的进度栏，以指示每个组件的固件。 图 9 至 18 中显示了每个组件的进度栏。
 
 ![带有蓝色进度栏的 Surface UEFI 固件更新](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
 
@@ -215,11 +215,9 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 *图 18. Surface TCON 固件更新显示浅灰色进度栏*
 
-
 ![带淡紫色进度栏的 Surface TPM 固件](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
 
 *图 19. Surface TPM 固件更新显示紫色的进度栏*
-
 
 >[!NOTE]
 >将显示其他指示安全启动已禁用的警告消息，如图 19 所示。
@@ -230,10 +228,10 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 ## <a name="references"></a>参考
 
-1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。 
+1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。
 
 ## <a name="related-topics"></a>相关主题
 
 - [Surface UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)
 
--  [Surface 企业管理模式](surface-enterprise-management-mode.md)
+- [Surface 企业管理模式](surface-enterprise-management-mode.md)
