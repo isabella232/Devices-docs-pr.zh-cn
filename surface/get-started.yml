@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 9367329bcaa7c42a31cc8de5ffcee2e65f4c8437
-  ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+  ms.openlocfilehash: 88674469b94de346a6a3a2b427f4cff034a3d405
+  ms.sourcegitcommit: 2776af08eb63c0a23950c476256e5019f83effd8
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 07/24/2021
-  ms.locfileid: "11676506"
+  ms.lasthandoff: 08/17/2021
+  ms.locfileid: "11902671"
 landingContent:
 - title: Surface 设备
   linkLists:
@@ -42,7 +42,7 @@ landingContent:
       url: surface-laptop-processors.md
     - text: Surface HeadPhones 2+ 技术概述
       url: surface-headphones.md
-    - text: Surface 上的 Windows 虚拟桌面
+    - text: Surface 上的 Azure 虚拟桌面
       url: windows-virtual-desktop-surface.md
 - title: Microsoft Ignite
   linkLists:
@@ -52,7 +52,7 @@ landingContent:
       url: https://youtu.be/WQ-wg8fRzN0
     - text: Surface Pro远程Windows ARM X 和 ARM
       url: https://youtu.be/bDw77ZQNPPw
-    - text: Surface Security – Microsoft 的云Endpoint Protection芯片
+    - text: Surface Security – Microsoft 的芯片Endpoint Protection云新式应用
       url: https://youtu.be/uadAecDbqf4
 - title: 部署 Surface 设备
   linkLists:
