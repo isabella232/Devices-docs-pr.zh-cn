@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: b812e3ef406f90ed68a68259ee874102396d0792
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: a073f458761613ab963ca0f1f62cc4c6e3b1a85d
+ms.sourcegitcommit: 3810c4310e9f5b5b9ad7b4584eaede2789ccd946
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613881"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "11902861"
 ---
 # <a name="setup-worksheet-surface-hub"></a>设置工作表 (Surface Hub)
 
@@ -42,9 +42,9 @@ ms.locfileid: "11613881"
 | ExchangeWeb 服务 (EWS)                                        | 启用 EWS。 Surface Hub EWS 同步其日历。                                                                                                                                                                                                                                                                                                                          |                                                                                                                                       | [Surface Hub 新式身份验证](surface-hub-modern-auth.md)                                                                                                                                                            |
 | 多重身份验证                                        | 在设备帐户上禁用多重身份验证。 当Surface Hub登录后台Exchange用户交互时，它无法响应任何交互式提示，如多重身份验证。                                                                                                                                                                         |                                                                                                                                       |                                                                                                                                                                                                                                                                         |
 | MDM 注册详细信息                                            | 如果你想要将设备手动注册到 MDM，则需要具有对 MDM 提供程序和注册 URL 有效的用户凭据。 设备将尝试自动查找注册 URL。 | manage.microsoft.com | [通过 MDM 提供商管理 Surface Hub](manage-settings-with-mdm-for-surface-hub.md) |
-| 友好名称                                                     | 设备的友好名称是指用户将在尝试以无线方式连接到 Surface Hub 时看到的广播名称。 此名称将突出显示在 Surface Hub 的屏幕上。 我们建议所选的友好名称可识别且唯一，以便用户在尝试连接时可以区分不同的 Surface Hub。             | 会议室 15                                                                                                                    | [首次设置Surface Hub](surface-hub-2s-setup.md)                                                                                                                                                                   |
-| 设备名称                                                       | 设备名称既是将用于域加入的名称，也是你将在设备注册到 MDM 中时在 MDM 提供程序中看到的标识。 如果你决定将设备加入域，则你选择的设备名称不得与 Active Directory 域 (中任何其他设备的名称) 。 设备无法加入没有唯一名称的域。  | confroom15                                                                                                                            | [首次设置Surface Hub](surface-hub-2s-setup.md)                                                                                                                                                                   |
-| Teams 应用模式                                                    | - 模式 0 - Skype for Business安排Microsoft Teams会议提供高级功能。<br>- 模式 1 — Microsoft Teams安排Skype for Business会议提供高级功能。<br>- 模式 2 - 仅Microsoft Teams模式                                                                                                                                                         |                                                                                                                                       | [更改默认业务通信平台](manage-settings-with-mdm-for-surface-hub.md)                                                                            |
+| 友好名称                                                     | 设备的友好名称是指用户将在尝试以无线方式连接到 Surface Hub 时看到的广播名称。 此名称将突出显示在 Surface Hub 的屏幕上。 我们建议所选的友好名称可识别且唯一，以便用户在尝试连接时可以区分不同的 Surface Hub。             | 会议室 15                                                                                                                    | [首次设置Surface Hub](first-run-program-surface-hub.md)                                                                                                                                                                   |
+| 设备名称                                                       | 设备名称既是将用于域加入的名称，也是你将在设备注册到 MDM 中时在 MDM 提供程序中看到的标识。 如果你决定将设备加入域，则你选择的设备名称不得与 Active Directory 域 (中任何其他设备的名称) 。 设备无法加入没有唯一名称的域。  | confroom15                                                                                                                            | [首次设置Surface Hub](first-run-program-surface-hub.md)                                                                                                                                                                   |
+| Teams 应用模式                                                    | - 模式 0 - Skype for Business安排Microsoft Teams会议提供高级功能。<br>- 模式 1 - Microsoft Teams安排Skype for Business会议提供高级功能。<br>- 模式 2 - Microsoft Teams                                                                                                                                                         |                                                                                                                                       | [更改默认业务通信平台](manage-settings-with-mdm-for-surface-hub.md)                                                                            |
 
 ## <a name="device-affiliation"></a>设备附属关系
 
@@ -57,8 +57,8 @@ ms.locfileid: "11613881"
 
 | 属性                                                 | 用途                                                                                                                                                                                                                                                    | 示例                         | 了解详细信息                                                                                                                        |
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Azure AD 租户用户凭据（用户名和密码） | 如果你决定让 azure AD Azure Active Directory (组织) 成为设备的管理员，则需要将 Surface Hub 加入 Azure AD。 若要将帐户加入 Azure AD，你将需要租户中帐户的有效凭据。                                                               | admin1@contoso.com，#MyPassw0rd | [管理员组管理](admin-group-management-for-surface-hub.md)                     |
-| 非全局管理员帐户                                | 对于Surface Hub Azure AD 的设备，你可以将管理员权限限制为在 Surface Hub 上管理 设置 应用。 这使你能够仅作用域管理员Surface Hub并阻止可能不需要的管理员访问整个 Azure AD 域。 |                                 | [配置 Surface Hub 上的非全局管理员帐户](surface-hub-2s-nonglobal-admin.md) |
+| Azure AD 租户用户凭据（用户名和密码） | 如果你决定让 Azure AD Azure Active Directory (中的) 成为设备的管理员，那么你将需要将 Surface Hub 加入 Azure AD。 若要将帐户加入 Azure AD，你将需要租户中帐户的有效凭据。                                                               | admin1@contoso.com，#MyPassw0rd | [管理员组管理](admin-group-management-for-surface-hub.md)                     |
+| 非全局管理员帐户                                | 对于Surface Hub Azure AD 的设备，你可以将管理员权限限制为管理 设置 应用Surface Hub。 这使你能够仅作用域管理员Surface Hub并阻止可能不需要的管理员访问整个 Azure AD 域。 |                                 | [配置 Surface Hub 上的非全局管理员帐户](surface-hub-2s-nonglobal-admin.md) |
 
 ### <a name="if-youre-joining-a-domain"></a>如果你要加入域
 
@@ -78,23 +78,23 @@ ms.locfileid: "11613881"
 
 | 属性  | 用途                                                                                                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| USB 驱动器 | 如果你在首次运行之前知道要安装证书或通用应用，请按照创建适用于 Surface Hub[的预配包中的步骤操作](provisioning-packages-for-surface-hub.md)。 你的设置包将在 USB 驱动器上创建。 |
+| USB 驱动器 | 如果在首次运行之前知道要安装证书或通用应用，请按照创建适用于 Surface Hub[的预配包中的步骤操作](provisioning-packages-for-surface-hub.md)。 你的设置包将在 USB 驱动器上创建。 |
 
 ## <a name="post-deployment-checklist"></a>部署后清单
 
 | 选中                                      | 响应                                                                                                                                                                                                          |
 | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **设备帐户同步**                 | ☐是 <br><br>☐ 否                                                                                                                                                                                                |
-| **Bitlocker 密钥**                          | ☐保存到文件 (没有附属关系)  <br><br>☐保存在 Active Directory (AD 附属)  <br><br>☐保存在 Azure AD (Azure AD 附属)                                                                           |
+| **设备帐户同步**                 | ☐是 <br><br>☐否                                                                                                                                                                                                |
+| **Bitlocker 密钥**                          | ☐保存到文件 (没有附属)  <br><br>☐保存在 Active Directory (AD 附属)  <br><br>☐保存在 Azure AD (Azure AD 附属)                                                                           |
 | **设备操作系统更新**                      | ☐ Completed                                                                                                                                                                                                       |
-| **Windows应用商店更新**                  | ☐ 自动 <br><br>☐ 手动                                                                                                                                                                                      |
+| **Windows应用商店更新**                  | ☐自动 <br><br>☐ 手册                                                                                                                                                                                      |
 | **Microsoft Teams安排的会议**      | ☐收到确认电子邮件 <br><br>☐会议显示在"开始"屏幕上 <br><br>☐一键联接函数 <br><br>☐能够加入音频 <br><br>☐能够加入视频 <br><br>☐能够共享屏幕               |
 | **Skype for Business安排的会议**   | ☐收到确认电子邮件<br>☐会议显示在"开始"屏幕上<br>☐一键联接功能正确<br>☐能够加入音频<br>☐能够加入视频<br>☐能够共享屏幕<br>☐能够发送/接收 IM |
 | **已受邀时安排的会议** | ☐会议被拒绝                                                                                                                                                                                                |
 | **Microsoft Teams临时会议**         | ☐邀请其他用户工作 <br><br>☐能够加入音频 <br><br>☐能够加入视频 <br><br>☐能够共享屏幕                                                                                                |
 | **Microsoft Whiteboard**                   | ☐欢迎/开始"屏幕启动 <br><br>☐启动Microsoft Teams                                                                                                                                        |
-| **传入Teams/Skype呼叫**              | ☐能够加入音频<br>☐能够加入视频<br>☐能够共享屏幕<br>☐仅能发送/接收 (SKYPE FOR BUSINESS IM)                                                                                      |
+| **传入Teams/Skype呼叫**              | ☐能够加入音频<br>☐能够加入视频<br>☐能够共享屏幕<br>☐仅能发送/接收 IM (Skype for Business发送)                                                                                      |
 | **传入实时视频流**            | ☐最多 2 (Skype for Business) <br>☐最多 4 (Microsoft Teams)                                                                                                                                                  |
-| **Microsoft Teams模式 0 行为**        | ☐ Skype for Business/开始"屏幕上显示磁贴<br>☐ UI 会议Skype for Business安排 (Skype会议) <br>☐ UI 会议Teams计划 (Teams会议)                                                 |
-| **Microsoft Teams模式 1 行为**        | ☐ Teams/开始"屏幕上的"开始"磁贴<br>☐ UI 会议Skype for Business安排 (Skype会议) <br>☐ UI 会议Teams计划 (Teams会议)                                                              |
-| **Microsoft Teams模式 2 行为**        | ☐ Teams/"开始"屏幕上的"开始"磁贴<br>☐可以加入预定Teams会议<br>☐无法加入Skype for Business会议                                                                                       |
+| **Microsoft Teams模式 0 行为**        | ☐ Skype for Business/开始"屏幕上的"开始"磁贴<br>☐ UI 会议Skype for Business安排 (Skype会议) <br>☐ UI 会议Teams安排 (Teams会议)                                                 |
+| **Microsoft Teams模式 1 行为**        | ☐ Teams/开始"屏幕上的"开始"磁贴<br>☐ UI 会议Skype for Business安排 (Skype会议) <br>☐ UI 会议Teams安排 (Teams会议)                                                              |
+| **Microsoft Teams模式 2 行为**        | ☐ Teams/"开始"屏幕上的"开始"磁贴<br>☐可以加入安排Teams会议<br>☐无法加入Skype for Business会议                                                                                       |

@@ -10,12 +10,12 @@ ms.author: v-tea
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 04/15/2021
-ms.openlocfilehash: 7df7857258c1baeedf4ff239eda17c66c93a531c
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 7c023256750ee997ce50d0adcd392207f47a298f
+ms.sourcegitcommit: 3810c4310e9f5b5b9ad7b4584eaede2789ccd946
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577022"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "11902881"
 ---
 # <a name="surface-hub-may-install-updates-and-restart-outside-maintenance-hours"></a>Surface Hub 可能会安装更新，并在维护时间外重启
 
@@ -28,15 +28,14 @@ ms.locfileid: "11577022"
 
 为了确保Surface Hub在工作时间可用，Hub 配置为在 设置 (中定义的维护时段内执行管理功能，请参阅下面的"引用) 。 在此维护期间，中心会自动通过 WUfB Windows Windows Update for Business (安装任何) 。 更新完成后，中心可能会重新启动。
 
-只有在设备打开但没有使用或保留Surface Hub才能在维护时段内安装更新。 例如，如果 Surface Hub安排在持续 24 小时的会议，则计划安装的任何更新都将延迟，直到下次维护时段提供 Hub。 如果 Hub 继续繁忙，并错过多个维护窗口，则 Hub 最终将开始安装和下载更新。 这可在维护时段期间或之外发生。 下载和安装开始后，设备可能会重新启动。
+只有在设备打开但没有使用或保留Surface Hub才能在维护时段内安装更新。 例如，如果 Surface Hub安排了持续 24 小时的会议，则计划安装的任何更新都将延迟，直到下次维护时段提供 Hub。 如果 Hub 继续繁忙，并错过多个维护窗口，则 Hub 最终将开始安装和下载更新。 这可在维护时段期间或之外发生。 下载和安装开始后，设备可能会重新启动。
 
 ## <a name="to-avoid-this-issue"></a>避免此问题
 
 为用户留出维护时间以执行管理功能Surface Hub这一点很重要。 将更新Surface Hub 24 小时，或在维护时段期间使用设备延迟安装更新。 建议您在计划维护期间不使用或保留 Hub。 应保留一个两小时窗口以供更新。
 
-一个可用于控制更新可用性的选项是Windows更新。
+可用于控制更新可用性的一个选项是 Windows 更新 for Business。
 
 ## <a name="learn-more"></a>了解详细信息
- 
-- [更新 Surface Hub](first-run-program-surface-hub.md#update-the-surface-hub) 
+  
 - [维护窗口](manage-windows-updates-for-surface-hub.md#maintenance-window) 
