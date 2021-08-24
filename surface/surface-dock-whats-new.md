@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: a43566461ab6bbac8045326801617bd6f723316e
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 14b4b5ee72ac92618a2906894840a51dd2229d42
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708763"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911157"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Surface Dock 2 中的新增功能
 
@@ -25,9 +25,9 @@ Surface 扩展坞 2 是下一代 Surface 扩展坞，它允许用户连接外部
 
 ### <a name="full-device-management-support"></a>完整的设备管理支持
 
-Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新或使用内部软件分发工具集中更新来自动执行固件更新。
+Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows Update 自动执行固件更新，或者使用内部软件分发工具集中更新。
 
-- Surface Enterprise Management Mode (SEMM) 使 IT 管理员能够保护 Surface Dock 2 上的端口。 有关详细信息，请参阅使用 Surface 管理模式保护 Surface 扩展坞[2 Enterprise端口](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)。
+- Surface Enterprise 管理模式 (SEMM) 使 IT 管理员能够保护 Surface Dock 2 上的端口。 有关详细信息，请参阅使用 Surface 管理模式保护 Surface 扩展坞[2 Enterprise端口](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)。
 -  WindowsManagement Instrumentation (WMI) 支持使 IT 管理员能够跨 Surface Dock 2 设备远程监视和管理最新的固件、策略状态和相关的数据。 有关详细信息，请参阅使用[WMI 管理 Surface Dock 2。](surface-dock2-wmi.md)
 - 使用软件分发工具集中本地网络更新。 [下载 Surface Dock 2 固件和驱动程序](https://www.microsoft.com/en-us/download/details.aspx?id=101317)。
 
@@ -52,12 +52,12 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
 
 ## <a name="surface-dock-2-components"></a>Surface 扩展坞 2 组件
 
-![Surface 扩展坞 2 组件](./images/surface-dock2.png)
+![Surface 扩展坞 2 组件。](./images/surface-dock2.png)
  
 ### <a name="usb"></a>USB
 
 - 两个前置 USB-C 端口。
-- 两个后置 USB-C#（第 2 代）) 端口。
+- 两个后置 USB-C#（第 2 代) 端口）。
 - 两个后置 USB-A 端口。 
 
 ### <a name="video"></a>视频
@@ -95,13 +95,13 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
 **表 1. Surface 扩展坞和 USB-C 旅行中心**
 
 
-| 组件                           | Surface 扩展坞                                                | Surface Dock 2                                                                                      | USB-C 旅行中心 |
+| 组件                           | Surface 扩展坞                                                | Surface 扩展坞 2                                                                                      | USB-C 旅行中心 |
 | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
 | 显示链接                            | 是                                                         | 是                                                                                                 | 否               |
-| USB-A                               | 2 个前置 USB 3.1 Gen 1<br>2 个后置 USB 3.1 Gen 1 | 2 个后置 USB 3.2 Gen 2 (7.5W 电源)                                                             | 1 USB 3.1 Gen 2  |
+| USB-A                               | 2 个前置 USB 3.1 Gen 1<br>2 个后置 USB 3.1 Gen 1 | 2 个后置 USB 3.2 Gen 2 (7.5W 电源)                                                             | 1 个 USB 3.1 Gen 2  |
 | 微型显示端口                   | 2 个后置 (DP1.2)                                        | 无                                                                                                | 无             |
-| USB-C                               | 无                                                        | 2 个前置 USB 3.2 Gen 2<br> (15W) <br>2 个后置 USB 3.2 Gen 2 (DP1.4a) <br> (7.5W)  | 1 个 USB 3.2 Gen 2  |
-| 3.5 毫米音频输入/输出                 | 是                                                         | 是                                                                                                 | 是              |
+| USB-C                               | 无                                                        | 2 个前置 USB 3.2 Gen 2<br> (15W 电源) <br>2 个后置 USB 3.2 Gen 2 (DP1.4a) <br> (7.5W)  | 1 USB 3.2 Gen 2  |
+| 3.5 mm 音频输入/输出                 | 是                                                         | 是                                                                                                 | 是              |
 | 以太网                            | 是，1 GB                                              | 是 1 GB                                                                                       | 是，1 GB   |
 | DC 电源输入                         | 是                                                         | 是                                                                                                 |                  |
 | Kensington 锁定                     | 是                                                         | 是                                                                                                 |                  |
@@ -121,7 +121,7 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
 
 
 
-1. *设备必须配置为通过 Surface Enterprise 管理模式 (SEMM) 或设备固件控制接口 (DFCI) 在 LAN 上唤醒，以从休眠或 Power-Off 状态中唤醒。 在 Surface Pro 7+、Surface Pro 7、Surface Laptop 4、Surface Laptop 3、Surface Pro X、Surface Book 3 和 Surface Go 2 上支持从休眠或休眠中唤醒。 Power-Off  某些功能所需的软件许可证。 单独出售。*
+1. *设备必须配置为通过 Surface Enterprise 管理模式 (SEMM) 或设备固件控制接口 (DFCI) 在 LAN 上唤醒，以从休眠或 Power-Off 状态中唤醒。 Surface Pro 7+、Surface Pro 7、Surface Laptop 4、Surface Laptop 3、Surface Pro X、Surface Book 3 和 Surface Go 2 支持从休眠或休眠中唤醒。 Power-Off  某些功能所需的软件许可证。 单独出售。*
 
 2. *某些功能所需的软件许可证。 单独出售。*
 
@@ -131,10 +131,10 @@ Surface 通过 Windows 更新发布了简化的管理功能，使 IT 管理员�
 
 - **无接触更新**。 使用 Windows Update 或 Microsoft Endpoint Configuration Manager 自动更新扩展坞 (以前System Center Configuration Manager - SCCM) 或其他 MSI 部署工具。 
 - **从网络唤醒**。 管理和访问公司设备，而无需依赖用户来使设备保持打开状态。 即使固定设备进入睡眠、休眠或断电模式，团队也可使用 Endpoint Configuration Manager 或其他企业管理工具从网络唤醒以用于服务和管理。
-- **集中式 IT 控制**。 通过打开和关闭端口来控制谁可以连接到 Surface Dock 2。 限制哪些主机设备可以与 Surface Dock 2 一同使用。 将扩展坞访问权限限制为单个用户或配置扩展坞，以便只有团队中或整个公司中的特定用户访问。
+- **集中式 IT 控制**。 通过打开和关闭端口来控制谁可以连接到 Surface Dock 2。 限制哪些主机设备可以与 Surface Dock 2 一起使用。 将扩展坞访问权限限制为单个用户或配置扩展坞，以便只有团队中或整个公司中的特定用户访问。
 
 ## <a name="next-steps"></a>后续步骤
 
-- [使用 Surface Enterprise 管理模式保护 Surface 扩展坞 2 端口](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
+- [使用 Surface Enterprise 管理模式的安全 Surface 扩展坞 2 端口](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 - [Surface 企业管理模式](surface-enterprise-management-mode.md)
 - [Surface 设备电源设置的最佳做法](maintain-optimal-power-settings-on-Surface-devices.md)

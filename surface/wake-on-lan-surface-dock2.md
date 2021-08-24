@@ -1,6 +1,6 @@
 ---
 title: 通过 Surface Dock 2 LAN 唤醒
-description: Surface Dock 2 为 LAN 上的唤醒和 WOL (最佳) 使管理员能够远程唤醒设备并自动执行管理任务。
+description: Surface Dock 2 为 LAN 唤醒和 WOL (WOL) 使管理员能够远程唤醒设备并自动执行管理任务。
 keywords: 更新， 部署， 驱动程序， wol， lan 上唤醒
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -14,12 +14,12 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 7/30/2021
-ms.openlocfilehash: 935cec6eed15b7831bffafdc2078a9cadf2067e2
-ms.sourcegitcommit: 6a7f96a497c8749a5997972db139542563769101
+ms.openlocfilehash: 84a87342891dac2e4c0b0490458941c82fa0d018
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2021
-ms.locfileid: "11710576"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911607"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>通过 Surface Dock 2 LAN 唤醒
 
@@ -30,7 +30,7 @@ ms.locfileid: "11710576"
 设备必须与 Surface 扩展坞 2 建立有线连接，并持续连接到交流电源。
 
 > [!div class="mx-imgBorder"]
-> ![Surface Dock 2](images/surface-dock2-angled.png)
+> ![Surface 扩展坞 2。](images/surface-dock2-angled.png)
 
 > [!NOTE]
 > 唤醒连接到 Surface 扩展坞 2 的设备不需要使用 Surface Enterprise 管理模式 (SEMM) 或启用任何 UEFI 策略设置。
@@ -57,7 +57,7 @@ Surface Dock 2 为以下电源状态中的设备提供 WOL 支持：
 
 ## <a name="how-it-works"></a>工作原理
 
-不使用时，Surface 设备将进入空闲的低电源状态，称为现代待机或连接待机。 或者设备可能休眠或 (S4) 或 (S5) 电源状态，根据设备上配置的电源设置。 IT 管理员可以使用唤醒请求远程触发设备 (包含目标 Surface 设备的媒体访问控制 (MAC) 地址的神奇数据包) 。 许多管理解决方案（Microsoft Endpoint Configuration Manager第三方Microsoft Store应用）都提供对 WOL 的内置支持。
+不使用时，Surface 设备会进入空闲的低电源状态，称为现代待机或连接待机。 或者设备可能休眠或 (S4) 或 (S5) 电源状态，根据设备上配置的电源设置。 IT 管理员可以使用唤醒请求远程触发设备 (包含目标 Surface 设备的媒体访问控制 (MAC) 地址的神奇数据包) 。 许多管理解决方案（Microsoft Endpoint Configuration Manager第三方Microsoft Store应用）都提供对 WOL 的内置支持。
 
 若要在没有 Surface 扩展坞 2 的设备上启用 WOL，请参阅：
 
@@ -65,7 +65,7 @@ Surface Dock 2 为以下电源状态中的设备提供 WOL 支持：
 
 ## <a name="learn-more"></a>了解详细信息
 
-- [Surface Dock 2](https://www.microsoft.com/p/surface-dock-2-for-business/8q4hgc6kbmdq?)
+- [Surface 扩展坞 2](https://www.microsoft.com/p/surface-dock-2-for-business/8q4hgc6kbmdq?)
 - [Surface 设备的 LAN 唤醒](wake-on-lan-for-surface-devices.md)
 - [系统电源状态](/windows/win32/power/system-power-states)
 

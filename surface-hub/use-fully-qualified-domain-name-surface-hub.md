@@ -14,19 +14,19 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.prod: surface-hub
 ms.sitesec: library
-ms.openlocfilehash: 79507f5b4bb22b23d1e6c4db6b4aab6ea891d876
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: c9617ec9c77d0f0c0333a156448ca24c18aec1db
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830825"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911757"
 ---
-# 为 Skype for Business 配置域名
+# <a name="configure-domain-name-for-skype-for-business"></a>为 Skype for Business 配置域名
 
 在以下方案中需要指定 Skype for Business 服务器的域名：
 - **多个 DNS 后缀** - 当 Skype for Business 基础结构具有非连续命名空间时，会使得一个或多个服务器具有与 Skype for Business (SIP) 登录地址后缀不匹配的 DNS 后缀。  
 - **Skype for Business 和 Exchange 后缀不同** - 当 Skype for Business 登录地址的后缀与用于设备帐户的 Exchange 地址后缀不同时。
-- 使用**证书**-具有本地 Skype for business 服务器的大型组织通常会将证书与自己的根证书颁发机构（CA）结合使用。 CA 域不同于 Skype for Business 服务器的域很常见，这会导致证书不受信任以及登录失败。  Skype 需要了解证书的域名，以便建立信任关系。 企业通常使用组策略来将其推送至 Skype 桌面，但组策略在 Surface Hub 上不受支持。
+- **使用证书**- 具有本地证书服务器的大型Skype for Business通常使用具有其自己的根证书颁发机构或 CA (证书) 。 CA 域不同于 Skype for Business 服务器的域很常见，这会导致证书不受信任以及登录失败。  Skype 需要了解证书的域名，以便建立信任关系。 企业通常使用组策略来将其推送至 Skype 桌面，但组策略在 Surface Hub 上不受支持。
 
 **为 Skype for Business Server 配置域名**</br>
 1. 在 Surface Hub 上，打开**设置**。
@@ -36,4 +36,4 @@ ms.locfileid: "10830825"
    > [!TIP]
    > 可键入多个域名，用逗号分开。 <br> 例如：lync.com、outlook.com、lync.glbdns.microsoft.com
 
-    ![将 Skype for Business FQDN 添加到设置](images/system-settings-add-fqdn.png)
+    ![将Skype for Business FQDN 添加到设置。](images/system-settings-add-fqdn.png)

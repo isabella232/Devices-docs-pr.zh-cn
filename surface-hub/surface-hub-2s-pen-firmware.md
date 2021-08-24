@@ -11,27 +11,27 @@ audience: Admin
 ms.topic: article
 ms.date: 04/15/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: c94cb701fb1b7fcdc0168a795f57a4e497317902
-ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
+ms.openlocfilehash: fb0948623ec9c12aa818e4829285ea77229bf71d
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "11585963"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911577"
 ---
 # <a name="update-pen-firmware-on-surface-hub-2s"></a>更新 Surface Hub 2S 手写笔固件
 
-你可以从适用于Surface Hub更新Windows 2 触控笔上更新固件，或者将固件更新下载到单独的电脑。 从 2020 年 2 Windows 26 日起更新固件。 
+你可以从适用于Surface Hub更新Windows 2 触控笔上更新固件，或者将固件更新下载到单独的电脑。 从 2020 年 2 月 26 Windows更新中提供了更新的固件。 
 
 ## <a name="update-pen-firmware-using-windows-update-for-business"></a>使用适用于Windows更新更新笔固件
 
-本节介绍如何通过 Windows 更新的自动维护周期来更新笔固件，该更新默认配置为在下午 3 点发生。 在将更新应用到 2 个笔之前，您需要规划两个维护Surface Hub完成。 或者，与任何其他更新一样，您可以使用 Windows Update for Business (WUfB) 应用笔固件。 有关详细信息，请参阅管理Windows[更新Surface Hub。](manage-windows-updates-for-surface-hub.md)
+本节介绍如何通过 Windows 更新的自动维护周期来更新笔固件，该更新默认配置为在下午 3 点发生。 在将更新应用到 2 个笔之前，您需要规划两个维护Surface Hub完成。 或者，与任何其他更新一样，您可以使用 Windows Update for Business (WUfB) 应用笔固件。 有关详细信息，请参阅管理[Windows更新Surface Hub。](manage-windows-updates-for-surface-hub.md)
 
-1. 确保将Surface Hub 2 个笔配对Surface Hub 2S：长按顶部按钮，直到白色指示灯**** 开始闪烁。
+1. 确保将Surface Hub 2 个笔与 2S Surface Hub：长按顶部按钮，直到白色**** 指示灯开始闪烁。
 
     > [!div class="mx-imgBorder"]
-    > ![Surface Hub 2 个笔](images/sh2-pen-1.png)
+    > ![Surface Hub 2 个笔。](images/sh2-pen-1.png)
 
-2. On Surface Hub， login as an Admin， open**设置**， and then scan for new 蓝牙 devices.
+2. 在Surface Hub，以管理员模式登录，设置，然后扫描**** 新的蓝牙设备。
 
 3. 选择笔以完成配对过程。
 
@@ -41,10 +41,10 @@ ms.locfileid: "11585963"
 
 你可以从运行 Surface Hub 2 触控笔的单独电脑上更新Windows 10。 此方法还允许您验证笔固件已成功更新到最新版本。
 
-1. 将 Surface Hub 2 个笔与蓝牙的电脑配对：长按顶部按钮，直到白色指示灯开始**** 闪烁。
+1. 将Surface Hub 2 个笔与蓝牙电脑配对：长按顶部按钮，直到白色指示灯开始闪烁****。
 
     > [!div class="mx-imgBorder"]
-    > ![Surface Hub 2 个笔](images/sh2-pen-1.png)
+    > ![Surface Hub 2 个笔。](images/sh2-pen-1.png)
 
 2. 在电脑上，扫描新的蓝牙设备。
 
@@ -69,7 +69,7 @@ ms.locfileid: "11585963"
 
 ## <a name="command-line-options"></a>命令行选项
 
-你可以从Surface Hub运行 (PenCfu.exe) 2 笔固件更新工具。
+可以从命令行Surface Hub 2 笔固件 (PenCfu.exe) 工具。
 
 1. 将笔与电脑配对，然后单击 **笔** 上的顶部按钮。
 

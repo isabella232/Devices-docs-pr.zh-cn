@@ -13,12 +13,12 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 04/13/2021
-ms.openlocfilehash: 1ba8da50472927ff106b7243d89c15995844b191
-ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
+ms.openlocfilehash: 60ace1e2b9344faeb9f130a56686ffac4643fc37
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "11883019"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911317"
 ---
 # <a name="manage-surface-uefi-settings"></a>管理 Surface UEFI 设置
 
@@ -36,7 +36,7 @@ ms.locfileid: "11883019"
 
 ## <a name="support-for-cloud-based-management"></a>支持基于云的管理
 
-通过内置于 Microsoft Intune (中的设备固件配置接口 (DFCI) 配置文件现在可用于公共预览版) ，Surface UEFI 管理将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 DFCI 目前可用于 Surface Pro 7+、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7 和 Surface Pro X。 有关详细信息，请参阅 Surface [UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
+通过内置于 Microsoft Intune (中的设备固件配置接口 (DFCI) 配置文件现已在公共预览版) 中提供，Surface UEFI 管理将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 DFCI 目前适用于 Surface Pro 7+、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7 和 Surface Pro X。 有关详细信息，请参阅 Surface [UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
 
 ## <a name="open-surface-uefi-menu"></a>打开 Surface UEFI 菜单
 
@@ -92,19 +92,19 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 密码必须最少为 6 个字符，并且区分大小写。
 
-![添加保护 Surface UEFI 设置的密码](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
+![添加密码以保护 Surface UEFI 设置。](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
 
 *图 3. 添加保护 Surface UEFI 设置的密码*
 
 在安全页上，还可以更改 Surface 设备的安全启动配置。 安全启动技术可阻止未经授权的启动代码启动 Surface 设备，这可防御 bootkit 和 rootkit 类型的恶意软件感染。 可以禁用安全启动，从而允许 Surface 设备启动第三方操作系统或可启动媒体。 还可以配置安全启动以使用第三方证书，如图 4 所示。 在 TechNet 库中阅读有关[安全启动](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview)的详细信息。
 
-![配置安全启动](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
+![配置安全启动。](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
 
 *图 4. 配置安全启动*
 
-根据你的设备，你可能还能够查看你的 TPM 是已启用还是已禁用。 如果看不到"启用**TPM"** 设置，请在"Windows打开 tpm.msc 以检查状态，如图 5 所示。 TPM 用于与 BitLocker 一起验证设备数据的加密情况。 若要了解更多信息，请参阅 [BitLocker 概述](/windows/security/information-protection/bitlocker/bitlocker-overview)。
+根据你的设备，你可能还能够查看你的 TPM 是已启用还是已禁用。 如果未看到"启用**TPM"** 设置，请在"Windows中打开 tpm.msc 以检查状态，如图 5 所示。 TPM 用于与 BitLocker 一起验证设备数据的加密情况。 若要了解更多信息，请参阅 [BitLocker 概述](/windows/security/information-protection/bitlocker/bitlocker-overview)。
 
-![TPM 控制台](images/manage-surface-uefi-fig5-a.png "TPM console")
+![TPM 控制台。](images/manage-surface-uefi-fig5-a.png "TPM console")
 
 *图 5. TPM 控制台*
 
@@ -126,7 +126,7 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 - 板载音频（扬声器和麦克风）
 
-每个设备都列出了一个滑块按钮，你可以将其移动到启用**** () 或 (禁用) 位置，如图**** 6 所示。
+每个设备都列出了一个滑块按钮，你可以将其移动到"**** 打开" (启用) 或 (禁用) 位置，**** 如图 6 所示。
 
 :::image type="content" alt-text="启用和禁用特定设备。" source="images/manage-surface-uefi-fig5a.png":::
 
@@ -162,7 +162,7 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 *图 8. 管理对零接触 UEFI 管理和其他功能的访问权限*
 
-零接触 UEFI 管理允许你使用 Intune 中的设备配置文件（称为设备固件配置接口和 DFCI (）远程管理 UEFI) 。 如果未配置此设置，则使用 DFCI 管理符合条件的设备的能力将设置为 **"就绪"。** 若要阻止 DFCI，请选择 **"选择退出"。**
+零接触 UEFI 管理允许你使用 Intune 中的设备配置文件（称为设备固件配置接口 (DFCI) ）远程管理 UEFI 设置。 如果未配置此设置，则使用 DFCI 管理符合条件的设备的能力将设置为 **"就绪"。** 若要阻止 DFCI，请选择 **"选择退出"。**
 
 > [!NOTE]
 > UEFI 管理设置页和 DFCI 的使用目前适用于 Surface Pro 7+、Surface Laptop Go、Surface Book 3、Surface Laptop 4、Surface Laptop 3、Surface Pro 7 和 Surface Pro X。若要了解更多信息，请参阅[Surface UEFI](surface-manage-dfci-guide.md)设置的 Intune 管理。
@@ -179,50 +179,50 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 当你通过 Windows 更新或手动安装更新 Surface 设备固件时，更新不会立即适用于设备，而是在下个重新启动周期应用。 可以在管理和部署 Surface 驱动程序和固件更新中了解有关 Surface 固件更新 [过程的信息](manage-surface-driver-and-firmware-updates.md)。 固件更新的进度会在屏幕上显示为具有不同颜色的进度栏，以指示每个组件的固件。 图 9 至 18 中显示了每个组件的进度栏。
 
-![带有蓝色进度栏的 Surface UEFI 固件更新](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
+![使用蓝色进度栏进行 Surface UEFI 固件更新。](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
 
 *图 10. Surface UEFI 固件更新显示蓝色进度栏*
 
-![带有绿色进度栏的系统嵌入式控制器固件](images/manage-surface-uefi-fig9.png "System Embedded Controller firmware with green progress bar")
+![带绿色进度栏的系统嵌入式控制器固件。](images/manage-surface-uefi-fig9.png "System Embedded Controller firmware with green progress bar")
 
 *图 11. 系统嵌入式控制器固件更新显示绿色进度栏*
 
-![带有橙色进度栏的 SAM 控制器固件更新](images/manage-surface-uefi-fig10.png "SAM Controller firmware update with orange progress bar")
+![使用橙色进度栏更新 SAM 控制器固件。](images/manage-surface-uefi-fig10.png "SAM Controller firmware update with orange progress bar")
 
 *图 12. SAM 控制器固件更新显示橙色进度栏*
 
-![带有红色进度栏的 Intel 管理引擎固件](images/manage-surface-uefi-fig11.png "Intel Management Engine firmware with red progress bar")
+![带红色进度栏的 Intel 管理引擎固件。](images/manage-surface-uefi-fig11.png "Intel Management Engine firmware with red progress bar")
 
 *图 13. Intel 管理引擎固件更新显示红色进度栏*
 
-![带有灰色进度栏的 Surface 触摸固件](images/manage-surface-uefi-fig12.png "Surface touch firmware with gray progress bar")
+![带灰色进度条的 Surface 触摸固件。](images/manage-surface-uefi-fig12.png "Surface touch firmware with gray progress bar")
 
 *图 14. Surface 触摸固件更新显示灰色进度栏*
 
-![使用浅绿色进度栏的 Surface KIP 固件](images/manage-surface-uefi-fig13.png "Surface touch firmware with light green progress bar")
+![使用浅绿色进度栏的 Surface KIP 固件。](images/manage-surface-uefi-fig13.png "Surface touch firmware with light green progress bar")
 
 *图 15. Surface KIP 固件更新显示浅绿色进度栏*
 
-![带粉色进度栏的 Surface ISH 固件](images/manage-surface-uefi-fig14.png "Surface ISH firmware with pink progress bar")
+![带粉色进度栏的 Surface ISH 固件。](images/manage-surface-uefi-fig14.png "Surface ISH firmware with pink progress bar")
 
 *图 16 Surface ISH 固件更新显示浅粉色进度栏*
 
-![带灰色进度栏的 Surface Trackpad 固件](images/manage-surface-uefi-fig15.png "Surface Trackpad firmware with gray progress bar")
+![带灰色进度栏的 Surface Trackpad 固件。](images/manage-surface-uefi-fig15.png "Surface Trackpad firmware with gray progress bar")
 
 *图 17. Surface Trackpad 固件更新显示粉色进度栏*
 
-![具有浅灰色进度栏的 Surface TCON 固件](images/manage-surface-uefi-fig16.png "Surface TCON firmware with light gray progress bar")
+![具有浅灰色进度条的 Surface TCON 固件。](images/manage-surface-uefi-fig16.png "Surface TCON firmware with light gray progress bar")
 
 *图 18. Surface TCON 固件更新显示浅灰色进度栏*
 
-![带淡紫色进度栏的 Surface TPM 固件](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
+![带淡紫色进度条的 Surface TPM 固件。](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
 
 *图 19. Surface TPM 固件更新显示紫色的进度栏*
 
 >[!NOTE]
 >将显示其他指示安全启动已禁用的警告消息，如图 19 所示。
 
-![指示安全启动已禁用的 Surface 启动屏幕](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
+![指示安全启动已禁用的 Surface 启动屏幕。](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
 
 *图 20. 指示安全启动已在 Surface UEFI 设置中禁用的安全启动屏幕*
 

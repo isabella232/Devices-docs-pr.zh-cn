@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 03/22/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 9b7a3e49f3fa05117fa37cbd47695e54ff26e899
-ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
-ms.translationtype: HT
+ms.openlocfilehash: 823c80e812038a0d2f2efaca65d97d1379f03e35
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "11470490"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911207"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a>安装和装载 Surface Hub 2S 85”
 
@@ -48,14 +48,14 @@ ms.locfileid: "11470490"
 3. 打开并删除两端中的六 （6） 个剪辑。
 4. 删除外盖，然后抬起并删除前面板和后面板。
 
- ![删除外部包装](images/hub85mount1a.png) <br>
+ ![删除外部打包。](images/hub85mount1a.png) <br>
 
 ## <a name="2-remove-black-outer-packaging-foam"></a>2.删除黑色外部包装包装包装
 
 1. 删除黑色角部填充件 （4）。
 2. 删除黑色中心技术支持。
 
- ![删除黑色外部包装包装包装盒](images/hub85mount2a.png) <br>
+ ![删除黑色外部包装箱。](images/hub85mount2a.png) <br>
 
 > [!Caution]
 > 在 Hub 2S 与要放置的购物车或墙壁上相邻之前，请勿删除任何白色包装、包装或包装材料。
@@ -68,14 +68,14 @@ ms.locfileid: "11470490"
 2. 锁定滚轮滚轮 （4）。
 3. 拖板上滑动内部包装。
 
- ![从拖板中删除内包装框架](images/hub85mount3b.png) <br>
+ ![从托盘中删除内部打包框架。](images/hub85mount3b.png) <br>
 
 ## <a name="4-rotate-packaging-frame-to-fit-elevator"></a>4. 旋转包装框架以适应包装盒
 
 1. 旋转框架以适应框架
 2. 旋转内部框架的斜面，然后滑动到内部框架。
 
- ![旋转包装框架以适应包装](images/hub85mount4a.png) <br>
+ ![旋转打包框架以适合边框。](images/hub85mount4a.png) <br>
 
 > [!TIP]
 > 拖板自定义适合内部框架包装占用，可在整个安装网站交付过程中使用。 内部木纹框架框架件有可删除的边框。
@@ -85,7 +85,7 @@ ms.locfileid: "11470490"
 1. 滑出幻灯片
 2. 锁定盘踏板 （x4）。
 
- ![从清除文件中删除](images/hub85mount5a.png) <br>
+ ![从上删除。](images/hub85mount5a.png) <br>
 
 
 ## <a name="6-place-surface-hub-85-back-on-pallet"></a>6. 将 Surface Hub 85"放回拖板
@@ -94,7 +94,7 @@ ms.locfileid: "11470490"
 2. 解锁滚轮滚轮 （x4）。
 3. 将产品移动到墙壁或购物车挂载的位置。
 
- ![将 Surface Hub 85"放回拖板](images/hub85mount6a.png) <br>
+ ![将Surface Hub 85" 放在托盘上。](images/hub85mount6a.png) <br>
 
 ## <a name="7-place-surface-hub-85-on-wall-mount-or-cart"></a>7. 将 Surface Hub 85"放置于墙壁上，或购物车
 
@@ -108,7 +108,7 @@ ms.locfileid: "11470490"
 8. 垂直抬起删除最后一块。
 9. 通过木纹上的 4 条手纹刀删除木纹。
 
-   ![将 Surface Hub 85"放置于墙壁上或购物车](images/hub85mount7a.png) <br>
+   ![将Surface Hub 85" 放在挂载或购物车上。](images/hub85mount7a.png) <br>
 
    > [!CAUTION]
    >  请勿无人参与地离开 Hub 2S 85"。 需要额外人员才能保留设备。 删除端段后，至少需要一个人与 Hub 2S 保持联系，直到放置完墙壁上或购物车。
@@ -137,16 +137,16 @@ ms.locfileid: "11470490"
 
 Surface Hub 2S 85" 使用 600 x 600 VESA 挂载模式。 如下图所示，Microsoft 与 [Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) 合作创建与 Surface Hub 2S 85" 唯一设计兼容的设置选项。 
 
-![刚轴墙壁挂载](images/sh2-steelcasemount.png) <br>
+![粗墙挂载。](images/sh2-steelcasemount.png) <br>
 
 ### <a name="mounting-dimensions"></a>尺寸
 
 如果使用的是其他（非车架）系统选项，则需要使用空格器来考虑设备背面的计算字体。 可在代特设计方案 [空格器和其他经过认证](http://www.salamandercommercial.com/surface-hub-2)。
 
 
-![Surface Hub 85" 尺寸详细信息](images/sh2-85-measure2.png) <br>
+![Surface Hub的 85" 尺寸详细信息。](images/sh2-85-measure2.png) <br>
 
-![适用于尺寸的 Surface Hub 85"](images/sh2-85-measure1.png) <br>
+![Surface Hub 85" 尺寸进行装载。](images/sh2-85-measure1.png) <br>
 
 
 ## <a name="supplemental-strapping-kit"></a>补充工具包

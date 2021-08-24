@@ -12,12 +12,12 @@ ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
 ms.date: 2/08/2021
-ms.openlocfilehash: 544aa8ab7cb9bb443f368bfbbcecb1fa256d32c5
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 070139370fc8175a116cb2e2a329404af8ac09b9
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708753"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911147"
 ---
 # <a name="surface-dock-1-firmware-update"></a>Surface Dock 1 固件更新
 
@@ -26,7 +26,7 @@ ms.locfileid: "11708753"
 > [!NOTE]
 > 本文不适用于[Surface Dock 2，](surface-dock-whats-new.md)它通过 Windows Update 或通过使用 Microsoft Endpoint Configuration Manager 或其他 MSI 部署工具自动接收更新。
 
-此工具取代以前的 Microsoft Surface Dock Updater 工具，以前作为适用于 IT 的 Surface Tools 的一部分可供下载。 之前的工具名为 Surface_Dock_Updater_vx.xx.xxx.x.msi (其中 x 指示版本号) 且不再可供下载，因此不应使用。
+此工具取代以前的 Microsoft Surface Dock Updater 工具，以前作为适用于 IT 的 Surface Tools 的一部分可供下载。 之前的工具名为 Surface_Dock_Updater_vx.xx.xxx.x.msi (，其中 x 指示) 且不再可供下载，因此不应使用。
 
 > [!IMPORTANT]
 > 本文包含适用于 IT 管理员的技术说明。 如果你是家庭用户，请参阅 Microsoft 支持站点上的如何更新[Surface 扩展](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)   坞固件。 支持站点中的说明与下面的常规安装步骤相同，但本文包含用于监视、验证更新以及将更新部署到网络上多台设备的其他信息。
@@ -38,7 +38,7 @@ ms.locfileid: "11708753"
 > [!TIP]
 > Microsoft 定期发布新版本的 Surface Dock 1 固件更新。 MSI 文件不是自行更新。 如果你已经将 MSI 部署到 Surface 设备并且发布了新版本的固件，则需要部署新版本。
 
-1. 转到 [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) 并下载并安装名为 **Surface_Dock_FwUpdate.** 的 .msi 文件，后跟相应的版本。 如果你运行的是 Surface Pro X，请下载 **.arm64**版本。 对于所有其他设备，请使用 **.amd64** 内部版本。  
+1. 转到 [Surface Tools for IT，](https://www.microsoft.com/download/details.aspx?id=46703) 下载并安装名为 **.msi.** 的 Surface_Dock_FwUpdate 文件，后跟相应的版本。 如果你运行的是 Surface Pro X，请下载 **.arm64**版本。 对于所有其他设备，请使用 **.amd64** 内部版本。  
 
     - 更新需要运行 Windows 10版本 1803 或更高版本的 Surface 设备。
     - 安装 MSI 文件可能会提示你重新启动 Surface。 但是，执行更新不需要重新启动。
@@ -51,7 +51,7 @@ ms.locfileid: "11708753"
 
 要监视更新，请执行以下操作：
 
-1. 打开事件查看器，浏览到**Windows Logs > Application，** 然后在右侧窗格中的****"操作"下单击"筛选**当前**日志"，输入事件源旁边的**SurfaceDockFwUpdate，** 然后单击"确定 **"。** ****
+1. 打开事件查看器，浏览到**Windows**日志 > 应用程序"，然后在右侧窗格中的"操作****"下单击"筛选**当前**日志"，输入事件源旁边的**SurfaceDockFwUpdate，** 然后单击"确定 **"。** ****
 
 2. 在提升的命令提示符下键入以下命令：
 
@@ -59,11 +59,11 @@ ms.locfileid: "11708753"
     Reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters"
     ```
 
-3. 安装更新，如本文下 [一](#install-surface-dock-1-firmware-update) 节所述。
+3. 安装更新，如本文下 [一节](#install-surface-dock-1-firmware-update) 所述。
 
-4. 具有以下文本的事件 2007 表示已成功更新：固件更新 **已完成。hr=0 DriverTelementry EventCode = 2007**。
+4. 包含以下文本的事件 2007 指示成功更新：固件更新 **已完成。hr=0 DriverTelementry EventCode = 2007**。
 
-   如果更新未成功，则事件 ID 2007 将显示为 **错误** 事件，而不是 **信息**。 此外，在注册表中Windows的版本将不是最新的。
+   如果更新未成功，则事件 ID 2007 将显示为 **Error** 事件，而不是 **Information**。 此外，在注册表中Windows的版本不会是最新的。
 
 5. 更新完成后，更新后的 DWORD 值将显示在Windows注册表中，对应于该工具的当前版本。 有关详细信息 [，请参阅](#versions-reference) 本文中的版本参考部分。 例如：
 
@@ -82,7 +82,7 @@ ms.locfileid: "11708753"
 
 ## <a name="network-deployment"></a>网络部署
 
-可以使用 Windows 安装程序命令 (Msiexec.exe) 跨网络将 Surface Dock 1 固件更新部署到多台设备。 使用 Microsoft Endpoint Configuration Manager或其他部署工具时，请输入以下语法以确保安装是无提示的：
+可以使用 Windows 安装程序 (Msiexec.exe) 将 Surface Dock 1 固件更新部署到整个网络的多台设备。 使用 Microsoft Endpoint Configuration Manager或其他部署工具时，请输入以下语法以确保安装是无提示的：
 
 - **Msiexec.exe /i \<path to msi file\> /quiet /norestart**
 
@@ -112,10 +112,10 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 
 Surface 扩展坞固件由两个组件组成：
 
-- **Component10：** MCU 控制器固件 (控制器) 单元
-- **Component20：** 显示 DP (固件) 端口。
+- **Component10：** MCU 固件 (控制器) 单元
+- **Component20：** DP (固件) 端口。
 
-成功完成 Surface Dock 1 固件更新会为这些固件组件产生新的注册表项值。
+成功完成 Surface Dock 1 固件更新会为这些固件组件提供新的注册表项值。
 
 ### <a name="to-verify-updates"></a>验证更新
 
@@ -125,7 +125,7 @@ Surface 扩展坞固件由两个组件组成：
 
 2. 查找注册表项 **：Component10CurrentFwVersion 和 Component20CurrentFwVersion，** 这些注册表项引用当前位于设备的固件。
 
-   ![Surface Dock 1 固件更新安装过程](images/regeditDock.png)
+   ![Surface Dock 1 固件更新安装过程。](images/regeditDock.png)
 
 3. 验证新的注册表项值是否与本文档末尾的 Versions 参考中列出的更新的注册表项值匹配。 如果值匹配，则固件已成功更新。
 
@@ -161,13 +161,13 @@ Surface 扩展坞固件由两个组件组成：
 - 将 Surface 扩展坞的电源与交流电源完全断开，以重置 Surface 扩展坞。
 - 断开除 Surface 扩展坞之外的所有外围设备。
 - 卸载任何当前 Surface Dock 1 固件更新，然后安装最新版本。
-- 确保 Surface 扩展坞已断开连接，然后留出足够的时间来完成更新，就像通过扩展坞的以太网端口中的 LED 监视一样。 等待 LED 停止闪烁，然后拔下 Surface 扩展坞电源。
+- 确保 Surface 扩展坞已断开连接，然后留出足够的时间来完成更新，就像通过扩展坞的以太网端口中的 LED 监视一样。 等待 LED 停止闪烁，然后再拔下 Surface 扩展坞电源。
 - 连接 Surface 扩展坞连接到其他设备，以查看它能否更新扩展坞。
 
 ## <a name="versions-reference"></a>版本参考
 
 >[!NOTE]
->安装文件以以下命名格式 ** 发布：Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI(** 例如：Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) 并默认安装到 C：\Program Files\SurfaceUpdate。
+>安装文件发布时采用以下命名格式：Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI(例如****：Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) 并默认安装到 C：\Program Files\SurfaceUpdate。
 
 ### <a name="version-1531390"></a>版本 1.53.139.0
 

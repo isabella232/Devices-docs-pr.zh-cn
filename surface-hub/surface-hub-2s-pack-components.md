@@ -1,7 +1,7 @@
 ---
 title: 如何打包和发送 Surface Hub 2S 以提供服务
-description: 有关封装 Surface Hub 2 组件、更换计算墨盒和更换摄像头的说明
-keywords: 装配件、更换组件、相机、计算墨盒
+description: 有关打包 2S Surface Hub、替换计算组件和更换相机的说明
+keywords: 包， 替换组件， 相机， 计算
 ms.prod: surface-hub
 ms.sitesec: library
 author: greg-lindsay
@@ -11,63 +11,63 @@ audience: Admin
 ms.topic: article
 ms.date: 02/06/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 2a8a2f8975d8d3b688ac4b10277721cabcfcaa32
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a2e20cc5d1e80915effdc7fd712ca6ba7ca1c2ad
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830969"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911397"
 ---
-# 如何打包和发送 Surface Hub 2S 以提供服务
+# <a name="how-to-pack-and-ship-your-surface-hub-2s-for-service"></a>如何打包和发送 Surface Hub 2S 以提供服务
 
-如果你更换 Surface Hub 2、其中一个组件或相关附件，请按照本文中的说明将设备打包以进行装运。 
+如果替换 Surface Hub 2S、2S 组件之一或相关附件，请使用本文中的说明在打包设备进行发货时。 
 
 >[!IMPORTANT]  
->为装运打包设备时，请确保使用您的替换设备接收的包装。  
+>打包设备进行发货时，请确保使用替换设备到达的包装。  
 
-##  <a name="how-to-pack-your-surface-hub-2s-50"></a>如何打包 Surface Hub 2： 50 "
+## <a name="how-to-pack-your-surface-hub-2s-50"></a>如何打包 2S 50 Surface Hub 2S 50"
 
-使用以下步骤将 Surface Hub 2-2 50 "打包到装运。
-
-
-|   |                                                                                                                                                 |       |
-| - | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
-| **1.**  | 删除笔和相机。 不要将它们与设备一起打包。                                                   | ![删除笔和相机。 不要将它们与设备一起打包。](images/surface-hub-2s-repack-2.png) |
-| **2.**  | 卸下驱动器和电源线。 不要将它们与设备一起打包。 不要将安装指南与设备一起打包。 | ![卸下驱动器和电源线。 不要将它们与设备一起打包。](images/surface-hub-2s-repack-3.png) |
-| **3.**  | 拔出所有电缆，将封盖侧向滑动，然后拧下计算墨盒的锁螺丝。             | ![拔出所有电缆，将封盖侧向滑动，然后拧下计算墨盒的锁螺丝。](images/surface-hub-2s-repack-5.png) |
-| **4.**  | 将计算墨盒滑出设备。                                                                     | ![将计算墨盒滑出设备。](images/surface-hub-2s-repack-6.png) |
-| **5.**  | 您将需要计算墨盒和螺丝刀。                                                           | ![您将需要计算墨盒和螺丝刀。](images/surface-hub-2s-repack-7.png)|
-| **6.**  | 从计算墨盒上卸下封盖和封盖，然后删除固态驱动器（SSD）。    | ![从计算墨盒上卸下封盖和封盖，然后删除固态驱动器（SSD）。](images/surface-hub-2s-repack-8.png)|
-| **7.** | 更换封盖并将计算墨盒滑回设备。                                            | ![更换封盖并将计算墨盒滑回设备。](images/surface-hub-2s-repack-9.png)|
-| **8.**  | 重新固定锁定螺钉，然后将封盖滑入到位。                                                      | ![重新固定锁定螺钉，然后将封盖滑入到位。](images/surface-hub-2s-repack-10.png)|
-| **9.**  | 删除任何基本硬件或安装硬件。 使用两个联系人，将该单元放置在装运容器的基础中。    | ![删除任何基本硬件或安装硬件。 使用两个联系人，将该单元放置在装运容器的基础中。](images/surface-hub-2s-repack-11.png)|
-| **10.** | 替换装运容器的封盖，然后插入四个剪辑。                                          | ![替换装运容器的封盖，然后插入四个剪辑。](images/surface-hub-2s-repack-12.png)|
-| **11.** | 关闭四个剪贴画。                                                                                            | ![关闭四个剪贴画。](images/surface-hub-2s-repack-13.png)|
-
-
-##  <a name="how-to-replace-and-pack-your-surface-hub-2s-compute-cartridge"></a>如何更换和打包 Surface Hub 2 计算墨盒
-
-使用以下步骤删除 Surface Hub 2 计算墨盒，将其打包以进行装运，然后安装新的计算盒式清洗带。<br>
-    ![计算墨盒的图像。](images/surface-hub-2s-replace-cartridge-1.png)
-
-|   |                                                                                                                                                 |       |
-| - | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
-| **1.** | 拔出所有电缆，将封盖侧向滑动，然后拧下计算墨盒的锁螺丝。                                            | ![拔出所有电缆，将封盖侧向滑动，然后拧下计算墨盒的锁螺丝。](images/surface-hub-2s-replace-cartridge-2.png) |
-| **2.**  | 将计算墨盒滑出设备。                                                                                                    | ![将计算墨盒滑出设备。](images/surface-hub-2s-replace-cartridge-3.png) |
-| **3.**  | 您将需要计算墨盒和螺丝刀。                                                                                          | ![您将需要计算墨盒和螺丝刀。](images/surface-hub-2s-replace-cartridge-4.png) |
-| **4.**  | 从计算墨盒上卸下封盖和封盖，然后删除固态驱动器（SSD）。 完成后，请更换封盖。 | ![从计算墨盒上卸下封盖和封盖，然后删除固态驱动器（SSD）。 完成后，请更换封盖。](images/surface-hub-2s-repack-8.png) |
-| **5.**| 您将需要用于包装更换计算盒的包装装置。                                              | ![您将需要用于包装更换计算盒的包装装置。](images/surface-hub-2s-replace-cartridge-6.png) |
-| **6.**| 将旧的计算墨盒放入包装装置中。                                                                                      | ![将旧的计算墨盒放入包装装置中。](images/surface-hub-2s-replace-cartridge-7.png) |
-| **7.** | 将旧的计算墨盒及其包装放入用于替换计算墨盒的框中。 重新封装框。             | ![将旧的计算墨盒及其包装放入用于替换计算墨盒的框中。 重新封装框。](images/surface-hub-2s-replace-cartridge-8.png)|
-| **8.**| 将替换计算墨盒滑入设备。                                                                                          | ![将替换计算墨盒滑入设备。](images/surface-hub-2s-replace-cartridge-9.png) |
-| **9.**| 固定锁螺丝并将封盖滑入到位                                                                                         | ![固定锁螺丝并将封盖滑入到位。](images/surface-hub-2s-replace-cartridge-10.png) |
-
-##  <a name="how-to-replace-your-surface-hub-2s-camera"></a>如何更换 Surface Hub 2/2 相机
-
-使用以下步骤删除 Surface Hub 2/2 相机并安装新相机。
+使用以下步骤打包您的 Surface Hub 2S 50" 进行发货。
 
 
 |   |                                                                                                                                                 |       |
 | - | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
-| **1.** | 您将需要新的摄像头和两毫米的 allen 扳手。                                             |![您将需要新的摄像头和两毫米的 allen 扳手](images/surface-hub-2s-replace-camera-1.png)  |
-| **2.**  |  从设备中拔出旧相机。 如果需要，请使用 allen 扳手调整新相机。 将新相机插入设备。 | ![从设备中拔出旧相机。 如果需要，请使用 allen 扳手调整新相机。 将新相机插入设备。](images/surface-hub-2s-replace-camera-2.png) |
+| **1.**  | 删除笔和相机。 请勿将它们打包为单元。                                                   | ![删除笔和相机。 请勿将它们打包为单元。](images/surface-hub-2s-repack-2.png) |
+| **2.**  | 移除驱动器和电源电缆。 请勿将它们打包为单元。 请勿将安装指南打包为单元。 | ![移除驱动器和电源电缆。 请勿将它们打包为单元。](images/surface-hub-2s-repack-3.png) |
+| **3.**  | 拔下所有电缆，侧向滑动封面，然后取消锁定 Compute Compute 的锁定锁定。             | ![拔下所有电缆，侧向滑动封面，然后取消锁定 Compute Compute 的锁定锁定。](images/surface-hub-2s-repack-5.png) |
+| **4.**  | 将"计算百万"从单位中滑出。                                                                     | ![将"计算百万"从单位中滑出。](images/surface-hub-2s-repack-6.png) |
+| **5.**  | 你将需要计算系统和一个驱动程序。                                                           | ![你将需要计算系统和一个驱动程序。](images/surface-hub-2s-repack-7.png)|
+| **6.**  | 从计算系统中删除覆盖层和覆盖，然后从 SSD 驱动器中删除 (驱动器) 。    | ![从计算系统中删除覆盖层和覆盖，然后从 SSD 驱动器中删除 (驱动器) 。](images/surface-hub-2s-repack-8.png)|
+| **7.** | 替换封面，将计算计算器滑回设备。                                            | ![替换封面，将计算计算器滑回设备。](images/surface-hub-2s-repack-9.png)|
+| **8.**  | 重新锁定锁定锁定，将保护层滑动到位。                                                      | ![重新锁定锁定锁定，将保护层滑动到位。](images/surface-hub-2s-repack-10.png)|
+| **9.**  | 删除任何基本硬件或装载硬件。 使用两个人，将单位放在发货容器的基中。    | ![删除任何基本硬件或装载硬件。 使用两个人，将单位放在发货容器的基中。](images/surface-hub-2s-repack-11.png)|
+| **10.** | 替换发货容器的封面，并插入四个剪辑。                                          | ![替换发货容器的封面，并插入四个剪辑。](images/surface-hub-2s-repack-12.png)|
+| **11.** | 关闭四个剪辑。                                                                                            | ![关闭四个剪辑。](images/surface-hub-2s-repack-13.png)|
+
+
+## <a name="how-to-replace-and-pack-your-surface-hub-2s-compute-cartridge"></a>如何替换和打包 2S Surface Hub计算能力
+
+使用以下步骤删除 2S 计算Surface Hub，打包它进行发货，然后安装新的 Compute Compute Compute。<br>
+    ![计算计算器的图像。](images/surface-hub-2s-replace-cartridge-1.png)
+
+|   |                                                                                                                                                 |       |
+| - | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+| **1.** | 拔下所有电缆，侧向滑动封面，然后取消锁定 Compute Compute 的锁定锁定。                                            | ![拔下所有电缆，侧向滑动封面，然后取消锁定 Compute Compute 的锁定锁定。](images/surface-hub-2s-replace-cartridge-2.png) |
+| **2.**  | 将"计算百万"从单位中滑出。                                                                                                    | ![将"计算百万"从单位中滑出。](images/surface-hub-2s-replace-cartridge-3.png) |
+| **3.**  | 你将需要计算系统和一个驱动程序。                                                                                          | ![你将需要计算系统和一个驱动程序。](images/surface-hub-2s-replace-cartridge-4.png) |
+| **4.**  | 从计算系统中删除覆盖层和覆盖，然后从 SSD 驱动器中删除 (驱动器) 。 完成后，更换封面。 | ![从计算系统中删除覆盖层和覆盖，然后从 SSD 驱动器中删除 (驱动器) 。 完成后，更换封面。](images/surface-hub-2s-repack-8.png) |
+| **5.**| 你将需要用于打包替换计算容器的打包包装包装。                                              | ![你将需要用于打包替换计算容器的打包包装包装。](images/surface-hub-2s-replace-cartridge-6.png) |
+| **6.**| 将旧计算容器放在打包包装中。                                                                                      | ![将旧计算容器放在打包包装中。](images/surface-hub-2s-replace-cartridge-7.png) |
+| **7.** | 将旧的 Compute Compute Compute 及其打包放入用于替换 Compute Compute 的框中。 重新封装框。             | ![将旧的 Compute Compute Compute 及其打包放入用于替换 Compute Compute 的框中。 重新封装框。](images/surface-hub-2s-replace-cartridge-8.png)|
+| **8.**| 将替换的计算系统滑入单元中。                                                                                          | ![将替换的计算系统滑入单元中。](images/surface-hub-2s-replace-cartridge-9.png) |
+| **9.**| 打开锁定锁定板，将保护层滑动到位                                                                                         | ![将锁定锁定板插入，将保护层滑动到一个位置。](images/surface-hub-2s-replace-cartridge-10.png) |
+
+## <a name="how-to-replace-your-surface-hub-2s-camera"></a>如何替换 2S Surface Hub相机
+
+使用以下步骤删除 Surface Hub 2S 相机并安装新相机。
+
+
+|   |                                                                                                                                                 |       |
+| - | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+| **1.** | 你将需要新的相机和两毫米毫米扳手。                                             |![你将需要新的相机和两毫米毫米扳手。](images/surface-hub-2s-replace-camera-1.png)  |
+| **2.**  |  从设备中拔下旧相机。 如果需要，请使用扳手调整新相机。 将新相机插入设备。 | ![从设备中拔下旧相机。 如果需要，请使用扳手调整新相机。 将新相机插入设备。](images/surface-hub-2s-replace-camera-2.png) |

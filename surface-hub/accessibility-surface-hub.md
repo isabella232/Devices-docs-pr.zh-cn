@@ -11,19 +11,19 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 11dc83be7966e49d2ac8a5fb0d1e0642abf025d8
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a2520897a0ada7dc0ba23472c2b0f809ccb232d1
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831635"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11910967"
 ---
-# 辅助功能 (Surface Hub)
+# <a name="accessibility-surface-hub"></a>辅助功能 (Surface Hub)
 
 Microsoft Surface Hub 具有与 Windows10 相同的辅助功能选项。
 
 
-##  <a name="default-accessibility-settings"></a>默认辅助功能设置
+## <a name="default-accessibility-settings"></a>默认辅助功能设置
 
 辅助功能设置的完整列表在“设置”**** 应用中向 IT 管理员提供。 Surface Hub 的默认辅助功能设置包括：
 
@@ -41,7 +41,7 @@ Microsoft Surface Hub 具有与 Windows10 相同的辅助功能选项。
 1. 消除“欢迎使用”屏幕。
 2. 从状态栏中打开**快速操作** > **轻松使用**。
 
-    ![“轻松使用”磁贴的屏幕截图](images/ease-of-access.png)
+    !["轻松使用"磁贴的屏幕截图。](images/ease-of-access.png)
     
 3. 打开“讲述人”。
 4. 单击**任务切换程序**。
@@ -57,16 +57,16 @@ Microsoft Surface Hub 具有与 Windows10 相同的辅助功能选项。
 - 鼠标键
 
 
-##  <a name="change-accessibility-settings-during-a-meeting"></a>在会议中更改辅助功能设置
+## <a name="change-accessibility-settings-during-a-meeting"></a>在会议中更改辅助功能设置
 
 用户在会议中可使用多种方式切换辅助功能和应用：
 - [键盘快捷方式](https://support.microsoft.com/help/13813/windows-10-microsoft-surface-hub-keyboard-shortcuts)
 - 在状态栏选择“快速操作”**** > “轻松访问”****
 
-> ![显示 Surface Hub 快速操作中心的图像](images/sh-quick-action.png)
+> ![显示"快速操作中心"Surface Hub。](images/sh-quick-action.png)
 
 
-##  <a name="related-topics"></a>相关主题
+## <a name="related-topics"></a>相关主题
 
 [管理 Microsoft Surface Hub](manage-surface-hub.md)
 

@@ -14,16 +14,16 @@ ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 11170f6c202faef7aa3dddcb8aa8c6fa84bea80f
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+ms.openlocfilehash: a941879d43909a44c18a492d6c4f607cbafbe707
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643858"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911367"
 ---
 # <a name="configure-non-global-admin-accounts-on-surface-hub"></a>配置 Surface Hub 上的非全局管理员帐户
 
-Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支持，这些帐户限制加入 Azure AD 域的 Surface Hub 设备上管理 设置 应用的权限。 这使你能够仅作用域管理员权限Surface Hub并在整个 Azure AD 域中阻止可能不需要的管理员访问权限。 开始之前，请确保你的Surface Hub已加入 Azure AD 和 Intune 自动注册。 如果没有，则需要重置 Surface Hub并完成首次、开箱即用 (OOBE) 安装程序，选择加入 Azure AD 的选项。
+Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支持，这些帐户限制加入 Azure AD 域的 Surface Hub 设备上管理 设置 应用的权限。 这使你能够仅作用域管理员Surface Hub并在整个 Azure AD 域中阻止可能不需要的管理员访问权限。 开始之前，请确保你的Surface Hub已加入 Azure AD 和 Intune 自动注册。 如果没有，则需要重置 Surface Hub 并完成首次、开箱即用 (OOBE) 安装程序，选择加入 Azure AD 的选项。
 
 ## <a name="summary"></a>摘要 
 
@@ -38,22 +38,22 @@ Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支
 
 ## <a name="create-azure-ad-security-groups"></a>创建 Azure AD 安全组
 
-首先创建一个包含管理员帐户的安全组。 然后，为这些设备创建Surface Hub组。  
+首先创建一个包含管理员帐户的安全组。 然后，为这些设备创建Surface Hub安全组。  
 
 ### <a name="create-security-group-for-admin-accounts"></a>为管理员帐户创建安全组
 
 1. 通过管理中心登录 Intune，Microsoft Endpoint Manager组""新[](https://go.microsoft.com/fwlink/?linkid=2109431)组****  >  ****">"组类型"下，选择"安全 **"。** 
-2. 输入组名称（例如 **，Surface Hub管理员**名称）然后选择"创建 **"。** 
+2. 输入组名称（例如 **，Surface Hub本地管理员**）然后选择"创建 **"。** 
 
-     ![为中心管理员创建安全组](images/sh-create-sec-group.png)
+     ![为中心管理员创建安全组。](images/sh-create-sec-group.png)
 
-3. 打开组，选择 **"成员**"，然后选择"**** 添加成员"以输入你希望指定为非全局管理员的管理员帐户Surface Hub。 若要了解有关在 Intune 中创建组的信息，请参阅添加  [组以组织用户和设备](/mem/intune/fundamentals/groups-add)。
+3. 打开组，选择 **"成员**"，然后选择"**** 添加成员"以输入要指定为非全局管理员的管理员帐户Surface Hub。 若要了解有关在 Intune 中创建组的信息，请参阅添加  [组以组织用户和设备](/mem/intune/fundamentals/groups-add)。
 
 ### <a name="create-security-group-for-surface-hub-devices"></a>为设备创建Surface Hub组
 
 1. 重复上述过程，为集线器设备创建单独的安全组;例如 **，Surface Hub设备**。 
 
-     ![为 Hub 设备创建安全组](images/sh-create-sec-group-devices.png) 
+     ![为 Hub 设备创建安全组。](images/sh-create-sec-group-devices.png) 
 
 ## <a name="obtain-azure-ad-group-sid-using-powershell"></a>使用 PowerShell 获取 Azure AD 组 SID
 
@@ -77,7 +77,7 @@ Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支
 
 5. 在 Intune 中，选择之前创建的组并复制对象 ID，如下图所示。 
 
-     ![复制安全组的对象 ID](images/sh-objectid.png)
+     ![复制安全组的对象 ID。](images/sh-objectid.png)
 
 6. 运行以下命令let 获取安全组的 SID：
 
@@ -114,7 +114,7 @@ Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支
 1. In Endpoint Manager， select **Devices**  >  **Configuration profiles**Create  >  **profile**. 
 2. 在"平台"**下Windows 10选择"应用和更高版本"。** 在"配置文件"下 **，选择"自定义**"，然后选择"创建 **"。**
 3. 添加名称和说明，然后选择"下一 **步"。**
-4. 在**配置设置**  >  **OMA-URI 设置**下，**** 选择添加 。
+4. 在**配置设置**  >  **OMA-URI 设置**下，选择**** 添加 。
 5. 在"添加行"窗格中，添加名称，在     **OMA-URI**下添加以下字符串： 
 
     ```OMA-URI
@@ -122,10 +122,10 @@ Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支
     ```
 6. 在"数据类型"下，选择 **"字符串 XML"** 并浏览以打开在上一步中创建的 XML 文件。 
 
-     ![上传本地管理员 xml 配置文件](images/sh-local-admin-config.png)
+     ![上传本地管理员 xml 配置文件。](images/sh-local-admin-config.png)
 
 7. 单击 **“保存”**。
-8. 单击 **"选择要包含的组**"，然后选择之前[在](#create-security-group-for-surface-hub-devices) (Surface Hub**创建的安全**) 。 单击“下一步”****。
+8. 单击 **"选择要包含的组**"，然后选择之前[ (Surface Hub](#create-security-group-for-surface-hub-devices)**创建的安全**) 。 单击“下一步”****。
 9. 在"适用性规则"下，根据需要添加"规则"。 否则，请选择 **"下一**步"，然后选择"创建 **"。**
 
 若要了解有关使用 OMA-URI 字符串的自定义配置文件，请参阅在[Intune Windows 10自定义设置](/mem/intune/configuration/custom-settings-windows-10)。
@@ -133,7 +133,7 @@ Windows 10 协同版 2020 更新增加了对配置非全局管理员帐户的支
 
 ## <a name="non-global-admins-managing-surface-hub"></a>非全局管理员管理Surface Hub
 
-现在 **，Surface Hub本地管理员**安全组的成员可以登录到 设置 应用Surface Hub管理设置。
+本地管理员**Surface Hub**组的成员现在可以登录到 设置 应用，Surface Hub管理设置。
 
 > [!IMPORTANT]
-> 全局管理员对 设置 应用的默认访问权限 (除非他们也是此新安全组的成员) 。
+> 全局管理员对 设置 应用的默认访问权限 (除非他们是此新安全组的成员) 。
