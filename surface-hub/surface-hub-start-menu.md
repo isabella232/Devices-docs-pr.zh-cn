@@ -10,12 +10,12 @@ ms.date: 08/15/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: cf9649b8d1f747722064793fbbde70116bc7f424
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: ff08b8ab6e59af77761fb365980af261c47030a9
+ms.sourcegitcommit: 09a47921ec2e565a92ba2baa61e181d218706ad9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576842"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "11921821"
 ---
 # <a name="configure-surface-hub-start-menu"></a>配置 Surface Hub 的“开始”菜单
 
@@ -31,14 +31,14 @@ ms.locfileid: "11576842"
 
     - 或者 -
 
-- 在桌面上配置所需的“开始”菜单(仅固定 Surface Hub 上可用的应用)，然后[导出布局](https://docs.microsoft.com/windows/configuration/customize-and-export-start-layout#export-the-start-layout)。
+- 在桌面上配置所需的“开始”菜单(仅固定 Surface Hub 上可用的应用)，然后[导出布局](/windows/configuration/customize-and-export-start-layout#export-the-start-layout)。
 
 >[!TIP]
 >要将带 Web 链接的磁贴添加到桌面开始菜单，请转到 Microsoft Edge 中的链接，选择右上角的 `...`，再选择**将此页固定到开始菜单**。 若要通过示例了解链接在 XML 中的显示方式，请参阅[包含 Microsoft Edge 链接的开始菜单布局](#edge)。
 
-若要编辑默认 XML 或导出的布局，请先熟悉[开始菜单布局 XML](https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop)。 [桌面版和 Surface Hub 在开始菜单布局方面存在一些差异。](#differences)
+若要编辑默认 XML 或导出的布局，请先熟悉[开始菜单布局 XML](/windows/configuration/start-layout-xml-desktop)。 [桌面版和 Surface Hub 在开始菜单布局方面存在一些差异。](#differences)
 
-如果已在开始菜单布局 XML 中定义了“开始”菜单，请[创建 MDM 策略以应用该布局。](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
+如果已在开始菜单布局 XML 中定义了“开始”菜单，请[创建 MDM 策略以应用该布局。](/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
 
 <span id="differences" />
 
@@ -46,7 +46,7 @@ ms.locfileid: "11576842"
 
 Surface Hub 和 Windows 10 桌面版在“开始”菜单自定义方面存在以下一些主要差异:
 
-- 不能在"开始" (Windows布局 XML 中使用**DesktopApplicationTile** https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) (，) 不支持 Win32 Surface Hub。
+- 不能在"开始"屏幕布局 XML 中使用**[DesktopApplicationTile，Windows](/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile)** Win32 (不支持) 桌面应用程序Surface Hub。
 - 不可使用开始菜单布局来配置 Surface Hub 的任务栏和欢迎屏幕。  
 - "开始"屏幕布局策略应仅分配给设备，而非用户。
 - 策略中要使用的 OMA-URI 设置是 `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
@@ -66,8 +66,8 @@ Surface Hub 和 Windows 10 桌面版在“开始”菜单自定义方面存在�
     <StartLayoutCollection>
       <defaultlayout:StartLayout GroupCellWidth="8" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout">
         <start:Group Name="" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
-        <start:Tile
-            AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"
+        <start:DesktopApplicationTile
+            DesktopApplicationID="MSEdge"
             Size="2x2"
             Row="0"
             Column="0"/>
@@ -117,7 +117,7 @@ Surface Hub 和 Windows 10 桌面版在“开始”菜单自定义方面存在�
 
 ## <a name="example-start-layout-that-includes-a-microsoft-edge-link"></a>示例: 包含 Microsoft Edge 链接的开始菜单布局
 
-此示例显示了两个分别指向网站和 .pdf 文件的链接。 磁贴的辅助磁贴Microsoft Edge 150 x 150 像素的图标。
+此示例显示了两个分别指向网站和 .pdf 文件的链接。 用户辅助磁贴Microsoft Edge 150 x 150 像素图标。
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -141,8 +141,8 @@ Surface Hub 和 Windows 10 桌面版在“开始”菜单自定义方面存在�
               Size="2x2"
               Row="0"
               Column="4"/>
-    <start:Tile
-              AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"
+          <start:DesktopApplicationTile
+              DesktopApplicationID="MSEdge"
               Size="2x2"
               Row="2"
               Column="0"/>
