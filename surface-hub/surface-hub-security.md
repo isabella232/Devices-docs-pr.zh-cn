@@ -11,24 +11,24 @@ audience: Admin
 ms.topic: article
 ms.date: 01/26/2021
 ms.localizationpriority: High
-ms.openlocfilehash: 446166618161fc54a77bab94b2d61ad85359a082
-ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
-ms.translationtype: MT
+ms.openlocfilehash: cd0112f805b60b16c7f32099d5f5e3fde3c821fb
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "11304845"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911377"
 ---
-# Surface Hub 安全性概述
+# <a name="surface-hub-security-overview"></a>Surface Hub 安全性概述
 
-Surface Hub 通过运行 Windows 10 团队操作系统的自定义平台固件提供锁定的类似设备的体验。 由此产生的设备采用传统的“单一用途”安全网亭，融入“仅运行所需内容”的理念，并提供一种现代化的风格。 Surface Hub 是为支持丰富的协作用户体验而构建的，可抵御不断演变的安全威胁。
+Surface Hub通过运行Windows 10 协同版操作系统的自定义平台固件提供类似于设备的锁定体验。 由此产生的设备采用传统的“单一用途”安全网亭，融入“仅运行所需内容”的理念，并提供一种现代化的风格。 Surface Hub 是为支持丰富的协作用户体验而构建的，可抵御不断演变的安全威胁。
 
 以 Windows 10 为基础，Surface Hub 可提供企业级现代安全性，支持 IT 管理员利用 BitLocker、受信任的平台模块 2.0 (TPM) 以及通过 Windows Defender（也称为 Microsoft Defender）实现的云驱动安全性实施数据保护。
 
-##  <a name="defense-in-depth-security"></a>深度防御安全性
+## <a name="defense-in-depth-security"></a>深度防御安全性
 
 打开 Surface Hub 后，安全协议将立即启动。 从固件级别开始，Surface Hub 将仅加载操作系统及其组件，以响应多个安全检查。 Surface Hub 采用一种称为深度防御的策略，该策略涉及对独立的防护子组件进行分层，可在发生局部故障时保护整个系统。 事实证明，这一行业实践在缓解子组件中潜在的单边利用和弱点方面非常有效。
 
-现代统一可扩展固件接口 (UEFI) 由 Microsoft 静态安全地配置为仅从内部存储中启动经过身份验证的 Windows 10 团队操作系统。  在 Surface Hub 上运行的每一行代码都将在执行前完成签名验证。 只有由 Microsoft 签署的应用程序（无论是操作系统的一部分还是通过 Microsoft Store 安装的）才能在 Surface Hub 上运行。 不符合这些要求的代码或应用将会被阻止。
+新式统一可扩展固件接口 （UEFI） 由 Microsoft 静态且安全地配置为仅从内部存储启动经过身份验证的Windows 10 协同版操作系统。  在 Surface Hub 上运行的每一行代码都将在执行前完成签名验证。 只有由 Microsoft 签署的应用程序（无论是操作系统的一部分还是通过 Microsoft Store 安装的）才能在 Surface Hub 上运行。 不符合这些要求的代码或应用将会被阻止。
 
 Surface Hub 安全系统包括以下各项：
 
@@ -36,17 +36,17 @@ Surface Hub 安全系统包括以下各项：
 - **操作系统防御。** 防止意外或恶意软件或代码的执行。
 - **用户界面防御。** 提供对最终用户而言安全的用户界面，阻止访问有可能存在风险的活动，例如从命令行运行可执行文件。
 
-###  <a name="boot-time-defenses"></a>启动时间防御
+### <a name="boot-time-defenses"></a>启动时间防御
 
 该 SoC 有一个安全处理器，它与其他各个内核都是分开的。 第一次启动 Surface Hub 时，只有安全处理器最先启动，之后才能加载其他内容。
 
-![显示安全处理器保护的 Hub 启动过程启动阶段](images/hub-sec-1.png)
+![显示安全处理器保护的中心启动启动阶段。](images/hub-sec-1.png)
 
-#### 安全启动
+#### <a name="secure-boot"></a>安全启动
 
 安全启动用于验证启动过程的组件（包括驱动程序和操作系统）是否针对有效且已知签名的数据库进行了验证。 在 Surface Hub 上，必须先验证特定于平台的签名，然后才能加载获得授权的 Windows 协同版操作系统。 这有助于防止来自克隆或被修改的系统的攻击，这种系统运行的恶意代码隐藏在看似正常的用户体验中。  有关详细信息，请参阅[安全启动概述](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)。
 
-###  <a name="operating-system-defenses"></a>操作系统防御
+### <a name="operating-system-defenses"></a>操作系统防御
 
 在验证操作系统来自 Microsoft 并且 Surface Hub 成功完成启动过程后，设备会仔细检查可执行代码。 我们保护操作系统的方法涉及识别所有可执行文件的代码签名，只允许那些通过我们的限制的文件加载到运行时中。 通过此代码签名方法，操作系统可以验证作者，并在设备上运行代码之前先确认其未被修改。
 
@@ -70,7 +70,7 @@ Surface Hub 在 Windows 应用程序控制（以前称为 Device Guard）中使�
 
 - [Windows Defender 应用程序控制和对代码完整性的基于虚拟化的保护](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 
-###  <a name="user-interface-defenses"></a>用户界面防御
+### <a name="user-interface-defenses"></a>用户界面防御
 
 虽然启动时间防御和操作系统锁定保护机制提供了基础的安全性，但用户界面又提供了一个额外的保护层，旨在进一步降低风险。 为了防止恶意代码通过驱动程序到达设备，Surface Hub 不下载用于即插即用 (PnP) 设备的高级驱动程序。 U 盘或经认证的 Surface Hub 外设（扬声器、麦克风、摄像头）等利用基本驱动程序的设备可按预期工作，但高级系统（如打印机）将不能正常工作。
 
@@ -80,7 +80,7 @@ Surface Hub 在 Windows 应用程序控制（以前称为 Device Guard）中使�
 
 - **“开始”和“所有应用”。** Surface Hub 的“开始”和“所有应用”组件不提供对命令提示符、PowerShell 或其他通过应用程序控制阻止的 Windows 组件的访问。 此外，在 Surface Hub 上，通常从电脑上的搜索框访问的 Windows 运行功能将处于关闭状态。
 
-##  <a name="security-enhancements-in-surface-hub-2s"></a>Surface Hub 2S 中的安全增强功能
+## <a name="security-enhancements-in-surface-hub-2s"></a>Surface Hub 2S 中的安全增强功能
 
 尽管 Surface Hub 和 Surface Hub 2 均运行相同的操作系统软件，但 Surface Hub 2 独有的一些功能提供了额外的管理和安全功能，使 IT 管理员能够执行以下任务：
 
@@ -88,7 +88,7 @@ Surface Hub 在 Windows 应用程序控制（以前称为 Device Guard）中使�
 - 使用可启动的 USB 恢复 Hub
 - 通过密码轮换强化设备帐户
 
-###  <a name="manage-uefi-settings-with-semm"></a>使用 SEMM 管理 UEFI 设置
+### <a name="manage-uefi-settings-with-semm"></a>使用 SEMM 管理 UEFI 设置
 
 UEFI 是基础硬件平台部件和操作系统之间的接口。 在 Surface Hub 上，自定义 UEFI 的实现使你可以精细控制这些设置，并阻止任何非 Microsoft 实体更改设备的 UEFI 设置 — 或启动到可移动驱动器以修改或更改操作系统。
 
@@ -96,7 +96,7 @@ UEFI 是基础硬件平台部件和操作系统之间的接口。 在 Surface Hu
 
 通过 Microsoft Surface 企业管理模式 (SEMM) 进行管理时，IT 管理员可在整个组织内的 Hub 设备上部署 UEFI 设置。 这包括以下功能：启用或禁用内置硬件组件、防止未经授权的用户更改 UEFI 设置，以及调整启动设置。
 
-![Surface Hub UEFI 设置](images/hub-sec-2.png)
+![Surface Hub UEFI 设置。](images/hub-sec-2.png)
 
 管理员可以使用可下载的 [Microsoft Surface UEFI 配置器](https://www.microsoft.com/download/details.aspx?id=46703)来实现 SEMM 和注册 Surface Hub 2 设备。 有关详细信息，请参阅[使用 SEMM 和 UEFI 来保护和管理 Surface Hub 2](https://docs.microsoft.com/surface-hub/surface-hub-2s-secure-with-uefi-semm)。
 通过使用证书来保护配置不受未经授权的篡改或删除，SEMM 支持管理以下组件：
@@ -116,15 +116,15 @@ UEFI 是基础硬件平台部件和操作系统之间的接口。 在 Surface Hu
     - 日期/时间
 
     
-###  <a name="recover-hub-with-bootable-usb"></a>使用可启动的 USB 恢复 Hub
+### <a name="recover-hub-with-bootable-usb"></a>使用可启动的 USB 恢复 Hub
 
 Surface Hub 2S 允许管理员使用恢复映像在 20 分钟内将设备重新安装到出厂设置。 通常，只有在 Surface Hub 无法再正常工作时，才需要执行此操作。 此外，如果丢失了 Bitlocker 密钥或不再拥有“设置”应用的管理员凭据，则恢复操作也将很有用。
 
-###  <a name="harden-device-account-with-password-rotation"></a>通过密码轮换强化设备帐户
+### <a name="harden-device-account-with-password-rotation"></a>通过密码轮换强化设备帐户
 
 Surface Hub 使用设备帐户（也称为“房间帐户”）来对 Exchange、Microsoft Teams 和其他服务进行身份验证。 启用密码轮换后，Hub 2S 每 7 天便会自动生成一个由 15-32 个字符组成的新密码，其中包括大写和小写字母、数字和特殊字符。 由于没有人知道密码，因此设备帐户密码轮换可有效地降低人为错误和潜在的社会工程安全攻击带来的相关风险。
 
-##  <a name="windows-10-enterprise-grade-security"></a>Windows 10 企业级安全性
+## <a name="windows-10-enterprise-grade-security"></a>Windows 10 企业级安全性
 
 除了本文中所提及的 Surface Hub 所特有的配置和功能之外，Surface Hub 还使用了 Windows 10 的标准安全功能。 这些地方包括：
 
@@ -133,7 +133,7 @@ Surface Hub 使用设备帐户（也称为“房间帐户”）来对 Exchange�
 - **即插即用驱动程序。** 为了防止恶意代码通过驱动程序到达设备，Surface Hub 不下载用于 PnP 设备的高级驱动程序。 因此，U 盘等利用基本驱动程序的设备可按预期工作，但打印机等高级系统则会被阻止。
 - **受信任的平台模块 2.0。** Surface Hub 有一个行业标准的离散受信任平台模块 (dTPM)，可生成和存储加密密钥和哈希代码。 dTPM 可保护用于启动阶段验证的密钥、BitLocker 主密钥、无密码登录密钥等。 dTPM 满足 [FIPS 140-2 级别 2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation) 认证（美国政府计算机安全标准）条件，且符合全球范围使用的[通用标准](https://docs.microsoft.com/windows/security/threat-protection/windows-platform-common-criteria)认证条件。
 
-##  <a name="wireless-security-for-surface-hub"></a>Surface Hub 的无线安全性
+## <a name="wireless-security-for-surface-hub"></a>Surface Hub 的无线安全性
 
 Surface Hub 采用了 Wi-Fi Direct/Miracast 技术以及关联的 802.11、Wi-Fi 保护访问 2 (WPA2) 和无线保护设置 (WPS) 标准。 由于本设备仅支持 WPS（与 WPA2 预共享密钥 (PSK) 或 WPA2 企业相反），因此，问题通常与 802.11 密钥的设计进行过简化有关。
 
@@ -143,7 +143,7 @@ Wi-Fi Direct 或 Wi-Fi 对等 (P2P) 是 Wi-Fi 联盟针对“临时”网络发�
 
 WLAN Direct 的安全性由 WPA2 使用 WPS 标准提供。 设备的身份验证机制包括数字 PIN 码、物理或虚拟“推送”按钮以及使用近场通信的带外消息。 Surface Hub 支持“推送”按钮（默认方式）和 PIN 方法。 有关详细信息，请参阅 [Surface Hub 如何解决 Wi-fi Direct 安全问题](https://docs.microsoft.com/surface-hub/surface-hub-wifi-direct)。
 
-##  <a name="learn-more"></a>了解详细信息
+## <a name="learn-more"></a>了解详细信息
 
 - [安全启动概述](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)
 
