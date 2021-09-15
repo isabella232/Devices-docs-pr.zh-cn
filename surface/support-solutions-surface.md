@@ -1,5 +1,5 @@
 ---
-title: 企业中 Surface 设备的热门支持解决方案
+title: 适用于企业中的 Surface 设备的顶级支持解决方案
 description: 查找解决在企业中使用 Surface 设备时遇到的常见问题的顶级解决方案。
 ms.assetid: CF58F74D-8077-48C3-981E-FCFDCA34B34A
 ms.reviewer: ''
@@ -15,61 +15,60 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 661d84adbff40ff6cd89fb0c71c60fa795f4236c
-ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
+ms.openlocfilehash: 65cd0822f9419d2a2b678c598681891539855c9f
+ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "10893074"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "11939523"
 ---
-# Surface 设备的顶级支持解决方案
+# <a name="top-support-solutions-for-surface-devices"></a>Surface 设备的顶级支持解决方案
 
 > [!Note]
-> **家庭用户**：本文仅供 IT 专业人员和技术支持代理使用，并且仅适用于 Surface 设备。 如果您要查找家庭设备问题的帮助，请参阅[Surface 设备帮助](https://support.microsoft.com/products/surface-devices)。
+> **家庭用户**：本文仅供 IT 专业人员和技术支持代理使用，仅适用于 Surface 设备。 如果你正在查找有关家庭设备问题的帮助，请参阅 [Surface Devices Help](https://support.microsoft.com/products/surface-devices)。
 
-这些是 Microsoft 支持解决方案，用于解决在企业中使用 Surface 设备时可能遇到的常见问题。 如果您的问题未在此处列出，请[与 Surface 支持部门联系](contact-surface-support.md?tabs=online)。
+这些是 Microsoft 支持解决方案，用于解决你可能在企业中使用 Surface 设备时可能会遇到的常见问题。 如果你的问题未在此处列出，请联系 [Surface 支持](contact-surface-support.md?tabs=online)。
 
-##  <a name="surface-drivers-and-firmware"></a>Surface 驱动程序和固件
+## <a name="surface-drivers-and-firmware"></a>Surface 驱动程序和固件
 
 Microsoft 会定期为 Surface 设备发布更新和解决方案。 若要确保你的设备能够收到将来的更新（包括安全更新），请务必保持更新 Surface 设备。
 
 - [Surface 更新历史记录](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history)
 - [安装 Surface 和 Windows 更新](https://www.microsoft.com/surface/support/performance-and-maintenance/install-software-updates-for-surface?os=windows-10&=undefined)
-- [下载用于 Surface 的驱动程序和固件](https://support.microsoft.com/help/4023482)
-- [为 Surface 设备部署最新的固件和驱动程序](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)
-- [管理 Surface 驱动程序和固件更新](https://docs.microsoft.com/surface/manage-surface-pro-3-firmware-updates)
-- [如何在 Configuration Manager 中管理 Surface driver 更新](https://support.microsoft.com/help/4098906)
+- [下载 Surface 的驱动程序和固件](https://support.microsoft.com/help/4023482)
+- [管理和部署 Surface 驱动程序和固件更新](manage-surface-driver-and-firmware-updates.md)
+- [如何在 Configuration Manager 中管理 Surface 驱动程序更新](https://support.microsoft.com/help/4098906)
 
-##  <a name="surface-dock-issues"></a>Surface Dock 问题
+## <a name="surface-dock-issues"></a>Surface 扩展坞问题
 
 - [对 Surface 扩展坞和坞站进行故障排除](https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations)
-- [将图面连接到第二个屏幕的疑难解答](https://support.microsoft.com/help/4023496)
-- [Microsoft Surface Dock 固件更新](https://docs.microsoft.com/surface/surface-dock-updater)
+- [将 Surface 连接到第二个屏幕疑难解答](https://support.microsoft.com/help/4023496)
+- [Microsoft Surface Dock 1 固件更新](surface-dock-firmware-update.md)
 
-##  <a name="device-cover-or-keyboard-issues"></a>设备键盘盖或键盘问题
+## <a name="device-cover-or-keyboard-issues"></a>设备键盘盖或键盘问题
 
 - [Surface Type Cover 或键盘疑难解答](https://www.microsoft.com/surface/support/hardware-and-drivers/troubleshoot-surface-keyboards)
 
-##  <a name="screen-cracked-or-scratched-issues"></a>屏幕破损或划痕问题
+## <a name="screen-cracked-or-scratched-issues"></a>屏幕破损或划痕问题
 
 - [联系 Surface 支持部门](contact-surface-support.md?tabs=online)
 
-##  <a name="surface-power-or-battery-issues"></a>表面电源或电池问题
+## <a name="surface-power-or-battery-issues"></a>Surface Power 或电池问题
 
-- [如何收费 Surface （Surface PSU 信息）](https://support.microsoft.com/help/4023496)
-- [表面电池不能充电或表面不能在电池上运行](https://support.microsoft.com/help/4023536)
+- [如何为 Surface (Surface PSU 信息) ](https://support.microsoft.com/help/4023496)
+- [Surface 电池不充电或 Surface 不会使用电池运行](https://support.microsoft.com/help/4023536)
 - [Surface 无法开启或无法从睡眠状态中唤醒](https://support.microsoft.com/help/4023537)
 - [最大程度地延长 Surface 电池使用时间](https://support.microsoft.com/help/4483194)
 
-##  <a name="reset-device"></a>重置设备
+## <a name="reset-device"></a>重置设备
 
-- [创建和使用用于 Surface 的 USB 恢复驱动器](https://support.microsoft.com/help/4023512)
-- [常见问题：如果在服务中发送 Surface，则保护数据](https://support.microsoft.com/help/4023508)
-- [Microsoft Surface Data Eraser](https://docs.microsoft.com/surface/microsoft-surface-data-eraser)
+- [为 Surface 创建和使用 USB 恢复驱动器](https://support.microsoft.com/help/4023512)
+- [常见问题解答：如果你将 Surface 发送到服务中，请保护你的数据](https://support.microsoft.com/help/4023508)
+- [Microsoft Surface Data Eraser](microsoft-surface-data-eraser.md)
 
-##  <a name="deployment-issues"></a>部署问题
+## <a name="deployment-issues"></a>部署问题
 
-- [在 Surface Pro 型号1796或 Surface 笔记本电脑上部署 Windows 时找不到 DISK0](https://support.microsoft.com/help/4046108)
-- [Surface Pro 型号1796和 Surface 笔记本电脑1TB 显示两个驱动器](https://support.microsoft.com/help/4046105)
-- [系统 SKU 参考](https://docs.microsoft.com/surface/surface-system-sku-reference)
+- [在模型 1796 或 Windows部署Surface Pro DISK0 时Surface Laptop](https://support.microsoft.com/help/4046108)
+- [Surface Pro型号 1796 和 1TB Surface Laptop显示两个驱动器](https://support.microsoft.com/help/4046105)
+- [系统 SKU 参考](surface-system-sku-reference.md)
 
