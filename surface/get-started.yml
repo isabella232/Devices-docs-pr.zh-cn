@@ -11,28 +11,30 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 88674469b94de346a6a3a2b427f4cff034a3d405
-  ms.sourcegitcommit: 2776af08eb63c0a23950c476256e5019f83effd8
+  ms.openlocfilehash: 60a0956cf83b466587197ca401dc41b95952be03
+  ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 08/17/2021
-  ms.locfileid: "11902671"
+  ms.lasthandoff: 09/22/2021
+  ms.locfileid: "12034331"
 landingContent:
 - title: Surface 设备
   linkLists:
   - linkListType: whats-new
     links:
-    - text: 使用 Surface 的远程工作解决方案
-      url: https://www.microsoft.com/surface/business/remote-work-solutions
-    - text: Surface Laptop 4 + 商业版
-      url: https://www.microsoft.com/surface/business/surface-laptop-4
-    - text: Surface Pro 7+ 商用版
-      url: https://www.microsoft.com/surface/business/surface-pro-7-plus
-    - text: Surface LaptopGo for Business
-      url: https://www.microsoft.com/surface/business/surface-laptop-go
+    - text: Surface 操作系统选择
+      url: surface-os-choice.md
+    - text: Surface Pro 8 商业
+      url: https://www.microsoft.com/surface/business/surface-pro-8
     - text: 适用于企业的 Surface Pro X
       url: https://www.microsoft.com/surface/business/surface-pro-x
-    - text: 浏览所有 Surface 系列产品
+    - text: Surface LaptopStudio for Business
+      url: https://www.microsoft.com/surface/business/surface-laptop-studio
+    - text: Surface Go 3 商业版
+      url: https://www.microsoft.com/surface/business/surface-go-3
+    - text: Surface LaptopGo for Business
+      url: https://www.microsoft.com/surface/business/surface-laptop-go
+    - text: 浏览全部 Surface 系列产品
       url: https://www.microsoft.com/surface/business
 - title: 入门
   linkLists:
@@ -44,6 +46,8 @@ landingContent:
       url: surface-headphones.md
     - text: Surface 上的 Azure 虚拟桌面
       url: windows-virtual-desktop-surface.md
+    - text: 使用 Surface 的远程工作解决方案
+      url: https://www.microsoft.com/surface/business/remote-work-solutions
 - title: Microsoft Ignite
   linkLists:
   - linkListType: video
@@ -74,7 +78,7 @@ landingContent:
       url: manage-surface-driver-and-firmware-updates.md
     - text: 在 Surface 设备上管理 DFCI
       url: surface-manage-dfci-guide.md
-- title: 排除故障
+- title: 疑难解答
   linkLists:
   - linkListType: learn
     links:
@@ -98,7 +102,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: 部署适用于企业的 Surface 诊断工具包
+    - text: 适用于企业的 Surface 诊断工具包
       url: surface-diagnostic-toolkit-business.md
     - text: SEMM 和 UEFI
       url: surface-enterprise-management-mode.md
