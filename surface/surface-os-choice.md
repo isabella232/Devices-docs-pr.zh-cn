@@ -17,7 +17,7 @@ ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/23/2021
-ms.locfileid: "12036973"
+ms.locfileid: "12037076"
 ---
 # <a name="os-choice-for-new-surface-devices"></a>适用于新 Surface 设备的操作系统选择
  
