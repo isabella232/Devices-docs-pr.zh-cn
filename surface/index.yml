@@ -16,45 +16,45 @@ highlightedContent:
   items:
     - title: Surface 设备文档
       itemType: learn
-      url: 'https://docs.microsoft.com/surface/get-started'
+      url: /surface/get-started
     - title: Surface Hub 文档
       itemType: learn
-      url: 'https://docs.microsoft.com/surface-hub/index'
+      url: /surface-hub/index
     - title: Surface Duo文档
       itemType: learn
-      url: 'https://docs.microsoft.com/surface-duo/index'
+      url: /surface-duo/index
 conceptualContent:
   title: Surface 设备
   summary: 查找 Microsoft Surface 设备的资源。
   items:
     - title: Surface 概述
       links:
-        - url: 'https://www.microsoft.com/surface/business/surface-laptop-4'
+        - url: 'https://www.microsoft.com/surface/business/surface-pro-8'
           itemType: concept
-          text: Surface Laptop 4 商用版
-        - url: 'https://www.microsoft.com/surface/business/surface-pro-7-plus'
+          text: Surface Pro 8 商用版
+        - url: 'https://www.microsoft.com/surface/business/surface-laptop-studio'
           itemType: concept
-          text: Surface Pro 7+ 商用版
+          text: Surface Laptop Studio 商用版
         - url: 'https://www.microsoft.com/surface/business'
           itemType: concept
           text: 浏览全部 Surface 系列产品
     - title: Surface Hub 概述
       links:
-        - url: 'https://docs.microsoft.com/surface-hub/surface-hub-2s-85-install-mount'
+        - url: /surface-hub/surface-hub-2s-85-install-mount
           itemType: how-to-guide
-          text: 安装和装载 Surface Hub 2S 85"（准备指南）
-        - url: 'https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new'
+          text: 安装和装载 Surface Hub 2S 85 英寸（准备指南）
+        - url: /microsoftteams/rooms/surface-hub-manage-config
           itemType: concept
-          text: Surface Hub 2S 的新增功能？
-        - url: 'https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs'
+          text: 在 Surface Hub 上管理 Microsoft Teams 设置
+        - url: /surface-hub/surface-hub-2s-techspecs
           itemType: concept
           text: Surface Hub 2S 技术规格
     - title: Surface Duo 概述
       links:
-        - url: 'https://docs.microsoft.com/surface-duo/surface-duo-manage'
+        - url: /surface-duo/surface-duo-manage
           itemType: concept
           text: Surface Duo 管理概述
-        - url: 'https://docs.microsoft.com/surface-duo/surface-duo-secure'
+        - url: /surface-duo/surface-duo-secure
           itemType: concept
           text: Surface Duo 安全性概述
         - url: 'https://www.microsoft.com/surface/business/surface-duo'
@@ -90,10 +90,10 @@ conceptualContent:
           text: 联系 Surface Hub 支持部门
     - title: Surface Duo 帮助
       links:
-        - url: 'https://docs.microsoft.com/en-us/surface-duo/contact-surface-duo-support'
+        - url: /surface-duo/contact-surface-duo-support
           itemType: learn
           text: 联系 Surface Duo 支持部门
-        - url: 'https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows'
+        - url: /dual-screen/android/get-duo-sdk?tabs=windows
           itemType: learn
           text: 获取 Surface Duo SDK
         - url: 'https://www.microsoft.com/download/details.aspx?id=100847'

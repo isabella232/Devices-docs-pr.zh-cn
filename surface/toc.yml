@@ -22,18 +22,22 @@
               href: surface-headphones.md
         - name: 订购 Surface 设备
           items:
+            - name: Surface OS 选项
+              href: surface-os-choice.md
+            - name: Surface Pro 8 商用版
+              href: 'https://www.microsoft.com/surface/business/surface-pro-8'
+            - name: Surface Pro X 商用版
+              href: 'https://www.microsoft.com/surface/business/surface-pro-x'
+            - name: Surface Laptop Studio 商用版
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-studio'
+            - name: Surface Go 3 商用版
+              href: 'https://www.microsoft.com/surface/business/surface-go-3'
             - name: Surface Laptop 4 商用版
               href: 'https://www.microsoft.com/surface/business/surface-laptop-4'
-            - name: Surface Pro 7+ 商用版
-              href: 'https://www.microsoft.com/surface/business/surface-pro-7-plus'
-            - name: 适用于企业的 Surface Go 2
-              href: 'https://www.microsoft.com/surface/business/surface-go-2'
-            - name: 适用于企业的 Surface Pro X
-              href: 'https://www.microsoft.com/surface/business/surface-pro-x'
-            - name: 适用于企业的 Surface Studio 2
+            - name: Surface Laptop Go 商用版
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-go'
+            - name: Surface Studio 2 商用版
               href: 'https://www.microsoft.com/surface/business/surface-studio-2'
-            - name: Surface Book 3 商用版
-              href: 'https://www.microsoft.com/surface/business/surface-book-3'
     - name: 规划
       items:
         - name: Surface 设备与 Windows 10 Long-Term Servicing Branch 的兼容性
