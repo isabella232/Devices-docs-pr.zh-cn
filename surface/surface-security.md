@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 06/04/2021
+ms.date: 10/01/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 193053745628b434c07a63f23a042e95fead32eb
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: e329b0cd1b74060e01ad1105a75c63d2883c6a4e
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911803"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057639"
 ---
 # <a name="surface-security-overview"></a>Surface 安全性概述
 
@@ -27,7 +27,7 @@ ms.locfileid: "11911803"
 
 自 2015 以来，通过硬件设计的完整端到端所有权、内部固件开发以及设备更新和管理的整体方法，Microsoft Surface 一直使用统一的固件保护和设备安全方法。
 
-对于 Surface，我们的统一可扩展固件接口 (UEFI) 1 在内部进行维护，通过 Windows 更新定期更新，并通过 <sup> [](#references)Windows Autopilot 无缝部署以用于管理，从而在设备启动前将风险最小化并最大限度地提高固件级别的控制。 </sup> Microsoft 通过 Open Source [Project Mu](https://microsoft.github.io/mu/)在 GitHub 中提供 UEFI 中代码库的完全Microsoft Endpoint Manager。
+对于 Surface，我们的统一可扩展固件接口 (UEFI) 1 在内部进行维护，通过 Windows 更新定期更新，并通过 <sup> [](#references)Windows Autopilot 无缝部署以用于管理，从而在设备启动前将风险最小化并最大限度地提高固件级别的控制。 </sup> Microsoft 通过 Open Source [Project Mu（](https://microsoft.github.io/mu/)由 GitHub 管理）在 UEFI 中提供代码库的完全Microsoft Endpoint Manager。
 
 ## <a name="microsoft-designed-and-built-components"></a>Microsoft 设计和构建的组件
 
@@ -56,7 +56,7 @@ Surface 利用独立防御子组件的分层，通过深度防御方法提高安
 - 仅使用 Microsoft &维护的固件、驱动程序和操作系统。
 - 直接发到 Microsoft 经销商的 Surface 设备的安全后勤和受信任的运营商交付。
 
-离开工厂后，Surface 商用版设备在整个生命周期内Windows更新进行保护。
+离开工厂后，Surface 商用版设备在整个生命周期Windows更新进行保护。
 
 ## <a name="advanced-windows-security-features"></a>高级Windows安全功能
 
@@ -66,7 +66,7 @@ Surface 附带Windows开箱即用增强的硬件安全功能，为客户提供�
 
 ## <a name="virtualization-based-security"></a>基于虚拟化的安全功能
 
-基于虚拟化的安全性（即 VBS）使用硬件虚拟化功能创建安全的内存区域并将其与正常操作系统隔离。 Windows"虚拟安全模式"可以承载大量安全解决方案，为它们提供对操作系统中漏洞的保护，并阻止使用恶意攻击来破坏保护。
+基于虚拟化的安全性（即 VBS）使用硬件虚拟化功能创建安全的内存区域并将其与正常操作系统隔离。 Windows"虚拟安全模式"可以托管大量安全解决方案，为这些解决方案提供对操作系统中漏洞的保护，并阻止使用恶意攻击来破坏保护。
 
 ### <a name="hypervisor-enforced-code-integrity-hvci"></a>Hypervisor-Enforced HVCI (代码完整性) 
 
@@ -93,7 +93,7 @@ Surface 设备的"信任根"会检查签名和测量，以在允许下一阶段�
 | 步骤  | 安全启动阶段                                                                                                                                                                                                                                      |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **1** | 每次从 TPM 提供的信任根按下电源按钮时，都会实例化安全性。 首次打开设备时，系统将运行一系列安全检查，以确保设备固件未被篡改或损坏。 |
-| **2** | 启用后，SoC 将使用芯片集供应商密钥，在基于 Intel 的设备上使用经过身份验证的代码模块 (ACM)  (验证和启动微代码) 。                                                                              |
+| **2** | 启用后，SoC 将使用芯片集供应商密钥验证和启动微代码的加载，该代码模块使用基于 Intel 的 (ACM)  (基于 Intel 的设备上) 。                                                                              |
 | **3** | ACM 在加载之前测量 UEFI 代码，并将其与 TPM 的平台配置注册 [PCR] 中的已知度量进行比较，以确保 UEFI 代码未改变。                                                                |
 | **4** | 在允许 UEFI 运行之前，启动防护会检查 UEFI 是否使用 Surface OEM 密钥进行签名。 最初检查的 UEFI 模块是图中的 SEC 安全部分和"使用前进行安装"的"功能"部分。                                                |
 | **5** | 在加载驱动程序执行环境（DXE 模块）时，"更新"部分会检查 Surface 签名。 DXE 模块包括启动设备选择阶段。                                                                          |
@@ -114,11 +114,11 @@ Surface 设备上 SoC 具有独立于其他每个内核的安全处理器。 首
 
 DRTM 通过确保使用 TSME 加密和 TSME 加密对测量 (加密) 。 一旦设置了 TSME（如果无法清除，系统重置除外）。 每次重置的新加密密钥可确保一次使用加密，以确保安全。
 
-对系统管理模式的运行时 (SMM) 在最高级别执行，如果 SMM 代码存在任何问题，则可能会存在风险。 Surface Laptop 4 WITH AMD Ryzen 通过截获系统管理中断 (SMI) 来保护系统，并调度执行 SMM 代码到较低级别的 (用户) ，以保护系统免受对代码和数据无效的访问。 SMM 保护使用硬件保护来限制可以访问的代码、数据和系统资源，从而进一步强制执行针对无意或恶意事件的保护。
+对系统管理模式的运行时 (SMM) 在最高级别执行，如果 SMM 代码有任何问题，则可能会存在风险。 Surface Laptop 4 和 AMD Ryzen 通过截获系统管理中断 (SMI) 并调度 SMM 代码执行到较低级别的 (用户) 来保护系统免受对代码和数据无效的访问。 SMM 保护使用硬件保护来限制可以访问的代码、数据和系统资源，从而进一步强制执行针对无意或恶意事件的保护。
 
-Surface Laptop 4 与 AMD Ryzen 一起支持[NIST 800-193 平台](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf)固件复原指南，以及强大的固件更新支持。 启动固件的复原更新机制使用 A-B 恢复机制，该机制在启动期间检测到固件的损坏副本时自动恢复固件的备份副本。
+Surface Laptop 4 与 AMD Ryzen 一起支持[NIST 800-193](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf)平台固件复原指南，以及强大的固件更新支持。 启动固件的复原更新机制使用 A-B 恢复机制，该机制在启动期间检测到固件的损坏副本时自动恢复固件的备份副本。
 
-若要了解有关 DRTM 和 SMM 的更多信息，请参阅 Windows Defender System Guard 如何Windows 10 - Windows[安全|Microsoft Docs](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows)
+若要了解有关 DRTM 和 SMM 的更多信息，请参阅 Windows Defender System Guard 如何帮助Windows 10 - Windows[安全|Microsoft Docs](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows)
 
 ## <a name="remote-device-management-control"></a>远程设备管理控制
 
@@ -128,11 +128,11 @@ IT 管理员可以远程管理 Surface 设备，而无需实际触摸每个设�
 | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | DCFI (设备固件配置接口)  | 通过零接触设备预配提供云规模的远程固件管理。 Microsoft 自己的 UEFI 允许更强的 DCFI 实现，使组织能够禁用硬件元素，并能够使用 Intune 远程锁定 UEFI。 ¹                                                                                                                                                                          | [Surface UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)<br> <br>[管理 Surface UEFI 设置](manage-surface-uefi-settings.md)                                          |
 | SEMM (Surface Enterprise 管理模式)       | 实现跨本地、混合和云环境的 UEFI 固件设置的集中企业参与。¹                                                                                                                                                                                                                                                                                           | [Surface 企业管理模式](surface-enterprise-management-mode.md)                                                                                                                                                       |
-| 适用于企业的 Windows 更新                    | 使 IT 管理员通过将 Windows 10 设备直接连接到 Windows 更新服务，使 IT 管理员能够使用最新的安全防护、Windows 功能和 Surface 固件使 Windows 设备始终保持最新。 可以使用组策略或 MDM 解决方案（如 Microsoft Intune）配置Windows Surface 设备更新方式和时间的适用于企业的更新设置。 | [适用于企业的 Windows 更新](/windows/deployment/update/waas-manage-updates-wufb)<br> <br>[管理和部署 Surface 驱动程序和固件更新](manage-surface-driver-and-firmware-updates.md) |
+| 适用于企业的 Windows 更新                    | 使 IT 管理员通过将 Windows 10 设备直接连接到 Windows 更新服务，使 IT 管理员能够使用最新的安全防护、Windows 功能和 Surface 固件使 Windows 设备始终保持最新状态。 可以使用组策略或 MDM 解决方案（如 Microsoft Intune）来配置 Windows 更新企业更新设置，这些设置控制 Surface 设备的更新方式和时间。 | [适用于企业的 Windows 更新](/windows/deployment/update/waas-manage-updates-wufb)<br> <br>[管理和部署 Surface 驱动程序和固件更新](manage-surface-driver-and-firmware-updates.md) |
 
 ## <a name="references"></a>参考
 
-1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。 DFCI 目前适用于 Surface Laptop 4、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7+、Surface Pro 7 和 Surface Pro X。 
+1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。 DFCI 目前适用于 Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7 及以上版本，Surface Pro 7，Surface Pro X。 
 
 ## <a name="learn-more"></a>了解详细信息
 
