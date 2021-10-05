@@ -14,12 +14,16 @@
               href: windows-virtual-desktop-surface.md
             - name: Surface Laptop 4 处理器技术概述
               href: surface-laptop-processors.md
-            - name: Surface Book 3 GPU 技术概述
+            - name: Surface HeadPhones 2+ 技术概述
+              href: surface-headphones.md
+        - name: Surface 专业图形
+          items:
+            - name: Surface Laptop Studio 图形概述
+              href: surface-laptop-studio-graphics.md
+            - name: Surface Book 3 技术概述
               href: surface-book-GPU-overview.md
             - name: Surface Book 3 Quadro RTX 3000 技术概述
               href: surface-book-quadro.md
-            - name: Surface HeadPhones 2+ 技术概述
-              href: surface-headphones.md
         - name: 订购 Surface 设备
           items:
             - name: Surface OS 选项
