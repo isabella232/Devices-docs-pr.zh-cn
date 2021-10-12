@@ -1,5 +1,5 @@
 ---
-title: Microsoft Surface Hub 的有用下载
+title: 可下载的资源用于Surface Hub准备情况
 description: 与 Microsoft Surface Hub 相关的下载。
 ms.prod: surface-hub
 ms.sitesec: library
@@ -10,16 +10,16 @@ ms.date: 08/22/2017
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 3dc552f10b51d041de36d96f8124d812cb2ff1c4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: e108714e5d0c2295c3db033437f130cbe5b3b66f
+ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830915"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "12089284"
 ---
-# Microsoft Surface Hub 的有用下载
+# <a name="downloadable-resources-for-surface-hub-readiness"></a>可下载的资源用于Surface Hub准备情况
 
-本主题提供了指向有用 Surface Hub 文档的链接，例如产品数据表和用户指南。
+本主题提供指向有用Surface Hub文档（如产品数据表和用户指南）的链接。
 
 | 链接 | 说明 |
 | --- | --- |

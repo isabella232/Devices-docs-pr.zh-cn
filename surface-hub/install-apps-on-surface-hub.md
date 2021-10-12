@@ -13,12 +13,12 @@ ms.topic: article
 ms.date: 07/16/2021
 ms.localizationpriority: medium
 audience: ITPro
-ms.openlocfilehash: a8c11406c7786e379999ff32f482815d6b180b24
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 3c4869f8aadbd849a608b5a35bf0e76ff3e78508
+ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676656"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "12089324"
 ---
 # <a name="install-apps-on-your-microsoft-surface-hub"></a>在 Microsoft Surface Hub 上安装应用
 
@@ -28,7 +28,7 @@ ms.locfileid: "11676656"
 
 - Surface Hub 仅运行[通用 Windows 平台 (UWP) 应用](/windows/uwp/get-started/universal-application-platform-guide)。 使用[MSIX 打包工具创建的应用](/windows/msix/packaging-tool/tool-overview)不会在 Surface Hub。
 - 应用必须面向[通用设备系列](/windows/uwp/get-started/universal-application-platform-guide)或 Windows 团队设备系列。
-- Surface Hub仅支持来自[适用于企业的 Microsoft Store](/microsoft-store/distribute-offline-apps)的离线[授权适用于企业的 Microsoft Store。](https://businessstore.microsoft.com/store/private-store)
+- Surface Hub仅支持来自[适用于企业的 Microsoft Store](/microsoft-store/distribute-offline-apps)的[离线授权适用于企业的 Microsoft Store。](https://businessstore.microsoft.com/store/private-store)
 - 默认情况下，应用必须经过应用商店签名才能安装。 在测试和开发时，还可以选择运行开发人员签名的 UWP 应用，使设备进入开发人员模式即可。
 - 将应用提交到Microsoft Store时，开发人员需要设置设备系列可用性和组织许可选项，以确保应用可在 Surface Hub 上运行。
 - 在 Surface Hub 上安装应用需要管理员凭据。 由于设备要在公用空间（例如会议室）中使用，用户无法访问 Microsoft Store 以下载和安装应用。
@@ -57,7 +57,7 @@ ms.locfileid: "11676656"
 1. 在 Surface Hub 中，启动**设置**。
 2. 请在系统提示时，键入该设备的管理员凭据。
 3. 导航到**Surface Hub**  >  **应用&功能。**
-4. 选择 **"打开** 应用商店"并搜索要查找的应用。
+4. 选择 **"打开** 应用商店"，然后搜索要查找的应用。
 
 ### <a name="download-app-packages-from-microsoft-store-for-business"></a>从适用于企业的 Microsoft 应用商店中下载应用包
 
@@ -73,11 +73,11 @@ ms.locfileid: "11676656"
 - *编码*许可文件（如果当前使用 MDM 分配应用）
 - 任何必要的依赖关系文件
 
-有关详细信息，请参阅[下载脱机授权的应用](https://technet.microsoft.com/itpro/windows/manage/distribute-offline-apps#download-an-offline-licensed-app)。
+有关详细信息，请参阅[下载脱机授权的应用](/microsoft-store/distribute-offline-apps#download-an-offline-licensed-app)。
 
 ### <a name="install-offline-licensed-apps-via-provisioning-package"></a>通过预配包安装离线授权的应用
 
-在一些 Surface Hub 上可使用设置包手动安装从适用于企业的应用商店下载的脱机授权应用。 使用 Windows 映像和配置设计器 (ICD) 创建设置包，该设置包含有应用包和从适用于企业的应用商店中下载的*已解码*许可文件。 有关详细信息，请参阅[创建设置包](provisioning-packages-for-certificates-surface-hub.md)。
+在一些 Surface Hub 上可使用设置包手动安装从适用于企业的应用商店下载的脱机授权应用。 使用 Windows 映像和配置设计器 (ICD) 创建设置包，该设置包含有应用包和从适用于企业的应用商店中下载的*已解码*许可文件。 有关详细信息，请参阅为用户[创建预配Surface Hub。](provisioning-packages-for-certificates-surface-hub.md)
 
 ### <a name="supported-mdm-provider"></a>受支持的 MDM 提供程序
 
@@ -85,7 +85,7 @@ ms.locfileid: "11676656"
 
 | MDM 提供程序                | 支持脱机授权的应用包 |
 |-----------------------------|----------------------------------------|
-| 从版本 1602 版本 (配置管理器本地 MDM)  | 是 |
+| 从版本 1602 (开始，使用 Configuration Manager 本地 MDM)  | 是 |
 |
 | 第三方 MDM 提供程序    | 查看以确保 MDM 提供程序支持部署脱机许可的应用包。 |
 
@@ -118,7 +118,7 @@ ms.locfileid: "11676656"
 
 #### <a name="create-provisioning-package"></a>创建预配包
 
-使用 Visual Studio 为 UWP 应用创建应用包，并且使用测试证书签名。 然后使用 Windows 映像和配置设计器 (ICD) 创建包含该应用包的设置包。 有关详细信息，请参阅[创建设置包](provisioning-packages-for-certificates-surface-hub.md)。
+使用 Visual Studio 为 UWP 应用创建应用包，并且使用测试证书签名。 然后使用 Windows 映像和配置设计器 (ICD) 创建包含该应用包的设置包。 有关详细信息，请参阅为用户[创建预配Surface Hub。](provisioning-packages-for-certificates-surface-hub.md)
 
 ## <a name="submit-apps-to-the-microsoft-store"></a>向 Microsoft Store 提交应用
 
@@ -159,7 +159,7 @@ ms.locfileid: "11676656"
 
 ## <a name="summary"></a>摘要
 
-根据你是在开发应用、在少量设备上评估应用还是将应用广泛部署到组织，Surface Hub在设备上安装应用有几种不同的方法。 此表总结了受支持的方法：
+根据是开发应用、在少量设备上评估应用还是将应用广泛部署到组织，Surface Hub在设备上安装应用有几种不同的方法。 此表总结了受支持的方法：
 
 | 安装方法             | 开发应用 | 评估 <br> 几台设备上的应用 | 将应用广泛部署到 <br> 组织 |
 | -------------------------- | --------------- | ------------------------------------- | ---------------------- |
