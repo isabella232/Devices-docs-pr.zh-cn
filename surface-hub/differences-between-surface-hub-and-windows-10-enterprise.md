@@ -11,18 +11,18 @@ ms.date: 03/23/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 57fd7ea11e19902d2a94c1be998052739875afaf
-ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
+ms.openlocfilehash: 3bc5d7e26d565ca26ec23eefaee406c47eac395e
+ms.sourcegitcommit: 2493c83b1b3cb28b0836926cd406d4b28cd6abfa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "12089294"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "12094455"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>操作系统基本知识 (Surface Hub)
 
 Surface Hub 操作系统 Windows 10 协同版基于 Windows 10 企业版，提供了对企业管理、安全和其他功能的丰富支持。 但是，二者之间存在着重要差异。 企业版针对电脑设计，而 Windows 10 协同版针对大屏幕和会议室进行全新设计。 在评估 Surface Hub 的安全和管理要求时，最好将其视为新的操作系统。 本文旨在帮助突出显示 Surface Hub 上的 Windows 10 协同版和 Windows 10 企业版之间的关键差异，以及这些差异对你的组织的影响。
 
-从 2020 年 9 月开始，客户可以选择迁移到 Windows 10 专业版 2S Enterprise迁移Surface Hub迁移。 若要了解详细信息，请参阅以下内容：
+从 2020 年 9 月开始，客户可以选择在 Windows 10 专业版 2S Enterprise迁移Surface Hub迁移。 若要了解详细信息，请参阅以下内容：
 
 - [宣布在 2 Windows 10 专业版 Enterprise 2 Surface Hub和发布](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107)。
 
@@ -119,7 +119,7 @@ Surface Hub 可实现这些 Windows 10 安全功能：
 - [Windows Defender 应用程序控制和基于虚拟化的代码完整性保护](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [使用 AppLocker 的应用程序限制策略](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
 - [BitLocker 驱动器加密](/windows/security/information-protection/bitlocker/bitlocker-overview)
-- [受信任的平台模块 (TPM) ] (/security/information-protection/tpm/trusted-platform-module-overview
+- [受信任的平台模块 (TPM)](/security/information-protection/tpm/trusted-platform-module-overview)
 - [Microsoft Defender 防病毒Windows](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
 - 对“设置”应用的访问权限的[用户帐户控制 (UAC)](/windows/security/identity-protection/user-account-control/user-account-control-overview)
 
@@ -159,7 +159,7 @@ Surface Hub通过移动设备管理支持远程管理 (MDM) 解决方案，例�
 
 ### <a name="group-policy"></a>组策略
 
-Surface Hub组策略Windows，包括审核。 改用 MDM 将策略应用到 Surface Hub。 有关 MDM 的详细信息，请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)。
+Surface Hub不支持Windows组策略，包括审核。 改用 MDM 将策略应用到 Surface Hub。 有关 MDM 的详细信息，请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)。
 
 *这可能影响的组织策略：* 
 
