@@ -11,26 +11,28 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 60a0956cf83b466587197ca401dc41b95952be03
-  ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
+  ms.openlocfilehash: 1d46bea76ffb0641aeee1c51f88dcbb1ff2d56bf
+  ms.sourcegitcommit: 74ab91db82ae611854c070ddb14daa28acf7051f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 09/23/2021
-  ms.locfileid: "12037136"
+  ms.lasthandoff: 10/16/2021
+  ms.locfileid: "12096440"
 landingContent:
 - title: Surface 设备
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Surface 操作系统选择
+    - text: 哪些 Surface 设备可以升级到Windows 11？
+      url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
+    - text: Surface OS 选项
       url: surface-os-choice.md
-    - text: Surface Pro 8 商业
+    - text: Surface Pro 8 商用版
       url: https://www.microsoft.com/surface/business/surface-pro-8
-    - text: 适用于企业的 Surface Pro X
+    - text: Surface Pro X 商用版
       url: https://www.microsoft.com/surface/business/surface-pro-x
-    - text: Surface LaptopStudio for Business
+    - text: Surface Laptop Studio 商用版
       url: https://www.microsoft.com/surface/business/surface-laptop-studio
-    - text: Surface Go 3 商业版
+    - text: Surface Go 3 商用版
       url: https://www.microsoft.com/surface/business/surface-go-3
     - text: Surface LaptopGo for Business
       url: https://www.microsoft.com/surface/business/surface-laptop-go
@@ -40,10 +42,10 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Surface Laptop 4 处理器技术概述
+    - text: Surface Laptop Studio 图形概述
+      url: surface-laptop-studio-graphics.md
+    - text: Surface Laptop 4 个处理器概述
       url: surface-laptop-processors.md
-    - text: Surface HeadPhones 2+ 技术概述
-      url: surface-headphones.md
     - text: Surface 上的 Azure 虚拟桌面
       url: windows-virtual-desktop-surface.md
     - text: 使用 Surface 的远程工作解决方案
@@ -88,6 +90,8 @@ landingContent:
       url: support-solutions-surface.md
     - text: 基于 Windows 的设备的 Surface 驱动程序和固件生命周期
       url: surface-driver-firmware-lifecycle-support.md
+    - text: Surface 支持的操作系统
+      url: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1
 - title: 导出安全指导
   linkLists:
   - linkListType: how-to-guide
