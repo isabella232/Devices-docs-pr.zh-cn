@@ -91,7 +91,7 @@
           href: surface-hub-2s-nonglobal-admin.md
         - name: 在 Microsoft Surface Hub 上安装应用
           href: install-apps-on-surface-hub.md
-        - name: 在 Surface Hub 上安装和配置新版 Microsoft Edge
+        - name: 在 Surface Hub 上管理 Microsoft Edge
           href: surface-hub-install-chromium-edge.md
         - name: 通过 MDM 提供商管理 Surface Hub
           href: manage-settings-with-mdm-for-surface-hub.md
@@ -188,7 +188,7 @@
       items:
         - name: 管理 Microsoft Surface Hub
           href: manage-surface-hub.md
-        - name: 在 Surface Hub 上安装和配置新版 Microsoft Edge
+        - name: 在 Surface Hub 上管理 Microsoft Edge
           href: surface-hub-install-chromium-edge.md
         - name: 适用于 Surface Hub 的 PowerShell
           href: appendix-a-powershell-scripts-for-surface-hub.md
