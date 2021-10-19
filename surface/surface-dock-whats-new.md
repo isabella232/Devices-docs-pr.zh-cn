@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 65bd923cdfceecf51e59a9cf66b5b4eff44a8374
-ms.sourcegitcommit: 74ab91db82ae611854c070ddb14daa28acf7051f
+ms.openlocfilehash: 9c923b22d3921e71f1be127f2ba31c361b4ad1d7
+ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "12096460"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "12101209"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Surface Dock 2 中的新增功能
 
@@ -67,7 +67,9 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
     
 - 双4K@60hz。 在下列设备上最多支持两个屏幕：
 
+  - Surface LaptopStudio
   - Surface Book 3
+  - Surface Pro 8
   - Surface Pro 7
   - Surface Pro 7+
   - Surface Pro X
@@ -82,6 +84,7 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
   - Surface Laptop (一代) 
   - Surface Go
   - Surface Go 2
+  - Surface Go 3
   - Surface Book 2
 
 ### <a name="ethernet"></a>以太网
@@ -109,7 +112,7 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新�
 | Kensington 锁定                     | 是                                                         | 是                                                                                                 |                  |
 | 浮出电缆长度               | 65cm                                                        | 80cm                                                                                                | 20cm             |
 | 显示链接主机电源                 | 60W                                                         | 120W                                                                                                | 不适用              |
-| USB 负载电源                      | 30W                                                         | 60W                                                                                                 |                  |
+| USB 负载电源                      | 400                                                         | 60W                                                                                                 |                  |
 | USB 比特率                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
 | 监视支持                     | 2 x 4k @30fps，或<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps<br> 或 1 x 4K @120fps                                                                                     | 1 x 4K @ 60fps   |
 | 从连接待机 1 唤醒 LAN <sup> 上</sup> | 是                                                         | 是                                                                                                 |                  |
