@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/28/2021
+ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: bba49151973423d269dfdcf8eb5039ed5e39787f
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+ms.openlocfilehash: f3fcc6ddcda0cf8016e1ba9383da2b5be511c0f1
+ms.sourcegitcommit: 714a56ede92eb6b16878aef8fdf94f9d2bda7204
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154168"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "12154374"
 ---
 # <a name="surface-management-portal-overview"></a>Surface 管理门户概述
 
@@ -29,11 +29,13 @@ ms.locfileid: "12154168"
 
 深入了解设备合规性、支持活动和担保范围。 快速查看每台设备的状态、哪些设备仍在担保中或即将过期，以及硬件提供商的活动支持请求状态。
 
-当你的 Surface 设备注册进行云管理并且用户首次登录时，来自这些 Surface 设备的信息会自动流入 Surface 管理门户，从而提供特定于 Surface 的设备管理员活动的单一窗格。
+当你的 Surface 设备注册进行云管理并且用户首次登录时，这些 Surface 设备的信息会自动流入 Surface 管理门户，从而提供特定于 Surface 的设备管理员活动的单一窗格。
+
+另请参阅： [下面的已知](#known-issues) 问题。 
 
 ## <a name="get-started"></a>入门
 
-登录到 Microsoft Endpoint Manager，单击"**所有服务**"，然后单击 **"Surface Management Portal"。**
+登录到"Microsoft Endpoint Manager，单击"**所有服务**"，然后单击 **"Surface Management Portal"。**
 
 :::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="启动 Surface 管理门户":::
 
@@ -69,7 +71,11 @@ Surface 管理门户可完全查看支持活动以及每个请求的状态。
 
 ## <a name="try-for-free"></a>免费试用
 
-Surface 管理门户适用于使用 surface Microsoft Endpoint Manager通过 Intune 注册 Surface 设备的客户。 如果你已是 Intune 的新用户，立即通过访问快速入门设置 Intune 租户[：Microsoft Intune免费。](/mem/intune/fundamentals/free-trial-sign-up)
+Surface 管理门户适用于使用 surface Microsoft Endpoint Manager通过 Intune 注册 Surface 设备的客户。 如果你是 Intune 的新用户，立即通过访问快速入门设置 Intune 租户[：Microsoft Intune免费。](/mem/intune/fundamentals/free-trial-sign-up)
+
+## <a name="known-issues"></a>已知问题
+
+- 对于少数租户，门户可能无法正确加载。 Surface 工程部门正在积极调查此问题。 *2021 年 11 月 2 日。*
 
 ## <a name="learn-more"></a>了解详细信息
 
