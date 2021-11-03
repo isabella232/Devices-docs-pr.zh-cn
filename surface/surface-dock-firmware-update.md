@@ -11,13 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.date: 2/08/2021
-ms.openlocfilehash: 070139370fc8175a116cb2e2a329404af8ac09b9
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 10/25/2021
+ms.openlocfilehash: ebdb6e5999eb3564a21d23e661fa75d90a32e698
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911147"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154047"
 ---
 # <a name="surface-dock-1-firmware-update"></a>Surface Dock 1 固件更新
 
@@ -26,10 +26,28 @@ ms.locfileid: "11911147"
 > [!NOTE]
 > 本文不适用于[Surface Dock 2，](surface-dock-whats-new.md)它通过 Windows Update 或通过使用 Microsoft Endpoint Configuration Manager 或其他 MSI 部署工具自动接收更新。
 
-此工具取代以前的 Microsoft Surface Dock Updater 工具，以前作为适用于 IT 的 Surface Tools 的一部分可供下载。 之前的工具名为 Surface_Dock_Updater_vx.xx.xxx.x.msi (，其中 x 指示) 且不再可供下载，因此不应使用。
+此工具取代以前的 Microsoft Surface Dock Updater 工具，以前作为适用于 IT 的 Surface Tools 的一部分可供下载。 之前的工具名为 Surface_Dock_Updater_vx.xx.xxx.x.msi (其中 x 指示) 且不再可供下载，因此不应使用。
 
 > [!IMPORTANT]
 > 本文包含适用于 IT 管理员的技术说明。 如果你是家庭用户，请参阅 Microsoft 支持站点上的如何更新[Surface 扩展](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)   坞固件。 支持站点中的说明与下面的常规安装步骤相同，但本文包含用于监视、验证更新以及将更新部署到网络上多台设备的其他信息。
+
+## <a name="supported-devices"></a>支持的设备
+
+Surface Dock 1 固件更新在下列设备上受支持：
+
+- Surface Pro 3 及更高版本
+- Surface ProX (所有代) 
+- Surface 3
+- Surface Book (所有代) 
+- Surface LaptopStudio
+- Surface Studio (所有代) 
+- Surface Laptop (所有代) 
+- Surface Laptop转到
+- Surface Go (所有代) 
+
+### <a name="minimum-os-requirement"></a>最低操作系统要求
+
+- Windows 10版本 1803 或更高版本
 
 ## <a name="install-surface-dock-1-firmware-update"></a>安装 Surface Dock 1 固件更新
 
@@ -38,7 +56,7 @@ ms.locfileid: "11911147"
 > [!TIP]
 > Microsoft 定期发布新版本的 Surface Dock 1 固件更新。 MSI 文件不是自行更新。 如果你已经将 MSI 部署到 Surface 设备并且发布了新版本的固件，则需要部署新版本。
 
-1. 转到 [Surface Tools for IT，](https://www.microsoft.com/download/details.aspx?id=46703) 下载并安装名为 **.msi.** 的 Surface_Dock_FwUpdate 文件，后跟相应的版本。 如果你运行的是 Surface Pro X，请下载 **.arm64**版本。 对于所有其他设备，请使用 **.amd64** 内部版本。  
+1. 转到 [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) 并下载并安装名为 **.msi.** 的 Surface_Dock_FwUpdate 文件，后跟相应的版本。 如果你运行的是 Surface Pro X，请下载 **.arm64**版本。 对于所有其他设备，请使用 **.amd64** 内部版本。  
 
     - 更新需要运行 Windows 10版本 1803 或更高版本的 Surface 设备。
     - 安装 MSI 文件可能会提示你重新启动 Surface。 但是，执行更新不需要重新启动。
@@ -51,7 +69,7 @@ ms.locfileid: "11911147"
 
 要监视更新，请执行以下操作：
 
-1. 打开事件查看器，浏览到**Windows**日志 > 应用程序"，然后在右侧窗格中的"操作****"下单击"筛选**当前**日志"，输入事件源旁边的**SurfaceDockFwUpdate，** 然后单击"确定 **"。** ****
+1. 打开事件查看器，浏览到**Windows**日志 > 应用程序，然后在右侧窗格中的操作下单击筛选******当前**日志，输入事件源旁边的**SurfaceDockFwUpdate** ，然后单击**确定。** ****
 
 2. 在提升的命令提示符下键入以下命令：
 
@@ -63,7 +81,7 @@ ms.locfileid: "11911147"
 
 4. 包含以下文本的事件 2007 指示成功更新：固件更新 **已完成。hr=0 DriverTelementry EventCode = 2007**。
 
-   如果更新未成功，则事件 ID 2007 将显示为 **Error** 事件，而不是 **Information**。 此外，在注册表中Windows的版本不会是最新的。
+   如果更新未成功，则事件 ID 2007 将显示为 **Error** 事件，而不是 **Information**。 此外，在注册表中Windows的版本不是最新的。
 
 5. 更新完成后，更新后的 DWORD 值将显示在Windows注册表中，对应于该工具的当前版本。 有关详细信息 [，请参阅](#versions-reference) 本文中的版本参考部分。 例如：
 
@@ -82,7 +100,7 @@ ms.locfileid: "11911147"
 
 ## <a name="network-deployment"></a>网络部署
 
-可以使用 Windows 安装程序 (Msiexec.exe) 将 Surface Dock 1 固件更新部署到整个网络的多台设备。 使用 Microsoft Endpoint Configuration Manager或其他部署工具时，请输入以下语法以确保安装是无提示的：
+可以使用 Windows 安装程序命令 (Msiexec.exe) 将 Surface Dock 1 固件更新部署到整个网络的多台设备。 使用 Microsoft Endpoint Configuration Manager或其他部署工具时，请输入以下语法以确保安装是无提示的：
 
 - **Msiexec.exe /i \<path to msi file\> /quiet /norestart**
 
@@ -167,7 +185,7 @@ Surface 扩展坞固件由两个组件组成：
 ## <a name="versions-reference"></a>版本参考
 
 >[!NOTE]
->安装文件发布时采用以下命名格式：Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI(例如****：Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) 并默认安装到 C：\Program Files\SurfaceUpdate。
+>安装文件以以下命名格式 ** 发布：Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI(** 例如：Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) 并默认安装到 C：\Program Files\SurfaceUpdate。
 
 ### <a name="version-1531390"></a>版本 1.53.139.0
 

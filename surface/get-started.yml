@@ -11,17 +11,19 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 1d46bea76ffb0641aeee1c51f88dcbb1ff2d56bf
-  ms.sourcegitcommit: 74ab91db82ae611854c070ddb14daa28acf7051f
+  ms.openlocfilehash: fc17b15599fa158a7413c7cf281eb8713b2f46c1
+  ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/16/2021
-  ms.locfileid: "12096440"
+  ms.lasthandoff: 11/02/2021
+  ms.locfileid: "12153947"
 landingContent:
 - title: Surface 设备
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Surface 管理门户
+      url: surface-management-portal.md
     - text: 哪些 Surface 设备可以升级到Windows 11？
       url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
     - text: Surface OS 选项
