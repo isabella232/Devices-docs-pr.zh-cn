@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: 0eb0eb1e1d73852a2131c5aa5d6a7731ce78d54f
-ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
+ms.openlocfilehash: 39c51b311a1c1329d0f1f54b787e975d42be0737
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11721252"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338211"
 ---
 # <a name="ethernet-adapters-and-surface-deployment"></a>以太网适配器和 Surface 部署
 
@@ -39,8 +39,9 @@ Surface 设备的网络启动支持以下以太网设备：
 
 - Surface USB-C 到以太网和 USB 3.0 适配器
 - Surface USB 3.0 到千兆位以太网适配器
+- Surface USB-C 旅行中心
 - Surface 扩展坞
-- Surface Dock 2
+- Surface 扩展坞 2
 - Surface 3 扩展坞
 - Surface Pro 3 扩展坞
 - 适用于 Surface Pro 和 Surface Pro 2 的扩展坞
@@ -82,4 +83,4 @@ Surface 设备的网络启动支持以下以太网设备：
 
 如果使用 WDS 部署，MAC 地址将仅用于在部署服务器配置为仅响应已知且预暂存的客户端时标识计算机。 当预暂存客户端时，管理员将在 Active Directory 中创建计算机帐户，并根据 MAC 地址或系统 UUID 定义该计算机。 若要避免由共享的以太网适配器引起的标识冲突，应使用[系统 UUID 定义预暂存的客户端](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc742034(v=ws.11))。 或者，可以将 WDS 配置为响应未知客户端，而无需由 MAC 地址或系统 UUID 进行定义，方法是在 **Windows 部署服务器属性**的[**PXE 响应**选项卡](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732360(v=ws.11))上选择**响应所有客户端计算机(已知和未知)** 选项。
 
-与配置管理器相比，与共享的以太网适配发生冲突的可能性要高很多。 在 WDS 仅使用 MAC 地址来定义各个系统（如果将其这样配置）的情况下，只要执行到新的或未知计算机的部署，配置管理器便会使用 MAC 地址来定义各个系统。 这可能导致未正确配置设备，甚至无法使用共享的以太网适配器部署多个系统。 在如何对多个 [SCCM OSD](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-use-the-same-external-ethernet-adapter-for-multiple-sccm/ba-p/257374)使用同一外部以太网适配器（核心基础结构和安全博客的博客文章）中详细介绍了针对此情况的几个潜在解决方案。
+与配置管理器相比，与共享的以太网适配发生冲突的可能性要高很多。 在 WDS 仅使用 MAC 地址来定义各个系统（如果将其这样配置）的情况下，只要执行到新的或未知计算机的部署，配置管理器便会使用 MAC 地址来定义各个系统。 这可能导致未正确配置设备，甚至无法使用共享的以太网适配器部署多个系统。 在如何对多个 [SCCM OSD](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-use-the-same-external-ethernet-adapter-for-multiple-sccm/ba-p/257374) 使用相同的外部以太网适配器（核心基础结构和安全博客上的博客文章）中详细介绍了针对此情况的几个潜在解决方案。

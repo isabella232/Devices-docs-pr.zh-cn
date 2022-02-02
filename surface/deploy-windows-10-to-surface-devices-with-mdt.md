@@ -1,7 +1,7 @@
 ---
-title: 通过 Microsoft 部署工具包 (Surface) 将 Windows 10 部署到 Surface 设备
-description: 浏览建议的有关如何使用 Microsoft 部署工具包将 Windows 10 部署到 Surface 设备的过程。
-keywords: windows 10 surface，自动化，自定义，mdt
+title: 使用 Microsoft 部署中心准备 Surface Toolkit
+description: 演练如何使用 Microsoft 部署策略Windows 10 Surface 设备部署 Toolkit。
+keywords: windows 10 surface， 自动化， 自定义， mdt
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.pagetype: surface
@@ -14,28 +14,28 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 10/12/2020
-ms.openlocfilehash: 858b6726f1127e3c439864f8946274ed0ea1edd3
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: 9578893ad96d84380adfc038dd42c4791d29c7cd
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114560"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338275"
 ---
-# 通过 Microsoft 部署工具包将 Windows 10 部署到 Surface 设备
+# <a name="prepare-surface-deployment-with-microsoft-deployment-toolkit"></a>使用 Microsoft 部署中心准备 Surface Toolkit
 
-**适用于**
+**适用范围**
 
-- Surface Studio 及更高版本
-- Surface Pro 4 及更高版本
-- Surface Book 及更高版本
-- Surface 笔记本电脑及更高版本
-- Surface 膝上型电脑 Go
-- Surface Go
+- Surface Studio (所有代) 
+- Surface Pro 4及更高版本
+- Surface Book (所有代) 
+- Surface Laptop (所有代) 
+- Surface Laptop Go 
+- Surface Go (所有代) 
 - Surface 3
 - Windows 10
 
 > [!NOTE]
-> Surface Pro X 不支持 MDT。有关详细信息，请参阅 [部署、管理和维护 Surface Pro X](surface-pro-arm-app-management.md)。
+> MDT 在 X 上Surface Pro。有关详细信息，请参阅部署[、管理和维护 Surface Pro X](surface-pro-arm-app-management.md)。
 
-有关使用 MDT 的最新信息，请参阅 [使用 Mdt 部署 Windows 10 映像](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt)。
+有关使用 MDT 的最新信息，请参阅[使用 MDT Windows 10部署映像](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt)。
 

@@ -9,20 +9,20 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/26/2021
+ms.date: 01/11/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: c5cddde47b2046badf3f6deba5791b7642e044f3
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: ce2ceda9efb0462e987749a3167930825223945c
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11912027"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12337965"
 ---
-# <a name="surface-hub-2s-85-overview--tech-specs"></a>Surface Hub 2S 85" 概述&技术规范
+# <a name="surface-hub-2s-85-overview--tech-specs"></a>Surface Hub 2S 85"概述&技术规范
 
-85" 版本的 Surface Hub 系列为需要更大屏幕（如会议室、会议室或更大的会议室）的空间提供 Surface Hub 2S 体验。 Surface Hub 2S 85" 提供了以下体验：
+85" 版本的 Surface Hub 系列将 Surface Hub 2S 体验引入需要更大屏幕的空间，如会议室、会议室或更大的会议室。 Surface Hub 2S 85" 提供了以下体验：
 
-- **专为组协作设计。** 邀请同时使用墨迹书写Microsoft Whiteboard以及远程会议中的超过生命周期的远程Microsoft Teams。
+- **专为组协作设计。** 邀请同时使用Microsoft Whiteboard墨迹书写以及远程会议中的超过生命周期的远程Microsoft Teams。
 - **一Surface Hub 2S 体验。** 提供与 2S 50"相同的高级设计、4K 显示技术、触摸、笔/墨迹、计算台和Surface Hub支持。
 - **与现有和新的 A/V 系统集成。** 与经过认证的Microsoft Teams产品结合使用，并Microsoft Teams 会议室。
 
@@ -36,19 +36,21 @@ ms.locfileid: "11912027"
 |**发货尺寸**| 89.5" x 62" x 22.8"<br> (2275 mm x 1573 mm x 580 mm)                                                                                                                                                                                                         |
 |**粗细**| 185 英寸 (84)                                                                                                                                                                                                                                             |
 |**发货权重**| 399 (181)                                                                                                                                                                                                                                             |
-|**解决方案**| 3840 x 2160                                                                                                                                                                                                                                               |
-|**显示器**| PixelSense™显示，16：9 纵横比，10 位颜色，30.5mm 边框宽度，防光，IPS 显示屏，带 20 个同时触摸点的单元格内触摸                                                                                                           |
-|**计算**| 模块化计算<br>四核第 8 代 Intel® Core™ i5 处理器，8GB RAM，128GB SSD <sup> 1</sup>                                                                                                                                                      |
-|**软件 <sup> 2</sup>**| Windows 10 协同版操作系统<br>Microsoft Teams Surface Hub<br>Skype for Business<br>Microsoft Whiteboard<br>Microsoft Office (Mobile) <br>Microsoft Power BI                                                                                               |
-|**连接**| USB-A<br>Mini-DisplayPort视频输出<br>RJ45 千兆位以太网<br>HDMI 视频输入<br>USB-C® DisplayPort 输入<br> (显示) 3 ® (USB-C)                                                                                                            |
-|**显卡**| Intel®UHD 图形 620                                                                                                                                                                                                                                   |
-|**音频/视频**| 100Hz - 12KHz 范围的 3 向立体声扬声器，包括 (2) 中/高范围和 (1) 中/低范围（后凹凸）。 <br>全带 8 元素 MEMS 麦克风阵列<br>Microsoft Surface Hub 2 台相机，4K，USB-C® 连接，90 度为 90 度分 |
+|**显示器**| ™ PixelSense显示、16：9 纵横比、10 位颜色、30.5mm 边框宽度、防反射、IPS 显示屏、带 20 个同时触摸点的单元格内触摸                                                                                                           |
+|**解决方案**| 3840 x 2160 (4KUHD)                                                                                                                                                                                                                                               |
+|**对比率**| 1000：1 (，) 800：1 (1)  |
+|**亮度**| 280 nits (典型) |
+|**计算**| 模块化计算<br>四核第 8 代 Intel® Core™ i5 处理器，8GB RAM，128GB SSD1<sup></sup>                                                                                                                                                      |
+|**Software2<sup></sup>**| Windows 10 协同版操作系统<br>Microsoft Teams Surface Hub<br>Skype for Business<br>Microsoft Whiteboard<br>Microsoft Office (Mobile) <br>Microsoft Power BI                                                                                               |
+|**连接**| USB-A<br>Mini-DisplayPort视频输出<br>RJ45 千兆位以太网<br>HDMI 视频输入<br>具有 DisplayPort 输入的 USB-C®<br> (显示器) 3 (USB-C®)                                                                                                            |
+|**显卡**| IntelUHD® Graphics 620                                                                                                                                                                                                                                   |
+|**音频/视频**| 100Hz - 12KHz 范围的 3 向立体声扬声器，包括 (2) 中/高范围和 (1) 中/低范围（位于后凸点中/低范围）。 <br>全带 8 元素 MEMS 麦克风阵列<br>Microsoft Surface Hub 2 台相机，4K，USB-C® 连接，90 度都为 90 度。 |
 |**笔**| Microsoft Surface Hub 2 个 (笔) <br>Surface Pen 兼容                                                                                                                                                                                       |
-|**传感器**| Doppler 传感器 <sup> 3</sup>                                                                                                                                                                                                                                 |
-|**无线**| Wi-Fi 5：IEEE 802.11 a/b/g/n/ac 兼容<br>蓝牙®无线 5.0 技术<br>Miracast显示                                                                                                                                                      |
+|**传感器**| Doppler 传感器<sup> 3</sup>                                                                                                                                                                                                                                 |
+|**无线**| Wi-Fi 5：IEEE 802.11 a/b/g/n/ac 兼容<br>® 蓝牙无线 5.0 技术<br>Miracast 显示                                                                                                                                                      |
 |**百年**| 大小写：使用复合填充的精确机化<br>颜色：百度<br>物理按钮：电源、音量、源                                                                                                                            |
 |**框中的是什么**|  (1) Surface Hub 2S<br> (2) Surface Hub 2 个触控笔<br> (1) Surface Hub 2 相机<br>4m AC 电源电缆<br>快速入门指南                                                                                                                                         |
-|**质保**| 1 年有限硬件担保 <sup> 4</sup>                                                                                                                                                                                                                          |
+|**质保**| 1 年有限硬件担保<sup>4</sup>                                                                                                                                                                                                                          |
 |**BTU**| 2047 BTU/hr |
 |**输入时**| 50/60Hz 110/230v，最大值 90-265v |
 |**输入电源，操作**| 665 W (745 W 高负载)  |
@@ -63,7 +65,7 @@ ms.locfileid: "11912027"
 
 ### <a name="references"></a>参考
 
-1. 系统软件和更新使用大量存储空间。 可用存储可能会根据系统软件、更新和应用使用情况发生变化。 1 GB = 10 亿字节。 1 TB = 1，000 GB。 有关详细信息[，存储](https://www.surface.com/storage)Surface 存储。
+1. 系统软件和更新使用大量存储空间。 可用存储可能会根据系统软件、更新和应用使用情况发生变化。 1 GB = 10 亿字节。 1 TB = 1，000 GB。 有关详细信息[，存储](https://www.surface.com/storage) Surface 存储。
 2. 某些功能所需的软件许可证。 单独出售。
 3. Doppler 传感器不适用于香港特别行政区、印度、科威特和阿曼。
 4. Microsoft 的有限担保是消费者法权利补充。 

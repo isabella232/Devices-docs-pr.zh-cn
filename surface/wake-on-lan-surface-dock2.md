@@ -1,6 +1,6 @@
 ---
 title: 通过 Surface Dock 2 LAN 唤醒
-description: Surface Dock 2 为 LAN 唤醒和 WOL (WOL) 使管理员能够远程唤醒设备并自动执行管理任务。
+description: Surface Dock 2 为 LAN 上的唤醒 (WOL) 使管理员能够远程唤醒设备并自动执行管理任务。
 keywords: 更新， 部署， 驱动程序， wol， lan 上唤醒
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -13,13 +13,13 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/30/2021
-ms.openlocfilehash: 84a87342891dac2e4c0b0490458941c82fa0d018
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 11/30/2021
+ms.openlocfilehash: 09982dff2e44ffc2ebe9b890588e5a62a3259cf5
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911607"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338485"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>通过 Surface Dock 2 LAN 唤醒
 
@@ -40,12 +40,14 @@ ms.locfileid: "11911607"
 - Surface Laptop 4 (Intel 处理器) 
 - Surface Laptop 4 (AMD 处理器) 
 - Surface Laptop 3 (Intel 处理器) 
+- Surface Pro 8
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
-- Surface Go 2
-- Surface Laptop转到
+- Surface Go (所有代) 
+- Surface Laptop Go
 - Surface Book 3
+- Surface Laptop Studio
 
 Surface Dock 2 为以下电源状态中的设备提供 WOL 支持：
 
@@ -57,7 +59,7 @@ Surface Dock 2 为以下电源状态中的设备提供 WOL 支持：
 
 ## <a name="how-it-works"></a>工作原理
 
-不使用时，Surface 设备会进入空闲的低电源状态，称为现代待机或连接待机。 或者设备可能休眠或 (S4) 或 (S5) 电源状态，根据设备上配置的电源设置。 IT 管理员可以使用唤醒请求远程触发设备 (包含目标 Surface 设备的媒体访问控制 (MAC) 地址的神奇数据包) 。 许多管理解决方案（Microsoft Endpoint Configuration Manager第三方Microsoft Store应用）都提供对 WOL 的内置支持。
+不使用时，Surface 设备会进入空闲的低电源状态，称为现代待机或连接待机。 或者设备可能休眠 (S4) 或 (S5) 电源状态，根据设备上配置的电源设置。 IT 管理员可以使用唤醒请求 (包含目标 Surface 设备的媒体访问控制 (MAC) 地址的神奇数据包) 远程触发设备。 许多管理解决方案（Microsoft Endpoint Configuration Manager第三方Microsoft Store应用）都提供对 WOL 的内置支持。
 
 若要在没有 Surface 扩展坞 2 的设备上启用 WOL，请参阅：
 
