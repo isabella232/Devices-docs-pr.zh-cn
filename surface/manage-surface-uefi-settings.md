@@ -12,13 +12,13 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 04/13/2021
-ms.openlocfilehash: e21febfcbcbf139aea832c51e354759c0a49f896
-ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
+ms.date: 01/18/2022
+ms.openlocfilehash: 94e39a67ef80e4e95db3441778af915d2e535bab
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2021
-ms.locfileid: "11939533"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338159"
 ---
 # <a name="manage-surface-uefi-settings"></a>管理 Surface UEFI 设置
 
@@ -28,15 +28,20 @@ ms.locfileid: "11939533"
 
 以下各项支持 UEFI 管理：
 
-- Surface Pro 4、Surface Pro (第五代) 、Surface Pro 6、Surface Pro 7、Surface Pro 7+、Surface Pro X
-- Surface Laptop (第一代) 、Surface Laptop 2、Surface Laptop 3、Surface Laptop Go、Surface Laptop 4
+- Surface Pro 4、Surface Pro (第 5 代) 、Surface Pro 6、Surface Pro 7、Surface Pro 7+ (商业 SK 仅) 、Surface Pro 8 (商业 SK（仅) 、Surface Pro X）
+- Surface Laptop (第一代) 、Surface Laptop 2、Surface Laptop 3 (Intel 处理器仅) 、Surface Laptop Go、Surface Laptop 4 (商业 SK) Surface Laptop 标准版
 - Surface Studio (第一代) ，Surface Studio 2 号
-- Surface Book、Surface Book 2、Surface Book 3
-- Surface Go、Surface Go 2[ <sup> 1 </sup> ](#references)
+- Surface Book (所有代) 
+- Surface Laptop Studio (商业 SKUs) 
+- Surface Go、Surface Go [21<sup></sup>](#references)、Surface Go 3 (商业 SK 仅) 
+
+>[!TIP]
+> 商业 SKUS (，Surface 商用版) 运行 Windows 10 专业版/Enterprise 或 Windows 11 专业版/Enterprise;消费者 SUS Windows 10/Windows 11 家庭版。 若要了解详细信息，请参阅 [查看系统信息](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00)。 
+
 
 ## <a name="support-for-cloud-based-management"></a>支持基于云的管理
 
-通过内置于 Microsoft Intune (中的设备固件配置接口 (DFCI) 配置文件现在在公共预览版) 中提供，Surface UEFI 管理将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 DFCI 目前适用于 Surface Pro 7+、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7 和 Surface Pro X。 有关详细信息，请参阅 Surface [UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
+通过内置于 Microsoft Intune (中的设备固件配置接口 (DFCI) 配置文件现在可用于公共预览版) ，Surface UEFI 管理将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 DFCI 目前可用于 Surface Laptop 标准版、Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3，Surface Laptop 3、Surface Pro 7+、Surface Pro 7 和 Surface Pro X。  有关详细信息，请参阅 [Surface UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
 
 ## <a name="open-surface-uefi-menu"></a>打开 Surface UEFI 菜单
 
@@ -44,13 +49,13 @@ ms.locfileid: "11939533"
 
 1. 关闭 Surface 并等待大约 10 秒以确保其关闭。
 2. 长按 **"调高音量"** 按钮，同时按下并释放 **电源按钮。**
-3. 当 Microsoft 或 Surface 徽标显示在屏幕上时，请继续**** 按住"调高音量"按钮，直到 UEFI 屏幕显示。
+3. 当 Microsoft 或 Surface 徽标显示在屏幕上时，请继续按住"调高**** 音量"按钮，直到出现 UEFI 屏幕。
 
 ## <a name="uefi-pc-information-page"></a>UEFI 电脑信息页
 
 电脑信息页面包含有关 Surface 设备的详细信息：
 
-- **型号**– Surface 设备型号将在此处显示，如 Surface Book 2 或 Surface Pro 7。 不会显示设备的具体配置（例如处理器、磁盘大小或内存大小）。
+- **型号** – Surface 设备型号将在此处显示，如 Surface Book 2 或 Surface Pro 7。 不会显示设备的具体配置（例如处理器、磁盘大小或内存大小）。
 - **UUID** - 此通用唯一标识号特定于设备，用于在部署或管理期间标识设备。
 
 - **序列号** - 此编号用于标识资源标记和支持场景的特定 Surface 设备。
@@ -80,7 +85,7 @@ ms.locfileid: "11939533"
 
 *图 2. 配置 Surface UEFI 安全设置*
 
-The Security page allows you to set a password to protect UEFI settings. 在将 Surface 设备启动到 UEFI 时，必须输入此密码。 密码可以包含以下字符 (如图) 3 所示：
+The Security page allows you to set a password to protect UEFI settings. 在将 Surface 设备启动到 UEFI 时，必须输入此密码。 密码可以包含以下字符 (如图 ) 3 所示：
 
 - 大写字母：A-Z
 
@@ -88,9 +93,9 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 - 数字：1-0
 
-- 特殊字符：！@#$%^&* () ？<>{} []-_=+|.，;：''"
+- 特殊字符：！@#$%^&* () ？<>{}[]-_=+|.，;：''"
 
-密码必须最少为 6 个字符，并且区分大小写。
+密码必须至少为六个字符，并且区分大小写。
 
 ![添加密码以保护 Surface UEFI 设置。](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
 
@@ -102,7 +107,7 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 *图 4. 配置安全启动*
 
-根据你的设备，你可能还能够查看你的 TPM 是已启用还是已禁用。 如果看不到"启用**TPM"** 设置，请在"Windows中打开 tpm.msc 以检查状态，如图 5 所示。 TPM 用于与 BitLocker 一起验证设备数据的加密情况。 若要了解更多信息，请参阅 [BitLocker 概述](/windows/security/information-protection/bitlocker/bitlocker-overview)。
+根据你的设备，你可能还能够查看你的 TPM 是已启用还是已禁用。 如果看不到"启用 **TPM**"设置，请在"Windows打开 tpm.msc 以检查状态，如图 5 所示。 TPM 用于与 BitLocker 一起验证设备数据的加密情况。 若要了解更多信息，请参阅 [BitLocker 概述](/windows/security/information-protection/bitlocker/bitlocker-overview)。
 
 ![TPM 控制台。](images/manage-surface-uefi-fig5-a.png "TPM console")
 
@@ -126,7 +131,7 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 - 板载音频（扬声器和麦克风）
 
-每个设备都列出了一个滑块按钮，你可以将其移动到"**** 打开" (启用) 或 (禁用) 位置****，如图 6 所示。
+每个设备都列出了一个滑块按钮，你可以将其移动到"**** 打开" (启用) 或 (禁用) 位置，**** 如图 6 所示。
 
 :::image type="content" alt-text="启用和禁用特定设备。" source="images/manage-surface-uefi-fig5a.png":::
 
@@ -156,16 +161,16 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 ## <a name="uefi-menu-management"></a>UEFI 菜单："管理"
 
-"管理"页允许你在符合条件的设备上管理零接触 UEFI 管理和其他功能的使用，包括 Surface Pro 7、Surface Pro X 和 Surface Laptop 3。  
+"管理"页允许你在符合条件的设备上管理零接触 UEFI 管理和其他功能的使用，包括 Surface Pro 8、Surface Go 3、Surface Laptop Studio、Surface Pro 7+、Surface Pro 7、Surface Pro X、Surface Laptop 4、Surface Laptop 3、Surface Laptop 标准版 和 Surface Book 3。 
 
 :::image type="content" alt-text="管理对零接触 UEFI 管理和其他功能的访问权限。" source="images/manage-surface-uefi-fig7a.png":::
 
 *图 8. 管理对零接触 UEFI 管理和其他功能的访问权限*
 
-零接触 UEFI 管理允许你通过使用 Intune 中的设备配置文件（称为设备固件配置接口 (DFCI) ）远程管理 UEFI 设置。 如果未配置此设置，则使用 DFCI 管理符合条件的设备的能力将设置为 **"就绪"。** 若要阻止 DFCI，请选择 **"选择退出"。**
+零接触 UEFI 管理允许你通过使用 Intune 中的设备配置文件（称为设备固件配置接口 (DFCI) ）远程管理 UEFI 设置。 如果未配置此设置，则使用 DFCI 管理符合条件的设备的能力将设置为 **"就绪"**。 若要阻止 DFCI，请选择 **"选择退出"**。
 
 > [!NOTE]
-> UEFI 管理设置页和 DFCI 的使用目前适用于 Surface Pro 7+、Surface Laptop Go、Surface Book 3、Surface Laptop 4、Surface Laptop 3、Surface Pro 7 和 Surface Pro X。若要了解更多信息，请参阅[Surface UEFI](surface-manage-dfci-guide.md)设置的 Intune 管理。
+> UEFI 管理设置页和 DFCI 的使用目前适用于 Surface Laptop 标准版、Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7+、Surface Pro 7 和 Surface Pro X。 若要了解更多信息，请参阅 [Surface UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
 
 ## <a name="uefi-menu-exit"></a>UEFI 菜单：退出
 
@@ -228,7 +233,7 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 ## <a name="references"></a>参考
 
-1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。
+1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。 DFCI 目前可用于 Surface Laptop 标准版、Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7+、Surface Pro 7 和 Surface Pro X。
 
 ## <a name="related-topics"></a>相关主题
 

@@ -12,22 +12,22 @@ ms.date: 10/01/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: e329b0cd1b74060e01ad1105a75c63d2883c6a4e
-ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
+ms.openlocfilehash: f711c4c34beae8e1bad34c7994d1562bb3cad08f
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "12057639"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338555"
 ---
 # <a name="surface-security-overview"></a>Surface 安全性概述
 
 最近安全研究的发展表明，随着操作系统和连接服务中内置了更多保护，攻击者正在寻找其他利用方式，将固件作为首要目标出现。
 
-如今，管理设备固件是一种不一致的体验，并且通常涉及第三方提供商，使固件难以监控且维护起来很复杂。 最终，这会限制硬件制造商检测和推送及时更新以响应威胁的能力。
+如今，管理设备固件是一种不一致的体验，并且通常涉及第三方提供商，使固件难以监控且维护复杂。 最终，这会限制硬件制造商检测和推送及时更新以响应威胁的能力。
 
-自 2015 以来，通过硬件设计的完整端到端所有权、内部固件开发以及设备更新和管理的整体方法，Microsoft Surface 一直使用统一的固件保护和设备安全方法。
+自 2015 以来，Microsoft Surface 通过硬件设计的完整端到端所有权、内部固件开发以及设备更新和管理的整体方法，一直使用统一的固件保护和设备安全方法。
 
-对于 Surface，我们的统一可扩展固件接口 (UEFI) 1 在内部进行维护，通过 Windows 更新定期更新，并通过 <sup> [](#references)Windows Autopilot 无缝部署以用于管理，从而在设备启动前将风险最小化并最大限度地提高固件级别的控制。 </sup> Microsoft 通过 Open Source [Project Mu（](https://microsoft.github.io/mu/)由 GitHub 管理）在 UEFI 中提供代码库的完全Microsoft Endpoint Manager。
+对于 Surface，我们的统一可扩展固件接口 (UEFI) <sup>[1](#references)</sup> 在内部进行维护，通过 Windows 更新定期更新，并通过 Windows Autopilot 无缝部署以用于管理，从而在设备启动前将风险最小化并最大限度地提高固件级别的控制。 Microsoft 通过 Open Source [Project Mu](https://microsoft.github.io/mu/) 在 GitHub 中提供 UEFI 中代码库的完全Microsoft Endpoint Manager。
 
 ## <a name="microsoft-designed-and-built-components"></a>Microsoft 设计和构建的组件
 
@@ -35,12 +35,14 @@ ms.locfileid: "12057639"
 
 Surface 利用独立防御子组件的分层，通过深度防御方法提高安全性。 从芯片到云，或确保 AI 支持 Microsoft Defender for Endpoint 的信任根的 UEFI（用于防止、检测、调查和响应高级威胁）时，Surface 强制执行 Microsoft 内置比固定位置更好的位置。
 
-| 功能                         | 描述                                                                                                                                                                                                                                                                                                                         | 了解详细信息                                                                                                                                                                   |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Built UEFI            | 配置设备并启动设备Windows 10<br>控制设备和设备的初始Windows 10，然后向操作系统提供固件运行时服务。 通过 SEMM on-prem management和 DFCI cloud-based management through Microsoft Endpoint Manager | [管理 Surface UEFI 设置](manage-surface-uefi-settings.md)                                                                        |
+<br/>
+
+| 功能 | 描述 | 了解详细信息 |
+| ------- | ----------- | ---------- |
+| Microsoft Built UEFI            | 配置设备并启动设备Windows 10<br>控制设备和设备的初始Windows 10，然后向操作系统提供固件运行时服务。 通过 SEMM on-prem management和 DFCI cloud-based management（通过预部署管理）显著加强对设备硬件Microsoft Endpoint Manager | [管理 Surface UEFI 设置](manage-surface-uefi-settings.md)                                                                        |
 | 物理 TPM 2.0                | 受信任的平台模块 - 专用于通过集成的加密密钥保护硬件。<br>加密和存储 BitLocker (、Windows Hello、AD 凭据、) <br>PCR - 平台配置注册，用于保护测量和相关指标，以检测对以前的配置所做的更改  | [受信任的平台模块技术概述](/windows/security/information-protection/tpm/trusted-platform-module-overview)                 |
 | Windows Hello 企业版      | 将密码替换为电脑和移动设备上的强双因素身份验证。 此生物识别身份验证包含绑定到设备并使用生物识别或 PIN 的新类型的用户凭据。                                                                                                                   | [适用于Windows Hello的工作方式 - Microsoft 365安全性](/windows/security/identity-protection/hello-for-business/hello-how-it-works) |
-| 集成加密           | 集成加密由 BitLocker 启用，用于保护并加密数据，Windows Hello启用无密码登录，并结合物理 TPM 和 UEFI。                                                                                                                                                                 | [BitLocker (Windows 10) - Microsoft 365安全性](/windows/security/information-protection/bitlocker/bitlocker-overview)                     |
+| 集成加密           | 集成加密由 BitLocker 启用，用于对数据进行安全和加密，Windows Hello启用无密码登录，并结合物理 TPM 和 UEFI。                                                                                                                                                                 | [BitLocker (Windows 10) - Microsoft 365安全性](/windows/security/information-protection/bitlocker/bitlocker-overview)                     |
 | Microsoft Defender for Endpoint | 提供旨在帮助企业网络预防、检测、调查和响应高级威胁的企业终结点安全平台。                                                                                                                                                                               | [Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)                 |
 
 ## <a name="factory-level-security-protocols-and-inspection"></a>工厂级安全协议和检查
@@ -62,11 +64,11 @@ Surface 利用独立防御子组件的分层，通过深度防御方法提高安
 
 特权升级攻击是恶意操作者的最佳好友，它们通常以存储在内存中的敏感信息为目标。 这些类型的攻击可能会将次要用户模式泄露转换为对操作系统和设备的完整威胁。 为了防范这些类型的攻击，Microsoft 开发了基于虚拟化的安全 (VBS) 和虚拟机监控程序保护的代码完整性 (HVCI，通常也称为内存完整性) 。 VBS 和 HVCI 使用虚拟化等硬件功能的功能，在隔离环境中执行敏感安全操作，以更好地抵御常见和复杂的恶意软件。
 
-Surface 附带Windows开箱即用增强的硬件安全功能，为客户提供内置且默认打开的更强大的安全性。
+Surface 附带这些Windows开箱即用增强的硬件安全功能，为客户提供内置且默认打开的更强大的安全性。
 
 ## <a name="virtualization-based-security"></a>基于虚拟化的安全功能
 
-基于虚拟化的安全性（即 VBS）使用硬件虚拟化功能创建安全的内存区域并将其与正常操作系统隔离。 Windows"虚拟安全模式"可以托管大量安全解决方案，为这些解决方案提供对操作系统中漏洞的保护，并阻止使用恶意攻击来破坏保护。
+基于虚拟化的安全性（即 VBS）使用硬件虚拟化功能创建安全的内存区域并将其与正常操作系统隔离。 Windows"虚拟安全模式"可以托管大量安全解决方案，为解决方案提供对操作系统中漏洞的保护，并阻止使用恶意攻击来破坏保护。
 
 ### <a name="hypervisor-enforced-code-integrity-hvci"></a>Hypervisor-Enforced HVCI (代码完整性) 
 
@@ -74,10 +76,13 @@ HVCI 使用 VBS 显著加强代码完整性策略实施。 内核模式代码完
 
 VBS 和 HVCI 均在下列 Surface 设备中开箱启用：
 
+- Surface Pro 8
+- Surface Laptop Studio
+- Surface Go 3
 - Surface Laptop 4
 - Surface Pro 7+
 - Surface Book 3，
-- Surface Laptop转到，
+- Surface Laptop Go
 - Surface Pro X
 
 ## <a name="secure-boot-and-boot-guard"></a>安全启动和启动保护
@@ -86,16 +91,18 @@ Surface 设备的"信任根"会检查签名和测量，以在允许下一阶段�
 
 如图 2 所示，从按电源按钮到运行操作系统，每个阶段都检查固件的完整性。
 
- > [!div class="mx-imgBorder"]
- > ![图 1. Surface 设备的安全启动。 ](images/secboot.png)
- *图 1.Surface 设备的安全启动*
+> [!div class="mx-imgBorder"]
+> [ ![图 1.Surface 设备的安全启动。](images/secboot.png)](images/secboot.png#lightbox)
+*图 1.Surface 设备的安全启动*
 
-| 步骤  | 安全启动阶段                                                                                                                                                                                                                                      |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+<br/>
+
+| 步骤  | 安全启动阶段 |
+| ----- | ----------------- |
 | **1** | 每次从 TPM 提供的信任根按下电源按钮时，都会实例化安全性。 首次打开设备时，系统将运行一系列安全检查，以确保设备固件未被篡改或损坏。 |
-| **2** | 启用后，SoC 将使用芯片集供应商密钥验证和启动微代码的加载，该代码模块使用基于 Intel 的 (ACM)  (基于 Intel 的设备上) 。                                                                              |
+| **2** | 启用后，SoC 将使用芯片集供应商密钥，在基于 Intel 的设备上使用经过身份验证的代码模块 (ACM)  (验证和启动微代码) 。                                                                              |
 | **3** | ACM 在加载之前测量 UEFI 代码，并将其与 TPM 的平台配置注册 [PCR] 中的已知度量进行比较，以确保 UEFI 代码未改变。                                                                |
-| **4** | 在允许 UEFI 运行之前，启动防护会检查 UEFI 是否使用 Surface OEM 密钥进行签名。 最初检查的 UEFI 模块是图中的 SEC 安全部分和"使用前进行安装"的"功能"部分。                                                |
+| **4** | 在允许 UEFI 运行之前，启动防护会检查 UEFI 是否使用 Surface OEM 密钥进行签名。 最初检查的 UEFI 模块是图表中所示的 SEC 安全部分和"使用前进行安装"的"功能"部分。                                                |
 | **5** | 在加载驱动程序执行环境（DXE 模块）时，"更新"部分会检查 Surface 签名。 DXE 模块包括启动设备选择阶段。                                                                          |
 | **6** | 选择启动设备后，UEFI 将读取启动设备，并检查操作系统启动加载程序签名，然后再允许它执行。                                                                                                             |
 | **7** | 操作系统随后在打开操作系统时检查其主组件上的签名。
@@ -112,33 +119,35 @@ Surface 设备上 SoC 具有独立于其他每个内核的安全处理器。 首
 
 包含 AMD 处理器的 Surface 设备以等效方式实现安全启动。 Surface Laptop 4 与 AMD Ryzen Microsoft Surface Edition 处理器一起使用受信任测量的动态根和 DRTM) 保护固件免受初始电源 (。DRTM 控制所有 CPU，强制沿测量路径执行，并重建各个阶段的信任，以验证系统固件/软件的完整性。 提前过渡到此受信任状态可增强针对启动阶段中的潜在攻击的保护。
 
-DRTM 通过确保使用 TSME 加密和 TSME 加密对测量 (加密) 。 一旦设置了 TSME（如果无法清除，系统重置除外）。 每次重置的新加密密钥可确保一次使用加密，以确保安全。
+DRTM 通过确保使用 TSME 加密和 TSME 加密对测量进行 (加密) 。 一旦设置了 TSME（如果无法清除，系统重置除外）。 每次重置的新加密密钥可确保一次使用加密，以确保安全。
 
-对系统管理模式的运行时 (SMM) 在最高级别执行，如果 SMM 代码有任何问题，则可能会存在风险。 Surface Laptop 4 和 AMD Ryzen 通过截获系统管理中断 (SMI) 并调度 SMM 代码执行到较低级别的 (用户) 来保护系统免受对代码和数据无效的访问。 SMM 保护使用硬件保护来限制可以访问的代码、数据和系统资源，从而进一步强制执行针对无意或恶意事件的保护。
+对系统管理模式的运行时 (SMM) 在最高级别执行，如果 SMM 代码存在任何问题，则可能会存在风险。 Surface Laptop 4 WITH AMD Ryzen 通过截获系统管理中断 (SMI) 并调度 SMM 代码执行到较低级别的 (用户) 来保护系统免受对代码和数据无效的访问。 SMM 保护使用硬件保护来限制可以访问的代码、数据和系统资源，从而进一步强制执行针对无意或恶意事件的保护。
 
-Surface Laptop 4 与 AMD Ryzen 一起支持[NIST 800-193](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf)平台固件复原指南，以及强大的固件更新支持。 启动固件的复原更新机制使用 A-B 恢复机制，该机制在启动期间检测到固件的损坏副本时自动恢复固件的备份副本。
+Surface Laptop 4 与 AMD Ryzen 一起支持 [NIST 800-193](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf) 平台固件复原指南，以及强大的固件更新支持。 启动固件的复原更新机制使用 A-B 恢复机制，该机制在启动期间检测到固件的损坏副本时自动恢复固件的备份副本。
 
-若要了解有关 DRTM 和 SMM 的更多信息，请参阅 Windows Defender System Guard 如何帮助Windows 10 - Windows[安全|Microsoft Docs](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows)
+若要了解有关 DRTM 和 SMM 的更多信息，请参阅 Windows Defender [System Guard 如何帮助Windows 10](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows)。
 
 ## <a name="remote-device-management-control"></a>远程设备管理控制
 
 IT 管理员可以远程管理 Surface 设备，而无需实际触摸每个设备。 Microsoft Endpoint Manager Intune 和 Windows Autopilot 支持从 Azure 云对 Surface 设备进行完全远程管理，从而在启动时为用户提供完全配置的设备。 擦除和停用功能使 IT 可以轻松地为新的远程用户重新利用设备，并擦除被盗的设备。 这样，在 Surface 设备丢失或被盗时，可快速、安全地响应功能，使你能够远程删除所有公司数据，将 Surface 重新配置为全新的设备。
 
-| 功能                                        | 描述                                                                                                                                                                                                                                                                                                                                                                                                        | 了解详细信息                                                                                                                                                                                                                                                              |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<br/>
+
+| 功能 | 描述 | 了解详细信息 |
+| ------- | ----------- | ---------- |
 | DCFI (设备固件配置接口)  | 通过零接触设备预配提供云规模的远程固件管理。 Microsoft 自己的 UEFI 允许更强的 DCFI 实现，使组织能够禁用硬件元素，并能够使用 Intune 远程锁定 UEFI。 ¹                                                                                                                                                                          | [Surface UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)<br> <br>[管理 Surface UEFI 设置](manage-surface-uefi-settings.md)                                          |
 | SEMM (Surface Enterprise 管理模式)       | 实现跨本地、混合和云环境的 UEFI 固件设置的集中企业参与。¹                                                                                                                                                                                                                                                                                           | [Surface 企业管理模式](surface-enterprise-management-mode.md)                                                                                                                                                       |
-| 适用于企业的 Windows 更新                    | 使 IT 管理员通过将 Windows 10 设备直接连接到 Windows 更新服务，使 IT 管理员能够使用最新的安全防护、Windows 功能和 Surface 固件使 Windows 设备始终保持最新状态。 可以使用组策略或 MDM 解决方案（如 Microsoft Intune）来配置 Windows 更新企业更新设置，这些设置控制 Surface 设备的更新方式和时间。 | [适用于企业的 Windows 更新](/windows/deployment/update/waas-manage-updates-wufb)<br> <br>[管理和部署 Surface 驱动程序和固件更新](manage-surface-driver-and-firmware-updates.md) |
+| 适用于企业的 Windows 更新                    | 使 IT 管理员通过将 Windows 10 设备直接连接到 Windows 更新服务，使 IT 管理员能够使用最新的安全防护、Windows 功能和 Surface 固件使 Windows 设备始终保持最新。 可以使用组策略或 MDM 解决方案（如 Microsoft Intune）来配置Windows Surface 设备的更新方式和时间的适用于企业的更新设置。 | [适用于企业的 Windows 更新](/windows/deployment/update/waas-manage-updates-wufb)<br> <br>[管理和部署 Surface 驱动程序和固件更新](manage-surface-driver-and-firmware-updates.md) |
 
 ## <a name="references"></a>参考
 
-1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。 DFCI 目前适用于 Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7 及以上版本，Surface Pro 7，Surface Pro X。 
+1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。 DFCI 目前可用于 Surface Laptop 标准版、Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7+、Surface Pro 7 和 Surface Pro X。 
 
 ## <a name="learn-more"></a>了解详细信息
 
-- [默认情况下，新的 Surface PC 支持基于虚拟化 (VBS) ，以让客户安全地执行更多操作](https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/)
+- [默认情况下，新的 Surface 电脑支持基于虚拟化 (VBS) ，以让客户安全地执行更多操作](https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/)
 - [研究重点介绍 Surface 固件保护的重要作用](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/study-highlights-critical-role-of-surface-firmware-protection/ba-p/2245244)
 - [增强 Microsoft Surface 和 Microsoft Surface Microsoft 365](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/enhancing-security-and-compliance-with-microsoft-surface-and/ba-p/2283062)
 - [管理 Surface UEFI 设置](manage-surface-uefi-settings.md)
 - [Surface UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)
-- [ProjectMu](https://microsoft.github.io/mu/)
+- [Project Mu](https://microsoft.github.io/mu/)
