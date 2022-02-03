@@ -8,6 +8,8 @@
       items:
         - name: 技术概述
           items:
+            - name: Surface Laptop SE 概述
+              href: surface-laptop-se-overview.md
             - name: Surface OS 选项
               href: surface-os-choice.md
             - name: Surface 安全性概述
@@ -22,6 +24,8 @@
           items:
             - name: Surface Laptop Studio 图形概述
               href: surface-laptop-studio-graphics.md
+            - name: Surface Laptop Studio ISV 测试/认证的应用
+              href: surface-laptop-studio-isv-certification.md
             - name: Surface Book 3 技术概述
               href: surface-book-GPU-overview.md
             - name: Surface Book 3 Quadro RTX 3000 技术概述
@@ -44,6 +48,8 @@
               href: 'https://www.microsoft.com/surface/business/surface-laptop-go'
             - name: Surface Studio 2 商用版
               href: 'https://www.microsoft.com/surface/business/surface-studio-2'
+            - name: Surface Laptop SE 教育版
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-se'
     - name: 规划
       items:
         - name: Surface 设备与 Windows 10 Long-Term Servicing Branch 的兼容性
@@ -56,6 +62,8 @@
           href: surface-system-sku-reference.md
     - name: 部署和管理
       items:
+        - name: 查看支持的操作系统
+          href: 'https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1'
         - name: Surface 管理门户
           items:
             - name: Surface 管理门户概述
@@ -74,7 +82,7 @@
           items:
             - name: Surface 部署加速器
               href: microsoft-surface-deployment-accelerator.md
-            - name: 使用 MDT 将 Windows 10 部署到 Surface 设备
+            - name: 使用 MDT 准备 Surface 部署
               href: deploy-windows-10-to-surface-devices-with-mdt.md
             - name: 在 MDT 部署期间启用 Surface Laptop 键盘
               href: enable-surface-keyboard-for-windows-pe-deployment.md
@@ -150,7 +158,9 @@
               href: wake-on-power-for-surface.md
         - name: 最佳做法
           items:
-            - name: 优化 Surface 设备的 WLAN 连接
+            - name: 优化 Surface 设备上的视频会议
+              href: optimize-video-conferencing-on-surface.md
+            - name: 优化 Surface 设备上的 Wi-Fi 连接
               href: surface-wireless-connect.md
             - name: Surface 设备电源设置的最佳做法
               href: maintain-optimal-power-settings-on-Surface-devices.md
@@ -166,6 +176,10 @@
               href: surface-pro-arm-app-management.md
             - name: Surface Pro X 应用兼容性
               href: surface-pro-arm-app-performance.md
+        - name: 配件
+          items:
+            - name: Surface Slim 触控笔 2 触觉开发备注
+              href: surface-slim-pen2-haptics-dev-notes.md
     - name: 疑难解答
       items:
         - name: 适用于 Surface 设备的卓越支持解决方案

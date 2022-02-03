@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: medium
-  ms.openlocfilehash: 43f731d482251e4e23e4b3b93a65c687bd5d3553
-  ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+  ms.openlocfilehash: f1e76b111262db551326b4299d9011976886cffd
+  ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 11/02/2021
-  ms.locfileid: "12153907"
+  ms.lasthandoff: 02/02/2022
+  ms.locfileid: "12337945"
 landingContent:
 - title: 新增功能
   linkLists:
@@ -34,8 +34,10 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: 探索使用Surface Duo的新方法 (YouTube)
-      url: https://www.youtube.com/playlist?list=PLNA-j_cL4mUTCt7P_IZrMZL5Manoz4QrX
+    - text: Microsoft Surface Duo 2 |入门
+      url: https://youtu.be/OtmSDrWcMEk
+    - text: Microsoft Surface Duo 2 |熟悉
+      url: https://youtu.be/s5x9pwG5Rog
     - text: 寻找Surface Duo的商业经销商
       url: https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface
     - text: 添加托管的Google Play应用程序
