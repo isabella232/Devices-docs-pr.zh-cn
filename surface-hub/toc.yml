@@ -109,7 +109,7 @@
           href: save-bitlocker-key-surface-hub.md
         - name: 更新 Surface Hub 2S 手写笔固件
           href: surface-hub-2s-pen-firmware.md
-        - name: 调整辅助功能设置
+        - name: 调整“轻松使用”设置
           href: accessibility-surface-hub.md
     - name: 安全
       items:
@@ -212,7 +212,7 @@
               href: local-management-surface-hub-settings.md
             - name: 密码管理
               href: password-management-for-surface-hub-device-accounts.md
-            - name: 调整辅助功能设置
+            - name: 调整“轻松使用”设置
               href: accessibility-surface-hub.md
             - name: 更改 Surface Hub 设备帐户
               href: change-surface-hub-device-account.md
