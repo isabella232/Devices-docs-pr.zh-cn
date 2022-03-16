@@ -14,12 +14,15 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: f460577c6c0d87586d80e183dfeaf2796b8a3bbe
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: de84d4db52006991308bf19893a50594f6a1d1dc
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338295"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449515"
 ---
 # <a name="customize-the-oobe-for-surface-deployments"></a>针对 Surface 部署自定义 OOBE
 
@@ -38,7 +41,7 @@ Windows 部署中的常见做法是针对已部署计算机的首次启动自定
 本文汇总了部署可能需要附加步骤的方案。 它还提供所需的信息，以确保在任何新部署的 Surface 设备上实现所需的体验。 本文适用于熟悉部署过程以及诸如应答文件和[引用映像](https://technet.microsoft.com/itpro/windows/deploy/create-a-windows-10-reference-image)等概念的管理员。
 
 >[!NOTE]
->尽管设置的 OOBE 阶段仍作为自动部署解决方案的一部分运行，例如 [Microsoft 部署 Toolkit (MDT) ](/mem/configmgr/mdt) 或 [Microsoft Endpoint Configuration Manager 操作系统部署 (OSD) ](/mem/configmgr/osd/)，但它由部署向导和任务序列中提供的设置自动执行。
+>尽管安装程序的 OOBE 阶段仍作为自动部署解决方案的一部分运行，例如 [Microsoft Deployment Toolkit (MDT) ](/mem/configmgr/mdt) 或 [Microsoft Endpoint Configuration Manager Operating System Deployment (OSD) ](/mem/configmgr/osd/)，但它由部署向导和任务序列中提供的设置自动运行。
 
 ## <a name="scenario-1-wireless-networking-in-oobe-with-mdt-2013"></a>方案 1：使用 MDT 2013 的 OOBE 中的无线网络
 
@@ -58,6 +61,6 @@ Windows 部署中的常见做法是针对已部署计算机的首次启动自定
 - %windir%\\system32\\oobe\\info\\default\\1033\\PenSuccess\_en-US.png
 
 >[!TIP]
->应针对旨在要部署到的同一型号 Surface 设备复制出厂映像中的文件。 例如，应该使用 Surface Pro 8 中的文件部署到 Surface Pro 8，使用 Surface Book 3 中的文件部署 Surface Book 3，但不应使用 Surface Pro 8 中的文件来部署 Surface Book 3 或Surface Pro 7.
+>应针对旨在要部署到的同一型号 Surface 设备复制出厂映像中的文件。 例如，应该使用 Surface Pro 8 中的文件部署到 Surface Pro 8，使用 Surface Book 3 中的文件来部署 Surface Book 3，但不应使用 Surface Pro 8 中的文件来部署 Surface Book 3 或Surface Pro 7.
 
 向映像添加这些所需文件的分步过程将在[部署 Surface Pro 3 触控笔和 OneNote 提示](https://blogs.technet.microsoft.com/askcore/2014/07/15/deploying-surface-pro-3-pen-and-onenote-tips/)中进行介绍。 这篇博客文章还包括一些提示，确保已安装 Surface 触控笔快速记笔记体验的必要更新，从而允许用户通过一次单击即可将笔记发送到 OneNote。

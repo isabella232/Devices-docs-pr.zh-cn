@@ -13,12 +13,15 @@ ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 8584ae4ade7d7a043438206230cb24d146b586cb
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 4942dd5ab187b7350e5093d8d189ad52536ef5bd
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911667"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448555"
 ---
 # <a name="unenroll-surface-devices-from-semm"></a>从 SEMM 取消注册 Surface 设备
 
@@ -27,13 +30,13 @@ ms.locfileid: "11911667"
 >[!WARNING]
 >若要从 SEMM 注销设备并恢复用户对 Surface UEFI 设置的控制，你必须拥有用于在 SEMM 中注册设备的 SEMM 证书。 如果此证书丢失或损坏，则不能从 SEMM 注销。 相应地备份和保护 SEMM 证书。
 
-有关 SEMM 详细信息，请参阅[Microsoft Surface Enterprise管理模式](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode)。
+有关 SEMM 详细信息，请参阅 [Microsoft Surface Enterprise 管理模式](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode)。
 
 ## <a name="unenroll-a-surface-device-from-semm-with-a-surface-uefi-reset-package"></a>使用 Surface UEFI 重置程序包从 SEMM 注销 Surface 设备
 
-Surface UEFI 重置程序包是你将用于从 SEMM 注销 Surface 设备的主要方法。 与 Surface UEFI 配置包一样，重置程序包是一个Windows安装程序 (.msi) 文件，用于配置设备上 SEMM。 与配置包不同，重置程序包将 Surface 设备上 Surface UEFI 配置重置为默认设置，删除 SEMM 证书，并从 SEMM 取消注册设备。
+Surface UEFI 重置程序包是你将用于从 SEMM 注销 Surface 设备的主要方法。 与 Surface UEFI 配置包一样，重置程序包是一个在Windows配置 SEMM 的 Windows Installer (.msi) 文件。 与配置包不同，重置程序包将 Surface 设备上 Surface UEFI 配置重置为默认设置，删除 SEMM 证书，并从 SEMM 取消注册设备。
 
-重置程序包专为单个 Surface 设备创建。 要开始创建重置程序包的过程，你需要要注销的设备序列号，以及用于注册设备的 SEMM 证书。 可以在 Surface UEFI 的电脑信息页面上找到**** Surface 设备的序列号，如图 1 所示。 即使 Surface UEFI 受密码保护且输入了不正确的密码，也将显示此页面。
+重置程序包专为单个 Surface 设备创建。 要开始创建重置程序包的过程，你需要要注销的设备序列号，以及用于注册设备的 SEMM 证书。 可以在 Surface UEFI 的电脑信息页面上找到 Surface 设备的序列号，**** 如图 1 所示。 即使 Surface UEFI 受密码保护且输入了不正确的密码，也将显示此页面。
 
 ![将显示 Surface 设备的序列号。](images/surface-semm-unenroll-fig1.png "Serial number of Surface device is displayed")
 
@@ -52,23 +55,23 @@ Surface UEFI 重置程序包是你将用于从 SEMM 注销 Surface 设备的主�
 
    *图 2. 单击重置程序包以创建从 SEMM 注销 Surface 设备的程序包*
 
-4. 单击 **证书保护** 以使用私钥 (.pfx) 添加 SEMM 证书文件，如图 3 所示。 浏览到证书文件的位置，选择该文件，**然后单击确定。**
+4. 单击 **"证书** 保护"以使用私钥 (.pfx) 添加 SEMM 证书文件，如图 3 所示。 浏览到证书文件的位置，选择该文件，然后单击"确定 **"**。
 
    ![将 SEMM 证书添加到 Surface UEFI 重置程序包。](images/surface-semm-unenroll-fig3.png "Add the SEMM certificate to Surface UEFI reset package")
 
    *图 3. 将 SEMM 证书添加到 Surface UEFI 重置程序包*
 
 5. 单击“下一步”****。
-6. 键入你想要从 SEMM (注销的设备的序列号，如图 4) 中所示，然后单击生成以生成 Surface UEFI**** 重置程序包。
+6. 键入你想要从 SEMM (注销的设备的序列号，如图 4) 中所示，然后单击生成以生成 Surface UEFI 重置程序包。****
 
    ![创建序列号为 Surface 设备的 Surface UEFI 重置程序包。](images/surface-semm-unenroll-fig4.png "Create a Surface UEFI reset package with serial number of Surface device")
 
    *图 4. 使用 Surface 设备的序列号创建 Surface UEFI 重置程序包*
 
-7. 在 **"另存为**"对话框中，指定 Surface UEFI 重置程序包的名称，浏览到要保存文件的位置，然后单击"保存 **"。**
-8. 包生成完成后，将显示 **"成功"** 页。 单击 **"结束** "以完成程序包创建并关闭 Microsoft Surface UEFI 配置器。
+7. 在 **"另存为** "对话框中，指定 Surface UEFI 重置程序包的名称，浏览到要保存文件的位置，然后单击"保存 **"**。
+8. 包生成完成后，将显示 **"成功"** 页。 单击 **"结束** "完成程序包创建并关闭 Microsoft Surface UEFI 配置器。
 
-在 Surface 设备上运行 Surface UEFI 重置Windows安装程序 (.msi) 文件以从 SEMM 注销该设备。 重置程序包将需要重新启动才能执行注销操作。 注销设备后，可以通过确保"程序和功能" (中显示的 **"Microsoft Surface 配置**包"项不再存在) 验证是否**** 成功删除。
+在 Surface 设备上运行 Surface UEFI 重置Windows安装程序 (.msi) 文件以从 SEMM 取消注册设备。 重置程序包将需要重新启动才能执行注销操作。 注销设备后，可以通过确保"程序和功能" (中显示的 **"Microsoft Surface 配置**包"项不再存在来验证) 成功删除****。
 
 ![显示设备在 SEMM 中注册的屏幕。](images/surface-semm-unenroll-fig5.png "Screen that shows device is enrolled in SEMM")
 
@@ -84,13 +87,13 @@ Surface UEFI 重置程序包是你将用于从 SEMM 注销 Surface 设备的主�
 
 1. 将要从 SEMM 注销的 Surface 设备启动到 Surface UEFI。
 2. 如果系统提示你这样做，请键入 Surface UEFI 密码。
-3. 单击 **"Enterprise**管理"页，如图 6 所示。
+3. 单击"**Enterprise**管理"页，如图 6 所示。
 
-   ![Enterprise"管理"页。](images/surface-semm-unenroll-fig6.png "Enterprise Management page")
+   ![Enterprise管理"页。](images/surface-semm-unenroll-fig6.png "Enterprise Management page")
 
    *图 6. "Enterprise管理"页显示在在 SEMM 中注册的设备的 Surface UEFI 中*
 
-4. 单击或按**入门。**
+4. 单击或按**入门**。
 5. 单击或按 **"下一步** "开始恢复请求过程。
    >[!NOTE]
    >恢复请求将在创建后的两小时后过期。 如果此时未完成恢复请求，您必须重新启动恢复请求进程。
@@ -100,7 +103,7 @@ Surface UEFI 重置程序包是你将用于从 SEMM 注销 Surface 设备的主�
 
    *图 7. 为恢复请求选择 SEMM 证书 (重置请求) *
 
-7. 在"输入**SEMM**重置验证码"页上，可以单击 **"QR**代码"或"文本"按钮显示恢复请求 (重置请求) （如图 8 所示）或**USB**按钮将恢复请求 (重置请求) 另存为文件保存到 USB 驱动器，如图 9 所示。 ****
+7. 在"输入 **SEMM** 重置验证码"页上，可以单击"**QR** 代码****"或"文本"按钮显示恢复请求 (重置请求) （如图 8 所示）或 **USB** 按钮将恢复请求 (重置请求) 另存为文件保存到 USB 驱动器，如图 9 所示。
 
    ![恢复请求显示为 QR 代码。](images/surface-semm-unenroll-fig8.png "Recovery Request displayed as a QR Code")
 
@@ -125,23 +128,23 @@ Surface UEFI 重置程序包是你将用于从 SEMM 注销 Surface 设备的主�
     *图 10. 单击"恢复请求"开始审批恢复请求的过程*
 
 11. 单击 **"证书保护** "以使用 SEMM 证书对恢复请求进行身份验证。
-12. 浏览到并选择 SEMM 证书文件，然后单击"确定 **"。**
-13. 当系统提示您输入证书密码（如图 11 所示）时，键入并确认证书文件的密码，然后单击"确定 **"。**
+12. 浏览到 SEMM 证书文件并选择该文件，然后单击"确定 **"**。
+13. 当系统提示您输入证书密码（如图 11 所示）时，键入并确认证书文件的密码，然后单击"确定 **"**。
 
     ![键入 SEMM 证书的密码。](images/surface-semm-unenroll-fig11.png "Type password for SEMM certificate")
 
     *图 11. 键入 SEMM 证书的密码*
 
 14. 单击“下一步”****。
-15. 输入"恢复 (重置) "，然后单击"生成"以创建重置验证 (如**** 图 12) 所示。
+15. 输入"恢复 (重置) "，然后单击"生成"以创建重置 (验证**** 代码，如图 12) 。
 
     ![输入恢复请求。](images/surface-semm-unenroll-fig12.png "Enter the recovery request")
 
     *图 12. 输入"恢复请求 (重置请求) *
 
     * 如果在要重置的 Surface 设备上将恢复请求 (重置请求) 显示为文本，请使用键盘在提供的字段中键入恢复请求 (重置请求) 。
-    * 如果将恢复请求 (重置请求) 显示为 QR 代码，然后使用消息或电子邮件应用程序通过 Microsoft Surface UEFI 配置器将代码发送到计算机，请将代码复制并粘贴到提供的字段中。
-    * 如果将恢复请求 (重置请求) 另存为 U 盘的文件，请单击"导入"**** 按钮，浏览到并选择恢复请求 (重置请求) 文件，然后单击 **"确定**"。
+    * 如果将恢复请求 (重置请求) 显示为 QR 代码，然后使用消息或电子邮件应用程序将代码发送到使用 Microsoft Surface UEFI 配置器的计算机，请将代码复制并粘贴到提供的字段中。
+    * 如果将恢复请求 (重置请求) 另存为 U 盘的文件，请单击"导入"按钮，浏览到并选择恢复请求 (**** 重置请求) 文件，然后单击 **"确定"**。
 
 16. 重置验证代码显示在 Microsoft Surface UEFI 配置器中，如图 13 所示。
 
@@ -152,12 +155,12 @@ Surface UEFI 重置程序包是你将用于从 SEMM 注销 Surface 设备的主�
     * 单击" **共享** "按钮以通过电子邮件发送重置验证码。
 
 17. 在 Surface 设备上提供的字段中输入重置验证码 (如图 8) 中所示，然后单击或按 **"** 验证"重置设备，然后从 SEMM 取消注册设备。
-18. 单击**或按****SEMM**重置成功页面上的立即重启以完成从 SEMM 注销，如图 14 所示。
+18. 单击 **或按** **SEMM** 重置成功页面上的立即重启以完成从 SEMM 注销，如图 14 所示。
 
     ![从 SEMM 成功注销的示例显示。](images/surface-semm-unenroll-fig14.png "Example display of successful unenrollment from SEMM")
 
     *图 14. 从 SEMM 成功注销*
 
-19. 单击 **"** 在 Microsoft Surface UEFI 配置器中结束"以完成"恢复 (重置请求) 并关闭 Microsoft Surface UEFI 配置器。
+19. **单击"** 在 Microsoft Surface UEFI 配置器中结束"以完成"恢复 (重置请求) 并关闭 Microsoft Surface UEFI 配置器。
 
 

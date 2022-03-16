@@ -1,6 +1,6 @@
 ---
 title: 通过 Surface Dock 2 LAN 唤醒
-description: Surface Dock 2 为 LAN 上的唤醒 (WOL) 使管理员能够远程唤醒设备并自动执行管理任务。
+description: Surface Dock 2 为 LAN 上的唤醒和 WOL (WOL) 使管理员能够远程唤醒设备并自动执行管理任务。
 keywords: 更新， 部署， 驱动程序， wol， lan 上唤醒
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -14,12 +14,15 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 11/30/2021
-ms.openlocfilehash: 09982dff2e44ffc2ebe9b890588e5a62a3259cf5
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 8f09941b555ba1b0870bd1e27fa1b85d0d72a19c
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338485"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448435"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>通过 Surface Dock 2 LAN 唤醒
 
@@ -33,7 +36,7 @@ ms.locfileid: "12338485"
 > ![Surface 扩展坞 2。](images/surface-dock2-angled.png)
 
 > [!NOTE]
-> 唤醒连接到 Surface 扩展坞 2 的设备不需要使用 Surface Enterprise 管理模式 (SEMM) 或启用任何 UEFI 策略设置。
+> 连接到 Surface 扩展坞 2 的唤醒设备不需要使用 Surface Enterprise 管理模式 (SEMM) 或启用任何 UEFI 策略设置。
  
 ## <a name="supported-surface-devices"></a>支持的 Surface 设备
 
@@ -53,7 +56,7 @@ Surface Dock 2 为以下电源状态中的设备提供 WOL 支持：
 
 - 连接待机
 - 休眠 (S4 电源状态) 
-- 关机 (S5"软关闭"电源状态) 
+- 关闭 (S5"软关闭"电源状态) 
 
 若要详细了解电源状态，请参阅 [系统电源状态](/windows/win32/power/system-power-states)。
 

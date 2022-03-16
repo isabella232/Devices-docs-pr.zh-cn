@@ -1,6 +1,6 @@
 ---
 title: 适用于企业的 Surface 诊断工具包
-description: 本主题介绍如何部署和使用 Surface Diagnostic Toolkit for Business，这使 IT 管理员能够快速调查、排查并解决 Surface 设备的硬件、软件和固件问题。
+description: 本主题介绍如何部署和使用 Surface Diagnostic Toolkit for Business，它使 IT 管理员能够快速调查、排查并解决 Surface 设备的硬件、软件和固件问题。
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,19 +12,22 @@ ms.date: 10/25/2021
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 71a909a00187cf8727ada4e1adabd998b26eb3c0
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7d33d3d557a134584a7984279ed9187b116d9959
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12153977"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448695"
 ---
 # <a name="surface-diagnostic-toolkit-for-business"></a>适用于企业的 Surface 诊断工具包
 
-如果你的 Surface 无法正常工作，适用于 Toolkit (的 Microsoft Surface Diagnostic) 可帮助你或你的管理员查找并解决问题。  借助适用于企业 SDT 的 SDT，你可以在整个网络中快速调查、排查并解决 Surface 设备的硬件、软件和固件问题。
+如果你的 Surface 无法正常工作，Microsoft Surface Diagnostic Toolkit (SDT) for Business 可以帮助你或你的管理员查找并解决问题。  借助适用于企业 SDT 的 SDT，你可以在整个网络中快速调查、排查并解决 Surface 设备的硬件、软件和固件问题。
 
 > [!NOTE]
-> Surface Diagnostic Toolkit for Business 专为商业设备而构建。 如果你的设备是个人设备，而不是由工作或学校管理，请改为运行[Surface 诊断Toolkit。](https://support.microsoft.com/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit)
+> Surface Diagnostic Toolkit for Business 专为商业设备而构建。 如果你的设备是个人设备，而不是由工作或学校管理，请改为运行 [Surface 诊断Toolkit](https://support.microsoft.com/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit)设备。
 
 具体而言，SDT for Business 使您能够：
 
@@ -41,19 +44,19 @@ ms.locfileid: "12153977"
 模式 | 主要方案 | 下载 | 了解详细信息
 --- | --- | --- | ---
 桌面模式 | 帮助用户在 Surface 设备上运行 SDT 以解决问题。<br>创建自定义程序包以部署在一个或多个 Surface 设备上，允许用户选择要收集和分析的特定日志。 | SDT 可分发 MSI 程序包：<br>适用于 Business Installer Toolkit Microsoft Surface Diagnostic Toolkit<br>[适合 IT 的 Surface 工具](https://www.microsoft.com/download/details.aspx?id=46703) | [在桌面Toolkit Surface Diagnostic Toolkit](surface-diagnostic-toolkit-desktop-mode.md)
-命令行 | 使用标准工具（如 Configuration Manager）直接对 Surface 设备进行远程疑难解答，而无需用户交互。 它包含以下命令：<br>`-DataCollector` 收集所有日志文件<br>`-bpa` 使用最佳做法分析器运行运行状况诊断。<br>`-windowsupdate` 检查Windows更新中缺少固件或驱动程序更新。<br>`-warranty` 检查担保信息。 <br><br>| SDT 控制台应用：<br>Microsoft Surface Diagnostics 应用控制台<br>[适合 IT 的 Surface 工具](https://www.microsoft.com/download/details.aspx?id=46703) | [使用适用于 Business 的 Surface Diagnostic Toolkit运行命令行应用控制台](surface-diagnostic-toolkit-command-line.md)
+命令行 | 直接使用标准工具（如 Configuration Manager）对 Surface 设备进行远程疑难解答，而无需用户交互。 它包含以下命令：<br>`-DataCollector` 收集所有日志文件<br>`-bpa` 使用最佳做法分析器运行运行状况诊断。<br>`-windowsupdate` 检查Windows更新中缺少固件或驱动程序更新。<br>`-warranty` 检查担保信息。 <br><br>| SDT 控制台应用：<br>Microsoft Surface Diagnostics 应用控制台<br>[适合 IT 的 Surface 工具](https://www.microsoft.com/download/details.aspx?id=46703) | [使用适用于 Business 的 Surface Diagnostic Toolkit运行命令行应用控制台](surface-diagnostic-toolkit-command-line.md)
 
 ## <a name="supported-devices"></a>支持的设备
 
 Surface 3 和更高版本的设备支持 SDT for Business (在 S 模式下配置的设备除外) ：
 
 - Surface Book - 所有代
-- Surface LaptopStudio
+- Surface Laptop Studio
 - Surface Go - 所有代
 - Surface Laptop - 所有代
-- Surface Laptop转到
+- Surface Laptop Go
 - Surface Pro 3 及更高版本
-- Surface ProX - 所有代
+- Surface Pro X - 所有代
 - Surface Studio - 所有代
 - Surface 3 LTE
 - Surface 3
@@ -64,10 +67,10 @@ Surface 3 和更高版本的设备支持 SDT for Business (在 S 模式下配置
 
 1. 使用管理员帐户登录到 Surface 设备。
 
-2. 从适用于 IT Windows 的[Surface 工具](https://www.microsoft.com/download/details.aspx?id=46703)下载页面 下载 SDT Windows安装程序程序包 (.msi) 。
+2. 从 Surface Tools for IT Windows页面下载 SDT Windows安装程序程序包 (.msi [) 。](https://www.microsoft.com/download/details.aspx?id=46703)
 
-    - 对于 Intel/AMD 设备，请下载 **：Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0.msi。 **
-    - For ARM devices， download： **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0_x86.msi**.
+    - 对于 Intel/AMD 设备，请下载： **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0.msi**。
+    - 对于ARM，请下载： **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0_x86.msi**。
 
 3. 将.msi文件复制到 Surface 设备上的首选位置，如桌面。将显示 SDT 设置向导，如图 1 所示。 单击“下一步”****。
 
@@ -77,25 +80,25 @@ Surface 3 和更高版本的设备支持 SDT for Business (在 S 模式下配置
     ![欢迎使用 Surface 诊断Toolkit设置向导。](images/sdt-1.png)<br/>
     *图 1. Surface 诊断Toolkit设置向导*
 
-4. 当出现 SDT 安装向导时****，单击"下一步"，接受最终用户许可协议 (EULA) 。
+4. 当出现 SDT 安装向导时，单击****"下一步"，接受 EULA (最终用户许可协议) 。
 
 5. 在"安装选项"屏幕上，如果需要，更改默认安装位置。
 
-6. 在"设置类型"下，选择"**高级"。**
+6. 在"设置类型"下，选择" **高级"**。
 
     >[!NOTE]
     >标准选项允许用户直接在 Surface 设备上运行诊断工具，只要他们使用管理员帐户登录设备。
 
     ![安装选项：高级。](images/sdt-install.png)
 
-7. 单击 **"下一**步"，然后单击"**安装"。**
+7. 单击 **"下一** 步"，然后单击" **安装"**。
 
 ## <a name="installing-using-the-command-line"></a>使用命令行安装
 
 如果需要，可以在命令提示符下安装 SDT，并设置自定义标志以在管理模式下安装该工具。 SDT 包含以下安装选项标志：
 
-- `SENDTELEMETRY` 将遥测数据发送到 Microsoft。 标志接受 `0` 禁用或 `1` 启用。 默认值是 `1` 发送遥测。
-- `ADMINMODE` 配置要以管理模式安装的工具。 标志接受 `0` 客户端模式或 `1` IT 管理员模式。 默认值为 `0`。
+- `SENDTELEMETRY` 将遥测数据发送到 Microsoft。 标志接受 `0` 禁用或 `1` 启用。 默认值是发送 `1` 遥测。
+- `ADMINMODE` 配置要以管理模式安装的工具。 标志接受客户端 `0` 模式或 `1` IT 管理员模式。 默认值为 `0`。
 
 ### <a name="to-install-sdt-from-the-command-line"></a>从命令行安装 SDT
 
@@ -113,7 +116,7 @@ Surface 3 和更高版本的设备支持 SDT for Business (在 S 模式下配置
 
 ## <a name="locating-sdt-on-your-surface-device"></a>在 Surface 设备上定位 SDT
 
-SDT 和 SDT 应用控制台均安装在 上 `C:\Program Files\Microsoft\Surface\Microsoft Surface Diagnostic Toolkit for Business` 。
+SDT 和 SDT 应用控制台均安装在 上 `C:\Program Files\Microsoft\Surface\Microsoft Surface Diagnostic Toolkit for Business`。
 
 除了 .exe 文件，SDT 还安装了 JSON 文件和 admin.dll 文件 (modules\admin.dll) ，如图 2 所示。
 
@@ -124,7 +127,7 @@ SDT 和 SDT 应用控制台均安装在 上 `C:\Program Files\Microsoft\Surface\
 
 通过创建自定义程序包，你可以将工具定向到特定的已知问题。
 
-1. 单击 **"开始>运行**"，输入**Surface，** 然后单击**Surface Diagnostic Toolkit for Business。**
+1. 单击 **"开始>运行**"，输入 **Surface**，然后单击 **Surface Diagnostic Toolkit for Business**。
 
 2. 工具打开后，单击 **"创建自定义程序包**"，如图 3 所示。
 
@@ -133,19 +136,19 @@ SDT 和 SDT 应用控制台均安装在 上 `C:\Program Files\Microsoft\Surface\
 
 ### <a name="language-and-telemetry-settings"></a>语言和遥测设置
 
-  创建程序包时，可以选择语言设置或选择退出向 Microsoft 发送遥测信息。 默认情况下，SDT 将遥测发送到 Microsoft，用于根据 [Microsoft 隐私声明改进应用程序](https://privacy.microsoft.com/privacystatement)。 如果希望拒绝，请在创建自定义程序包时清除此复选框，如下所示。 或者清除 **SDT 安装** 期间"安装选项 **"页上的** "将遥测发送到 Microsoft"复选框。
+  创建程序包时，可以选择语言设置或选择退出向 Microsoft 发送遥测信息。 默认情况下，SDT 根据 Microsoft 隐私声明向 Microsoft 发送用于改进应用程序的 [遥测](https://privacy.microsoft.com/privacystatement)。 如果希望拒绝，请在创建自定义程序包时清除此复选框，如下所示。 或者清除 **SDT 安装** 期间"安装选项 **"页上的** "将遥测发送到 Microsoft"复选框。
 
 >[!NOTE]
->此设置不会影响在运行需要 Internet 连接的测试和修复（如 Windows 更新和软件修复）时，或者使用应用工具栏中的"笑脸"或"笑脸"按钮提供反馈时，自动存储在 Microsoft 服务器上最少的遥测。
+>此设置不会影响在运行需要 Internet 连接的测试和修复（如 Windows 更新和软件修复）时，或者使用应用工具栏中的"笑脸"或"笑脸"按钮提供反馈时，自动存储在 Microsoft 服务器上最小遥测。
 
 ![选择语言和遥测设置。](images/sdt-4.png)<br/>
 *图 4. 选择语言和遥测设置*
 
-### <a name="windows-update-page"></a>Windows更新页面
+### <a name="windows-update-page"></a>Windows更新"页
 
-选择适合贵组织的选项。 具有多个用户的大多数组织通常会选择通过 WSUS Windows Server Update Services (接收) 更新，如图 5 所示。 如果使用本地 Windows更新程序包或 WSUS，请根据情况输入路径。
+选择适合贵组织的选项。 具有多个用户的大多数组织通常会选择通过 WSUS Windows Server Update Services (接收) ，如图 5 所示。 如果使用本地 Windows更新程序包或 WSUS，请根据情况输入路径。
 
-![选择Windows"更新"选项。](images/sdt-5.png)<br/>
+![选择Windows更新"选项。](images/sdt-5.png)<br/>
 *图 5. Windows更新选项*
 
 ### <a name="software-repair-page"></a>软件修复页
@@ -174,7 +177,7 @@ SDT 和 SDT 应用控制台均安装在 上 `C:\Program Files\Microsoft\Surface\
 此版本的 Surface Diagnostic Toolkit for Business 增加了对以下内容的支持：
 
 - Surface Pro 8
-- Surface LaptopStudio
+- Surface Laptop Studio
 - Surface Go 3
 
 ### <a name="version-21311390"></a>版本 2.131.139.0

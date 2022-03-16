@@ -1,6 +1,6 @@
 ---
 title: Surface 自助服务担保和服务
-description: Microsoft 365商业客户可能有资格使用 Microsoft 管理中心中的 beta Surface Self Serve 担保和服务节点来创建和管理服务订单。
+description: Microsoft 365商业版客户可能有资格使用 Microsoft 管理中心中的 Beta Surface 自助服务担保和服务节点来创建和管理服务订单。
 ms.prod: w10
 ms.mktglfcycl: support
 ms.localizationpriority: medium
@@ -12,22 +12,25 @@ ms.date: 10/19/2021
 ms.reviewer: cchauvet
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: bbe065533e862b6956c3c81a9241ccde9be4c88b
-ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 6a1ae40882ee723b3c4680f8fe5f08f41662b409
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "12101230"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448637"
 ---
 # <a name="surface-self-serve-warranty-and-service"></a>Surface 自助保修和服务
 
-Microsoft 365商业客户可能有资格使用 Self-Serve Microsoft 365 管理 中心中的 Surface Self-Serve"担保和服务"节点来创建和管理服务订单。 此新功能作为 beta 计划提供，允许全局管理员将权限指定给其公司内负责支持担保和服务声明的个人，包括：
+Microsoft 365商业客户可能有资格使用 Microsoft 365 管理 中心中的 Surface Self-Serve 担保和服务节点来创建和管理服务订单。 此新功能作为 beta 计划提供，允许全局管理员将权限指定给其公司内负责支持担保和服务声明的个人，包括：
 
 - Upload需要服务的设备的序列号。
 - 添加多个送货地址。
 - 为一个或多个设备创建单个服务订单。
 - 请参阅实时服务订单状态。
-- 如果设备受延长Exchange或设备购买中包含了预付费用，Exchange并接收批量预付产品。
+- 如果设备受延长Exchange或设备购买中包含预付费用，Exchange并接收批量提前付款。
 
 向 beta Microsoft 365租户时，会向以下管理员角色授予其他权限：
 

@@ -12,8 +12,16 @@ ms.date: 11/30/2021
 ms.reviewer: phorton
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 54a6fd560b16d29e8a155bcf24efd814a6d5bf77
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449615"
 ---
-
 # <a name="surface-driver-and-firmware-lifecycle-for-windows-based-devices"></a>基于 Windows 的设备的 Surface 驱动程序和固件生命周期
  
 为了响应客户提出的帮助规划和管理硬件和软件部署的更详细生命周期信息的请求，Surface 提供有关驱动程序和固件更新的其他指导。

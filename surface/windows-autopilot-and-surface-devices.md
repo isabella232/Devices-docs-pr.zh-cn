@@ -3,7 +3,7 @@ title: Windows Autopilot 和 Surface 设备
 ms.reviewer: ''
 manager: laurawi
 description: 了解有关 Surface Windows Autopilot 部署选项的信息。
-keywords: autopilot， windows 10， 图面， 部署
+keywords: autopilot， Windows 10， Windows 11， 图面， 部署
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.pagetype: surface, devices
@@ -14,23 +14,26 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 9/14/2020
-ms.openlocfilehash: bfcb8c09b3228730e3255c4f92948dc4acfea506
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: ca2dab5483ecb7ae11a102c56308742e348156bb
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338535"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448525"
 ---
 # <a name="windows-autopilot-and-surface-devices"></a>Windows Autopilot 和 Surface 设备
 
-Windows Autopilot 是 Windows 10 中的一种基于云的部署技术。 你可以立即Windows Autopilot 在零接触进程中远程部署和配置设备。
+Windows Autopilot 是一种基于云的部署技术，Windows 10和Windows 11。 你可以立即Windows Autopilot 在零接触进程中远程部署和配置设备。
 
 从传统来看，IT 专业人员花费大量时间生成和自定义映像，这些映像稍后将部署到已经安装了良好操作系统的设备。 Windows Autopilot 引入了一种新的零接触部署方法，该方法使用一组技术来设置和配置Windows设备。 这使 IT 部门能够配置/自定义映像，几乎无需管理基础结构，且过程简单明了。 从用户的角度来看，使 Surface 进入高效状态只需几个简单步骤。 实际上，最终用户所需的唯一交互是连接到网络并验证其凭据。 之后的所有操作都完全自动化。
 
 Windows Autopilot 允许你：
 
 - 自动将设备加入Azure Active Directory (Azure AD) 。
-- 将设备自动注册到 MDM 服务，例如Microsoft Intune (需要Azure AD Premium订阅) 。
+- 将设备自动注册到 MDM 服务（如Microsoft Intune (）需要Azure AD Premium订阅) 。
 - 限制管理员帐户的创建。 Autopilot 是让第一个以标准用户Windows登录的唯一方式。
 - 基于设备配置文件创建设备并将其自动分配给配置组。
 - 自定义 OOBE (全新体验) 内容和品牌，以满足组织要求。
@@ -41,13 +44,13 @@ Windows Autopilot 允许你：
 
 Windows Autopilot 注册的设备在首次启动时通过称为硬件哈希的唯一设备签名*通过 Internet 进行标识*。 通过使用现代管理解决方案（如移动设备和移动设备管理）自动注册Azure Active Directory (Azure AD) 配置它们。
 
-从启用了 Autopilot 的 Surface 合作伙伴购买 Surface 设备时，你可以Windows设备。 这些合作伙伴可以直接将新设备发货给用户。 设备将在首次打开时自动注册和配置。 此过程在部署期间消除了重映像，从而允许你实现设备管理和分发的新的敏捷方法。
+从启用了 Autopilot 的 Surface 合作伙伴购买时，你可以注册 surface Windows设备。 这些合作伙伴可以直接将新设备发货给用户。 设备将在首次打开时自动注册和配置。 此过程在部署期间消除了重映像，从而允许你实现设备管理和分发的新的敏捷方法。
 
 ## <a name="modern-management"></a>现代管理
 
 Autopilot 是 Surface 设备的推荐部署选项，包括 Surface Pro 8、Surface Laptop Studio、Surface Go 3、Surface Pro 7+、Surface Laptop 4 和 Surface Pro X，专用于通过 Autopilot 进行部署。
 
- 最好在 Surface 设备上注册 surface Microsoft 云解决方案提供商。 此步骤允许你直接从 Intune 管理 Surface 上的 UEFI 固件设置。 无需在物理上触摸设备进行证书管理。 有关详细信息 [，请参阅 Surface UEFI 设置的 Intune](surface-manage-dfci-guide.md) 管理。
+ 最好在 Surface 设备注册时，使用 Microsoft 云解决方案提供商。 此步骤允许你直接从 Intune 管理 Surface 上的 UEFI 固件设置。 无需在物理上触摸设备进行证书管理。 有关详细信息 [，请参阅 Surface UEFI 设置的 Intune](surface-manage-dfci-guide.md) 管理。
 
 ## <a name="windows-version-considerations"></a>Windows版本注意事项
 
@@ -57,7 +60,7 @@ Autopilot 是 Surface 设备的推荐部署选项，包括 Surface Pro 8、Surfa
 
 ## <a name="exchange-experience-on-surface-devices-in-need-of-repair-or-replacement"></a>Exchange需要修复或更换的 Surface 设备上提供的体验
 
-Microsoft 会自动检查每个 Surface 的 Autopilot 注册情况，并取消客户租户中的设备注册。  Microsoft 确保在将替换设备交付回客户Windows注册到 Autopilot 中。 此服务可直接在 Microsoft 的所有设备交换服务订单上提供。
+Microsoft 会自动检查每个 Surface 的 Autopilot 注册情况，并取消客户租户中的设备注册。  Microsoft 确保在将替换交付回客户Windows替换设备注册到 Autopilot 中。 此服务可直接在 Microsoft 的所有设备交换服务订单上提供。
 
 > [!NOTE]
 > 当客户使用合作伙伴返回设备时，合作伙伴负责管理 Exchange 过程，包括注销设备以及将设备注册到 Autopilot Windows注册。
@@ -68,7 +71,7 @@ Microsoft 会自动检查每个 Surface 的 Autopilot 注册情况，并取消�
 
 ## <a name="surface-partners-enabled-for-windows-autopilot"></a>Surface 合作伙伴已启用 Windows Autopilot
 
-选择 Surface 合作伙伴可以在购买时在 Windows Autopilot 中注册 Surface 设备。 他们还可以将已注册的设备直接发货给用户。 通过使用 Windows Autopilot、Azure AD移动设备管理，可通过零接触过程完全配置设备。
+选择 Surface 合作伙伴可以在购买时在 Windows Autopilot 中注册 Surface 设备。 他们还可以将已注册的设备直接发货给用户。 通过使用 Autopilot、Azure AD移动设备管理，可通过零接触过程Windows设备。
 
 启用了 Autopilot 的 Surface 合作伙伴Windows包括：
 

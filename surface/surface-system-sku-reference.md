@@ -9,17 +9,20 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 01/07/2022
+ms.date: 02/03/2022
 ms.reviewer: carlol
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 4d9b845901734e23c5b83ee47f9d6608f7495b91
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 45fd61ff59273e5ae3fc269058b663f271e641d4
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338505"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448685"
 ---
 # <a name="surface-system-sku-reference"></a>Surface 系统 SKU 参考
 
@@ -49,7 +52,7 @@ ms.locfileid: "12338505"
 | Surface Hub 2S 85"                                           | Surface Hub 2S   | Surface Hub 2S 85                |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
 | Surface Laptop 2 商业                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
-| Surface Laptop 2 使用者                                    | Surface Laptop 2 | Surface_Laptop_2_1769_Consumer   |
+| Surface Laptop 2 消费者                                    | Surface Laptop 2 | Surface_Laptop_2_1769_Consumer   |
 | Surface Laptop 3 13" Intel                                   | Surface Laptop 3 | Surface_Laptop_3_1867：1868 |
 | Surface Laptop 3 15" AMD                                     | Surface Laptop 3 | Surface_Laptop_3_1873      |
 | Surface Laptop 3 15" Intel                                   | Surface Laptop 3 | Surface_Laptop_3_1872      |
@@ -68,9 +71,10 @@ ms.locfileid: "12338505"
 | Surface Pro 7+                                               | Surface Pro 7+   | Surface_Pro_7+_1960|
 | Surface Pro 7+ LTE                                           | Surface Pro 7+   | Surface_Pro_7+_with_LTE_Advanced_1961|
 | Surface Pro 8                                                | Surface Pro 8    | Surface_Pro_8_for_Business_1983|
+| Surface Pro 8 消费者                                       | Surface Pro 8    | Surface_Pro_8_1983|
 | Surface Pro 8 LTE                                            | Surface Pro 8    | Surface_Pro_8_for_Business_with_LTE_Advanced_1982|
-| Surface Pro SQ1 处理器处理 X                             | Surface Pro X    | Surface_Pro_X_1876         |
-| Surface Pro X 和 SQ2 处理器                             | Surface Pro X    | Surface_Pro_X_H_1876        |
+| Surface Pro SQ1 处理器的 X                             | Surface Pro X    | Surface_Pro_X_1876         |
+| Surface Pro SQ2 处理器的 X                             | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Pro X (WLAN)                                         | Surface Pro X    | Surface_Pro_X_2010        |
 | Surface Studio                                               | Surface Studio   | Surface_Studio   |
 | Surface Studio 2                                             | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
@@ -89,10 +93,10 @@ ms.locfileid: "12338505"
 还可以在设备上找到设备的系统 SKU 和系统**系统信息**。 为此，请执行下列步骤：
 
 1. 选择 **"开始**"，然后在搜索 **框中键入 MSInfo32** 。  
-1. 选择 **"系统信息**"。
+1. 选择 **"系统信息"**。
 
 **在任务序列 WMI 条件中使用 SKU**  
-你可以将 Microsoft Deployment Toolkit (MDT) 或 Microsoft Endpoint Configuration Manager 中的系统 SKU 信息用作任务序列 WMI 条件的一部分。
+可以在 Microsoft Deployment Toolkit (MDT) 或 Microsoft Endpoint Configuration Manager 中将系统 SKU 信息用作任务序列 WMI 条件的一部分。
 
  ``` powershell  
     - WMI Namespace – Root\WMI

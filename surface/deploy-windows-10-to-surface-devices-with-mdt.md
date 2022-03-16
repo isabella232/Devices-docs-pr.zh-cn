@@ -1,6 +1,6 @@
 ---
 title: 使用 Microsoft 部署中心准备 Surface Toolkit
-description: 演练如何使用 Microsoft 部署策略Windows 10 Surface 设备部署 Toolkit。
+description: 演练使用 Microsoft 部署策略Windows 10 Surface 设备的建议Toolkit。
 keywords: windows 10 surface， 自动化， 自定义， mdt
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,16 +14,19 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 10/12/2020
-ms.openlocfilehash: 9578893ad96d84380adfc038dd42c4791d29c7cd
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: b12704e7e0709e1a6315d0d5e5eb7a68799acfe9
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338275"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449505"
 ---
 # <a name="prepare-surface-deployment-with-microsoft-deployment-toolkit"></a>使用 Microsoft 部署中心准备 Surface Toolkit
 
-**适用范围**
+**适用于**
 
 - Surface Studio (所有代) 
 - Surface Pro 4及更高版本
@@ -35,7 +38,7 @@ ms.locfileid: "12338275"
 - Windows 10
 
 > [!NOTE]
-> MDT 在 X 上Surface Pro。有关详细信息，请参阅部署[、管理和维护 Surface Pro X](surface-pro-arm-app-management.md)。
+> MDT 在 X 上Surface Pro。有关详细信息，请参阅[部署、管理和维护 Surface Pro X](surface-pro-arm-app-management.md)。
 
 有关使用 MDT 的最新信息，请参阅[使用 MDT Windows 10部署映像](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt)。
 

@@ -1,5 +1,5 @@
 ---
-title: '使用 SEMM 注册和配置 Surface (Surface) '
+title: '在 Surface 设备上注册和配置 SEMM (Surface) '
 description: 了解如何创建 Surface UEFI 配置包以控制 Surface UEFI 的设置，以及如何在 SEMM 中注册 Surface 设备。
 keywords: 图面企业管理
 ms.prod: w10
@@ -14,23 +14,26 @@ ms.audience: itpro
 ms.reviewer: hachinda
 manager: laurawi
 ms.date: 1/15/2021
-ms.openlocfilehash: 61b15bf1d7ae5f99d57fb4dcd7bd9f83d9eb4b0a
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7626c6b5d98f65cbaa4f3ffae7649bd5dc05b56f
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12337935"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449485"
 ---
 # <a name="enroll-and-configure-surface-devices-with-semm"></a>使用 SEMM 注册并配置 Surface 设备
 
-借助 Microsoft Surface Enterprise Management Mode (SEMM) ，你可以安全地在 Surface 设备上配置 Surface UEFI 的设置，并管理组织中 Surface 设备的这些设置。 当 Surface 设备由 SEMM 管理时，该设备被视为已注册 (有时称为** 已激活) 。 本文介绍了如何创建 Surface UEFI 配置包，该配置包不仅控制 Surface UEFI 的设置，还将在 SEMM 中注册 Surface 设备。
+借助 Microsoft Surface Enterprise 管理模式 (SEMM) ，你可以安全地在 Surface 设备上配置 Surface UEFI 的设置，并管理组织中 Surface 设备的这些设置。 当 Surface 设备由 SEMM 管理时，该设备被视为已注册 (有时称为** 已激活) 。 本文介绍了如何创建 Surface UEFI 配置包，该配置包不仅控制 Surface UEFI 的设置，还将在 SEMM 中注册 Surface 设备。
 
 有关 SEMM 的更高级概述，请参阅 [Microsoft Surface Enterprise 管理模式](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode)。
 
 作为 SEMM 的替代方法，较新的 Surface 设备支持通过远程管理固件设置的Microsoft Intune。 有关详细信息，请参阅 [Surface UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
 
 > [!NOTE]
-> 仅通过 UEFI Surface Pro X 支持 SEMM。 有关详细信息，请参阅部署[、管理和维护 Surface Pro X](surface-pro-arm-app-management.md)。
+> 仅通过 UEFI Surface Pro X 支持 SEMM。 有关详细信息，请参阅[部署、管理和维护 Surface Pro X](surface-pro-arm-app-management.md)。
 
 #### <a name="download-and-install-microsoft-surface-uefi-configurator"></a>下载并安装 Microsoft Surface UEFI 配置器
 
@@ -38,7 +41,7 @@ ms.locfileid: "12337935"
 运行 Microsoft Surface UEFI 配置Windows安装程序 (.msi) 文件以开始安装该工具。 安装程序完成后，在应用的"所有应用"部分查找 Microsoft Surface UEFI "开始"菜单。
 
 >[!NOTE]
->Microsoft Surface UEFI 配置器仅在 Windows 10。
+>Microsoft Surface UEFI 配置器仅在 Windows 10 和 Windows 11。
 
 ## <a name="create-a-surface-uefi-configuration-package"></a>创建 Surface UEFI 配置包
 
@@ -64,7 +67,7 @@ Surface UEFI 配置包同时执行将 Surface UEFI 设置的新配置应用到�
 
 5. 当系统提示您确认证书密码时，请输入并确认证书文件的密码，然后单击"确定 **"**。
 
-6. 单击 **"密码保护** "将密码添加到 Surface UEFI。 每次启动到 UEFI 时，都需要此密码。 如果未输入此密码，则只显示**电脑**信息、Enterprise******管理**页面和退出页面。**** 此步骤可选。
+6. 单击 **"密码保护** "将密码添加到 Surface UEFI。 每次启动到 UEFI 时，都需要此密码。 如果未输入此密码，则只显示**电脑**信息、Enterprise******管理**"和"退出"页面。**** 此步骤可选。
 
 7. 出现提示时，输入并确认为 Surface UEFI 选择的密码，然后单击"确定 **"**。 如果你想要清除现有的 Surface UEFI 密码，将密码字段留空。
 
@@ -134,7 +137,7 @@ Surface UEFI 配置包同时执行将 Surface UEFI 设置的新配置应用到�
    
 5. Surface 设备现已在 SEMM 中注册，将启动到Windows。
 
-通过**** 查找"程序和**功能 ("** 中的 **Microsoft Surface 配置**包（如图 9) 所示）或在**存储在 Microsoft Surface UEFI** 配置器日志中的事件（在事件查看器 (中的应用程序和服务日志下找到）中（如图 10) 所示）中，可以验证 Surface 设备已在 SEMM 中成功注册。
+通过**** 查找"程序和**功能 ("** 中的 **Microsoft Surface 配置**包（如图 9) 所示）或存储在 **Microsoft Surface UEFI** 配置器日志中的事件（在事件查看器 (中的应用程序和服务日志下找到，如图 10) 所示）中，可以验证 Surface 设备已在 SEMM 中成功注册。
 
 :::image type="content" alt-text="在&quot;程序和功能&quot;中验证 Surface 设备在 SEMM 中的注册情况。" source="images/surface-semm-enroll-fig9.png":::
 
@@ -146,7 +149,7 @@ Surface UEFI 配置包同时执行将 Surface UEFI 设置的新配置应用到�
 
 还可以验证设备是否注册到 Surface UEFI 的 SEMM 中 - 当设备注册时，Surface UEFI 将包含 **Enterprise** 管理页面 (如图 11) 所示。
 
-:::image type="content" alt-text="Surface UEFI Enterprise管理页面。" source="images/surface-semm-enroll-fig11.png":::
+:::image type="content" alt-text="Surface UEFI Enterprise管理页。" source="images/surface-semm-enroll-fig11.png":::
 
 *图 11. Surface UEFI Enterprise管理页*
 
@@ -155,12 +158,12 @@ Surface UEFI 配置包同时执行将 Surface UEFI 设置的新配置应用到�
 
 在 SEMM 中注册设备后，你可以运行使用同一 SEMM 证书签名的 Surface UEFI 配置包，以应用新的 Surface UEFI 设置。 这些设置将在设备下次启动时自动应用，无需用户的任何交互。 可以使用应用程序部署解决方案（如 Microsoft Endpoint Configuration Manager）将 Surface UEFI 配置包部署到 Surface 设备，以更改或管理 Surface UEFI 中的设置。
 
-有关如何使用 Configuration Manager 部署 Windows Installer (.msi) 文件，请参阅使用配置管理器部署和管理[Microsoft Endpoint Configuration Manager](https://technet.microsoft.com/library/mt627959)。
+有关如何使用 Configuration Manager 部署 Windows Installer (.msi) 文件，请参阅使用配置管理器部署[和管理Microsoft Endpoint Configuration Manager](https://technet.microsoft.com/library/mt627959)。
 
 如果你已使用密码保护 Surface UEFI，没有密码的用户尝试启动到 Surface UEFI 只会显示电脑信息、关于、Enterprise管理和退出页面。****************
 
-如果没有使用密码保护 Surface UEFI，或者用户正确输入密码，则使用 SEMM 配置的设置将灰显 (不可用) 文本"某些设置由组织管理"将显示在页面顶部，如图 12 所示。
+如果没有使用密码保护 Surface UEFI，或者用户正确输入密码，则使用 SEMM 配置的设置将灰显 (不可用) 并且文本"某些设置由你的组织管理"将显示在页面顶部，如图 12 所示。
 
 :::image type="content" alt-text="设置在 Surface UEFI 中禁用的 SEMM 管理。" source="images/surface-semm-enroll-fig12.png":::
 
-*图 12. 设置由 SEMM 管理，将在 Surface UEFI 中禁用*
+*图 12. 设置在 Surface UEFI 中禁用由 SEMM 管理*

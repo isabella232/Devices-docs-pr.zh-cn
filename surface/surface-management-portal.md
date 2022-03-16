@@ -12,12 +12,15 @@ ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: a131e663aadbd10be039cff777001383178f7fc1
-ms.sourcegitcommit: 16889d72b0af81dfe79267c41574c3774e81f178
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 8c0f4f6c80ff7341b795839c3897dff6733414bc
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "12155170"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448875"
 ---
 # <a name="surface-management-portal-overview"></a>Surface 管理门户概述
 
@@ -29,13 +32,13 @@ ms.locfileid: "12155170"
 
 深入了解设备合规性、支持活动和担保范围。 快速查看每台设备的状态、哪些设备仍在担保中或即将过期，以及硬件提供商的活动支持请求状态。
 
-当你的 Surface 设备注册进行云管理并且用户首次登录时，来自这些 Surface 设备的信息会自动流入 Surface 管理门户，从而提供特定于 Surface 的设备管理员活动的单一窗格。
+当你的 Surface 设备注册进行云管理并且用户首次登录时，这些 Surface 设备的信息会自动流入 Surface 管理门户，从而提供特定于 Surface 的设备管理员活动的单一窗格。
 
 另请参阅： [下面的已知](#known-issues) 问题。 
 
 ## <a name="get-started"></a>入门
 
-登录到 Microsoft Endpoint Manager，单击"**所有服务**"，然后单击 **"Surface Management Portal"。**
+登录到 Microsoft Endpoint Manager，单击"所有**服务**"，然后单击 **"Surface Management Portal"**。
 
 :::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="启动 Surface 管理门户":::
 
@@ -43,7 +46,7 @@ ms.locfileid: "12155170"
 
 选择 **"** 监视器"可显示所有 Surface 设备的见解，包括：
 
-- 设备不符合要求，这可能意味着用户无法访问需要登录Azure AD信息。
+- 设备不符合要求，这可能意味着用户无法访问要求登录Azure AD信息。
 - 未注册的设备。
 - 磁盘上可用存储严重不足的设备，这是潜在用户体验问题的前导指示器。
 - 需要更新的设备。

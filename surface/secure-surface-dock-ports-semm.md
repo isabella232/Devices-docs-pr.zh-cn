@@ -1,6 +1,6 @@
 ---
-title: '使用 Surface Enterprise 管理模式的安全 Surface 扩展坞 2 端口 (SEMM) '
-description: 本文档提供有关在连接到兼容的 Surface 设备（包括 Surface Book 3、Surface Laptop 3 和 Surface Pro 7）时为 Surface Dock 2 配置 UEFI 端口设置的指导。
+title: '使用 Surface Enterprise 管理模式的安全 Surface 扩展坞 2 (SEMM) '
+description: 本文档提供有关在连接到兼容的 Surface 设备（包括 Surface Book 3、Surface Laptop 3 和 Surface Pro 7）时为 Surface Dock 2 配置 UEFI 端口设置的指南。
 ms.assetid: 2808a8be-e2d4-4cb6-bd53-9d10c0d3e1d6
 ms.reviewer: ''
 manager: laurawi
@@ -15,22 +15,25 @@ ms.topic: article
 ms.date: 08/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 7f9d1bd0b1d8e23432b0e855b2ec5c55d49c250c
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 3eae976b1559c59bf44a94a62eb98dd3a3687424
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338105"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448485"
 ---
-# <a name="secure-surface-dock-2-ports-with-surface-enterprise-management-mode-semm"></a>使用 Surface Enterprise 管理模式的安全 Surface 扩展坞 2 端口 (SEMM) 
+# <a name="secure-surface-dock-2-ports-with-surface-enterprise-management-mode-semm"></a>使用 Surface Enterprise 管理模式的安全 Surface 扩展坞 2 (SEMM) 
 
 ## <a name="introduction"></a>简介
 
-Surface Enterprise 管理模式 (SEMM) 允许 IT 管理员通过配置部署到企业环境中兼容 Surface 设备的 Windows Installer 配置包 (.msi 文件) 中的 UEFI 设置，保护和管理 Surface Dock 2 端口。
+Surface Enterprise 管理模式 (SEMM) 允许 IT 管理员通过配置部署到企业环境中兼容 Surface 设备的 Windows Installer 配置包（.msi 文件) ）中的 UEFI 设置，保护和管理 Surface Dock 2 端口。
 
 ### <a name="supported-devices"></a>支持的设备
 
-使用 SEMM 管理 Surface 扩展坞 2 适用于连接到 Surface Book 3、Surface Laptop Studio、Surface Laptop 4、Surface Laptop 3、Surface Laptop Go、Surface Pro 8 的扩展坞。Surface Pro 7+、Surface Pro 7 和 Surface Pro X。这些兼容的 Surface 设备通常称为**主机设备**。 根据主机设备是否经过身份验证或未经身份验证，程序包将应用于主机**设备**。**** 配置的设置驻留在主机设备的 UEFI 层，使 IT 管理员能够像管理任何其他内置外围设备（如相机）一样管理 Surface Dock 2。
+使用 SEMM 管理 Surface 扩展坞 2 适用于连接到 Surface Book 3、Surface Laptop Studio、Surface Laptop 4、Surface Laptop 3、Surface Laptop Go、Surface Pro 8 的扩展坞，Surface Pro 7+、Surface Pro 7 和 Surface Pro X。这些兼容的 Surface 设备通常称为**主机设备**。 根据主机设备是否经过身份验证或未经身份验证，程序包将应用于主机**设备**。**** 配置的设置驻留在主机设备的 UEFI 层，使 IT 管理员能够像管理任何其他内置外围设备（如相机）一样管理 Surface Dock 2。
 
 >[!NOTE]
 >只有当扩展坞连接到以下兼容设备之一时，才能管理 Surface Dock 2 端口：Surface Pro 8、Surface Laptop Studio、Surface Book 3、Surface Laptop 4、Surface Laptop 3、Surface Pro 7+和Surface Pro 7. 任何未接收 UEFI 身份验证策略设置的设备本质上都是未经身份验证的设备。
@@ -52,7 +55,7 @@ Surface Enterprise 管理模式 (SEMM) 允许 IT 管理员通过配置部署到�
 1. 生成配置包，并应用到 7. (Surface Book 3、Surface Laptop 3 或 Surface Pro 7.) 
 
 >[!NOTE]
->**随机数字 (RN) ** 是一个唯一的 16 位十六进制代码标识符，该标识符在工厂中设置，在扩展坞的下面以小字体打印。 RN 与大多数序列号的一个区别是，它不能通过电子方式读取。 这可确保主要仅在以物理形式访问设备时读取 RN 来建立所有权证明。 还可以在购买交易期间获取 RN，并记录在 Microsoft 库存系统中。
+>**随机 (RN) ** 是一个唯一的 16 位十六进制代码标识符，该标识符在工厂中设置，在扩展坞的下面以小字体打印。 RN 与大多数序列号的一个区别是，它不能通过电子方式读取。 这可确保主要仅在以物理形式访问设备时读取 RN 来建立所有权证明。 还可以在购买交易期间获取 RN，并记录在 Microsoft 库存系统中。
 
 ### <a name="install-semm-and-surface-uefi-configurator"></a>安装 SEMM 和 Surface UEFI 配置器
 
@@ -64,7 +67,7 @@ Surface Enterprise 管理模式 (SEMM) 允许 IT 管理员通过配置部署到�
 
 本部分提供用于创建管理 Surface 扩展坞 2 的端口所需的证书的规范。
 
-### <a name="prerequisites"></a>必备条件
+### <a name="prerequisites"></a>系统必备
 
 本文假定你要么从第三方提供商获取证书，要么你已经具有 PKI 证书服务方面的专业知识，并且知道如何创建自己的证书。  你应该熟悉并按照 [Surface Enterprise Management Mode (SEMM ](surface-enterprise-management-mode.md)) 中所述创建证书的一般建议，但一个例外。 此页上介绍的证书要求扩展坞证书颁发机构过期期限为 30 年****，主机身份验证证书的有效期为 20 **年**。
 
@@ -78,9 +81,9 @@ Surface Enterprise 管理模式 (SEMM) 允许 IT 管理员通过配置部署到�
 
 #### <a name="table-1-root-and-dock-certificate-requirements"></a>表 1. 根证书和扩展坞证书要求
 
-|证书|算法|描述|到期|EKU OID|
+|证书|算法|说明|到期|EKU OID|
 |---|---|---|---|---|
-|根证书颁发机构|ECDSA_P384|- 具有 384 位质椭圆曲线数字签名算法的根证书 (ECDSA) <br>- SHA 256 密钥用法：<br>CERT_DIGITAL_SIGNATURE_KEY_USAGE<br>- CERT_KEY_CERT_SIGN_KEY_USAGE<br>CERT_CRL_SIGN_KEY_USAGE|30 年|不适用
+|根证书颁发机构|ECDSA_P384|- 具有 384 位主要省略号曲线数字签名算法的根证书 (ECDSA) <br>- SHA 256 密钥用法：<br>CERT_DIGITAL_SIGNATURE_KEY_USAGE<br>- CERT_KEY_CERT_SIGN_KEY_USAGE<br>CERT_CRL_SIGN_KEY_USAGE|30 年|不适用
 |扩展坞证书颁发机构|ECC P256 曲线|- 具有 256 位省略号曲线加密的主机证书 (ECC) <br>- SHA 256 密钥用法：<br>CERT_KEY_CERT_SIGN_KEY_USAGE<br>- 路径长度约束 = 0|20 年|1.3.6.1.4.1.311.76.9.21.2<br>1.3.6.1.4.1.311.76.9.21.3|
 
    >[!NOTE]
@@ -92,7 +95,7 @@ Surface Enterprise 管理模式 (SEMM) 允许 IT 管理员通过配置部署到�
 
 #### <a name="table-2-provisioning-administration-certificate-requirements"></a>表 2.  设置管理证书要求
 
-|证书|算法|描述|EKU OID|
+|证书|算法|说明|EKU OID|
 |---|---|---|---|
 |主机身份验证证书|ECC P256<br>SHA 256|证明主机设备的标识。|1.3.6.1.4.1.311.76.9.21.2|
 |设置管理证书|ECC P256<br>SHA256|通过允许替换当前安装在扩展坞上的 CA，可以更改扩展坞所有权和/或策略设置。|1.3.6.1.4.1.311.76.9.21.3<br>1.3.6.1.4.1.311.76.9.21.4|
@@ -102,7 +105,7 @@ Surface Enterprise 管理模式 (SEMM) 允许 IT 管理员通过配置部署到�
 
 ### <a name="create-configuration-package"></a>创建配置包
 
-获取或创建证书后，你已准备好生成将.msi Surface 设备的设备配置包。
+获取或创建证书后，你已准备好生成将.msi目标 Surface 设备的设备配置包。
 
 1. 运行 Surface **UEFI 配置器**。
 
@@ -121,7 +124,7 @@ Surface Enterprise 管理模式 (SEMM) 允许 IT 管理员通过配置部署到�
    >[!TIP]
    >为多个 Surface Dock 2 设备创建配置包时，可以使用包含 RN 列表的 .csv 文件，而不是手动输入每个 RN。
 
-1. 指定 USB 数据、以太网和音频端口的策略设置。 UEFI 配置器允许你为经过身份验证 (策略) 和未经身份验证的用户配置 (策略策略) 。 下图显示了为经过身份验证的用户打开的端口访问，并且为未经身份验证的用户关闭端口访问。
+1. 指定 USB 数据、以太网和音频端口的策略设置。 UEFI 配置器允许你为经过身份验证 (策略) 和未经身份验证的用户配置 (策略) 。 下图显示了为经过身份验证的用户打开的端口访问，并且为未经身份验证的用户关闭端口访问。
 
    ![选择要激活或停用的组件。](images/secure-surface-dock-ports-semm-4.png)
 
@@ -133,7 +136,7 @@ Surface Enterprise 管理模式 (SEMM) 允许 IT 管理员通过配置部署到�
 
 ### <a name="apply-the-configuration-package-to-a-surface-dock-2"></a>将配置包应用到 Surface Dock 2
 
-1. 使用.msi Surface UEFI 配置器生成的文件，并安装在 Surface 主机设备上。 兼容的主机设备包括 Surface Book 3、Surface Laptop Studio、Surface Laptop 3、Surface Laptop 4、Surface Pro 7+和 Surface Pro 7。
+1. 使用.msi Surface UEFI 配置器生成的文件，并安装在 Surface 主机设备上。 兼容的主机设备Surface Book 3、Surface Laptop Studio、Surface Laptop 3、Surface Laptop 4、Surface Pro 7+和 Surface Pro 7。
 1. 连接设备连接到 Surface 扩展坞 2。 连接扩展坞时，将应用 UEFI 策略设置。
 
 ## <a name="verify-managed-state-using-the-surface-app"></a>使用 Surface App 验证托管状态
@@ -154,14 +157,14 @@ Surface Enterprise 管理模式 (SEMM) 允许 IT 管理员通过配置部署到�
 
    ![Surface 应用显示所有端口均可供经过身份验证的用户使用。](images/secure-surface-dock-ports-semm-5.png)
 
-1. 现在您需要验证策略设置是否成功关闭未经身份验证的用户的所有端口。 连接 Surface 扩展坞 2 连接到非托管设备，即任何超出所创建配置包管理范围的 Surface 设备。
+1. 现在您需要验证策略设置是否成功关闭未经身份验证的用户的所有端口。 连接 Surface 扩展坞 2 连接到非托管设备，即已创建配置包的管理作用域外的任何 Surface 设备。
 
 1. 打开 **Surface 应用并选择** **Surface 扩展坞**。 结果策略状态将指示端口已关闭。
 
    ![显示为未经身份验证的用户关闭的端口的 Surface 应用。](images/secure-surface-dock-ports-semm-6.png)
 
 >[!TIP]
->如果你想要保留设备的所有权，但允许所有用户完全访问，你可以制作一个打开所有内容的新程序包。 如果你希望完全删除设备 (使其非托管) ，请选择 Surface UEFI 配置器中的重置以创建要应用于目标设备的程序包。****
+>如果你想要保留设备的所有权，但允许所有用户完全访问，你可以制作一个打开所有内容的新程序包。 如果你想要完全删除设备限制和所有权 (使其成为非托管) ，请选择 Surface UEFI 配置器中的重置以创建要应用于目标设备的程序包****。
 
 恭喜。 你已成功在目标主机设备上管理 Surface Dock 2 端口。
 

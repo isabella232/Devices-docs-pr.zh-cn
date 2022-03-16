@@ -13,12 +13,15 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: 39cd721606a44fed21c2a8cf59baaf806db47959
-ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 368ab2bc1480c00ef27a9d35910a1db7a6856748
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2021
-ms.locfileid: "11939496"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448295"
 ---
 # <a name="enable-peap-eap-fast-and-cisco-leap-on-surface-devices"></a>在 Surface 设备上启用 PEAP、EAP-FAST 和 Cisco LEAP
 

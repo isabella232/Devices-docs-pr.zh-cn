@@ -11,12 +11,12 @@ ms.date: 07/08/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 92b60fb0f0ac83c2516ebb1ebde0748d9d933c4e
-ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
+ms.openlocfilehash: ff70b7033e83804f178d35e22935011936ba2d14
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "11882999"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449115"
 ---
 # <a name="local-management-for-surface-hub-settings"></a>Surface Hub 设置的本地管理
 
@@ -55,7 +55,8 @@ Surface Hub 所具有的许多设置常见于其他 Windows 设备，但同样�
 | 维护时间 | “更新和安全”&gt;“Windows 更新”&gt;“高级选项” | 配置可以安装更新的时间。 |
 | 从云中恢复 | “更新和安全”>“恢复” | 将 Surface Hub 上的操作系统重新安装为云中的制造商内部版本。 |
 | 保存 BitLocker 密钥 | “更新和安全”>“恢复” | 将 Surface Hub 的 BitLocker 密钥备份到 U 盘。 |
-| 收集日志 | “更新和安全”&gt;“恢复” | 将日志保存到 USB 驱动器，稍后发送到 Microsoft。 | 
+| 收集日志 | 更新&安全>日志 | 将日志保存到 USB 驱动器，稍后发送到 Microsoft。 | 
+| 事件查看器 | 更新&安全>日志 | 启动Windows事件查看器"以查看事件查看器上Surface Hub。 | 
 
 ## <a name="related-topics"></a>相关主题
 

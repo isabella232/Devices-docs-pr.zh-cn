@@ -12,16 +12,19 @@ ms.date: 12/01/2021
 ms.reviewer: carlol
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: ae648f54f7abd97a6397dca5aa204205b582e4b0
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: a0f04b4dd089309ad44cab12cf738d8203d1526d
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338045"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449495"
 ---
 # <a name="dma-protection-on-surface-devices"></a>Surface 设备上 DMA 保护
 
-直接内存 (DMA) 保护旨在缓解与使用可移动 SSD 或外部存储设备相关的潜在安全漏洞。 较新的 Surface 设备默认支持 DMA 保护。 其中包括 Surface Pro 8、Surface Laptop Studio、Surface Go 3、Surface Laptop 标准版、Surface Pro 7+、Surface Pro 7、Surface Laptop 3 和 Surface Pro X. 若要检查设备上是否存在 DMA **** >  保护功能，系统信息 ("开始msinfo32.exe) "，如下图所示。** **
+直接内存 (DMA) 保护旨在缓解与使用可移动 SSD 或外部存储设备相关的潜在安全漏洞。 较新的 Surface 设备默认支持 DMA 保护。 其中包括 Surface Pro 8、Surface Laptop Studio、Surface Go 3、Surface Laptop 标准版、Surface Pro 7+、Surface Pro 7、Surface Laptop 3 和 Surface Pro X. 若要检查设备上是否存在 DMA **** >  保护功能，系统信息 ("msinfo32.exe) "，如下图所示。** **
 
 ![显示已启用 DMA 保护的系统信息。](images/systeminfodma.png)
 

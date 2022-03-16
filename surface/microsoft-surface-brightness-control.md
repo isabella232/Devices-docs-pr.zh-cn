@@ -12,12 +12,15 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 660a96a8825002c6d52d067dac77894bb0c0b7a9
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7c27bacde65ef8c0fab75b123283bf2e6699afed
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12337825"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449105"
 ---
 # <a name="surface-brightness-control"></a>Surface 亮度控制
 
@@ -39,25 +42,25 @@ ms.locfileid: "12337825"
 - Surface Studio (所有代) 
 - Surface Laptop (所有代) 
 - Surface Laptop Go
-- Surface Go (代) 
+- Surface Go (所有代) 
 
 
 ## <a name="run-surface-brightness-control"></a>运行 Surface 亮度控制
 
-- 在 **Surface_Brightness_Control_v1.16.137.0.msi** 安装屏幕，Surface 亮度控制将立即开始工作。
+- 在 **Surface_Brightness_Control_v1.16.137.0.msi** 设备上安装"亮度控制"，Surface 亮度控制将立即开始工作。
 
 ## <a name="configure-surface-brightness-control"></a>配置 Surface 亮度控制
 
-可以通过注册表来Windows默认值。 有关使用注册表Windows，请参阅[注册表文档](/windows/desktop/sysinfo/registry)。
+可以通过注册表来调整Windows值。 有关使用注册表Windows，请参阅[注册表文档](/windows/desktop/sysinfo/registry)。
 
-1. 从**命令提示符运行 regedit** 以Windows注册表编辑器。
+1. 从**命令提示符运行 regedit** 以打开Windows注册表编辑器。
 2. 导航到 Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Surface\Surface Brightness Control。
 3. 调整注册表项值，如下表所述。
 
 > [!TIP]
-> 如果你运行的是较旧版本的 Surface Brightness 控件，请导航到：Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Surface\SurfaceBrightnessControl\
+> 如果运行的是较旧版本的 Surface Brightness 控件，请导航到：Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Surface\SurfaceBrightnessControl\
 
-| 注册表设置 | 数据| 描述  
+| 注册表设置 | 数据| 说明  
 |-----------|------------|---------------
 | BrightnessControlEnabled  |  默认值：01  <br> 选项：01，00 <br> 类型：REG_BINARY |  此设置允许你打开或关闭 Surface Brightness Control。 若要禁用 Surface 亮度控制，请将其值设置为 00。 如果未配置此设置，Surface 亮度控件将打开。 |
 | BrightnessControlOnPowerEnabled| 默认值：01 <br> 选项：01、00 <br> 类型：REG_BINARY | 此设置允许你在设备直接连接到电源时关闭 Surface 亮度控制。 若要在接通电源时禁用 Surface 亮度控制，请将其值设置为 00。 如果未配置此设置，Surface 亮度控件将打开。 |
@@ -71,7 +74,7 @@ FullBrightness   | 默认值：100  <br>选项：屏幕亮度的 0- 100% 范围 
 ### <a name="version-116137br"></a>版本 1.16.137<br>
 
 *发布日期：2019 年 10 月 22 日*<br>
-此版本的 Surface Brightness Control 增加了对以下内容的支持：-Recompiled for x86，增加了对 Surface Pro 7、Surface Pro X 和 Surface Laptop 3 的支持。
+此版本的 Surface 亮度控制增加了对以下内容的支持：-Recompiled for x86，增加了对 Surface Pro 7、Surface Pro X 和 Surface Laptop 3 的支持。
 
 ### <a name="version-1122390"></a>版本 1.12.239.0
 

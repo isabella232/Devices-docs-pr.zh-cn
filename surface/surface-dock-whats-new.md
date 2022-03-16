@@ -12,12 +12,15 @@ ms.date: 10/19/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 63db862f917028c045ac2615f68ad1b196cdb622
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7f655a8f4012dbb2dc234b4734d684f932a53c6b
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154107"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449625"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Surface Dock 2 中的新增功能
 
@@ -25,18 +28,18 @@ Surface 扩展坞 2 是下一代 Surface 扩展坞，它允许用户连接外部
 
 ## <a name="full-device-management-support"></a>完整的设备管理支持
 
-Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows Update 自动执行固件更新，或者使用内部软件分发工具集中更新。
+Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows 更新或使用内部软件分发工具集中更新来自动执行固件更新。
 
-- Surface Enterprise 管理模式 (SEMM) 使 IT 管理员能够保护 Surface Dock 2 上的端口。 有关详细信息，请参阅使用 Surface 管理模式保护 Surface 扩展坞[2 Enterprise端口](secure-surface-dock-ports-semm.md)。
-- WindowsManagement Instrumentation (WMI) 支持使 IT 管理员能够跨 Surface Dock 2 设备远程监视和管理最新的固件、策略状态和相关的数据。 有关详细信息，请参阅使用[WMI 管理 Surface Dock 2。](surface-dock2-wmi.md)
+- Surface Enterprise管理模式 (SEMM) 使 IT 管理员能够保护 Surface Dock 2 上的端口。 有关详细信息，请参阅使用 [Surface 管理模式保护 Surface 扩展坞 2 Enterprise端口](secure-surface-dock-ports-semm.md)。
+- Windows Management Instrumentation (WMI) 支持使 IT 管理员能够跨 Surface Dock 2 设备远程监视和管理最新的固件、策略状态和相关数据。 有关详细信息，请参阅使用 [WMI 管理 Surface Dock 2](surface-dock2-wmi.md)。
 - 使用软件分发工具集中本地网络更新。 [下载 Surface Dock 2 固件和驱动程序](https://www.microsoft.com/download/details.aspx?id=101317)。
 
 ## <a name="general-system-requirements"></a>一般系统要求
 
-- Windows 10版本 1809。 不支持 Windows 7、Windows 8 或非 Surface 主机设备。 Surface 扩展坞 2 适用于以下 Surface 设备：
+- Windows 10版本 1809 及更高版本。 不支持 Windows 7、Windows 8或非 Surface 主机设备。 Surface 扩展坞 2 适用于以下 Surface 设备：
 
   - Surface Pro (第五代) 
-  - Surface Laptop (一代) 
+  - Surface Laptop (第一代) 
   - Surface Pro 6
   - Surface Book 2
   - Surface Laptop 2
@@ -46,10 +49,10 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows Update 
   - Surface Laptop 3
   - Surface Book 3
   - Surface Go 2
-  - Surface Laptop转到
+  - Surface Laptop Go
   - Surface Pro 7+
   - Surface Laptop 4
-  - Surface LaptopStudio
+  - Surface Laptop Studio
   - Surface Pro 8
   - Surface Go 3
 
@@ -67,7 +70,7 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows Update 
   
 - 双4K@60Hz。 在下列设备上最多支持两个屏幕：
 
-  - Surface LaptopStudio
+  - Surface Laptop Studio
   - Surface Book 3
   - Surface Pro 8
   - Surface Pro 7
@@ -81,7 +84,7 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows Update 
   - Surface Pro 6
   - Surface Pro (第五代) 
   - Surface Laptop 2
-  - Surface Laptop (一代) 
+  - Surface Laptop (第一代) 
   - Surface Go
   - Surface Go 2
   - Surface Go 3
@@ -114,14 +117,14 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows Update 
 | USB 负载电源                      | 30W                                                         | 60W                                                                                                 |                  |
 | USB 比特率                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
 | 监视支持                     | 2 x 4K @30fps，或<br>1 x 4K @ 60fps                         | 2 x 4K @ 60fps<br> 或 1 x 4K @120fps                                                                                     | 1 x 4K @ 60fps   |
-| 从连接待机 1 唤醒 LAN <sup> 上</sup> | 是                                                         | 是                                                                                                 |    是              |
+| 从连接待机状态在 LAN 上唤醒<sup>1</sup> | 是                                                         | 是                                                                                                 |    是              |
 | 从 S4/S5 睡眠模式唤醒 LAN  | 否                                                          | 是                                                                                                 |          是        |
 | 网络 PXE 启动                    | 是                                                         | 是                                                                                                 |        是          |
 | SEMM 主机访问控制            | 否                                                          | 是                                                                                                 | 否               |
-| SEMM 端口访问控制 <sup> 2</sup>          | 否                                                          | 是                                                                                                 | 否               |
-| 服务支持                   | MSI                                                         | Windows更新或 MSI                                                                               |                  |
+| SEMM 端口访问控制<sup>2</sup>          | 否                                                          | 是                                                                                                 | 否               |
+| 服务支持                   | MSI                                                         | Windows Update 或 MSI                                                                               |                  |
 
-1. *设备必须配置为通过 Surface Enterprise 管理模式 (SEMM) 或设备固件控制接口 (DFCI) 在 LAN 上唤醒，以从休眠或断电状态中唤醒。 Surface Laptop Studio、Surface Pro 8、Surface Pro 7+、Surface Pro 7、Surface Laptop 4、Surface Laptop 3、Surface Pro X 上支持从休眠或断电中唤醒，Surface Book 3、Surface Go 3 和 Surface Go 2。  某些功能所需的软件许可证。 单独出售。*
+1. *设备必须配置为通过 Surface Enterprise 管理模式 (SEMM) 或设备固件控制接口 (DFCI) 在 LAN 上唤醒，以从休眠或断电状态中唤醒。 Surface Laptop Studio、Surface Pro 8、Surface Pro 7+、Surface Pro 7、Surface Laptop 4、Surface Laptop 3、Surface Pro X 支持从休眠或断电中唤醒，Surface Book 3、Surface Go 3 和 Surface Go 2。  某些功能所需的软件许可证。 单独出售。*
 
 2. *某些功能所需的软件许可证。 单独出售。*
 
@@ -129,12 +132,12 @@ Surface Dock 2 旨在简化 IT 管理，使管理员能够使用 Windows Update 
 
 Surface 通过 Windows 更新发布了简化的管理功能，使 IT 管理员能够利用以下企业级功能：
 
-- **无接触更新**。 使用 Windows Update 或 Microsoft Endpoint Configuration Manager (以前为 System Center Configuration Manager - SCCM) 或其他 MSI 部署工具以静默方式自动更新扩展坞。
+- **无接触更新**。 使用 Windows Update 或 Microsoft Endpoint Configuration Manager (以前为 System Center Configuration Manager - SCCM) 或其他 MSI 部署工具，以静默方式自动更新扩展坞。
 - **从网络唤醒**。 管理和访问公司设备，而无需依赖用户来使设备保持打开状态。 即使固定设备进入睡眠、休眠或断电模式，团队也可使用 Endpoint Configuration Manager 或其他企业管理工具从网络唤醒以用于服务和管理。
 - **集中式 IT 控制**。 通过打开和关闭端口来控制谁可以连接到 Surface Dock 2。 限制哪些主机设备可以与 Surface Dock 2 一起使用。 将扩展坞访问权限限制为单个用户，或仅将扩展坞配置为仅由团队中或整个公司中的特定用户访问。
 
 ## <a name="next-steps"></a>后续步骤
 
-- [使用 Surface 管理模式保护 Surface 扩展坞 2 Enterprise端口](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
+- [使用 Surface Enterprise 管理模式的安全 Surface 扩展坞 2 端口](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 - [Surface 企业管理模式](surface-enterprise-management-mode.md)
 - [Surface 设备电源设置的最佳做法](maintain-optimal-power-settings-on-Surface-devices.md)

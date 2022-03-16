@@ -10,12 +10,12 @@ ms.date: 01/18/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 8edc5bf1da384809e38451c9d164503bfcc10241
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 01ee3530f7d9db9947d4be6395660170cfb30142
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911767"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448705"
 ---
 # <a name="whats-new-in-windows-10-version-1703-for-microsoft-surface-hub"></a>Windows 10 版本 1703 中 Microsoft Surface Hub 有哪些新增功能？
 
@@ -53,15 +53,6 @@ Windows 10 版本 1703 (也称为创意者更新)为 Microsoft Surface Hub 带�
 ## <a name="miracast-on-your-existing-wireless-network-or-lan"></a>现有无线网络或 LAN 上的 Miracast 
 
 Microsoft 的功能经过扩展，可以[通过本地网络发送 Miracast 流](miracast-over-infrastructure.md)，而不是通过直接无线链接来发送。 
-    
-## <a name="cloud-recovery"></a>云恢复
-
-重置 Surface Hub 设备时，能够立即从云中下载并安装操作系统出厂版本。 [了解关于云恢复的详细信息。](device-reset-surface-hub.md#cloud-recovery)
-
->[!NOTE]
->如果使用代理服务器，云恢复将不起作用。
-    
-![重新安装。](images/reinstall.png)
     
 ## <a name="end-session"></a>结束会话
 

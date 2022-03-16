@@ -15,12 +15,15 @@ ms.author: greglin
 ms.topic: article
 audience: itpro
 ms.date: 10/06/2021
-ms.openlocfilehash: e97bc719fb93b0a0b74c7ca51b68cbc59efa9f4a
-ms.sourcegitcommit: fe54b2bab8b205302438426b86c0aa8269ff82ea
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: e40c967003fc6dd40725e5015c01497eb3fa141a
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "12081198"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449645"
 ---
 # <a name="microsoft-surface-data-eraser"></a>Microsoft Surface Data Eraser
 
@@ -33,16 +36,16 @@ ms.locfileid: "12081198"
 
 兼容的 Surface 设备包括：
 
-- Surface LaptopStudio
+- Surface Laptop Studio
 - Surface Book (所有版本) 
 - Surface Go (所有版本) 
-- Surface ProX (所有版本) 
+- Surface Pro X (所有版本) 
 - Surface Laptop (所有版本) 
-- Surface Laptop转到
+- Surface Laptop Go
 - Surface Studio (所有版本) 
 - Surface Pro 2 及更高版本
 - Surface 3
-- Windows 10 专业版 2 Enterprise 上的 Surface Hub 和 Surface Hub
+- Windows 10 专业版 2 Enterprise上的 Surface Hub 和
 
 Microsoft Surface Data Eraser 在以下情况中可能有所帮助：
 
@@ -67,11 +70,11 @@ Microsoft Surface Data Eraser 在以下情况中可能有所帮助：
    :::image type="content" source="images/microsoft-surface-data-eraser/fig2-continue.png" alt-text="图 2. 确认已连接至少 4GB 的 USB 驱动器":::<br>
    *图 2. 确认已连接至少 4GB 的 USB 驱动器*
 
-4. 对于**2021 (2021**及更高版本的设备，选择"x64 ("（仅针对 2021) 设备）选择 **"x64"，** 从"体系结构选择"页选择"适用于**** 2020 和较旧的设备的 x64"或"适用于 Surface Pro X 的**ARM64"，** 如图 3 所示。 选择**继续**。
+4. 对于 **2021 (设备仅选择 x64 (**（对于 2021 或更高版本的设备) 请选择 **"x64**"，从"体系结构选择"页面选择"适用于 2020 和较旧的设备的 **x64**"或"适用于 Surface Pro X 的 ARM64"，如图 3 所示。**** 选择**继续**。
 
    :::image type="content" source="images/microsoft-surface-data-eraser/fig3-select.png" alt-text="图 3. 选择设备体系结构":::
 
-5. 从"USB U 盘选择"**** 页中选择你选择的 U 盘，如图 4 所示****，然后选择"开始"开始 USB 创建过程。 所选的驱动器会进行格式化，此驱动器上的任何现有数据都将丢失。
+5. 从"USB U 盘选择"页中选择**** 你选择的 U 盘，如图 4 所示，然后选择"开始"开始 USB **** 创建过程。 所选的驱动器会进行格式化，此驱动器上的任何现有数据都将丢失。
 
    :::image type="content" source="images/microsoft-surface-data-eraser/fig4-start.png" alt-text="图 4. U 盘选择>":::<br>
    *图 4. U 盘选择*
@@ -79,7 +82,7 @@ Microsoft Surface Data Eraser 在以下情况中可能有所帮助：
   >[!TIP]
    >如果禁用了“开始”按钮，请检查可移动驱动器的总容量是否至少有 4 GB。
 
-6. 创建过程完成后，U 盘已进行格式化，并且所有二进制文件都会复制到该 U 盘中。 选择 **成功**。
+6. 创建过程完成后，U 盘已进行格式化，并且所有二进制文件都会复制到该 U 盘中。 选择 **"成功"**。
 
 7. 当**恭喜**屏幕显示时，即可弹出并移除该 U 盘。 该 U 盘现在随时可以插入一台 Surface 设备中、从中进行启动，然后擦除该设备上的所有数据。 选择 **"** 完成"以完成 USB 创建过程，如图 5 所示。
 
@@ -234,7 +237,7 @@ Microsoft 会定期更新 Microsoft Surface Data Eraser。 有关每个新版本
 
 此版本的 Microsoft Surface Data Eraser 添加了以下支持：
 
-- 其他存储设备 (驱动器) 和Surface Pro Surface Laptop驱动器
+- 其他存储设备 (驱动器) Surface Pro Surface Laptop设备
 
 ### <a name="version-32460"></a>版本 3.2.46.0
 
@@ -260,4 +263,4 @@ Microsoft 会定期更新 Microsoft Surface Data Eraser。 有关每个新版本
 - Surface Laptop
 
 >[!NOTE]
->Microsoft Surface Data Eraser U 盘创建工具无法在 Windows 10 S 上运行。若要擦除运行 Windows 10 S 的 Surface Laptop，必须首先在具有 Windows 10 专业版或 Windows 10 企业版的另一台计算机上创建 Microsoft Surface Data Eraser U 盘。
+>Microsoft Surface Data Eraser USB 驱动器创建工具无法在 S Windows 10运行。若要擦除Surface Laptop S Windows 10，必须先在具有 Windows 10/11 Pro 或 Windows 10/11 Enterprise 的另一计算机上创建 Microsoft Surface Data Eraser U 盘。

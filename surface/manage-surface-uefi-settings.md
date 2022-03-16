@@ -13,12 +13,15 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 01/18/2022
-ms.openlocfilehash: 94e39a67ef80e4e95db3441778af915d2e535bab
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7da3a2908acc654abd86406af36eba4929bf4760
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338159"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449655"
 ---
 # <a name="manage-surface-uefi-settings"></a>管理 Surface UEFI 设置
 
@@ -28,7 +31,7 @@ ms.locfileid: "12338159"
 
 以下各项支持 UEFI 管理：
 
-- Surface Pro 4、Surface Pro (第 5 代) 、Surface Pro 6、Surface Pro 7、Surface Pro 7+ (商业 SK 仅) 、Surface Pro 8 (商业 SK（仅) 、Surface Pro X）
+- Surface Pro 4、Surface Pro (第五代) 、Surface Pro 6、Surface Pro 7、Surface Pro 7+ (商业 SK 仅) 、Surface Pro 8 (商业 SK) 、Surface Pro X
 - Surface Laptop (第一代) 、Surface Laptop 2、Surface Laptop 3 (Intel 处理器仅) 、Surface Laptop Go、Surface Laptop 4 (商业 SK) Surface Laptop 标准版
 - Surface Studio (第一代) ，Surface Studio 2 号
 - Surface Book (所有代) 
@@ -41,7 +44,7 @@ ms.locfileid: "12338159"
 
 ## <a name="support-for-cloud-based-management"></a>支持基于云的管理
 
-通过内置于 Microsoft Intune (中的设备固件配置接口 (DFCI) 配置文件现在可用于公共预览版) ，Surface UEFI 管理将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 DFCI 目前可用于 Surface Laptop 标准版、Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3，Surface Laptop 3、Surface Pro 7+、Surface Pro 7 和 Surface Pro X。  有关详细信息，请参阅 [Surface UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
+通过内置于 Microsoft Intune (中的设备固件配置接口 (DFCI) 配置文件现在可用于公共预览版) ，Surface UEFI 管理将新式管理堆栈向下扩展到 UEFI 硬件级别。 DFCI 支持零接触预配、消除 BIOS 密码、控制安全设置（包括启动选项和内置外设）并在将来为高级安全方案打下基础。 DFCI 目前可用于 Surface Laptop 标准版、Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3、Surface Laptop 3，Surface Pro 7+、Surface Pro 7 和 Surface Pro X。  有关详细信息，请参阅 [Surface UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
 
 ## <a name="open-surface-uefi-menu"></a>打开 Surface UEFI 菜单
 
@@ -131,7 +134,7 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 - 板载音频（扬声器和麦克风）
 
-每个设备都列出了一个滑块按钮，你可以将其移动到"**** 打开" (启用) 或 (禁用) 位置，**** 如图 6 所示。
+每个设备都列出了一个滑块按钮，你可以将其移动到"**** 开" (") " (禁用) 位置****"，如图 6 所示。
 
 :::image type="content" alt-text="启用和禁用特定设备。" source="images/manage-surface-uefi-fig5a.png":::
 
@@ -167,7 +170,7 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 *图 8. 管理对零接触 UEFI 管理和其他功能的访问权限*
 
-零接触 UEFI 管理允许你通过使用 Intune 中的设备配置文件（称为设备固件配置接口 (DFCI) ）远程管理 UEFI 设置。 如果未配置此设置，则使用 DFCI 管理符合条件的设备的能力将设置为 **"就绪"**。 若要阻止 DFCI，请选择 **"选择退出"**。
+借助零接触 UEFI 管理，可以使用 Intune 中的设备配置文件（称为设备固件配置接口和 DFCI (）远程管理 UEFI) 。 如果未配置此设置，则使用 DFCI 管理符合条件的设备的能力将设置为 **"就绪"**。 若要阻止 DFCI，请选择 **"选择退出"**。
 
 > [!NOTE]
 > UEFI 管理设置页和 DFCI 的使用目前适用于 Surface Laptop 标准版、Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7+、Surface Pro 7 和 Surface Pro X。 若要了解更多信息，请参阅 [Surface UEFI 设置的 Intune 管理](surface-manage-dfci-guide.md)。
@@ -233,7 +236,7 @@ The Security page allows you to set a password to protect UEFI settings. 在将 
 
 ## <a name="references"></a>参考
 
-1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。 DFCI 目前可用于 Surface Laptop 标准版、Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3、Surface Laptop 3、Surface Pro 7+、Surface Pro 7 和 Surface Pro X。
+1. Surface Go 和 Surface Go 2 使用第三方 UEFI，不支持 DFCI。 DFCI 目前可用于 Surface Laptop 标准版、Surface Laptop Studio、Surface Pro 8、Surface Go 3、Surface Laptop 4、Surface Laptop Go、Surface Book 3、Surface Laptop 3，Surface Pro 7+、Surface Pro 7 和 Surface Pro X。
 
 ## <a name="related-topics"></a>相关主题
 

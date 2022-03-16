@@ -12,12 +12,15 @@ ms.date: 9/14/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 170fdfa9fb85670ec9ed8282f5d264bf2cdbf906
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 77881fae189af1ad3773f5fad192a28746e2d983
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911977"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449415"
 ---
 # <a name="surface-registration-support-for-windows-autopilot"></a>适用于 Windows Autopilot 的 Surface 注册支持
 
@@ -32,12 +35,12 @@ ms.locfileid: "11911977"
 **表 1. Autopilot 注册请求的必需信息**
  
 
-| 所需信息                   | 描述                                                                                                                                                                                                                                                                                    | Autopilot 注册 | 硬件哈希请求 | Autopilot<br>取消注册 |
+| 所需信息                   | 说明                                                                                                                                                                                                                                                                                    | Autopilot 注册 | 硬件哈希请求 | Autopilot<br>取消注册 |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------- | --------------------------- |
-| **Azure Active Directory租户 ID**   | 你的Azure Active Directory租户 ID 是 GUID (全局唯) 标识符，与组织名称或域不同。<br> <br>若要在此处找到租户 ID 登录 Azure[门户，](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) | Y                      | N                     | Y                           |
+| **Azure Active Directory租户 ID**   | 你的Azure Active Directory ID 是 GUID (全局唯一标识符) 与组织名称或域不同。<br> <br>若要在此处找到租户 ID，请登录到 Azure [门户](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties)。 | Y                      | N                     | Y                           |
 | **Azure Active Directory域名** | 顶级域名;例如，contoso.com。                                                                                                                                                                                                                                          | Y                      | N                     | Y                           |
 | **所有权证明**                 | 通过上载 PDF 格式的原始销售帐单或发票来验证所有权证明。 不接受屏幕截图。<br> <br>销售帐单或发票必须包括以下内容：<br>设备序列号。<br>公司名称。                                                           | Y                      | Y                     | Y                           |
-| **设备序列号**              | Upload Excel新行中每个设备序列号的 CSV 格式创建文件。                                                                                                                                                                                                                  | Y                      | Y                     | Y                           |
+| **设备序列号**              | Upload Excel采用 CSV 格式的文件，每个设备序列号位于新行中。                                                                                                                                                                                                                  | Y                      | Y                     | Y                           |
 
  
 
@@ -50,8 +53,8 @@ ms.locfileid: "11911977"
 ## <a name="learn-more"></a>了解详细信息
 
 - [Windows Autopilot 和 Surface 设备](windows-autopilot-and-surface-devices.md)
-- [使用 Windows Autopilot 在 Intune 中注册 Windows 设备](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)
-- [Windows Autopilot 概述](https://docs.microsoft.com/mem/autopilot/windows-autopilot)
+- [使用 Windows Autopilot 在 Intune 中注册 Windows 设备](/mem/autopilot/enrollment-autopilot)
+- [Windows Autopilot 概述](/mem/autopilot/windows-autopilot)
 - [Surface 系统 SKU 参考](surface-system-sku-reference.md)
 
  

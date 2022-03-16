@@ -11,12 +11,15 @@ ms.topic: article
 ms.reviewer: carlol
 ms.date: 06/29/2021
 manager: laurawi
-ms.openlocfilehash: b130f6b0bf52dc1c3a28231a2330cae51a5ef44a
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 3b6525c979160d6f732e330086565c3de6f73cbd
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643828"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449145"
 ---
 # <a name="surface-asset-tag-tool"></a>Surface 资源标记工具
 
@@ -32,7 +35,7 @@ Surface Asset Tag 是 CLI (的) 接口，可用于查看、分配和修改 Surfa
 
 若要运行 Surface Asset Tag：
 
-1. 在 Surface 设备上，从[Microsoft](https://www.microsoft.com/download/details.aspx?id=46703)下载中心Tag.zipSurface **Asset** Tag.zip，提取 zip 文件，将 AssetTag.exe 保存在所需的文件夹 (中，本示例中为 C：\\assets) 。
+1. 在 Surface 设备上，从 [Microsoft](https://www.microsoft.com/download/details.aspx?id=46703) 下载中心Tag.zipSurface **Asset ** Tag.zip，提取 zip 文件，将 AssetTag.exe 保存在所需的文件夹 (中，本示例中为 C：\\assets) 。
 
     > [!NOTE]
     > 对于Surface Pro X，请使用 ZIP **AssetTag_x86**名为 AssetTag_x86 的应用程序。
@@ -48,7 +51,7 @@ Surface Asset Tag 是 CLI (的) 接口，可用于查看、分配和修改 Surfa
 
 在下面的示例中，AssetTag.exe C：\assets 文件保存在本地 (的) 。
 
-若要获取建议的资产标记，请运行**AssetTag -g：**
+若要获取建议的资产标记，请运行 **AssetTag -g**：
 
 ```console
 C:\assets\AssetTag.exe -g
@@ -67,11 +70,11 @@ C:\assets\AssetTag.exe -s testassettag12
 ```
 
 >[!NOTE]
->资源标记值必须包含 1 到 36 个字符。 有效字符包括 A-Z、a-z、0-9、period (.) 和连 (-) 。
+>资源标记值必须包含 1 到 36 个字符。 有效字符包括 A-Z、a-z、0-9、period (.) 和连字符 (-) 。
 
 ## <a name="managing-asset-tags"></a>管理资产标记
 
-可以在"设备信息" (控制面板"下查看 UEFI 设置中的现有资产标记 **>>高级**启动>立即重启) 
+可以在"设备信息" (控制面板"下查看 UEFI 设置中的现有资产标记 **>>高级**启动>立即重新启动。) 
 
 下图显示了在 Surface Go 上运行资产标记工具的结果。
 

@@ -1,22 +1,22 @@
 ---
 title: 操作系统基本知识 (Surface Hub)
-description: 本主题介绍操作系统的独特Windows 10 协同版及其与操作系统Windows 10 企业版。
+description: 本主题介绍 Windows 10 协同版 操作系统的独特方面及其与Windows 10 企业版。
 keywords: 更改历史记录
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/23/2021
+ms.date: 02/15/2022
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 3bc5d7e26d565ca26ec23eefaee406c47eac395e
-ms.sourcegitcommit: 2493c83b1b3cb28b0836926cd406d4b28cd6abfa
+ms.openlocfilehash: 6963a51b492bfbdc09da5ec667d091d62eed4569
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "12094455"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449235"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>操作系统基本知识 (Surface Hub)
 
@@ -24,7 +24,7 @@ Surface Hub 操作系统 Windows 10 协同版基于 Windows 10 企业版，提�
 
 从 2020 年 9 月开始，客户可以选择在 Windows 10 专业版 2S Enterprise迁移Surface Hub迁移。 若要了解详细信息，请参阅以下内容：
 
-- [宣布在 2 Windows 10 专业版 Enterprise 2 Surface Hub和发布](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107)。
+- [宣布在 2 月 2 Windows 10 专业版Enterprise发布Surface Hub计划](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107)。
 
 - [迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版](surface-hub-2s-migrate-os.md)
 
@@ -67,7 +67,7 @@ Surface Hub 设计用于公共场所，例如会议室。 与 Windows 电脑不�
 
 当用户按下**结束会话**时，以本地方式保存在这些目录中的文件会删除。 若要保存在会议期间创建的内容，用户应将文件保存到 U 盘或 OneDrive。
 
-*可能影响的组织策略：-* 与访问权限和文件和文件夹的所有权相关的策略不适用于Surface Hub。 用户不能浏览文件，也不能将文件保存到系统目录和网络文件夹。
+*可能影响的组织策略：*- 与访问权限和文件和文件夹的所有权相关的策略不适用于Surface Hub。 用户不能浏览文件，也不能将文件保存到系统目录和网络文件夹。
 
 ## <a name="applications"></a>应用程序
 
@@ -111,7 +111,7 @@ Surface Hub 设计用于公共场所，例如会议室。 与 Windows 电脑不�
 
 ## <a name="security-and-lockdown"></a>安全和锁定
 
-要在公共场所（如会议室）使用的 Surface Hub 的自定义操作系统，可实现在 Windows 10 中提供的许多安全和锁定功能。 若要了解更多信息，请参阅[Surface Hub安全性概述](surface-hub-security.md)
+要在公共场所（如会议室）使用的 Surface Hub 的自定义操作系统，可实现在 Windows 10 中提供的许多安全和锁定功能。 若要了解更多信息，请参阅[Surface Hub安全概述](surface-hub-security.md)
 
 Surface Hub 可实现这些 Windows 10 安全功能：
 
@@ -147,11 +147,22 @@ Surface Hub 可实现这些 Windows 10 安全功能：
 
 ### <a name="administrative-features"></a>管理功能
 
-Windows 10 企业版中的管理功能（例如 Microsoft 管理控制台、运行、命令提示符、PowerShell、注册表编辑器、事件查看器和任务管理器）在 Surface Hub 上不受支持。 “设置”应用包含在 Surface Hub 上本地提供的所有管理功能。
+Windows 10 企业版中不支持 Microsoft 管理控制台、运行、命令提示符、PowerShell、注册表编辑器和任务管理器等Surface Hub。 “设置”应用包含在 Surface Hub 上本地提供的所有管理功能。
+
+#### <a name="event-viewer"></a>事件查看器
+
+Windows 10 协同版 2020 Update 2 增加了对 Windows 事件查看器的支持，该支持与 Windows 10 专业版 或 Windows 10 企业版 上安装的事件查看器相同。[](/host-integration-server/core/windows-event-viewer1) 
+
+**若要打开事件查看器，**
+
+1. 使用管理员**设置**登录应用。
+2. 选择 **"& SecurityLogs** > **"，** 在"事件查看器"下，选择"打开 **"**。 
+
+若要了解更多信息，请参阅[Windows事件查看器](/host-integration-server/core/windows-event-viewer1)。
 
 ### <a name="remote-management-and-monitoring"></a>远程管理和监视
 
-Surface Hub通过移动设备管理支持远程管理 (MDM) 解决方案，例如Microsoft Intune [Azure Monitor](/azure/azure-monitor/)监视[](/mem/intune/)和监视。 
+Surface Hub通过移动设备管理支持远程管理， (MDM) 解决方案，例如Microsoft Intune [Azure Monitor 进行远程管理和监视](/azure/azure-monitor/)。[](/mem/intune/) 
 
 *这可能影响的组织策略：* 
 
@@ -159,7 +170,7 @@ Surface Hub通过移动设备管理支持远程管理 (MDM) 解决方案，例�
 
 ### <a name="group-policy"></a>组策略
 
-Surface Hub不支持Windows组策略，包括审核。 改用 MDM 将策略应用到 Surface Hub。 有关 MDM 的详细信息，请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)。
+Surface Hub组策略Windows，包括审核。 改用 MDM 将策略应用到 Surface Hub。 有关 MDM 的详细信息，请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)。
 
 *这可能影响的组织策略：* 
 

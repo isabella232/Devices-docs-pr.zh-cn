@@ -21,33 +21,35 @@ appliesto:
 - Surface Laptop Go
 - Surface Laptop 3
 - Surface Laptop 4
+- Windows 10
+- Windows 11
 ms.custom:
 - CI 121887
 - CSSTroubleshoot
-ms.openlocfilehash: 6df16955eda79d52097fc4f9490b6d1e445b7e26
-ms.sourcegitcommit: 760a3bdd2e40ecefe4f588703fa9281dd8f2b4b7
+ms.openlocfilehash: fbc1e2bee35874328637b23e66d148a4924030db
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "12037504"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449265"
 ---
 # <a name="best-practices-for-ssd-removal-from-compatible-surface-devices"></a>从兼容的 Surface 设备删除 SSD 的最佳实践
 
 > [!IMPORTANT]
 > 本文仅供企业组织中合格的 IT 技术人员使用。 它介绍了推荐的最佳实践，供合格的 IT 技术人员在删除和替换以下兼容 Surface 设备中的 SSD 时使用：
 
-- Surface LaptopStudio
+- Surface Laptop Studio
 - Surface Pro 8
 - Surface Pro 7+
 - Surface Pro X
-- Surface Laptop转到
+- Surface Laptop Go
 - Surface Laptop 3
 - Surface Laptop 4
 
 > [!WARNING]
-> 打开设备和更换设备组件可能会带来电力振动、设备损坏、火灾和个人危害风险以及其他危险。  执行此类活动时始终要谨慎。 按照[rSSD](https://www.microsoft.com/download/100440)删除指南中确定的安全预防措施Enterprise。 如果您无法遵循"rSSD 删除指南 for Enterprise"中指定的安全预防措施和过程，我们建议您获得专业协助。
+> 打开设备和更换设备组件可能会带来电力振动、设备损坏、火灾和个人危害风险以及其他危险。  执行此类活动时始终要谨慎。 按照 [rSSD](https://www.microsoft.com/download/100440) 删除指南中确定的安全预防措施Enterprise。 如果您无法遵循"rSSD 删除指南 for Enterprise"中指定的安全预防措施和过程，我们建议您获得专业协助。
 
-## <a name="prerequisites"></a>必备条件
+## <a name="prerequisites"></a>系统必备
 
 > [!IMPORTANT]
 > 本文假定您了解"rSSD 删除指南 for Enterprise"中介绍的一般安全预防措施和安全策略和过程。
@@ -58,7 +60,7 @@ ms.locfileid: "12037504"
 
 开始之前，请确保您的 Windows已安装最新更新：
 
-1. 转到"**开始**  >  **设置**  >  **更新&安全**"，然后选择"**检查更新"。**
+1. 转到"**开始设置** > **** > **更新&安全**"，然后选择"**检查更新"**。
 2. 安装所有可用更新。
 3. 验证访问设备所需的任何密码。  
 
@@ -71,7 +73,7 @@ ms.locfileid: "12037504"
 
 如果在删除和替换 SSD 之前设备可以未加密，请按照以下步骤关闭 BitLocker：
 
-1. 在**设置**中，键入**BitLocker，** 然后选择管理**BitLocker**。
+1. 在**设置**中，键入 **BitLocker**，然后选择"**管理 BitLocker"**。
 2. 选择 **关闭 BitLocker**。
 3. 关闭设备电源。
 
@@ -79,8 +81,8 @@ ms.locfileid: "12037504"
 
 如果在删除和替换 SSD 之前对设备进行了加密，请按照以下步骤生成 BitLocker 恢复密钥并将其保存到 USB 存储：
 
-1. 在**设置**中，键入**BitLocker**。
-2. 选择**管理 BitLocker**  > **生成 BitLocker 恢复密钥**。
+1. 在**设置**中，键入 **BitLocker**。
+2. 选择**管理 BitLockerGenerate** > **BitLocker 恢复密钥**。
 2. 插入 USB 驱动器。
 4. 将恢复密钥保存到 USB 存储。  
 5. 删除 USB 驱动器。  
@@ -88,7 +90,7 @@ ms.locfileid: "12037504"
 
 ## <a name="remove-and-replace-ssd"></a>删除和替换 SSD
 
-1. 使用适用于设备的[rSSD](https://www.microsoft.com/download/100440)删除指南中针对设备的适当说明删除 SSD Enterprise。
+1. 使用 [rSSD](https://www.microsoft.com/download/100440) 删除指南中针对设备的适当说明删除 SSD Enterprise。
 2. 将原始 SSD 放入新设备，将新设备连接到有线 Internet 连接。
 3. 打开新设备电源。 设备可能在启动期间经历固件更新。  
 
@@ -98,14 +100,14 @@ ms.locfileid: "12037504"
 
 如果在传输过程中 SSD 未加密，请按照以下步骤操作：
 
-1. 转到**登录选项 密码** (由左侧密钥图标  >  **** 表示的密码) 。  
+1. 转到 **登录选项** > **密码** (由左侧键盘上的键图标) 。  
 2. 输入密码并登录，等待双重身份验证 (如果适用) 。
-3. 完全登录后，转到开始****  >  **帐户**  >  **注销**。  
+3. 完全登录后，转到 **StartAccountSign** > **** >  **out**。  
 4. 系统提示时，使用密码重新登录，Windows Hello设置密码和 PIN。
-    - 如果设备已禁用 BitLocker 以方便删除和替换 SSD，并且你想要在替换后启用 BitLocker，请转到**BitLocker**  >  **管理 BitLocker**  >  **Resume BitLocker**。  
-6. 运行[Microsoft Surface Diagnostic Toolkit for Business (](surface-diagnostic-toolkit-for-business-intro.md) SDT) 验证完整的设备功能。  
-7. 通过导航Windows"激活"来**检查设置**  >  **激活。**  如果看到任何错误消息，请选择"疑难**解答"。**
-8. 通过打开 Office App 检查Office**帐户**，导航到"文件""**** 帐户"，  >  **** 然后检查是否有错误消息。  
+    - 如果设备已禁用 BitLocker 以方便删除和替换 SSD，并且你想要在替换后启用 BitLocker，请转到 **BitLockerManage** >  **BitLockerResume** >  **BitLocker**。  
+6. 运行 [Microsoft Surface Diagnostic Toolkit for Business (](surface-diagnostic-toolkit-for-business-intro.md) SDT) 验证完整的设备功能。  
+7. 通过导航Windows激活激活设置**** > **激活**。  如果看到任何错误消息，请选择"疑难 **解答"**。
+8. 通过打开 Office 应用程序检查 Office **帐户，** 导航到 **FileAccount****** > ，然后检查是否有错误消息。  
 
 ### <a name="managing-encrypted-ssds"></a>管理加密的 SSD
 
@@ -115,20 +117,20 @@ ms.locfileid: "12037504"
 如果在传输过程中对 SSD 进行了加密，请按照以下步骤操作：
 
 1. 将包含 BitLocker 恢复密钥的 USB 驱动器插入第二台设备。
-2. 打开.txt Bitlocker 恢复密钥的密钥文件。
+2. 打开.txt Bitlocker 恢复密钥的文件。
 3. 在包含原始 SSD 的新设备上手动输入 BitLocker 恢复密钥。  
-4. 成功输入 BitLocker 恢复密钥后，转到登录选项**** 密码 (由左侧密钥图标表示  >  **** 的密码) 。  
+4. 成功输入 BitLocker 恢复密钥后，转到登录 **选项** > **密码** (由左侧密钥图标表示) 。  
 5. 输入密码并登录，等待双重身份验证 (如果适用) 。
-6. 完全登录后，转到开始****  >  **帐户**  >  **注销**。  
+6. 完全登录后，转到 **StartAccountSign** > **** >  **out**。  
 7. 使用密码重新登录，然后设置Windows Hello并添加 PIN。
-8. 如果设备已禁用 BitLocker 以方便删除和替换 SSD，并且如果你想要在替换后启用 BitLocker，请转到**设置**  >  **BitLocker**  >  **管理 BitLocker**Resume  >  **BitLocker**。  
+8. 如果设备已禁用 BitLocker 以方便删除和替换 SSD，并且如果你想要在替换后启用 BitLocker，请转到 **设置** > **BitLockerManage** >  **BitLockerResume** >  **BitLocker**。  
 9. 运行 **[SDT](surface-diagnostic-toolkit-for-business-intro.md)** 以验证完整的设备功能。  
-10. To check Windows activation， select**设置**  >  **Activation**.  如果看到任何错误消息，请选择"疑难**解答"。**
-11. To check the status of the Office **account，** open the Office App ， then go to **File**  >  **Account** to check for any error messages.
+10. 若要检查激活Windows，请选择"**设置** > **激活"**。  如果看到任何错误消息，请选择"疑难 **解答"**。
+11. To check the status of the Office account， open the **Office App**， then go to **FileAccount** **** >  to check for any error messages.
 
 ## <a name="learn-more"></a>了解详细信息
 
 - [rSSD 删除指南Enterprise](https://www.microsoft.com/download/100440)
 - [BitLocker 恢复指南](/windows/security/information-protection/bitlocker/bitlocker-recovery-guide-plan)
 
-是否仍需要帮助？ 转到[Microsoft Community](https://answers.microsoft.com/)。
+是否仍需要帮助？ 转到 [Microsoft Community](https://answers.microsoft.com/)。

@@ -1,6 +1,6 @@
 ---
-title: 优化 Surface 设备上视频会议
-description: 此页面提供在 Surface 设备上Microsoft Teams会议解决方案和其他视频会议解决方案的最佳实践
+title: 优化 Surface 设备上的视频会议
+description: 此页面提供有关在 Surface 设备上Microsoft Teams会议解决方案和其他视频会议解决方案的最佳方案
 ms.prod: w11
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,14 +12,17 @@ ms.date: 12/10/2021
 ms.reviewer: gusing
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: dd72bf940309fe9f3d7b4bf334a94a557cffe016
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 28ad64b41dedb7d66092cf98388920a732fee737
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338600"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449675"
 ---
-# <a name="optimize-video-conferencing-on-surface-devices"></a>优化 Surface 设备上视频会议
+# <a name="optimize-video-conferencing-on-surface-devices"></a>优化 Surface 设备上的视频会议
 
 Surface 设备利用移动设备能耗的最新进展，提供跨工作负载优化的简化体验。 对于大多数工作负载，这将提供出色的体验。 对于使用 Microsoft Teams或其他视频会议应用程序的一些工作负载，您应该遵循这些建议以确保获得最佳体验。
 
@@ -54,9 +57,9 @@ Microsoft 定期发布 Surface 设备的更新，并发布了多个面向视频�
 
 ### <a name="power-settings-optimizations"></a>电源设置优化
 
-Surface 设备可以通过更改 Windows 性能电源滑块的位置来调整与性能相关的电源Windows 10，也称为Windows 11。
+Surface 设备可以通过更改 Windows 性能电源滑块的位置来调整与性能相关的电源Windows 10，在 Windows 10 中也称为电源Windows 11。
 
-某些 Surface 设备已收到更新，其中包括基于电源滑块位置或电源模式对视频会议工作负载的电源设置优化。 但是，由于Windows 10和Windows 11对视频会议工作负载使用建议电源滑块**** 位置和电源模式位置，因此你需要调整电源滑块以启用这些优化：
+某些 Surface 设备已收到更新，其中包括基于电源滑块位置或电源模式对视频会议工作负载的电源设置优化。 但是，由于Windows 10和Windows 11对视频会议工作负载使用建议电源滑块位置**** 和电源模式位置，因此你需要调整电源滑块以启用这些优化：
 
 1. 连接交流电源 (使用电池电源时，不会运行) 。  
 2. 调整电源滑块或电源模式位置以使用 **更好的性能** 或 **最佳性能。**

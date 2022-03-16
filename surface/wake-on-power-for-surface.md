@@ -20,29 +20,32 @@ ms.topic: article
 manager: laurawi
 ms.audience: itpro
 ms.date: 12/08/2021
-ms.openlocfilehash: e8e4ddbd559fc6aea2d04e61208b911ebef3ec22
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 44508875254d2e3d004afef710b43ada2911de08
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338395"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448655"
 ---
 # <a name="wake-on-power-for-surface-devices"></a>Surface 设备通电唤醒
 
-Surface 设备可以在你离开桌面时关闭电源，或者设置为休眠模式以节省电池使用时间。 为了提高这些设备的可管理性，"电源唤醒"允许兼容的 Surface 设备在重新连接到电源时自动启动。 若要配置电源唤醒，可以通过 Surface UEFI Enterprise或 UEFI 管理器 (SEMM) Surface Enterprise 管理模式。
+Surface 设备可以在你离开桌面时关闭电源，或者设置为休眠模式以节省电池使用时间。 为了提高这些设备的可管理性，"电源唤醒"允许兼容的 Surface 设备在重新连接到电源时自动启动。 若要配置电源唤醒，可以使用 Surface Enterprise管理模式 (SURFACE UEFI) 或 UEFI 管理器配置 SEMM 模式。
 
 电源唤醒功能在下列设备上可用：
 
 - Surface Pro 8 (商业 SKUs) 
-- Surface Pro 7 (商业 SKUs) 
+- Surface Pro 7+ (商业 SKUs) 
 - Surface Pro X (所有 SKUs) 
 - Surface Pro 7 (SKUs) 
 - Surface Go 3 (商业 SKUs) 
 - Surface Laptop Studio (商业 SKUs) 
 - Surface Book 3 (SKUs) 
-- Surface Laptop 4 (商业 SKUS) 
+- Surface Laptop 4 (商业 SKUs) 
 - Surface Laptop 3 (SKUs) 
-- Surface Laptop转到 (所有 SKUS) 
+- Surface Laptop转到 (SKUs) 
 
 
 >[!TIP]

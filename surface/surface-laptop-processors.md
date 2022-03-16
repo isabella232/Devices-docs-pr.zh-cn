@@ -1,6 +1,6 @@
 ---
 title: Surface Laptop 4 个处理器技术概述
-description: 本文重点介绍了第 4 版中的 AMD 和 intel Surface Laptop处理器。
+description: 本文重点介绍了第 4 版中的 AMD 和 Intel Surface Laptop处理器。
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,26 +12,29 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 52b988315951132284c7016752a6817dadbf74c6
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 43619159ff8e429735116c61de23172c63cd900b
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676616"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449365"
 ---
 # <a name="surface-laptop-4-processors-tech-overview"></a>Surface Laptop 4 处理器技术概述
 
-Surface Laptop 4 旨在向商业客户提供一组丰富的设备选项，以帮助决策者更好地将设备采购目标与日益具体的角色要求保持一致。 与 Surface Laptop 3 相比：
+Surface Laptop 4 旨在向商业客户提供一组丰富的设备选项，以帮助决策者更好地将设备采购目标与越来越具体的角色要求保持一致。 与 Surface Laptop 3 相比：
 
-- Surface Laptop配备了 AMD Ryzen 的 ™ Microsoft Surface Edition 处理器提供了出色的多线程性能，因此对于需要更好的多任务功能的信息工作者来说，这是一个很好的选择。
-- Surface Laptop 4 配备第 11 代 Intel® Core™ 处理器可提供更强大的 GPU 和更快的单线程性能，这为开发人员、研究人员、数据工作者等提供了很好的选择，尤其是与在高端 Intel SKU 中提供的更大内存和存储配对时。
+- Surface Laptop AMD Ryzen™ Microsoft Surface Edition 处理器的 Surface Laptop 4 可提供出色的多线程性能，因此对于需要更好的多任务功能的信息工作者来说，这是一个很好的选择。
+- Surface Laptop第 11 代 Intel® Core™ 处理器的 Surface Laptop 4 可提供更强大的 GPU 和更快的单线程性能，这使其成为开发人员、研究人员、数据工作者等的最佳选择，尤其是与在顶级 Intel SKU 中提供的更大内存和存储配对时。
 
 选择 SKU 取决于客户优先级：
 
 - 如果多线程应用性能和较长的电池使用时间是首要任务，Surface Laptop AMD Ryzen Surface Edition 处理器安装 4 是一个不错的选择。
-- 如果单线程性能速度更快，以及用于增加内存和存储的选项，Surface Laptop 4 和 Intel 11 代核心处理器是一个不错的选择。
+- 如果单线程性能的速度更快以及用于增加内存和存储的选项，Surface Laptop 4 和 Intel 11 代核心处理器是一个不错的选择。
 
-若要了解更多信息[，请参阅](https://www.microsoft.com/surface/business/surface-laptop-4)Surface Laptop 4 商用版。
+若要了解更多信息[，请参阅Surface Laptop 4 商用版](https://www.microsoft.com/surface/business/surface-laptop-4)。
 
 ## <a name="processor-tech-specs"></a>处理器技术规格
 
@@ -56,7 +59,7 @@ Surface Laptop 4 旨在向商业客户提供一组丰富的设备选项，以帮
 | 核心                                 | 4                       | 4                       |
 | 线程数                               | 8                       | 8                       |
 | 最大倍数频率                        | 4.40 GHz                | 4.80 GHz                |
-| 缓存                                      | 8 MB Intel 智能缓存  | 12 MB Intel 智能缓存 |
+| 高速缓存                                      | 8 MB Intel 智能缓存  | 12 MB Intel 智能缓存 |
 | 总线速度                                  | 4 GT/s                  | 4 GT/s                  |
 | 最大内存大小  | 16 GB                   | 32 GB                   |
 | 内存类型                               | 版式 4-3200、LPDDR4x-4267 | 版式 4-3200、LPDDR4x-4267 |
@@ -85,14 +88,14 @@ Surface Laptop 4 旨在向商业客户提供一组丰富的设备选项，以帮
 | 默认 TDP/TDP    | 15W               | 15W               |
 | 最大临时数            | 105C              | 105 C             |
 
-有关 4 中 AMD 处理器的一般Surface Laptop，请参阅[Microsoft Surface Laptop 4 Powered by AMD Ryzen Mobile Processors。](https://www.amd.com/processors/ryzen-surface-edition)
+有关 4 中 AMD 处理器的一般Surface Laptop，请参阅 [Microsoft Surface Laptop 4 Powered by AMD Ryzen Mobile Processors](https://www.amd.com/processors/ryzen-surface-edition)。
 
 ## <a name="surface-laptop-4-skus"></a>Surface Laptop 4 个 SUS
 
 | 配置 | 处理器                                                         | GPU                    |
 | ------------- | ----------------------------------------------------------------- | ---------------------- |
-| R5/8/256GB    | 带 Microsoft Surface Edition 的 AMD Ryzen 5 4680U 移动处理器 | 一™ 图形       |
-| i5/8/256GB    | 第 11 代 Intel Core i5 1145G7 处理器                          | Intel Iris® Xe Graphics |
+| R5/8/256GB    | 带 Microsoft Surface Edition 的 AMD Ryzen 5 4680U 移动处理器 | 在图形™       |
+| i5/8/256GB    | 第 11 代 Intel Core i5 1145G7 处理器                          | Intel Iris® Xe 图形 |
 | R5/16/256GB   | 带 Microsoft Surface Edition 的 AMD Ryzen 5 4680U 移动处理器 | 在图形        |
 | i5/8/512GB    | 第 11 代 Intel Core i5 1145G7 处理器                           | Intel Iris Xe 图形 |
 | i5/16/512GB   | 第 11 代 Intel Core i5 1145G7 处理器                           | Intel Iris Xe 图形 |

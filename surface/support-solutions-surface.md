@@ -15,19 +15,22 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 65cd0822f9419d2a2b678c598681891539855c9f
-ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 0308c2e721e441ebb354e6cfb8a22a5a5a26d268
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2021
-ms.locfileid: "11939523"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449445"
 ---
 # <a name="top-support-solutions-for-surface-devices"></a>Surface 设备的顶级支持解决方案
 
 > [!Note]
-> **家庭用户**：本文仅供 IT 专业人员和技术支持代理使用，仅适用于 Surface 设备。 如果你正在查找有关家庭设备问题的帮助，请参阅 [Surface Devices Help](https://support.microsoft.com/products/surface-devices)。
+> **家庭用户**：本文仅供 IT 专业人员和技术支持代理使用，仅适用于 Surface 设备。 如果你正在查找有关家庭设备问题的帮助，请参阅 [Surface Devices 帮助](https://support.microsoft.com/products/surface-devices)。
 
-这些是 Microsoft 支持解决方案，用于解决你可能在企业中使用 Surface 设备时可能会遇到的常见问题。 如果你的问题未在此处列出，请联系 [Surface 支持](contact-surface-support.md?tabs=online)。
+这些是 Microsoft 支持解决方案，用于解决你可能在企业中使用 Surface 设备时可能会遇到的常见问题。 如果此处未列出你的问题，请联系 [Surface 支持](contact-surface-support.md?tabs=online)部门。
 
 ## <a name="surface-drivers-and-firmware"></a>Surface 驱动程序和固件
 
@@ -68,7 +71,7 @@ Microsoft 会定期为 Surface 设备发布更新和解决方案。 若要确保
 
 ## <a name="deployment-issues"></a>部署问题
 
-- [在模型 1796 或 Windows部署Surface Pro DISK0 时Surface Laptop](https://support.microsoft.com/help/4046108)
-- [Surface Pro型号 1796 和 1TB Surface Laptop显示两个驱动器](https://support.microsoft.com/help/4046105)
+- [在模型 1796 或 Windows部署Surface Pro时找不到 DISK0 Surface Laptop](https://support.microsoft.com/help/4046108)
+- [Surface Pro型号 1796 和 Surface Laptop 1TB 显示两个驱动器](https://support.microsoft.com/help/4046105)
 - [系统 SKU 参考](surface-system-sku-reference.md)
 

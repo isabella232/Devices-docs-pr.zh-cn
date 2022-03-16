@@ -1,6 +1,6 @@
 ---
 title: 优化 Surface 设备的 WLAN 连接
-description: 本主题介绍推荐的Wi-Fi设置，以确保 Surface 设备在交通塞塞的网络环境和移动方案中保持连接。
+description: 本主题介绍推荐的Wi-Fi设置，以确保 Surface 设备在网络环境和移动方案中保持连接状态。
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -12,20 +12,23 @@ ms.topic: article
 ms.reviewer: tokatz
 manager: laurawi
 ms.date: 11/30/2021
-ms.openlocfilehash: e031b485979b20d6206398840466d553772b6f1d
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 2f0aaaff212475887c3cf446709947d4e960c353
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338245"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449305"
 ---
-# <a name="optimize-wi-fi-connectivity-on-surface-devices"></a>优化Wi-Fi Surface 设备的连接性
+# <a name="optimize-wi-fi-connectivity-on-surface-devices"></a>优化 Surface 设备上的 Wi-Fi 连接
 
 为了与全天的电池使用时间保持连接，Surface 设备实现了可平衡性能和电源消耗的无线连接设置。 在要求最严格的移动工作负载之外，用户可以保持足够的无线连接，而无需修改默认网络适配器或相关设置。 本页重点介绍使用 Surface 设备的移动方案中的关键无线连接注意事项。
 
-## <a name="prerequisites"></a>必备条件
+## <a name="prerequisites"></a>系统必备
 
-本文档假定你已成功部署支持 802.11n (Wi-Fi 4) 或更高版本的无线网络) 遵循来自领先设备供应商的建议。
+本文档假定你已成功部署支持 802.11n (WI-Fi 4) 或更高版本的无线网络) 遵循来自领先设备供应商的建议。
 
 ## <a name="configuring-access-points-for-optimal-roaming-capabilities"></a>配置访问点以实现最佳漫游功能
 
@@ -45,7 +48,7 @@ ms.locfileid: "12338245"
 在某些情况下，修改内置于 Surface 设备的高级网络适配器设置可能会促进更可靠的连接。 但是，请记住，由于接入点问题、网络设计缺陷或环境站点问题，无法连接到无线资源更为频繁。
 
 > [!TIP]
-> 如何保持你的Surface Pro Surface Go 也会影响信号强度。 如果遇到带宽损失，请检查是否未保持屏幕顶部（无线Wi-Fi的位置）。 尽管保持屏幕顶部不会阻止无线信号，但它可触发设备驱动程序以启动更改，以减少连接。
+> 保持你的Surface Pro Surface Go 也会影响信号强度。 如果遇到带宽损失，请检查是否未保持屏幕顶部（无线Wi-Fi的位置）。 尽管保持屏幕顶部不会阻止无线信号，但它可触发设备驱动程序以启动更改，以减少连接。
 
 ### <a name="keep-default-auto-setting-for-dual-bandwidth-capability"></a>保留双带宽功能的默认自动设置
 
@@ -65,7 +68,7 @@ ms.locfileid: "12338245"
 > [!NOTE]
 > 默认情况下，Surface 设备首选连接到 5 GHz（如果可用）。 但是，Surface 将首先查找 2.4 GHz 连接，以在电池不足时保持电源。
 
-还可以根据需要切换区段设置以适合您的环境。 例如，居住在具有多个 Wi-Fi 热点的高密度单元建筑物的用户（通过 2.4 GHz 广播的所有消费者设备的存在）可能受益于以下操作：将其 Surface 设备设置为仅连接 5 GHz，然后根据需要恢复为自动。
+还可以根据需要切换区段设置以适合您的环境。 例如，居住在具有多个 Wi-Fi 热点的高密度单元大楼的用户（通过 2.4 GHz 广播的消费者设备的存在）可能受益于以下操作：将其 Surface 设备设置为仅连接 5 GHz，然后根据需要恢复为自动。
 
 ### <a name="roaming-aggressiveness-settings-on-surface-devices-with-intel-adapters"></a>使用 Intel 适配器的 Surface 设备上漫游主动性设置
 
@@ -84,9 +87,9 @@ ms.locfileid: "12338245"
 
 ![* 漫游主动性设置-Intel *。](images/wifi-roaming-int.png) <br>
 
-### <a name="roaming-aggressiveness-settings-on-surface-go-and-surface-pro-x"></a>Surface Go 和 X 上的漫游Surface Pro设置
+### <a name="roaming-aggressiveness-settings-on-surface-go-and-surface-pro-x"></a>Surface Go 和 Surface Pro X 上的漫游主动性设置
 
-使用 Surface Go 的前端工作人员可能希望选择一个信号强度阈值，该阈值在信号强度降低时提示设备搜索新的接入点 (漫游攻击) 。 默认情况下，如果信号强度下降至中等信号强度低于中等 (50% 的信号强度，Surface **** 设备将尝试漫游到) 。 请注意，只要增加漫游的主动性，就会加快电池电源消耗。
+使用 Surface Go 的前端工作人员可能希望选择一个信号强度阈值，该阈值在信号强度降低时提示设备搜索新的接入点 (漫游攻击) 。 默认情况下，如果信号强度低于中等信号强度，Surface 设备将尝试漫游到新的接入点 (50% 的信号强度) 。**** 请注意，只要增加漫游的主动性，就会加快电池电源消耗。
 
 除非在特定的移动方案中遇到连接问题（例如，在会议期间维护语音和视频连接，同时执行环境站点检查）时，将漫游主动性设置保留为默认状态。 如果没有注意到任何改进，则还原为默认的"中等 **"** 状态。
 
