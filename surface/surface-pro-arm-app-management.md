@@ -12,20 +12,21 @@ ms.date: 12/01/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: f28f09ec6c1cde859996b054fbbe90a726497a80
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 35cfd848ee8f66981c421a8d0f55f8c3bb379a02
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338565"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449595"
 ---
 # <a name="deploying-managing--servicing-surface-pro-x"></a>部署、管理和维护 Surface Pro X
 
-## <a name="introduction"></a>简介
+。Surface Pro X 集成了同类处理器中最强大的处理器（即 Microsoft SQ1 和 Microsoft SQ1 ARM 芯片组），以满足高性能的商业需求。
 
-Surface Pro X 专为满足高性能商业要求而构建，集成了在同类中功能最强大的处理器（即 Microsoft SQ1 和 Microsoft SQ1 ARM 芯片集），实现了新的突破。
-
-Surface Pro X 由 3 GHz CPU 和 2.1 万亿次浮点运算 GPU 提供支持，可提供完整的 Windows 体验。 其具有 15 小时的电池使用时间、内置千兆 LTE 并兼有触控、手写笔、平板电脑和笔记本电脑功能，非常适合金融、法律和医疗领域的移动一线工作人员和专业人员，或者需要更长的电池使用时间和连续连接能力的任何角色。
+Surface Pro X 由 3 GHz CPU 和 2.1 万亿次浮点运算 GPU 提供支持，可提供完整的 Windows 体验。 其具有 15 小时的电池使用时间、内置千兆 LTE 并兼有触控、手写笔、平板电脑和笔记本电脑功能，非常适合金融、法律和医疗领域的移动一线工作人员和专业人员，或者需要更长的电池使用时间和持续连接功能的职业人员。
 
 Surface Pro X 几乎专为基于云的现代环境而设计，搭配 Microsoft 365、Intune 和 Windows Autopilot 时效果最佳。 本文重点介绍了 Surface Pro X 的外观，并概述了部署、管理和维护 Surface Pro X 的主要注意事项。
 
@@ -36,9 +37,9 @@ Surface Pro X 几乎专为基于云的现代环境而设计，搭配 Microsoft 3
 - [Windows Autopilot 和 Surface 设备](windows-autopilot-and-surface-devices.md)
 - [Windows Autopilot 概述](/windows/deployment/windows-autopilot/windows-autopilot)
 
-Autopilot 部署有几个优点：它允许使用工厂预配的操作系统（针对零接触部署进行了简化），以包括预安装Microsoft 365企业应用（也称为 Office Pro Plus）。
+Autopilot 部署有几个优点：它允许使用工厂预配的操作系统（针对零接触部署进行了简化），并预安装了 [Microsoft 365 企业应用版](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise)。
 
-已经在使用现代管理、安全和工作效率解决方案的组织可充分利用 Surface Pro X 中独特的性能功能。使用现代化业务线应用、Microsoft Store (UWP) 应用或远程桌面解决方案的客户也可从中受益。
+已使用现代管理、安全和工作效率解决方案的组织可很好地利用 Surface Pro X 中独特的性能功能。使用现代化[业务线应用](/microsoft-store/working-with-line-of-business-apps)、[Microsoft Store (UWP) 应用](/windows/uwp/get-started/universal-application-platform-guide)或远程桌面解决方案的客户也可从中受益。
 
 ## <a name="image-based-deployment-considerations"></a>基于映像的部署注意事项
 
@@ -48,13 +49,11 @@ Microsoft Deployment Toolkit (MDT) 和 Microsoft Endpoint Configuration Manager�
 
 ### <a name="intune"></a>Intune
 
-作为 Microsoft 企业移动性 + 安全性的一个组成部分，Intune 与 Azure Active Directory 相集成，可实现身份和访问控制，并提供对已注册 Surface Pro X 设备的精细管理。 与旧的本地工具（如 Windows 组策略）相比，Intune 移动设备管理 (MDM) 策略具有许多优点。 其中包括设备登录时间缩短，策略目录更为简化，因此支持在云端进行全面设备管理。 例如，你可以使用 eSIM 配置文件管理 LTE，以配置流量套餐并将激活代码部署到多台设备。<br> 
-
-有关使用 Intune 的详细信息，请参阅 [Intune 文档](/intune)。
+[Microsoft Intune](/intune) 与 Azure Active Directory 相集成，可实现身份和访问控制，并为已注册 Surface Pro X 设备提供精细管理。 与旧的本地工具（如 Windows 组策略）相比，Intune 移动设备管理 (MDM) 策略设置具有许多优点。 其中包括设备登录时间缩短，策略目录设置更为简化，因此支持在云端进行全面设备管理。 例如，你可以[使用 eSIM 配置文件管理 LTE](/windows/client-management/mdm/esim-enterprise-management)，以配置流量套餐并将激活代码部署到多台设备。
 
 ### <a name="co-management"></a>联合管理
 
-在 Autopilot 中部署 Surface Pro X 设备后，你可以将其加入到 Azure AD 或 Active Directory（混合 Azure AD 联接），通过此服务你将能够使用 Intune 管理设备，或使用 Endpoint Configuration Manager 对设备进行联合管理（将会安装 32 位 x86 ConfigMgr 客户端）。
+在 Autopilot 中部署 Surface Pro X 设备后，你可以将其加入到 Azure AD 或 Active Directory（[混合 Azure AD 联接](/azure/active-directory/devices/concept-azure-ad-join-hybrid)），通过此服务你将能够[使用 Intune 管理设备](/mem/intune/remote-actions/device-management)，或[使用 Endpoint Configuration Manager 对设备进行联合管理](/mem/configmgr/comanage/overview)（将会安装 32 位 x86 ConfigMgr 客户端）。
 
 ### <a name="third-party-mdm-solutions"></a>第三方 MDM 解决方案
 
@@ -62,7 +61,7 @@ Microsoft Deployment Toolkit (MDT) 和 Microsoft Endpoint Configuration Manager�
 
 ### <a name="antivirus-software"></a>防病毒软件
 
-在 Windows 10 设备受支持的生命周期内，Windows Defender 将保护基于 ARM 的电脑上的 Windows 10。 
+在设备受支持的生命周期内，Windows Defender 将保护采用 ARM 电脑上的 Windows 10 和 Windows 11。 
 
 某些第三方防病毒软件无法安装到采用 ARM 处理器的 Windows 10 电脑。 与第三方防病毒软件提供商的协作仍在继续，以确保 AV 应用在基于 ARM 的电脑上的就绪度。 请联系你的防病毒软件提供商，了解其应用何时可用。
 
@@ -70,7 +69,7 @@ Microsoft Deployment Toolkit (MDT) 和 Microsoft Endpoint Configuration Manager�
 
 Surface Pro X 随附 Windows 10 版本 2004 并支持 Windows 10 版本 1903 及更高版本。 作为一台基于 ARM 的设备，它对于保持最新的驱动程序和固件有着特定要求。 
 
-Surface Pro X 可使用 Windows 更新来简化将驱动程序和固件保持最新的过程，这对家庭用户和小型企业用户均适用。 使用默认设置接收自动更新。  如需进行验证，请执行以下步骤：
+Surface Pro X 旨在使用 Windows 更新，以简化家庭用户和小型企业用户驱动程序和固件的更新。 使用默认设置接收自动更新。  如需进行验证，请执行以下步骤：
 
 1. 转到**开始** > **设置 > 更新和安全 > Windows 更新** > **高级选项**。
 2. 在**选择安装更新的方式**下，选择**自动(建议)**。
@@ -89,10 +88,8 @@ Surface Pro X 可使用 Windows 更新来简化将驱动程序和固件保持最
 
 - 大多数 x86 Win32 应用都能在 Surface Pro X 上运行。
 - 本机 ARM64 和 Microsoft Store UWP 应用充分发挥了基于 ARM 的处理器的本机速度，同时优化了电池使用时间，从而提供了出色的用户体验。
-- 使用专为采用 ARM 处理器的 Windows 10 电脑设计的驱动程序的应用。
-
-> [!NOTE]
-> 通过 Windows 预览体验计划即将在预览版中提供 64 位仿真功能，你将能够在 Surface Pro X 上运行 64 位 (x64) 应用程序。
+- 使用专为采用 ARM 处理器的 Windows 10  或 Windows 11 电脑设计的驱动程序的应用。
+- 适用于 Windows 的 x64 仿真现已在 Windows 11 中正式发布。
 
 ### <a name="fasttrack-app-assure"></a>FastTrack 应用保证 
 
@@ -105,19 +102,19 @@ Surface Pro X 可使用 Windows 更新来简化将驱动程序和固件保持最
 
 ## <a name="virtual-desktops-vdi"></a>虚拟桌面 (VDI)
 
-Windows 虚拟桌面允许从任何位置访问 Windows 桌面、应用程序和任何计算设备或平台上的数据。 如需了解详细信息，请参阅 [Windows 虚拟桌面站点](https://aka.ms/wvd)。 
+Azure 虚拟桌面允许从任何位置访问 Windows 桌面、应用程序和任何计算设备或平台上的数据。 如需了解详细信息，请参阅 [Azure 虚拟桌面站点](https://aka.ms/wvd)。 
 
 ## <a name="browsing-with-surface-pro-x"></a>使用 Surface Pro X 浏览
 
 很多热门浏览器在 Surface Pro X 上运行：
 
 - 设备自带的 Edge、Firefox、Chrome 和 Internet Explorer 均可在 Surface Pro X 上运行。
-- 基于 Chromium 的 Firefox 和 Microsoft Edge 均在本机运行，因此在采用 ARM 处理器的 Windows 10 电脑上性能有所增强。
+- 采用 Chromium 的 Firefox 和 Microsoft Edge 在采用 ARM 的 Windows 10 或 Windows 11 电脑本机上运行性能增强。
 
 ## <a name="installing-and-using-microsoft-office"></a>安装和使用 Microsoft Office
 
-- 在采用 ARM 处理器的 Windows 10 电脑上，使用 Office 365 获得出色体验。
-- Office 365“即点即用”安装了 Outlook、Word、Excel 和 PowerPoint，这些程序已进行优化，可在采用 ARM 处理器的 Windows 10 电脑上运行。
+- 在采用 ARM 处理器的 Windows 10 或 Windows 11 的电脑上，使用 Office 365 获得出色体验。
+- Office 365“即点即用”安装了 Outlook、Word、Excel 和 PowerPoint，这些程序已进行优化，可在采用 ARM 处理器的 Windows 10 或 Windows 11 电脑上运行。
 - Microsoft Teams 在 Surface Pro X 上的运行效果出色。
 - 对于 Office 的“永久版本”（例如 Office 2019），请安装 32 位版本。
 
@@ -127,10 +124,10 @@ Windows 虚拟桌面允许从任何位置访问 Windows 桌面、应用程序和
 
 ## <a name="feature-summary"></a>功能摘要
 
-下表展示了所选关键功能在 Surface Pro X（采用基于 ARM 的 Windows 10 系统）上的可用性。
+下表展示了所选关键功能在 Surface Pro X（采用基于 ARM 的 Windows 10 或 Windows 11 系统）上的可用性。
 
 
-**部署**
+### <a name="deployment"></a>部署
 
 | 功能                                                           | 是/否 | 注释                                                                                                                             |
 | ----------------------------------------------------------------- | --- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -143,7 +140,7 @@ Windows 虚拟桌面允许从任何位置访问 Windows 桌面、应用程序和
 
  
  
- **管理**
+### <a name="management"></a>管理
  
 
 | 功能                                       | 是/否     | 注释                                                                                 |
@@ -156,24 +153,21 @@ Windows 虚拟桌面允许从任何位置访问 Windows 桌面、应用程序和
 | 适用于企业的 Surface 诊断工具包 (SDT) | 是     |                                                                                       |
 | Surface 资产标记工具                        | 是     |                                                                                       |
 | Surface 企业管理模式 (SEMM)     | 部分 | 不支持在固件级别禁用 Surface Pro X 上的硬件。                 |
-| Surface UEFI 配置器                     | 否      | 不支持在固件级别 禁用 Surface Pro X 上的硬件。                |
+| Surface UEFI 配置器                     | 否      | 不支持在固件级别禁用 Surface Pro X 上的硬件。                |
 | Surface UEFI 管理器                          | 部分 | 不支持在固件级别禁用 Surface Pro X 上的硬件。                 |
 
  
 
-**安全性**
+### <a name="security"></a>安全性
  
-
- 功能                                       | 是/否     | 注释                                                                                 |
+ 功能                                        | 是/否     | 注释                                                                                 |
 | --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
-| BitLocker                                     | 是     |                                                       |
-| Windows Defender                              | 是     |                                                                                       |
-| 支持第三方防病毒程序             | 查看说明| 某些第三方防病毒软件无法安装到采用 ARM 处理器的 Windows 10 电脑。 与第三方防病毒软件提供商的协作仍在继续，以确保 AV 应用在基于 ARM 的电脑上的就绪度。 请联系你的防病毒软件提供商，了解其应用何时可用。 |
-| 安全启动               | 是     |                                                                                       |
-| Windows 信息保护                      | 是     |                                                                                       |
-| Surface Data Eraser (SDE)     | 是     |                                                                                       |
-
-
+| BitLocker                                     | 是     |                                                                                       |
+| Microsoft Defender                            | 是     |                                                                                       |
+| 支持第三方防病毒程序             | 查看说明| 某些第三方防病毒软件无法安装到采用 ARM 处理器电脑。 请联系你的防病毒软件提供商，了解其应用何时可用。 |
+| 安全启动                                   | 是     |                                                                                       |
+| Windows 信息保护                | 是     |                                                                                       |
+| Surface Data Eraser (SDE)                     | 是     |                                                                                       |
 
 
 ## <a name="faq"></a>常见问题
