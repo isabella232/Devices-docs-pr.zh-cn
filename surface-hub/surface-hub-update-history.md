@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: dpandre
 ms.topic: article
 ms.localizationpriority: high
-ms.openlocfilehash: a5556181b6d7642933bcb10c3073ffddc494015f
-ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.openlocfilehash: 70b052ec9bc87c0062f72e884c17e6be9cdfdbc0
+ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "12449125"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "12472331"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 更新历史记录
 
@@ -31,9 +31,21 @@ Windows 10 旨在提供服务，这意味着可通过定期软件更新自动进
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 协同版 2020 更新 (20H2)
 
 <details>
+<summary>2022 年 3 月 22 日 - 基于 KB5011543 的团队更新*（操作系统内部版本 19042.1620）</summary>
+
+此 Surface Hub 更新包含质量改进和安全修复。 Surface Hub 的关键更新 (尚未在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4581839/windows-10-update-history)中概述) 包含:
+
+* 增加管理员[安装渐进式 Web 应用 ](install-pwa-surface-hub.md)(PWA) 的功能。
+* 解决加入 Azure AD 或使用本地管理员帐户配置的 Surface Hub 可能无法同步其计算机时钟的问题。
+* 解决通过 Authenticator 应用使用会议和文件登录建议可能会强制用户重复登录过程的问题。
+ 
+有关启用/禁用设备功能和服务的信息，请参阅 [Surface Hub 管理员指南](/surface-hub/)。 *[KB5011543](https://support.microsoft.com/help/5011543)
+</details>
+
+<details>
 <summary>2022 年 2 月 15 日 — 基于 KB5010415* (OS 内部版本 19042.1566) 的团队更新</summary>
 
- 此 Surface Hub 更新包含质量改进和安全修复。 [Windows 10 协同版 2020 更新 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2) 中概述了 Surface Hub 的关键更新，还包括以下内容:
+此 Surface Hub 更新包含质量改进和安全修复。 [Windows 10 协同版 2020 更新 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2) 中概述了 Surface Hub 的关键更新，还包括以下内容:
 
 * 修复了允许在设备帐户设置期间禁用 Exchange 服务的修补程序。
 * 提高了使用本地 Exchange 邮箱时某些设备帐户设置方案的可靠性。
@@ -114,7 +126,7 @@ Surface Hub 的这些更新提供 Teams 会议室客户端、Teams 管理中心�
 
 * 更新到“收集日志”以 csv 格式包含 Windows 诊断数据的功能。
 * 修复以确保结束会话清理完全删除与 Edge Chromium 相关的所有数据。
-* 在使用 Authenticator 应用时，通过 Azure AD 联接的 Surface Hub 改进了某些方案。
+* 改进在使用 Authenticator 应用时加入 Azure AD 的 Surface Hub 的一些个人登录方案。
 
 有关启用/禁用设备功能和服务的信息，请参阅 [Surface Hub 管理员指南](/surface-hub/)。 *[KB5004296](https://support.microsoft.com/help/5004296)
 </details>
@@ -161,7 +173,7 @@ Surface Hub 的这些更新提供 Teams 会议室客户端、Teams 管理中心�
 此 Surface Hub 更新包含质量改进和安全修复。 Surface Hub 的关键更新 (尚未在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4581839/windows-10-update-history)中概述) 包含:
 
 * 当设备帐户的 UPN 不等于其 SMTP 时，允许与 Exchange 的日历同步的修补程序。
-* 增加了管理员在与 Exchange 同步日历期间禁用新式身份验证的功能。
+* 增加管理员在与 Exchange 同步日历期间[禁用新式验证](/windows/client-management/mdm/surfacehub-csp#deviceaccount-exchangemodernauthenabled)的功能。
 * 确保在启用“使用设备帐户凭据”功能后，不会提示 Surface Hub 用户输入代理凭据。
 * 解决了在使用需要身份验证的代理时，Windows 更新和存储更新检查永远不会完成的问题。
 * 在有线引入方案期间提高连接应用的可靠性。
