@@ -19,6 +19,8 @@
           href: 'https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d'
         - name: 一般数据隐私法规与 Surface Hub
           href: general-data-privacy-regulation-and-surface-hub.md
+        - name: 安装和管理 Surface Hub 2 智能摄像头
+          href: surface-hub-2-smart-camera.md
     - name: 规划
       items:
         - name: Surface Hub 2S 站点准备指南
@@ -61,6 +63,8 @@
               href: apply-activesync-policies-for-surface-hub-device-accounts.md
         - name: 创建 Surface Hub 的预配程序包
           href: provisioning-packages-for-surface-hub.md
+        - name: 在 Surface Hub 上安装渐进式 Web 应用
+          href: install-pwa-surface-hub.md
         - name: Windows 10 专业版/企业版
           items:
             - name: 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版

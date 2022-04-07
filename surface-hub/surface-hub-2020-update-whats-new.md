@@ -1,6 +1,6 @@
 ---
-title: Windows 10 协同版 2020 更新中的新增功能
-description: 请查看 2020 年 10 月Surface Hub更新中的新增功能Windows 10 协同版更新。
+title: 2020 Windows 10 协同版更新中的新增功能
+description: 查看 Surface Hub 操作系统的最新更新（Windows 10 协同版 2020 年更新）中的新增功能。
 keywords: 值之间以逗号分隔
 ms.prod: surface-hub
 ms.sitesec: library
@@ -11,64 +11,72 @@ audience: Admin
 ms.topic: article
 ms.date: 02/15/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: c44ec68a39158910c841375aeda0a6d6bf11635f
-ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.openlocfilehash: 6a35783c08fdc4da3b3c7aabcd99da385c292d24
+ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "12448265"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "12472531"
 ---
-# <a name="whats-new-in-windows-10-team-2020-updates"></a>Windows 10 协同版 2020 更新中的新增功能
+# <a name="whats-new-in-windows-10-team-2020-updates"></a>2020 Windows 10 协同版更新中的新增功能
 
-Surface Hub提供新特性和功能的定期更新。 2020 update (20H2) to Windows 10 协同版，以及随后更新 1 & Update 2，对设备部署和可管理性以及最新的 Windows 10 功能进行了重大改进。
+Surface Hub从提供新功能的定期更新中获益。 2020 年更新 (20H2) Windows 10 协同版，随后更新 1 & Update 2，对设备部署和可管理性以及最新的Windows 10功能进行了重大改进。
 
-## <a name="windows-10-team-2020-update-2"></a>Windows 10 协同版 2020 Update 2 
+## <a name="windows-10-team-2020-update-2"></a>Windows 10 协同版 2020 年更新 2 
 
 ### <a name="gcc-high-support"></a>GCC高支持
 
-在安装此更新 ([KB5010415](https://support.microsoft.com/help/5010415) 或后续 Windows CU) 后，Surface Hub 在 GCC 高环境中受支持。 目前，[需要执行其他](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h)步骤，Teams 会议室客户端才能成功连接到GCC租户。
+安装此更新 ([KB5010415](https://support.microsoft.com/help/5010415) 或后续Windows CU) 后，GCC高环境支持 Surface Hub。 目前，Teams 会议室客户端需要[执行其他步骤](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h)才能成功连接到GCC高租户。
 
-### <a name="ease-of-access-updates"></a>轻松使用更新
+### <a name="support-for-surface-hub-2-smart-camera"></a>支持 Surface Hub 2 智能相机
 
-用户可以在 Surface Hub 会话期间调整"轻松使用"设置，并关闭应用，就像在 Windows 10 的其他版本中一样。 
+AI 支持的 Surface Hub 2 智能相机针对混合团队进行了优化，允许远程参与者查看用户与Surface Hub上的内容交互，同时查看会议室中的其他人。  若要了解详细信息，请参阅[安装和管理 Surface Hub 2 智能相机](surface-hub-2-smart-camera.md)。 
 
-- **轻松使用**。 用户无需登录即可调整以下设置：显示、文本光标、放大镜、高对比度、讲述人、隐藏式字幕和键盘。 
-- **熟悉的应用 UI**。 用户可以通过选择Surface Hub右上角的"关闭"按钮关闭应用。 这样一来，无需通过将其拖动到屏幕底部来关闭Surface Hub应用。  (注意：此功能将在边缘浏览器上作为下一个边缘更新的一部分（计划于 2022 年 3 月进行）提供)  
+### <a name="support-for-progressive-web-apps-pwas"></a>支持渐进式Web 应用 (PVA) 
 
-若要了解更多信息，请参阅"调整"["轻松使用"Surface Hub](accessibility-surface-hub.md)。
+管理员可以使用移动设备管理提供程序在 Surface Hub 上远程安装 PVA， (MDM) 应用预配包。 若要了解详细信息，请参阅[在Surface Hub上安装渐进式Web 应用](install-pwa-surface-hub.md)。 
+
+### <a name="ease-of-access-updates"></a>轻松访问更新
+
+用户可以在Surface Hub会话期间调整轻松访问设置，并关闭应用，就像在其他版本的Windows 10中一样。 
+
+- **易于访问**。 用户无需登录即可调整以下设置：显示、文本光标、放大镜、高对比度、讲述人、隐藏字幕和键盘。 
+- **熟悉的应用 UI**。 用户可以通过选择应用右上角的"关闭"按钮来关闭Surface Hub上的应用。 这将通过将应用拖到Surface Hub显示器底部来消除关闭应用的需要。  (注意：作为定于 2022 年 3 月举行的下一次 Edge 更新的一部分，此功能将在 Edge 浏览器上提供)  
+
+若要了解详细信息，请参阅[Surface Hub上的"调整轻松访问"设置](accessibility-surface-hub.md)。
 
 ### <a name="administrator-updates"></a>管理员更新
 
-- **事件查看器**。 管理员可以直接从 Windows 应用访问 设置 事件查看器。 
-- **MDM 的新移动设备管理 (MDM) 策略设置**。 新配置服务提供程序 (SP) 包括：
+- **事件查看器**。 管理员可以直接从设置应用访问Windows 事件查看器。 
+- **新的移动设备管理 (MDM) 策略设置**。 新的配置服务提供商 (CSP) 包括：
 
   - [TimeLanguageSettings-CSP](/windows/client-management/mdm/policy-csp-timelanguagesettings)
   - [LocalUsersAndGroups-CSP](/windows/client-management/mdm/policy-csp-localusersandgroups) 
 
-若要了解更多信息，请参阅配置[非全局管理员帐户Surface Hub](surface-hub-2s-nonglobal-admin.md)。
+若要了解详细信息，请参阅在[Surface Hub上配置非全局管理员帐户](surface-hub-2s-nonglobal-admin.md)。
 
 
-## <a name="windows-10-team-2020-update-1"></a>Windows 10 协同版 2020 Update 1
+## <a name="windows-10-team-2020-update-1"></a>Windows 10 协同版 2020 年更新 1
 
-### <a name="support-for-new-teams-rooms-application"></a>支持新的 Teams 会议室 应用程序
+### <a name="support-for-new-teams-rooms-application"></a>对新Teams 会议室应用程序的支持
 
-在安装此更新 ([KB5005101](https://support.microsoft.com/help/5005101) 或后续 Windows CU) 后，Surface Hub 支持通过 Windows Update 自动升级到新的 [Teams 会议室](surface-hub-teams-rooms.md) 客户端。
+安装此更新 ([KB5005101](https://support.microsoft.com/help/5005101) 或后续Windows CU) 后，Surface Hub 支持通过Windows 更新自动升级到新[Teams 会议室客户端](surface-hub-teams-rooms.md)。
 
-### <a name="support-for-new-whiteboard-application"></a>支持新的白板应用程序
+### <a name="support-for-new-whiteboard-application"></a>支持新的 Whiteboard 应用程序
 
-安装此更新后，Surface Hub 支持自动 (更新) 新白板应用[时自动Microsoft Store](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/unified-whiteboard-experience-coming-to-surface-hub/ba-p/3145226)升级。
+安装此更新后，Surface Hub 支持在通过Microsoft Store更新) 到新的 [Whiteboard 应用](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/unified-whiteboard-experience-coming-to-surface-hub/ba-p/3145226)时自动升级 (。
 
-### <a name="new-microsoft-edge-browser-installed-by-default"></a>默认情况下Microsoft Edge新浏览器
+### <a name="new-microsoft-edge-browser-installed-by-default"></a>默认情况下安装的新Microsoft Edge浏览器
 
-安装此更新后，Surface Hub 将自动将其Microsoft Edge 旧版替换为新的基于 Chromium 的边缘浏览器。  若要了解更多信息，请参阅管理[Microsoft Edge Surface Hub](surface-hub-install-chromium-edge.md)。 在安装此更新或后续 Windows 10 协同版 CU 后，Edge Legacy 不再Windows上。
+安装此更新后，Surface Hub 会自动将其Microsoft Edge 旧版浏览器替换为新的基于 Chromium 的 Edge 浏览器。  若要了解详细信息，请参阅[Surface Hub上的管理Microsoft Edge](surface-hub-install-chromium-edge.md)。 安装此更新或后续Windows CU 后，Windows 10 协同版上不再提供 Edge Legacy。
 
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 协同版 2020 更新 (20H2)
 
 ### <a name="deployment-and-manageability"></a>部署和可管理性
 
-- **云设备帐户的新式验证**。 Surface Hub支持 Exchange Web 服务 (EWS) 和基于 ADAL (ADAL) 的身份验证连接到 Exchange，从而允许客户弃用基本身份验证。 若要了解更多信息，请参阅新式[验证Surface Hub](surface-hub-modern-auth.md)。
-- **超过 20 个新的和更新的 MDM 策略设置**。  这些策略设置使 IT 管理员改进了对多个设备设置的控制，包括来自 Microsoft Store 的应用更新、基于基础结构的 Miracast 等无线投影设置、网络设置（如服务质量和 802.1x 有线身份验证）以及新的隐私/GDPR 相关设置。 新的 CSP 包括：
+- **云设备帐户的新式身份验证**。 Surface Hub支持Exchange Web 服务 (EWS) 和 Active Directory 身份验证库 (基于 ADAL) 的身份验证来连接到Exchange，从而允许客户弃用基本身份验证。 若要了解详细信息，请参阅[有关Surface Hub的新式身份验证](surface-hub-modern-auth.md)。
+- **20 多个新的和更新的 MDM 策略设置**。  这些策略设置使 IT 管理员可以改进对多个设备设置的控制，包括来自Microsoft Store的应用更新、无线投影设置，例如基础结构上的Miracast、网络设置（如服务质量和 802.1x 有线身份验证）以及新的隐私/GDPR 相关设置。 新的 CSP 包括：
 
   - [帐户云解决方案提供商](/windows/client-management/mdm/accounts-csp)
   - [Firewall-CSP](/windows/client-management/mdm/firewall-csp)
@@ -78,36 +86,36 @@ Surface Hub提供新特性和功能的定期更新。 2020 update (20H2) to Wind
 
 若要了解更多，请参阅：
 
-- [支持 CSP Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
+- [Microsoft Surface Hub支持 CSP](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
 - [通过 MDM 提供商管理 Surface Hub](manage-settings-with-mdm-for-surface-hub.md)
 
-### <a name="azure-active-directory-joined-devices"></a>Azure Active Directory已加入的设备
+### <a name="azure-active-directory-joined-devices"></a>Azure Active Directory联接设备
 
-- **对于已加入 () 设备Azure AD单一登录。** 当用户使用其 Microsoft 365 凭据登录"我的会议"时，**** 他们的凭据将无缝地从应用流到应用，Microsoft 365浏览器中的体验。
-- **已加入 (设备) CA Azure AD条件访问**。 IT 管理员可以控制用户从已加入的 Surface Hub Azure AD访问组织资源，按照其公司安全性和合规性要求分配设备策略。
-- **对已加入设备的非Azure AD的支持**。 客户可以选择其管理员层次结构中更精细的一组管理员来管理Surface Hub。 若要了解更多信息，请参阅配置[非全局管理员帐户Surface Hub](surface-hub-2s-nonglobal-admin.md)。
+- **已加入Azure AD设备的单一登录 (SSO) **。 当用户使用其Microsoft 365凭据登录到 **"我的会议和文件**"时，他们的凭据将无缝地从应用流向应用，包括浏览器中的Microsoft 365体验。
+- **已加入Azure AD设备的条件访问 (CA) **。 IT 管理员可以通过根据其公司安全性和合规性要求分配设备策略，控制用户从Azure AD加入 Surface Hub 对组织资源的访问。
+- **支持加入Azure AD设备的非全局管理员**。 客户可在其管理员层次结构中选择更精细的管理员集来管理Surface Hub。 若要了解详细信息，请参阅在[Surface Hub上配置非全局管理员帐户](surface-hub-2s-nonglobal-admin.md)。
 
-### <a name="inking-improvements"></a>墨迹书写改进
+### <a name="inking-improvements"></a>墨迹墨迹改进
 
-- **在 2S 上支持双笔Surface Hub墨迹**书写。  使用白板并使用两个 2 个笔在 Surface Hub 2S 上Surface Hub协作。 升级到 Windows 10 协同版 2020 后安装的任何系统硬件更新都将添加对此方案的固件支持。
+- **支持在 Surface Hub 2S 上使用双笔墨迹**。  使用白板，在具有两Surface Hub 2 笔的 Surface Hub 2S 上并排协作。 升级到 Windows 10 协同版 2020 后安装的任何系统硬件更新都将为此方案添加固件支持。
 
 ### <a name="microsoft-teams"></a>Microsoft Teams  
 
-- **Microsoft Teams安装。** Microsoft Teams作为默认应用包含在新的 Surface Hub 设备上用于会议、通话和协作，可通过 MDM 更改或配置这些应用，也可使用 设置 应用直接在 Surface Hub 上进行更改或配置。 若要了解更多信息，请参阅部署[Microsoft Teams](/MicrosoftTeams/teams-surface-hub)。
-- **支持使用邻近感应Microsoft Teams**。  Proximity Join 允许用户使用笔记本电脑或Microsoft Teams附近电话Surface Hub安排的呼叫。  它还允许用户将进行中的会议转换为附近的Surface Hub。 Windows 10 协同版 2020 更新添加了移动设备管理 (MDM) 配置邻近感应联接的支持。 若要了解更多，请参阅：
+- **默认情况下安装Microsoft Teams**。 Microsoft Teams是用于新Surface Hub设备上的会议、呼叫和协作的默认应用，可通过 MDM 更改或配置，也可以使用设置应用直接在Surface Hub上进行配置。 若要了解详细信息，请参阅["部署Microsoft Teams](/MicrosoftTeams/teams-surface-hub)。
+- **支持使用 Microsoft Teams 的邻近加入**。  邻近加入允许用户使用笔记本电脑或手机在附近的Surface Hub进行计划的Microsoft Teams呼叫。  它还允许用户将正在进行的会议转换为附近的Surface Hub。 Windows 10 协同版 2020 更新添加了移动设备管理 (MDM) 支持来配置邻近加入。 若要了解更多，请参阅：
 
   - [Microsoft Teams博客](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833)。
   - [在 Surface Hub 上管理 Microsoft Teams 设置](/MicrosoftTeams/rooms/surface-hub-manage-config)
 
-- **支持与会议协调Microsoft Teams**。 在具有 Surface Hub 和 Microsoft Teams Room 设备的会议室，或具有两个 Surface Hub 设备的会议室中，协调会议使用户能够在 Microsoft Teams 会议期间快速利用这两台设备。 用户可以通过一次点击从任一设备加入会议，并且可以通过在一台设备上显示视频源和另一台设备上的数字白板或内容来最大化屏幕空间。 Windows 10 协同版 2020 更新添加了移动设备管理 (MDM) 支持以配置协调会议，随后该功能将作为 Microsoft Teams 更新通过 Microsoft Store 发布。 若要了解更多信息，请参阅使用会议和[会议Microsoft Teams 会议室Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings)。
+- **支持与Microsoft Teams协调会议**。 在具有Surface Hub和Microsoft Teams会议室设备的会议室或具有两个Surface Hub设备的空间中，协调会议可让用户在Microsoft Teams会议期间快速利用这两个设备。 用户可以通过单击一次点击从任一设备加入会议，并通过在一台设备上显示视频源和数字白板或另一台设备上的内容来最大化屏幕空间。 Windows 10 协同版 2020 更新添加了移动设备管理 (MDM) 支持来配置协调会议，该功能随后将作为Microsoft Teams更新通过Microsoft Store发布。 若要了解详细信息，请参阅[使用Microsoft Teams 会议室和Surface Hub设置协调会议](/MicrosoftTeams/rooms/coordinated-meetings)。
 
 ### <a name="security"></a>安全性
 
-- **使用 FIDO2 安全密钥进行无密码登录**使用 FIDO2 安全密钥，用户可以快速登录Surface Hub而无需键入用户名和密码。 与 Single Sign-On (SSO) 结合使用，此功能在会议期间提供对文件、应用和网站的快速无缝身份验证。 若要了解更多信息，请参阅在登录[时配置无密码Surface Hub](surface-hub-2s-phone-authenticate.md)。
-- **改进了使用无密码登录Microsoft Authenticator**。  对于使用 Azure AD，用户可以使用 Microsoft Authenticator 应用登录。 此外，用户可以使用他们的首选电子邮件别名登录Azure AD用户主体名称 (UPN) 。 若要了解更多信息，请参阅[使用Surface Hub登录Microsoft Authenticator](surface-hub-authenticator-app.md)。
+- **使用 FIDO2 安全密钥进行无密码登录**使用 FIDO2 安全密钥，用户可以快速登录到Surface Hub，而无需键入用户名和密码。 结合单Sign-On (SSO) ，此功能在会议期间为文件、应用和网站提供快速、无缝的身份验证。 若要了解详细信息，请参阅Surface Hub[配置无密码登录](surface-hub-2s-phone-authenticate.md)。
+- **使用Microsoft Authenticator改进无密码登录**。  对于使用Azure AD的组织，用户可以使用Microsoft Authenticator应用登录。 此外，用户可以使用其首选电子邮件别名登录Azure AD或用户主体名称 (UPN) 。 若要了解详细信息，请[参阅使用Microsoft Authenticator登录Surface Hub](surface-hub-authenticator-app.md)。
 
 ## <a name="learn-more"></a>了解详细信息
 
-- [Windows 10 协同版 Surface Hub 发布的 2020 更新 1](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503)
-- [Windows 10 协同版 2020 年 10 月 27 日提供更新](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-available-october-27/ba-p/1810739)
+- [Windows 10 协同版发布到所有 Surface Hub 的 2020 年更新 1](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503)
+- [Windows 10 协同版 2020 年 10 月 27 日可用的更新](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-available-october-27/ba-p/1810739)
 - [安装 Windows 10 协同版 2020 更新](surface-hub-2020-update.md)
