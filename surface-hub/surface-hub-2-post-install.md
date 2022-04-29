@@ -1,7 +1,7 @@
 ---
-title: 在 Windows 10 2 Windows 11 专业版/Enterprise配置 Surface Hub 或 Surface Hub
-description: 本文包含一些建议，以确保在使用个性化大屏幕触摸和笔计算机时获得最佳体验。
-keywords: Surface Hub， Windows 10， 桌面， 安装， 配置
+title: 在 Surface Hub 2 上配置Windows 10/11 Pro或Enterprise
+description: 本文包含一些建议，以确保在使用个性化的大屏幕触摸和笔计算机时获得最佳体验。
+keywords: Surface Hub、Windows 10、桌面、安装、配置
 ms.prod: surface-hub
 ms.mktglfcycl: deploy
 ms.localizationpriority: low
@@ -19,212 +19,212 @@ appliesto:
 - Surface Hub 2S
 - Windows 10
 - Windows 11
-ms.openlocfilehash: 0c43e2c5977321cc2153f468bea7b5f65aa00a51
-ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.openlocfilehash: 2b645ef580eda85a91bf282c8772c42c09cbb67d
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "12448505"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497765"
 ---
-# <a name="configure-windows-10-or-windows-11-proenterprise-on-surface-hub-2"></a>在 Windows 10 2 Windows 11 专业版/Enterprise配置 Surface Hub 或 Surface Hub
+# <a name="configure-windows-1011-pro-or-enterprise-on-surface-hub-2"></a>在 Surface Hub 2 上配置Windows 10/11 Pro或Enterprise
 
-迁移到 Windows 10 或 Windows 11 专业版/Enterprise 后，你可以配置应用和设置以确保使用此个性化的大屏幕触摸和笔计算机获得最佳体验。
+迁移到 Windows 10/11 Pro或Enterprise后，可以配置应用和设置，以确保使用这种个性化的大屏幕触摸和笔计算机的最佳体验。
 
-执行这些步骤时，你可能会发现使用有线或无线键盘和鼠标很有用。
+执行这些步骤时，你可能会发现使用有线键盘或无线键盘和鼠标会很有帮助。
 
 ## <a name="configure-system-settings"></a>配置系统设置
 
-1. 使用在设备上具有本地管理员权限的帐户登录。  
+1. 使用设备上具有本地管理员权限的帐户登录。  
 
-    - 在已加入Azure AD设备上Azure AD用户会自动添加到本地管理员组。  Azure AD全局管理员和Azure AD管理员<a href="/azure/active-directory/devices/assign-local-admin" target="_blank">也是本地管理员</a>。 
+    - 在已加入Azure AD设备上执行Azure AD联接的用户会自动添加到本地管理员组。  Azure AD全局管理员和Azure AD设备管理员<a href="/azure/active-directory/devices/assign-local-admin" target="_blank">也是本地管理员</a>。 
 
-    - 您可以在命令 **提示符下键入 net localgroup administrators** ，以列出具有本地管理员权限的帐户。
+    - 可以在命令提示符下键入 **净本地组管理员** ，以列出具有本地管理员权限的帐户。
     
 2. 使用友好名称重命名设备，例如 **username-SHub-Desktop**。
 
-3. 选择**开始** > **设置** > **帐户** > **同步设置并**关闭**同步**设置。 
+3. 选择 **“开始** > **设置** > **”设置“并** > 关闭 **”同步“设置**。**** 
 
-    - 此处使用的设置旨在实现最佳的大屏幕触摸体验，因此你可能不希望同步其他设备。
+    - 此处使用的设置旨在实现最佳的大屏幕触摸体验，因此你可能不想同步其他设备。
     
 4. 重启设备。
 
 ## <a name="enable-the-touch-keyboard-and-touchpad"></a>启用触摸键盘和触摸板
 
-1. 选择 **"** > **开始** > 设置**DevicesTyping** > ，然后打开"在平板电脑模式下未连接键盘时显示触摸**键盘"**。****
+1. 选择 **“开始** > **设置** > **DevicesTyping** > ，**在不处于平板电脑模式且没有附加键盘的情况下打开”显示触摸键盘**”。****
 
-2. 点击并按住或右键单击任务栏，然后选择" **显示触摸键盘"按钮** 和" **显示触摸板"按钮**。 
+2. 点击并按住或右键单击任务栏，然后选择 **“显示触摸键盘”按钮** 和 **“显示触摸板”按钮**。 
 
-    - 触摸键盘有助于直接用户输入，虚拟触摸板有助于精确选择、悬停屏幕提示，或作为点击并按住右键单击的替代方法。 
+    - 触摸键盘有助于直接用户输入，虚拟触摸板有助于精确选择、将屏幕提示悬停在一起，或者作为右键点击和按住的替代方法。 
     
     - 请参阅以下示例。
 
       ![触摸设置。](images/touch.png)
 
-3. 将触摸键盘配置为 QWERTY 和浮动。
+3. 将触摸键盘配置为 QWERTY 并浮动。
 
-    1. 选择 **任务栏** 上的键盘图标以显示触摸键盘。
+    1. 选择任务栏上的 **键盘** 图标以显示触摸键盘。
     
     1. 在触摸键盘上，选择左上角的键盘图标以打开键盘设置。
     
-    1. 选择最上面一行上最后一个键盘类型的旁边，以启用 QWERTY，选择第二行的最后一个选项以启用浮动，这在此大屏幕上很有用。 请参阅以下示例。
+    1. 选择顶部行上最后一个键盘类型以启用 QWERTY，并选择第二行上的最后一个选项以启用浮动，这在此大屏幕上很有用。 请参阅以下示例。
 
        ![键盘设置。](images/kbd.png)
  
 4. 配置软键盘设置。
 
-    1. Select the **设置** icon on the touch keyboard or search for and open **Typing settings**.
+    1. 在触摸键盘上选择**设置**图标，或搜索并打开**键入设置**。
     
        ![软键盘设置。](images/sh2-softkeyboard.png)
 
-    1. 启用拼写、键入和触摸键盘下的所有选项。
+    1. 在拼写、键入和触摸键盘下启用所有选项。
 
 
-以下示例显示跟踪板，它可用于导航和选择选项。 屏幕键盘用于搜索Microsoft Store：
+下面的示例演示了用于导航和选择选项的触控板。 屏幕键盘用于搜索Microsoft Store：
 
 ![使用触控板。](images/store.png)
 
 ## <a name="configure-bluetooth-keyboard-and-mouse-optional"></a>配置蓝牙键盘和鼠标 (可选) 
 
-连接设备作为主要设备，或者你经常Windows键入或精确工作，请使用键盘和鼠标。
+如果将设备用作主Windows设备，或者经常将其用于键入或精确工作，则连接键盘和鼠标。
 
-如果你Surface Hub靠近电脑<a href="https://aka.ms/mm" target="_blank"></a>，可以使用不带边框的鼠标在电脑和Surface Hub无缝移动。 有关详细信息，请参阅 Microsoft 从 <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Garage 下载：没有边框的鼠标。 </a>
+如果Surface Hub设备靠近电脑，则可以使用<a href="https://aka.ms/mm" target="_blank">无边框</a>鼠标在Surface Hub和电脑之间无缝移动。 有关详细信息，请参阅 <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Microsoft 从“车库：无边框鼠标”下载。 </a>
 
 ## <a name="example-of-taskbar-layout"></a>任务栏布局示例
 
-完成以下步骤以设置/配置 Windows 10 或 Windows 11 专业版/Enterprise 的 Surface Hub 2 后，我们建议你利用将最常用的应用程序固定到任务栏，以便快速启动每个应用程序的一键式应用。 下面是任务栏外观的示例：
+完成以下步骤，为Windows 10/11 Pro或Enterprise设置/配置Surface Hub 2 后，建议使用将最常用的应用程序固定到 Taskbar，以便快速启动每个应用程序。 下面是任务栏的外观示例：
 
  ![任务栏布局。](images/taskblyt.png)
 ### <a name="update-installed-apps"></a>更新已安装的应用
 
-更新所有已安装的应用商店应用：
+若要更新所有已安装的应用商店应用，请执行以下操作：
 
-1. 打开Microsoft Store应用，然后选择右上角的"查看更多**** 省略号"。
-2. 选择 **下载和更新。**
-3. 选择 **"获取更新"**
+1. 打开Microsoft Store应用，然后选择右上角的 **“查看更多**省略号”。
+2. 选择 **“下载”和“更新”。**
+3. 选择 **“获取更新”**
 
-### <a name="scan-for-and-install-all-windows-updates"></a>扫描并安装所有 Windows 更新
+### <a name="scan-for-and-install-all-windows-updates"></a>扫描并安装所有Windows更新
 
-迁移后，可能有服务更新和功能更新可供你安装。 
+迁移后，可能会有服务和功能更新可供你安装。 
 
-- Go to **设置** > **Update & Security** > and select **Check for updates**.
-- 如果存在任何更新，请安装它们，重新启动，然后重复此过程，直到看到以下通知：
+- 转到 **设置** > **Update &安全**>，然后选择 **“检查更新**”。
+- 如果有任何更新，请安装它们，重新启动，然后重复此过程，直到看到以下通知：
 
 > [!div class="mx-imgBorder"]
-> ![Windows更新"你最新的"通知。](images/wustatus.png)
+> ![Windows 更新“你是最新的”通知。](images/wustatus.png)
 
 
 ## <a name="onedrive-for-business"></a>OneDrive for Business
 
-使用<a href="/onedrive/onedrive" target="_blank">OneDrive for Business</a>，在所有工作设备之间轻松共享工具、日志和其他文件。
+使用<a href="/onedrive/onedrive" target="_blank">OneDrive for Business</a>在所有工作设备之间轻松共享工具、日志和其他文件。
 
-- OneDrive允许你在笔记本电脑、桌面Surface Hub和 Intune 托管的移动设备之间共享你的工作文件。 可以在任何设备上编辑文件，并且所有网络连接的设备都将随更改一起更新。
+- OneDrive使你可以在笔记本电脑、Surface Hub桌面和Intune托管的移动设备之间共享工作文件。 可以在任何设备上编辑文件，并且所有已连接网络的设备都将随更改一起更新。
 
-- 考虑 Surface Hub SSD (128GB) 的大小，如果在 Surface Hub 桌面设备上配置 OneDrive，请确保默认配置是使文件保持联机并下载使用时的文件。
+- 考虑到 Surface Hub SSD (128GB) 的大小，如果在Surface Hub桌面设备上配置OneDrive，请确保默认配置是使文件保持联机状态，并在使用文件时下载文件。
 
-若要将OneDrive配置为仅根据需要下载文件，请设置"文件按需****"设置以节省空间，并下载**使用时的文件**。 有关详细信息，请参阅 Query <a href="/onedrive/files-on-demand-windows" target="_blank"> and set Files On-Demand states in Windows</a>。
+若要将OneDrive配置为仅在需要时下载文件，请将 **“按需文件**”设置设置设置为 **“节省空间”，并在使用文件时下载文件**。 有关详细信息，请参阅<a href="/onedrive/files-on-demand-windows" target="_blank">查询并在Windows</a>中设置文件按需状态。
 
 ![OneDrive设置。](images/onedrive.png)
 
 > [!NOTE]
-> 还可以重复这些步骤来配置个人OneDrive但请确保节省驱动器空间，并仅根据需要下载文件。
+> 还可以重复这些步骤来配置个人OneDrive但请务必节省驱动器空间，并且仅根据需要下载文件。
 
-## <a name="sharepoint-and-teams"></a>SharePoint 和 Teams
+## <a name="sharepoint-and-teams"></a>SharePoint和Teams
 
-SharePoint和 Teams Channel 文件还可使用 OneDrive 同步 引擎本地同步到桌面设备，如笔记本电脑和 Surface Hub。
+SharePoint和Teams通道文件还可以使用OneDrive 同步引擎在本地同步到桌面设备，如笔记本电脑和 Surface Hub。
 
-若要使用应用程序将内部公司文件同步到本地OneDrive 同步驱动器：
+若要将内部公司文件同步到本地驱动器，请使用OneDrive 同步应用：
 
-1. 转到SharePoint网站，并导航到顶级文档目录，找到您有兴趣从本地设备查看或编辑的文件。
+1. 转到SharePoint站点，导航到要从本地设备查看或编辑的文件的顶级文档目录。
 
-2. 在功能**区**顶部的"同步"按钮SharePoint选择。
+2. 在SharePoint功能区顶部的 **“同步**”按钮上选择。
 
-3. 选择**弹出窗口上的**"打开"**此网站正在尝试打开Microsoft OneDrive**。
+3. 在弹出窗口的 **“打开**”上选择**此网站正在尝试打开Microsoft OneDrive**。
 
-4. 通过选择SharePoint右下角的"OneDrive图标，验证文件是否正在同步到本地驱动器。
+4. 通过选择任务栏右下角的OneDrive图标，验证SharePoint文件是否正在同步到本地驱动器。
 
-5. 验证配置是否设置为使文件保持联机，并仅在使用文件时下载这些文件：
+5. 验证配置是否设置为使文件保持联机状态，并仅在使用文件时下载文件：
 
     1. 打开文件资源管理器。
     
-    2. 导航到 并右键单击SharePoint名称;例如 **，Contoso \ \<SharePoint Document Folder Name\>**。
+    2. 导航到并右键单击SharePoint名称;例如 **Contoso \ \<SharePoint Document Folder Name\>**。
     
-    3. 选择 **"释放空间"**。
+    3. 选择 **“释放空间**”。
     
-    4. "状态"列将显示文件和文件夹的状态。 有关详细信息，请参阅 Sync <a href="https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd" target="_blank"> SharePoint files with the OneDrive 同步 client</a>。
+    4. “状态”列将显示文件和文件夹的状态。 有关详细信息，请参阅<a href="https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd" target="_blank">与OneDrive 同步客户</a>端同步SharePoint文件。
     
-6. Teams频道文件存储在SharePoint网站中，并使用相同的 SharePoint 文档功能，包括版本历史记录和同步到本地桌面设备。 若要同步Teams频道文件：
+6. Teams频道文件存储在SharePoint站点中，具有相同的SharePoint文档功能，包括版本历史记录和同步到本地桌面设备。 同步Teams通道文件：
 
-    1. 导航到Teams感兴趣的频道，**然后选择顶部的"** 文件"选项卡。 然后选择" **同步"**。文件将开始同步，并且显示在桌面 **\ Contoso \ 的文件资源管理器中 \<name of the Teams Channel\>**。
+    1. 导航到感兴趣的Teams通道，然后选择顶部的 **“文件”** 选项卡。 然后选择 **“同步**”。文件将开始同步，并在**桌面 \ Contoso \ \<name of the Teams Channel\>** 的文件资源管理器中可见。
     
-    2. 使用用于同步 SharePoint 网站的相同过程将文件保留于云中，仅在使用这些文件时下载这些文件，只需在 Teams 频道名称上的"文件资源管理器"中点击并按住或右键单击，然后选择"**释放**空间"即可。
+    2. 使用用于同步SharePoint站点的相同过程将文件保留在云中，并且仅在使用它们时下载它们，方法是点击并按住或右键单击Teams通道名称上的文件资源管理器，然后选择 **“释放空间**”。
 
 ## <a name="surface-hub-pen-settings"></a>Surface Hub笔设置
 
 **将蓝牙 Surface Hub笔配对**
 
-配对笔使笔固件保持最新，设置笔快捷方式，并获取 蓝牙 设备设置页面或 Surface 应用中的电池充电信息：
+将笔配对以使笔固件保持最新，设置笔快捷方式，并在蓝牙设备设置页或 Surface 应用中获取电池电量信息：
 
-1. 选择 **"开始** >  > **设置****设备**"。
+1. 选择 **“开始** > **设置** > **Devices**。
 
-2. 选择 **"添加蓝牙或其他设备"**。
+2. 选择 **“添加蓝牙或其他设备**。
 
-3. 选择 **"蓝牙**"。
+3. 选择**蓝牙**。
 
 4. 删除笔尾按钮并摇动以断开电池连接。
 
-5. 将大头灯重新打开并按住该顶帽，直到配对 LED 闪烁。
+5. 重新打开帽子，按住帽子，直到配对 LED 闪烁。
 
-6. On the Surface Hub 蓝牙 settings， choose **Surface Hub 2 Pen**.
+6. 在Surface Hub 蓝牙设置中，选择**Surface Hub 2 笔**。
 
 7. 完成配对操作。 
 
-8. 如果配对失败，请尝试再次配对笔。 如果不起作用，可以通过验证笔在白板应用程序中是否正常工作来测试电池是否充电。 如果没有，请更换电池，然后再次尝试配对笔。  如有必要，请重新启动设备，然后重试。
+8. 如果配对不成功，请尝试再次配对笔。 如果这不起作用，可以通过验证白板应用程序中的笔是否正常工作来测试电池是否已充电。 如果没有，请更换电池，然后尝试再次配对笔。  如有必要，请重启设备，然后重试。
 
-**设置笔快捷方式**the Surface Hub pen has a shortcut button sometimes called a tail click." 配置快捷方式需要你先配对笔，如前面所述。
+**设置笔快捷方式**Surface Hub笔有一个快捷按钮，有时称为“尾部单击”。 配置快捷方式需要先将笔配对，如前面所述。
 
-1. 搜索"笔"，然后选择"**笔& Windows Ink设置"**。
+1. 搜索 Pen 并选择 **Pen & Windows Ink 设置**。
 
-2. 在页面底部附近，选择可打开对话框的笔快捷方式，如下所示：
+2. 在页面底部附近，选择打开对话框的 Pen 快捷方式，如下所示：
 
    ![笔快捷方式。](images/sh2-pen-shortcuts.png)
 
 ## <a name="camera-configuration"></a>相机配置
 
-你可以将相机装载到设备的顶部或两侧。 如果你将 Hub 与桌面台而不是购物车一同使用，或者靠近 Hub，则将相机装载到一个位置以优化相机角度。 相机不自动旋转，因此你需要有一个 2mm 的十六进制密钥来手动旋转相机。 
+可以将相机装载到设备顶部或任意一侧。 如果将中心与桌面支架（而不是购物车）配合使用，或者位于中心附近，则将相机装载到可优化相机角度的位置。 相机不会自动旋转，因此你需要有一个 2 毫米十六进制键才能手动旋转相机。 
 
-若要详细了解如何旁<a href="https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation" target="_blank">装载相机并手动旋转相机，请参阅Surface Hub 2S 相机镜头方向</a>。
+有关如何手动旁装相机和旋转相机的详细信息，请参阅 <a href="https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation" target="_blank"> Surface Hub 2S 相机镜头方向</a>。
 
 ## <a name="windows-hello-configuration"></a>Windows Hello配置
 
-Surface Hub运行 Windows 10 或 Windows 11 专业版/Enterprise 的 2S 支持整套 Win32 桌面应用程序以及生物识别Windows Hello选项。 the Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
+Surface Hub运行 Windows 10/11 Pro或Enterprise的 2S 允许提供完整的 Win32 桌面应用程序套件以及生物识别Windows Hello选项。 Surface Hub 2 指纹读取器配件可以插入设备上的任何 USB-C 端口。 
 
-若要订购 Surface Hub 2 指纹读取器或查看技术规格，请参阅 (surface-hub-2-essential-add-ons.md"target="_blank">Essential add-ons for Windows 10 专业版 and Enterprise on Surface Hub 2</a>。 
+若要订购Surface Hub 2 指纹读取器或查看技术规格，请参阅 (surface-hub-2-essential-add-ons.md“target=”_blank“>Surface Hub 2 </a>上Windows 10 专业版和Enterprise的基本加载项。 
 
-插入指纹读取器后，**选择"** > **** > 开始设置**AccountsSign-in** > **选项** > **Windows Hello指纹**注册指纹。
+插入指纹读取器后，选择 **“开始** > **设置** > **AccountsSign-in** > **选项** > **Windows Hello指纹**以注册指纹。
 
-使用Windows Hello认证的设备进行人脸识别。 2S Surface Hub 2S 相机不支持Windows Hello识别。
+使用Windows Hello认证设备进行人脸识别。 Surface Hub 2S 相机不支持人脸识别Windows Hello。
 
 ## <a name="enable-a-lock-screen-shortcut-icon-on-the-taskbar"></a>在任务栏上启用锁屏界面快捷方式图标
 
-若要将图标添加到启用单点式屏幕锁的任务栏，Windows-L 键盘快捷方式： 
+若要向任务栏添加一个图标，以便启用类似于 Windows-L 键盘快捷方式的单触摸屏锁： 
 
-1.  点击并按住或右键单击桌面，选择 **"****NewShortcutBrowseDesktopOKNext** > **** > **** > **** >  > **"**。
+1.  点击并按住或右键单击桌面，选择 **** NewShortcutBrowseDesktopOKNext**** > 。**************** >  >  >  > 
 
-1.  提供快捷方式的名称（如 **"锁定我的电脑**"，然后选择"完成 **"**。
+1.  为快捷方式提供名称，例如 **锁定电脑**，然后选择 **“完成**”。
 
-1.  右键单击或点击并按住桌面上新创建的快捷方式，然后选择"属性 **"**。 在"**快捷方式**"选项卡上的"目标"字段中**** 输入以下内容： **Rundll32.exe User32.dll，LockWorkStation**
+1.  右键单击或点击并按住桌面上新建的快捷方式，然后选择 **“属性**”。 在 **“快捷方式** ”选项卡上，在 **“目标** ”字段中输入以下内容： **Rundll32.exe User32.dll、LockWorkStation**
 
-1.  选择" **更改图标** "按钮并浏览 **C:\Windows\System32\imageres.dll** 并选择一个图标以使用。 
+1.  选择 **“更改图标** ”按钮并浏览以 **C:\Windows\System32\imageres.dll** 并选择要使用的图标。 
 
     请参阅以下示例：
 
-    ![选择图标。](images/lock.png)
+    ![选择一个图标。](images/lock.png)
     
-1.  选择 **"** 确定"保存快捷方式。
+1.  选择 **“确定** ”以保存快捷方式。
 
-1.  右键单击或点击并按住快捷方式，然后选择 **固定到任务栏**。
+1.  右键单击或点击并按住快捷方式，然后选择 **“固定到任务栏**”。
 
-1. 将锁定快捷方式固定到任务栏后，可以从桌面中删除它。
+1. 将锁快捷方式固定到任务栏后，可以将其从桌面中删除。
 
 ## <a name="applications"></a>应用程序
 
@@ -233,15 +233,15 @@ Surface Hub运行 Windows 10 或 Windows 11 专业版/Enterprise 的 2S 支持�
 
 若要安装Microsoft Whiteboard：
 
- - 选择**Windows Ink 工作区**右下角的"选项"图标并下载 **"白板"**。
+ - 选择任务栏右下角的**Windows Ink 工作区**图标并下载 **Whiteboard**。
  
    ![墨迹工作区。](images/ink.png) 
 
-或者，也可以从以下操作系统安装白板Microsoft Store：
+或者，可以从Microsoft Store安装 Whiteboard：
 
-1. 打开Microsoft Store应用并搜索**白板**。
+1. 打开Microsoft Store应用并搜索 **Whiteboard**。
 
-2. 选择 **"否，** 感谢登录并跨设备使用"。
+2. 若要登录并跨设备使用，请选择 **“否** ”。
 
 3. 将白板固定到任务栏。
 
@@ -249,202 +249,202 @@ Surface Hub运行 Windows 10 或 Windows 11 专业版/Enterprise 的 2S 支持�
 
 1. 在Microsoft Store中，搜索 **Surface**。
 
-2. 将" **在筛选器上** 可用"设置为 **"所有设备"**。
+2. 将 **“在筛选器上可用** ”设置为 **“所有设备**”。
 
-3. 安装 **Surface** 应用。 这应该是列出的第一个应用。 你可能需要将 MSA 与应用商店关联才能安装应用。
+3. 安装 **Surface** 应用。 这应该是列出的第一个应用。 可能需要将 MSA 关联到应用商店才能安装应用。
 
-4. 将 **Surface 应用** 固定到任务栏。
+4. 将 **Surface** 应用固定到任务栏。
 
 ### <a name="snip--sketch"></a>截图和草图
 
-1. 打开 **"Snip & Sketch** "应用，将其固定到任务栏。
+1. 打开 **Snip & Sketch** 应用并将其固定到任务栏。
 
-2. 选择右上角的省略号，然后选择"设置 **"**。
+2. 选择右上角的省略号，然后选择**设置**。
 
-3. In **设置**， turn on **Auto copy to clipboard**， **Save snips**， and **Multiple windows** (optional) .
+3. 在**设置**中，打开**自动复制到剪贴板**、**保存代码**和**多个窗口** (可选) 。
 
 ### <a name="microsoft-office"></a>Microsoft Office
 
-1. 打开Office <a href="https://portal.office.com/account#installs" target="_blank"> 门户</a>并安装所需的应用程序。
+1. <a href="https://portal.office.com/account#installs" target="_blank"> 打开Office门户</a>并安装所需的应用程序。
 
-2. 将所需的Office固定到任务栏。
+2. 将所需的Office应用程序固定到任务栏。
 
-3. 如果Outlook，请确保将 OUTLOOK OST 设置为仅保存最近两周缓存。 这将大大减少磁盘使用率和设置时间。
+3. 如果安装了Outlook，请务必将OUTLOOK OST 设置为仅保存过去两周的缓存。 这将大大减少磁盘的使用和设置时间。
 
-    - 选择 **"文件** > **设置**帐户"，然后选择您的帐户。
+    - 选择 **FileAccount** **** >  设置并选择帐户。
     
-    - 选择 **"更改**"，将"使用缓存模式Exchange**滑块设置为** 14 天。
+    - 选择 **“更改**”，并将 **“使用缓存Exchange模式**”的滑块设置为 14 天。
 
 ### <a name="microsoft-teams"></a>Microsoft Teams
 
-1. 下载并安装Microsoft Teams <a href="https://teams.microsoft.com/downloads" target="_blank"> </a>。
+1. 下载并安装<a href="https://teams.microsoft.com/downloads" target="_blank">Microsoft Teams</a>。
 
-2. 将设置配置为"自动启动应用程序" (可选) 。
+2. 将设置配置为自动启动应用程序 (可选) 。
 
 3. 将Teams固定到任务栏。
 
-4. 请考虑减少Teams，以避免在可选设备上 (干扰) 。
+4. 请考虑减少设备上的Teams通知，以避免干扰 (可选) 。
 
    ![Teams通知。](images/teams.png)
 
 ### <a name="connect-app"></a>连接应用
 
 > [!IMPORTANT]
-> 在 Windows 10 版本 2004 及更高版本中，使用 Miracast 进行无线投影的 连接 应用默认未安装，但作为可选功能提供。 如果你已安装 (或更新到) Windows 2004 或更高版本，你可能会在设置中的"计划到此电脑"屏幕上看到以下内容：
+> 在 Windows 10 版本 2004 及更高版本中，使用Miracast进行无线投影的连接应用默认未安装，但可作为可选功能使用。 如果已安装 (或已更新到) Windows 版本 2004 或更高版本，则可能会在“投影到此电脑”屏幕上看到以下设置：
 
-![Project此电脑。](images/sh2-project.png) 
+![Project到此电脑。](images/sh2-project.png) 
 
 
-1. 若要从"计划到此电脑"设置页安装应用，请选择"可选 **功能** > **"** "添加功能"，然后安装 **无线显示** 应用。
+1. 若要从“投影到此电脑”设置页安装应用，请选择 **“可选功能** > **”功能，** 然后安装 **无线显示** 应用。
 
-2. 在 **"Windows和 Android 设备**可以计划到此电脑（当你说它正常时）下，选择：
+2. 在**某些Windows和 Android 设备可以投影到此电脑时，你说它是确定的**，选择：
 
-    - **如果设备不在** 企业网络上，则可在任何位置使用。
-    - 否则，请选择 **"在安全网络上任何地方可用"**。
+    - 如果设备不在公司网络上，则**可随时随地使用**。
+    - 否则，请在 **安全网络上选择“随时随地可用**”。
     
-3. 在 **"要求向此电脑进行项目"下，** 选择" **仅首次"**。
+3. 在 **“请求投影到此电脑**”下， **仅选择“第一次**”。
 
-4. 在 **"需要 PIN 进行配对"下，** 选择"从不 **"**。
+4. 在 **“需要 PIN 进行配对**”下，选择 **“从不**”。
 
-5. 若要启动应用，将其固定到任务栏，**请搜索连接**。
+5. 若要启动应用并将其固定到任务栏，请搜索**连接**。
 
-6. 打开应用。 当应用打开时，右键单击任务栏上的连接应用图标，然后选择**固定到任务栏**。
+6. 打开应用。 打开应用时，右键单击任务栏上的连接应用图标，然后选择**固定到任务栏**。
 
-7. 然后关闭连接应用。 **Project运行该应用**至少一次，否则无法连接到此电脑。
+7. 然后关闭连接应用。 **此电脑Project**可能不起作用，除非应用已运行至少一次。
 
-当不在企业网络上时，推荐配置：
+建议在不在公司网络上时进行配置：
 
-![设置家。](images/project1.png)
+![设置在家。](images/project1.png)
 
-企业网络上的推荐配置：
+企业网络上的建议配置：
 
 ![设置工作。](images/project2.png)
 
 ### <a name="your-phone"></a>你的手机
 
-默认情况下**你的手机**应用程序安装在 Windows 10。 如果不存在，还可以从应用商店Windows安装它。
+你的**电话**应用默认安装在Windows 10上。 如果不存在，也可以从 Windows Store 安装它。
 
-有关设置应用的信息，<a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank">请参阅如何在你的手机上设置Windows 10，以及如何在电脑和手机之间同步数据</a>。 另请参阅<a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank">如何修复有关 你的手机 应用的Windows 10</a>。
+有关设置应用的信息，请参阅<a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank">如何在电脑和手机</a>之间设置Windows 10和同步数据的电话。 另请参阅<a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank">如何在Windows 10上解决电话应用的</a>常见问题。
 
-###  <a name="fancy-zones"></a>奇特区域
-
-
-**奇特**区域是名为 PowerToys on <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> GitHub</a> 集合的一部分。 这是在 Surface Hub 2 上利用屏幕空间的一种很好的方法，它让你能够在屏幕 ("区域") 上定义固定布局，然后选择将在每个区域中运行的应用。 
+###  <a name="fancy-zones"></a>花式区域
 
 
-Wiki [PowerToys提供了](https://github.com/microsoft/PowerToys/wiki)如何使用和自定义每个工具（包括 [FancyZones）的说明](https://github.com/microsoft/PowerToys/wiki/FancyZones-Overview)。 在高级别 – 在安装PowerToys后，可以选择或创建自定义布局，然后按住 Shift 键并拖动或使用键盘键将正在运行的应用移动到特定区域。 使用蓝牙 USB 键盘和鼠标将对此有所帮助，或者可以使用屏幕触摸键盘和触摸板。
+**花式区域**是GitHub上名为<a href="https://github.com/microsoft/PowerToys/releases" target="_blank">PowerToys</a>的工具集合的一部分。 这是利用Surface Hub 2 上的屏幕房地产的绝佳方式，它使你能够在显示 (“区域”) 上定义固定布局，然后选择将在每个区域中运行的应用。 
 
-**Power toys tips**
-- 若要接收有关 PowerToys 发布更新的GitHub，请单击页面顶部的"注册"[按钮](https://github.com/microsoft/PowerToys/releases)。
-- 安装PowerToys后，你可以接收Windows通知和/或下载并安装最新更新，方式为配置 **PowerToys 设置 将**更新自动下载到" 打开"。
-- To get to the PowerToys settings， select the up up **running apps** on the taskbar， and then right-click or press and hold the PowerToys icon until the menu appears. 选择"设置"。
-- 在"PowerToys"页面底部，将"**下载更新"自动**打开。
-- 发布更新后，将显示Windows通知，为您提供安装更新时间的选项。
+
+[PowerToys wiki](https://github.com/microsoft/PowerToys/wiki) 提供有关如何使用和自定义每个工具（包括 [FancyZones）的](https://github.com/microsoft/PowerToys/wiki/FancyZones-Overview)说明。 在高级别 - 安装PowerToys后，可以选择或创建自定义布局，然后按住班次键，拖动或使用键盘键将正在运行的应用移动到特定区域。 使用蓝牙或 USB 键盘和鼠标将对此有所帮助，也可以使用屏幕触摸键盘和触摸板。
+
+**电源玩具提示**
+- 若要在GitHub上接收PowerToys发布更新的电子邮件通知，请单击[页面](https://github.com/microsoft/PowerToys/releases)顶部的“注册”按钮。
+- 安装PowerToys后，可以通过配置PowerToys设置**自动下载更新**来接收Windows通知和/或下载和安装最新更新。
+- 若要转到PowerToys设置，请选择任务栏上**运行应用**的向上大篷车，然后右键单击或按住PowerToys图标，直到出现菜单。 选择“设置”。
+- 在“PowerToys设置”页底部，**自动打开“下载”更新**。
+- 发布更新后，将显示Windows通知，让你可以选择何时安装更新。
 
 
 ### <a name="edge-chromium-browser"></a>Edge Chromium浏览器
 
-下载并安装新的 Edge Chromium<a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank">浏览器</a>。
+下载并安装新的 <a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank">Edge Chromium浏览器</a>。
 
 
 ### <a name="surface-hub-hardware-diagnostic-tool"></a>Surface Hub硬件诊断工具
 
-系统<a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g" target="_blank">Surface Hub硬件</a>诊断工具免费提供Microsoft Store。 该工具旨在帮助你确保你的Surface Hub性能最佳。 它包含用于确定固件是否为最新且配置正确的测试。 交互式测试允许你确认基本功能是否正常工作。 如果遇到问题，可保存结果并与 Surface Hub 支持团队共享。 单击链接以从任务栏Microsoft Store，然后将应用程序固定到任务栏。
+<a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g" target="_blank"> Surface Hub硬件诊断工具</a>可供Microsoft Store免费使用。 该工具旨在帮助你确保Surface Hub性能最佳。 它包含测试，用于确定固件是否为最新且配置正确。 通过交互式测试，可以确认基本功能是否按预期工作。 如果遇到问题，可保存结果并与 Surface Hub 支持团队共享。 单击链接从Microsoft Store安装它，然后将应用程序固定到任务栏。
 
 ## <a name="additional-settings"></a>其他设置
 
-### <a name="pen-tail-select-to-launch-whiteboard"></a>笔尾选择以启动白板
+### <a name="pen-tail-select-to-launch-whiteboard"></a>笔尾选择启动白板
 
-1. 搜索"**笔"**，然后选择"**笔& Windows Ink设置"**。
+1. 搜索 **Pen** 并选择 **Pen & Windows Ink 设置**。
 
-2. 在页面底部附近，在 **"笔快捷方式**"下设置 **"选择一**次"以**Microsoft Whiteboard**。 
+2. 在页面底部附近，**在“笔”快捷方式**下，**将“选择”** 设置为**Microsoft Whiteboard**一次。 
 
 ### <a name="power-management"></a>电源管理
 
-可以使用多种电源设置在 Windows 10 2 Windows 11 专业版/Enterprise获得Surface Hub体验。 这包括屏幕和电脑超时，以及它们如何与内置的人机状态检测 (Doppler) 、屏幕保存和密码保护进行交互，以及在适当时如何传递适用于笔记本电脑/台式机用户的组策略电源设置。
+有多个电源设置可用于在 Surface Hub 2 上使用Windows 10/11 Pro或Enterprise获得最佳体验。 这包括屏幕和电脑超时，以及它们如何与内置的人工状态检测 (Doppler) 、屏幕保护程序和密码保护进行交互，以及如何通过适用于笔记本电脑/桌面用户的分组策略电源设置。
 
-Windows 10或 Windows 11 专业版/Enterprise 2 上的 Surface Hub 2 阻止屏幕通过触摸、鼠标和键盘操作进入睡眠状态，以及内置的人体能检测 (Doppler) 。 默认情况下会启用人为迁移检测，但如果需要，可以通过切换 Surface UEFI 配置器工具中的设备选项（作为初始迁移的一部分，或者通过生成和应用更高版本的 UEFI 配置包）在 UEFI 中禁用它。 
+Surface Hub 2 上的Windows 10/11 Pro或Enterprise可防止屏幕通过触摸、鼠标和键盘操作以及内置的人工占用情况检测 (Doppler) 进入睡眠状态。 默认情况下启用了人工占用检测，但如果需要，可以通过在 Surface UEFI 配置器工具中切换设备选项（作为初始迁移的一部分，或通过生成和应用更高版本的 UEFI 配置包）在 UEFI 中禁用它。 
 
 **电源管理：屏幕和电脑睡眠设置**
 
-1. 选择 **"开始** >  > **设置****SystemPower** >  **&睡眠"**。
+1. 选择 **“开始** > **设置** > **SystemPower** > **&睡眠**。
 
 2. 将电源模式滑块设置为 **最佳性能**。
 
-3. 根据你的偏好配置屏幕和睡眠值，同时还负责在检测到移动时唤醒设备的 Doppler 状态检测。 因此，作为最佳实践，建议将"屏幕"设置为 **"2** 小时后关闭"，将电脑设置为" **4 小时后关闭"。**
+3. 将屏幕和睡眠值配置为首选项，同时考虑在检测到移动时唤醒设备的 Doppler 状态检测。 因此，作为最佳做法，建议将屏幕设置为 **在 2 小时后关闭** ，电脑在 **4 小时后关闭。**
 
 **电源管理：屏幕保护程序**
 
-1. 搜索 **锁屏界面并** 打开 **锁屏界面设置**。
+1. 搜索 **锁屏** 和打开 **锁屏设置**。
 
-2. 根据**你的偏好配置****屏幕超时设置和**屏幕保护程序设置。 建议的默认值为：
+2. 将 **屏幕超时设置** 和 **屏幕保护设置** 配置为首选项。 建议的默认值为：
 
-   - 屏幕保护 (选择) "无"屏幕保护程序或屏幕保护程序。
-   - 等待 15 分钟。
-   - 在恢复时，显示登录屏幕。
+   - 用于 (无) 或所选屏幕保护程序的屏幕保护程序。
+   - 等待时间到 15 分钟。
+   - 在简历上，显示登录屏幕。
 
 
 **电源管理：组策略**
 
-在执行以下过程之前，请咨询 IT 部门进行审批，以将 Surface Hub 2S 设备从全局电源管理策略中排除。 某些电源管理设置可以禁用状态检测功能。
+在执行以下过程之前，请咨询 IT 部门以获得批准，以从全局电源管理策略中排除Surface Hub 2S 设备。 某些电源管理设置可以禁用状态检测函数。
 
-1. 搜索软件 **中心并** 打开它。
+1. 搜索 **软件中心** 并将其打开。
 
-2. 选择 **"选项"**。
+2. 选择 **选项**。
 
-3. 展开 **"电源管理"，****然后选择"不将我的 IT 部门中的电源设置应用到此计算机"**。
+3. 展开 **电源管理**  ，然后选择 **“不要将 IT 部门中的电源设置应用到此计算机**”。
 
    ![软件设置。](images/soft-cntr.png)
 
 ### <a name="storage-sense"></a>存储感知
 
-由于 Surface Hub 2 具有 128GB SSD 用于本地存储，因此有必要考虑在正常使用期间使用存储保存措施。  若要配置存储感知：
+Surface Hub 2 具有用于本地存储的 128GB SSD，因此在正常使用期间需要考虑使用存储保存措施。  若要配置 存储 Sense：
 
-1.  搜索" **系统设置"** 下的"存储 **设置"**。
+1.  搜索在**系统**设置下找到**的存储设置**。
 
-2.  在**设置**"下，选择 **"打开存储感知**"**以打开存储**设置"页面。
+2.  在**设置**下，选择 **“打开存储感**”打开**存储**设置页。
 
-3.  将存储感知 **"打开**。
+3.  将存储感启**用**。
 
-4.  选择 **"存储感知"或"现在**运行它"，然后配置设置以尽可能使文件保持联机状态 (驱动器空间有限) 。
+4.  选择 **“配置存储感知”或立即运行它**，并配置设置以使文件尽可能保持联机 (，因为驱动器空间) 有限。
 
-推荐设置：
+建议的设置：
 
-- 运行存储感知 = 每天。
-- 删除我的应用未使用的临时文件 = 每 14 天删除 (一次) 。
-- 删除"我的下载"文件夹中的文件（如果这些文件存在时间超过 = 30 天）。
+- 运行存储 Sense = 每天。
+- 删除应用未使用的临时文件 = 每 14 天 (至少) 。
+- 如果文件已存在超过 = 30 天，请删除“下载”文件夹中的文件。
 - OneDrive：如果打开时间不超过 = 30 天，内容将仅联机。
 
 ### <a name="tablet-mode"></a>平板电脑模式
 
-如果需要辅助功能需求，请打开平板电脑模式。
+如果需要辅助功能，请启用 Tablet 模式。
 
 
 ### <a name="sound-settings"></a>声音设置
 
-1. 搜索" **声音"设置** 并打开此页面。
+1. 搜索 **“声音”设置** 并打开此页面。
 
-2. 在 **右侧选择"** 声音控制面板"，然后选择"声音 **"** 选项卡。
+2. 选择右侧**的“声音控制面板**”，然后选择 **“声音”** 选项卡。
 
-3. 在 **"程序事件"下****，连接****设备断开连接"** 设置为 **"无"**。
+3. 在 **“程序事件**”下，将**设备连接**和**设备断开连接**设置为 **“无**”。
 
-### <a name="silence-notifications"></a>静默通知
+### <a name="silence-notifications"></a>静音通知
 
-1. 搜索焦点 **协助并** 打开此页面。
+1. 搜索 **“焦点帮助** ”并打开此页面。
 
-2. 选择 **"仅闹钟"**。 这将避免常量通知飞出。
+2. **仅选择“警报**”。 这将避免常量通知浮出控件。
 
 ### <a name="disk-cleanup"></a>磁盘清理
 
-1. 搜索" **磁盘清理"** 并打开此应用程序。
+1. 搜索 **磁盘清理** 并打开此应用。
 
-2. 在 **"要删除的文件"** 下，选择要删除的文件。 
+2. 在 **要删除的文件**下，选择要删除的文件。 
 
-3. 此外， **选择"清理系统文件"**。
+3. 另请选择 **“清理系统文件**”。
 
 ## <a name="complete-and-verify"></a>完成并验证
 
-1. 扫描并安装所有 Windows 更新。
+1. 扫描并安装所有Windows更新。
 
 2. 更新组策略。
 
@@ -454,35 +454,35 @@ Windows 10或 Windows 11 专业版/Enterprise 2 上的 Surface Hub 2 阻止屏�
 
 4. 验证任务栏应用。
 
-   - 连接 应用
+   - 连接应用
    - 锁定图标
    - 截图和草图
-   - Teams (适用时) 
-   - Office应用 (（如果适用) 
-   - Surface 应用
+   - Teams (（如果适用）) 
+   - Office应用 (（如果适用）) 
+   - Surface App
    - 白板
     
 5. 验证状态检测。
 
    - 状态检测将是系统托盘中的绿色图标。
     
-6. 使用 连接 应用验证是否已启用连接。 配置Project**电脑设置**后，至少连接运行一次应用。  (之后，连接应用无需运行，就无需进行项目Surface Hub.) 
+6. 使用连接应用验证是否启用了对此电脑的投影。 将**Project配置到此电脑**设置后，至少运行一次连接应用。  (随后，无需运行连接应用即可投影到Surface Hub.) 
 
 7. 验证电源和睡眠设置。
 
-    - 屏幕保护程序：15 分钟，设置为 (无) Mystify 或 Blank;确保选中"需要密码"复选框。
-    - 屏幕 **：2 小时后关闭**。
-    - 电脑  **：4 小时后关闭**。
+    - 屏幕保护程序：15 分钟，设置为 (无) 、Mystify 或 Blank;确保选中了要求密码的复选框。
+    - 屏幕： **2 小时后关闭**。
+    - 电脑：  **4 小时后关闭**。
     
 8. 验证Windows Hello是否正常工作。
 
-9. 验证是否禁用了同步设置。
+9. 验证是否已禁用同步设置。
 
 10. 验证启动应用。
 
 > [!TIP]
-> 安装和配置 Windows 10 后，Surface Hub 2S 可以像管理任何其他 Windows 10 或 Windows 11 设备一样进行管理。
+> 安装和配置Windows 10后，可以像管理任何其他Windows 10或Windows 11设备一样管理Surface Hub 2S。
 
 ## <a name="related-topics"></a>相关主题
 
-<a href="surface-hub-2s-migrate-os.md" target="_blank"> 在 2 Windows 10迁移到 Windows 11 专业版/Enterprise Surface Hub 服务器</a>
+<a href="surface-hub-2s-migrate-os.md" target="_blank"> 在 Surface Hub 2 上迁移到Windows 10/11 Pro或Enterprise</a>

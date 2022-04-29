@@ -1,6 +1,6 @@
 ---
 title: 操作系统基本知识 (Surface Hub)
-description: 本主题介绍 Windows 10 协同版 操作系统的独特方面及其与Windows 10 企业版。
+description: 本主题介绍Surface Hub上Windows团队操作系统的独特方面，以及它与Windows 10或Windows 11 企业版有何不同。
 keywords: 更改历史记录
 ms.prod: surface-hub
 ms.sitesec: library
@@ -11,32 +11,34 @@ ms.date: 02/15/2022
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 6963a51b492bfbdc09da5ec667d091d62eed4569
-ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.openlocfilehash: 5be9c0ba3f23832d2e3d9b66a746e9f1f0772e63
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "12449235"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497335"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>操作系统基本知识 (Surface Hub)
 
-Surface Hub 操作系统 Windows 10 协同版基于 Windows 10 企业版，提供了对企业管理、安全和其他功能的丰富支持。 但是，二者之间存在着重要差异。 企业版针对电脑设计，而 Windows 10 协同版针对大屏幕和会议室进行全新设计。 在评估 Surface Hub 的安全和管理要求时，最好将其视为新的操作系统。 本文旨在帮助突出显示 Surface Hub 上的 Windows 10 协同版和 Windows 10 企业版之间的关键差异，以及这些差异对你的组织的影响。
+Surface Hub操作系统Windows 10 协同版源于Windows 10 企业版，为企业管理、安全和其他功能提供了丰富的支持。 但是，二者之间存在着重要差异。 企业版针对电脑设计，而 Windows 10 协同版针对大屏幕和会议室进行全新设计。 评估Surface Hub的安全和管理要求时，建议将其视为新的操作系统。 本文重点介绍了Windows 10 协同版Surface Hub版本与企业版Windows 10或Windows 11的主要区别。
 
-从 2020 年 9 月开始，客户可以选择在 Windows 10 专业版 2S Enterprise迁移Surface Hub迁移。 若要了解详细信息，请参阅以下内容：
+## <a name="convert-surface-hub-to-run-pro-or-enterprise-desktop"></a>将Surface Hub转换为运行Pro或Enterprise桌面
 
-- [宣布在 2 月 2 Windows 10 专业版Enterprise发布Surface Hub计划](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107)。
+可以通过迁移到Windows 10或Windows 11 专业版/Enterprise来更改 Surface Hub 2S 上的 OS。 若要了解详细信息，请参阅以下内容：
 
-- [迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版](surface-hub-2s-migrate-os.md)
+- [宣布在Surface Hub 2 上提供Windows 10 专业版和Enterprise](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107)。
+
+- [在 Surface Hub 2 上迁移到Windows 10、Windows 11 专业版或Enterprise](surface-hub-2s-migrate-os.md)
 
 ## <a name="user-interface"></a>用户界面
 
 ### <a name="shell-os-user-interface"></a>Shell（操作系统用户界面）
 
-Surface Hub 的 Shell 针对大屏幕进行了全新设计，并优化了触摸功能。 它不会使用与 Windows 10 企业版相同的 Shell。
+Surface Hub 的 Shell 针对大屏幕进行了全新设计，并优化了触摸功能。 它不使用与Windows 10或Windows 11 企业版相同的 shell。
 
 *这可能影响的组织策略：* 
 
-- 与 Windows 10 企业版 Shell 中的控件相关的设置不适用于 Surface Hub。
+- 与 Windows 10 或 Windows 11 企业版 shell 中的控件相关的设置不适用于Surface Hub。
 
 ### <a name="lock-screen-and-screensaver"></a>锁屏界面和屏幕保护程序
 
@@ -48,7 +50,7 @@ Surface Hub 没有锁屏界面或屏幕保护程序，但它有一个类似功�
 
 ### <a name="user-sign-in"></a>用户登录
 
-Surface Hub 设计用于公共场所，例如会议室。 与 Windows 电脑不同，任何人都可以访问和使用 Surface Hub，无需用户登录。 为了支持此社区功能，Surface Hub 不支持以与 Windows 10 企业版相同的方式进行 Windows 登录（如让用户登录到操作系统并使用操作系统中的这些凭据）。 相反，始终是本地、自动登录的低权限用户登录 Surface Hub。 它不支持登录任何其他用户，包括管理员用户（例如，当管理员登录时，他们不会登录到操作系统）。
+Surface Hub 设计用于公共场所，例如会议室。 与 Windows 电脑不同，任何人都可以访问和使用 Surface Hub，无需用户登录。 若要启用此公共功能，Surface Hub不支持Windows登录，就像Windows 10或Windows 11 企业版 (一样，例如，在整个 OS) 中登录用户和使用这些凭据。 相反，始终是本地、自动登录的低权限用户登录 Surface Hub。 它不支持登录任何其他用户，包括管理员用户（例如，当管理员登录时，他们不会登录到操作系统）。
 
 用户可以登录到 Surface Hub，但他们无法登录到操作系统。 例如，当用户登录到“应用”或“我的会议和文件”时，他们只登录到应用或服务，而不是操作系统。 因此，登录用户可以检索其云文件和存储在云中的个人会议，并且这些凭据将会在**结束会话**激活时被丢弃。
 
@@ -67,13 +69,13 @@ Surface Hub 设计用于公共场所，例如会议室。 与 Windows 电脑不�
 
 当用户按下**结束会话**时，以本地方式保存在这些目录中的文件会删除。 若要保存在会议期间创建的内容，用户应将文件保存到 U 盘或 OneDrive。
 
-*可能影响的组织策略：*- 与访问权限和文件和文件夹的所有权相关的策略不适用于Surface Hub。 用户不能浏览文件，也不能将文件保存到系统目录和网络文件夹。
+*可能会影响的组织策略：* - 与文件和文件夹的访问权限和所有权相关的策略不适用于Surface Hub。 用户不能浏览文件，也不能将文件保存到系统目录和网络文件夹。
 
 ## <a name="applications"></a>应用程序
 
 ### <a name="default-applications"></a>默认应用程序
 
-除少数情况外，Surface Hub 上的默认通用 Windows 平台 (UWP) 应用也可用于 Windows 10 电脑。
+除了少数例外情况，Surface Hub上的默认通用 Windows 平台 (UWP) 应用也可用于Windows 10或Windows 11电脑。
 
 在 Surface Hub 上预安装的 UWP 应用：
 
@@ -99,7 +101,7 @@ Surface Hub 设计用于公共场所，例如会议室。 与 Windows 电脑不�
 
 *这可能影响的组织策略：* 
 
-- 使用适用于 Windows 10 企业版的指南，确定 Surface Hub 上的默认应用的功能和网络要求。
+- 使用Windows 10或Windows 11 企业版指南确定Surface Hub上默认应用的功能和网络要求。
 
 ### <a name="installing-apps-drivers-and-services"></a>安装应用、驱动程序和服务
 
@@ -111,16 +113,16 @@ Surface Hub 设计用于公共场所，例如会议室。 与 Windows 电脑不�
 
 ## <a name="security-and-lockdown"></a>安全和锁定
 
-要在公共场所（如会议室）使用的 Surface Hub 的自定义操作系统，可实现在 Windows 10 中提供的许多安全和锁定功能。 若要了解更多信息，请参阅[Surface Hub安全概述](surface-hub-security.md)
+若要在会议室等公共空间中使用Surface Hub，其自定义 OS 可实现Windows 10或Windows 11中提供的许多安全和锁定功能。 若要了解详细信息，请参阅[Surface Hub安全概述](surface-hub-security.md)
 
-Surface Hub 可实现这些 Windows 10 安全功能：
+Surface Hub实现以下Windows安全功能：
 
 - [安全启动](/windows-hardware/design/device-experiences/oem-secure-boot)
 - [Windows Defender 应用程序控制和基于虚拟化的代码完整性保护](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [使用 AppLocker 的应用程序限制策略](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
 - [BitLocker 驱动器加密](/windows/security/information-protection/bitlocker/bitlocker-overview)
-- [受信任的平台模块 (TPM)](/security/information-protection/tpm/trusted-platform-module-overview)
-- [Microsoft Defender 防病毒Windows](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
+- [受信任的平台模块 (TPM)](/windows/security/information-protection/tpm/trusted-platform-module-top-node)
+- [Windows中的Microsoft Defender 防病毒](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
 - 对“设置”应用的访问权限的[用户帐户控制 (UAC)](/windows/security/identity-protection/user-account-control/user-account-control-overview)
 
 这些 Surface Hub 功能提供额外安全：
@@ -139,7 +141,7 @@ Surface Hub 可实现这些 Windows 10 安全功能：
 
 ### <a name="device-settings"></a>设备设置
 
-设备设置可通过“设置”应用进行配置。 “设置”应用针对 Surface Hub 自定义，但还包含 Windows 10 桌面版中的许多熟悉设置。 当打开“设置”应用验证管理员凭据（但这不是登录管理员）时，将显示用户帐户控制 (UAC) 提示符。
+设备设置可通过“设置”应用进行配置。 设置应用是为Surface Hub自定义的，但也包含许多熟悉的设置，从Windows 10或Windows 11桌面。 当打开“设置”应用验证管理员凭据（但这不是登录管理员）时，将显示用户帐户控制 (UAC) 提示符。
 
 *这可能影响的组织策略：* 
 
@@ -147,22 +149,22 @@ Surface Hub 可实现这些 Windows 10 安全功能：
 
 ### <a name="administrative-features"></a>管理功能
 
-Windows 10 企业版中不支持 Microsoft 管理控制台、运行、命令提示符、PowerShell、注册表编辑器和任务管理器等Surface Hub。 “设置”应用包含在 Surface Hub 上本地提供的所有管理功能。
+Surface Hub不支持Windows 10或Windows 11 企业版中的管理功能，例如 Microsoft 管理控制台、运行、命令提示符、PowerShell、注册表编辑器和任务管理器。 “设置”应用包含在 Surface Hub 上本地提供的所有管理功能。
 
 #### <a name="event-viewer"></a>事件查看器
 
-Windows 10 协同版 2020 Update 2 增加了对 Windows 事件查看器的支持，该支持与 Windows 10 专业版 或 Windows 10 企业版 上安装的事件查看器相同。[](/host-integration-server/core/windows-event-viewer1) 
+Windows 10 协同版 2020 Update 2 添加了对Windows 事件查看器的支持，这与Windows 10 专业版或[Windows 10 企业版](/host-integration-server/core/windows-event-viewer1)上安装的事件查看器相同。 
 
-**若要打开事件查看器，**
+**若要打开事件查看器，请执行下列操作：**
 
-1. 使用管理员**设置**登录应用。
-2. 选择 **"& SecurityLogs** > **"，** 在"事件查看器"下，选择"打开 **"**。 
+1. 使用管理员凭据登录到**设置**应用。
+2. 选择 **“更新”&** **SecurityLogs** > ，然后在事件查看器下选择 **“打开**”。 
 
-若要了解更多信息，请参阅[Windows事件查看器](/host-integration-server/core/windows-event-viewer1)。
+若要了解详细信息，请参阅[Windows 事件查看器](/host-integration-server/core/windows-event-viewer1)。
 
 ### <a name="remote-management-and-monitoring"></a>远程管理和监视
 
-Surface Hub通过移动设备管理支持远程管理， (MDM) 解决方案，例如Microsoft Intune [Azure Monitor 进行远程管理和监视](/azure/azure-monitor/)。[](/mem/intune/) 
+Surface Hub支持通过移动设备管理 (MDM) 解决方案（如通过 [Azure Monitor](/azure/azure-monitor/) [进行Microsoft Intune](/mem/intune/)和监视）进行远程管理。 
 
 *这可能影响的组织策略：* 
 
@@ -170,7 +172,7 @@ Surface Hub通过移动设备管理支持远程管理， (MDM) 解决方案，�
 
 ### <a name="group-policy"></a>组策略
 
-Surface Hub组策略Windows，包括审核。 改用 MDM 将策略应用到 Surface Hub。 有关 MDM 的详细信息，请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)。
+Surface Hub不支持Windows 组策略，包括审核。 改用 MDM 将策略应用到 Surface Hub。 有关 MDM 的详细信息，请参阅[使用 MDM 提供程序管理设置](manage-settings-with-mdm-for-surface-hub.md)。
 
 *这可能影响的组织策略：* 
 
@@ -188,11 +190,11 @@ Surface Hub 不支持远程协助。
 
 ### <a name="domain-join-and-azure-active-directory-azure-ad-join"></a>域加入和 Azure Active Directory (Azure AD) 加入 
 
-Surface Hub 主要使用域加入和 Azure AD 加入提供目录备份的管理员组。 不支持混合加入。 用户不能使用域帐户登录。 有关详细信息，请参阅[管理员组管理](admin-group-management-for-surface-hub.md)。
+Surface Hub 主要使用域加入和 Azure AD 加入提供目录备份的管理员组。 不支持混合联接。 用户不能使用域帐户登录。 有关详细信息，请参阅[管理员组管理](admin-group-management-for-surface-hub.md)。
 
 *这可能影响的组织策略：* 
 
-- 组策略设置在用户加入Surface Hub时应用。 与域成员身份相关的策略设置不适用于Surface Hub。
+- 将Surface Hub加入域时，不会应用组策略设置。 与域成员身份相关的策略设置不适用于Surface Hub。
 
 ### <a name="accessing-domain-resources"></a>访问域资源
 
@@ -204,8 +206,8 @@ Surface Hub 主要使用域加入和 Azure AD 加入提供目录备份的管理�
 
 ### <a name="diagnostic-data"></a>诊断数据
 
-Surface Hub 操作系统使用 Windows 10 的“已连接用户体验和遥测”组件收集和传输诊断数据。 有关详细信息，请参阅[在组织中配置 Windows 诊断数据](/windows/privacy/configure-windows-diagnostic-data-in-your-organization)。
+Surface Hub OS 使用Windows连接的用户体验和遥测组件来收集和传输诊断数据。 有关详细信息，请参阅[在组织中配置 Windows 诊断数据](/windows/privacy/configure-windows-diagnostic-data-in-your-organization)。
 
 *这可能影响的组织策略：* 
 
-- 为 Surface Hub 配置诊断数据级别的方式与为 Windows 10 企业版配置相同。
+- 为Surface Hub配置诊断数据级别的方式与为Windows 10或Windows 11 企业版配置诊断数据级别的方式相同。

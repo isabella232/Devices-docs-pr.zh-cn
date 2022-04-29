@@ -11,16 +11,16 @@ audience: Admin
 ms.topic: article
 ms.date: 02/15/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: 6a35783c08fdc4da3b3c7aabcd99da385c292d24
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 995766eb216051de270a387c15c96ee42dd008a3
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472531"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497955"
 ---
 # <a name="whats-new-in-windows-10-team-2020-updates"></a>2020 Windows 10 协同版更新中的新增功能
 
-Surface Hub从提供新功能的定期更新中获益。 2020 年更新 (20H2) Windows 10 协同版，随后更新 1 & Update 2，对设备部署和可管理性以及最新的Windows 10功能进行了重大改进。
+Surface Hub从提供新功能的定期更新中获益。 2020 年更新 (20H2) Windows 10 协同版，随后更新 1 & Update 2，对设备部署和可管理性以及最新的Windows功能进行了重大改进。
 
 ## <a name="windows-10-team-2020-update-2"></a>Windows 10 协同版 2020 年更新 2 
 
@@ -38,12 +38,12 @@ AI 支持的 Surface Hub 2 智能相机针对混合团队进行了优化，允�
 
 ### <a name="ease-of-access-updates"></a>轻松访问更新
 
-用户可以在Surface Hub会话期间调整轻松访问设置，并关闭应用，就像在其他版本的Windows 10中一样。 
+用户可以在Surface Hub会话期间调整轻松访问设置，并关闭应用，就像在其他版本的Windows 10或Windows 11中一样。 
 
 - **易于访问**。 用户无需登录即可调整以下设置：显示、文本光标、放大镜、高对比度、讲述人、隐藏字幕和键盘。 
-- **熟悉的应用 UI**。 用户可以通过选择应用右上角的"关闭"按钮来关闭Surface Hub上的应用。 这将通过将应用拖到Surface Hub显示器底部来消除关闭应用的需要。  (注意：作为定于 2022 年 3 月举行的下一次 Edge 更新的一部分，此功能将在 Edge 浏览器上提供)  
+- **熟悉的应用 UI**。 用户可以通过选择应用右上角的“关闭”按钮来关闭Surface Hub上的应用。 这将通过将应用拖到Surface Hub显示器底部来消除关闭应用的需要。  (注意：作为定于 2022 年 3 月举行的下一次 Edge 更新的一部分，此功能将在 Edge 浏览器上提供)  
 
-若要了解详细信息，请参阅[Surface Hub上的"调整轻松访问"设置](accessibility-surface-hub.md)。
+若要了解详细信息，请参阅[Surface Hub上的“调整轻松访问”设置](accessibility-surface-hub.md)。
 
 ### <a name="administrator-updates"></a>管理员更新
 
@@ -91,7 +91,7 @@ AI 支持的 Surface Hub 2 智能相机针对混合团队进行了优化，允�
 
 ### <a name="azure-active-directory-joined-devices"></a>Azure Active Directory联接设备
 
-- **已加入Azure AD设备的单一登录 (SSO) **。 当用户使用其Microsoft 365凭据登录到 **"我的会议和文件**"时，他们的凭据将无缝地从应用流向应用，包括浏览器中的Microsoft 365体验。
+- **已加入Azure AD设备的单一登录 (SSO) **。 当用户使用其Microsoft 365凭据登录到 **“我的会议和文件**”时，他们的凭据将无缝地从应用流向应用，包括浏览器中的Microsoft 365体验。
 - **已加入Azure AD设备的条件访问 (CA) **。 IT 管理员可以通过根据其公司安全性和合规性要求分配设备策略，控制用户从Azure AD加入 Surface Hub 对组织资源的访问。
 - **支持加入Azure AD设备的非全局管理员**。 客户可在其管理员层次结构中选择更精细的管理员集来管理Surface Hub。 若要了解详细信息，请参阅在[Surface Hub上配置非全局管理员帐户](surface-hub-2s-nonglobal-admin.md)。
 
@@ -101,7 +101,7 @@ AI 支持的 Surface Hub 2 智能相机针对混合团队进行了优化，允�
 
 ### <a name="microsoft-teams"></a>Microsoft Teams  
 
-- **默认情况下安装Microsoft Teams**。 Microsoft Teams是用于新Surface Hub设备上的会议、呼叫和协作的默认应用，可通过 MDM 更改或配置，也可以使用设置应用直接在Surface Hub上进行配置。 若要了解详细信息，请参阅["部署Microsoft Teams](/MicrosoftTeams/teams-surface-hub)。
+- **默认情况下安装Microsoft Teams**。 Microsoft Teams是用于新Surface Hub设备上的会议、呼叫和协作的默认应用，可通过 MDM 更改或配置，也可以使用设置应用直接在Surface Hub上进行配置。 若要了解详细信息，请参阅[“部署Microsoft Teams](/MicrosoftTeams/teams-surface-hub)。
 - **支持使用 Microsoft Teams 的邻近加入**。  邻近加入允许用户使用笔记本电脑或手机在附近的Surface Hub进行计划的Microsoft Teams呼叫。  它还允许用户将正在进行的会议转换为附近的Surface Hub。 Windows 10 协同版 2020 更新添加了移动设备管理 (MDM) 支持来配置邻近加入。 若要了解更多，请参阅：
 
   - [Microsoft Teams博客](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833)。

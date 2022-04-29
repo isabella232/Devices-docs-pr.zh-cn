@@ -1,5 +1,5 @@
 ---
-title: 安装和管理 Surface Hub 2 智能相机
+title: 安装和管理 Surface Hub 2 智能摄像头
 description: 介绍如何安装和管理 Surface Hub 2 智能相机的设置。
 keywords: 值之间以逗号分隔
 ms.prod: surface-hub
@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 03/16/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: 9cdf7d2d5b6f1f6a99d2f3caa1168804c2110159
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 1b510d98cf65b5b1594d300a3bcf6c928e1f27e2
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472677"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497515"
 ---
 # <a name="install-and-manage-surface-hub-2-smart-camera"></a>安装和管理 Surface Hub 2 智能相机
 
@@ -35,7 +35,7 @@ Surface Hub 2 智能相机<sup> 1</sup> 专为混合团队设计，针对远程�
 若要了解详细信息，请参阅[Surface Hub更新历史记录](surface-hub-update-history.md)。
 
 > [!NOTE]
-> 迁移到运行Windows 10或Windows 11 专业版/Enterprise的 Surface Hub 无需其他更新。
+> 迁移到运行 Windows 10/11 Pro或Enterprise的 Surface Hub 无需其他更新。
 
 ## <a name="install-smart-camera"></a>安装智能相机
 
@@ -70,10 +70,10 @@ Surface Hub 2 智能相机<sup> 1</sup> 专为混合团队设计，针对远程�
 > 如果不知道用户名或管理员密码，则需要重置设备。 有关详细信息，请参阅 [Surface Hub 2S 的重置和恢复](/surface-hub/surface-hub-2s-recover-reset)。
 
 2. 打开**设置**并转到**Surface Hub >呼叫&音频。**
-3. 在 **"自动框架**"下，根据需要调整切换。 
-4. 选择 **"结束"会话**;启动新会话时将应用修改后的设置。 
+3. 在 **“自动框架**”下，根据需要调整切换。 
+4. 选择 **“结束”会话**;启动新会话时将应用修改后的设置。 
 
-如果切换设置为 **"打开**"，则当用户在Surface Hub上开始会话时，自动框架将始终处于默认状态。 如果切换设置为 **"关闭**"，则在Surface Hub上启动会话时，自动帧将始终处于关闭状态。
+如果切换设置为 **“打开**”，则当用户在Surface Hub上开始会话时，自动框架将始终处于默认状态。 如果切换设置为 **“关闭**”，则在Surface Hub上启动会话时，自动帧将始终处于关闭状态。
 
 #### <a name="manage-camera-settings-via-an-mdm-provider"></a>通过 MDM 提供程序管理相机设置
 
@@ -104,4 +104,4 @@ Surface Hub 2 智能相机<sup> 1</sup> 专为混合团队设计，针对远程�
 
 ### <a name="references"></a>参考
 
-1. Surface Hub 2 智能相机，从 2022 年 3 月 16 日开始单独销售，动态调整远程参与者的视频源。 从 2022 年 5 月开始，Surface Hub 2 智能相机将包含在包含 Surface Hub 2S 85"的框中。
+1. Surface Hub 2 智能相机，从 2022 年 3 月 16 日开始单独销售，动态调整远程参与者的视频源。 从 2022 年 5 月开始，Surface Hub 2 智能相机将包含在包含 Surface Hub 2S 85“的框中。
