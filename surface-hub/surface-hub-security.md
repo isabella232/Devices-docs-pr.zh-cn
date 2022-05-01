@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 01/26/2021
 ms.localizationpriority: High
-ms.openlocfilehash: cd0112f805b60b16c7f32099d5f5e3fde3c821fb
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 6d921fd1a418863eaf03434f2c27344470f12ca2
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911377"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497735"
 ---
 # <a name="surface-hub-security-overview"></a>Surface Hub 安全性概述
 
@@ -44,7 +44,7 @@ Surface Hub 安全系统包括以下各项：
 
 #### <a name="secure-boot"></a>安全启动
 
-安全启动用于验证启动过程的组件（包括驱动程序和操作系统）是否针对有效且已知签名的数据库进行了验证。 在 Surface Hub 上，必须先验证特定于平台的签名，然后才能加载获得授权的 Windows 协同版操作系统。 这有助于防止来自克隆或被修改的系统的攻击，这种系统运行的恶意代码隐藏在看似正常的用户体验中。  有关详细信息，请参阅[安全启动概述](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)。
+安全启动用于验证启动过程的组件（包括驱动程序和操作系统）是否针对有效且已知签名的数据库进行了验证。 在 Surface Hub 上，必须先验证特定于平台的签名，然后才能加载获得授权的 Windows 协同版操作系统。 这有助于防止来自克隆或被修改的系统的攻击，这种系统运行的恶意代码隐藏在看似正常的用户体验中。  有关详细信息，请参阅[安全启动概述](/windows-hardware/design/device-experiences/oem-secure-boot)。
 
 ### <a name="operating-system-defenses"></a>操作系统防御
 
@@ -52,7 +52,7 @@ Surface Hub 安全系统包括以下各项：
 
 Surface Hub 在 Windows 应用程序控制（以前称为 Device Guard）中使用一种称为用户模式代码完整性 (UMCI) 的代码签名功能。 我们将策略设置配置为仅允许使用符合以下任一要求的应用：
 
-- [得到官方认证](https://docs.microsoft.com/windows/uwp/publish/the-app-certification-process)的通用 Windows 平台 (Microsoft Store) 应用。
+- [得到官方认证](/windows/uwp/publish/the-app-certification-process)的通用 Windows 平台 (Microsoft Store) 应用。
 - 使用唯一的 Microsoft 生产根证书颁发机构 (CA) 签署的应用，只有具有这些证书的授权访问权限的 Microsoft 员工才能对其进行签名。
 - 使用唯一的 Surface Hub 生产根 CA 签署的应用。
 
@@ -66,9 +66,9 @@ Surface Hub 在 Windows 应用程序控制（以前称为 Device Guard）中使�
 
 除了通过 UMCI 阻止未签名或签名不当的代码之外，Surface Hub 还使用 Windows 应用程序控制功能来阻止 Windows 组件，如命令提示符、PowerShell 和任务管理器。 这些安全措施反映了 Surface Hub 作为安全计算设备的一个关键设计特性。 有关详细信息，请参阅以下内容：
 
-- [应用程序控制概述](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
+- [应用程序控制概述](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
 
-- [Windows Defender 应用程序控制和对代码完整性的基于虚拟化的保护](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Windows Defender 应用程序控制和对代码完整性的基于虚拟化的保护](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 
 ### <a name="user-interface-defenses"></a>用户界面防御
 
@@ -98,7 +98,7 @@ UEFI 是基础硬件平台部件和操作系统之间的接口。 在 Surface Hu
 
 ![Surface Hub UEFI 设置。](images/hub-sec-2.png)
 
-管理员可以使用可下载的 [Microsoft Surface UEFI 配置器](https://www.microsoft.com/download/details.aspx?id=46703)来实现 SEMM 和注册 Surface Hub 2 设备。 有关详细信息，请参阅[使用 SEMM 和 UEFI 来保护和管理 Surface Hub 2](https://docs.microsoft.com/surface-hub/surface-hub-2s-secure-with-uefi-semm)。
+管理员可以使用可下载的 [Microsoft Surface UEFI 配置器](https://www.microsoft.com/download/details.aspx?id=46703)来实现 SEMM 和注册 Surface Hub 2 设备。 有关详细信息，请参阅[使用 SEMM 和 UEFI 来保护和管理 Surface Hub 2](/surface-hub/surface-hub-2s-secure-with-uefi-semm)。
 通过使用证书来保护配置不受未经授权的篡改或删除，SEMM 支持管理以下组件：
 
 - 有线局域网
@@ -124,14 +124,14 @@ Surface Hub 2S 允许管理员使用恢复映像在 20 分钟内将设备重新�
 
 Surface Hub 使用设备帐户（也称为“房间帐户”）来对 Exchange、Microsoft Teams 和其他服务进行身份验证。 启用密码轮换后，Hub 2S 每 7 天便会自动生成一个由 15-32 个字符组成的新密码，其中包括大写和小写字母、数字和特殊字符。 由于没有人知道密码，因此设备帐户密码轮换可有效地降低人为错误和潜在的社会工程安全攻击带来的相关风险。
 
-## <a name="windows-10-enterprise-grade-security"></a>Windows 10 企业级安全性
+## <a name="enterprise-grade-security"></a>企业级安全性
 
-除了本文中所提及的 Surface Hub 所特有的配置和功能之外，Surface Hub 还使用了 Windows 10 的标准安全功能。 这些地方包括：
+除了本文中所提及的 Surface Hub 所特有的配置和功能之外，Surface Hub 还使用标准 Windows 安全功能。 这些地方包括：
 
-- **BitLocker**。 Surface Hub SSD 配有 BitLocker，以保护设备上的数据。 其配置符合行业标准。 有关详细信息，请参阅 [BitLocker 概述](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)。
-- **Windows Defender。** Windows Defender 反恶意软件引擎在 Surface Hub 上持续运行，可自动修复在 Surface Hub 上发现的威胁。 Windows Defender 引擎将自动接收更新，且可通过面向 IT 管理员的远程管理工具进行管理。 Windows Defender 引擎是我们的深度防御方法的一个完美示例：如果恶意软件能够找到一种方法来绕过我们基于核心代码签名的安全解决方案，它将在此处被捕获。 有关详细信息，请参阅 [Windows Defender 应用程序控制和对代码完整性的基于虚拟化的保护](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)。
+- **BitLocker**。 Surface Hub SSD 配有 BitLocker，以保护设备上的数据。 其配置符合行业标准。 有关详细信息，请参阅 [BitLocker 概述](/windows-hardware/design/device-experiences/oem-secure-boot)。
+- **Windows Defender。** Windows Defender 反恶意软件引擎在 Surface Hub 上持续运行，可自动修复在 Surface Hub 上发现的威胁。 Windows Defender 引擎将自动接收更新，且可通过面向 IT 管理员的远程管理工具进行管理。 Windows Defender 引擎是我们的深度防御方法的一个完美示例：如果恶意软件能够找到一种方法来绕过我们基于核心代码签名的安全解决方案，它将在此处被捕获。 有关详细信息，请参阅 [Windows Defender 应用程序控制和对代码完整性的基于虚拟化的保护](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)。
 - **即插即用驱动程序。** 为了防止恶意代码通过驱动程序到达设备，Surface Hub 不下载用于 PnP 设备的高级驱动程序。 因此，U 盘等利用基本驱动程序的设备可按预期工作，但打印机等高级系统则会被阻止。
-- **受信任的平台模块 2.0。** Surface Hub 有一个行业标准的离散受信任平台模块 (dTPM)，可生成和存储加密密钥和哈希代码。 dTPM 可保护用于启动阶段验证的密钥、BitLocker 主密钥、无密码登录密钥等。 dTPM 满足 [FIPS 140-2 级别 2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation) 认证（美国政府计算机安全标准）条件，且符合全球范围使用的[通用标准](https://docs.microsoft.com/windows/security/threat-protection/windows-platform-common-criteria)认证条件。
+- **受信任的平台模块 2.0。** Surface Hub 有一个行业标准的离散受信任平台模块 (dTPM)，可生成和存储加密密钥和哈希代码。 dTPM 可保护用于启动阶段验证的密钥、BitLocker 主密钥、无密码登录密钥等。 dTPM 满足 [FIPS 140-2 级别 2](/windows/security/threat-protection/fips-140-validation) 认证（美国政府计算机安全标准）条件，且符合全球范围使用的[通用标准](/windows/security/threat-protection/windows-platform-common-criteria)认证条件。
 
 ## <a name="wireless-security-for-surface-hub"></a>Surface Hub 的无线安全性
 
@@ -141,24 +141,24 @@ Miracast 是 WLAN 显示标准的一部分，本身受 WLAN Direct 协议的支�
 
 Wi-Fi Direct 或 Wi-Fi 对等 (P2P) 是 Wi-Fi 联盟针对“临时”网络发布的标准。 此标准允许受支持的设备直接通信和创建网络组，无需传统的 WLAN 接入点或 Internet 连接。
 
-WLAN Direct 的安全性由 WPA2 使用 WPS 标准提供。 设备的身份验证机制包括数字 PIN 码、物理或虚拟“推送”按钮以及使用近场通信的带外消息。 Surface Hub 支持“推送”按钮（默认方式）和 PIN 方法。 有关详细信息，请参阅 [Surface Hub 如何解决 Wi-fi Direct 安全问题](https://docs.microsoft.com/surface-hub/surface-hub-wifi-direct)。
+WLAN Direct 的安全性由 WPA2 使用 WPS 标准提供。 设备的身份验证机制包括数字 PIN 码、物理或虚拟“推送”按钮以及使用近场通信的带外消息。 Surface Hub 支持“推送”按钮（默认方式）和 PIN 方法。 有关详细信息，请参阅 [Surface Hub 如何解决 Wi-fi Direct 安全问题](/surface-hub/surface-hub-wifi-direct)。
 
 ## <a name="learn-more"></a>了解详细信息
 
-- [安全启动概述](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)
+- [安全启动概述](/windows-hardware/design/device-experiences/oem-secure-boot)
 
-- [Bitlocker 概述](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview)
+- [Bitlocker 概述](/windows/security/information-protection/bitlocker/bitlocker-overview)
 
-- [应用程序控制概述](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
+- [应用程序控制概述](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
 
-- [使用 SEMM 和 UEFI 保护 Surface Hub 2S 的安全并进行管理](https://docs.microsoft.com/surface-hub/surface-hub-2s-secure-with-uefi-semm)
+- [使用 SEMM 和 UEFI 保护 Surface Hub 2S 的安全并进行管理](/surface-hub/surface-hub-2s-secure-with-uefi-semm)
 
-- [Surface Hub 如何解决 Wi-Fi Direct 的安全问题](https://docs.microsoft.com/surface-hub/surface-hub-wifi-direct)
+- [Surface Hub 如何解决 Wi-Fi Direct 的安全问题](/surface-hub/surface-hub-wifi-direct)
 
-- [Windows Defender 应用程序控制和对代码完整性的基于虚拟化的保护](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Windows Defender 应用程序控制和对代码完整性的基于虚拟化的保护](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 
 - [适合 IT 的 Surface 工具](https://www.microsoft.com/download/details.aspx?id=46703)
 
-- [FIPS 140-2 级别 2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation)
+- [FIPS 140-2 级别 2](/windows/security/threat-protection/fips-140-validation)
 
-- [通用标准认证](https://docs.microsoft.com/windows/security/threat-protection/windows-platform-common-criteria)
+- [通用标准认证](/windows/security/threat-protection/windows-platform-common-criteria)

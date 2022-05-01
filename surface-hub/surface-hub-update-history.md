@@ -9,26 +9,34 @@ author: v-miegge
 ms.author: dpandre
 ms.topic: article
 ms.localizationpriority: high
-ms.openlocfilehash: 70b052ec9bc87c0062f72e884c17e6be9cdfdbc0
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 9d48779195702952314baf07636749b70ce000ab
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472331"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497945"
 ---
 # <a name="surface-hub-update-history"></a>Surface Hub 更新历史记录
 
-Windows 10 旨在提供服务，这意味着可通过定期软件更新自动进行完善。 好消息是，通常无需执行任何操作，即可获取最新的 Windows 10 更新，因为这些更新在可用时即会下载并安装。
+Windows 旨在提供服务，这意味着可通过定期软件更新自动进行完善。 通常无需执行任何操作，即可获取最新的 Windows 10 更新，因为这些更新在可用时即会下载并安装。
 
-大多数 Windows 更新侧重于提升性能和安全性，可为 24 x 7 全天候工作保驾护航。
+大多数 Windows 更新侧重于提升性能和安全性。 在下面的列表中，首先列出了具有特定 Surface Hub 改进的最新 Windows 更新。 更新是累积的，因此安装最新的可用 Windows 更新 (即使它不在下面的列表中) 也可确保你还受益于任何以前的更新中的改进。 Microsoft Store 应用可通过 Microsoft Store (由 Surface Hub 的系统管理员管理) 进行更新。 有关应用更新的详细信息基于每个应用提供。
 
-我们收到的一项反馈内容是，你想要了解有关 Windows 10 更新内容的详细信息，因此，我们将在此页面中提供更多详细信息。 在下面的列表中，首先列出了具有特定 Surface Hub 改进的最新 Windows 更新。 更新是累积的，因此安装最新的可用 Windows 更新 (即使它不在下面的列表中) 也可确保你还受益于任何以前的更新中的改进。 Microsoft Store 应用可通过 Microsoft Store (由 Surface Hub 的系统管理员管理) 进行更新。 有关应用更新的详细信息基于每个应用提供。
-
-我们将在新更新发布时恢复此页面，因此，有关最新信息，敬请期待。 感谢你帮助我们加强了解，并利用每个更新不断进步！
-
-有关可能需要你关注的当前和以往版本的相关主题，请参阅 [Surface Hub 的重要信息](https://support.microsoft.com/products/surface-devices/surface-hub)页面。
+> [!TIP]
+> 当发布新更新时，将刷新此页面。 有关可能需要你关注的当前和以往版本的相关主题，请参阅 [Surface Hub 的重要信息](https://support.microsoft.com/products/surface-devices/surface-hub)页面。
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 协同版 2020 更新 (20H2)
+
+<details>
+<summary>2022 年 4 月 21 日 - 基于 KB5011831* (OS 内部版本 19042.1679) 的团队更新</summary>
+
+此 Surface Hub 更新包含质量改进和安全修复。 Surface Hub 的关键更新 (尚未在 [Windows 10 更新历史记录](https://support.microsoft.com/help/4581839/windows-10-update-history)中概述) 包含:
+
+* 修复了以下问题：阻止“结束会话”触发消息“你的设备需要更新。 重新启动以完成更新...”以及某些情况下的后续重启。
+* 修复了以下问题：确保 [SurfaceHub CSP](/windows/client-management/mdm/surfacehub-csp#deviceaccount) 可以与以 `DOMAIN\username` 格式配置设备帐户的 SyncML 策略一起使用。
+ 
+有关启用/禁用设备功能和服务的信息，请参阅 [Surface Hub 管理员指南](/surface-hub/)。 *[KB5011831](https://support.microsoft.com/help/5011831)
+</details>
 
 <details>
 <summary>2022 年 3 月 22 日 - 基于 KB5011543 的团队更新*（操作系统内部版本 19042.1620）</summary>

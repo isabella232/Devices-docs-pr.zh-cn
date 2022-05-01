@@ -65,13 +65,13 @@
           href: provisioning-packages-for-surface-hub.md
         - name: 在 Surface Hub 上安装渐进式 Web 应用
           href: install-pwa-surface-hub.md
-        - name: Windows 10 专业版/企业版
+        - name: Windows 10/11 专业版或企业版
           items:
-            - name: 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
+            - name: 在 Surface Hub 2 上迁移到 Windows 10/11 专业版或企业版
               href: surface-hub-2s-migrate-os.md
-            - name: 配置 Surface Hub 2 上的 Windows 10 专业版或企业版
+            - name: 在 Surface Hub 2 上配置 Windows 10/11 专业版或企业版
               href: surface-hub-2-post-install.md
-            - name: 适用于 Surface Hub 2 的 Windows 10 专业版和企业版的基本加载项
+            - name: Surface Hub 2 上的 Windows 10/11 专业版和企业版的基本加载项
               href: surface-hub-2-essential-add-ons.md
         - name: Microsoft Teams
           items:

@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: a373029bf07e6f36486342d2e27209365ff7c1b3
-  ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+  ms.openlocfilehash: 59b3325c95b4a587e7e6d1c873156c1ce7ec7193
+  ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/06/2022
-  ms.locfileid: "12472561"
+  ms.lasthandoff: 04/29/2022
+  ms.locfileid: "12497895"
 landingContent:
 - title: 新增功能
   linkLists:
@@ -37,7 +37,7 @@ landingContent:
       url: /surface-hub/hub-teams-app
     - text: Surface Hub 新式身份验证
       url: surface-hub-modern-auth.md
-    - text: 迁移到 Surface Hub 2 上的 Windows 10 专业版或企业版
+    - text: 在 Surface Hub 2 上迁移到 Windows 10 或 Windows 11 专业版或企业版
       url: surface-hub-2s-migrate-os.md
 - title: 入门
   linkLists:
